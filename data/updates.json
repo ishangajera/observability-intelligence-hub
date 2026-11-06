@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:46:11.982594+00:00",
+  "generated_at": "2026-11-06T08:47:11.574070+00:00",
   "items": [
     {
       "id": "eac2806ff6607ce1b621",
@@ -6091,17 +6091,6 @@
       "source": "Prometheus blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "2cfd53735da2ed1afe1c",
-      "title": "Version 9.4.6 (Build splunk-9.4.6-60284236)",
-      "summary": "Release Notes",
-      "url": "http://www.splunk.com/download",
-      "date": "2025-10-30T00:00:00+00:00",
-      "project": "Splunk",
-      "source": "Splunk product releases",
-      "category": "Release",
-      "content_type": "release-feed"
     },
     {
       "id": "ddec2e772ce03c2e0223",

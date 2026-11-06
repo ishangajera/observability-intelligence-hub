@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T08:46:30.352148+00:00",
+  "generated_at": "2026-11-06T08:47:29.136411+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 508,
+  "item_count": 507,
   "items": {
     "eac2806ff6607ce1b621": {
       "priority": "low",
@@ -7544,16 +7544,6 @@
       "method": "transparent-rules"
     },
     "7e1b6edd2edc1b3a4677": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "2cfd53735da2ed1afe1c": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
