@@ -1,0 +1,2843 @@
+{
+  "generated_at": "2026-11-06T08:19:01.481425+00:00",
+  "method": "transparent-rule-based-triage",
+  "disclaimer": "Heuristic triage of source text, not AI editorial verification. Priority is an attention cue, not product severity. Confirm all impact and applicability in the primary source.",
+  "item_count": 120,
+  "items": {
+    "eac2806ff6607ce1b621": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "2fb370d4e8d441af2e39": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "ef05fdfc85af754864ff": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "mental search endpoints now clamp `batch_size` to 1000. #19731 - [CHANGE] Configuration: Default --web.external-url to https when --web.config.file enables TLS. #19241 - [CHANGE] PromQL: Subquery sampl"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "3dd911e04ec4136f3536": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Search configs and manifests for the deprecated surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "ithub.com/grafana/loki/compare/v3.7.9...v4.0.0-rc.1) (2026-11-03) ### ⚠ BREAKING CHANGES * **compactor:** Remove deprecated `allow_deletes` configuration option ([#21808](https://github.com/grafana/lo"
+        },
+        {
+          "theme": "Deprecation",
+          "text": ".0-rc.1) (2026-11-03) ### ⚠ BREAKING CHANGES * **compactor:** Remove deprecated `allow_deletes` configuration option ([#21808](https://github.com/grafana/loki/issues/21808)) * **engine:** Unplu"
+        },
+        {
+          "theme": "Configuration",
+          "text": "# ⚠ BREAKING CHANGES * **compactor:** Remove deprecated `allow_deletes` configuration option ([#21808](https://github.com/grafana/loki/issues/21808)) * **engine:** Unplug the V2 query engine from the"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "7c9d0403ab81472d989f": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.23.0 ### Backend Changes #### ⛔ Breaking Changes * Fix(storage): remove unused clickhouse feature gates ([@albertteoh](https://github.com/albertteoh) in [#9988](h"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Jaeger v2.23.0 ### Backend Changes #### ⛔ Breaking Changes * Fix(storage): remove unused clickhouse feature gates ([@albertteoh](https://github.com/albertteoh) in [#9988](https://"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "4e66fcee77ea628d1295": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "c916890b78b68dad48a2": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "mental search endpoints now clamp `batch_size` to 1000. #19731 - [CHANGE] Configuration: Default --web.external-url to https when --web.config.file enables TLS. #19241 - [CHANGE] PromQL: Subquery sampl"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "8d82077319a208ece9fd": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "22b1443c0369f273af13": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "9 * [BUGFIX] Update `github.com/go-jose/go-jose/v4` to v4.1.6 to address [CVE-2026-116587](https://github.com/advisories/GHSA-mgcc-cww5-fp2q), [CVE-2026-116585](https://github.com/advisories/GHSA-4w3g-jfj"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "4068f71c6c727b080e2e": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "r * [BUGFIX] Update `github.com/go-jose/go-jose/v4` to v4.1.6 to address [CVE-2026-116587](https://github.com/advisories/GHSA-mgcc-cww5-fp2q), [CVE-2026-116585](https://github.com/advisories/GHSA-4w3g-jfj"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "07eb20b26ef120ce94a3": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "anks to the 10 contributors who made the 24 changes in this release: - [1 breaking change](https://vector.dev/releases/0.61.0/#breaking-"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ec0db0a6a02cb9d6d313": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "/github.com/grafana/alloy/compare/v1.21.2...v1.21.3) (2026-10-28) ### Bug Fixes 🐛 * **beyla.ebpf:** Update Beyla to v3.38.1 ([#7570](https://github.com/grafana/alloy/issues/7570)) * **databa"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "7ace2bd162f1b20e6e56": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "points now clamp `batch_size` to 1000. (#19731, @roidelapluie) - [CHANGE] Configuration: Default --web.external-url to https when --web.config.file enables TLS. (#19241, @hexonal) - [CHANGE] PromQL: Su"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "4f88c6399862cb971c2d": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-103506 - Security: Fix CVE-2026-88858 - Security: Fix CV"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-103506 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967 ###"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "94e31cb5c8a5abf3b89d": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967 ### Features and e"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967 ### Features and enhancements - **"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "38d5b4c58cc455ade7b7": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967 ### Features and e"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967 ### Features and enhancements - **"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "56d56fc6afc8846c12ca": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-88858 - Security: Fix CVE-2026-88967"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ea1961e4956d6ed21754": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-13719 - Security: Fix CVE-2026-13720 - Security: Fix CVE"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-100105 - Security: Fix CVE-2026-13719 - Security: Fix CVE-2026-13720 - Security: Fix CVE-2026-15577 - Sec"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "55f8ef431736ccac2614": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "Thanos v0.42.5 v0.42.4 but with eMudhra CA fix."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "7be738954aa319035097": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "d component tests to target explicitly supported platforms (#13319) ### 🧰 Bug fixes 🧰 - `cmd/mdatagen`: Fix the generated `dataPointKey` function triggering go"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "e945586e20cb1eecd498": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "rt` and `end` query args now return tenants for the current day. This is a breaking change because previously it was expected to retur"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "77659dc806c4482d7196": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Cilium v1.20.4 Security patch release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#823"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the compromised eMudhra intermediate CA certificates are no longer trusted, and updates all"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "h release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "f4cc765d12864cc5aaab": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Cilium v1.19.10 Security patch release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#823"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the compromised eMudhra intermediate CA certificates are no longer trusted, and updates all"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "h release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "0b3664364360be7406c6": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Cilium v1.18.16 Security patch release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#823"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the compromised eMudhra intermediate CA certificates are no longer trusted, and updates all"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "h release ---------------------- Out-of-band security patch release to fix CVE-2026-111943 ([golang/go#82345](https://github.com/golang/go/issues/82345)): upgrades Go to 1.26.10 so that the"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "21073fd9f17bdc60892f": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "/github.com/grafana/alloy/compare/v1.21.1...v1.21.2) (2026-10-22) ### Bug Fixes 🐛 * Migrate config from type string to type secret [backport] ([#7499](https://github.com/grafana/alloy/issues/"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "eace2c7d71ed898c7efc": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "fbb59db878b3a6eac8ac": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "111943). #16938 * [BUGFIX] Update `golang.org/x/net` to v0.60.0 for HTTP/2 security fixes. #16834 * [BUGFIX] Upgrade Go to 1.26.9 to address [CVE-2026-56857](https://pkg.go.dev/vuln/GO-2026-6604), ["
+        },
+        {
+          "theme": "Compatibility",
+          "text": "ntains 5 PRs from 3 authors. Thank you! # Changelog ## 3.1.8 * [BUGFIX] Upgrade Go to 1.26.10 and update distroless runtime images to address compromised CA trust (CVE-2026-111943). #16938 * [BU"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "#16938 * [BUGFIX] Update `golang.org/x/net` to v0.60.0 for HTTP/2 security fixes. #16834 * [BUGFIX] Upgrade Go to 1.26.9 to address [CVE-2026-56857](https://pkg.go.dev/vuln/GO-2026-6604), [CVE-20"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "18cf39f3e84b20845052": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "111943). #16939 * [BUGFIX] Update `golang.org/x/net` to v0.60.0 for HTTP/2 security fixes. #16832 * [BUGFIX] Upgrade Go to 1.26.9 to address [CVE-2026-56857](https://pkg.go.dev/vuln/GO-2026-6604), ["
+        },
+        {
+          "theme": "Compatibility",
+          "text": "authors. Thank you! # Changelog ## 3.2.3 ### Grafana Mimir * [BUGFIX] Upgrade Go to 1.26.10 and update distroless runtime images to address compromised CA trust (CVE-2026-111943). #16939 * [BU"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "#16939 * [BUGFIX] Update `golang.org/x/net` to v0.60.0 for HTTP/2 security fixes. #16832 * [BUGFIX] Upgrade Go to 1.26.9 to address [CVE-2026-56857](https://pkg.go.dev/vuln/GO-2026-6604), [CVE-20"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "d59752258af0b21d202a": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "/github.com/grafana/alloy/compare/v1.21.0...v1.21.1) (2026-10-21) ### Bug Fixes 🐛 * **faro.receiver:** Enforce download_from_origins on redirects and sourcemap URLs [backport] ([#7481](https:"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "c2e301794d9a7a5cfb86": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v3.1.1 ## Security - `deps`: Update Go to 1.27.3 (CVE-2026-56857, CVE-2026-56866, CVE-2026-78659, CVE-2026-78660, CVE-2026-78663, CV"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "397ffa8696a93bbf7f87": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Prometheus v3.15.1 - [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" fol"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Mudhra intermediate CA private keys. - [SECURITY] Build with Go 1.27.3 to fix vulnerabilities in `net/http`, `net/textproto`, `crypto/tls` and `html/template`. - [SECURITY] Bump golang.org/x/"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "0e1a4c35518681277717": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v3.0.5 ## Security - `deps`: Update Go to 1.26.10 (CVE-2026-111943) ([#8147](https://github.com/grafana/tempo/issues/8147)) (@mdisib"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "c6d33e271aff39d74e12": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v2.10.10 ## Security - `deps`: Update Go to 1.26.10 (CVE-2026-111943) ([#8146](https://github.com/grafana/tempo/issues/8146)) (@mdisib"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "afaf708ecf6dd715fd3b": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "80c39506303e59a3ed02": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Prometheus v3.13.5 - [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" fol"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "udhra intermediate CA private keys. - [SECURITY] Build with Go 1.26.10 to fix vulnerabilities in `net/http`, `net/textproto`, `crypto/tls` and `html/template`. - [SECURITY] Bump golang.org/x/"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "48eb8f67a6d8bb252435": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "ttps://github.com/grafana/loki/compare/v3.7.8...v3.7.9) (2026-10-20) ### Bug Fixes * **deps:** Update github.com/thanos-io/objstore digest to 72d3b9f (release-3.7.x) ([#25389](https://github.com/g"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "cc8ca9afbc766f5886f9": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20) ### Bug Fixes * **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de4183"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20) ### Bug Fixes * **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "d50431e9454be306d270": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 2.19.7 ## Version 2.19.7 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 2.19.7 ### Enhancements * Add upper bound for the hot_threads"
+        },
+        {
+          "theme": "Configuration",
+          "text": ".19.7 ### Enhancements * Add upper bound for the hot_threads `snapshots` parameter with configurable `monitor.jvm.hot_threads.max_snapshots` cluster setting ([#23144](https://github.com/opensearch-"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "8ed0aa1f1bdebd16c71c": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v2.10.9 ## Security - `deps`: Update Go to 1.26.9 (CVE-2026-33818, CVE-2026-39821, CVE-2026-46600, CVE-2026-56853, CVE-2026-56857,"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "093d64df2756cff0c1c0": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "188f68e4f2288278cf8e": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "anks to the 15 contributors who made the 21 changes in this release: - [2 breaking changes](https://vector.dev/releases/0.60.0/#breaking"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "e830be902ede10923b29": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "//github.com/grafana/alloy/compare/v1.20.0...v1.21.0) (2026-10-16) ### ⚠ BREAKING CHANGES * **otelcol.receiver.kafka:** `otelcol.receiver.kafka` and `otelcol.exporter.kafka` `metadata > retry > max_retri"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "ly applied. Upstream's Kafka client silently ignored it since the franz-go migration. `otelcol.exporter.kafka` now also applies `backoff`. ([#73"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "e7c58929818d6d1f187e": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v3.0.4 ## Security - `deps`: Update Go to 1.26.9 (CVE-2026-56858, CVE-2026-56862, CVE-2026-56860, CVE-2026-56859, CVE-2026-56853,"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "3dbda8d8c469a7800d70": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "003a90ecc61693ea1ea5": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "hub.com/grafana/loki/commit/603de5ad370c2b45ca38f031a8116257b018d89c)) * **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SE"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://github.com/grafana/loki/compare/v3.6.17...v3.6.18) (2026-10-15) ### Bug Fixes * **deps:** Update dependencies related to otel for 3.6 ([#25180](https://github.com/grafana/loki/issues/25180))"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "e560eb668cd32e9b8724": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "ckport PR cilium/cilium#49336, Upstream PR cilium/cilium#49182, @4n4nd) * Fix conntrack garbage collection deleting CT entries that the datapath reopened between the GC batch read and the dele"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "bf079fd581fa9e028b78": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "rt PR cilium/cilium#49000, Upstream PR cilium/cilium#48272, @fristonio) * Fix incorrect deletion of new endpoint during GC iteration when reusing ID from a previously GC'd endpoint (Backport P"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "937cd860fc40939a2fb8": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "Cilium v1.18.15 Summary of Changes ------------------ **Bugfixes:** * Fix incorrect deletion of new endpoint during GC iteration when reusing ID from a previously GC'd endpoint (Backport P"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "7ce0efb56946c82d00ed": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "thub.com/grafana/alloy/compare/v1.20.0...v1.21.0) (2026-10-14) #### ⚠ BREAKING CHANGES * **otelcol."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "e3682cc1297c6a1b9a73": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "fac5b4821c566697d836": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-2026-95502 ### F"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "fc76842bc3b94881083e": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-2026-95502 ### F"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "f759f93174655ce11662": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "'s new highlights](https://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://grafana.com/docs/grafana/latest/whatsnew/) ### Security - Security: Fix CVE-2026-15577 - Security: Fix CVE-2026-33374 - Security: Fix CVE-2026-93294 - Security: Fix CVE-2026-95502 ### F"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "a9a2a1921ff2b0f5a7cc": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "7f2d5cce77d13d160606": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "vdev-v0.3.30 Upstream GitHub release. Review release notes for changes and compatibility details."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "b752e1c17f46ebaa8751": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "vdev-v0.3.29 Upstream GitHub release. Review release notes for changes and compatibility details."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "03ee4ade9fd4faed601d": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "ns[bot] in https://github.com/fluent/fluent-bit/pull/12364 * in_winevtlog: fix crash when all channels are missing and ignore_missing_channels is enabled [Backport to 5.0] by @cosmo0920 in http"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "0df2747b55534625f2b6": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "vdev-v0.3.28 Upstream GitHub release. Review release notes for changes and compatibility details."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "88a0ac0203066ac6a9f7": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "ana/loki/compare/operator/v0.11.0...operator/v0.12.0) (2026-10-07) ### ⚠ BREAKING CHANGES * **operator:** Make schemas field required in storage spec ([#24716](https://github.com/grafana/loki/issues/2471"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "97030843b7ad030fb3f2": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "here configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16789 ### Mixin ### Jsonnet ### Documentation ### Tools **All changes in this release**: https://github."
+        },
+        {
+          "theme": "Configuration",
+          "text": "## 3.2.2 ### Grafana Mimir * [BUGFIX] Alertmanager: Fix an issue where configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16789 ### Mixin ### Jsonnet ### Docum"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "k you! # Changelog ## 3.2.2 ### Grafana Mimir * [BUGFIX] Alertmanager: Fix an issue where configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16789 ###"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "66fb8c74b919e9b280ea": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "here configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16791 **All changes in this release**: https://github.com/grafana/mimir/compare/mimir-3.1.6...mimir-3.1.7"
+        },
+        {
+          "theme": "Configuration",
+          "text": "k you! # Changelog ## 3.1.7 * [BUGFIX] Alertmanager: Fix an issue where configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16791 **All changes in this release**:"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "rom 2 authors. Thank you! # Changelog ## 3.1.7 * [BUGFIX] Alertmanager: Fix an issue where configuration that referenced files could load local files. Resolves `CVE-2026-81938`. #16791 **A"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "545f5ded2a18ea2e706f": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "ks to the 21 contributors who made the 41 changes in this release! - [6 breaking changes](https://vector.dev/releases/0.59.0/#breaking-changes) - [2 sec"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "7b630098255372d9dd8f": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.22.0 ### Backend Changes #### ⛔ Breaking Changes * Fix(es): configure numeric attribute indexing instead of gating it ([@ysh-bot](https://github.com/ysh-bot) in"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Jaeger v2.22.0 ### Backend Changes #### ⛔ Breaking Changes * Fix(es): configure numeric attribute indexing instead of gating it ([@ysh-bot](https://github.com/ysh-bot) in [#9694]("
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "407fb1a2405983113d8b": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Assess whether the capability solves an active use case; prototype in a non-production environment."
+      ],
+      "evidence": [
+        {
+          "theme": "Feature",
+          "text": "3 Summary of Changes ------------------ **Major Changes:** * LB IPAM: introduce the lbipam.cilium.io/sharing-permit-different-pods annotation to allow sharing an IP between services with externa"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "70312e875474e9799867": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Prometheus v3.13.4 - [SECURITY] Bump google.golang.org/grpc to v1.83.1 to fix HTTP/2 DATA frame fragmentation memory exhaustion (GO-2026-6348). #"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Prometheus v3.13.4 - [SECURITY] Bump google.golang.org/grpc to v1.83.1 to fix HTTP/2 DATA frame fragmentation memory exhaustion (GO-2026-6348). #19834 - [SECURITY] UI: Update vulnerable npm d"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "c99dfac56539a928cf22": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "e3065418a21a8759494c": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 3.9.0 ## Version 3.9.0 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 3.9.0 ### Features * Add DELETE task API for removing stor"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "4b370e3626528f006e6b": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "ea0a6cb735d73a15e78b": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "/github.com/grafana/alloy/compare/v1.20.0...v1.20.1) (2026-09-28) ### Bug Fixes 🐛 * **loki:** Add the timestamp to batch size calculation [backport] ([#7248](https://github.com/grafana/alloy/"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "a5d1b15a2433b491de8b": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "OpenTelemetry Collector v0.162.0 ## End-user changelog ### 🛑 Breaking changes 🛑 - `cmd/mdatagen`: Generated processor lifecycle tests now assert that the processor propagates the incoming c"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "04b4a315bfa737928b0c": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "656c50c24cf61f3f1cbe": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "ithub.com/grafana/alloy/compare/v1.19.0...v1.20.0) (2026-09-25) ### ⚠ BREAKING CHANGES * **discovery.hetzner:** `discovery.hetzner` no longer exports the `__meta_hetzner_datacenter` label for target"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "a07b12d338c132cc4c21": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "that were never used in the result. Add tests to prevent regression of the fix made in #18081. #18598 - [CHANGE] PromQL: Do not register a start t"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "08cb5df92fb3d50c0aef": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "fa156109eacb138e5c43": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "e724acb766ba604ff72c": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "om/grafana/loki/compare/v3.7.7...v3.7.8) (2026-09-17) ### Bug Fixes * **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.7.x) ([#24433](https://gith"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ttps://github.com/grafana/loki/compare/v3.7.7...v3.7.8) (2026-09-17) ### Bug Fixes * **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.7.x) ([#24433"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "fdfc106952dad2226799": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "/grafana/loki/compare/v3.6.16...v3.6.17) (2026-09-09) ### Bug Fixes * **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24330](https://gith"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ps://github.com/grafana/loki/compare/v3.6.16...v3.6.17) (2026-09-09) ### Bug Fixes * **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24330"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "9cba9ed883db138683ef": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.21.0 ### Backend Changes #### ⛔ Breaking Changes * Feat(query)!: remove v1 http endpoints the ui no longer calls ([@ysh-bot](https://github.com/ysh-bot) in [#9260"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "aRaikwar) in [#9194](https://github.com/jaegertracing/jaeger/pull/9194)) * Fix(es): reject five unsuppor"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "00163ecd859641eed950": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout.",
+        "Search configs and manifests for the deprecated surface; identify an owner and migration deadline."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "collector-releases/releases/tag/v0.161.0 ## End User Changelog ### 🛑 Breaking changes 🛑 - `pkg/pprofile`: Remove deprecated AggregationTemporality, Duration, SetDuration (#15855) - `pkg/scraperhel"
+        },
+        {
+          "theme": "Deprecation",
+          "text": "End User Changelog ### 🛑 Breaking changes 🛑 - `pkg/pprofile`: Remove deprecated AggregationTemporality, Duration, SetDuration (#15855) - `pkg/scraperhelper/controller`: Remove deprecated AddScr"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "5640645b9c1dfbc8bf23": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "try-specification/pull/5294)) ### Metrics - Add `view_matching_mode` parameter to `MeterProvider` to support composable View matching. ([#5173](https://github.com/open-telemetry/opentelemetr"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "71961aabd456fd535450": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "aMetrics/VictoriaMetrics/releases/tag/v1.152.0) Released at 2026-09-11 * SECURITY: upgrade Go builder from Go1.26.6 to Go1.27.1. See [Go 1.27 release notes](https://go.dev/doc/go1.27). * SECURITY:"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "ictoriaMetrics/releases/tag/v1.152.0) Released at 2026-09-11 * SECURITY: upgrade Go builder from Go1.26.6 to Go1.27.1. See [Go 1.27 release notes](https://go.dev/doc/go1.27). * SECURITY: [vmauth]"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "URITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix authorization bypass in JWT-based routing when `match_claims` values are used. See [GHSA-f99m-22fh-qw96](http"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "0e5bde705362924cb33e": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "3.2.1 ### Grafana Mimir * [BUGFIX] Upgrade Go to 1.26 latest to address [CVE-2026-33818](https://pkg.go.dev/vuln/GO-2026-5972), [CVE-2026-39821](https://pkg.go.dev/vuln/GO-2026-5026), [CVE-2026-46600](h"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "authors. Thank you! # Changelog ## 3.2.1 ### Grafana Mimir * [BUGFIX] Upgrade Go to 1.26 latest to address [CVE-2026-33818](https://pkg.go.dev/vuln/GO-2026-5972), [CVE-2026-39821](https://pkg."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "f562329b545e4a022407": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "6430 #16433 * [BUGFIX] Update `golang.org/x/crypto` to v0.56.0 to address [CVE-2026-78662](https://pkg.go.dev/vuln/GO-2026-6354) and [CVE-2026-56855](https://pkg.go.dev/vuln/GO-2026-6355). #16517 * [BUGFI"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "ntains 5 PRs from 3 authors. Thank you! # Changelog ## 3.1.6 * [BUGFIX] Upgrade Go to 1.26.7. #16430 #16433 * [BUGFIX] Update `golang.org/x/crypto` to v0.56.0 to address [CVE-2026-78662](https:/"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "6dd53b72029ad0fea659": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "d2b2728e06e1853f5028": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "950a524790c57b32374e": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Search configs and manifests for the deprecated surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "v0.160.0 ## End User Changelog ### 🚩 Deprecations 🚩 - `pkg/confighttp`: Deprecate flat keepalive fields in client and server config in favor of the new `keepalive` section. (#14020) The followin"
+        },
+        {
+          "theme": "Configuration",
+          "text": "g in favor of the new `keepalive` section. (#14020) The following client configuration fields are deprecated in favor of the `keepalive` section: - `idle_conn_timeout` ->"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "55aeeca3a9ec4cc292f1": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "aMetrics/VictoriaMetrics/releases/tag/v1.151.0) Released at 2026-08-28 * SECURITY: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/), [vmagent](https://do"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "adeff7fb7d12917c1ee1": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "ks to the 32 contributors who made the 59 changes in this release! - [7 breaking changes](https://vector.dev/releases/0.58.0/#breaking-changes) - [3 sec"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "d1bf0158bd3a55b78d63": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "s returned by `NewDefaultQueueConfig()` have `batch::enabled` true. See [migration RFC](https://github.com/open"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "b4a17dc6a4586074d73c": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "d `vmagent`: default value of `-enableMultitenancyViaHeaders` command-line flag has changed from `false` to `true`. This change enables support of [multite"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "3df0792f0a8c738cc7d1": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "s in https://github.com/fluent/fluent-bit/pull/12236 * in_storage_backlog: Fix persistent chunks issues without matching routes on hot reloading by @cosmo0920 in https://github.com/fluent/fluen"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "accc68c6c5251fba3332": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Tempo v3.0.3 ## Security - `operations`: Update Go to 1.26.5 (CVE-2026-39822, CVE-2026-27145, CVE-2026-42504, CVE-2026-42505, CVE-2026-425"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "455be5bfd3b40f8b8910": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "ocol - Add max request / response size options to list of OTLP exporter configuration options. ([#"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "fe6ad86abdd40c2fd9ce": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 3.8.0 ## Version 3.8.0 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 3.8.0 ### Features * Add API to modify a data stream's backing"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "fd8f9355111c9a201e06": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "](https://docs.victoriametrics.com/victoriametrics/enterprise/). All these fixes are also included in [the latest community releas"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "5e3c8f4579d4583d0b27": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "308, #8272, #6046) New implementation is based exporterhelper, uses same configuration as `sending_queue`. ### 💡 Enhancements 💡 -"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ada39904a3cbdd1b2bc7": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "29e866f2331455569dd6": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "Thanos v0.42.3 Fixes a small bug - like before now Receive on shutdown creates a new block and uploads it. ### Fixed - [#8948](ht"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "c4335686d2032c05747a": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "try-collector-releases/releases/tag/v0.157.0 ## End User Changelog ### 🛑 Breaking changes 🛑 - `pkg/exporterhelper`: Replace histogram bucket boundaries for `otelcol_exporter_queue_batch_send_size_bytes`"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "31d9d69d0bed0d759ffe": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.20.0 ### Backend Changes #### ⛔ Breaking Changes * Feat(es): promote es.* rotation and index-cleaner feature gates to beta ([@ysh-bot](https://github.com/ysh-bo"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "6fda5c97b18e6a4da0c1": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "e46ffd442a698a235d57": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "Thanos v0.42.1 This change fixes a small issue regarding timeouts in the Shipper component in the Receiver - we've accidentally set them too small."
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "a60b75d673ecd0d40a3b": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "engineering-team) is excited to announce version `0.57.0`! 🚀 This is a security focused release which involves breaking changes, however we made sure to provide ways for users to restore previou"
+        },
+        {
+          "theme": "Breaking change",
+          "text": "version `0.57.0`! 🚀 This is a security focused release which involves breaking changes, however we made sure to provide ways for users to restore previous behavior. [View release notes](https://vect"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "c4b400a6726714062d08": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "cf5f069d5a3586296b3d": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "ements regarding tenant's lifecycle handling, ability to have per endpoint configuration, and showing fanout information in Thanos Query. Thank you to everyone for your contributions! ### Fixed - ["
+        },
+        {
+          "theme": "Bug fix",
+          "text": "tion in Thanos Query. Thank you to everyone for your contributions! ### Fixed - [#8752](https://github.com/thanos-io/thanos/pull/8752): Query: Fix exemplar proxy stripping external label ma"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "043ba303a74a628900ba": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 2.19.6 ## Version 2.19.6 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 2.19.6 ### Bug Fixes * Fix hang in bulk request when index i"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Compatible with OpenSearch and OpenSearch Dashboards version 2.19.6 ### Bug Fixes * Fix hang in bulk request when index is deleted during primary phase ([#21305](https://github.com/opensearch-pro"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ad01606e9b85710f76e0": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Assess whether the capability solves an active use case; prototype in a non-production environment.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Feature",
+          "text": "ree/release-0.42) - 2026 06 30 RC.2 fixes a few small regressions after introducing the `*os.Root` API. NOTE: we skipped over `rc.0` because the release pipeline was broken due to update base ima"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ttps://github.com/thanos-io/thanos/tree/release-0.42) - 2026 06 30 RC.2 fixes a few small regressions after introducing the `*os.Root` API. NOTE: we skipped over `rc.0` because the release"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "5f44604a2b987ff0f171": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "79fc62eb556362035a5e": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "a1a2e2187743a48debe2": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 3.7.0 ## Version 3.7.0 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 3.7.0 ### Features * Add dynamic properties support for pa"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "99704cbe158b9393038d": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": ") in [#8634](https://github.com/jaegertracing/jaeger/pull/8634)) #### 🐞 Bug fixes, Minor Improvements * Fix(apiv3): support query.attributes filter in get /api/v3/traces ([@yurishkuro](https://"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "d4315326bb5dce047085": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "6f95bad0a45bceff8700": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 2.19.5 ## Version 2.19.5 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 2.19.5 ### Bug Fixes * Add case sensitivity as an argument"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Compatible with OpenSearch and OpenSearch Dashboards version 2.19.5 ### Bug Fixes * Add case sensitivity as an argument to XContentMapValues.filter ([#19976](https://github.com/opensearch-proje"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ebb35ad10f5340ace7b5": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.18.0 ### Backend Changes #### ⛔ Breaking Changes * Metrics changes due to upgrading all OTEL collector packages ([@renovate-bot](https://github.com/renovate-bot"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "6efc5299cf4320a51753": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "39c9652b112f6d9f0167": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 3.6.0 ## Version 3.6.0 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 3.6.0 ### Features * Add bitmap64 query support ([#20606](http"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "ad68b905ece197ed7564": {
+      "priority": "low",
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "Jaeger v2.17.0 ### Backend Changes #### 🐞 Bug fixes, Minor Improvements * Implement timer duration bucket parsing in metrics init ([@junaiddshaukat](https://github"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "efccfb9b3652b6b59f36": {
+      "priority": "high",
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source text contains explicit security or breaking-change language. Verify applicability before taking action.",
+      "review_actions": [
+        "Compare the change with your pinned version and configuration; test upgrade and rollback paths in staging before rollout."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "Jaeger v2.16.0 ### Backend Changes #### ⛔ Breaking Changes * Enforce Go version consistency across the codebase; require Go 1.25.7 ([@Copilot](https://github.com/apps/cop"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    },
+    "3a26e4611dc28e9667f8": {
+      "priority": "low",
+      "themes": [],
+      "why_it_matters": "No explicit high-risk language was detected. Treat this as an awareness item until the primary source shows a concrete operational impact.",
+      "review_actions": [
+        "Open the primary source and decide whether the change affects a component or workflow you operate."
+      ],
+      "evidence": [],
+      "confidence": "rule-based: no risk phrase matched",
+      "method": "heuristic"
+    },
+    "9eed324cc846538aed16": {
+      "priority": "medium",
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source text suggests a compatibility, lifecycle, performance, or configuration consideration worth checking against your deployment.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "OpenSearch 3.5.0 ## Version 3.5.0 Release Notes Compatible with OpenSearch and OpenSearch Dashboards version 3.5.0 ### Added - Add support for fields containing dots in"
+        }
+      ],
+      "confidence": "rule-based: explicit phrase match",
+      "method": "heuristic"
+    }
+  }
+}
