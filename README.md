@@ -1,48 +1,20 @@
 # Signal Desk — Observability Intelligence Hub
 
-A dark, searchable observability dashboard. GitHub Actions collects public RSS/Atom updates and GitHub releases, archives deduplicated JSON, adds transparent editorial triage, and deploys the static site to GitHub Pages.
+Public, automatically refreshed observability engineering intelligence dashboard.
 
-## Features
-- Search, project/category filters, date sorting, release tracker, source directory
-- Automated RSS/Atom and GitHub release collection
-- Rules-based editorial triage: attention level, detected themes, matched source evidence, and conservative review checklist
-- Daily GitHub Actions collection and GitHub Pages deployment
-- Versioned archive in `data/updates.json`, `data/meta.json`, and `data/intelligence.json`
-- No database, server, paid API, or personal access token required
+## Coverage
+- Upstream releases across Prometheus, OpenTelemetry, Grafana, Loki, Tempo, Mimir, Alloy, VictoriaMetrics, Thanos, Jaeger, Fluent Bit, Vector, Cilium, OpenSearch and related projects.
+- OpenTelemetry Collector core, contrib, distribution, and operator releases.
+- New Collector receivers, processors, exporters, connectors, and extensions identified in release-note sections.
+- Technical articles and blog posts from Prometheus, OpenTelemetry, Grafana Labs, and CNCF.
+- Grafana plugin-development community announcements.
+- Videos from the official OpenTelemetry YouTube channel.
 
-## Editorial triage: what it does and does not do
-`scripts/enrich.py` scans collected titles and summaries for explicit language associated with security, breaking changes, deprecations, compatibility, performance, configuration, features, and bug fixes. It records matched text snippets and suggests review steps.
+## Editorial triage
+This is a focused review queue, not a duplicate feed. It shows only entries with explicit source-text matches, with item-specific matched themes, source excerpts, and theme-specific review actions. Priority is an attention cue, not product severity or verified deployment impact.
 
-The priority label is an **attention cue**, not product severity. The system does not know whether a particular component is deployed in your environment, does not verify exploitability or operational impact, and does not generate product-specific migration instructions. A phrase match can be a false positive; missing a phrase does not mean a change is safe. Always inspect the linked primary source before acting.
+## Release parsing
+GitHub release entries retain the full upstream release notes and a parsed heading/bullet outline. For OpenTelemetry Collector releases, the collector looks for component paths under receiver/, processor/, exporter/, connector/, and extension/, especially in sections labelled as new components. Detected additions are surfaced as separate signals linked to the parent release. This is best-effort parsing; confirm each result in the upstream notes.
 
-This first editorial layer is intentionally deterministic and auditable. It does not call an LLM or send collected content to a third party.
-
-## Setup
-1. In **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**.
-2. Open **Actions → Collect signals and deploy Signal Desk → Run workflow**.
-3. After success, visit https://ishangajera.github.io/observability-intelligence-hub/
-
-The workflow also runs daily at 13:20 UTC.
-
-## Collection model
-`config/sources.json` defines RSS/Atom feeds and GitHub repositories. `scripts/collect.py` normalizes titles, summaries and dates, deduplicates by URL, and writes up to 1,500 items. Some vendor blog landing pages may not expose RSS/Atom at that URL; failed feeds are logged and skipped.
-
-## Local run
-Requires Python 3.10+ and internet:
-```bash
-python scripts/collect.py
-python scripts/enrich.py
-python -m http.server 8000
-```
-Open http://localhost:8000.
-
-## Privacy
-The repository and Pages site are public. Never commit private telemetry, customer data, credentials, tokens, or internal incident details. Workflow uses the repository-provided `GITHUB_TOKEN`.
-
-## Layout
-- `.github/workflows/collect-and-deploy.yml` — daily collection, triage, and deployment
-- `assets/` — dashboard frontend
-- `config/sources.json` — source registry
-- `data/` — generated collection and triage archives
-- `scripts/collect.py` — collector
-- `scripts/enrich.py` — transparent editorial triage
+## Collection
+The daily GitHub Actions workflow runs scripts/collect.py and scripts/enrich.py, updates data/updates.json, data/meta.json, and data/intelligence.json, then deploys GitHub Pages. RSS/Atom sources, GitHub releases, community posts, and videos are public. No LLM, external AI API, credentials, or private repository data are used. Feed/API errors are logged in workflow output; one failed source does not stop the others.
