@@ -1,0 +1,151 @@
+{
+  "rss": [
+    {
+      "name": "Prometheus blog",
+      "project": "Prometheus",
+      "url": "https://prometheus.io/blog/"
+    },
+    {
+      "name": "OpenTelemetry blog",
+      "project": "OpenTelemetry",
+      "url": "https://opentelemetry.io/blog/"
+    },
+    {
+      "name": "Grafana Labs blog",
+      "project": "Grafana",
+      "url": "https://grafana.com/blog/"
+    },
+    {
+      "name": "CNCF blog",
+      "project": "CNCF",
+      "url": "https://www.cncf.io/blog/"
+    },
+    {
+      "name": "Chronosphere blog",
+      "project": "Chronosphere",
+      "url": "https://chronosphere.io/blog/"
+    },
+    {
+      "name": "Datadog blog",
+      "project": "Datadog",
+      "url": "https://www.datadoghq.com/blog/"
+    },
+    {
+      "name": "New Relic blog",
+      "project": "New Relic",
+      "url": "https://newrelic.com/blog"
+    },
+    {
+      "name": "Honeycomb blog",
+      "project": "Honeycomb",
+      "url": "https://www.honeycomb.io/blog"
+    },
+    {
+      "name": "Elastic blog",
+      "project": "Elastic",
+      "url": "https://www.elastic.co/blog"
+    },
+    {
+      "name": "Splunk blog",
+      "project": "Splunk",
+      "url": "https://www.splunk.com/en_us/blog.html"
+    },
+    {
+      "name": "VictoriaMetrics blog",
+      "project": "VictoriaMetrics",
+      "url": "https://victoriametrics.com/blog/"
+    },
+    {
+      "name": "Cilium blog",
+      "project": "Cilium",
+      "url": "https://isovalent.com/blog/"
+    },
+    {
+      "name": "Fluent Bit blog",
+      "project": "Fluent Bit",
+      "url": "https://fluentbit.io/blog/"
+    },
+    {
+      "name": "Vector site",
+      "project": "Vector",
+      "url": "https://vector.dev/"
+    }
+  ],
+  "repos": [
+    {
+      "owner": "prometheus",
+      "repo": "prometheus",
+      "project": "Prometheus"
+    },
+    {
+      "owner": "open-telemetry",
+      "repo": "opentelemetry-collector",
+      "project": "OpenTelemetry Collector"
+    },
+    {
+      "owner": "open-telemetry",
+      "repo": "opentelemetry-specification",
+      "project": "OpenTelemetry Specification"
+    },
+    {
+      "owner": "grafana",
+      "repo": "grafana",
+      "project": "Grafana"
+    },
+    {
+      "owner": "grafana",
+      "repo": "loki",
+      "project": "Loki"
+    },
+    {
+      "owner": "grafana",
+      "repo": "tempo",
+      "project": "Tempo"
+    },
+    {
+      "owner": "grafana",
+      "repo": "mimir",
+      "project": "Mimir"
+    },
+    {
+      "owner": "grafana",
+      "repo": "alloy",
+      "project": "Grafana Alloy"
+    },
+    {
+      "owner": "VictoriaMetrics",
+      "repo": "VictoriaMetrics",
+      "project": "VictoriaMetrics"
+    },
+    {
+      "owner": "thanos-io",
+      "repo": "thanos",
+      "project": "Thanos"
+    },
+    {
+      "owner": "jaegertracing",
+      "repo": "jaeger",
+      "project": "Jaeger"
+    },
+    {
+      "owner": "fluent",
+      "repo": "fluent-bit",
+      "project": "Fluent Bit"
+    },
+    {
+      "owner": "vectordotdev",
+      "repo": "vector",
+      "project": "Vector"
+    },
+    {
+      "owner": "cilium",
+      "repo": "cilium",
+      "project": "Cilium"
+    },
+    {
+      "owner": "opensearch-project",
+      "repo": "OpenSearch",
+      "project": "OpenSearch"
+    }
+  ]
+}
