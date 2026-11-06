@@ -1,5 +1,180 @@
 {
-  "generated_at": null,
-  "item_count": 0,
-  "sources": []
+  "generated_at": "2026-11-06T08:02:09.650815+00:00",
+  "item_count": 120,
+  "sources": [
+    {
+      "name": "Prometheus blog",
+      "project": "Prometheus",
+      "type": "rss",
+      "url": "https://prometheus.io/blog/"
+    },
+    {
+      "name": "OpenTelemetry blog",
+      "project": "OpenTelemetry",
+      "type": "rss",
+      "url": "https://opentelemetry.io/blog/"
+    },
+    {
+      "name": "Grafana Labs blog",
+      "project": "Grafana",
+      "type": "rss",
+      "url": "https://grafana.com/blog/"
+    },
+    {
+      "name": "CNCF blog",
+      "project": "CNCF",
+      "type": "rss",
+      "url": "https://www.cncf.io/blog/"
+    },
+    {
+      "name": "Chronosphere blog",
+      "project": "Chronosphere",
+      "type": "rss",
+      "url": "https://chronosphere.io/blog/"
+    },
+    {
+      "name": "Datadog blog",
+      "project": "Datadog",
+      "type": "rss",
+      "url": "https://www.datadoghq.com/blog/"
+    },
+    {
+      "name": "New Relic blog",
+      "project": "New Relic",
+      "type": "rss",
+      "url": "https://newrelic.com/blog"
+    },
+    {
+      "name": "Honeycomb blog",
+      "project": "Honeycomb",
+      "type": "rss",
+      "url": "https://www.honeycomb.io/blog"
+    },
+    {
+      "name": "Elastic blog",
+      "project": "Elastic",
+      "type": "rss",
+      "url": "https://www.elastic.co/blog"
+    },
+    {
+      "name": "Splunk blog",
+      "project": "Splunk",
+      "type": "rss",
+      "url": "https://www.splunk.com/en_us/blog.html"
+    },
+    {
+      "name": "VictoriaMetrics blog",
+      "project": "VictoriaMetrics",
+      "type": "rss",
+      "url": "https://victoriametrics.com/blog/"
+    },
+    {
+      "name": "Cilium blog",
+      "project": "Cilium",
+      "type": "rss",
+      "url": "https://isovalent.com/blog/"
+    },
+    {
+      "name": "Fluent Bit blog",
+      "project": "Fluent Bit",
+      "type": "rss",
+      "url": "https://fluentbit.io/blog/"
+    },
+    {
+      "name": "Vector site",
+      "project": "Vector",
+      "type": "rss",
+      "url": "https://vector.dev/"
+    },
+    {
+      "name": "prometheus/prometheus releases",
+      "project": "Prometheus",
+      "type": "github",
+      "url": "https://github.com/prometheus/prometheus/releases"
+    },
+    {
+      "name": "open-telemetry/opentelemetry-collector releases",
+      "project": "OpenTelemetry Collector",
+      "type": "github",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases"
+    },
+    {
+      "name": "open-telemetry/opentelemetry-specification releases",
+      "project": "OpenTelemetry Specification",
+      "type": "github",
+      "url": "https://github.com/open-telemetry/opentelemetry-specification/releases"
+    },
+    {
+      "name": "grafana/grafana releases",
+      "project": "Grafana",
+      "type": "github",
+      "url": "https://github.com/grafana/grafana/releases"
+    },
+    {
+      "name": "grafana/loki releases",
+      "project": "Loki",
+      "type": "github",
+      "url": "https://github.com/grafana/loki/releases"
+    },
+    {
+      "name": "grafana/tempo releases",
+      "project": "Tempo",
+      "type": "github",
+      "url": "https://github.com/grafana/tempo/releases"
+    },
+    {
+      "name": "grafana/mimir releases",
+      "project": "Mimir",
+      "type": "github",
+      "url": "https://github.com/grafana/mimir/releases"
+    },
+    {
+      "name": "grafana/alloy releases",
+      "project": "Grafana Alloy",
+      "type": "github",
+      "url": "https://github.com/grafana/alloy/releases"
+    },
+    {
+      "name": "VictoriaMetrics/VictoriaMetrics releases",
+      "project": "VictoriaMetrics",
+      "type": "github",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases"
+    },
+    {
+      "name": "thanos-io/thanos releases",
+      "project": "Thanos",
+      "type": "github",
+      "url": "https://github.com/thanos-io/thanos/releases"
+    },
+    {
+      "name": "jaegertracing/jaeger releases",
+      "project": "Jaeger",
+      "type": "github",
+      "url": "https://github.com/jaegertracing/jaeger/releases"
+    },
+    {
+      "name": "fluent/fluent-bit releases",
+      "project": "Fluent Bit",
+      "type": "github",
+      "url": "https://github.com/fluent/fluent-bit/releases"
+    },
+    {
+      "name": "vectordotdev/vector releases",
+      "project": "Vector",
+      "type": "github",
+      "url": "https://github.com/vectordotdev/vector/releases"
+    },
+    {
+      "name": "cilium/cilium releases",
+      "project": "Cilium",
+      "type": "github",
+      "url": "https://github.com/cilium/cilium/releases"
+    },
+    {
+      "name": "opensearch-project/OpenSearch releases",
+      "project": "OpenSearch",
+      "type": "github",
+      "url": "https://github.com/opensearch-project/OpenSearch/releases"
+    }
+  ]
 }
