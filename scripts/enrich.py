@@ -10,14 +10,14 @@ ROOT = Path(__file__).resolve().parents[1]
 items = json.loads((ROOT / "data/updates.json").read_text()).get("items", [])
 
 RULES = [
-    ("security", "Security", "high", [r"\\bsecurity\\b", r"\\bcve-\\d{4}-\\d+\\b", r"\\bvulnerabilit(?:y|ies)\\b", r"\\bauthentication bypass\\b", r"\\bremote code execution\\b"]),
-    ("breaking", "Breaking change", "high", [r"breaking changes?", r"\\bremoved?\\b.{0,55}\\b(config|flag|option|api|component|feature)\\b", r"\\bincompatible\\b", r"\\bno longer supported\\b"]),
-    ("deprecation", "Deprecation", "medium", [r"\\bdeprecated?\\b", r"\\bwill be removed\\b", r"\\bsunset(?:ting)?\\b"]),
-    ("compatibility", "Compatibility", "medium", [r"\\bcompatib(?:le|ility)\\b", r"\\bupgrade(?:d|s)?\\b", r"\\bmigration\\b", r"\\bschema change\\b", r"\\bapi change\\b"]),
-    ("performance", "Performance", "medium", [r"\\bperformance\\b", r"\\blatency\\b", r"\\bthroughput\\b", r"\\bmemory usage\\b", r"\\bCPU usage\\b", r"\\b优化\\b"]),
-    ("configuration", "Configuration", "medium", [r"\\bconfiguration\\b", r"\\bconfig(?:uration)? option\\b", r"\\bdefault(?:s)? changed\\b", r"\\bflag\\b", r"\\bparameter\\b"]),
-    ("feature", "Feature", "low", [r"\\bnew feature\\b", r"\\badded support\\b", r"\\bintroduc(?:e|es|ed|ing)\\b", r"\\bnew component\\b"]),
-    ("bugfix", "Bug fix", "low", [r"\\bbug fix(?:es)?\\b", r"\\bfix(?:es|ed)?\\b", r"\\bresolve(?:s|d)?\\b"]),
+    ("security", "Security", "high", [r"\bsecurity\b", r"\bcve-\d{4}-\d+\b", r"\bvulnerabilit(?:y|ies)\b", r"\bauthentication bypass\b", r"\bremote code execution\b"]),
+    ("breaking", "Breaking change", "high", [r"breaking changes?", r"\bremoved?\b.{0,55}\b(config|flag|option|api|component|feature)\b", r"\bincompatible\b", r"\bno longer supported\b"]),
+    ("deprecation", "Deprecation", "medium", [r"\bdeprecated?\b", r"\bwill be removed\b", r"\bsunset(?:ting)?\b"]),
+    ("compatibility", "Compatibility", "medium", [r"\bcompatib(?:le|ility)\b", r"\bupgrade(?:d|s)?\b", r"\bmigration\b", r"\bschema change\b", r"\bapi change\b"]),
+    ("performance", "Performance", "medium", [r"\bperformance\b", r"\blatency\b", r"\bthroughput\b", r"\bmemory usage\b", r"\bCPU usage\b", r"\b优化\b"]),
+    ("configuration", "Configuration", "medium", [r"\bconfiguration\b", r"\bconfig(?:uration)? option\b", r"\bdefault(?:s)? changed\b", r"\bflag\b", r"\bparameter\b"]),
+    ("feature", "Feature", "low", [r"\bnew feature\b", r"\badded support\b", r"\bintroduc(?:e|es|ed|ing)\b", r"\bnew component\b"]),
+    ("bugfix", "Bug fix", "low", [r"\bbug fix(?:es)?\b", r"\bfix(?:es|ed)?\b", r"\bresolve(?:s|d)?\b"]),
 ]
 ACTIONS = {
     "security": "Check whether the affected component/version is deployed; review the advisory and plan a patched-version rollout if applicable.",
@@ -34,7 +34,7 @@ def evidence(text, patterns):
         m = re.search(pattern, text, re.I)
         if m:
             start, end = max(0, m.start()-75), min(len(text), m.end()+115)
-            return re.sub(r"\\s+", " ", text[start:end]).strip()
+            return re.sub(r"\s+", " ", text[start:end]).strip()
     return None
 
 result = {}
