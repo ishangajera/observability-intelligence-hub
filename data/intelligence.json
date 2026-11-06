@@ -1,10 +1,284 @@
 {
-  "generated_at": "2026-11-06T08:47:29.136411+00:00",
+  "generated_at": "2026-11-06T19:58:40.454232+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 507,
+  "item_count": 512,
   "items": {
+    "d70510d70425a271f552": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "1721bef5f969aac0ec47": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Azure Monitor 13.0.8 Catalog version changed from 13.0.6 to 13.0.8. Data source for Microsoft Azure Monitor & Application Insights"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "bca347e3f7cf41468c91": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d7a4e340f83e9adcd7b8": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "PR 217 Hi Grafana team, I recently submitted a small contribution to the Loki datasource plugin: Pull request grafana/grafana-loki-datasource Show underlying errors when Loki datasource health checks fail ( 217) main ← duj4:fix/loki-healthcheck-"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "26 UTC +41 -1 Type of Change Please check the relevant option. - [ ] 🚀 Feature - [ … x] 🐛 Bug Fix - [ ] 📝 Documentation - [ ] 🧹 Refactor / Chore --- Bug Fix What is the bug? Currently, when a Loki datasource health check fails, Grafana always disp"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "d4df990b943d152efb36": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Interactive learning 2.26.0 Catalog version changed from 2.25.0 to 2.26.0. Get help exactly when and where you need it. Interactive learning"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "2ed9ed0aadca2703e8e3": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "1d](https://github.com/grafana/loki/commit/8d2391d0b471e700b930e52f62d02067234b33cb)) * **security/HIGH/:** Update module github.com/go-jose/go-jose/v4 to v4.1.6 [SECURITY] (release-3.6.x) ([#25829](https://github.com/grafana/loki/issues/25829)) (["
+        },
+        {
+          "theme": "Bug fix",
+          "text": "## [3.6.20](https://github.com/grafana/loki/compare/v3.6.19...v3.6.20) (2026-11-06) ### Bug Fixes * **deps:** Update go4.org/netipx digest to 3075585 (release-3.6.x) ([#26156](https://github.com/grafana/loki/issues/26156)) ([5124776](https://gith"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "da945d3a77f2cdb33122": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "a smaller binary, a smaller attack surface, and fewer third-party modules to track when a vulnerability is disclosed. The OpenTelemetry Collector Builder (ocb) makes this possible: you write a manifest file in YAML to select the components you care abou"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "0b01edea16fa73b0099c": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Finnhub 1.1.0 Catalog version changed from 1.0.0 to 1.1.0. Finnhub Data Source"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "04d0991a1b6030334abd": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "(time series: counts, success/error rate, duration percentiles), workflows, n8n Insights, security audit Template variables for workflows, projects and tags Private Data Source Connect for self-hosted n8n on private networks Bundled dashboard Requi"
+        },
+        {
+          "theme": "Plugin",
+          "text": "New data source plugin: n8n (workflow automation), for n8n Cloud and self-hosted Hi all, The n8n data source is now in the plugin catalog: n8n plugin for Grafana | Grafana"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "d46eb92154d0263bed00": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: ITRS Analytics 3.5.0 Catalog version changed from 3.4.2 to 3.5.0. Data source for ITRS Analytics platform"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "2e5715cffbf7188a5298": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "68f16141b04e39898721": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "eac2806ff6607ce1b621": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "5cd9895adb8db1923196": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "e89c4954d9547fdf2c06": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -135,6 +409,29 @@
         {
           "theme": "Compatibility",
           "text": "ed SDK 3.0 ( stable v3.0.0 packages and experimental v0.300.0 packages ) and API 1.10.0 . Migration guide For a detailed description of breaking changes, see the OpenTelemetry JS SDK 3.x migration guide . What is JS SDK 3.x? JS SDK 3.x encompasses n"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "045d109a8a40ba39227e": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "New Grafana plugin: n8n Data Source plugin added to the public catalog. Workflow and execution observability for n8n Cloud and self-hosted n8n via the n8n public API (c"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -1268,29 +1565,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "da945d3a77f2cdb33122": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "a smaller binary, a smaller attack surface, and fewer third-party modules to track when a vulnerability is disclosed. The OpenTelemetry Collector Builder (ocb) makes this possible: you write a manifest file in YAML to select the components you care abou"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "31d3c7a5c7e07e6f9aa6": {
       "priority": "medium",
       "needs_review": true,
@@ -1673,16 +1947,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "ed83d1a37c2c2ca584d3": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "4f88c6399862cb971c2d": {
@@ -2523,16 +2787,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b9392c7f7addad4be81c": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "21073fd9f17bdc60892f": {
       "priority": "low",
       "needs_review": false,
@@ -3153,29 +3407,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b33b1852b89e15f1ee24": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "From production problem to proposed fix: Implement autonomous operations with Grafana AI You've just finished a deployment, and though your service is up, you start to notice some requests"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "6a2ef241d18620e63fc8": {
       "priority": "low",
       "needs_review": false,
@@ -3455,39 +3686,6 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "003a90ecc61693ea1ea5": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "5a](https://github.com/grafana/loki/commit/603de5ad370c2b45ca38f031a8116257b018d89c)) * **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.6.x) ([#24619](https://github."
-        },
-        {
-          "theme": "Bug fix",
-          "text": "## [3.6.18](https://github.com/grafana/loki/compare/v3.6.17...v3.6.18) (2026-10-15) ### Bug Fixes * **deps:** Update dependencies related to otel for 3.6 ([#25180](https://github.com/grafana/loki/issues/25180)) ([603de5a](https://github.com/grafa"
-        }
-      ],
-      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "e560eb668cd32e9b8724": {
@@ -4465,16 +4663,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "d9db96d870583bea9d59": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "571ed8600407e869018d": {
       "priority": "low",
       "needs_review": false,
@@ -4486,49 +4674,6 @@
       "method": "transparent-rules"
     },
     "8b3de6d284996b44f107": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "c99dfac56539a928cf22": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "ttps://github.com/fluent/fluent-bit/pull/12421 * out_arvancloud_cloudlogs: add new output plugin for ArvanCloud CloudLogs by @javadnasrolahi in https://github.com/fluent/fluent-bit/pull/11095 * in_kubernetes_events: add sqlite indexes by @cosmo09"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "races by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12389 * tests: runtime: Fix assertion failures on Ubuntu 26.04 by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12388 * in_opentelemetry: preserve signed 64-bit log bo"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5901f3d3837bfff58573": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7416,62 +7561,6 @@
         {
           "theme": "Plugin",
           "text": "ps://github.com/grafana/grafana/pull/115610 ) to main initiates the process of decoupling plugin-related properties from GrafanaBootConfig . This change specifically targets config.apps and will be followed by the deprecation of config.panels and"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "3a3e8d71817fbfc8ba98": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "upport in the database) The latest version has better support for alerting and introduced plugin support . contact-points especially has data that I needed to track in version control that contained several sensitive information fields (token, pa"
-        },
-        {
-          "theme": "Feature",
-          "text": "ntities I support in the database) The latest version has better support for alerting and introduced plugin support . contact-points especially has data that I needed to track in version control that contained several sensitive information fields (to"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "cabca3d2c60536248830": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "ke Sankey Chart Clickable Hi Team, U have created a sankey panel using the business chart plugin with the below code: return { series: { type: 'sankey', layout: 'none', emphasis: { focus: 'adjacency' }, data: \\[ { name: 'a', }, { name: 'b' }, { n"
         }
       ],
       "confidence": "explicit source phrase match",

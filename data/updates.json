@@ -1,6 +1,166 @@
 {
-  "generated_at": "2026-11-06T08:47:11.574070+00:00",
+  "generated_at": "2026-11-06T19:58:28.776834+00:00",
   "items": [
+    {
+      "id": "d70510d70425a271f552",
+      "title": "Fluent Bit wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
+      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
+      "date": "2026-11-06T19:41:36Z",
+      "project": "Fluent Bit",
+      "source": "GitHub · fluent/fluent-bit",
+      "category": "Release",
+      "version": "wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42277795747\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "change_sections": [],
+      "new_components": []
+    },
+    {
+      "id": "1721bef5f969aac0ec47",
+      "title": "Grafana plugin update: Azure Monitor 13.0.8",
+      "summary": "Catalog version changed from 13.0.6 to 13.0.8. Data source for Microsoft Azure Monitor & Application Insights",
+      "url": "https://grafana.com/grafana/plugins/grafana-azure-monitor-datasource/",
+      "date": "2026-11-06T18:44:31+00:00",
+      "project": "Grafana plugins",
+      "source": "Grafana public plugin catalog",
+      "category": "Plugin",
+      "version": "13.0.8",
+      "plugin_slug": "grafana-azure-monitor-datasource",
+      "plugin_type": "Data Source",
+      "repository": "https://github.com/grafana/grafana-azure-monitor-datasource"
+    },
+    {
+      "id": "bca347e3f7cf41468c91",
+      "title": "Any agent anywhere: How to use Grafana Cloud with Claude, Cursor, and any other AI agent",
+      "summary": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks. But to be truly useful in production, these agents need access to more than code. They also need observability data and context to understand what's happening across your systems, investigate problems, and help you take action. At Grafana Labs, we believe that context should be available wherever you work. That’s one of the core ideas behind Grafana Cloud as the open agentic observability platform: the flexibility to work with your observability data through the AI agents you prefer—whether it’s Grafana Assistant , a coding agent in your IDE, or a tool you’ve built yourself—so you can investigate and troubleshoot issues without switching tools. In this post, we'll explore how to bring Grafana Cloud into your agentic workflows using tools like the Grafana Cloud MCP server and gcx , with practical examples along the way. You can also check out our ObservabilityCON 2026 talk in the video below to learn more. Three ways to use Grafana Cloud with AI agents Ther",
+      "url": "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/",
+      "date": "2026-11-06T18:37:07+00:00",
+      "project": "Grafana",
+      "source": "Grafana Labs blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d7a4e340f83e9adcd7b8",
+      "title": "Looking for maintainer guidance on Loki datasource PR 217",
+      "summary": "Hi Grafana team, I recently submitted a small contribution to the Loki datasource plugin: Pull request grafana/grafana-loki-datasource Show underlying errors when Loki datasource health checks fail ( 217) main ← duj4:fix/loki-healthcheck-error-message duj4 opened 01:58PM - 26 Oct 26 UTC +41 -1 Type of Change Please check the relevant option. - [ ] 🚀 Feature - [ … x] 🐛 Bug Fix - [ ] 📝 Documentation - [ ] 🧹 Refactor / Chore --- Bug Fix What is the bug? Currently, when a Loki datasource health check fails, Grafana always displays a generic error message:\" Unable to connect with Loki. Please check the server logs for more details. \" Although the underlying error is available and logged by Grafana backend, it is not included in the health check response. This makes troubleshooting difficult for Grafana Organization Admins who do not have access to server logs. It also limits the diagnostic information available through Grafana Advisor and Advisor-based alerting. Unlike Loki, the Prometheus datasource already includes the underlying error in its health check response. This PR aligns Loki's",
+      "url": "https://community.grafana.com/t/looking-for-maintainer-guidance-on-loki-datasource-pr-217/164953",
+      "date": "2026-11-06T16:42:17+00:00",
+      "project": "Grafana ecosystem",
+      "source": "Grafana plugin development community",
+      "category": "Community",
+      "content_type": "community"
+    },
+    {
+      "id": "d4df990b943d152efb36",
+      "title": "Grafana plugin update: Interactive learning 2.26.0",
+      "summary": "Catalog version changed from 2.25.0 to 2.26.0. Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
+      "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
+      "date": "2026-11-06T16:25:52+00:00",
+      "project": "Grafana plugins",
+      "source": "Grafana public plugin catalog",
+      "category": "Plugin",
+      "version": "2.26.0",
+      "plugin_slug": "grafana-pathfinder-app",
+      "plugin_type": "Application",
+      "repository": "https://github.com/grafana/grafana-pathfinder-app"
+    },
+    {
+      "id": "2ed9ed0aadca2703e8e3",
+      "title": "Loki v3.6.20",
+      "summary": "3.6.20 (2026-11-06)",
+      "url": "https://github.com/grafana/loki/releases/tag/v3.6.20",
+      "date": "2026-11-06T16:11:18Z",
+      "project": "Loki",
+      "source": "GitHub · grafana/loki",
+      "category": "Release",
+      "version": "v3.6.20",
+      "release_notes": "## [3.6.20](https://github.com/grafana/loki/compare/v3.6.19...v3.6.20) (2026-11-06)\n\n\n### Bug Fixes\n\n* **deps:** Update go4.org/netipx digest to 3075585 (release-3.6.x) ([#26156](https://github.com/grafana/loki/issues/26156)) ([5124776](https://github.com/grafana/loki/commit/512477627614879d5e00c991b9389670a312ee82))\n* **deps:** Update google.golang.org/genproto/googleapis/rpc digest to 2ffab32 (release-3.6.x) ([#26157](https://github.com/grafana/loki/issues/26157)) ([88e351e](https://github.com/grafana/loki/commit/88e351e2e94fe5bb6759d20aea17ffe758d2ff2a))\n* **deps:** Update k8s.io/utils digest to ca04ba5 (release-3.6.x) ([#26161](https://github.com/grafana/loki/issues/26161)) ([8d2391d](https://github.com/grafana/loki/commit/8d2391d0b471e700b930e52f62d02067234b33cb))\n* **security/HIGH/:** Update module github.com/go-jose/go-jose/v4 to v4.1.6 [SECURITY] (release-3.6.x) ([#25829](https://github.com/grafana/loki/issues/25829)) ([d1915f4](https://github.com/grafana/loki/commit/d1915f42fd3f28fabe22821b43253a8825111135))\n* **security/HIGH/:** Update module github.com/go-openapi/swag/jsonutils to v0.29.2 [SECURITY] (release-3.6.x) ([#26286](https://github.com/grafana/loki/issues/26286)) ([8d999cd](https://github.com/grafana/loki/commit/8d999cdfe480158ea6d4f22c2f9e0fec54a85ac6))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25846](https://github.com/grafana/loki/issues/25846)) ([ab6aa07](https://github.com/grafana/loki/commit/ab6aa07e8b4f97c445167e6ad2849372a8f2a02c))\n* **security/UNKNOWN/:** Update module github.com/klauspost/compress to v1.20.2 [SECURITY] (release-3.6.x) ([#26294](https://github.com/grafana/loki/issues/26294)) ([bbbdf8a](https://github.com/grafana/loki/commit/bbbdf8a0246f42d6f9d67e698cdfb75e74a7d45e))\n* **security/UNKNOWN/:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25845](https://github.com/grafana/loki/issues/25845)) ([77bf026](https://github.com/grafana/loki/commit/77bf0261a029107470e74fcf787b8ee90de33312))",
+      "change_sections": [
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "deps: Update go4.org/netipx digest to 3075585 (release-3.6.x) ( 26156) (5124776)",
+            "deps: Update google.golang.org/genproto/googleapis/rpc digest to 2ffab32 (release-3.6.x) ( 26157) (88e351e)",
+            "deps: Update k8s.io/utils digest to ca04ba5 (release-3.6.x) ( 26161) (8d2391d)",
+            "security/HIGH/: Update module github.com/go-jose/go-jose/v4 to v4.1.6 [SECURITY] (release-3.6.x) ( 25829) (d1915f4)"
+          ]
+        }
+      ],
+      "new_components": []
+    },
+    {
+      "id": "da945d3a77f2cdb33122",
+      "title": "Only include resource detectors you need by building your own Collector",
+      "summary": "There are many reasons for building your own OpenTelemetry Collector distribution. The existing distributions are designed to be broadly useful, which means they include many more components than what an individual deployment uses. Building your own gives you the ability to select only the components you care about, add your own custom components, and control exactly what ends up in the binary you run in production. One of the reasons I prefer to build my own distribution is to limit the size of the binary I have to ship around and to ensure that the least amount of dependencies are included. Fewer dependencies means a smaller binary, a smaller attack surface, and fewer third-party modules to track when a vulnerability is disclosed. The OpenTelemetry Collector Builder (ocb) makes this possible: you write a manifest file in YAML to select the components you care about, and ocb compiles them into the resulting binary.",
+      "url": "https://opentelemetry.io/blog/2026/collector-with-less-dependencies/",
+      "date": "2026-11-06T14:49:46+00:00",
+      "project": "OpenTelemetry",
+      "source": "OpenTelemetry blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "0b01edea16fa73b0099c",
+      "title": "Grafana plugin update: Finnhub 1.1.0",
+      "summary": "Catalog version changed from 1.0.0 to 1.1.0. Finnhub Data Source",
+      "url": "https://grafana.com/grafana/plugins/clarity89-finnhub-datasource/",
+      "date": "2026-11-06T14:27:10+00:00",
+      "project": "Grafana plugins",
+      "source": "Grafana public plugin catalog",
+      "category": "Plugin",
+      "version": "1.1.0",
+      "plugin_slug": "clarity89-finnhub-datasource",
+      "plugin_type": "Data Source",
+      "repository": "https://github.com/Clarity-89/grafana-finnhub"
+    },
+    {
+      "id": "04d0991a1b6030334abd",
+      "title": "New data source plugin: n8n (workflow automation), for n8n Cloud and self-hosted",
+      "summary": "Hi all, The n8n data source is now in the plugin catalog: n8n plugin for Grafana | Grafana Labs n8n is a workflow automation tool. Until now, monitoring it in Grafana meant scraping its Prometheus endpoint or querying its PostgreSQL database, and neither is possible on n8n Cloud. This plugin uses the n8n public API, so it works for n8n Cloud and self-hosted n8n alike. Backend plugin (Go): the API key stays server-side, works with alerting and Grafana Cloud Query types: executions (table), execution statistics (time series: counts, success/error rate, duration percentiles), workflows, n8n Insights, security audit Template variables for workflows, projects and tags Private Data Source Connect for self-hosted n8n on private networks Bundled dashboard Requires Grafana 13.2+ Code and docs: GitHub - nluecke/grafana-n8n-datasource: Grafana data source for n8n Cloud and self-hosted n8n via the n8n public API: executions, statistics, Insights, alerting, bundled dashboard · GitHub Happy about feedback and issues! 1 post - 1 participant Read full topic",
+      "url": "https://community.grafana.com/t/new-data-source-plugin-n8n-workflow-automation-for-n8n-cloud-and-self-hosted/164948",
+      "date": "2026-11-06T13:15:37+00:00",
+      "project": "Grafana ecosystem",
+      "source": "Grafana plugin development community",
+      "category": "Community",
+      "content_type": "community"
+    },
+    {
+      "id": "d46eb92154d0263bed00",
+      "title": "Grafana plugin update: ITRS Analytics 3.5.0",
+      "summary": "Catalog version changed from 3.4.2 to 3.5.0. Data source for ITRS Analytics platform",
+      "url": "https://grafana.com/grafana/plugins/itrs-analytics-datasource/",
+      "date": "2026-11-06T12:44:54+00:00",
+      "project": "Grafana plugins",
+      "source": "Grafana public plugin catalog",
+      "category": "Plugin",
+      "version": "3.5.0",
+      "plugin_slug": "itrs-analytics-datasource",
+      "plugin_type": "Data Source",
+      "repository": ""
+    },
+    {
+      "id": "2e5715cffbf7188a5298",
+      "title": "Faster LLM inference startup: What you need to know",
+      "summary": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
+      "url": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
+      "date": "2026-11-06T12:00:00+00:00",
+      "project": "CNCF",
+      "source": "CNCF blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "68f16141b04e39898721",
+      "title": "Monitor VMware vSphere Kubernetes Service (VKS) Clusters with New Relic",
+      "summary": "New Relic is validated on VMware vSphere Kubernetes Service (VKS). See how platform teams on VCF monitor clusters, pods, and apps in one place.",
+      "url": "https://newrelic.com/blog/infrastructure-monitoring/vmware-vsphere-kubernetes-service-monitoring",
+      "date": "2026-11-06T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
     {
       "id": "eac2806ff6607ce1b621",
       "title": "Fluent Bit wasm-browser-e090fbd054c82ae67f12ebe926600827b6cf5f48",
@@ -14,6 +174,28 @@
       "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42131734570\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
       "change_sections": [],
       "new_components": []
+    },
+    {
+      "id": "5cd9895adb8db1923196",
+      "title": "How we investigated prompt cache misses with Datadog",
+      "summary": "An investigation of prompt cache misses in internal AI applications by using Datadog Cloud Cost Management and Agent Observability.",
+      "url": "https://www.datadoghq.com/blog/prompt-cache-investigation-ccm-agent-observability/",
+      "date": "2026-11-06T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e89c4954d9547fdf2c06",
+      "title": "Scaling cyber protection for US critical infrastructure: How Elastic supports the Community Cyber Resilience Foundation",
+      "summary": "Elastic powers critical cybersecurity capabilities within the Dragos Platform, helping the new Community Cyber Resilience Foundation protect under-resourced US water, electric, and natural gas utilities from cyber threats.",
+      "url": "https://www.elastic.co/blog/how-elastic-supports-the-community-cyber-resilience-foundation",
+      "date": "2026-11-06T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "2fb370d4e8d441af2e39",
@@ -107,6 +289,20 @@
       "source": "OpenTelemetry blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "045d109a8a40ba39227e",
+      "title": "New Grafana plugin: n8n",
+      "summary": "Data Source plugin added to the public catalog. Workflow and execution observability for n8n Cloud and self-hosted n8n via the n8n public API (community plugin, not affiliated with n8n GmbH)",
+      "url": "https://grafana.com/grafana/plugins/nluecke-n8n-datasource/",
+      "date": "2026-11-05T15:51:27+00:00",
+      "project": "Grafana plugins",
+      "source": "Grafana public plugin catalog",
+      "category": "Plugin",
+      "version": "1.0.6",
+      "plugin_slug": "nluecke-n8n-datasource",
+      "plugin_type": "Data Source",
+      "repository": "https://github.com/nluecke/grafana-n8n-datasource"
     },
     {
       "id": "3dd911e04ec4136f3536",
@@ -1000,17 +1196,6 @@
       "content_type": "blog"
     },
     {
-      "id": "da945d3a77f2cdb33122",
-      "title": "Only include resource detectors you need by building your own Collector",
-      "summary": "There are many reasons for building your own OpenTelemetry Collector distribution. The existing distributions are designed to be broadly useful, which means they include many more components than what an individual deployment uses. Building your own gives you the ability to select only the components you care about, add your own custom components, and control exactly what ends up in the binary you run in production. One of the reasons I prefer to build my own distribution is to limit the size of the binary I have to ship around and to ensure that the least amount of dependencies are included. Fewer dependencies means a smaller binary, a smaller attack surface, and fewer third-party modules to track when a vulnerability is disclosed. The OpenTelemetry Collector Builder (ocb) makes this possible: you write a manifest file in YAML to select the components you care about, and ocb compiles them into the resulting binary.",
-      "url": "https://opentelemetry.io/blog/2026/collector-with-less-dependencies/",
-      "date": "2026-10-29T15:39:27+00:00",
-      "project": "OpenTelemetry",
-      "source": "OpenTelemetry blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
       "id": "31d3c7a5c7e07e6f9aa6",
       "title": "Grafana 13.3 release: manage variables across dashboards, share findings with Notebooks, a UI refresh, and more",
       "summary": "Grafana 13.3 is here, bringing more consistency and control to how you work across Grafana. Cross-dashboard variables help you manage shared dashboard controls from one place, while Notebooks let you capture and share findings from across Grafana in a single, editable document. You'll also get a first look at Grafana's biggest visual refresh since Grafana 7, along with new ways to guide and refine dashboards built with Grafana Assistant. Below are just some of the highlights from this release. You can explore all of the updates in the changelog or our What's new in Grafana 13.3 documentation. Define a variable once and use it across dashboards Available in public preview in all editions of Grafana When multiple dashboards use the same variable, such as an environment, region, or cluster selector, managing it separately in each dashboard creates duplicate work and can lead to configuration drift. To address this, we’re rolling out cross-dashboard variables , which let you define a variable once and reuse it across dashboards in your Grafana organization. You can create and manage thes",
@@ -1275,17 +1460,6 @@
       "date": "2026-10-27T14:32:18+00:00",
       "project": "Grafana",
       "source": "Grafana Labs blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
-      "id": "ed83d1a37c2c2ca584d3",
-      "title": "Do You Need Forward Deployed Engineers? 5 Signals from New Relic Now",
-      "summary": "Discover 5 key signals on forward deployed engineers, AI agents in production, and observability insights from New Relic Now and Anthropic.",
-      "url": "https://newrelic.com/blog/ai/do-you-need-forward-deployed-engineers",
-      "date": "2026-10-27T12:00:00+00:00",
-      "project": "New Relic",
-      "source": "New Relic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -1979,17 +2153,6 @@
       "new_components": []
     },
     {
-      "id": "b9392c7f7addad4be81c",
-      "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi",
-      "summary": "GPU teams usually face a bad trade-off. Give every team its own Kubernetes cluster and you pay for a control plane per team. Put everyone in one shared cluster and you get weak isolation. Either way,...",
-      "url": "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami/",
-      "date": "2026-10-23T11:30:00+00:00",
-      "project": "CNCF",
-      "source": "CNCF blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
       "id": "21073fd9f17bdc60892f",
       "title": "Grafana Alloy v1.21.2",
       "summary": "1.21.2 (2026-10-22)",
@@ -2484,17 +2647,6 @@
       "content_type": "blog"
     },
     {
-      "id": "b33b1852b89e15f1ee24",
-      "title": "From production problem to proposed fix: Implement autonomous operations with Grafana AI",
-      "summary": "You've just finished a deployment, and though your service is up, you start to notice some requests are getting slower. To address the lag, someone—or, more likely, some group of people on your team—needs to watch the dashboards, decide whether the change matters, investigate what happened, and turn the findings into a fix. At each step you're gathering context—and often explaining that context again to the next person or tool. To make matters worse for the team responsible for the service, all this work is getting in the way of everything else they need to build. With Grafana Assistant in Grafana Cloud, you can bring more of those tasks together in one place, helping you resolve incidents faster so you can get back to building. And you're doing it with AI features that automate much of the undifferentiated heavy lifting while still keeping you in control. Assistant Watchers (generally available today as part of ObservabilityCON 2026 ) provides ongoing attention to the conditions you care about. Assistant Investigations (generally available) gathers evidence about what changed. And G",
-      "url": "https://grafana.com/blog/grafana-ai-autonomous-operations/",
-      "date": "2026-10-20T16:30:02+00:00",
-      "project": "Grafana",
-      "source": "Grafana Labs blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
       "id": "6a2ef241d18620e63fc8",
       "title": "Our Limits Are Not Our Imagination",
       "summary": "AI doesn't just make coding faster—used well, it can make code more rigorous than anything we wrote unassisted: property-based testing, formal verification, strict architecture checks, and more review than ever. The ceiling isn't our imagination. It's the development system we build around the agent.",
@@ -2750,30 +2902,6 @@
       "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "003a90ecc61693ea1ea5",
-      "title": "Loki v3.6.18",
-      "summary": "3.6.18 (2026-10-15)",
-      "url": "https://github.com/grafana/loki/releases/tag/v3.6.18",
-      "date": "2026-10-15T19:55:55Z",
-      "project": "Loki",
-      "source": "GitHub · grafana/loki",
-      "category": "Release",
-      "version": "v3.6.18",
-      "release_notes": "## [3.6.18](https://github.com/grafana/loki/compare/v3.6.17...v3.6.18) (2026-10-15)\n\n\n### Bug Fixes\n\n* **deps:** Update dependencies related to otel for 3.6 ([#25180](https://github.com/grafana/loki/issues/25180)) ([603de5a](https://github.com/grafana/loki/commit/603de5ad370c2b45ca38f031a8116257b018d89c))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.6.x) ([#24619](https://github.com/grafana/loki/issues/24619)) ([3e7c0ed](https://github.com/grafana/loki/commit/3e7c0ed5c6aaf287325dfda43c1cb1e90eeceaa8))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-3.6.x) ([#24620](https://github.com/grafana/loki/issues/24620)) ([ad5a87c](https://github.com/grafana/loki/commit/ad5a87c611d386ac9b33ae04dfdd674a4620f72d))\n* **security:** Bump Go to 1.26.9 [SECURITY] (release-3.6.x) ([#25193](https://github.com/grafana/loki/issues/25193)) ([c969f5c](https://github.com/grafana/loki/commit/c969f5cf4b4ca6073d29e0a74b236f4d05d7b79a))",
-      "change_sections": [
-        {
-          "heading": "Bug Fixes",
-          "items": [
-            "deps: Update dependencies related to otel for 3.6 ( 25180) (603de5a)",
-            "security/LOW/: Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.6.x) ( 24619) (3e7c0ed)",
-            "security/LOW/: Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-3.6.x) ( 24620) (ad5a87c)",
-            "security: Bump Go to 1.26.9 [SECURITY] (release-3.6.x) ( 25193) (c969f5c)"
-          ]
-        }
-      ],
-      "new_components": []
     },
     {
       "id": "e560eb668cd32e9b8724",
@@ -3528,17 +3656,6 @@
       "content_type": "blog"
     },
     {
-      "id": "d9db96d870583bea9d59",
-      "title": "The first 72 hours of a ransomware attack: Why restored isn’t recovered",
-      "summary": "Restoring servers isn’t the same as recovering the business. Plan ransomware recovery and use AI-assisted investigation to detect attacks sooner.",
-      "url": "https://www.datadoghq.com/blog/the-first-72-hours-of-a-ransomware-attack-why-restored-isnt-recovered/",
-      "date": "2026-10-02T00:00:00+00:00",
-      "project": "Datadog",
-      "source": "Datadog blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
       "id": "571ed8600407e869018d",
       "title": "Dr. Cat Hicks on the Psychology of Software Teams",
       "summary": "Dr. Cat Hicks, author of The Psychology of Software Teams and founder of Catharsis, joins Charity Majors for episode two of Leading With Observability. They talk organizational trust in AI, identity threat among developers, and how leaders can create the structure that reduces anxiety in this new era.",
@@ -3559,50 +3676,6 @@
       "source": "OpenTelemetry official YouTube channel",
       "category": "Video",
       "content_type": "video"
-    },
-    {
-      "id": "c99dfac56539a928cf22",
-      "title": "Fluent Bit v5.1.3",
-      "summary": "https://fluentbit.io/announcements/v5.1.3/",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.3",
-      "date": "2026-10-01T05:43:03Z",
-      "project": "Fluent Bit",
-      "source": "GitHub · fluent/fluent-bit",
-      "category": "Release",
-      "version": "v5.1.3",
-      "release_notes": "https://fluentbit.io/announcements/v5.1.3/\n\n## What's Changed\n* release: update to 5.1.3 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12379\n* workflows: bump reviewdog/action-actionlint from 1.73.3 to 1.73.4 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12381\n* github: workflows: Mitigate order dependent issue for uploading task for Windows by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12382\n* dockerfile: upgrade base packages to remediate OS CVEs (#12284) by @sachinbh95 in https://github.com/fluent/fluent-bit/pull/12291\n* workflows: bump github/codeql-action/upload-sarif from 4.37.9 to 4.38.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12404\n* http: downstream: plug intermittent unfriendly logs by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12407\n* out_syslog: support RFC6578 by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12405\n* tests: runtime: Stabilize chronicle assertions with eliminating push races by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12389\n* tests: runtime: Fix assertion failures on Ubuntu 26.04 by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12388\n* in_opentelemetry: preserve signed 64-bit log body integers by @edsiper in https://github.com/fluent/fluent-bit/pull/12419\n* workflows: bump reviewdog/action-hadolint from 1.53.0 to 1.54.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12422\n* workflows: bump reviewdog/action-shellcheck from 1.32.1 to 1.33.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12423\n* workflows: bump reviewdog/action-actionlint from 1.73.4 to 1.74.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12421\n* out_arvancloud_cloudlogs: add new output plugin for ArvanCloud CloudLogs by @javadnasrolahi in https://github.com/fluent/fluent-bit/pull/11095\n* in_kubernetes_events: add sqlite indexes by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12366\n* bulk_search: es: opensearch: Acknowledge reasons of bulk failures by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12358\n* emitter: ml: plug data losses during multiline processing on shutdown by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12352\n* out_kafka: implement protobuf format of kafka schema registry support  by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12411\n* input_chunk: fix down chunk placement under storage backpressure by @edsiper in https://github.com/fluent/fluent-bit/pull/12403\n* out_s3: mitigate SEGV/heap corruption by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12380\n* packaging: distros: centos: Enable kafka input/output plugins for Stream 9/10 by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12414\n* packaging: distros: almalinux: rockylinux: Install zlib-devel correctly by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12415\n* tests: fix CloudWatch event size regression coverage by @cosmo0920 in htt",
-      "change_sections": [
-        {
-          "heading": "What's Changed",
-          "items": [
-            "release: update to 5.1.3 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12379",
-            "workflows: bump reviewdog/action-actionlint from 1.73.3 to 1.73.4 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12381",
-            "github: workflows: Mitigate order dependent issue for uploading task for Windows by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12382",
-            "dockerfile: upgrade base packages to remediate OS CVEs ( 12284) by @sachinbh95 in https://github.com/fluent/fluent-bit/pull/12291"
-          ]
-        },
-        {
-          "heading": "New Contributors",
-          "items": [
-            "@sachinbh95 made their first contribution in https://github.com/fluent/fluent-bit/pull/12291",
-            "@javadnasrolahi made their first contribution in https://github.com/fluent/fluent-bit/pull/11095",
-            "@grolegor made their first contribution in https://github.com/fluent/fluent-bit/pull/12385",
-            "@egershonNvidia made their first contribution in https://github.com/fluent/fluent-bit/pull/12091"
-          ]
-        }
-      ],
-      "new_components": []
-    },
-    {
-      "id": "5901f3d3837bfff58573",
-      "title": "Bring your own key to existing Elastic Cloud deployments",
-      "summary": "Enable BYOK on existing Elastic Cloud Hosted deployments: encrypt data and snapshots with your own KMS key, in place, without recreating the deployment.",
-      "url": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
-      "date": "2026-10-01T00:00:00+00:00",
-      "project": "Elastic",
-      "source": "Elastic blog",
-      "category": "Article",
-      "content_type": "blog"
     },
     {
       "id": "49159a8befff7d35ed31",
@@ -6021,28 +6094,6 @@
       "summary": "The merge of PR 115610 ( https://github.com/grafana/grafana/pull/115610 ) to main initiates the process of decoupling plugin-related properties from GrafanaBootConfig . This change specifically targets config.apps and will be followed by the deprecation of config.panels and config.datasources in the ensuing months. The removal of config.apps from the @grafana/runtime package is projected to occur in Grafana 13.2 and PR 115610 is targeted for the 12.4 release of Grafana. What changed The config.apps property from the @grafana/runtime package is now marked as deprecated. Why we made this change This deprecation is necessary to facilitate the asynchronous loading of plugin-related metadata, ensuring they are initialized only when Grafana requires them. Who is affected Affected: Plugins or core Grafana code that access config.apps property from the @grafana/runtime package Not Affected: Plugins or core Grafana code that don’t access config.apps property from the @grafana/runtime package Action required (for plugin authors) Replace all accesses to the config.apps property with one of the ",
       "url": "https://community.grafana.com/t/deprecating-config-apps-in-grafana-runtime-package/161001",
       "date": "2026-01-14T07:08:42+00:00",
-      "project": "Grafana ecosystem",
-      "source": "Grafana plugin development community",
-      "category": "Community",
-      "content_type": "community"
-    },
-    {
-      "id": "3a3e8d71817fbfc8ba98",
-      "title": "GDG - Grafana Dash-n-grab tool 0.9.1 released",
-      "summary": "I meant to do this write up for 0.9.0 but my release script had a bit of a hiccup so here we go with 0.9.1 . GDG (Dash-N-Grab) has just been released. If you’re not familiar with it, it’s a tool that lets you manage various resources that grafana uses (dashboards, connections, folders, etc). It’s similar to grafanactl though it’s a bit more mature and uses some similar concepts (multiple contexts, resources, etc). GDG can backup your resources and can be used to manage and promote your entities from one environment to another. (I try not to promote it as a backup tool since grafana has a lot more than just the entities I support in the database) The latest version has better support for alerting and introduced plugin support . contact-points especially has data that I needed to track in version control that contained several sensitive information fields (token, passwords, web-hooks) that warranted the need for some encryption mechanisms. So the plugin system was introduced that allows you to use the plugins I wrote or the ability to easily swap it out with your own implementation. Co",
-      "url": "https://community.grafana.com/t/gdg-grafana-dash-n-grab-tool-0-9-1-released/160948",
-      "date": "2026-01-12T16:25:24+00:00",
-      "project": "Grafana ecosystem",
-      "source": "Grafana plugin development community",
-      "category": "Community",
-      "content_type": "community"
-    },
-    {
-      "id": "cabca3d2c60536248830",
-      "title": "Unable to make Sankey Chart Clickable",
-      "summary": "Hi Team, U have created a sankey panel using the business chart plugin with the below code: return { series: { type: 'sankey', layout: 'none', emphasis: { focus: 'adjacency' }, data: \\[ { name: 'a', }, { name: 'b' }, { name: 'a1' }, { name: 'a2' }, { name: 'b1' }, { name: 'c' } \\], links: \\[ { source: 'a', target: 'a1', value: 5 }, { source: 'a', target: 'a2', value: 3, }, { source: 'b', target: 'b1', value: 8 }, { source: 'a', target: 'b1', value: 3 }, { source: 'b1', target: 'a1', value: 1 }, { source: 'b1', target: 'c', value: 2 } \\] }, }; How can I make its links or nodes clickable so that I can add drill downs in it. 1 post - 1 participant Read full topic",
-      "url": "https://community.grafana.com/t/unable-to-make-sankey-chart-clickable/160931",
-      "date": "2026-01-12T12:09:22+00:00",
       "project": "Grafana ecosystem",
       "source": "Grafana plugin development community",
       "category": "Community",
