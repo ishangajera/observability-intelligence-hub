@@ -30,7 +30,7 @@ function draw(){
  let rows=[...items];
  if(view==="overview")rows=rows.slice(0,8);
  if(view==="triage")rows=rows.filter(x=>(triage(x)?.themes||[]).length>0);
- if(view==="releases")rows=rows.filter(x=>["Release","Component"].includes(x.category));
+ if(view==="releases")rows=rows.filter(x=>["Release","Component","Plugin"].includes(x.category));
  if(category)rows=rows.filter(x=>x.category===category);
  if(project)rows=rows.filter(x=>x.project===project);
  if(q)rows=rows.filter(x=>[x.title,x.summary,x.project,x.category,x.source,x.version,x.release_notes,triage(x)?.why_it_matters,(triage(x)?.themes||[]).map(t=>t.label).join(" ")].join(" ").toLowerCase().includes(q));
@@ -48,7 +48,7 @@ const views={
 overview:["OVERVIEW","Signal Desk<span>.</span>","Latest intelligence","A short front page of the newest signals. Open the feed for the complete archive."],
 feed:["INTELLIGENCE FEED","Intelligence feed<span>.</span>","All collected signals","Search and filter releases, new components, articles, community updates, and videos."],
 triage:["EDITORIAL TRIAGE","Editorial triage<span>.</span>","Items flagged for review","Only entries with explicit source-text matches appear here. Each item shows its own matched evidence and suggested review."],
-releases:["RELEASES & COMPONENTS","Releases<span>.</span>","Upstream releases and additions","Release notes, new Collector components, and ecosystem additions extracted from upstream sources."],
+releases:["RELEASES & COMPONENTS","Releases<span>.</span>","Upstream releases, components, and plugins","Release notes, new Collector components, Grafana plugin catalog additions and version changes."],
 sources:["SOURCE DIRECTORY","Source directory<span>.</span>","Configured source registry","The RSS, community, video, and GitHub release sources polled by the collection workflow."]
 };
 function change(next){
@@ -68,7 +68,7 @@ async function init(){
   ]);
   items=r[0].items||[];meta=r[1];intel=r[2];
   $("#status").textContent="OPERATIONAL";$("#last").textContent=meta.generated_at?"Last sync "+date(meta.generated_at):"Awaiting sync";
-  $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component"].includes(x.category)).length;
+  $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component","Plugin"].includes(x.category)).length;
   $("#sources").textContent=items.filter(x=>(triage(x)?.themes||[]).length>0).length;
   $("#synced").textContent=meta.generated_at?new Date(meta.generated_at).toLocaleString():"PENDING";
   $("#nav-count").textContent=items.length;$("#triage-count").textContent=items.filter(x=>(triage(x)?.themes||[]).length>0).length;

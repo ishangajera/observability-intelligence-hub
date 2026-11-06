@@ -8,6 +8,7 @@ Public, automatically refreshed observability engineering intelligence dashboard
 - New Collector receivers, processors, exporters, connectors, and extensions identified in release-note sections.
 - Technical articles and blog posts from Prometheus, OpenTelemetry, Grafana Labs, and CNCF.
 - Grafana plugin-development community announcements.
+- The public Grafana plugin catalog, with a daily baseline and subsequent new-plugin/version-change detection.
 - Videos from the official OpenTelemetry YouTube channel.
 
 ## Editorial triage
