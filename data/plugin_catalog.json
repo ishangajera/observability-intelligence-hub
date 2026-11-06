@@ -1,0 +1,3875 @@
+{
+  "generated_at": "2026-11-06T08:42:11.443622+00:00",
+  "plugins": {
+    "startree-pinot-datasource": {
+      "name": "StarTree Pinot",
+      "version": "1.1.5",
+      "type": "Data Source",
+      "description": "A comprehensive Grafana data source plugin for StarTree Pinot, enabling real-time analytics and visualization of your StarTree Pinot cluster data with support for time series, table, logs, traces, and annotations.",
+      "url": "https://grafana.com/grafana/plugins/startree-pinot-datasource/",
+      "repository": "https://github.com/startreedata/startree-grafana-pinot-datasource",
+      "created_at": "2025-11-11T10:10:43.000Z",
+      "updated_at": "2026-10-26T13:11:51.000Z"
+    },
+    "grafana-assistant-app": {
+      "name": "Grafana Assistant",
+      "version": "2.1.5",
+      "type": "Application",
+      "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
+      "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
+      "repository": "https://github.com/grafana/grafana-assistant-app",
+      "created_at": "2025-05-20T15:22:03.000Z",
+      "updated_at": "2026-11-05T09:43:37.000Z"
+    },
+    "yesoreyeram-infinity-datasource": {
+      "name": "Infinity",
+      "version": "4.1.6",
+      "type": "Data Source",
+      "description": "JSON API, CSV, TSV, XML, GraphQL, HTML, Google Sheets and HTTP/REST API datasource for Grafana. Do infinite things with Grafana. Transform data with UQL/GROQ. Visualize data from many apis including Amazon AWS, Microsoft Azure, Google Cloud / GCP and RSS/ATOM feeds directly. Also support visualizing logs and traces.",
+      "url": "https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/",
+      "repository": "https://github.com/grafana/grafana-infinity-datasource",
+      "created_at": "2020-11-19T17:14:10.000Z",
+      "updated_at": "2026-11-04T20:53:04.000Z"
+    },
+    "grafana-vercel-datasource": {
+      "name": "Vercel",
+      "version": "0.1.19-preview",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-vercel-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2025-01-31T19:09:38.000Z",
+      "updated_at": "2026-11-02T09:31:50.000Z"
+    },
+    "crestdata-dellemcpowerscale-datasource": {
+      "name": "Dell PowerScale",
+      "version": "1.0.7",
+      "type": "Data Source",
+      "description": "Dell PowerScale OneFS API datasource for Grafana. Query cluster statistics, node health, storage capacity, and performance metrics.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-dellemcpowerscale-datasource/",
+      "repository": "",
+      "created_at": "2026-04-23T09:16:15.000Z",
+      "updated_at": "2026-08-06T14:13:36.000Z"
+    },
+    "grafana-graphviz-panel": {
+      "name": "Graphviz",
+      "version": "0.0.7",
+      "type": "Panel",
+      "description": "Define flowcharts and diagrams as code with Graphviz DOT, connect your metrics, and visualize them in your choice of layouts without manual drawing! Perfect for technical architectures, business processes, flowcharts, and organizational structures. Diagrams update automatically with live data.",
+      "url": "https://grafana.com/grafana/plugins/grafana-graphviz-panel/",
+      "repository": "https://github.com/grafana/grafana-graphviz-panel",
+      "created_at": "2026-04-08T15:15:50.000Z",
+      "updated_at": "2026-08-17T20:37:38.000Z"
+    },
+    "phenisys-msteamsobservability-app": {
+      "name": "Microsoft Teams Observability",
+      "version": "1.2.1",
+      "type": "Application",
+      "description": "Observability app for Microsoft Teams call quality, users, sites, and issue insights.",
+      "url": "https://grafana.com/grafana/plugins/phenisys-msteamsobservability-app/",
+      "repository": "",
+      "created_at": "2026-06-24T15:39:36.000Z",
+      "updated_at": "2026-07-15T12:10:32.000Z"
+    },
+    "grafana-github-datasource": {
+      "name": "GitHub",
+      "version": "2.10.0",
+      "type": "Data Source",
+      "description": "The GitHub data source plugin for Grafana lets you to query the GitHub API in Grafana so you can visualize your GitHub repositories and projects.",
+      "url": "https://grafana.com/grafana/plugins/grafana-github-datasource/",
+      "repository": "https://github.com/grafana/github-datasource",
+      "created_at": "2020-09-11T04:02:59.000Z",
+      "updated_at": "2026-11-03T16:29:33.000Z"
+    },
+    "kensobi-spcboxplot-panel": {
+      "name": "SPC Box Plot",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Box-and-whisker plots with Xf-Rf control limits, outlier detection, and Cp/Cpk capability analysis.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spcboxplot-panel/",
+      "repository": "",
+      "created_at": "2026-04-14T13:28:58.000Z",
+      "updated_at": "2026-05-14T16:32:48.000Z"
+    },
+    "alertlist": {
+      "name": "Alert list",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Shows list of alerts and their current status",
+      "url": "https://grafana.com/grafana/plugins/alertlist/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2018-02-15T18:05:57.000Z",
+      "updated_at": "2025-04-10T10:38:32.000Z"
+    },
+    "alertmanager": {
+      "name": "Alertmanager",
+      "version": "5.0.0",
+      "type": "Data Source",
+      "description": "Add external Alertmanagers (supports Prometheus and Mimir implementations) so you can use the Grafana Alerting UI to manage silences, contact points, and notification policies.",
+      "url": "https://grafana.com/grafana/plugins/alertmanager/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:26.000Z",
+      "updated_at": "2025-04-10T10:37:38.000Z"
+    },
+    "annolist": {
+      "name": "Annotations list",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "List annotations",
+      "url": "https://grafana.com/grafana/plugins/annolist/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:31.000Z",
+      "updated_at": "2025-04-10T10:38:35.000Z"
+    },
+    "barchart": {
+      "name": "Bar chart",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Categorical charts with group support",
+      "url": "https://grafana.com/grafana/plugins/barchart/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:38:38.000Z"
+    },
+    "bargauge": {
+      "name": "Bar gauge",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Horizontal and vertical gauges",
+      "url": "https://grafana.com/grafana/plugins/bargauge/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:38:41.000Z"
+    },
+    "candlestick": {
+      "name": "Candlestick",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Graphical representation of price movements of a security, derivative, or currency.",
+      "url": "https://grafana.com/grafana/plugins/candlestick/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:38:44.000Z"
+    },
+    "dashlist": {
+      "name": "Dashboard list",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "List of dynamic links to other dashboards",
+      "url": "https://grafana.com/grafana/plugins/dashlist/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2025-04-10T10:38:50.000Z"
+    },
+    "debug": {
+      "name": "Debug",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Debug Panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/debug/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:38:53.000Z"
+    },
+    "gauge": {
+      "name": "Gauge",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Standard gauge visualization",
+      "url": "https://grafana.com/grafana/plugins/gauge/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:38:56.000Z"
+    },
+    "geomap": {
+      "name": "Geomap",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Geomap panel",
+      "url": "https://grafana.com/grafana/plugins/geomap/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:31.000Z",
+      "updated_at": "2025-04-10T10:38:59.000Z"
+    },
+    "graph": {
+      "name": "Graph (old)",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "The old default graph panel",
+      "url": "https://grafana.com/grafana/plugins/graph/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2025-03-24T13:20:01.000Z"
+    },
+    "heatmap": {
+      "name": "Heatmap",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Like a histogram over time",
+      "url": "https://grafana.com/grafana/plugins/heatmap/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2018-02-15T18:05:57.000Z",
+      "updated_at": "2025-04-10T10:39:02.000Z"
+    },
+    "histogram": {
+      "name": "Histogram",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Distribution of values presented as a bar chart.",
+      "url": "https://grafana.com/grafana/plugins/histogram/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:39:05.000Z"
+    },
+    "stat": {
+      "name": "Stat",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Big stat values & sparklines",
+      "url": "https://grafana.com/grafana/plugins/stat/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:31.000Z",
+      "updated_at": "2025-04-10T10:39:08.000Z"
+    },
+    "table": {
+      "name": "Table",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Supports many column styles",
+      "url": "https://grafana.com/grafana/plugins/table/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2025-04-10T10:39:11.000Z"
+    },
+    "grafana-testdata-datasource": {
+      "name": "TestData",
+      "version": "10.3.0-pre-6b4337a",
+      "type": "Data Source",
+      "description": "Generates test data in different forms",
+      "url": "https://grafana.com/grafana/plugins/grafana-testdata-datasource/",
+      "repository": "https://github.com/grafana/grafana/tree/main/public/app/plugins/datasource/grafana-testdata-datasource",
+      "created_at": "2023-11-02T10:20:14.000Z",
+      "updated_at": "2023-11-10T12:22:37.000Z"
+    },
+    "text": {
+      "name": "Text",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Supports markdown and html content",
+      "url": "https://grafana.com/grafana/plugins/text/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2025-04-10T10:39:14.000Z"
+    },
+    "timeseries": {
+      "name": "Time series",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Time based line, area and bar charts",
+      "url": "https://grafana.com/grafana/plugins/timeseries/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2025-04-10T10:39:17.000Z"
+    },
+    "xychart": {
+      "name": "XY Chart",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Supports arbitrary X vs Y in a graph to visualize the relationship between two variables.",
+      "url": "https://grafana.com/grafana/plugins/xychart/",
+      "repository": "https://github.com/grafana/grafana",
+      "created_at": "2022-06-23T14:29:28.000Z",
+      "updated_at": "2025-04-10T10:39:20.000Z"
+    },
+    "blackcowmoo-googleanalytics-datasource": {
+      "name": " Google Analytics",
+      "version": "0.3.2",
+      "type": "Data Source",
+      "description": "GoogleAnalytics Visualize & datasource",
+      "url": "https://grafana.com/grafana/plugins/blackcowmoo-googleanalytics-datasource/",
+      "repository": "https://github.com/blackcowmoo/grafana-google-analytics-datasource",
+      "created_at": "2022-04-26T12:45:23.000Z",
+      "updated_at": "2026-07-29T05:04:28.000Z"
+    },
+    "tcx-3cx-app": {
+      "name": "3CX",
+      "version": "1.0.5",
+      "type": "Application",
+      "description": "Seamless monitoring and analytics for your 3CX phone system",
+      "url": "https://grafana.com/grafana/plugins/tcx-3cx-app/",
+      "repository": "",
+      "created_at": "2025-08-21T10:01:34.000Z",
+      "updated_at": "2026-04-02T16:08:20.000Z"
+    },
+    "aceiot-svg-panel": {
+      "name": "ACE.SVG",
+      "version": "0.2.0",
+      "type": "Panel",
+      "description": "SVG Visualization Panel",
+      "url": "https://grafana.com/grafana/plugins/aceiot-svg-panel/",
+      "repository": "https://github.com/ACE-IoT-Solutions/ace-svg-react",
+      "created_at": "2020-09-01T14:46:44.000Z",
+      "updated_at": "2026-01-29T10:15:36.000Z"
+    },
+    "grafana-adobeanalytics-datasource": {
+      "name": "Adobe Analytics",
+      "version": "0.1.25-preview",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-adobeanalytics-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2024-07-09T14:29:12.000Z",
+      "updated_at": "2026-11-02T09:29:44.000Z"
+    },
+    "aggregations-io-datasource": {
+      "name": "Aggregations.io",
+      "version": "1.2.0",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/aggregations-io-datasource/",
+      "repository": "",
+      "created_at": "2023-12-05T10:49:16.000Z",
+      "updated_at": "2025-04-22T14:36:15.000Z"
+    },
+    "crestdata-akamai-datasource": {
+      "name": "Akamai",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for Akamai. Queries the Akamai SIEM Integration API for WAF/Bot/Client-Reputation security events and the Reporting API v2 for CDN traffic metrics using EdgeGrid HMAC-SHA-256 authentication.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-akamai-datasource/",
+      "repository": "",
+      "created_at": "2026-05-07T11:01:09.000Z",
+      "updated_at": "2026-05-07T12:24:48.000Z"
+    },
+    "ovhcloud-akvorado-datasource": {
+      "name": "Akvorado",
+      "version": "2.0.2",
+      "type": "Data Source",
+      "description": "Akvorado netflow data source using akvorado api",
+      "url": "https://grafana.com/grafana/plugins/ovhcloud-akvorado-datasource/",
+      "repository": "",
+      "created_at": "2025-01-10T15:04:08.000Z",
+      "updated_at": "2026-09-11T08:28:09.000Z"
+    },
+    "dzaczek-alpineclock-panel": {
+      "name": "Alpine Clock Panel",
+      "version": "1.5.4",
+      "type": "Panel",
+      "description": "The most geeky clock panel ever for Grafana: build a watch-style clock from hand geometry and numerals to bezel scales, subdials, segmented gauges, and transparent mechanical movement.",
+      "url": "https://grafana.com/grafana/plugins/dzaczek-alpineclock-panel/",
+      "repository": "https://github.com/dzaczek/grafana-alpine-clock-panel",
+      "created_at": "2026-05-15T12:41:57.000Z",
+      "updated_at": "2026-06-03T17:42:30.000Z"
+    },
+    "vertamedia-clickhouse-datasource": {
+      "name": "Altinity plugin for ClickHouse",
+      "version": "3.5.0",
+      "type": "Data Source",
+      "description": "Altinity Grafana datasource for ClickHouse",
+      "url": "https://grafana.com/grafana/plugins/vertamedia-clickhouse-datasource/",
+      "repository": "https://github.com/Altinity/clickhouse-grafana",
+      "created_at": "2017-03-01T09:52:51.000Z",
+      "updated_at": "2026-08-11T13:32:47.000Z"
+    },
+    "grafana-athena-datasource": {
+      "name": "Amazon Athena",
+      "version": "3.4.2",
+      "type": "Data Source",
+      "description": "Use Amazon Athena with Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-athena-datasource/",
+      "repository": "https://github.com/grafana/athena-datasource",
+      "created_at": "2021-11-24T08:55:41.000Z",
+      "updated_at": "2026-11-02T14:58:55.000Z"
+    },
+    "grafana-aurora-datasource": {
+      "name": "Amazon Aurora",
+      "version": "0.6.11",
+      "type": "Data Source",
+      "description": "Query and visualize AWS Aurora data with grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-aurora-datasource/",
+      "repository": "https://github.com/grafana/grafana-aurora-datasource",
+      "created_at": "2024-07-29T18:01:40.000Z",
+      "updated_at": "2026-11-02T15:20:22.000Z"
+    },
+    "grafana-amazonprometheus-datasource": {
+      "name": "Amazon Managed Service for Prometheus",
+      "version": "3.3.4",
+      "type": "Data Source",
+      "description": "Open source time series database & alerting",
+      "url": "https://grafana.com/grafana/plugins/grafana-amazonprometheus-datasource/",
+      "repository": "https://github.com/grafana/grafana-amazonprometheus-datasource",
+      "created_at": "2024-07-17T09:55:00.000Z",
+      "updated_at": "2026-10-29T14:47:25.000Z"
+    },
+    "grafana-redshift-datasource": {
+      "name": "Amazon Redshift",
+      "version": "2.5.8",
+      "type": "Data Source",
+      "description": "Use Amazon Redshift in Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-redshift-datasource/",
+      "repository": "https://github.com/grafana/redshift-datasource",
+      "created_at": "2021-11-24T08:37:47.000Z",
+      "updated_at": "2026-11-02T15:17:24.000Z"
+    },
+    "grafana-timestream-datasource": {
+      "name": "Amazon Timestream",
+      "version": "2.14.5",
+      "type": "Data Source",
+      "description": "Managed timeseries database from amazon",
+      "url": "https://grafana.com/grafana/plugins/grafana-timestream-datasource/",
+      "repository": "https://github.com/grafana/timestream-datasource",
+      "created_at": "2018-11-28T21:50:21.000Z",
+      "updated_at": "2026-11-04T16:52:11.000Z"
+    },
+    "macropower-analytics-panel": {
+      "name": "Analytics Panel",
+      "version": "2.1.0",
+      "type": "Panel",
+      "description": "It's like Google Analytics, but for Grafana dashboards!",
+      "url": "https://grafana.com/grafana/plugins/macropower-analytics-panel/",
+      "repository": "https://github.com/MacroPower/macropower-analytics-panel",
+      "created_at": "2019-12-20T08:50:05.000Z",
+      "updated_at": "2021-10-14T12:08:17.000Z"
+    },
+    "anodot-panel": {
+      "name": "Anodot",
+      "version": "2.0.1",
+      "type": "Panel",
+      "description": "Anodot Grafana Panel for usage together with anodot-datasource",
+      "url": "https://grafana.com/grafana/plugins/anodot-panel/",
+      "repository": "",
+      "created_at": "2021-04-14T12:17:03.000Z",
+      "updated_at": "2022-07-08T16:20:15.000Z"
+    },
+    "anodot-datasource": {
+      "name": "Anodot Datasource",
+      "version": "5.0.1",
+      "type": "Data Source",
+      "description": "Datasource for anodot-panel plugin",
+      "url": "https://grafana.com/grafana/plugins/anodot-datasource/",
+      "repository": "",
+      "created_at": "2021-04-14T12:16:57.000Z",
+      "updated_at": "2025-05-01T16:24:09.000Z"
+    },
+    "hadesarchitect-cassandra-datasource": {
+      "name": "Apache Cassandra",
+      "version": "3.3.0",
+      "type": "Data Source",
+      "description": "Apache Cassandra Datasource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/hadesarchitect-cassandra-datasource/",
+      "repository": "https://github.com/HadesArchitect/GrafanaCassandraDatasource",
+      "created_at": "2021-03-23T10:28:21.000Z",
+      "updated_at": "2026-06-30T12:59:21.000Z"
+    },
+    "apache-iotdb-datasource": {
+      "name": "Apache IoTDB",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "Apache IoTDB",
+      "url": "https://grafana.com/grafana/plugins/apache-iotdb-datasource/",
+      "repository": "https://github.com/apache/iotdb",
+      "created_at": "2023-06-02T11:39:20.000Z",
+      "updated_at": "2024-12-18T09:40:00.000Z"
+    },
+    "dlopes7-appdynamics-datasource": {
+      "name": "AppDynamics",
+      "version": "3.13.6",
+      "type": "Data Source",
+      "description": "AppDynamics datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/dlopes7-appdynamics-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2017-09-15T13:27:25.000Z",
+      "updated_at": "2026-10-29T13:50:17.000Z"
+    },
+    "esnet-arcdiagram-panel": {
+      "name": "Arc Diagram",
+      "version": "1.0.4",
+      "type": "Panel",
+      "description": "An arc diagram panel plugin for Grafana.",
+      "url": "https://grafana.com/grafana/plugins/esnet-arcdiagram-panel/",
+      "repository": "https://github.com/esnet/esnet-arcdiagram-panel",
+      "created_at": "2023-05-04T19:52:34.000Z",
+      "updated_at": "2023-12-11T16:44:45.000Z"
+    },
+    "consensys-asko11y-app": {
+      "name": "Ask O11y",
+      "version": "0.3.23",
+      "type": "Application",
+      "description": "AI-powered observability assistant with MCP integration. Query databases, analyze metrics, manage dashboards, and troubleshoot issues through natural language with 56+ integrated tools.",
+      "url": "https://grafana.com/grafana/plugins/consensys-asko11y-app/",
+      "repository": "https://github.com/Consensys/ask-o11y-plugin",
+      "created_at": "2026-03-13T11:53:42.000Z",
+      "updated_at": "2026-10-29T12:56:17.000Z"
+    },
+    "grafana-astradb-datasource": {
+      "name": "AstraDB",
+      "version": "1.0.11",
+      "type": "Data Source",
+      "description": "AstraDB datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-astradb-datasource/",
+      "repository": "https://github.com/grafana/astradb-datasource",
+      "created_at": "2022-09-06T18:49:23.000Z",
+      "updated_at": "2026-11-04T16:49:42.000Z"
+    },
+    "rocketcom-astrotheme-panel": {
+      "name": "Astro Theme",
+      "version": "1.1.1",
+      "type": "Panel",
+      "description": "An Astro UXDS theme for Grafana dashboards.",
+      "url": "https://grafana.com/grafana/plugins/rocketcom-astrotheme-panel/",
+      "repository": "https://github.com/RocketCommunicationsInc/grafana-theme",
+      "created_at": "2022-12-16T15:14:01.000Z",
+      "updated_at": "2025-03-26T11:04:59.000Z"
+    },
+    "grafana-atlassianstatuspage-datasource": {
+      "name": "Atlassian Statuspage",
+      "version": "1.0.8",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-atlassianstatuspage-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2024-08-09T18:44:11.000Z",
+      "updated_at": "2026-11-02T09:32:06.000Z"
+    },
+    "grafana-x-ray-datasource": {
+      "name": "AWS Application Signals",
+      "version": "2.17.7",
+      "type": "Data Source",
+      "description": "Data source for AWS Application Signals",
+      "url": "https://grafana.com/grafana/plugins/grafana-x-ray-datasource/",
+      "repository": "https://github.com/grafana/x-ray-datasource",
+      "created_at": "2020-09-28T17:55:09.000Z",
+      "updated_at": "2026-11-02T14:55:32.000Z"
+    },
+    "ivlabsdev-awscostexplorer-datasource": {
+      "name": "AWS Cost Explorer",
+      "version": "1.1.2",
+      "type": "Data Source",
+      "description": "Query AWS Cost Explorer directly with a visual query editor and server-side caching.",
+      "url": "https://grafana.com/grafana/plugins/ivlabsdev-awscostexplorer-datasource/",
+      "repository": "https://github.com/ivlabs-dev/grafana-aws-cost-explorer-datasource",
+      "created_at": "2026-09-17T13:55:28.000Z",
+      "updated_at": "2026-10-30T11:01:32.000Z"
+    },
+    "aws-datasource-provisioner-app": {
+      "name": "AWS Data Sources",
+      "version": "1.13.16",
+      "type": "Application",
+      "description": "AWS Datasource Provisioner",
+      "url": "https://grafana.com/grafana/plugins/aws-datasource-provisioner-app/",
+      "repository": "https://github.com/grafana/aws-datasource-provisioner-app",
+      "created_at": "2022-01-31T17:33:37.000Z",
+      "updated_at": "2026-10-29T14:37:48.000Z"
+    },
+    "grafana-iot-sitewise-datasource": {
+      "name": "AWS IoT SiteWise",
+      "version": "2.6.8",
+      "type": "Data Source",
+      "description": "A managed service to collect, store, organize and monitor data from industrial equipment",
+      "url": "https://grafana.com/grafana/plugins/grafana-iot-sitewise-datasource/",
+      "repository": "https://github.com/grafana/iot-sitewise-datasource",
+      "created_at": "2020-10-08T18:15:44.000Z",
+      "updated_at": "2026-11-02T15:16:29.000Z"
+    },
+    "grafana-iot-twinmaker-app": {
+      "name": "AWS IoT TwinMaker App",
+      "version": "2.1.5",
+      "type": "Application",
+      "description": "Create end-user 3D digital twin applications to monitor industrial operations with AWS IoT TwinMaker. AWS IoT TwinMaker is a service that makes it faster and easier for developers to create digital replicas of real-world systems, helping more customers realize the potential of digital twins to optimize operations.",
+      "url": "https://grafana.com/grafana/plugins/grafana-iot-twinmaker-app/",
+      "repository": "https://github.com/grafana/grafana-iot-twinmaker-app",
+      "created_at": "2021-11-19T19:10:51.000Z",
+      "updated_at": "2026-10-29T14:43:30.000Z"
+    },
+    "axiomhq-axiom-datasource": {
+      "name": "Axiom",
+      "version": "0.7.3",
+      "type": "Data Source",
+      "description": "Query Axiom through Grafana",
+      "url": "https://grafana.com/grafana/plugins/axiomhq-axiom-datasource/",
+      "repository": "https://github.com/axiomhq/axiom-grafana",
+      "created_at": "2023-05-16T15:09:26.000Z",
+      "updated_at": "2026-10-07T11:54:37.000Z"
+    },
+    "azure-monitor-app": {
+      "name": "Azure Cloud Native Monitoring",
+      "version": "0.0.3",
+      "type": "Application",
+      "description": "Monitor your Azure Cloud Native services",
+      "url": "https://grafana.com/grafana/plugins/azure-monitor-app/",
+      "repository": "",
+      "created_at": "2024-10-07T11:41:36.000Z",
+      "updated_at": "2025-02-06T19:48:34.000Z"
+    },
+    "grafana-azurecosmosdb-datasource": {
+      "name": "Azure Cosmos DB",
+      "version": "0.2.7",
+      "type": "Data Source",
+      "description": "A data source for Azure Cosmos DB",
+      "url": "https://grafana.com/grafana/plugins/grafana-azurecosmosdb-datasource/",
+      "repository": "https://github.com/grafana/azure-cosmosdb-datasource",
+      "created_at": "2024-05-08T20:10:00.000Z",
+      "updated_at": "2026-10-27T16:18:39.000Z"
+    },
+    "grafana-azure-data-explorer-datasource": {
+      "name": "Azure Data Explorer Datasource",
+      "version": "7.2.16",
+      "type": "Data Source",
+      "description": "Grafana data source for Azure Data Explorer",
+      "url": "https://grafana.com/grafana/plugins/grafana-azure-data-explorer-datasource/",
+      "repository": "https://github.com/grafana/azure-data-explorer-datasource",
+      "created_at": "2018-10-05T22:35:34.000Z",
+      "updated_at": "2026-10-29T18:58:03.000Z"
+    },
+    "grafana-azuredevops-datasource": {
+      "name": "Azure DevOps",
+      "version": "0.11.5",
+      "type": "Data Source",
+      "description": "The Grafana data source plugin for Azure DevOps",
+      "url": "https://grafana.com/grafana/plugins/grafana-azuredevops-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-10-12T17:43:35.000Z",
+      "updated_at": "2026-10-28T15:18:17.000Z"
+    },
+    "grafana-azure-monitor-datasource": {
+      "name": "Azure Monitor",
+      "version": "13.0.6",
+      "type": "Data Source",
+      "description": "Data source for Microsoft Azure Monitor & Application Insights",
+      "url": "https://grafana.com/grafana/plugins/grafana-azure-monitor-datasource/",
+      "repository": "https://github.com/grafana/grafana-azure-monitor-datasource",
+      "created_at": "2017-09-13T13:28:40.000Z",
+      "updated_at": "2026-11-05T19:10:07.000Z"
+    },
+    "grafana-azureprometheus-datasource": {
+      "name": "Azure Monitor Managed Service for Prometheus",
+      "version": "1.0.10",
+      "type": "Data Source",
+      "description": "Open source time series database & alerting",
+      "url": "https://grafana.com/grafana/plugins/grafana-azureprometheus-datasource/",
+      "repository": "https://github.com/grafana/azure-prometheus-datasource",
+      "created_at": "2025-04-09T11:34:08.000Z",
+      "updated_at": "2026-10-29T14:37:59.000Z"
+    },
+    "timomyl-breadcrumb-panel": {
+      "name": "Breadcrumb",
+      "version": "1.2.0",
+      "type": "Panel",
+      "description": "Breadcrumb Panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/timomyl-breadcrumb-panel/",
+      "repository": "https://github.com/timyllym/grafana-breadcrumb-panel",
+      "created_at": "2022-08-30T15:45:30.000Z",
+      "updated_at": "2022-09-02T08:36:08.000Z"
+    },
+    "digrich-bubblechart-panel": {
+      "name": "Bubble Chart",
+      "version": "2.0.1",
+      "type": "Panel",
+      "description": "Bubble chart panel",
+      "url": "https://grafana.com/grafana/plugins/digrich-bubblechart-panel/",
+      "repository": "https://github.com/digrich/bubblechart-panel",
+      "created_at": "2017-07-10T22:55:29.000Z",
+      "updated_at": "2024-01-25T10:29:44.000Z"
+    },
+    "netsage-bumpchart-panel": {
+      "name": "Bump Chart Panel",
+      "version": "2.0.0",
+      "type": "Panel",
+      "description": "Bump Chart Panel Plugin",
+      "url": "https://grafana.com/grafana/plugins/netsage-bumpchart-panel/",
+      "repository": "https://github.com/netsage-project/netsage-bumpchart-panel",
+      "created_at": "2022-08-15T09:24:30.000Z",
+      "updated_at": "2026-05-08T09:39:42.000Z"
+    },
+    "marcusolsson-calendar-panel": {
+      "name": "Business Calendar",
+      "version": "4.2.4",
+      "type": "Panel",
+      "description": "Displays events in a sleek calendar view, pulling from diverse data sources for seamless integration",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-calendar-panel/",
+      "repository": "https://github.com/grafana/business-calendar",
+      "created_at": "2021-02-10T09:46:38.000Z",
+      "updated_at": "2026-05-21T17:05:20.000Z"
+    },
+    "volkovlabs-echarts-panel": {
+      "name": "Business Charts",
+      "version": "7.3.0",
+      "type": "Panel",
+      "description": "Powerful visualizations powered by Apache ECharts.",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-echarts-panel/",
+      "repository": "https://github.com/grafana/business-charts",
+      "created_at": "2022-08-12T13:06:21.000Z",
+      "updated_at": "2026-11-03T13:53:51.000Z"
+    },
+    "volkovlabs-form-panel": {
+      "name": "Business Forms",
+      "version": "6.3.6",
+      "type": "Panel",
+      "description": "Insert, update application data, and modify configuration",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-form-panel/",
+      "repository": "https://github.com/grafana/business-forms",
+      "created_at": "2022-08-10T17:54:21.000Z",
+      "updated_at": "2026-11-03T18:28:24.000Z"
+    },
+    "marcusolsson-static-datasource": {
+      "name": "Business Input",
+      "version": "6.1.1",
+      "type": "Data Source",
+      "description": "Simulates and manages data with JavaScript and LLM, offering flexible control",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-static-datasource/",
+      "repository": "https://github.com/grafana/business-input",
+      "created_at": "2020-08-05T13:00:32.000Z",
+      "updated_at": "2026-04-27T09:10:14.000Z"
+    },
+    "volkovlabs-links-panel": {
+      "name": "Business Links",
+      "version": "2.7.0",
+      "type": "Panel",
+      "description": "Streamlines navigation with external links, dashboards, and dropdowns.",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-links-panel/",
+      "repository": "https://github.com/grafana/business-links",
+      "created_at": "2025-04-25T07:15:37.000Z",
+      "updated_at": "2026-06-26T07:21:57.000Z"
+    },
+    "volkovlabs-image-panel": {
+      "name": "Business Media",
+      "version": "7.3.4",
+      "type": "Panel",
+      "description": "Display Base64 encoded and URL media files",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-image-panel/",
+      "repository": "https://github.com/grafana/business-media",
+      "created_at": "2021-05-27T13:19:32.000Z",
+      "updated_at": "2026-11-03T18:28:27.000Z"
+    },
+    "volkovlabs-rss-datasource": {
+      "name": "Business News",
+      "version": "4.4.1",
+      "type": "Data Source",
+      "description": "Visualize RSS/Atom feeds",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-rss-datasource/",
+      "repository": "https://github.com/grafana/business-news",
+      "created_at": "2022-01-11T15:55:14.000Z",
+      "updated_at": "2026-05-21T21:18:29.000Z"
+    },
+    "volkovlabs-grapi-datasource": {
+      "name": "Business Satellite",
+      "version": "3.6.0",
+      "type": "Data Source",
+      "description": "Connect to Local and Remote Grafana instances",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-grapi-datasource/",
+      "repository": "https://github.com/volkovlabs/business-satellite",
+      "created_at": "2023-03-14T16:40:41.000Z",
+      "updated_at": "2025-07-16T12:14:13.000Z"
+    },
+    "volkovlabs-table-panel": {
+      "name": "Business Table",
+      "version": "3.6.9",
+      "type": "Panel",
+      "description": "Simplifies data presentation with intuitive table layouts",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-table-panel/",
+      "repository": "https://github.com/grafana/business-table",
+      "created_at": "2024-08-13T12:33:40.000Z",
+      "updated_at": "2026-11-03T13:52:50.000Z"
+    },
+    "marcusolsson-dynamictext-panel": {
+      "name": "Business Text",
+      "version": "6.3.1",
+      "type": "Panel",
+      "description": "Data-driven text with Markdown and Handlebars support",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-dynamictext-panel/",
+      "repository": "https://github.com/grafana/business-text",
+      "created_at": "2020-08-30T13:39:46.000Z",
+      "updated_at": "2026-11-03T20:07:33.000Z"
+    },
+    "volkovlabs-variable-panel": {
+      "name": "Business Variable",
+      "version": "5.2.0",
+      "type": "Panel",
+      "description": "Enhances dashboards with movable, standalone filter panels for dynamic control.",
+      "url": "https://grafana.com/grafana/plugins/volkovlabs-variable-panel/",
+      "repository": "https://github.com/volkovlabs/business-variable",
+      "created_at": "2023-07-06T12:33:05.000Z",
+      "updated_at": "2026-05-22T19:07:34.000Z"
+    },
+    "speakyourcode-button-panel": {
+      "name": "Button Panel",
+      "version": "0.3.2",
+      "type": "Panel",
+      "description": "Grafana button control panel",
+      "url": "https://grafana.com/grafana/plugins/speakyourcode-button-panel/",
+      "repository": "https://github.com/speakyourcode/grafana-button-panel",
+      "created_at": "2020-08-11T16:02:45.000Z",
+      "updated_at": "2022-12-16T11:07:28.000Z"
+    },
+    "tim012432-calendarheatmap-panel": {
+      "name": "Calendar Heatmap",
+      "version": "1.2.1",
+      "type": "Panel",
+      "description": "Shows a calendar heatmap panel similar to GitHub contribution graphs.",
+      "url": "https://grafana.com/grafana/plugins/tim012432-calendarheatmap-panel/",
+      "repository": "https://github.com/tim0-12432/calendar-heatmap-panel",
+      "created_at": "2026-01-20T11:47:03.000Z",
+      "updated_at": "2026-10-26T15:32:09.000Z"
+    },
+    "canvas": {
+      "name": "Canvas",
+      "version": "13.4.0",
+      "type": "Panel",
+      "description": "Explicit element placement",
+      "url": "https://grafana.com/grafana/plugins/canvas/",
+      "repository": "https://github.com/grafana/grafana-canvas-panel",
+      "created_at": "2022-06-23T14:29:32.000Z",
+      "updated_at": "2026-10-22T19:03:47.000Z"
+    },
+    "grafana-catchpoint-datasource": {
+      "name": "Catchpoint",
+      "version": "0.1.16-preview",
+      "type": "Data Source",
+      "description": "Catchpoint data source plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-catchpoint-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2024-06-11T19:16:12.000Z",
+      "updated_at": "2026-11-02T09:30:46.000Z"
+    },
+    "esara-causely-app": {
+      "name": "Causely",
+      "version": "1.1.8",
+      "type": "Application",
+      "description": "Causely App for Grafana provides real-time service health monitoring and insights. Track service dependencies, health status, and performance metrics in a unified dashboard.",
+      "url": "https://grafana.com/grafana/plugins/esara-causely-app/",
+      "repository": "",
+      "created_at": "2025-04-03T09:55:48.000Z",
+      "updated_at": "2026-10-27T14:39:00.000Z"
+    },
+    "sebastiangunreben-cdf-panel": {
+      "name": "CDF - Cumulative Distribution Function",
+      "version": "0.3.0",
+      "type": "Panel",
+      "description": "Panel for CDF visualizations",
+      "url": "https://grafana.com/grafana/plugins/sebastiangunreben-cdf-panel/",
+      "repository": "https://en.wikipedia.org/wiki/Cumulative_distribution_function",
+      "created_at": "2021-07-06T16:37:23.000Z",
+      "updated_at": "2024-12-04T12:22:04.000Z"
+    },
+    "chaosmeshorg-datasource": {
+      "name": "Chaos Mesh",
+      "version": "3.0.0",
+      "type": "Data Source",
+      "description": "Grafana data source plugin for Chaos Mesh (A Chaos Engineering Platform for Kubernetes)",
+      "url": "https://grafana.com/grafana/plugins/chaosmeshorg-datasource/",
+      "repository": "https://github.com/chaos-mesh/datasource",
+      "created_at": "2022-05-13T16:05:57.000Z",
+      "updated_at": "2024-01-08T14:22:05.000Z"
+    },
+    "corpglory-chartwerk-panel": {
+      "name": "Chartwerk",
+      "version": "0.5.1",
+      "type": "Panel",
+      "description": "Chartwerk panel with extended chart customization",
+      "url": "https://grafana.com/grafana/plugins/corpglory-chartwerk-panel/",
+      "repository": "https://gitlab.com/chartwerk/grafana-chartwerk-panel",
+      "created_at": "2022-06-03T11:27:04.000Z",
+      "updated_at": "2024-04-17T14:53:35.000Z"
+    },
+    "checkmk-cloud-datasource": {
+      "name": "Checkmk data source",
+      "version": "4.1.1",
+      "type": "Data Source",
+      "description": "Checkmk data source for Checkmk 2.2.0 or higher",
+      "url": "https://grafana.com/grafana/plugins/checkmk-cloud-datasource/",
+      "repository": "https://github.com/Checkmk/grafana-checkmk-datasource",
+      "created_at": "2023-06-08T12:08:19.000Z",
+      "updated_at": "2026-06-09T14:41:59.000Z"
+    },
+    "crestdata-ciscoasa-datasource": {
+      "name": "Cisco ASA",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Monitor Cisco ASA (Adaptive Security Appliance) firewalls via read-only show commands over the ASA HTTP(S) exec interface.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-ciscoasa-datasource/",
+      "repository": "",
+      "created_at": "2026-08-14T16:16:03.000Z",
+      "updated_at": "2026-08-21T14:04:36.000Z"
+    },
+    "crestdata-ciscoise-datasource": {
+      "name": "Cisco ISE",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "The Cisco ISE Data Source Plugin enables querying and visualization of Cisco Identity Services Engine (ISE) data in Grafana, including session observability, infrastructure health monitoring, certificate lifecycle, network policy auditing, and security posture.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-ciscoise-datasource/",
+      "repository": "",
+      "created_at": "2026-07-22T11:22:00.000Z",
+      "updated_at": "2026-08-20T14:56:31.000Z"
+    },
+    "crestdata-ciscomeraki-datasource": {
+      "name": "Cisco Meraki",
+      "version": "1.2.0",
+      "type": "Data Source",
+      "description": "Query Cisco Meraki Dashboard API data in Grafana: device availability and status, device memory and CPU, power supplies, network and security events, clients, wireless statistics, switch ports, appliance uplinks and site-to-site VPN performance.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-ciscomeraki-datasource/",
+      "repository": "",
+      "created_at": "2026-05-07T06:37:17.000Z",
+      "updated_at": "2026-10-26T16:08:58.000Z"
+    },
+    "crestdata-citrixcloud-datasource": {
+      "name": "Citrix Cloud",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Query Citrix Cloud platform data — system logs, administrators, Cloud Connectors, licensing, notifications, and resource locations.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-citrixcloud-datasource/",
+      "repository": "",
+      "created_at": "2026-09-14T11:00:57.000Z",
+      "updated_at": "2026-09-24T12:11:58.000Z"
+    },
+    "crestdata-citrixdaas-datasource": {
+      "name": "Citrix DaaS",
+      "version": "1.0.5",
+      "type": "Data Source",
+      "description": "Query Citrix DaaS (Citrix Cloud) session, application, and infrastructure data — Monitor OData analytics and Broker REST live state.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-citrixdaas-datasource/",
+      "repository": "",
+      "created_at": "2026-08-14T16:16:26.000Z",
+      "updated_at": "2026-09-28T10:55:15.000Z"
+    },
+    "timurdigital-claudestats-app": {
+      "name": "Claude Code Stats",
+      "version": "1.1.0",
+      "type": "Application",
+      "description": "Team usage analytics for Claude Code powered by OpenTelemetry",
+      "url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/",
+      "repository": "https://github.com/tolzhabayev/claudestats-app-grafana",
+      "created_at": "2026-01-29T07:45:00.000Z",
+      "updated_at": "2026-04-17T11:49:45.000Z"
+    },
+    "grafana-clickhouse-datasource": {
+      "name": "ClickHouse",
+      "version": "4.23.4",
+      "type": "Data Source",
+      "description": "ClickHouse datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-clickhouse-datasource/",
+      "repository": "https://github.com/grafana/clickhouse-datasource",
+      "created_at": "2021-12-09T19:18:13.000Z",
+      "updated_at": "2026-10-30T02:45:50.000Z"
+    },
+    "grafana-clock-panel": {
+      "name": "Clock",
+      "version": "3.2.5",
+      "type": "Panel",
+      "description": "Clock panel for grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-clock-panel/",
+      "repository": "https://github.com/grafana/clock-panel",
+      "created_at": "2016-03-31T13:09:33.000Z",
+      "updated_at": "2026-11-02T20:46:13.000Z"
+    },
+    "grafana-cloudflare-datasource": {
+      "name": "Cloudflare",
+      "version": "0.2.9-preview",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for Cloudflare",
+      "url": "https://grafana.com/grafana/plugins/grafana-cloudflare-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2024-02-22T17:59:43.000Z",
+      "updated_at": "2026-11-02T09:30:00.000Z"
+    },
+    "cloudwatch": {
+      "name": "CloudWatch",
+      "version": "12.11.2",
+      "type": "Data Source",
+      "description": "Data source for Amazon AWS monitoring service",
+      "url": "https://grafana.com/grafana/plugins/cloudwatch/",
+      "repository": "https://github.com/grafana/grafana-cloudwatch-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-10-27T13:45:46.000Z"
+    },
+    "computest-cloudwatchalarm-datasource": {
+      "name": "CloudWatch Alarm",
+      "version": "2.0.1",
+      "type": "Data Source",
+      "description": "Data source for Amazon AWS CloudWatch Alarm status",
+      "url": "https://grafana.com/grafana/plugins/computest-cloudwatchalarm-datasource/",
+      "repository": "https://github.com/computestdev/grafana-cloudwatchalarm-datasource",
+      "created_at": "2022-09-07T07:26:41.000Z",
+      "updated_at": "2024-10-04T10:47:26.000Z"
+    },
+    "cnos-cnosdb-datasource": {
+      "name": "CnosDB",
+      "version": "0.5.2",
+      "type": "Data Source",
+      "description": "A grafana data source plugin for CnosDB.",
+      "url": "https://grafana.com/grafana/plugins/cnos-cnosdb-datasource/",
+      "repository": "https://github.com/cnosdb/cnosdb",
+      "created_at": "2023-08-01T11:40:15.000Z",
+      "updated_at": "2023-09-01T02:35:51.000Z"
+    },
+    "grafana-cockroachdb-datasource": {
+      "name": "CockroachDB",
+      "version": "0.4.11",
+      "type": "Data Source",
+      "description": "A data source for CockroachDB",
+      "url": "https://grafana.com/grafana/plugins/grafana-cockroachdb-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2024-08-01T17:11:54.000Z",
+      "updated_at": "2026-10-28T15:20:29.000Z"
+    },
+    "cognitedata-datasource": {
+      "name": "Cognite Data Fusion",
+      "version": "4.6.0",
+      "type": "Data Source",
+      "description": "Cognite Data Fusion datasource",
+      "url": "https://grafana.com/grafana/plugins/cognitedata-datasource/",
+      "repository": "https://github.com/cognitedata/cognite-grafana-datasource",
+      "created_at": "2019-03-01T01:02:51.000Z",
+      "updated_at": "2026-10-21T07:28:29.000Z"
+    },
+    "snuids-svg-panel": {
+      "name": "Colored SVG Panel",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "A panel that displays values as colored svg images",
+      "url": "https://grafana.com/grafana/plugins/snuids-svg-panel/",
+      "repository": "https://github.com/snuids/grafana-svg-panel",
+      "created_at": "2021-03-03T14:52:47.000Z",
+      "updated_at": "2021-03-22T11:07:52.000Z"
+    },
+    "zestairlove-compacthostmap-panel": {
+      "name": "Compact Hostmap Panel",
+      "version": "0.9.2",
+      "type": "Panel",
+      "description": "Grafana Compact Hostmap Panel Plugin",
+      "url": "https://grafana.com/grafana/plugins/zestairlove-compacthostmap-panel/",
+      "repository": "https://github.com/zestairlove/compact-hostmap-panel",
+      "created_at": "2022-06-03T12:33:35.000Z",
+      "updated_at": "2024-01-19T09:11:30.000Z"
+    },
+    "leoswing-comparequeries-datasource": {
+      "name": "CompareQueries",
+      "version": "2.2.1",
+      "type": "Data Source",
+      "description": "Grafana plugin built as a datasource plugin that combines and contrasts different time shifts data.",
+      "url": "https://grafana.com/grafana/plugins/leoswing-comparequeries-datasource/",
+      "repository": "https://github.com/leoswing/comparequeries-datasource-rc",
+      "created_at": "2024-07-03T11:55:46.000Z",
+      "updated_at": "2026-09-18T08:36:58.000Z"
+    },
+    "integrationmatters-comparison-panel": {
+      "name": "Comparison Panel",
+      "version": "1.1.0",
+      "type": "Panel",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/integrationmatters-comparison-panel/",
+      "repository": "",
+      "created_at": "2021-07-13T08:41:39.000Z",
+      "updated_at": "2021-07-15T11:31:19.000Z"
+    },
+    "oceandatatools-compass-panel": {
+      "name": "Compass",
+      "version": "2.2.0",
+      "type": "Panel",
+      "description": "A dynamic compass panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/oceandatatools-compass-panel/",
+      "repository": "https://github.com/OceanDataTools/grafana-compass-panel",
+      "created_at": "2025-09-08T11:26:59.000Z",
+      "updated_at": "2026-09-16T11:15:22.000Z"
+    },
+    "monitorcloudops-convertify-panel": {
+      "name": "Convertify",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Convertify is a Grafana panel plugin for visualizing time-series data in binary or hexadecimal format, with support for bitfield-based analysis and column filtering. Perfect for monitoring and analyzing data from industrial systems, IoT devices, or control systems.",
+      "url": "https://grafana.com/grafana/plugins/monitorcloudops-convertify-panel/",
+      "repository": "",
+      "created_at": "2025-01-28T15:23:59.000Z",
+      "updated_at": "2025-02-05T18:04:09.000Z"
+    },
+    "cpacket-cclearutilitybundle-app": {
+      "name": "cPacket Utility Bundle",
+      "version": "6.1.3",
+      "type": "Application",
+      "description": "Grafana plugin allowing to download pcap files, collect packet analytics for specified data ranges from cPacket devices, and to import a list of dashboards for network observability.",
+      "url": "https://grafana.com/grafana/plugins/cpacket-cclearutilitybundle-app/",
+      "repository": "",
+      "created_at": "2023-10-27T02:19:47.000Z",
+      "updated_at": "2026-09-17T11:19:54.000Z"
+    },
+    "criblcloud-search-datasource": {
+      "name": "Cribl Search",
+      "version": "1.1.6",
+      "type": "Data Source",
+      "description": "Cribl Search",
+      "url": "https://grafana.com/grafana/plugins/criblcloud-search-datasource/",
+      "repository": "",
+      "created_at": "2024-05-31T10:25:41.000Z",
+      "updated_at": "2026-10-06T09:06:03.000Z"
+    },
+    "marcusolsson-csv-datasource": {
+      "name": "CSV",
+      "version": "1.0.7",
+      "type": "Data Source",
+      "description": "A data source for loading CSV data",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-csv-datasource/",
+      "repository": "https://github.com/grafana/grafana-csv-datasource",
+      "created_at": "2020-11-28T18:10:00.000Z",
+      "updated_at": "2026-10-30T19:06:53.000Z"
+    },
+    "grafana-cube-datasource": {
+      "name": "Cube",
+      "version": "0.6.5",
+      "type": "Data Source",
+      "description": "Connect Grafana to Cube for semantic layer analytics. Query measures and dimensions, apply filters, and visualize your data.",
+      "url": "https://grafana.com/grafana/plugins/grafana-cube-datasource/",
+      "repository": "https://github.com/grafana/grafana-cube-datasource",
+      "created_at": "2025-09-29T12:01:31.000Z",
+      "updated_at": "2026-08-21T15:14:55.000Z"
+    },
+    "ekacnet-cubismgrafana-panel": {
+      "name": "Cubism Graph",
+      "version": "0.1.6",
+      "type": "Panel",
+      "description": "A panel to display cubism like graph in grafana",
+      "url": "https://grafana.com/grafana/plugins/ekacnet-cubismgrafana-panel/",
+      "repository": "",
+      "created_at": "2024-05-28T09:00:58.000Z",
+      "updated_at": "2026-06-04T15:41:54.000Z"
+    },
+    "briangann-gauge-panel": {
+      "name": "D3 Gauge",
+      "version": "2.2.0",
+      "type": "Panel",
+      "description": "D3-based Gauge panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/briangann-gauge-panel/",
+      "repository": "https://github.com/briangann/grafana-gauge-panel",
+      "created_at": "2016-10-05T18:17:21.000Z",
+      "updated_at": "2026-04-22T14:01:54.000Z"
+    },
+    "grafana-databricks-datasource": {
+      "name": "Databricks",
+      "version": "1.14.19",
+      "type": "Data Source",
+      "description": "Databricks datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-databricks-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2022-06-29T19:22:36.000Z",
+      "updated_at": "2026-11-04T03:50:43.000Z"
+    },
+    "grafana-datadog-datasource": {
+      "name": "Datadog",
+      "version": "3.17.8",
+      "type": "Data Source",
+      "description": "Datadog datasource plugin for Grafana. Grafana Data dog datasource plugin",
+      "url": "https://grafana.com/grafana/plugins/grafana-datadog-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2017-04-11T21:18:38.000Z",
+      "updated_at": "2026-09-23T18:24:18.000Z"
+    },
+    "sentinelone-dataset-datasource": {
+      "name": "Dataset",
+      "version": "3.1.7",
+      "type": "Data Source",
+      "description": "Scalyr Observability Platform",
+      "url": "https://grafana.com/grafana/plugins/sentinelone-dataset-datasource/",
+      "repository": "https://github.com/scalyr/scalyr-grafana-datasource-plugin",
+      "created_at": "2022-04-26T17:20:39.000Z",
+      "updated_at": "2025-09-26T11:50:52.000Z"
+    },
+    "briangann-datatable-panel": {
+      "name": "Datatable Panel",
+      "version": "2.0.2",
+      "type": "Panel",
+      "description": "A table panel built on top of datatables.net",
+      "url": "https://grafana.com/grafana/plugins/briangann-datatable-panel/",
+      "repository": "https://github.com/briangann/grafana-datatable-panel",
+      "created_at": "2016-12-20T09:57:06.000Z",
+      "updated_at": "2025-07-03T12:26:01.000Z"
+    },
+    "dbeast-dbeastmonitor-app": {
+      "name": "DBeast Monitor for Elastic Stack",
+      "version": "2.1.2",
+      "type": "Application",
+      "description": "DBeast Monitor is a Grafana plugin for monitoring, troubleshooting, and optimizing the Elastic Stack.",
+      "url": "https://grafana.com/grafana/plugins/dbeast-dbeastmonitor-app/",
+      "repository": "https://github.com/dbeast-co/dbeast-monitor",
+      "created_at": "2025-10-28T14:49:40.000Z",
+      "updated_at": "2026-10-20T06:41:37.000Z"
+    },
+    "jdbranham-diagram-panel": {
+      "name": "Diagram",
+      "version": "1.10.4",
+      "type": "Panel",
+      "description": "Display diagrams and charts with colored metric indicators",
+      "url": "https://grafana.com/grafana/plugins/jdbranham-diagram-panel/",
+      "repository": "https://github.com/jdbranham/grafana-diagram",
+      "created_at": "2016-09-30T07:04:59.000Z",
+      "updated_at": "2024-04-22T13:19:55.000Z"
+    },
+    "digitalrcs-timeoverlay-panel": {
+      "name": "DigitalRCS-TimeOverlay-Panel",
+      "version": "1.2.0",
+      "type": "Panel",
+      "description": "Interactive time-series panel with printable duration selections and movable notes.",
+      "url": "https://grafana.com/grafana/plugins/digitalrcs-timeoverlay-panel/",
+      "repository": "https://github.com/digitalrcs/DigitalRCS-TimeOverlay-Panel",
+      "created_at": "2026-09-18T13:55:05.000Z",
+      "updated_at": "2026-10-15T14:08:05.000Z"
+    },
+    "doitintl-doitcloudintelligence-datasource": {
+      "name": "DoiT Cloud Intelligence",
+      "version": "1.1.4",
+      "type": "Data Source",
+      "description": "Visualize DoiT Cloud Intelligence cost analytics in Grafana. Run saved Cloud Analytics reports or ad-hoc cost queries against the DoiT API.",
+      "url": "https://grafana.com/grafana/plugins/doitintl-doitcloudintelligence-datasource/",
+      "repository": "https://github.com/doitintl/grafana-cloud-intelligence-plugin",
+      "created_at": "2026-10-06T12:29:16.000Z",
+      "updated_at": "2026-10-07T08:30:47.000Z"
+    },
+    "cesnet-dp3-app": {
+      "name": "DP³",
+      "version": "0.1.1",
+      "type": "Application",
+      "description": "CESNET DP³ plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/cesnet-dp3-app/",
+      "repository": "https://github.com/CESNET/dp3",
+      "created_at": "2023-10-27T20:43:12.000Z",
+      "updated_at": "2024-11-08T11:55:04.000Z"
+    },
+    "grafana-drone-datasource": {
+      "name": "Drone",
+      "version": "0.1.13-preview",
+      "type": "Data Source",
+      "description": "A data source for drone",
+      "url": "https://grafana.com/grafana/plugins/grafana-drone-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2020-11-11T18:06:37.000Z",
+      "updated_at": "2026-11-02T09:30:57.000Z"
+    },
+    "grafadruid-druid-datasource": {
+      "name": "Druid",
+      "version": "1.8.0",
+      "type": "Data Source",
+      "description": "Connects Grafana to Druid",
+      "url": "https://grafana.com/grafana/plugins/grafadruid-druid-datasource/",
+      "repository": "https://github.com/grafadruid/druid-grafana",
+      "created_at": "2021-04-30T08:37:02.000Z",
+      "updated_at": "2026-04-30T10:40:46.000Z"
+    },
+    "dalvany-image-panel": {
+      "name": "Dynamic image panel",
+      "version": "5.0.0",
+      "type": "Panel",
+      "description": "Concatenate a metric to an URL in order to display an image",
+      "url": "https://grafana.com/grafana/plugins/dalvany-image-panel/",
+      "repository": "https://github.com/Dalvany/dalvany-image-panel",
+      "created_at": "2020-06-29T15:12:00.000Z",
+      "updated_at": "2026-03-04T17:47:22.000Z"
+    },
+    "grafana-dynamodb-datasource": {
+      "name": "DynamoDB",
+      "version": "2.5.3",
+      "type": "Data Source",
+      "description": "DynamoDB datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-dynamodb-datasource/",
+      "repository": "https://github.com/grafana/dynamodb-datasource",
+      "created_at": "2024-03-21T18:19:50.000Z",
+      "updated_at": "2026-10-27T16:06:00.000Z"
+    },
+    "grafana-dynatrace-datasource": {
+      "name": "Dynatrace",
+      "version": "3.27.8",
+      "type": "Data Source",
+      "description": "Dynatrace datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-dynatrace-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2018-04-04T17:41:07.000Z",
+      "updated_at": "2026-09-23T18:23:49.000Z"
+    },
+    "elasticsearch": {
+      "name": "Elasticsearch",
+      "version": "12.9.5",
+      "type": "Data Source",
+      "description": "Open source logging & analytics database",
+      "url": "https://grafana.com/grafana/plugins/elasticsearch/",
+      "repository": "https://github.com/grafana/grafana-elasticsearch-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-11-02T17:02:08.000Z"
+    },
+    "embraceio-metric-app": {
+      "name": "Embrace",
+      "version": "1.5.0",
+      "type": "Application",
+      "description": "Mobile and web observability and data platform that empowers teams to deliver optimal user experiences",
+      "url": "https://grafana.com/grafana/plugins/embraceio-metric-app/",
+      "repository": "",
+      "created_at": "2022-12-21T09:24:16.000Z",
+      "updated_at": "2026-01-28T14:53:27.000Z"
+    },
+    "larona-epict-panel": {
+      "name": "ePict Panel",
+      "version": "2.0.6",
+      "type": "Panel",
+      "description": "Enter the URL of the image you want, and add some metrics on it.",
+      "url": "https://grafana.com/grafana/plugins/larona-epict-panel/",
+      "repository": "https://github.com/LucasArona/larona-epict-panel",
+      "created_at": "2018-11-20T22:44:08.000Z",
+      "updated_at": "2023-04-21T09:30:35.000Z"
+    },
+    "esnet-chord-panel": {
+      "name": "ESnet Chord",
+      "version": "1.0.5",
+      "type": "Panel",
+      "description": "ESnet Chord Panel Plugin for Grafana 8.3 and newer",
+      "url": "https://grafana.com/grafana/plugins/esnet-chord-panel/",
+      "repository": "https://github.com/esnet/grafana-esnet-chord-panel",
+      "created_at": "2022-08-15T09:29:12.000Z",
+      "updated_at": "2024-04-09T16:04:19.000Z"
+    },
+    "esnet-matrix-panel": {
+      "name": "ESnet Matrix Panel",
+      "version": "2.1.0",
+      "type": "Panel",
+      "description": "Matrix Panel Plugin that allows comparison of two non-timeseries categories",
+      "url": "https://grafana.com/grafana/plugins/esnet-matrix-panel/",
+      "repository": "https://github.com/esnet/esnet-matrix-panel",
+      "created_at": "2022-11-09T16:32:51.000Z",
+      "updated_at": "2026-06-04T14:10:33.000Z"
+    },
+    "factry-historian-datasource": {
+      "name": "Factry Historian Datasource",
+      "version": "4.0.1",
+      "type": "Data Source",
+      "description": "A datasource plugin for Factry Historian. Requires Factry Historian v7.3.0 or later.",
+      "url": "https://grafana.com/grafana/plugins/factry-historian-datasource/",
+      "repository": "https://github.com/factrylabs/factry-historian-datasource",
+      "created_at": "2024-06-07T09:51:48.000Z",
+      "updated_at": "2026-09-14T08:51:24.000Z"
+    },
+    "grafana-falconlogscale-datasource": {
+      "name": "Falcon LogScale",
+      "version": "1.10.7",
+      "type": "Data Source",
+      "description": "Falcon LogScale data source for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-falconlogscale-datasource/",
+      "repository": "https://github.com/grafana/falconlogscale-datasource",
+      "created_at": "2023-05-08T14:16:02.000Z",
+      "updated_at": "2026-11-04T16:46:23.000Z"
+    },
+    "siostech-fiap-datasource": {
+      "name": "fiap",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "This is a grafana data source that uses ieee1888(a.k.a FIAP)",
+      "url": "https://grafana.com/grafana/plugins/siostech-fiap-datasource/",
+      "repository": "https://github.com/SIOS-Technology-Inc/grafana-fiap-datasource",
+      "created_at": "2025-04-24T11:24:30.000Z",
+      "updated_at": "2025-05-15T07:05:11.000Z"
+    },
+    "clarity89-finnhub-datasource": {
+      "name": "Finnhub",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Finnhub Data Source",
+      "url": "https://grafana.com/grafana/plugins/clarity89-finnhub-datasource/",
+      "repository": "https://github.com/Clarity-89/grafana-finnhub",
+      "created_at": "2020-08-07T06:03:36.000Z",
+      "updated_at": "2026-10-07T12:34:35.000Z"
+    },
+    "pgollangi-firestore-datasource": {
+      "name": "Firestore",
+      "version": "0.2.6",
+      "type": "Data Source",
+      "description": "Google firestore datasource plugin for grafana",
+      "url": "https://grafana.com/grafana/plugins/pgollangi-firestore-datasource/",
+      "repository": "",
+      "created_at": "2022-12-29T11:10:53.000Z",
+      "updated_at": "2023-11-17T13:49:20.000Z"
+    },
+    "andrewbmchugh-flow-panel": {
+      "name": "Flow",
+      "version": "1.20.1",
+      "type": "Panel",
+      "description": "Svg flowchart visualization",
+      "url": "https://grafana.com/grafana/plugins/andrewbmchugh-flow-panel/",
+      "repository": "https://github.com/andymchugh/andrewbmchugh-flow-panel",
+      "created_at": "2024-02-21T10:42:29.000Z",
+      "updated_at": "2025-12-15T15:54:26.000Z"
+    },
+    "verticle-flowhook-datasource": {
+      "name": "Flowhook Webhooks Datasource",
+      "version": "0.1.3",
+      "type": "Data Source",
+      "description": "Consume webhook payloads, map and route them into your Grafana Logs panel.",
+      "url": "https://grafana.com/grafana/plugins/verticle-flowhook-datasource/",
+      "repository": "https://github.com/verticle-io/flowhook-datasource",
+      "created_at": "2020-11-19T10:50:55.000Z",
+      "updated_at": "2022-01-05T15:20:49.000Z"
+    },
+    "anilhut-flowx-panel": {
+      "name": "FlowX",
+      "version": "2.3.1",
+      "type": "Panel",
+      "description": "Flow charting visualization",
+      "url": "https://grafana.com/grafana/plugins/anilhut-flowx-panel/",
+      "repository": "",
+      "created_at": "2024-10-08T11:20:59.000Z",
+      "updated_at": "2026-10-06T08:27:52.000Z"
+    },
+    "crestdata-fortigate-datasource": {
+      "name": "FortiGate",
+      "version": "1.0.6",
+      "type": "Data Source",
+      "description": "FortiGate datasource for Grafana. Query and visualize security logs including traffic, UTM (antivirus, webfilter), and event logs from FortiGate devices through the REST API.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-fortigate-datasource/",
+      "repository": "https://github.com/jignesh-crest/crestdata-fortigate-datasource",
+      "created_at": "2026-04-23T09:16:37.000Z",
+      "updated_at": "2026-06-02T16:02:48.000Z"
+    },
+    "foxglovedev-foxglove-datasource": {
+      "name": "Foxglove",
+      "version": "0.0.10",
+      "type": "Data Source",
+      "description": "Query Foxglove telemetry data from Grafana dashboards.",
+      "url": "https://grafana.com/grafana/plugins/foxglovedev-foxglove-datasource/",
+      "repository": "",
+      "created_at": "2026-07-23T11:23:14.000Z",
+      "updated_at": "2026-09-24T13:33:05.000Z"
+    },
+    "iosb-sensorthings-datasource": {
+      "name": "FROST SensorThings API Plugin",
+      "version": "0.0.5",
+      "type": "Data Source",
+      "description": "A data source plugin for loading data from OGC SensorThings APIs into Grafana.",
+      "url": "https://grafana.com/grafana/plugins/iosb-sensorthings-datasource/",
+      "repository": "https://github.com/FraunhoferIOSB/frost-sensorthings-datasource",
+      "created_at": "2021-09-15T13:44:49.000Z",
+      "updated_at": "2023-08-03T11:34:18.000Z"
+    },
+    "mckn-funnel-panel": {
+      "name": "Funnel",
+      "version": "2.1.3",
+      "type": "Panel",
+      "description": "Visualize how data moves through a process",
+      "url": "https://grafana.com/grafana/plugins/mckn-funnel-panel/",
+      "repository": "https://github.com/mckn/grafana-funnel-panel",
+      "created_at": "2023-08-24T09:48:35.000Z",
+      "updated_at": "2026-11-04T11:20:32.000Z"
+    },
+    "marcusolsson-gantt-panel": {
+      "name": "Gantt",
+      "version": "0.8.1",
+      "type": "Panel",
+      "description": "Tasks and processes over time",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-gantt-panel/",
+      "repository": "https://github.com/marcusolsson/grafana-gantt-panel",
+      "created_at": "2021-01-08T14:32:09.000Z",
+      "updated_at": "2022-07-05T09:38:48.000Z"
+    },
+    "arabian9ts-gcpstatus-datasource": {
+      "name": "GCP Status",
+      "version": "0.1.0",
+      "type": "Data Source",
+      "description": "Load GCP incident logs from the status page",
+      "url": "https://grafana.com/grafana/plugins/arabian9ts-gcpstatus-datasource/",
+      "repository": "",
+      "created_at": "2023-09-28T10:06:32.000Z",
+      "updated_at": "2023-10-06T09:03:44.000Z"
+    },
+    "felixrelleum-geomapwms-panel": {
+      "name": "Geomap Panel WMS",
+      "version": "2.0.3",
+      "type": "Panel",
+      "description": "Display data on top of a OGC WMS 1.3.0 base map layer",
+      "url": "https://grafana.com/grafana/plugins/felixrelleum-geomapwms-panel/",
+      "repository": "https://github.com/felix-mu/geomap-wms-panel",
+      "created_at": "2024-05-29T10:17:41.000Z",
+      "updated_at": "2026-06-11T10:11:47.000Z"
+    },
+    "grafana-gitlab-datasource": {
+      "name": "GitLab",
+      "version": "3.0.9",
+      "type": "Data Source",
+      "description": "GitLab datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-gitlab-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-02-18T22:24:27.000Z",
+      "updated_at": "2026-10-28T15:18:30.000Z"
+    },
+    "gizmodata-gizmosql-datasource": {
+      "name": "GizmoSQL",
+      "version": "1.9.0",
+      "type": "Data Source",
+      "description": "GizmoSQL data source plugin - connect to GizmoSQL via Arrow Flight SQL",
+      "url": "https://grafana.com/grafana/plugins/gizmodata-gizmosql-datasource/",
+      "repository": "https://github.com/gizmodata/grafana-gizmosql-datasource",
+      "created_at": "2026-02-27T10:54:55.000Z",
+      "updated_at": "2026-07-30T08:15:45.000Z"
+    },
+    "grafana-bigquery-datasource": {
+      "name": "Google BigQuery",
+      "version": "3.4.8",
+      "type": "Data Source",
+      "description": "Google BigQuery datasource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-bigquery-datasource/",
+      "repository": "https://github.com/grafana/google-bigquery-datasource",
+      "created_at": "2022-01-13T13:35:17.000Z",
+      "updated_at": "2026-10-30T14:44:34.000Z"
+    },
+    "googlecloud-logging-datasource": {
+      "name": "Google Cloud Logging",
+      "version": "1.8.1",
+      "type": "Data Source",
+      "description": "A Grafana data source plugin for querying and visualizing logs from Google Cloud Logging.",
+      "url": "https://grafana.com/grafana/plugins/googlecloud-logging-datasource/",
+      "repository": "https://github.com/GoogleCloudPlatform/cloud-logging-data-source-plugin",
+      "created_at": "2023-02-01T15:06:34.000Z",
+      "updated_at": "2026-09-16T08:38:30.000Z"
+    },
+    "stackdriver": {
+      "name": "Google Cloud Monitoring",
+      "version": "12.6.4",
+      "type": "Data Source",
+      "description": "Data source for Google's monitoring service (formerly named Stackdriver)",
+      "url": "https://grafana.com/grafana/plugins/stackdriver/",
+      "repository": "https://github.com/grafana/grafana-cloudmonitoring-datasource",
+      "created_at": "2018-10-10T22:45:43.000Z",
+      "updated_at": "2026-10-27T15:32:59.000Z"
+    },
+    "googlecloud-trace-datasource": {
+      "name": "Google Cloud Trace",
+      "version": "1.4.0",
+      "type": "Data Source",
+      "description": "A Grafana data source plugin for querying and visualizing traces from Google Cloud Trace.",
+      "url": "https://grafana.com/grafana/plugins/googlecloud-trace-datasource/",
+      "repository": "https://github.com/GoogleCloudPlatform/cloud-trace-data-source-plugin",
+      "created_at": "2023-06-20T08:59:39.000Z",
+      "updated_at": "2026-07-20T14:54:40.000Z"
+    },
+    "grafana-googlesheets-datasource": {
+      "name": "Google Sheets",
+      "version": "2.7.4",
+      "type": "Data Source",
+      "description": "The Google Sheets data source plugin for Grafana lets you to visualize your Google spreadsheets in Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-googlesheets-datasource/",
+      "repository": "https://github.com/grafana/google-sheets-datasource",
+      "created_at": "2020-03-20T15:03:54.000Z",
+      "updated_at": "2026-10-30T14:43:29.000Z"
+    },
+    "grafana-advisor-app": {
+      "name": "Grafana Advisor",
+      "version": "1.1.2",
+      "type": "Application",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-advisor-app/",
+      "repository": "https://github.com/grafana/grafana-advisor-app",
+      "created_at": "2025-02-21T11:31:30.000Z",
+      "updated_at": "2026-11-05T15:33:49.000Z"
+    },
+    "grafana-enterprise-logs-app": {
+      "name": "Grafana Enterprise Logs",
+      "version": "7.1.0",
+      "type": "Application",
+      "description": "Manage Grafana Enterprise Logs (GEL) - a commercial offering for highly-scalable, simple and reliable logs clusters based on Loki (OSS).",
+      "url": "https://grafana.com/grafana/plugins/grafana-enterprise-logs-app/",
+      "repository": "https://github.com/grafana/gex-plugins/",
+      "created_at": "2021-02-17T14:15:16.000Z",
+      "updated_at": "2026-10-26T18:47:49.000Z"
+    },
+    "grafana-metrics-enterprise-app": {
+      "name": "Grafana Enterprise Metrics",
+      "version": "7.1.0",
+      "type": "Application",
+      "description": "Manage Grafana Enterprise Metrics (GEM) - a commercial offering for highly-scalable, simple and reliable traces clusters based on Mimir (OSS).",
+      "url": "https://grafana.com/grafana/plugins/grafana-metrics-enterprise-app/",
+      "repository": "https://github.com/grafana/gex-plugins/",
+      "created_at": "2020-09-21T20:30:41.000Z",
+      "updated_at": "2026-10-26T18:47:42.000Z"
+    },
+    "grafana-enterprise-traces-app": {
+      "name": "Grafana Enterprise Traces",
+      "version": "7.1.0",
+      "type": "Application",
+      "description": "Manage Grafana Enterprise Traces (GET) - a commercial offering for highly-scalable, simple and reliable traces clusters based on Tempo (OSS).",
+      "url": "https://grafana.com/grafana/plugins/grafana-enterprise-traces-app/",
+      "repository": "https://github.com/grafana/gex-plugins/",
+      "created_at": "2021-11-09T14:53:07.000Z",
+      "updated_at": "2026-10-26T18:47:55.000Z"
+    },
+    "digitalrcs-intelligencegateway-panel": {
+      "name": "Grafana Intelligence Gateway",
+      "version": "1.1.1",
+      "type": "Panel",
+      "description": "Assess panel query data, reviewed dashboard captures, or uploaded images with local or hosted AI. Connect through the required DigitalRCS secure AI data source.",
+      "url": "https://grafana.com/grafana/plugins/digitalrcs-intelligencegateway-panel/",
+      "repository": "https://github.com/DigitalRCS/grafana-intelligence-gateway",
+      "created_at": "2026-10-30T11:54:36.000Z",
+      "updated_at": "2026-10-30T17:42:45.000Z"
+    },
+    "grafana-lokiexplore-app": {
+      "name": "Grafana Logs Drilldown",
+      "version": "3.1.0",
+      "type": "Application",
+      "description": "Visualize log volumes to easily detect anomalies or significant changes over time, without needing to compose LogQL queries.",
+      "url": "https://grafana.com/grafana/plugins/grafana-lokiexplore-app/",
+      "repository": "https://github.com/grafana/logs-drilldown",
+      "created_at": "2024-04-02T12:08:58.000Z",
+      "updated_at": "2026-10-26T16:50:19.000Z"
+    },
+    "grafana-metricsdrilldown-app": {
+      "name": "Grafana Metrics Drilldown",
+      "version": "3.1.0",
+      "type": "Application",
+      "description": "Quickly find related metrics with a few clicks, without needing to write PromQL queries to retrieve metrics.",
+      "url": "https://grafana.com/grafana/plugins/grafana-metricsdrilldown-app/",
+      "repository": "https://github.com/grafana/metrics-drilldown",
+      "created_at": "2025-02-20T10:51:44.000Z",
+      "updated_at": "2026-10-28T19:05:30.000Z"
+    },
+    "grafana-pyroscope-app": {
+      "name": "Grafana Profiles Drilldown",
+      "version": "3.1.0",
+      "type": "Application",
+      "description": "View and analyze high-level service performance, identify problem processes for optimization, and diagnose issues to determine root causes.",
+      "url": "https://grafana.com/grafana/plugins/grafana-pyroscope-app/",
+      "repository": "https://github.com/grafana/profiles-drilldown",
+      "created_at": "2024-06-21T21:49:00.000Z",
+      "updated_at": "2026-10-27T06:18:41.000Z"
+    },
+    "grafana-pyroscope-datasource": {
+      "name": "Grafana Pyroscope",
+      "version": "13.0.10",
+      "type": "Data Source",
+      "description": "Data source for Grafana Pyroscope, horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system.",
+      "url": "https://grafana.com/grafana/plugins/grafana-pyroscope-datasource/",
+      "repository": "https://github.com/grafana/grafana-pyroscope-datasource",
+      "created_at": "2023-09-13T12:32:29.000Z",
+      "updated_at": "2026-11-02T15:24:24.000Z"
+    },
+    "grafana-exploretraces-app": {
+      "name": "Grafana Traces Drilldown",
+      "version": "3.2.0",
+      "type": "Application",
+      "description": "Use Rate, Errors, and Duration (RED) metrics derived from traces to investigate errors within complex distributed systems.",
+      "url": "https://grafana.com/grafana/plugins/grafana-exploretraces-app/",
+      "repository": "https://github.com/grafana/traces-drilldown",
+      "created_at": "2024-09-20T14:04:16.000Z",
+      "updated_at": "2026-11-03T12:39:39.000Z"
+    },
+    "jaops-yamcs-app": {
+      "name": "Grafana Yamcs JAOPS",
+      "version": "1.0.8",
+      "type": "Application",
+      "description": "A comprehensive Grafana plugin to connect to Yamcs servers for real-time telemetry visualization and commanding capabilities. Designed for mission control centers, aerospace applications and beyond.",
+      "url": "https://grafana.com/grafana/plugins/jaops-yamcs-app/",
+      "repository": "https://github.com/jaops-space/grafana-yamcs-jaops",
+      "created_at": "2026-02-03T13:18:15.000Z",
+      "updated_at": "2026-07-03T09:02:43.000Z"
+    },
+    "neildengg-grafmaid-panel": {
+      "name": "Grafmaid",
+      "version": "1.0.6",
+      "type": "Panel",
+      "description": "Render Mermaid.js diagrams in Grafana with live data from queries, dashboard variables, and threshold-based styling",
+      "url": "https://grafana.com/grafana/plugins/neildengg-grafmaid-panel/",
+      "repository": "https://github.com/neildeng/grafana-grafmaid",
+      "created_at": "2026-04-03T18:19:04.000Z",
+      "updated_at": "2026-04-15T13:22:55.000Z"
+    },
+    "graphite": {
+      "name": "Graphite",
+      "version": "12.4.4",
+      "type": "Data Source",
+      "description": "Open source time series database",
+      "url": "https://grafana.com/grafana/plugins/graphite/",
+      "repository": "https://github.com/grafana/grafana-graphite-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-10-27T16:05:57.000Z"
+    },
+    "groonga-datasource": {
+      "name": "Groonga",
+      "version": "1.1.4",
+      "type": "Data Source",
+      "description": "Groonga datasource",
+      "url": "https://grafana.com/grafana/plugins/groonga-datasource/",
+      "repository": "https://github.com/groonga/grafana-datasource-plugin-groonga",
+      "created_at": "2020-11-20T14:46:19.000Z",
+      "updated_at": "2021-01-07T08:14:07.000Z"
+    },
+    "svennergr-hackerone-datasource": {
+      "name": "hackerone-datasource",
+      "version": "1.0.4",
+      "type": "Data Source",
+      "description": "Plugin to import HackerOne information into Grafana.",
+      "url": "https://grafana.com/grafana/plugins/svennergr-hackerone-datasource/",
+      "repository": "https://github.com/svennergr/hackerone-datasource",
+      "created_at": "2022-09-01T13:51:31.000Z",
+      "updated_at": "2022-09-02T07:25:32.000Z"
+    },
+    "harperfast-harper-datasource": {
+      "name": "Harper",
+      "version": "0.2.0",
+      "type": "Data Source",
+      "description": "Data source plugin for Harper",
+      "url": "https://grafana.com/grafana/plugins/harperfast-harper-datasource/",
+      "repository": "",
+      "created_at": "2025-10-13T15:47:36.000Z",
+      "updated_at": "2026-06-26T08:33:05.000Z"
+    },
+    "needleinajaystack-haystack-datasource": {
+      "name": "Haystack",
+      "version": "0.0.28",
+      "type": "Data Source",
+      "description": "A Grafana data source for Haystack tagged data",
+      "url": "https://grafana.com/grafana/plugins/needleinajaystack-haystack-datasource/",
+      "repository": "",
+      "created_at": "2023-05-15T14:20:16.000Z",
+      "updated_at": "2026-06-10T14:04:46.000Z"
+    },
+    "helindata-connectdatahub-datasource": {
+      "name": "Helin Connect Data Hub",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Helin data source for Connect Data Hub databases",
+      "url": "https://grafana.com/grafana/plugins/helindata-connectdatahub-datasource/",
+      "repository": "",
+      "created_at": "2026-09-30T17:38:34.000Z",
+      "updated_at": "2026-10-01T19:53:07.000Z"
+    },
+    "apricote-hcloud-datasource": {
+      "name": "Hetzner Cloud",
+      "version": "0.3.0",
+      "type": "Data Source",
+      "description": "Display metrics for your Hetzner Cloud Servers and Load Balancers.",
+      "url": "https://grafana.com/grafana/plugins/apricote-hcloud-datasource/",
+      "repository": "https://github.com/apricote/grafana-hcloud-datasource",
+      "created_at": "2024-01-12T09:08:46.000Z",
+      "updated_at": "2024-04-30T12:45:36.000Z"
+    },
+    "grafana-honeycomb-datasource": {
+      "name": "Honeycomb",
+      "version": "2.15.13",
+      "type": "Data Source",
+      "description": "Honeycomb datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-honeycomb-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-06-21T14:49:11.000Z",
+      "updated_at": "2026-10-29T13:52:28.000Z"
+    },
+    "taminomara-hostoverview-panel": {
+      "name": "Host Overview",
+      "version": "1.2.0",
+      "type": "Panel",
+      "description": "Visualize your resources in a compact table with powerful tooltips and grouping",
+      "url": "https://grafana.com/grafana/plugins/taminomara-hostoverview-panel/",
+      "repository": "https://github.com/taminomara/grafana-host-overview-panel",
+      "created_at": "2026-03-31T09:56:27.000Z",
+      "updated_at": "2026-06-10T14:38:52.000Z"
+    },
+    "marcusolsson-hourly-heatmap-panel": {
+      "name": "Hourly heatmap",
+      "version": "2.0.1",
+      "type": "Panel",
+      "description": "Heatmap for the hours of the day",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-hourly-heatmap-panel/",
+      "repository": "https://github.com/marcusolsson/grafana-hourly-heatmap-panel",
+      "created_at": "2020-06-16T11:53:17.000Z",
+      "updated_at": "2022-07-05T09:38:57.000Z"
+    },
+    "hpehpc-grafanaclusterview-panel": {
+      "name": "HPE Clusterview",
+      "version": "1.3.2",
+      "type": "Panel",
+      "description": "A high density view of large amounts of data focused on high performance computing",
+      "url": "https://grafana.com/grafana/plugins/hpehpc-grafanaclusterview-panel/",
+      "repository": "https://github.com/HewlettPackard/hpe-grafana-clusterview-panel",
+      "created_at": "2024-05-06T13:25:42.000Z",
+      "updated_at": "2024-05-29T07:55:49.000Z"
+    },
+    "gapit-htmlgraphics-panel": {
+      "name": "HTML graphics",
+      "version": "2.2.3",
+      "type": "Panel",
+      "description": "Grafana panel for displaying metric sensitive HTML and SVG graphics",
+      "url": "https://grafana.com/grafana/plugins/gapit-htmlgraphics-panel/",
+      "repository": "https://github.com/gapitio/gapit-htmlgraphics-panel",
+      "created_at": "2020-11-19T10:48:10.000Z",
+      "updated_at": "2025-11-12T13:03:21.000Z"
+    },
+    "hydrolix-hydrolix-datasource": {
+      "name": "Hydrolix",
+      "version": "0.13.0",
+      "type": "Data Source",
+      "description": "Hydrolix data source for Grafana",
+      "url": "https://grafana.com/grafana/plugins/hydrolix-hydrolix-datasource/",
+      "repository": "https://github.com/hydrolix/grafana-datasource-plugin",
+      "created_at": "2025-04-18T11:16:27.000Z",
+      "updated_at": "2026-10-26T12:39:39.000Z"
+    },
+    "grafana-ibmdb2-datasource": {
+      "name": "IBM Db2",
+      "version": "2.5.7",
+      "type": "Data Source",
+      "description": "Connect to IBM Db2 databases and query your data using SQL.",
+      "url": "https://grafana.com/grafana/plugins/grafana-ibmdb2-datasource/",
+      "repository": "https://github.com/grafana/jdbc-sql-datasource-generator",
+      "created_at": "2026-01-26T10:25:46.000Z",
+      "updated_at": "2026-10-28T14:31:33.000Z"
+    },
+    "ibm-rmf-app": {
+      "name": "IBM RMF",
+      "version": "2.0.2",
+      "type": "Application",
+      "description": "IBM® RMF for z/OS Grafana Plugin",
+      "url": "https://grafana.com/grafana/plugins/ibm-rmf-app/",
+      "repository": "https://github.com/IBM/RMF",
+      "created_at": "2026-07-14T09:48:50.000Z",
+      "updated_at": "2026-09-18T16:02:58.000Z"
+    },
+    "rocketsoftware-omegamon-app": {
+      "name": "IBM Z OMEGAMON",
+      "version": "2.2.1",
+      "type": "Application",
+      "description": "Grafana plugin for IBM Z OMEGAMON",
+      "url": "https://grafana.com/grafana/plugins/rocketsoftware-omegamon-app/",
+      "repository": "",
+      "created_at": "2025-11-10T16:41:52.000Z",
+      "updated_at": "2026-08-28T15:08:05.000Z"
+    },
+    "mesak-imagesave-panel": {
+      "name": "Image Save",
+      "version": "1.0.4",
+      "type": "Panel",
+      "description": "save image to grafana",
+      "url": "https://grafana.com/grafana/plugins/mesak-imagesave-panel/",
+      "repository": "",
+      "created_at": "2023-07-04T16:38:26.000Z",
+      "updated_at": "2024-12-03T10:06:48.000Z"
+    },
+    "innorenew-iaq-panel": {
+      "name": "Indoor air quality floor plan",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Displays air quality information on a floor plan.",
+      "url": "https://grafana.com/grafana/plugins/innorenew-iaq-panel/",
+      "repository": "",
+      "created_at": "2024-06-06T10:46:48.000Z",
+      "updated_at": "2024-06-07T14:04:00.000Z"
+    },
+    "tailosstg-map-panel": {
+      "name": "Indoor Map",
+      "version": "1.2.2",
+      "type": "Panel",
+      "description": "Visualize image files for indoor maps.",
+      "url": "https://grafana.com/grafana/plugins/tailosstg-map-panel/",
+      "repository": "",
+      "created_at": "2023-08-30T22:24:13.000Z",
+      "updated_at": "2023-12-12T12:14:12.000Z"
+    },
+    "influxdb": {
+      "name": "InfluxDB",
+      "version": "13.1.10",
+      "type": "Data Source",
+      "description": "Data source for InfluxDB, an open source time series database",
+      "url": "https://grafana.com/grafana/plugins/influxdb/",
+      "repository": "https://github.com/grafana/grafana-influxdb-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-10-29T19:03:02.000Z"
+    },
+    "crestdata-infobloxuddi-datasource": {
+      "name": "Infoblox Universal DDI",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "The Infoblox Universal DDI datasource plugin enables Grafana to query and visualize DNS, DHCP, and IPAM data from Infoblox Universal DDI (BloxOne DDI) in real time.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-infobloxuddi-datasource/",
+      "repository": "",
+      "created_at": "2026-09-16T10:52:46.000Z",
+      "updated_at": "2026-09-24T12:08:42.000Z"
+    },
+    "instana-datasource": {
+      "name": "Instana",
+      "version": "5.2.0",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for Instana: Automatic Infrastructure and Application Monitoring",
+      "url": "https://grafana.com/grafana/plugins/instana-datasource/",
+      "repository": "https://github.com/instana/instana-grafana-datasource",
+      "created_at": "2018-03-13T17:32:06.000Z",
+      "updated_at": "2026-10-26T09:34:32.000Z"
+    },
+    "digitalrcs-intelligencegateway-datasource": {
+      "name": "Intelligence Gateway Secure AI",
+      "version": "1.1.2",
+      "type": "Data Source",
+      "description": "Secure companion for Intelligence Gateway data and image assessments. Connect to local or hosted AI with server-side credentials and administrator request policies.",
+      "url": "https://grafana.com/grafana/plugins/digitalrcs-intelligencegateway-datasource/",
+      "repository": "https://github.com/digitalrcs/grafana-intelligence-gateway-datasource",
+      "created_at": "2026-10-30T11:54:21.000Z",
+      "updated_at": "2026-10-30T17:42:09.000Z"
+    },
+    "grafana-pathfinder-app": {
+      "name": "Interactive learning",
+      "version": "2.25.0",
+      "type": "Application",
+      "description": "Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
+      "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
+      "repository": "https://github.com/grafana/grafana-pathfinder-app",
+      "created_at": "2025-10-13T11:29:42.000Z",
+      "updated_at": "2026-10-29T21:35:05.000Z"
+    },
+    "equansdatahub-tree-panel": {
+      "name": "Interactive Tree Panel",
+      "version": "1.7.7",
+      "type": "Panel",
+      "description": "View data, from a table data source, as a interactive tree like structure",
+      "url": "https://grafana.com/grafana/plugins/equansdatahub-tree-panel/",
+      "repository": "",
+      "created_at": "2023-10-18T14:55:25.000Z",
+      "updated_at": "2026-05-08T09:47:09.000Z"
+    },
+    "itrs-analytics-datasource": {
+      "name": "ITRS Analytics",
+      "version": "3.4.2",
+      "type": "Data Source",
+      "description": "Data source for ITRS Analytics platform",
+      "url": "https://grafana.com/grafana/plugins/itrs-analytics-datasource/",
+      "repository": "",
+      "created_at": "2025-11-11T13:20:08.000Z",
+      "updated_at": "2026-10-02T13:19:47.000Z"
+    },
+    "antreklabs-iyzitrace-app": {
+      "name": "IyziTrace",
+      "version": "1.1.0",
+      "type": "Application",
+      "description": "A comprehensive observability platform for distributed tracing, service map visualization, log analysis, exception tracking, and AI-powered insights.",
+      "url": "https://grafana.com/grafana/plugins/antreklabs-iyzitrace-app/",
+      "repository": "https://github.com/antreklabs/iyzitrace-releases",
+      "created_at": "2026-08-04T10:06:33.000Z",
+      "updated_at": "2026-09-09T12:25:11.000Z"
+    },
+    "jaeger": {
+      "name": "Jaeger",
+      "version": "13.0.8",
+      "type": "Data Source",
+      "description": "Open source, end-to-end distributed tracing",
+      "url": "https://grafana.com/grafana/plugins/jaeger/",
+      "repository": "https://github.com/grafana/grafana-jaeger-datasource",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2026-11-02T19:14:07.000Z"
+    },
+    "grafana-jenkins-datasource": {
+      "name": "Jenkins",
+      "version": "1.1.3-preview",
+      "type": "Data Source",
+      "description": "Jenkins datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-jenkins-datasource/",
+      "repository": "https://github.com/grafana/jenkins-datasource",
+      "created_at": "2025-06-25T17:00:21.000Z",
+      "updated_at": "2026-10-27T22:12:28.000Z"
+    },
+    "grafana-jira-datasource": {
+      "name": "Jira",
+      "version": "2.7.15",
+      "type": "Data Source",
+      "description": "Jira datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-jira-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-01-06T20:57:23.000Z",
+      "updated_at": "2026-10-29T13:53:09.000Z"
+    },
+    "marcusolsson-json-datasource": {
+      "name": "JSON API",
+      "version": "1.4.4",
+      "type": "Data Source",
+      "description": "A data source plugin for loading JSON APIs into Grafana.",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-json-datasource/",
+      "repository": "https://github.com/grafana/grafana-json-datasource",
+      "created_at": "2020-09-22T08:26:30.000Z",
+      "updated_at": "2026-10-29T22:46:38.000Z"
+    },
+    "nagasudhirpulla-api-datasource": {
+      "name": "JSON Fetcher",
+      "version": "1.2.4",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/nagasudhirpulla-api-datasource/",
+      "repository": "https://github.com/nagasudhirpulla/grafana-api-backend-datasource",
+      "created_at": "2022-12-23T12:26:46.000Z",
+      "updated_at": "2023-01-12T09:35:01.000Z"
+    },
+    "hamedkarbasi93-kafka-datasource": {
+      "name": "Kafka",
+      "version": "1.10.0",
+      "type": "Data Source",
+      "description": "Kafka Datasource Plugin",
+      "url": "https://grafana.com/grafana/plugins/hamedkarbasi93-kafka-datasource/",
+      "repository": "https://github.com/hoptical/grafana-kafka-datasource",
+      "created_at": "2022-01-11T13:50:44.000Z",
+      "updated_at": "2026-10-26T16:07:17.000Z"
+    },
+    "keneth80-kchart-panel": {
+      "name": "KChart Panel",
+      "version": "1.0.5",
+      "type": "Panel",
+      "description": "Hybrid SVG, Canvas, and WebGL time-series panel powered by KChart.",
+      "url": "https://grafana.com/grafana/plugins/keneth80-kchart-panel/",
+      "repository": "https://github.com/keneth80/k-chart-grafana-panel",
+      "created_at": "2026-09-23T09:06:20.000Z",
+      "updated_at": "2026-11-02T10:59:41.000Z"
+    },
+    "aquaqanalytics-kdbbackend-datasource": {
+      "name": "kdb+",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "AquaQ Analytics' backend adaptor for KX Systems' kdb+ database",
+      "url": "https://grafana.com/grafana/plugins/aquaqanalytics-kdbbackend-datasource/",
+      "repository": "https://github.com/AquaQAnalytics/grafana-kdb-backend-datasource",
+      "created_at": "2022-07-22T13:29:09.000Z",
+      "updated_at": "2022-07-29T17:02:39.000Z"
+    },
+    "kentik-connect-datasource": {
+      "name": "Kentik",
+      "version": "3.0.1",
+      "type": "Data Source",
+      "description": "Visualize and explore Kentik network observability data in Grafana.",
+      "url": "https://grafana.com/grafana/plugins/kentik-connect-datasource/",
+      "repository": "https://github.com/kentik/kentik-grafana-app",
+      "created_at": "2026-04-07T12:34:40.000Z",
+      "updated_at": "2026-09-15T14:40:08.000Z"
+    },
+    "kentik-connect-app": {
+      "name": "Kentik Connect Pro",
+      "version": "1.8.0",
+      "type": "Application",
+      "description": "This plugin has been replaced by the Kentik Connect Datasource (kentik-connect-datasource). It is kept as a bridge to auto-install the new datasource for existing users. Please configure and use kentik-connect-datasource directly.",
+      "url": "https://grafana.com/grafana/plugins/kentik-connect-app/",
+      "repository": "",
+      "created_at": "2022-02-24T11:09:53.000Z",
+      "updated_at": "2026-05-13T08:29:30.000Z"
+    },
+    "ubica-keplerplus-app": {
+      "name": "Kepler Geospatial Maps Plus",
+      "version": "1.5.0",
+      "type": "Application",
+      "description": "Every sensor, site and vehicle on the map with its own time series: animated gauge, sparkline, traffic, fleet, surface and 3D layers for energy, networks, environment, IoT and fleets.",
+      "url": "https://grafana.com/grafana/plugins/ubica-keplerplus-app/",
+      "repository": "",
+      "created_at": "2026-10-22T10:31:24.000Z",
+      "updated_at": "2026-10-29T17:32:21.000Z"
+    },
+    "kinetica-grafana-datasource": {
+      "name": "Kinetica",
+      "version": "1.0.12",
+      "type": "Data Source",
+      "description": "Connect Grafana to Kinetica for real-time analytics on large-scale data. Supports visual query builder, raw SQL, time series, and Grafana alerting.",
+      "url": "https://grafana.com/grafana/plugins/kinetica-grafana-datasource/",
+      "repository": "",
+      "created_at": "2026-06-03T18:39:39.000Z",
+      "updated_at": "2026-09-09T15:38:14.000Z"
+    },
+    "integrationplumbers-kubecost-datasource": {
+      "name": "Kubecost",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Dashboards for what Kubernetes costs, read from Kubecost: cost by team, idle and unallocated cost, the cloud bill, and savings recommendations.",
+      "url": "https://grafana.com/grafana/plugins/integrationplumbers-kubecost-datasource/",
+      "repository": "",
+      "created_at": "2026-10-15T11:27:50.000Z",
+      "updated_at": "2026-10-16T08:49:05.000Z"
+    },
+    "teosibileau-leafletchoropleth-panel": {
+      "name": "Leaflet Choropleth",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Choropleth map panel using Leaflet and chroma-js for Grafana",
+      "url": "https://grafana.com/grafana/plugins/teosibileau-leafletchoropleth-panel/",
+      "repository": "https://github.com/teosibileau/grafana-leaflet-choropleth-panel",
+      "created_at": "2026-04-02T09:39:54.000Z",
+      "updated_at": "2026-04-17T15:27:26.000Z"
+    },
+    "grafana-llm-app": {
+      "name": "LLM",
+      "version": "1.2.0",
+      "type": "Application",
+      "description": "Plugin to easily allow LLM based extensions to grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-llm-app/",
+      "repository": "https://github.com/grafana/grafana-llm-app",
+      "created_at": "2023-09-05T12:04:49.000Z",
+      "updated_at": "2026-10-19T14:44:53.000Z"
+    },
+    "grafana-logicmonitor-datasource": {
+      "name": "LogicMonitor Devices",
+      "version": "0.5.6-preview",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for LogicMonitor",
+      "url": "https://grafana.com/grafana/plugins/grafana-logicmonitor-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2025-05-12T17:00:53.000Z",
+      "updated_at": "2026-11-02T09:31:55.000Z"
+    },
+    "loki": {
+      "name": "Loki",
+      "version": "13.2.5",
+      "type": "Data Source",
+      "description": "Like Prometheus but for logs. OSS logging solution from Grafana Labs",
+      "url": "https://grafana.com/grafana/plugins/loki/",
+      "repository": "https://github.com/grafana/grafana-loki-datasource",
+      "created_at": "2022-06-23T14:29:29.000Z",
+      "updated_at": "2026-10-29T19:04:06.000Z"
+    },
+    "grafana-lokioperational-app": {
+      "name": "Loki-Operational",
+      "version": "2.0.0",
+      "type": "Application",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-lokioperational-app/",
+      "repository": "https://github.com/grafana/loki-operational-ui",
+      "created_at": "2025-10-03T16:54:35.000Z",
+      "updated_at": "2026-04-27T19:16:30.000Z"
+    },
+    "grafana-looker-datasource": {
+      "name": "Looker",
+      "version": "0.4.28",
+      "type": "Data Source",
+      "description": "Looker datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-looker-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2023-06-26T16:52:23.000Z",
+      "updated_at": "2026-10-29T13:53:09.000Z"
+    },
+    "instabug-instabug-app": {
+      "name": "Luciq",
+      "version": "2.0.2",
+      "type": "Application",
+      "description": "Luciq's plugin brings your mobile app's performance and stability insights straight to Grafana.",
+      "url": "https://grafana.com/grafana/plugins/instabug-instabug-app/",
+      "repository": "",
+      "created_at": "2024-08-14T08:50:32.000Z",
+      "updated_at": "2026-09-28T14:45:38.000Z"
+    },
+    "vaduga-mapgl-panel": {
+      "name": "Mapgl",
+      "version": "2.11.1",
+      "type": "Panel",
+      "description": "Node Graph and Network Geomap",
+      "url": "https://grafana.com/grafana/plugins/vaduga-mapgl-panel/",
+      "repository": "https://github.com/vaduga/mapgl",
+      "created_at": "2023-03-15T16:26:25.000Z",
+      "updated_at": "2026-10-22T13:33:22.000Z"
+    },
+    "flaminggoat-maptrack3d-panel": {
+      "name": "MapTrack3D",
+      "version": "0.1.9",
+      "type": "Panel",
+      "description": "A plugin for Grafana that visualizes GPS points on a 3D globe",
+      "url": "https://grafana.com/grafana/plugins/flaminggoat-maptrack3d-panel/",
+      "repository": "https://github.com/flaminggoat/map-track-3-d",
+      "created_at": "2020-12-01T10:46:22.000Z",
+      "updated_at": "2021-08-03T06:38:57.000Z"
+    },
+    "bsull-materialize-datasource": {
+      "name": "Materialize",
+      "version": "0.1.1",
+      "type": "Data Source",
+      "description": "Materialize datasource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/bsull-materialize-datasource/",
+      "repository": "https://github.com/sd2k/grafana-materialize-datasource",
+      "created_at": "2022-07-14T11:48:15.000Z",
+      "updated_at": "2022-08-12T16:37:19.000Z"
+    },
+    "thiagoarrais-matomotracking-panel": {
+      "name": "Matomo Tracker",
+      "version": "0.2.3",
+      "type": "Panel",
+      "description": "Panel for tracking via Matomo",
+      "url": "https://grafana.com/grafana/plugins/thiagoarrais-matomotracking-panel/",
+      "repository": "https://github.com/thiagoarrais/grafana-matomo-tracking-panel",
+      "created_at": "2020-08-12T13:19:49.000Z",
+      "updated_at": "2021-07-12T13:44:04.000Z"
+    },
+    "lavenderpancake-matrix-panel": {
+      "name": "Matrix",
+      "version": "1.1.3",
+      "type": "Panel",
+      "description": "Matrix panel for grafana",
+      "url": "https://grafana.com/grafana/plugins/lavenderpancake-matrix-panel/",
+      "repository": "",
+      "created_at": "2026-09-17T13:57:59.000Z",
+      "updated_at": "2026-11-03T12:46:07.000Z"
+    },
+    "manassehzhou-maxcompute-datasource": {
+      "name": "MaxCompute",
+      "version": "0.0.2",
+      "type": "Data Source",
+      "description": "Aliyun MaxCompute as a (Backend) Datasource",
+      "url": "https://grafana.com/grafana/plugins/manassehzhou-maxcompute-datasource/",
+      "repository": "https://github.com/ManassehZhou/grafana-maxcompute-datasource",
+      "created_at": "2023-11-08T15:27:29.000Z",
+      "updated_at": "2023-11-09T10:35:08.000Z"
+    },
+    "mssql": {
+      "name": "Microsoft SQL Server",
+      "version": "13.0.10",
+      "type": "Data Source",
+      "description": "Data source for Microsoft SQL Server compatible databases",
+      "url": "https://grafana.com/grafana/plugins/mssql/",
+      "repository": "https://github.com/grafana/grafana-mssql-datasource",
+      "created_at": "2022-06-23T14:29:30.000Z",
+      "updated_at": "2026-11-02T15:24:09.000Z"
+    },
+    "grafana-mock-datasource": {
+      "name": "Mock",
+      "version": "0.2.5",
+      "type": "Data Source",
+      "description": "Grafana mock datasource",
+      "url": "https://grafana.com/grafana/plugins/grafana-mock-datasource/",
+      "repository": "https://github.com/grafana/mock-datasource",
+      "created_at": "2022-10-07T12:16:55.000Z",
+      "updated_at": "2025-12-12T17:34:20.000Z"
+    },
+    "dataspex-monetdb-datasource": {
+      "name": "MonetDB",
+      "version": "0.2.0",
+      "type": "Data Source",
+      "description": "Grafana plugin for MonetDB",
+      "url": "https://grafana.com/grafana/plugins/dataspex-monetdb-datasource/",
+      "repository": "",
+      "created_at": "2024-02-14T09:58:57.000Z",
+      "updated_at": "2024-02-15T11:34:16.000Z"
+    },
+    "grafana-mongodb-datasource": {
+      "name": "MongoDB",
+      "version": "2.0.8",
+      "type": "Data Source",
+      "description": "MongoDB datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-mongodb-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2020-10-08T01:27:00.000Z",
+      "updated_at": "2026-10-28T15:19:39.000Z"
+    },
+    "moogsoft-aiops-app": {
+      "name": "Moogsoft AIOps",
+      "version": "9.0.0",
+      "type": "Application",
+      "description": "Moogsoft AIOps App",
+      "url": "https://grafana.com/grafana/plugins/moogsoft-aiops-app/",
+      "repository": "https://github.com/grafana/moogsoft-app",
+      "created_at": "2018-02-15T10:33:13.000Z",
+      "updated_at": "2023-08-11T15:28:02.000Z"
+    },
+    "boazreicher-mosaicplot-panel": {
+      "name": "Mosaic",
+      "version": "1.0.18",
+      "type": "Panel",
+      "description": "Mosaic Plot Panel",
+      "url": "https://grafana.com/grafana/plugins/boazreicher-mosaicplot-panel/",
+      "repository": "https://github.com/boazreicher/mosaic-plot",
+      "created_at": "2022-03-31T13:27:09.000Z",
+      "updated_at": "2023-07-11T07:29:07.000Z"
+    },
+    "grafana-mqtt-datasource": {
+      "name": "MQTT",
+      "version": "1.3.12",
+      "type": "Data Source",
+      "description": "MQTT Client Datasource Plugin",
+      "url": "https://grafana.com/grafana/plugins/grafana-mqtt-datasource/",
+      "repository": "https://github.com/grafana/mqtt-datasource",
+      "created_at": "2022-12-01T18:19:18.000Z",
+      "updated_at": "2026-11-02T14:50:56.000Z"
+    },
+    "arabian9ts-mux-datasource": {
+      "name": "MUX-Datasource",
+      "version": "0.1.5",
+      "type": "Data Source",
+      "description": "MUX video streaming metrics datasource",
+      "url": "https://grafana.com/grafana/plugins/arabian9ts-mux-datasource/",
+      "repository": "",
+      "created_at": "2024-12-17T13:46:22.000Z",
+      "updated_at": "2024-12-30T16:35:01.000Z"
+    },
+    "mysql": {
+      "name": "MySQL",
+      "version": "13.1.4",
+      "type": "Data Source",
+      "description": "Data source for MySQL databases",
+      "url": "https://grafana.com/grafana/plugins/mysql/",
+      "repository": "https://github.com/grafana/grafana-mysql-datasource",
+      "created_at": "2018-02-15T18:05:57.000Z",
+      "updated_at": "2026-11-02T17:11:36.000Z"
+    },
+    "kniepdennis-neo4j-datasource": {
+      "name": "Neo4j Datasource",
+      "version": "1.3.2",
+      "type": "Data Source",
+      "description": "Allows Neo4j to be used as a DataSource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/kniepdennis-neo4j-datasource/",
+      "repository": "https://github.com/denniskniep/grafana-datasource-plugin-neo4j",
+      "created_at": "2022-02-23T16:01:09.000Z",
+      "updated_at": "2024-06-03T13:15:22.000Z"
+    },
+    "crestdata-netappontap-datasource": {
+      "name": "NetApp ONTAP",
+      "version": "1.0.9",
+      "type": "Data Source",
+      "description": "The NetApp ONTAP DataSource Plugin is a Grafana backend datasource plugin that enables on-demand querying and visualization of storage metrics and operational data from NetApp ONTAP systems using the ONTAP REST API.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-netappontap-datasource/",
+      "repository": "",
+      "created_at": "2026-04-23T09:15:42.000Z",
+      "updated_at": "2026-09-16T11:02:28.000Z"
+    },
+    "netboxlabs-netbox-datasource": {
+      "name": "NetBox Labs",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "Enrich your observability data with infrastructure context from NetBox — devices, interfaces, IPs, sites, tenants and topology — as joinable tables, template variables, annotations and deep links.",
+      "url": "https://grafana.com/grafana/plugins/netboxlabs-netbox-datasource/",
+      "repository": "",
+      "created_at": "2026-09-30T17:53:03.000Z",
+      "updated_at": "2026-10-08T07:28:42.000Z"
+    },
+    "netdatacloud-netdata-datasource": {
+      "name": "netdata",
+      "version": "3.1.0",
+      "type": "Data Source",
+      "description": "netdata datasource plugin",
+      "url": "https://grafana.com/grafana/plugins/netdatacloud-netdata-datasource/",
+      "repository": "https://github.com/netdata/netdata-grafana-datasource-plugin",
+      "created_at": "2023-09-26T11:32:44.000Z",
+      "updated_at": "2026-09-30T10:15:08.000Z"
+    },
+    "grafana-netlify-datasource": {
+      "name": "Netlify",
+      "version": "0.1.13-preview",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-netlify-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2024-08-08T10:40:35.000Z",
+      "updated_at": "2026-11-02T09:30:38.000Z"
+    },
+    "esnet-networkmap-panel": {
+      "name": "Network Map Panel",
+      "version": "3.1.0",
+      "type": "Panel",
+      "description": "Topology map of a network. Graphs network traffic between nodes",
+      "url": "https://grafana.com/grafana/plugins/esnet-networkmap-panel/",
+      "repository": "https://github.com/esnet/grafana-esnet-networkmap-panel",
+      "created_at": "2023-07-04T14:31:08.000Z",
+      "updated_at": "2024-12-20T14:40:03.000Z"
+    },
+    "tamirsuliman-weathermap-panel": {
+      "name": "Network Weathermap NG",
+      "version": "1.6.20",
+      "type": "Panel",
+      "description": "Next-generation, actively maintained network weathermap by Tamir Suliman. A continuation and fork of the deprecated Network Weathermap plugin, updated for modern Grafana.",
+      "url": "https://grafana.com/grafana/plugins/tamirsuliman-weathermap-panel/",
+      "repository": "https://github.com/allamiro/grafana-network-weathermap-ng",
+      "created_at": "2026-07-03T12:19:52.000Z",
+      "updated_at": "2026-10-26T13:44:13.000Z"
+    },
+    "radensolutions-netxms-datasource": {
+      "name": "NetXMS",
+      "version": "2.1.1",
+      "type": "Data Source",
+      "description": "NetXMS datasource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/radensolutions-netxms-datasource/",
+      "repository": "https://github.com/sponsors/netxms",
+      "created_at": "2017-05-02T09:35:09.000Z",
+      "updated_at": "2026-10-27T19:34:54.000Z"
+    },
+    "grafana-newrelic-datasource": {
+      "name": "New Relic",
+      "version": "4.6.33",
+      "type": "Data Source",
+      "description": "New Relic datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-newrelic-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2017-01-23T14:36:07.000Z",
+      "updated_at": "2026-10-28T15:20:22.000Z"
+    },
+    "hamedkarbasi93-nodegraphapi-datasource": {
+      "name": "Node Graph API",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "A datasource that provides data for nodegraph panel via api",
+      "url": "https://grafana.com/grafana/plugins/hamedkarbasi93-nodegraphapi-datasource/",
+      "repository": "https://github.com/hoptical/nodegraph-api-plugin",
+      "created_at": "2022-01-11T13:50:26.000Z",
+      "updated_at": "2022-07-09T12:29:33.000Z"
+    },
+    "nominal-nominalds-datasource": {
+      "name": "Nominal",
+      "version": "0.16.0",
+      "type": "Data Source",
+      "description": "Nominal datasource plugin for Grafana - connect to Nominal's time-series platform for monitoring and visualization",
+      "url": "https://grafana.com/grafana/plugins/nominal-nominalds-datasource/",
+      "repository": "https://github.com/nominal-io/grafana-plugin-public",
+      "created_at": "2026-05-08T14:29:39.000Z",
+      "updated_at": "2026-10-16T09:27:18.000Z"
+    },
+    "integrationplumbers-nutanix-datasource": {
+      "name": "Nutanix",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Health, capacity and performance of Nutanix clusters, hosts, VMs and storage containers from Prism Central",
+      "url": "https://grafana.com/grafana/plugins/integrationplumbers-nutanix-datasource/",
+      "repository": "",
+      "created_at": "2026-10-15T10:01:58.000Z",
+      "updated_at": "2026-10-16T08:34:32.000Z"
+    },
+    "integrationplumbers-nvidiadcgm-app": {
+      "name": "NVIDIA DCGM",
+      "version": "1.0.0",
+      "type": "Application",
+      "description": "GPU health, reliability and utilization from NVIDIA DCGM metrics in Prometheus",
+      "url": "https://grafana.com/grafana/plugins/integrationplumbers-nvidiadcgm-app/",
+      "repository": "",
+      "created_at": "2026-10-15T12:56:59.000Z",
+      "updated_at": "2026-10-16T08:43:55.000Z"
+    },
+    "dvelop-odata-datasource": {
+      "name": "OData",
+      "version": "1.2.1",
+      "type": "Data Source",
+      "description": "OData data source for Grafana",
+      "url": "https://grafana.com/grafana/plugins/dvelop-odata-datasource/",
+      "repository": "https://github.com/d-velop/grafana-odata-datasource",
+      "created_at": "2023-05-12T08:18:34.000Z",
+      "updated_at": "2026-03-06T16:21:58.000Z"
+    },
+    "sameeraswal-odometer-panel": {
+      "name": "Odometer",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Display moving counter for countdown countup",
+      "url": "https://grafana.com/grafana/plugins/sameeraswal-odometer-panel/",
+      "repository": "",
+      "created_at": "2023-10-27T02:00:36.000Z",
+      "updated_at": "2023-11-02T12:30:01.000Z"
+    },
+    "opengemini-opengemini-datasource": {
+      "name": "openGemini",
+      "version": "1.1.0",
+      "type": "Data Source",
+      "description": "openGemini grafana datasource plugin",
+      "url": "https://grafana.com/grafana/plugins/opengemini-opengemini-datasource/",
+      "repository": "",
+      "created_at": "2023-10-27T01:56:59.000Z",
+      "updated_at": "2023-12-07T11:21:50.000Z"
+    },
+    "gridprotectionalliance-openhistorian-datasource": {
+      "name": "openHistorian",
+      "version": "2.1.0",
+      "type": "Data Source",
+      "description": "Datasource plugin for openHistorian",
+      "url": "https://grafana.com/grafana/plugins/gridprotectionalliance-openhistorian-datasource/",
+      "repository": "https://github.com/GridProtectionAlliance/openHistorian-grafana",
+      "created_at": "2016-09-29T14:08:29.000Z",
+      "updated_at": "2025-03-06T12:07:22.000Z"
+    },
+    "opennms-opennms-app": {
+      "name": "OpenNMS Plugin for Grafana",
+      "version": "12.0.2",
+      "type": "Application",
+      "description": "Create flexible dashboards using data from OpenNMS® Horizon™ and/or OpenNMS® Meridian™.",
+      "url": "https://grafana.com/grafana/plugins/opennms-opennms-app/",
+      "repository": "https://github.com/OpenNMS-Plugins/grafana-plugin",
+      "created_at": "2023-05-05T01:43:25.000Z",
+      "updated_at": "2026-10-06T08:00:49.000Z"
+    },
+    "grafana-opensearch-datasource": {
+      "name": "OpenSearch",
+      "version": "2.34.6",
+      "type": "Data Source",
+      "description": "Query OpenSearch to visualize logs or metrics.",
+      "url": "https://grafana.com/grafana/plugins/grafana-opensearch-datasource/",
+      "repository": "https://github.com/grafana/opensearch-datasource",
+      "created_at": "2021-08-24T11:56:13.000Z",
+      "updated_at": "2026-10-21T12:54:17.000Z"
+    },
+    "opentsdb": {
+      "name": "OpenTSDB",
+      "version": "13.0.8",
+      "type": "Data Source",
+      "description": "Open source time series database",
+      "url": "https://grafana.com/grafana/plugins/opentsdb/",
+      "repository": "https://github.com/grafana/grafana-opentsdb-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-11-02T17:51:41.000Z"
+    },
+    "operato-windrose-panel": {
+      "name": "Operato Windrose",
+      "version": "1.2.0",
+      "type": "Panel",
+      "description": "Wind parameter visualization panel",
+      "url": "https://grafana.com/grafana/plugins/operato-windrose-panel/",
+      "repository": "",
+      "created_at": "2023-07-04T15:27:18.000Z",
+      "updated_at": "2024-04-04T16:58:55.000Z"
+    },
+    "optimiz-sevone-datasource": {
+      "name": "Optimiz-SevOne Plugin",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Open-source SevOne plugin developed by Optimiz",
+      "url": "https://grafana.com/grafana/plugins/optimiz-sevone-datasource/",
+      "repository": "https://github.com/optimizca/grafana_sevone",
+      "created_at": "2024-02-19T15:46:36.000Z",
+      "updated_at": "2024-03-06T13:52:22.000Z"
+    },
+    "oci-logs-datasource": {
+      "name": "Oracle Cloud Infrastructure Logs",
+      "version": "5.0.5",
+      "type": "Data Source",
+      "description": "Oracle Cloud Infrastructure Logs Data Source for Grafana",
+      "url": "https://grafana.com/grafana/plugins/oci-logs-datasource/",
+      "repository": "https://github.com/oracle/oci-grafana-logs",
+      "created_at": "2020-10-06T00:13:59.000Z",
+      "updated_at": "2026-08-27T19:52:58.000Z"
+    },
+    "oci-metrics-datasource": {
+      "name": "Oracle Cloud Infrastructure Metrics",
+      "version": "6.5.6",
+      "type": "Data Source",
+      "description": "Oracle Cloud Infrastructure Metrics Data Source for Grafana",
+      "url": "https://grafana.com/grafana/plugins/oci-metrics-datasource/",
+      "repository": "https://github.com/oracle/oci-grafana-metrics",
+      "created_at": "2020-10-06T00:10:14.000Z",
+      "updated_at": "2026-07-09T09:46:47.000Z"
+    },
+    "grafana-oracle-datasource": {
+      "name": "Oracle Database",
+      "version": "3.5.9",
+      "type": "Data Source",
+      "description": "Oracle datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-oracle-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2018-04-17T19:40:16.000Z",
+      "updated_at": "2026-10-28T15:24:31.000Z"
+    },
+    "orchestracities-iconstat-panel": {
+      "name": "Orchestra Cities Icon Stat Panel",
+      "version": "1.2.3",
+      "type": "Panel",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/orchestracities-iconstat-panel/",
+      "repository": "https://github.com/orchestracities/statistics-panel",
+      "created_at": "2022-04-14T17:27:13.000Z",
+      "updated_at": "2022-04-28T17:48:34.000Z"
+    },
+    "orchestracities-map-panel": {
+      "name": "Orchestra Cities Map",
+      "version": "1.4.4",
+      "type": "Panel",
+      "description": "Orchestra Cities Map",
+      "url": "https://grafana.com/grafana/plugins/orchestracities-map-panel/",
+      "repository": "https://github.com/orchestracities/grafana-map-plugin",
+      "created_at": "2022-04-14T17:37:07.000Z",
+      "updated_at": "2022-08-12T16:33:30.000Z"
+    },
+    "timomyl-organisations-panel": {
+      "name": "Organisations",
+      "version": "1.4.0",
+      "type": "Panel",
+      "description": "Organisations Panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/timomyl-organisations-panel/",
+      "repository": "https://github.com/timyllym/grafana-organisations-panel",
+      "created_at": "2022-08-31T14:06:24.000Z",
+      "updated_at": "2022-09-02T08:36:14.000Z"
+    },
+    "blueswen-organization-panel": {
+      "name": "Organization Panel",
+      "version": "2.0.0",
+      "type": "Panel",
+      "description": "Switch Grafana organizations via dropdown menu or buttons.",
+      "url": "https://grafana.com/grafana/plugins/blueswen-organization-panel/",
+      "repository": "https://github.com/blueswen/grafana-organization-panel",
+      "created_at": "2025-03-05T12:50:21.000Z",
+      "updated_at": "2025-05-13T05:00:17.000Z"
+    },
+    "gridprotectionalliance-osisoftpi-datasource": {
+      "name": "OSIsoft-PI",
+      "version": "5.2.0",
+      "type": "Data Source",
+      "description": "Datasource plugin for OSIsoft PI Web API",
+      "url": "https://grafana.com/grafana/plugins/gridprotectionalliance-osisoftpi-datasource/",
+      "repository": "https://github.com/GridProtectionAlliance/osisoftpi-grafana",
+      "created_at": "2016-11-09T20:43:10.000Z",
+      "updated_at": "2025-03-21T18:56:16.000Z"
+    },
+    "grafana-pagerduty-datasource": {
+      "name": "PagerDuty",
+      "version": "1.2.24",
+      "type": "Data Source",
+      "description": "PagerDuty data source plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-pagerduty-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2024-02-12T09:45:16.000Z",
+      "updated_at": "2026-10-28T15:22:39.000Z"
+    },
+    "smile-palindromejs-panel": {
+      "name": "Palindrome.js",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Palindrome.js Grafana panel",
+      "url": "https://grafana.com/grafana/plugins/smile-palindromejs-panel/",
+      "repository": "https://github.com/Smile-SA/palindrome.js",
+      "created_at": "2024-07-16T15:28:04.000Z",
+      "updated_at": "2024-07-18T13:58:21.000Z"
+    },
+    "integrationplumbers-paloaltofirewall-datasource": {
+      "name": "Palo Alto Networks",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Firewall health, capacity and updates for Palo Alto Networks firewalls",
+      "url": "https://grafana.com/grafana/plugins/integrationplumbers-paloaltofirewall-datasource/",
+      "repository": "",
+      "created_at": "2026-10-27T09:31:46.000Z",
+      "updated_at": "2026-10-27T13:47:51.000Z"
+    },
+    "isaozler-paretochart-panel": {
+      "name": "Pareto Chart",
+      "version": "0.3.4",
+      "type": "Panel",
+      "description": "Pareto Chart for Grafana",
+      "url": "https://grafana.com/grafana/plugins/isaozler-paretochart-panel/",
+      "repository": "https://github.com/isaozler/pareto-chart",
+      "created_at": "2020-10-14T07:05:23.000Z",
+      "updated_at": "2022-10-07T12:38:11.000Z"
+    },
+    "tobiasworkstech-parquets3-datasource": {
+      "name": "Parquet-S3-Datasource",
+      "version": "1.2.16",
+      "type": "Data Source",
+      "description": "Query and visualize Apache Parquet files stored in Amazon S3 or S3-compatible storage (MinIO, Wasabi, DigitalOcean Spaces). Leverage the columnar Parquet format for efficient data lake analytics directly in Grafana using a built-in lightweight SQL engine (SELECT, WHERE, GROUP BY, ORDER BY, LIMIT, and common aggregates).",
+      "url": "https://grafana.com/grafana/plugins/tobiasworkstech-parquets3-datasource/",
+      "repository": "https://github.com/tobiasworkstech/tobiasworkstech-parquets3-datasource",
+      "created_at": "2026-04-30T13:09:10.000Z",
+      "updated_at": "2026-06-10T15:18:27.000Z"
+    },
+    "parseable-parseable-datasource": {
+      "name": "Parseable",
+      "version": "2.0.0",
+      "type": "Data Source",
+      "description": "Parseable is an open source, Kubernetes native, log storage and observability platform. This plugin allows you to visualize your Parseable logs in Grafana.",
+      "url": "https://grafana.com/grafana/plugins/parseable-parseable-datasource/",
+      "repository": "https://github.com/parseablehq/parseable-datasource",
+      "created_at": "2023-01-18T08:56:18.000Z",
+      "updated_at": "2026-06-05T16:19:40.000Z"
+    },
+    "nikosc-percenttrend-panel": {
+      "name": "Percentage Trend",
+      "version": "1.0.8",
+      "type": "Panel",
+      "description": "Percent change with trend display",
+      "url": "https://grafana.com/grafana/plugins/nikosc-percenttrend-panel/",
+      "repository": "https://github.com/nikos/grafana-percent-trend-panel",
+      "created_at": "2022-10-06T08:07:25.000Z",
+      "updated_at": "2024-02-01T12:55:36.000Z"
+    },
+    "sskgo-perfcurve-panel": {
+      "name": "PerfCurve",
+      "version": "1.5.0",
+      "type": "Panel",
+      "description": "Plot rotating machine operation point on a performance curve.",
+      "url": "https://grafana.com/grafana/plugins/sskgo-perfcurve-panel/",
+      "repository": "https://github.com/SSKGo/perfcurve-panel",
+      "created_at": "2020-11-24T09:42:04.000Z",
+      "updated_at": "2022-01-11T13:38:48.000Z"
+    },
+    "performancecopilot-pcp-app": {
+      "name": "Performance Co-Pilot",
+      "version": "5.0.0",
+      "type": "Application",
+      "description": "Performance Co-Pilot Grafana Plugin",
+      "url": "https://grafana.com/grafana/plugins/performancecopilot-pcp-app/",
+      "repository": "https://github.com/performancecopilot/grafana-pcp",
+      "created_at": "2022-05-04T10:29:20.000Z",
+      "updated_at": "2022-07-14T11:39:55.000Z"
+    },
+    "philipsgis-phlowchart-panel": {
+      "name": "Phlowchart",
+      "version": "0.1.0",
+      "type": "Panel",
+      "description": "A Grafana panel plugin to render interactive flowchart visualization of directed graph data.",
+      "url": "https://grafana.com/grafana/plugins/philipsgis-phlowchart-panel/",
+      "repository": "https://github.com/philips-labs/grafana-bpm-plugin",
+      "created_at": "2022-06-07T14:18:10.000Z",
+      "updated_at": "2022-06-27T08:42:35.000Z"
+    },
+    "pixie-pixie-datasource": {
+      "name": "Pixie Grafana Datasource Plugin",
+      "version": "0.0.9",
+      "type": "Data Source",
+      "description": "Pixie's Grafana Datasource Plugin",
+      "url": "https://grafana.com/grafana/plugins/pixie-pixie-datasource/",
+      "repository": "https://github.com/pixie-io/pixie",
+      "created_at": "2021-05-19T19:33:24.000Z",
+      "updated_at": "2022-08-29T14:47:03.000Z"
+    },
+    "nline-plotlyjs-panel": {
+      "name": "Plotly",
+      "version": "1.8.1",
+      "type": "Panel",
+      "description": "Render charts with Plotly.js",
+      "url": "https://grafana.com/grafana/plugins/nline-plotlyjs-panel/",
+      "repository": "https://github.com/nline/nline-plotlyjs-panel",
+      "created_at": "2022-11-22T10:28:15.000Z",
+      "updated_at": "2024-10-01T17:40:12.000Z"
+    },
+    "ae3e-plotly-panel": {
+      "name": "Plotly panel",
+      "version": "0.5.0",
+      "type": "Panel",
+      "description": "Render chart from any datasource with Plotly javascript library",
+      "url": "https://grafana.com/grafana/plugins/ae3e-plotly-panel/",
+      "repository": "https://github.com/ae3e/ae3e-plotly-panel",
+      "created_at": "2020-10-01T09:21:51.000Z",
+      "updated_at": "2021-09-16T13:20:07.000Z"
+    },
+    "sni-pnp-datasource": {
+      "name": "PNP",
+      "version": "2.3.1",
+      "type": "Data Source",
+      "description": "pnp4nagios datasource",
+      "url": "https://grafana.com/grafana/plugins/sni-pnp-datasource/",
+      "repository": "https://github.com/sni/grafana-pnp-datasource",
+      "created_at": "2017-03-13T18:39:44.000Z",
+      "updated_at": "2026-10-26T10:47:49.000Z"
+    },
+    "grafana-polystat-panel": {
+      "name": "Polystat",
+      "version": "2.1.16",
+      "type": "Panel",
+      "description": "Polystat panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-polystat-panel/",
+      "repository": "https://github.com/grafana/grafana-polystat-panel",
+      "created_at": "2018-06-28T03:22:45.000Z",
+      "updated_at": "2026-01-06T20:01:43.000Z"
+    },
+    "grafana-postgresql-datasource": {
+      "name": "PostgreSQL",
+      "version": "13.0.6",
+      "type": "Data Source",
+      "description": "Data source for PostgreSQL and compatible databases",
+      "url": "https://grafana.com/grafana/plugins/grafana-postgresql-datasource/",
+      "repository": "https://github.com/grafana/grafana-postgresql-datasource",
+      "created_at": "2024-12-18T11:37:34.000Z",
+      "updated_at": "2026-11-04T16:45:16.000Z"
+    },
+    "crestdata-prismacompute-datasource": {
+      "name": "Prisma Compute",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Query Prisma Cloud Compute (CWPP) data — host, image, registry, container and serverless scan results, Defender fleet health, vulnerability and compliance statistics, runtime and application firewall audits, Kubernetes, admission and management audit trails, and licensing.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-prismacompute-datasource/",
+      "repository": "",
+      "created_at": "2026-10-08T08:23:09.000Z",
+      "updated_at": "2026-10-09T09:08:40.000Z"
+    },
+    "crestdata-prismacspm-datasource": {
+      "name": "Prisma CSPM",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Query Prisma Cloud CSPM data in Grafana. Query types: Alerts & Threat Detection, Audit Logs, Cloud Accounts, Asset Inventory, Compliance Posture, Compliance Trend, Asset Explorer (Resource Scan), Vulnerability Burndown, Prioritized Vulnerabilities, CVE Overview, Vulnerable Assets by CVE, Code-to-Cloud Deploy Trend, Code-to-Cloud Runtime Trend, and Licensing & Usage.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-prismacspm-datasource/",
+      "repository": "",
+      "created_at": "2026-10-09T14:30:52.000Z",
+      "updated_at": "2026-10-13T15:19:49.000Z"
+    },
+    "prometheus": {
+      "name": "Prometheus",
+      "version": "13.2.5",
+      "type": "Data Source",
+      "description": "Open source time series database & alerting",
+      "url": "https://grafana.com/grafana/plugins/prometheus/",
+      "repository": "https://github.com/grafana/grafana-prometheus-datasource",
+      "created_at": "2016-03-31T13:10:24.000Z",
+      "updated_at": "2026-10-27T17:25:45.000Z"
+    },
+    "grafana-prometheusalerting-app": {
+      "name": "Prometheus Alerting",
+      "version": "1.8.0",
+      "type": "Application",
+      "description": "Manage Prometheus alert rules and Alertmanager configuration — routes, receivers, templates, silences, time intervals, and inhibit rules — across Prometheus, Mimir, Cortex, and Loki data sources.",
+      "url": "https://grafana.com/grafana/plugins/grafana-prometheusalerting-app/",
+      "repository": "https://github.com/grafana/prometheus-alerting",
+      "created_at": "2026-08-19T13:16:15.000Z",
+      "updated_at": "2026-10-16T16:04:56.000Z"
+    },
+    "camptocamp-prometheus-alertmanager-datasource": {
+      "name": "Prometheus AlertManager Datasource",
+      "version": "2.3.1",
+      "type": "Data Source",
+      "description": "Grafana datasource for Prometheus AlertManager",
+      "url": "https://grafana.com/grafana/plugins/camptocamp-prometheus-alertmanager-datasource/",
+      "repository": "https://github.com/camptocamp/grafana-prometheus-alertmanager-datasource",
+      "created_at": "2017-10-13T12:04:25.000Z",
+      "updated_at": "2025-11-07T09:48:00.000Z"
+    },
+    "crestdata-proofpointtap-datasource": {
+      "name": "Proofpoint Tap",
+      "version": "1.0.6",
+      "type": "Data Source",
+      "description": "The Proofpoint TAP DataSource Plugin is a Grafana backend datasource plugin that enables on-demand querying and visualization of Proofpoint Targeted Attack Protection (TAP) SIEM events inside Grafana panels.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-proofpointtap-datasource/",
+      "repository": "",
+      "created_at": "2026-04-15T12:01:10.000Z",
+      "updated_at": "2026-05-06T11:19:36.000Z"
+    },
+    "ridgelinetechnologies-proxmoxve-datasource": {
+      "name": "Proxmox VE",
+      "version": "1.0.9",
+      "type": "Data Source",
+      "description": "Query Proxmox VE nodes, virtual machines, containers and storage directly from Grafana using a read-only API token.",
+      "url": "https://grafana.com/grafana/plugins/ridgelinetechnologies-proxmoxve-datasource/",
+      "repository": "",
+      "created_at": "2026-10-14T14:05:28.000Z",
+      "updated_at": "2026-10-15T12:58:43.000Z"
+    },
+    "ventura-psychrometric-panel": {
+      "name": "Psychart",
+      "version": "5.3.0",
+      "type": "Panel",
+      "description": "View air conditions on a psychrometric chart.",
+      "url": "https://grafana.com/grafana/plugins/ventura-psychrometric-panel/",
+      "repository": "https://github.com/nicfv/Psychart",
+      "created_at": "2022-06-03T09:54:30.000Z",
+      "updated_at": "2026-10-27T12:02:19.000Z"
+    },
+    "ventura-pumpchart-panel": {
+      "name": "Pumpchart",
+      "version": "1.0.2",
+      "type": "Panel",
+      "description": "See the relationship between pump flow rate and pressure at different operating conditions",
+      "url": "https://grafana.com/grafana/plugins/ventura-pumpchart-panel/",
+      "repository": "https://github.com/nicfv/Pumpchart",
+      "created_at": "2026-01-09T16:01:24.000Z",
+      "updated_at": "2026-08-13T15:16:34.000Z"
+    },
+    "nyrix-pyris-panel": {
+      "name": "Pyris",
+      "version": "1.1.1",
+      "type": "Panel",
+      "description": "JSON and ANSI styled logs viewer",
+      "url": "https://grafana.com/grafana/plugins/nyrix-pyris-panel/",
+      "repository": "https://github.com/Azmisov/pyris",
+      "created_at": "2026-04-15T10:47:02.000Z",
+      "updated_at": "2026-05-14T18:14:41.000Z"
+    },
+    "betatech-qrcode-panel": {
+      "name": "QR code",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Render a QR code",
+      "url": "https://grafana.com/grafana/plugins/betatech-qrcode-panel/",
+      "repository": "https://github.com/Beta-Technologies/grafana-panel-qrcode",
+      "created_at": "2024-09-17T14:20:18.000Z",
+      "updated_at": "2024-09-20T19:16:49.000Z"
+    },
+    "crestdata-qualysappsec-datasource": {
+      "name": "Qualys Compliance & Application Security",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Query Qualys Policy Compliance, Policy Compliance Reporting Services (PCRS), Web Application Scanning, File Integrity Monitoring and the Activity Log from Grafana dashboards.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-qualysappsec-datasource/",
+      "repository": "",
+      "created_at": "2026-10-13T11:52:27.000Z",
+      "updated_at": "2026-10-14T13:31:10.000Z"
+    },
+    "crestdata-qualysvmdr-datasource": {
+      "name": "Qualys Vulnerability & Endpoint Security",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "Query Qualys VM/VMDR, EDR, Container Security, CSAM/Global AssetView, SEM, the KnowledgeBase and the Activity Log from Grafana dashboards.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-qualysvmdr-datasource/",
+      "repository": "",
+      "created_at": "2026-10-14T13:35:50.000Z",
+      "updated_at": "2026-10-15T08:58:35.000Z"
+    },
+    "questdb-questdb-datasource": {
+      "name": "QuestDB",
+      "version": "0.1.8",
+      "type": "Data Source",
+      "description": "QuestDB datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/questdb-questdb-datasource/",
+      "repository": "https://github.com/questdb/grafana-questdb-datasource",
+      "created_at": "2024-05-28T11:37:13.000Z",
+      "updated_at": "2026-04-22T12:57:38.000Z"
+    },
+    "quickwit-quickwit-datasource": {
+      "name": "Quickwit",
+      "version": "0.6.3",
+      "type": "Data Source",
+      "description": "Quickwit is an OSS, Cloud-Native search engine on object storage. This plugin allows you to visualize logs, traces, and build dashboards on top of Quickwit.",
+      "url": "https://grafana.com/grafana/plugins/quickwit-quickwit-datasource/",
+      "repository": "https://github.com/quickwit-oss/quickwit-datasource",
+      "created_at": "2023-05-25T15:42:38.000Z",
+      "updated_at": "2026-07-22T09:36:56.000Z"
+    },
+    "maormil-rabbitmq-datasource": {
+      "name": "Rabbitmq",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "Rabbitmq streaming datasource plugin",
+      "url": "https://grafana.com/grafana/plugins/maormil-rabbitmq-datasource/",
+      "repository": "",
+      "created_at": "2024-08-14T14:41:59.000Z",
+      "updated_at": "2024-09-13T08:26:09.000Z"
+    },
+    "kentrow-rackelevation-panel": {
+      "name": "Rack elevation",
+      "version": "1.0.1",
+      "type": "Panel",
+      "description": "Front and rear view of server racks, U by U, placed from your inventory data and coloured by device state or metric.",
+      "url": "https://grafana.com/grafana/plugins/kentrow-rackelevation-panel/",
+      "repository": "https://github.com/Kentrow/grafana-rackelevation-panel",
+      "created_at": "2026-11-04T15:00:05.000Z",
+      "updated_at": "2026-11-05T09:32:46.000Z"
+    },
+    "teuwsenservices-radio-panel": {
+      "name": "Radio Panel",
+      "version": "1.4.0",
+      "type": "Panel",
+      "description": "Interactive vinyl-style radio panel for Grafana with day-based station scheduling and optional timed override. Supports per-station now playing metadata and playlist-friendly continuous playback.",
+      "url": "https://grafana.com/grafana/plugins/teuwsenservices-radio-panel/",
+      "repository": "https://github.com/finnie2006/teuwsenservices-lpradio-panel",
+      "created_at": "2026-04-02T08:11:59.000Z",
+      "updated_at": "2026-11-05T10:40:23.000Z"
+    },
+    "anyline-rangeslider-panel": {
+      "name": "Range Slider Panel",
+      "version": "1.2.9",
+      "type": "Panel",
+      "description": "A dynamic range slider panel for Grafana that allows users to select a value range for filtering data.",
+      "url": "https://grafana.com/grafana/plugins/anyline-rangeslider-panel/",
+      "repository": "https://github.com/Anyline/anyline-rangeslider-panel",
+      "created_at": "2024-02-01T09:11:56.000Z",
+      "updated_at": "2024-12-04T13:35:06.000Z"
+    },
+    "redis-datasource": {
+      "name": "Redis",
+      "version": "2.2.0",
+      "type": "Data Source",
+      "description": "Allows to connect to any Redis database On-Premises and in the Cloud.",
+      "url": "https://grafana.com/grafana/plugins/redis-datasource/",
+      "repository": "https://github.com/RedisGrafana/grafana-redis-datasource",
+      "created_at": "2020-07-28T15:17:01.000Z",
+      "updated_at": "2023-07-13T16:50:50.000Z"
+    },
+    "redis-app": {
+      "name": "Redis Application",
+      "version": "2.3.2",
+      "type": "Application",
+      "description": "Provides Application pages and custom panels for Redis Data Source.",
+      "url": "https://grafana.com/grafana/plugins/redis-app/",
+      "repository": "https://github.com/RedisGrafana/grafana-redis-app",
+      "created_at": "2020-10-24T16:02:30.000Z",
+      "updated_at": "2026-04-22T13:05:46.000Z"
+    },
+    "redis-explorer-app": {
+      "name": "Redis Explorer",
+      "version": "2.1.1",
+      "type": "Application",
+      "description": "Allows connecting to Redis Enterprise software clusters using REST API.",
+      "url": "https://grafana.com/grafana/plugins/redis-explorer-app/",
+      "repository": "https://github.com/RedisGrafana/grafana-redis-explorer",
+      "created_at": "2021-05-12T02:54:25.000Z",
+      "updated_at": "2022-01-25T14:19:52.000Z"
+    },
+    "ccin2p3-riemann-datasource": {
+      "name": "Riemann streams",
+      "version": "0.1.6",
+      "type": "Data Source",
+      "description": "Subscribe to riemann.io websocket streams!",
+      "url": "https://grafana.com/grafana/plugins/ccin2p3-riemann-datasource/",
+      "repository": "https://github.com/faxm0dem/grafana-riemann-websocket-datasource",
+      "created_at": "2020-11-18T13:33:19.000Z",
+      "updated_at": "2022-09-21T16:13:13.000Z"
+    },
+    "g42-rqlite-datasource": {
+      "name": "rqlite",
+      "version": "1.1.5",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for rqlite",
+      "url": "https://grafana.com/grafana/plugins/g42-rqlite-datasource/",
+      "repository": "",
+      "created_at": "2026-04-30T12:37:23.000Z",
+      "updated_at": "2026-05-18T23:20:55.000Z"
+    },
+    "crestdata-rubriksecuritycloud-datasource": {
+      "name": "Rubrik Security Cloud",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Query Rubrik Security Cloud data protection telemetry — cluster capacity and node performance, workload inventory, SLA compliance, protection tasks, activity and audit events, and ransomware anomaly detections.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-rubriksecuritycloud-datasource/",
+      "repository": "",
+      "created_at": "2026-09-16T10:53:03.000Z",
+      "updated_at": "2026-09-24T11:03:32.000Z"
+    },
+    "grafana-salesforce-datasource": {
+      "name": "Salesforce",
+      "version": "1.7.33",
+      "type": "Data Source",
+      "description": "Salesforce datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-salesforce-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-06-07T21:32:22.000Z",
+      "updated_at": "2026-10-29T13:54:35.000Z"
+    },
+    "netsage-sankey-panel": {
+      "name": "Sankey Panel",
+      "version": "1.1.4",
+      "type": "Panel",
+      "description": "Sankey Panel Plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/netsage-sankey-panel/",
+      "repository": "https://github.com/netsage-project/netsage-sankey-panel",
+      "created_at": "2021-12-03T20:42:43.000Z",
+      "updated_at": "2025-06-11T12:35:00.000Z"
+    },
+    "grafana-saphana-datasource": {
+      "name": "SAP HANA®",
+      "version": "1.7.32",
+      "type": "Data Source",
+      "description": "The Grafana® data source plugin for SAP HANA®. SAP HANA® is the trademark or registered trademark of SAP SE or its affiliates in Germany and in several other countries.",
+      "url": "https://grafana.com/grafana/plugins/grafana-saphana-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-05-17T17:28:01.000Z",
+      "updated_at": "2026-10-28T15:23:14.000Z"
+    },
+    "lucasbremond-satellitevisualizer-panel": {
+      "name": "Satellite Visualizer",
+      "version": "1.12.0",
+      "type": "Panel",
+      "description": "3D satellite visualization panel.",
+      "url": "https://grafana.com/grafana/plugins/lucasbremond-satellitevisualizer-panel/",
+      "repository": "",
+      "created_at": "2024-01-04T15:05:47.000Z",
+      "updated_at": "2026-10-06T09:03:06.000Z"
+    },
+    "scadavis-synoptic-panel": {
+      "name": "SCADAvis Synoptic Panel",
+      "version": "2.0.2",
+      "type": "Panel",
+      "description": "SCADA-like synoptic panel for grafana",
+      "url": "https://grafana.com/grafana/plugins/scadavis-synoptic-panel/",
+      "repository": "https://github.com/riclolsen/scadavis-synoptic-panel",
+      "created_at": "2019-01-06T13:55:12.000Z",
+      "updated_at": "2024-04-30T13:43:20.000Z"
+    },
+    "michaeldmoore-scatter-panel": {
+      "name": "Scatter",
+      "version": "1.2.0",
+      "type": "Panel",
+      "description": "A really easy-to-use scatter-plot plugin panel for table formatted Grafana data",
+      "url": "https://grafana.com/grafana/plugins/michaeldmoore-scatter-panel/",
+      "repository": "https://github.com/michaeldmoore/michaeldmoore-scatter-panel",
+      "created_at": "2021-01-20T08:55:51.000Z",
+      "updated_at": "2022-11-24T12:41:25.000Z"
+    },
+    "dkhoa-sensorfloormap-panel": {
+      "name": "Sensor Floor Map",
+      "version": "0.2.2",
+      "type": "Panel",
+      "description": "Colours the rooms of an SVG floor plan by live temperature and humidity against per-sensor limits",
+      "url": "https://grafana.com/grafana/plugins/dkhoa-sensorfloormap-panel/",
+      "repository": "https://github.com/dkhoa-dev/grafana-sensor-floor-map",
+      "created_at": "2026-10-30T12:32:32.000Z",
+      "updated_at": "2026-11-03T15:17:44.000Z"
+    },
+    "grafana-sentry-datasource": {
+      "name": "Sentry",
+      "version": "2.2.11",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for Sentry",
+      "url": "https://grafana.com/grafana/plugins/grafana-sentry-datasource/",
+      "repository": "https://github.com/grafana/sentry-datasource",
+      "created_at": "2021-11-08T15:37:34.000Z",
+      "updated_at": "2026-11-02T14:55:13.000Z"
+    },
+    "novatec-sdg-panel": {
+      "name": "Service Dependency Graph",
+      "version": "4.2.0",
+      "type": "Panel",
+      "description": "Service Dependency Graph panel for Grafana. Shows metric-based, dynamic dependency graph between services, indicates responsetime, load and error rate statistic for individual services and communication edges. Shows communication to external services, such as Web calls, database calls, message queues, LDAP calls, etc. Provides a details dialog for each selected service that shows statistics about incoming and outgoing traffic.",
+      "url": "https://grafana.com/grafana/plugins/novatec-sdg-panel/",
+      "repository": "https://github.com/NovatecConsulting/novatec-service-dependency-graph-panel.git",
+      "created_at": "2020-08-31T12:42:28.000Z",
+      "updated_at": "2025-04-11T14:05:39.000Z"
+    },
+    "grafana-servicenow-datasource": {
+      "name": "ServiceNow",
+      "version": "2.14.18",
+      "type": "Data Source",
+      "description": "ServiceNow datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-servicenow-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2019-06-13T10:51:34.000Z",
+      "updated_at": "2026-10-28T15:23:27.000Z"
+    },
+    "crestdata-sharepoint-datasource": {
+      "name": "SharePoint",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "The SharePoint datasource plugin for Grafana enables security, compliance, and operational monitoring for Microsoft SharePoint Online and OneDrive for Business using the Microsoft Graph API and Office 365 Management Activity API.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-sharepoint-datasource/",
+      "repository": "",
+      "created_at": "2026-09-16T10:53:16.000Z",
+      "updated_at": "2026-09-24T12:27:40.000Z"
+    },
+    "isaozler-shiftselector-panel": {
+      "name": "Shift Selector",
+      "version": "0.1.6",
+      "type": "Panel",
+      "description": "The shift selector allows you to adjust the time range of your grafana dashboard to one specific shift or a range of shifts.",
+      "url": "https://grafana.com/grafana/plugins/isaozler-shiftselector-panel/",
+      "repository": "https://github.com/isaozler/grafana-shift-selector",
+      "created_at": "2022-01-31T09:45:37.000Z",
+      "updated_at": "2024-06-04T09:31:49.000Z"
+    },
+    "boazreicher-sierraplot-panel": {
+      "name": "Sierra Plot",
+      "version": "1.0.14",
+      "type": "Panel",
+      "description": "Sierra Plot Panel",
+      "url": "https://grafana.com/grafana/plugins/boazreicher-sierraplot-panel/",
+      "repository": "https://github.com/boazreicher/sierra-plot",
+      "created_at": "2022-02-03T11:07:55.000Z",
+      "updated_at": "2022-02-03T18:23:19.000Z"
+    },
+    "sift-grafana-datasource": {
+      "name": "Sift",
+      "version": "1.4.7",
+      "type": "Data Source",
+      "description": "Sift Grafana Datasource",
+      "url": "https://grafana.com/grafana/plugins/sift-grafana-datasource/",
+      "repository": "",
+      "created_at": "2025-06-08T17:19:16.000Z",
+      "updated_at": "2026-10-13T18:07:57.000Z"
+    },
+    "tkurki-signalk-datasource": {
+      "name": "Signal K",
+      "version": "1.1.2",
+      "type": "Data Source",
+      "description": "Signal K datasource for streaming realtime data over WebSocket and querying historical data via History API. The plugin is designed to work with the Signal K server and signalk-to-influxdb2 plugin.",
+      "url": "https://grafana.com/grafana/plugins/tkurki-signalk-datasource/",
+      "repository": "https://github.com/tkurki/signalk-grafana-datasource",
+      "created_at": "2025-05-08T09:25:51.000Z",
+      "updated_at": "2026-07-24T20:25:06.000Z"
+    },
+    "innius-grpc-datasource": {
+      "name": "simple grpc datasource",
+      "version": "1.2.13",
+      "type": "Data Source",
+      "description": "simple grpc datasource plugin",
+      "url": "https://grafana.com/grafana/plugins/innius-grpc-datasource/",
+      "repository": "https://github.com/innius/grafana-simple-grpc-datasource",
+      "created_at": "2021-07-07T12:57:04.000Z",
+      "updated_at": "2025-02-14T14:31:28.000Z"
+    },
+    "monyskow-simpleopcua-datasource": {
+      "name": "Simple OPC-UA",
+      "version": "1.1.0",
+      "type": "Data Source",
+      "description": "Connect to OPC-UA servers to read industrial data. Supports anonymous, username/password, and certificate authentication.",
+      "url": "https://grafana.com/grafana/plugins/monyskow-simpleopcua-datasource/",
+      "repository": "https://github.com/monyskow/monyskow-simpleopcua-datasource",
+      "created_at": "2026-01-30T08:06:17.000Z",
+      "updated_at": "2026-06-04T15:01:01.000Z"
+    },
+    "apache-skywalking-datasource": {
+      "name": "SkyWalking",
+      "version": "0.1.0",
+      "type": "Data Source",
+      "description": "Apache SkyWalking",
+      "url": "https://grafana.com/grafana/plugins/apache-skywalking-datasource/",
+      "repository": "",
+      "created_at": "2023-07-04T16:18:34.000Z",
+      "updated_at": "2023-09-12T09:35:35.000Z"
+    },
+    "netsage-slopegraph-panel": {
+      "name": "Slope Graph Panel",
+      "version": "1.1.2",
+      "type": "Panel",
+      "description": "Slope Graph Panel",
+      "url": "https://grafana.com/grafana/plugins/netsage-slopegraph-panel/",
+      "repository": "https://github.com/netsage-project/netsage-slopegraph-panel",
+      "created_at": "2022-06-29T09:04:32.000Z",
+      "updated_at": "2024-10-14T11:13:48.000Z"
+    },
+    "sarika1731-smartanalytics-panel": {
+      "name": "Smart Analytics Panel",
+      "version": "1.0.2",
+      "type": "Panel",
+      "description": "A Grafana panel plugin that visualizes time-series data and provides trend, stats, and anomaly insights.",
+      "url": "https://grafana.com/grafana/plugins/sarika1731-smartanalytics-panel/",
+      "repository": "",
+      "created_at": "2026-04-02T12:45:22.000Z",
+      "updated_at": "2026-05-11T10:01:03.000Z"
+    },
+    "grafana-snowflake-datasource": {
+      "name": "Snowflake",
+      "version": "1.17.8",
+      "type": "Data Source",
+      "description": "Snowflake datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-snowflake-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2020-09-25T16:55:24.000Z",
+      "updated_at": "2026-10-30T17:04:18.000Z"
+    },
+    "lehmannch-flow-panel": {
+      "name": "Solar Flow",
+      "version": "2.0.3",
+      "type": "Panel",
+      "description": "A panel plugin designed to visualize the production flow of solar panels within the Grafana monitoring platform.",
+      "url": "https://grafana.com/grafana/plugins/lehmannch-flow-panel/",
+      "repository": "https://github.com/A-Lehmann-Elektro-AG/solar-flow-grafana",
+      "created_at": "2024-06-17T08:58:45.000Z",
+      "updated_at": "2026-03-25T09:54:17.000Z"
+    },
+    "grafana-solarwinds-datasource": {
+      "name": "Solarwinds",
+      "version": "0.2.13-preview",
+      "type": "Data Source",
+      "description": "Grafana datasource plugin for SolarWinds",
+      "url": "https://grafana.com/grafana/plugins/grafana-solarwinds-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2025-10-02T20:08:02.000Z",
+      "updated_at": "2026-11-02T09:30:56.000Z"
+    },
+    "flandersmake-sparql-datasource": {
+      "name": "SPARQL",
+      "version": "1.1.0",
+      "type": "Data Source",
+      "description": "Data source for SPARQL endpoints",
+      "url": "https://grafana.com/grafana/plugins/flandersmake-sparql-datasource/",
+      "repository": "",
+      "created_at": "2024-05-29T09:36:50.000Z",
+      "updated_at": "2025-10-21T11:53:04.000Z"
+    },
+    "kensobi-spcbullet-panel": {
+      "name": "SPC Bullet",
+      "version": "1.0.2",
+      "type": "Panel",
+      "description": "Bullet chart, progress bar, and bar gauge with optional SPC mode.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spcbullet-panel/",
+      "repository": "",
+      "created_at": "2026-04-14T13:29:11.000Z",
+      "updated_at": "2026-06-01T17:32:24.000Z"
+    },
+    "kensobi-spccad-panel": {
+      "name": "SPC CAD",
+      "version": "3.1.1",
+      "type": "Panel",
+      "description": "Perform statistical analysis on 3D CAD model features.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spccad-panel/",
+      "repository": "https://github.com/KensoBI/spc-cad",
+      "created_at": "2026-02-04T14:32:20.000Z",
+      "updated_at": "2026-04-28T12:41:57.000Z"
+    },
+    "kensobi-spccharacteristic-datasource": {
+      "name": "SPC Characteristic",
+      "version": "2.0.2",
+      "type": "Data Source",
+      "description": "Connect your measurement database for SPC calculations, quality metrics, and trend forecasting.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spccharacteristic-datasource/",
+      "repository": "",
+      "created_at": "2026-04-14T13:28:20.000Z",
+      "updated_at": "2026-04-16T10:02:42.000Z"
+    },
+    "kensobi-spc-panel": {
+      "name": "SPC Chart",
+      "version": "2.4.0",
+      "type": "Panel",
+      "description": "Create common SPC charts like Xbar-R, XbarS, and XmR charts.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spc-panel/",
+      "repository": "https://github.com/KensoBI/spc-chart",
+      "created_at": "2023-12-20T11:12:05.000Z",
+      "updated_at": "2026-09-10T15:37:21.000Z"
+    },
+    "kensobi-spcchartpro-panel": {
+      "name": "SPC Chart PRO",
+      "version": "1.0.2",
+      "type": "Panel",
+      "description": "Professional SPC charts with run rules, attribute charts, and advanced control limits. Commercial plugin by Kenso Software.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spcchartpro-panel/",
+      "repository": "",
+      "created_at": "2026-09-08T07:50:25.000Z",
+      "updated_at": "2026-09-10T13:52:25.000Z"
+    },
+    "kensobi-spchistogram-panel": {
+      "name": "SPC Histogram",
+      "version": "1.5.2",
+      "type": "Panel",
+      "description": "Histogram panel with SPC control limits, bell curves, and capability indices.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spchistogram-panel/",
+      "repository": "https://github.com/KensoBI/spc-histogram",
+      "created_at": "2024-08-08T10:45:55.000Z",
+      "updated_at": "2026-07-15T07:55:27.000Z"
+    },
+    "kensobi-spcpareto-panel": {
+      "name": "SPC Pareto",
+      "version": "1.1.0",
+      "type": "Panel",
+      "description": "Pareto chart with cumulative percentage line, threshold highlighting, and statistics table.",
+      "url": "https://grafana.com/grafana/plugins/kensobi-spcpareto-panel/",
+      "repository": "",
+      "created_at": "2026-03-05T20:24:03.000Z",
+      "updated_at": "2026-07-14T11:43:51.000Z"
+    },
+    "dzaczek-splitflap-panel": {
+      "name": "Split Flap",
+      "version": "2.4.3",
+      "type": "Panel",
+      "description": "A retro-style Split Flap display panel for Grafana. Perfect for visualizing counters, metrics, and status codes with a classic airport terminal aesthetic.",
+      "url": "https://grafana.com/grafana/plugins/dzaczek-splitflap-panel/",
+      "repository": "https://github.com/dzaczek/grafana-splitflap-panel",
+      "created_at": "2026-01-12T13:18:42.000Z",
+      "updated_at": "2026-10-30T08:07:19.000Z"
+    },
+    "grafana-splunk-datasource": {
+      "name": "Splunk",
+      "version": "5.8.33",
+      "type": "Data Source",
+      "description": "Splunk datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-splunk-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2017-04-11T21:18:30.000Z",
+      "updated_at": "2026-10-21T02:03:36.000Z"
+    },
+    "grafana-splunk-monitoring-datasource": {
+      "name": "Splunk Infrastructure Monitoring",
+      "version": "1.8.22",
+      "type": "Data Source",
+      "description": "Splunk Infrastructure Monitoring (formerly SignalFx) datasource plugin for Grafana. Also known as Splunk Observability",
+      "url": "https://grafana.com/grafana/plugins/grafana-splunk-monitoring-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2021-01-22T19:16:10.000Z",
+      "updated_at": "2026-10-29T13:54:44.000Z"
+    },
+    "frser-sqlite-datasource": {
+      "name": "SQLite",
+      "version": "4.0.6",
+      "type": "Data Source",
+      "description": "SQLite as a (Backend) Datasource",
+      "url": "https://grafana.com/grafana/plugins/frser-sqlite-datasource/",
+      "repository": "https://github.com/fr-ser/grafana-sqlite-datasource",
+      "created_at": "2020-11-20T14:52:28.000Z",
+      "updated_at": "2026-05-13T03:48:52.000Z"
+    },
+    "grafana-odbc-datasource": {
+      "name": "Sqlyze Datasource",
+      "version": "1.5.25",
+      "type": "Data Source",
+      "description": "Grafana Sqlyze Data Source. Generic datasource plugin to connect SQL databases via ODBC driver",
+      "url": "https://grafana.com/grafana/plugins/grafana-odbc-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2022-03-24T18:12:04.000Z",
+      "updated_at": "2026-10-28T15:19:08.000Z"
+    },
+    "serrrios-statusoverview-panel": {
+      "name": "Status Overview Panel",
+      "version": "0.0.4",
+      "type": "Panel",
+      "description": "Status Overview Panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/serrrios-statusoverview-panel/",
+      "repository": "https://github.com/serrrios/Status-Overview-Panel",
+      "created_at": "2023-07-04T15:28:49.000Z",
+      "updated_at": "2023-07-05T11:01:16.000Z"
+    },
+    "vonage-status-panel": {
+      "name": "Status Panel",
+      "version": "2.0.4",
+      "type": "Panel",
+      "description": "Status Panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/vonage-status-panel/",
+      "repository": "https://github.com/grafana/Grafana_Status_panel",
+      "created_at": "2016-12-15T22:38:22.000Z",
+      "updated_at": "2025-05-22T14:44:44.000Z"
+    },
+    "benjaminfourmaux-status-panel": {
+      "name": "Status Panel",
+      "version": "1.1.1",
+      "type": "Panel",
+      "description": "A simple panel to show resource status",
+      "url": "https://grafana.com/grafana/plugins/benjaminfourmaux-status-panel/",
+      "repository": "https://github.com/BenjaminFourmaux/Grafana_Status_panel",
+      "created_at": "2025-01-14T12:57:44.000Z",
+      "updated_at": "2025-05-29T15:42:31.000Z"
+    },
+    "grafana-strava-datasource": {
+      "name": "Strava",
+      "version": "1.7.2",
+      "type": "Data Source",
+      "description": "Strava datasource",
+      "url": "https://grafana.com/grafana/plugins/grafana-strava-datasource/",
+      "repository": "https://github.com/grafana/strava-datasource/",
+      "created_at": "2020-01-10T07:37:25.000Z",
+      "updated_at": "2025-03-18T09:59:18.000Z"
+    },
+    "streamr-datasource": {
+      "name": "Streamr",
+      "version": "1.5.0",
+      "type": "Data Source",
+      "description": "Streamr data source plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/streamr-datasource/",
+      "repository": "",
+      "created_at": "2021-03-26T09:46:35.000Z",
+      "updated_at": "2021-06-10T10:10:44.000Z"
+    },
+    "grafana-sumologic-datasource": {
+      "name": "Sumo Logic",
+      "version": "1.6.27",
+      "type": "Data Source",
+      "description": "Sumo Logic datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-sumologic-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2023-10-23T13:42:35.000Z",
+      "updated_at": "2026-10-29T13:54:26.000Z"
+    },
+    "fetzerch-sunandmoon-datasource": {
+      "name": "Sun and Moon",
+      "version": "0.3.3",
+      "type": "Data Source",
+      "description": "Calculates position of Sun and Moon.",
+      "url": "https://grafana.com/grafana/plugins/fetzerch-sunandmoon-datasource/",
+      "repository": "https://github.com/fetzerch/grafana-sunandmoon-datasource",
+      "created_at": "2016-06-29T18:29:54.000Z",
+      "updated_at": "2024-07-10T09:23:04.000Z"
+    },
+    "fiskaly-surrealdb-datasource": {
+      "name": "SurrealDB",
+      "version": "0.3.0",
+      "type": "Data Source",
+      "description": "Grafana Datasource Plugin for SurrealDB",
+      "url": "https://grafana.com/grafana/plugins/fiskaly-surrealdb-datasource/",
+      "repository": "https://github.com/fiskaly/grafana.surrealdb",
+      "created_at": "2024-01-25T13:59:27.000Z",
+      "updated_at": "2024-02-09T14:09:55.000Z"
+    },
+    "grafana-synthetic-monitoring-app": {
+      "name": "Synthetics",
+      "version": "1.67.0",
+      "type": "Application",
+      "description": "Worldwide black box monitoring for services and applications",
+      "url": "https://grafana.com/grafana/plugins/grafana-synthetic-monitoring-app/",
+      "repository": "https://github.com/grafana/synthetic-monitoring-app",
+      "created_at": "2020-07-01T17:00:12.000Z",
+      "updated_at": "2026-11-03T10:53:45.000Z"
+    },
+    "smelentyev-tablecolumngrouping-panel": {
+      "name": "Table with Column Grouping",
+      "version": "1.0.12",
+      "type": "Panel",
+      "description": "Advanced table panel with support for multi-level column headers and flexible column grouping. Features include hierarchical header organization, customizable vertical and horizontal grouping, sorting, filtering, and column resizing capabilities.",
+      "url": "https://grafana.com/grafana/plugins/smelentyev-tablecolumngrouping-panel/",
+      "repository": "https://github.com/Smelentyev/grafana-table-column-grouping",
+      "created_at": "2026-04-20T09:39:06.000Z",
+      "updated_at": "2026-04-30T11:06:16.000Z"
+    },
+    "crestdata-tableau-datasource": {
+      "name": "Tableau",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "Tableau Server / Cloud datasource for Grafana. Query workbooks, views, data sources, users, groups, jobs, and extract tasks via the Tableau REST API.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-tableau-datasource/",
+      "repository": "",
+      "created_at": "2026-05-25T17:29:19.000Z",
+      "updated_at": "2026-06-01T15:12:37.000Z"
+    },
+    "crestdata-tanium-datasource": {
+      "name": "Tanium",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "Query the Tanium API Gateway (GraphQL) for endpoint inventory, vulnerability and compliance findings, unmanaged devices, discover labels, action oversight, security-agent health, FIM coverage, patch definitions, and software asset inventory.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-tanium-datasource/",
+      "repository": "",
+      "created_at": "2026-09-14T11:00:32.000Z",
+      "updated_at": "2026-09-24T12:32:26.000Z"
+    },
+    "tavs-spinner-panel": {
+      "name": "TAVS Spinner",
+      "version": "1.0.0",
+      "type": "Panel",
+      "description": "Animated spinner panel with rotation speed based on metric values. Perfect for visualizing real-time metrics with dynamic animation.",
+      "url": "https://grafana.com/grafana/plugins/tavs-spinner-panel/",
+      "repository": "https://github.com/Team-Advanced-Visualization-Solutions/tavs-spinner-panel",
+      "created_at": "2025-09-12T09:49:21.000Z",
+      "updated_at": "2025-09-12T13:58:43.000Z"
+    },
+    "tempo": {
+      "name": "Tempo",
+      "version": "13.4.2",
+      "type": "Data Source",
+      "description": "High volume, minimal dependency trace storage. OSS tracing solution from Grafana Labs.",
+      "url": "https://grafana.com/grafana/plugins/tempo/",
+      "repository": "https://github.com/grafana/grafana-tempo-datasource",
+      "created_at": "2022-06-23T14:29:31.000Z",
+      "updated_at": "2026-11-02T15:24:02.000Z"
+    },
+    "sni-thruk-datasource": {
+      "name": "Thruk",
+      "version": "2.3.2",
+      "type": "Data Source",
+      "description": "thruk datasource",
+      "url": "https://grafana.com/grafana/plugins/sni-thruk-datasource/",
+      "repository": "https://github.com/sni/grafana-thruk-datasource",
+      "created_at": "2018-10-02T10:22:49.000Z",
+      "updated_at": "2026-10-26T14:07:30.000Z"
+    },
+    "williamvenner-timepickerbuttons-panel": {
+      "name": "Timepicker Buttons Panel",
+      "version": "4.1.1",
+      "type": "Panel",
+      "description": "Datasource-configured buttons panel plugin which set the time range of your Grafana dashboard",
+      "url": "https://grafana.com/grafana/plugins/williamvenner-timepickerbuttons-panel/",
+      "repository": "https://github.com/WilliamVenner/grafana-timepicker-buttons",
+      "created_at": "2020-10-13T13:37:52.000Z",
+      "updated_at": "2021-07-12T09:29:17.000Z"
+    },
+    "bsull-console-datasource": {
+      "name": "Tokio Console",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "Tokio Console datasource for Grafana",
+      "url": "https://grafana.com/grafana/plugins/bsull-console-datasource/",
+      "repository": "https://github.com/grafana/grafana-tokio-console-datasource",
+      "created_at": "2022-07-14T11:45:44.000Z",
+      "updated_at": "2022-08-12T16:36:59.000Z"
+    },
+    "dmkskd-tracehouse-app": {
+      "name": "TraceHouse",
+      "version": "0.19.3",
+      "type": "Application",
+      "description": "Comprehensive ClickHouse monitoring with 3D visualizations, merge tracking, query analysis, and time travel",
+      "url": "https://grafana.com/grafana/plugins/dmkskd-tracehouse-app/",
+      "repository": "https://github.com/dmkskd/tracehouse",
+      "created_at": "2026-07-14T13:13:43.000Z",
+      "updated_at": "2026-10-26T14:59:10.000Z"
+    },
+    "pr0ps-trackmap-panel": {
+      "name": "TrackMap",
+      "version": "3.0.2",
+      "type": "Panel",
+      "description": "A panel that visualizes GPS points as a line on an interactive map",
+      "url": "https://grafana.com/grafana/plugins/pr0ps-trackmap-panel/",
+      "repository": "https://github.com/pR0Ps/grafana-trackmap-panel",
+      "created_at": "2019-03-07T12:54:35.000Z",
+      "updated_at": "2024-11-02T01:52:46.000Z"
+    },
+    "heywesty-trafficlight-panel": {
+      "name": "Traffic Light",
+      "version": "1.1.0",
+      "type": "Panel",
+      "description": "React based traffic light panel for Grafana",
+      "url": "https://grafana.com/grafana/plugins/heywesty-trafficlight-panel/",
+      "repository": "https://github.com/jackw/heywesty-trafficlight-panel",
+      "created_at": "2024-02-07T09:58:41.000Z",
+      "updated_at": "2026-05-12T20:56:49.000Z"
+    },
+    "pgillich-tree-panel": {
+      "name": "Tree View",
+      "version": "0.1.9",
+      "type": "Panel",
+      "description": "Tree View for JSON API datasource. It can show JSON REST API responses, for example: Kubernetes API",
+      "url": "https://grafana.com/grafana/plugins/pgillich-tree-panel/",
+      "repository": "https://github.com/pgillich/grafana-tree-panel",
+      "created_at": "2022-05-25T17:23:05.000Z",
+      "updated_at": "2022-06-02T16:56:21.000Z"
+    },
+    "marcusolsson-treemap-panel": {
+      "name": "Treemap",
+      "version": "2.1.1",
+      "type": "Panel",
+      "description": "Area-based visualization of hierarchical data",
+      "url": "https://grafana.com/grafana/plugins/marcusolsson-treemap-panel/",
+      "repository": "https://github.com/grafana/grafana-treemap-panel",
+      "created_at": "2020-06-24T22:47:38.000Z",
+      "updated_at": "2025-05-28T15:57:27.000Z"
+    },
+    "snuids-trend-panel": {
+      "name": "Trend Panel",
+      "version": "2.0.15",
+      "type": "Panel",
+      "description": "Trend Panel",
+      "url": "https://grafana.com/grafana/plugins/snuids-trend-panel/",
+      "repository": "",
+      "created_at": "2024-05-28T11:05:42.000Z",
+      "updated_at": "2024-06-05T14:51:09.000Z"
+    },
+    "trino-datasource": {
+      "name": "Trino",
+      "version": "1.4.1",
+      "type": "Data Source",
+      "description": "The Trino datasource allows to query and visualize Trino data from within Grafana.",
+      "url": "https://grafana.com/grafana/plugins/trino-datasource/",
+      "repository": "https://github.com/trinodb/grafana-trino",
+      "created_at": "2023-02-22T16:08:10.000Z",
+      "updated_at": "2026-10-16T14:37:51.000Z"
+    },
+    "factry-untimely-panel": {
+      "name": "Untimely",
+      "version": "0.3.1",
+      "type": "Panel",
+      "description": "Grafana panel for displaying time series data as function of distance",
+      "url": "https://grafana.com/grafana/plugins/factry-untimely-panel/",
+      "repository": "https://github.com/factrylabs/untimely-grafana-panel",
+      "created_at": "2020-08-12T15:30:57.000Z",
+      "updated_at": "2023-01-26T14:14:29.000Z"
+    },
+    "akdor1154-vega-panel": {
+      "name": "Vega",
+      "version": "1.1.0",
+      "type": "Panel",
+      "description": "Create panels from Vega[-Lite] specs.",
+      "url": "https://grafana.com/grafana/plugins/akdor1154-vega-panel/",
+      "repository": "",
+      "created_at": "2025-02-04T15:54:07.000Z",
+      "updated_at": "2025-02-07T19:02:27.000Z"
+    },
+    "vertica-grafana-datasource": {
+      "name": "Vertica",
+      "version": "3.2.1",
+      "type": "Data Source",
+      "description": "Data source for Vertica and compatible databases",
+      "url": "https://grafana.com/grafana/plugins/vertica-grafana-datasource/",
+      "repository": "https://github.com/vertica/vertica-grafana-datasource",
+      "created_at": "2019-12-24T04:48:16.000Z",
+      "updated_at": "2026-07-08T16:21:08.000Z"
+    },
+    "victoriametrics-logs-datasource": {
+      "name": "VictoriaLogs",
+      "version": "0.33.1",
+      "type": "Data Source",
+      "description": "VictoriaLogs datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/victoriametrics-logs-datasource/",
+      "repository": "https://github.com/VictoriaMetrics/victorialogs-datasource",
+      "created_at": "2025-01-23T15:49:38.000Z",
+      "updated_at": "2026-10-16T14:33:24.000Z"
+    },
+    "victoriametrics-metrics-datasource": {
+      "name": "VictoriaMetrics",
+      "version": "1.0.1",
+      "type": "Data Source",
+      "description": "VictoriaMetrics datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/victoriametrics-metrics-datasource/",
+      "repository": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+      "created_at": "2025-01-29T09:23:54.000Z",
+      "updated_at": "2026-11-04T14:38:22.000Z"
+    },
+    "innius-video-panel": {
+      "name": "Video",
+      "version": "1.0.7",
+      "type": "Panel",
+      "description": "Display video from a URL, YouTube ID, or an iFrame.",
+      "url": "https://grafana.com/grafana/plugins/innius-video-panel/",
+      "repository": "https://github.com/innius/grafana-video-panel",
+      "created_at": "2020-09-29T15:41:57.000Z",
+      "updated_at": "2023-04-14T07:19:36.000Z"
+    },
+    "crestdata-vmwarevsphere-datasource": {
+      "name": "VMware vSphere",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "Grafana backend datasource plugin for VMware vSphere (vCenter Server). Query and visualize virtual machine, host, datastore, cluster, infrastructure, event, alarm, and vSAN metrics from vCenter using the govmomi vSphere API.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-vmwarevsphere-datasource/",
+      "repository": "",
+      "created_at": "2026-07-29T12:35:48.000Z",
+      "updated_at": "2026-08-06T13:42:05.000Z"
+    },
+    "auxmoney-waterfall-panel": {
+      "name": "Waterfall Panel",
+      "version": "1.0.6",
+      "type": "Panel",
+      "description": "A waterfall panel for a single time-series",
+      "url": "https://grafana.com/grafana/plugins/auxmoney-waterfall-panel/",
+      "repository": "https://github.com/auxmoney/grafana-waterfall-panel",
+      "created_at": "2021-03-22T13:09:28.000Z",
+      "updated_at": "2021-07-13T07:50:19.000Z"
+    },
+    "grafana-wavefront-datasource": {
+      "name": "Wavefront",
+      "version": "2.5.24",
+      "type": "Data Source",
+      "description": "Wavefront datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-wavefront-datasource/",
+      "repository": "https://github.com/grafana/plugins-private",
+      "created_at": "2020-09-01T13:02:57.000Z",
+      "updated_at": "2026-09-23T18:25:57.000Z"
+    },
+    "armanfeyzi-wazuh-datasource": {
+      "name": "Wazuh",
+      "version": "0.2.13",
+      "type": "Data Source",
+      "description": "Connect Grafana to Wazuh (SIEM/XDR) — query alerts, vulnerabilities, FIM events, SCA compliance scores, and agent status without manual OpenSearch configuration.",
+      "url": "https://grafana.com/grafana/plugins/armanfeyzi-wazuh-datasource/",
+      "repository": "https://github.com/armanfeyzi/grafana-wazuh-data-source",
+      "created_at": "2026-07-16T08:33:12.000Z",
+      "updated_at": "2026-07-31T12:51:06.000Z"
+    },
+    "lework-lenav-panel": {
+      "name": "Website Navigation",
+      "version": "1.1.0",
+      "type": "Panel",
+      "description": "A panel to display website navigation.",
+      "url": "https://grafana.com/grafana/plugins/lework-lenav-panel/",
+      "repository": "https://github.com/lework/grafana-lenav-panel",
+      "created_at": "2022-01-11T13:57:18.000Z",
+      "updated_at": "2025-06-06T13:19:23.000Z"
+    },
+    "golioth-websocket-datasource": {
+      "name": "WebSocket API",
+      "version": "1.0.2",
+      "type": "Data Source",
+      "description": "A data source plugin for handling WebSocket connections on Grafana. Works great in the general use case or with IoT projects built on Golioth.",
+      "url": "https://grafana.com/grafana/plugins/golioth-websocket-datasource/",
+      "repository": "https://github.com/golioth/grafana-websocket-plugin",
+      "created_at": "2022-02-10T17:18:15.000Z",
+      "updated_at": "2022-12-01T10:34:06.000Z"
+    },
+    "kentrow-wificoverage-panel": {
+      "name": "Wi-Fi coverage",
+      "version": "0.1.1",
+      "type": "Panel",
+      "description": "Predicted Wi-Fi coverage of each access point on a floor plan, band by band, with wall losses.",
+      "url": "https://grafana.com/grafana/plugins/kentrow-wificoverage-panel/",
+      "repository": "https://github.com/Kentrow/grafana-wificoverage-panel",
+      "created_at": "2026-11-04T13:20:16.000Z",
+      "updated_at": "2026-11-04T16:48:55.000Z"
+    },
+    "retrodaredevil-wildgraphql-datasource": {
+      "name": "Wild GraphQL Data Source",
+      "version": "1.7.2",
+      "type": "Data Source",
+      "description": "Grafana data source to interpret GraphQL query results as timeseries data",
+      "url": "https://grafana.com/grafana/plugins/retrodaredevil-wildgraphql-datasource/",
+      "repository": "https://github.com/wildmountainfarms/wild-graphql-datasource",
+      "created_at": "2024-04-12T14:17:26.000Z",
+      "updated_at": "2026-10-26T13:04:42.000Z"
+    },
+    "crestdata-wiz-datasource": {
+      "name": "Wiz",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "Query Wiz CNAPP security data - issues, vulnerability findings, cloud and host configuration findings, Wiz Defend detections, audit log, network exposure, external attack surface, cloud inventory, data findings, scan activity, issue trends, and compliance posture.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-wiz-datasource/",
+      "repository": "",
+      "created_at": "2026-10-14T14:14:02.000Z",
+      "updated_at": "2026-10-15T08:51:56.000Z"
+    },
+    "magnesium-wordcloud-panel": {
+      "name": "Word cloud",
+      "version": "1.2.11",
+      "type": "Panel",
+      "description": "WordCloud / TagCloud Panel",
+      "url": "https://grafana.com/grafana/plugins/magnesium-wordcloud-panel/",
+      "repository": "https://github.com/raulsperoni/grafana-wordcloud-panel-plugin",
+      "created_at": "2020-06-29T14:47:05.000Z",
+      "updated_at": "2023-12-14T14:57:59.000Z"
+    },
+    "grafana-xyzchart-panel": {
+      "name": "XYZ Chart",
+      "version": "0.1.0",
+      "type": "Panel",
+      "description": "XYZ chart",
+      "url": "https://grafana.com/grafana/plugins/grafana-xyzchart-panel/",
+      "repository": "https://github.com/grafana/xyz-chart",
+      "created_at": "2023-02-24T07:24:57.000Z",
+      "updated_at": "2023-05-17T05:33:46.000Z"
+    },
+    "ydbtech-ydb-datasource": {
+      "name": "YDB",
+      "version": "0.5.6",
+      "type": "Data Source",
+      "description": "YDB datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/ydbtech-ydb-datasource/",
+      "repository": "",
+      "created_at": "2023-08-16T16:40:47.000Z",
+      "updated_at": "2025-03-03T11:03:34.000Z"
+    },
+    "grafana-yugabyte-datasource": {
+      "name": "Yugabyte",
+      "version": "2.1.8",
+      "type": "Data Source",
+      "description": "Yugabyte datasource plugin for grafana",
+      "url": "https://grafana.com/grafana/plugins/grafana-yugabyte-datasource/",
+      "repository": "https://github.com/grafana/yugabyte-datasource",
+      "created_at": "2024-07-01T16:39:41.000Z",
+      "updated_at": "2026-11-02T15:23:59.000Z"
+    },
+    "alexanderzobnin-zabbix-app": {
+      "name": "Zabbix",
+      "version": "6.10.2",
+      "type": "Application",
+      "description": "Zabbix plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/alexanderzobnin-zabbix-app/",
+      "repository": "https://github.com/grafana/grafana-zabbix",
+      "created_at": "2016-04-06T20:23:41.000Z",
+      "updated_at": "2026-11-02T14:50:01.000Z"
+    },
+    "grafana-zendesk-datasource": {
+      "name": "Zendesk",
+      "version": "0.1.13-preview",
+      "type": "Data Source",
+      "description": "",
+      "url": "https://grafana.com/grafana/plugins/grafana-zendesk-datasource/",
+      "repository": "https://github.com/grafana/plugins",
+      "created_at": "2022-03-11T10:08:17.000Z",
+      "updated_at": "2026-11-02T09:32:07.000Z"
+    },
+    "gabrielthomasjacobs-zendesk-datasource": {
+      "name": "Zendesk Datasource Plugin",
+      "version": "1.1.2",
+      "type": "Data Source",
+      "description": "A datasource plugin to add Zendesk integration",
+      "url": "https://grafana.com/grafana/plugins/gabrielthomasjacobs-zendesk-datasource/",
+      "repository": "https://github.com/gabrielthomasjacobs/grafana-zendesk-plugin",
+      "created_at": "2023-06-02T13:51:33.000Z",
+      "updated_at": "2024-01-12T10:10:49.000Z"
+    },
+    "zipkin": {
+      "name": "Zipkin",
+      "version": "12.4.12",
+      "type": "Data Source",
+      "description": "Query and visualize traces from Zipkin, an open-source distributed tracing system.",
+      "url": "https://grafana.com/grafana/plugins/zipkin/",
+      "repository": "https://github.com/grafana/grafana-zipkin-datasource",
+      "created_at": "2022-06-23T14:29:32.000Z",
+      "updated_at": "2026-10-28T12:52:17.000Z"
+    },
+    "crestdata-zoom-datasource": {
+      "name": "Zoom",
+      "version": "1.0.4",
+      "type": "Data Source",
+      "description": "Query Zoom meeting quality, room health, user activity and phone device status from Grafana.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-zoom-datasource/",
+      "repository": "",
+      "created_at": "2026-06-11T11:10:03.000Z",
+      "updated_at": "2026-06-12T09:58:41.000Z"
+    },
+    "crestdata-zscalerzdx-datasource": {
+      "name": "Zscaler ZDX",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "Query Zscaler Digital Experience (ZDX) monitoring data — application scores and metrics, device inventory and health, network path (Cloudpath) diagnostics, alerts, software inventory, and users.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-zscalerzdx-datasource/",
+      "repository": "",
+      "created_at": "2026-09-14T09:04:36.000Z",
+      "updated_at": "2026-09-24T12:01:18.000Z"
+    },
+    "crestdata-zscalerzia-datasource": {
+      "name": "Zscaler ZIA",
+      "version": "1.0.3",
+      "type": "Data Source",
+      "description": "Query Zscaler Internet Access (ZIA) security posture data — firewall rules, SSL inspection, DLP, URL filtering, locations, users, NSS servers, and sandbox quota.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-zscalerzia-datasource/",
+      "repository": "",
+      "created_at": "2026-06-01T21:28:06.000Z",
+      "updated_at": "2026-06-02T14:43:31.000Z"
+    },
+    "crestdata-zscalerzpa-datasource": {
+      "name": "Zscaler ZPA",
+      "version": "1.1.1",
+      "type": "Data Source",
+      "description": "Query Zscaler Private Access (ZPA) infrastructure health and security policy data — app connectors, service edges, cloud connector groups, access policy rules, application segments, server groups, and connector groups.",
+      "url": "https://grafana.com/grafana/plugins/crestdata-zscalerzpa-datasource/",
+      "repository": "",
+      "created_at": "2026-06-12T14:12:56.000Z",
+      "updated_at": "2026-09-09T08:51:01.000Z"
+    }
+  }
+}
