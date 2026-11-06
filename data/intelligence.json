@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-06T08:42:24.124386+00:00",
+  "generated_at": "2026-11-06T08:43:41.588162+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 310,
+  "item_count": 237,
   "items": {
     "eac2806ff6607ce1b621": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -15,6 +16,17 @@
     },
     "2fb370d4e8d441af2e39": {
       "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "7064e03b34dd9bda9e13": {
+      "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -24,6 +36,17 @@
     },
     "fde1031e9a382e0f31d6": {
       "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "f6b14741e9f9b15dd135": {
+      "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -33,6 +56,7 @@
     },
     "ef05fdfc85af754864ff": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -73,8 +97,19 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "7bc33e1a40856bc811f1": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "6b69a03147f205d9b36c": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -107,6 +142,7 @@
     },
     "3dd911e04ec4136f3536": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -149,6 +185,17 @@
     },
     "759b54904cc2961c4945": {
       "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "30dcff11993881278ac5": {
+      "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -158,6 +205,7 @@
     },
     "7c9d0403ab81472d989f": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -188,8 +236,29 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "79f76e32a628312a3424": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "7cbfff1bcfb6dfa3f50e": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "4e66fcee77ea628d1295": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -232,6 +301,7 @@
     },
     "9cc104ef886f366fa408": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -252,8 +322,19 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "688e3177f343a002d8b7": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "c916890b78b68dad48a2": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -294,8 +375,29 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "4fa9370af84199275b86": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "a4ce31db171724567b8d": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "3ada34e46f39865a08d1": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -318,6 +420,7 @@
     },
     "f9aa885f93319a9546eb": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -340,6 +443,7 @@
     },
     "8d82077319a208ece9fd": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -370,8 +474,82 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "c44388e210879b4643ea": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "847320066e544be6f57b": {
       "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "56be07c5d853fc1f817c": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "354082dfb75af6949660": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "Pushing the Limits: Scaling Prometheus for High-Performance AI & GPU Workloads - Sagar Utekar"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "1be78973455a46378b58": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "5051ca8587d16552acac": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "0806714f6745bca0feae": {
+      "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -381,6 +559,7 @@
     },
     "bef1b0c97f595203e21f": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -403,6 +582,7 @@
     },
     "f46a9c1f332114949c1c": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -412,6 +592,7 @@
     },
     "51177c2e7f4d8057561d": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -421,6 +602,7 @@
     },
     "22b1443c0369f273af13": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -443,6 +625,7 @@
     },
     "4068f71c6c727b080e2e": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -465,6 +648,7 @@
     },
     "f553bfb4a791fefde981": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -497,6 +681,7 @@
     },
     "40e2a7d649f40ab33876": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -506,6 +691,7 @@
     },
     "9c6727a6ff858d3ced3c": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -515,6 +701,7 @@
     },
     "07eb20b26ef120ce94a3": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -557,6 +744,7 @@
     },
     "295a371c3d2fcb829e2f": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -566,6 +754,7 @@
     },
     "da945d3a77f2cdb33122": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -588,6 +777,7 @@
     },
     "31d3c7a5c7e07e6f9aa6": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "configuration",
@@ -610,6 +800,7 @@
     },
     "3ea9c81ca9ef190e36e0": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -642,6 +833,7 @@
     },
     "d71a183cb8c8058cad10": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -651,6 +843,7 @@
     },
     "ec0db0a6a02cb9d6d313": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -683,6 +876,7 @@
     },
     "108241167f7b7b9cfa5c": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -692,6 +886,7 @@
     },
     "7ace2bd162f1b20e6e56": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -734,6 +929,7 @@
     },
     "935a0150d3ad49b3ecf3": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -743,6 +939,7 @@
     },
     "40ddc01098a6030801d1": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -765,6 +962,7 @@
     },
     "65096718cbee310ce0b3": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -797,6 +995,7 @@
     },
     "4f88c6399862cb971c2d": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -829,6 +1028,7 @@
     },
     "b403bc64074fea56aa55": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -838,6 +1038,7 @@
     },
     "94e31cb5c8a5abf3b89d": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -870,6 +1071,7 @@
     },
     "38d5b4c58cc455ade7b7": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -902,6 +1104,7 @@
     },
     "56d56fc6afc8846c12ca": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -934,6 +1137,7 @@
     },
     "ea1961e4956d6ed21754": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -976,6 +1180,7 @@
     },
     "f365b73d89a8de051d3e": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -985,6 +1190,7 @@
     },
     "55f8ef431736ccac2614": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -1005,17 +1211,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "19cc0cefa276c730ddd3": {
-      "priority": "low",
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "26e407628333888ccb80": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -1046,17 +1244,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "20aa9128a27f6e040361": {
-      "priority": "low",
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "f43497574b3c2c87debc": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -1079,6 +1269,7 @@
     },
     "9e273cd1541111b0f971": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -1114,11 +1305,6 @@
           "id": "feature",
           "label": "Feature",
           "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
         }
       ],
       "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
@@ -1143,175 +1329,11 @@
         },
         {
           "theme": "Performance",
-          "text": "Use it to bound memory when batch sizes vary. ( 52253) - receiver/mongodb: Add operation latency count and non-tailable collection scan metrics ( 51909) - receiver/mysql: Add mysql.client.name to db.server.query sample, the client driver's self-r"
+          "text": "ch reports a collector fleet's live member count so adaptive tail sampling can treat goal throughput as a fleet-wide budget. ( 50577) - processor/verify: Add verifyprocessor, a new processor that verifies RFC 8785 (JCS) canonical integrity attributes"
         },
         {
           "theme": "Configuration",
-          "text": "ceiver/google cloud spanner: Add oldest active queries metrics and hide client ip address configuration to mask client ip address in oldest active queries in googlecloudspannerreceiver. ( 52089) - receiver/k8s objects: Add an opt-in informer-based obser"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "190c80e6f0483a98a10d": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- connector/failover: Fix recovery after a new failover immediately follows primary pipeline recovery. ( 48668)"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "New OTel Collector connector: failover - connector/failover: Fix recovery after a new failover immediately follows primary pipeline recovery. ( 48668)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "da6dde0dbc5870a9e8f2": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/awss3: Add access key and secret key options to configure static AWS credentials ( 52140)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "099962c8b0fcad8496b1": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/awsxray: Add feature gates to migrate semantic conventions from v1.12.0 to v1.40.0 ( 46537)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "785ebc323160eea2232c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/clickhouse: Added a Bloom Filter data skipping index (idx event name) to the EventName column with a 0.01 false positive rate and granularity 1. ( 49310)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "0749f07b96c32ba0549b": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/elasticsearch: Add opt-in telemetry::include destination index to add the destination index as an attribute to the otelcol.elasticsearch.docs.processed metric ( 52108)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "31ecfa7e2b01b11997d3": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/datadog: Add NewFactoryWithOptions so a host embedding the collector can supply extra Agent-config options, for example to propagate an API key rotation into the extension's forwarder. ( 51877)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d23a24026d0af7bb6374": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/opamp: Add reports heartbeat capability, enabled by default, to allow the OpAMP server to configure the agent's heartbeat interval ( 51427)"
+          "text": "mantic convention feature gates. - `pkg/ottl`: Remove the stable `ottl.set.allowNil` feature gate. (#48714) - `pkg/translator/pprof`: Return an error instead of panicking when profiling data contains invalid profile references. (#51908) - `pkg/z"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -1319,6 +1341,7 @@
     },
     "e3e3cb030c4d00f3a7d3": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -1349,182 +1372,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b1d87a3a78cfed802850": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/redis storage: Add IncrementBy and BatchIncrementBy for atomic integer counters shared across Collector instances. ( 51567)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "c0b7c9e39e15efe2694d": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/adaptive tail sampling: Add a metric to track multiple root span condition matches ( 51458)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "98cff8aff4971bc28f89": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/k8s attributes: Add experimental kubelet /pods polling as an opt-in pod metadata source. ( 14475)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8e13bb9ae8e33ed9e1be": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/partitioning: Add otelcol.processor.partitioning.partitions and otelcol.processor.partitioning.key evaluation.errors internal telemetry metrics. ( 39199)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "31dbecae3a52c024929a": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "sampler: Add the otelcol processor probabilistic sampler count spans processed metric and deprecate otelcol processor probabilistic sampler count traces sampled in favor of it. ( 50954)"
-        },
-        {
-          "theme": "New component",
-          "text": "- processor/probabilistic sampler: Add the otelcol processor probabilistic sampler count spans processed metric and deprecate otelcol processor probabilistic sampler count traces sampled in favor of it. ( 50954)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f05adc9b38032a6e4b00": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/resource detection: Add attributes.included and attributes.excluded options to the env detector to filter which attribute keys from OTEL RESOURCE ATTRIBUTES are emitted. Both lists support and ? as wildcards, and excluded is applied after included."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f5bd637e7356044d14f9": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "New OTel Collector processor: transform - processor/transform: Deprecate the flatten data option in favor of the new flatten.log option. ( 51766)"
-        },
-        {
-          "theme": "New component",
-          "text": "- processor/transform: Deprecate the flatten data option in favor of the new flatten.log option. ( 51766)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "7bf1837c0694f843cbd3": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -1547,6 +1397,7 @@
     },
     "8f79ad06e28623973596": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -1577,148 +1428,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "69d1dfc56150a40fb968": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "ceiver/google cloud spanner: Add oldest active queries metrics and hide client ip address configuration to mask client ip address in oldest active queries in googlecloudspannerreceiver. ( 52089)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/google cloud spanner: Add oldest active queries metrics and hide client ip address configuration to mask client ip address in oldest active queries in googlecloudspannerreceiver. ( 52089)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "1bf6c60af1e7f7d1673b": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "Add an opt-in informer-based observer behind the receiver.k8sobjects.useInformerObserver feature gate. ( 43602)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/k8s objects: Add an opt-in informer-based observer behind the receiver.k8sobjects.useInformerObserver feature gate. ( 43602)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "646b537fcd56a80021ef": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/kafka: Add partition processing.max prefetch.bytes to cap the bytes of fetched batches waiting for each partition worker. Use it to bound memory when batch sizes vary. ( 52253)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "dccbe976bf58bc6ff808": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "New OTel Collector receiver: mongodb - receiver/mongodb: Add operation latency count and non-tailable collection scan metrics ( 51909)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/mongodb: Add operation latency count and non-tailable collection scan metrics ( 51909)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "61930ed777f425899666": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mysql: Add mysql.client.name to db.server.query sample, the client driver's self-reported identity. ( 51317)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "7f1d482ccd3206055f38": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -1739,84 +1451,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a9fd1e3442346ab46514": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/prometheus remote write: Add resource cache size to configure the number of job/instance pairs kept in the resource metrics cache. ( 52195)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "80017fd1f45ab49d245f": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "New OTel Collector receiver: snmp - receiver/snmp: Add max repetitions configuration option (defaulting to 25) for GETBULK requests to prevent request timeouts on MTU boundaries. ( 51925)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/snmp: Add max repetitions configuration option (defaulting to 25) for GETBULK requests to prevent request timeouts on MTU boundaries. ( 51925)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "18c55bd05541b8bab892": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/sql server: Add sqlserver.tempdb.file.size and sqlserver.tempdb.allocation.waiters.count metrics, and extend sqlserver.database.tempdb.space. ( 52057)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "b67550110591401296ff": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "configuration",
@@ -1839,6 +1476,7 @@
     },
     "7be738954aa319035097": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -1861,6 +1499,7 @@
     },
     "e945586e20cb1eecd498": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -1903,6 +1542,7 @@
     },
     "cb74fa42d60bd41c74aa": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -1925,6 +1565,7 @@
     },
     "ca2245464701481c0d35": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -1934,6 +1575,7 @@
     },
     "99b042cb7a44c572324c": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -1986,6 +1628,7 @@
     },
     "371e5a253669042be435": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -1995,6 +1638,7 @@
     },
     "77659dc806c4482d7196": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2037,6 +1681,7 @@
     },
     "f4cc765d12864cc5aaab": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2079,6 +1724,7 @@
     },
     "0b3664364360be7406c6": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2121,6 +1767,7 @@
     },
     "b9392c7f7addad4be81c": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -2130,6 +1777,7 @@
     },
     "21073fd9f17bdc60892f": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2152,6 +1800,7 @@
     },
     "eace2c7d71ed898c7efc": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2204,6 +1853,7 @@
     },
     "b349ad6ab02452a48781": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2256,6 +1906,7 @@
     },
     "fbb59db878b3a6eac8ac": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2288,6 +1939,7 @@
     },
     "18cf39f3e84b20845052": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2320,6 +1972,7 @@
     },
     "d59752258af0b21d202a": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2342,6 +1995,7 @@
     },
     "c2e301794d9a7a5cfb86": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2364,6 +2018,7 @@
     },
     "6d3876e7ab13a810d07f": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2384,17 +2039,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a69561b617b4151b6b21": {
-      "priority": "low",
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "397ffa8696a93bbf7f87": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2427,6 +2074,7 @@
     },
     "0e1a4c35518681277717": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2449,6 +2097,7 @@
     },
     "8447c173e1ee12ab8aff": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2471,6 +2120,7 @@
     },
     "c6d33e271aff39d74e12": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2493,6 +2143,7 @@
     },
     "afaf708ecf6dd715fd3b": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2515,6 +2166,7 @@
     },
     "80c39506303e59a3ed02": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2547,6 +2199,7 @@
     },
     "895abd0226afd26a97aa": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -2556,6 +2209,7 @@
     },
     "48eb8f67a6d8bb252435": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2588,6 +2242,7 @@
     },
     "cc8ca9afbc766f5886f9": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2620,6 +2275,7 @@
     },
     "d50431e9454be306d270": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -2652,6 +2308,7 @@
     },
     "8ed0aa1f1bdebd16c71c": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2674,6 +2331,7 @@
     },
     "fc36ed5cdd81a3522739": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2696,6 +2354,7 @@
     },
     "b33b1852b89e15f1ee24": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2718,6 +2377,7 @@
     },
     "093d64df2756cff0c1c0": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -2740,6 +2400,7 @@
     },
     "188f68e4f2288278cf8e": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2782,6 +2443,7 @@
     },
     "e830be902ede10923b29": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -2814,6 +2476,7 @@
     },
     "aedacd5528b5d51b03a3": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -2823,6 +2486,7 @@
     },
     "e7c58929818d6d1f187e": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2855,6 +2519,7 @@
     },
     "3dbda8d8c469a7800d70": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2877,6 +2542,7 @@
     },
     "003a90ecc61693ea1ea5": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -2909,6 +2575,7 @@
     },
     "e560eb668cd32e9b8724": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -2931,6 +2598,7 @@
     },
     "b3b32eaaf179289ebfb2": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -2951,6 +2619,11 @@
           "id": "configuration",
           "label": "Configuration",
           "priority": "medium"
+        },
+        {
+          "id": "component",
+          "label": "New component",
+          "priority": "low"
         },
         {
           "id": "bugfix",
@@ -2976,174 +2649,23 @@
         },
         {
           "theme": "Performance",
-          "text": "or aws ecs go build tag to omit detector at build time. ( 47218) - processor/rolling span latency: Promote the rolling span latency processor to alpha stability and include it in the contrib distribution. ( 50260) - processor/scalewaydetector: Add"
+          "text": "dd the initial skeleton for the partitioning processor. ( 39199) - processor/rolling span latency: Promote the rolling span latency processor to alpha stability and include it in the contrib distribution. ( 50260)"
         },
         {
           "theme": "Configuration",
           "text": "r_cpu_utilization` is still required, please add it to the exporter's `include_metrics` configuration option as shown below. ``` signalfx: include_metrics: - metric_name: container_cpu_utilization ``` - `extension/google_cloud_logen"
         },
         {
-          "theme": "Bug fix",
-          "text": "ic_name: container_cpu_utilization ``` - `extension/google_cloud_logentry_encoding`: Fix Cloud DNS query logs failing to decode when `vmInstanceId` is in exponent notation. `host.id` is now a string taken from `vmInstanceIdString` instead"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "473569bd3fcb2567eff4": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "New OTel Collector exporter: cassandra - exporter/cassandra: Add configuration validation and error case tests. ( 51730)"
-        },
-        {
           "theme": "New component",
-          "text": "- exporter/cassandra: Add configuration validation and error case tests. ( 51730)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "3e457d67540ae7e9877d": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/clickhouse: Add database engine config to set the ENGINE used when creating the database, such as Replicated. ( 51513)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d47e3287ecf91e859c31": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/kafka: Add the trace context to Kafka record headers using the propagators configured in service::telemetry::traces::propagators. ( 51078)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d0757e5269d16b3bab11": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/opamp: Add a socket option under server.ws and server.http to dial the OpAMP server over a Unix domain socket (transport: unix) or Windows named pipe (transport: npipe). ( 50603)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f1a5d7b48fc8d51e965c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/pebble tail storage: Add on read error to choose between dropping a trace or returning the readable part when stored batches cannot be read or decoded. ( 49906)"
+          "text": "New Collector component additions listed in this release: processor/adaptive_tail_sampling, processor/partitioning, processor/rolling_span_latency"
         }
       ],
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "e157bc953ffd7fe07048": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "il_sampling - processor/adaptive tail sampling: Add fleet tracker to divide each adaptive throughput rule's goal throughput by the live fleet member count reported by a fleet tracker extension, making the goal a fleet-wide budget instead of a per-ins"
-        },
-        {
-          "theme": "New component",
-          "text": "- processor/adaptive tail sampling: Add fleet tracker to divide each adaptive throughput rule's goal throughput by the live fleet member count reported by a fleet tracker extension, making the goal a fleet-wide budget instead of a per-instance one. ( 50577)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "1103aa6c99e6b6c5ae37": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -3158,205 +2680,7 @@
       "evidence": [
         {
           "theme": "New component",
-          "text": "- processor/akamaidetector: Add omit detector akamai go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "0fb11ddf5646583f462c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/alibabaecsdetector: Add omit detector alibaba ecs go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f96b0ec0b6b44733df78": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/azuredetector: Add omit detector azure go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "50e97afeefff90dfacc0": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/digitaloceandetector: Add omit detector digitalocean go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "fbcf12dae68951d08dc5": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/dynatracedetector: Add omit detector dynatrace go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "ac28a09e1a24a0a0c858": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/hetznerdetector: Add omit detector hetzner go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7aa52bc477f3d38c4a07": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/ibmcloudclassicdetector: Add omit detector ibmcloud classic go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "9414a7ae52ad78ec68e8": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/ibmcloudvpcdetector: Add omit detector ibmcloud vpc go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7087b2266a98557a3b7c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/novadetector: Add omit detector openstack nova go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "1f7834fe6e1efcdca8c4": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/oracleclouddetector: Add omit detector oraclecloud go build tag to omit detector at build time. ( 47218)"
+          "text": "- processor/adaptive tail sampling: Promote the adaptive tail sampling processor to alpha stability and include it in the contrib distribution. ( 49311)"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -3364,6 +2688,7 @@
     },
     "ea97f4fd822ee978db63": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -3384,30 +2709,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "895ec5da1316cd8448d4": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/resource detection: Add omit detector aws ecs go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "da924fb0aa92dddf9b7c": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -3438,380 +2742,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "2292fb1bc8eab8e86605": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/scalewaydetector: Add omit detector scaleway go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "105d738500330ef56045": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/tencentcvmdetector: Add omit detector tencent cvm go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7e90cbde38c53f43f83c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/upclouddetector: Add omit detector upcloud go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "fbc42840f86f3d6d824f": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/vultrdetector: Add omit detector vultr go build tag to omit detector at build time. ( 47218)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "db071cda092e425c3a6e": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/aws cloudwatch: Add scope.name and scope.version to logs and metrics. ( 51333)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "6ded762bced39021d5c1": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/azure blob: Add a compression option to read gzip compressed blobs ( 51412)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "c6868a7dbc06de71f7ee": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/azure monitor: Add per-metric time grain overrides for Azure Monitor metric queries. ( 51295)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "634fec2c5ec84e440e9a": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/google cloud spanner: Add total minute transaction stats metrics to googlecloudspannerreceiver. ( 51296)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5c29565acbbfa0d74c8c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/kafka: Add partition processing.max in flight.records to run concurrent unmarshal-plus-Consume calls on one independent partition worker. ( 51080)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "dd8ab0f8d7eba65f4a7b": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/kubelet stats: Add optional k8s node pid limit and usage metrics. ( 48926)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "bda1e1431724d8a50c3b": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mongodb: Add query executor scan and collection scan metrics ( 51060)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "6b0b02f00caabd84f38d": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mysql: Add row-count and database namespace context to the top query event ( 51312)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "e2050f6dce0e6673c187": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "oracledb: Add support for Kerberos authentication via a new auth type option and kerberos configuration block. ( 50401)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/oracledb: Add support for Kerberos authentication via a new auth type option and kerberos configuration block. ( 50401)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "4114158b4a7589ba37ba": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/postgresql: Add postgresql.userid to db.server.top query and db.server.query plan, and key the top-query counter cache and EXPLAIN plan cache on it instead of postgresql.rolname. Fixes a case where two dropped database roles could be reported under "
-        },
-        {
-          "theme": "Bug fix",
-          "text": "y the top-query counter cache and EXPLAIN plan cache on it instead of postgresql.rolname. Fixes a case where two dropped database roles could be reported under each other's counters or query plan, and keeps counter deltas continuous across a rol"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d654c58a60b8898475c3": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/pulsar: Add freebsd/amd64 as a supported build platform. ( 15781)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8332bb3ac9cb0d6bedce": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/sql server: Add sqlserver.db.edition resource attribute. ( 51414)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "2b44c1739ae598780209": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -3821,6 +2754,7 @@
     },
     "e3682cc1297c6a1b9a73": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -3853,6 +2787,7 @@
     },
     "9f7fe174ffdcdda30ceb": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -3862,6 +2797,7 @@
     },
     "686af2302835e78de8b3": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -3914,6 +2850,7 @@
     },
     "a9a2a1921ff2b0f5a7cc": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -3936,6 +2873,7 @@
     },
     "fe706649da4c655239e0": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -3945,6 +2883,7 @@
     },
     "7f2d5cce77d13d160606": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -3967,6 +2906,7 @@
     },
     "b752e1c17f46ebaa8751": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -3989,6 +2929,7 @@
     },
     "03ee4ade9fd4faed601d": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -4011,6 +2952,7 @@
     },
     "312998a90c89e3685b7e": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -4033,6 +2975,7 @@
     },
     "0df2747b55534625f2b6": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -4055,6 +2998,7 @@
     },
     "97030843b7ad030fb3f2": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -4097,6 +3041,7 @@
     },
     "24b2e93982d2101f9b70": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -4106,6 +3051,7 @@
     },
     "1cfe79cb4664573c68bc": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "configuration",
@@ -4128,6 +3074,7 @@
     },
     "7b630098255372d9dd8f": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -4170,6 +3117,7 @@
     },
     "ab78f1f9ae314a62d063": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "configuration",
@@ -4192,6 +3140,7 @@
     },
     "c4257d4ba291b92ce236": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -4214,6 +3163,7 @@
     },
     "8b3de6d284996b44f107": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -4223,6 +3173,7 @@
     },
     "c99dfac56539a928cf22": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -4255,6 +3206,7 @@
     },
     "e3065418a21a8759494c": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -4287,6 +3239,7 @@
     },
     "48de6dc946a7d1fd29fe": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -4299,18 +3252,13 @@
           "priority": "medium"
         },
         {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
           "id": "configuration",
           "label": "Configuration",
           "priority": "medium"
         },
         {
-          "id": "bugfix",
-          "label": "Bug fix",
+          "id": "component",
+          "label": "New component",
           "priority": "low"
         }
       ],
@@ -4318,8 +3266,8 @@
       "review_actions": [
         "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
         "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
       ],
       "evidence": [
         {
@@ -4331,102 +3279,12 @@
           "text": "sure valid OTLP payloads are not dropped (#48419) - `exporter/elasticsearch`: Remove the deprecated `flush` and `num_workers` configuration settings. (#42718) Migrate `num_workers` to `sending_queue::num_consumers`, `flush::interval` to `sendi"
         },
         {
-          "theme": "Performance",
-          "text": "quest count, sampler keyspace size, and sampler burst count metrics exposing the internal performance of adaptive percentage and adaptive throughput samplers, labelled by rule, sampler type, and sampler algorithm. ( 49311) - processor/interval: Add de"
-        },
-        {
           "theme": "Configuration",
           "text": "ped (#48419) - `exporter/elasticsearch`: Remove the deprecated `flush` and `num_workers` configuration settings. (#42718) Migrate `num_workers` to `sending_queue::num_consumers`, `flush::interval` to `sending_queue::batch::flush_timeout`, and `fl"
         },
         {
-          "theme": "Bug fix",
-          "text": "source-level at - connector/exceptions: Add logs to logs and logs to metrics support, and fix the traces to logs edge to emit spec-conformant exception LogEvents (event.name, required exception. attributes, and full resource attribute propagat"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "268229fd444fcbdc8187": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
           "theme": "New component",
-          "text": "- connector/exceptions: Add logs to logs and logs to metrics support, and fix the traces to logs edge to emit spec-conformant exception LogEvents (event.name, required exception. attributes, and full resource attribute propagation). ( 50900)"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "tor: exceptions - connector/exceptions: Add logs to logs and logs to metrics support, and fix the traces to logs edge to emit spec-conformant exception LogEvents (event.name, required exception. attributes, and full resource attribute propagat"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "83dd941962d82eec8722": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/doris: Fix materialized view and scheduled job creation on Doris 4.x, and add an is root column plus a summary materialized view to the traces table. ( 51265)"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "New OTel Collector exporter: doris - exporter/doris: Fix materialized view and scheduled job creation on Doris 4.x, and add an is root column plus a summary materialized view to the traces table. ( 51265)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "a55a28b5f5ec2aa8cb79": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/load balancing: Add randomness routing key that routes spans by the OTel tracestate randomness value (ot=rv), falling back to trace ID randomness when absent, so traces sharing an explicit randomness value are routed to the same backend. ( 49660)"
+          "text": "New Collector component additions listed in this release: exporter/nats, extension/file_telemetry_policy, extension/sd_notify, processor/telemetry_policy"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -4434,6 +3292,7 @@
     },
     "410aaf3191bee865053b": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -4454,30 +3313,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b8fb064ddc86619cc44c": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- exporter/syslog: Add support for exporting to Unix datagram sockets such as /dev/log. ( 50867)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "e01a950d2df5c4f09798": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -4498,52 +3336,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "fa57fbc8cdbe65910cf3": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/json log encoding: Add the opt-in parse ints setting to preserve JSON integer literals within the int64 range. ( 51299)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d05949064534d6d06ab6": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/pebble tail storage: Add extension telemetry counters for Pebble tail storage operations and read-path failures ( 49697)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "4f1082448e9c4601ac8e": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -4564,84 +3359,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "fac69ecf691e4b2f2a91": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "quest count, sampler keyspace size, and sampler burst count metrics exposing the internal performance of adaptive percentage and adaptive throughput samplers, labelled by rule, sampler type, and sampler algorithm. ( 49311)"
-        },
-        {
-          "theme": "New component",
-          "text": "- processor/adaptive tail sampling: Add sampler request count, sampler keyspace size, and sampler burst count metrics exposing the internal performance of adaptive percentage and adaptive throughput samplers, labelled by rule, sampler type, and sampler algorit"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "83d8233c5de2c79d9f23": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/interval: Add delta temporality metrics support. ( 50845)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "c67213c361d43705a325": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/resource detection: Add Azure Functions resource detector ( 50633)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "6400a1611a9e752abf1c": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -4662,326 +3382,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "25b2aae4a104fed19b4e": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/transform: Add extract avg metric OTTL function to transform processor ( 49238)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "a98b15854d3a7d0f742d": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/azure monitor: Add support for filtering Azure resources by tags. ( 50959)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7007b4b96835cb7537ec": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/gitlab: Add gitlab.project.id resource attribute ( 48993)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "849357961cbb6c04b255": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/google cloud spanner: Add query type label to top minute query stats in googlecloudspannerreceiver. ( 50843)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "37f50099d3b75538092d": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "l Collector receiver: journald - receiver/journald: Add \"convert to semantic conventions\" config option to map well-known journald fields to OpenTelemetry semantic convention attributes ( 7298)"
-        },
-        {
-          "theme": "New component",
-          "text": "- receiver/journald: Add \"convert to semantic conventions\" config option to map well-known journald fields to OpenTelemetry semantic convention attributes ( 7298)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "93fc7c615ea41b062f62": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/macos unified logging: Add predicate field aliases and support additional fields ( 50626)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d054586df04b76ab4e59": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mongodb: Add replica set topology and oplog metrics ( 50654)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "b6bb31715f2665596018": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mysql: Add a new db.server.query plan event that reports the query execution plan on a record of its own, so it can be filtered, routed or dropped independently of the query statistics. ( 51281)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "13b91e697339a543bbe3": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/oracledb: Add the db.system.name attribute to the db.server.query plan and db.server.session.wait sample events. ( 51065)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "18c2a0aa2eb887738074": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/postgresql: Add a new db.server.query plan event to report the query execution plan separately. ( 51301)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "0b02c31b0ff4c361e8f4": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/rabbitmq: Add the disabled-by-default rabbitmq.cluster.name resource attribute. ( 50168)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "9ee0fa3f6d53d8454ee4": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/receiver creator: Add a joinHostPort function for receiver template expressions. ( 50969)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "aad6e019e5ea2dc2e5c7": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/sqlserver: Add db.namespace and db.system.name to the db.server.query plan event, so all four log events carry them. ( 50629)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "211738e3635bf43cb05a": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/vcenter: Add proxy url to configure a per-receiver proxy for vSphere SDK connections. ( 51187)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "c3fdaffcd3c0cf6da708": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5024,6 +3427,7 @@
     },
     "a5d1b15a2433b491de8b": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5041,6 +3445,11 @@
           "priority": "medium"
         },
         {
+          "id": "component",
+          "label": "New component",
+          "priority": "low"
+        },
+        {
           "id": "feature",
           "label": "Feature",
           "priority": "low"
@@ -5056,7 +3465,7 @@
         "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
         "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
         "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
+        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
       ],
       "evidence": [
         {
@@ -5072,12 +3481,12 @@
           "text": "etwork request refusals in extension mode. (#15561) - `pkg/confighttp`: Enable keepalive configuration by default. (#16026) Introduces the feature gate `pkg.confighttp.PrioritizeNewKeepalive`. When disabled, this flag restores the old behaviour o"
         },
         {
-          "theme": "Feature",
-          "text": "ode. (#15561) - `pkg/confighttp`: Enable keepalive configuration by default. (#16026) Introduces the feature gate `pkg.confighttp.PrioritizeNewKeepalive`. When disabled, this flag restores the old behaviour of removing the keepalive configurat"
+          "theme": "New component",
+          "text": "New Collector component additions listed in this release: exporter/enqueue"
         },
         {
-          "theme": "Bug fix",
-          "text": "ata`: Reduce the time `xhash.MapHash` takes for maps with many entries. (#15990) ### 🧰 Bug fixes 🧰 - `exporter/debug`: Support known sync error handling on AIX (#15924) Enable the debug exporter to handle known synchronous errors on AIX."
+          "theme": "Feature",
+          "text": "ode. (#15561) - `pkg/confighttp`: Enable keepalive configuration by default. (#16026) Introduces the feature gate `pkg.confighttp.PrioritizeNewKeepalive`. When disabled, this flag restores the old behaviour of removing the keepalive configurat"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -5085,6 +3494,7 @@
     },
     "2928305d2d87166a5315": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -5105,30 +3515,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "bd1ebe36457745b9b83a": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/memory limiter: Add otelcol memorylimiter refused requests metric to record network request refusals in extension mode. ( 15561)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "04b4a315bfa737928b0c": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -5151,6 +3540,7 @@
     },
     "3f7269aa57240aa9e6c7": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5160,6 +3550,7 @@
     },
     "92562fb5f151bb157f7d": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5169,6 +3560,7 @@
     },
     "c1f30a7ab7065eacc241": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5178,6 +3570,7 @@
     },
     "dea6edd25d8e2e591e9b": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5203,6 +3596,11 @@
           "id": "configuration",
           "label": "Configuration",
           "priority": "medium"
+        },
+        {
+          "id": "component",
+          "label": "New component",
+          "priority": "low"
         }
       ],
       "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
@@ -5231,39 +3629,7 @@
         },
         {
           "theme": "Configuration",
-          "text": "pamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341) - extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607) - processo"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "fe679707aacd93651208": {
-      "priority": "medium",
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "pamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341)"
-        },
-        {
-          "theme": "New component",
-          "text": "- extension/opamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341)"
+          "text": "guidance. - `cmd/opampsupervisor`: Deprecate the `reports_remote_config` capability config option. The `accepts_remote_config` option now enables both the AcceptsRemoteConfig and ReportsRemoteConfig OpAMP capabilities. (#49763) `reports_remote_"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -5271,6 +3637,7 @@
     },
     "20f5cb31973b099c8194": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -5293,6 +3660,7 @@
     },
     "cef639ae113798f8cad9": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -5325,6 +3693,7 @@
     },
     "94a89897762ab0b0fd90": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "component",
@@ -5345,140 +3714,9 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "3dc4ec164b125bb2d5cf": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/k8s cluster: Add the k8s.statefulset.pod.available metric reporting the number of available pods (StatefulSetStatus.availableReplicas) per stateful set. ( 50345)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "6efd46a481f7ac8773c3": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mongodb: Add db.system.version resource attribute ( 50710)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5a2b22b6170e5d7108d7": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/mysql: Add support for AWS IAM authentication ( 49044)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "47d0d70787edda1cb73a": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/oracledb: Add server.address and server.port resource attributes ( 50724)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "fea8bbfb55bef0f9b091": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/sqlserver: Add the db.server.top procedure event, reporting aggregated stored procedure statistics. ( 50799)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "cf923ef67caf7a0f7400": {
-      "priority": "low",
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- receiver/tls check: Add a \"scrape all certs\" option to TLS Check Receiver to record metrics for all certificates found on an endpoint or in a file, and a \"tlscheck.x509.fingerprint\" metric attribute to identify each certificate. ( 48520)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "00986a031df8a915366a": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -5501,6 +3739,7 @@
     },
     "9cba9ed883db138683ef": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5543,6 +3782,7 @@
     },
     "00163ecd859641eed950": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5595,6 +3835,7 @@
     },
     "dc01ee610095fb7a0014": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -5647,6 +3888,7 @@
     },
     "5640645b9c1dfbc8bf23": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -5679,6 +3921,7 @@
     },
     "71961aabd456fd535450": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -5711,6 +3954,7 @@
     },
     "b6d98329ea707919d1f1": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -5733,6 +3977,7 @@
     },
     "47d7bf769b81ffd03685": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5742,6 +3987,7 @@
     },
     "950a524790c57b32374e": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -5794,6 +4040,7 @@
     },
     "0b3ec32634de465d664b": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5803,6 +4050,7 @@
     },
     "9a706a5027ac5bcd54ce": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5812,6 +4060,7 @@
     },
     "203e6683ab3b27e27fee": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5821,6 +4070,7 @@
     },
     "0a38b8372d96258a53d4": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -5853,6 +4103,7 @@
     },
     "f7dcf629f7148a0164c9": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -5895,6 +4146,7 @@
     },
     "455be5bfd3b40f8b8910": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -5927,6 +4179,7 @@
     },
     "fe6ad86abdd40c2fd9ce": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -5969,6 +4222,7 @@
     },
     "ada39904a3cbdd1b2bc7": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -5978,6 +4232,7 @@
     },
     "29e866f2331455569dd6": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -6000,6 +4255,7 @@
     },
     "31d9d69d0bed0d759ffe": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -6042,6 +4298,7 @@
     },
     "6fda5c97b18e6a4da0c1": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6051,6 +4308,7 @@
     },
     "e46ffd442a698a235d57": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -6073,6 +4331,7 @@
     },
     "c4b400a6726714062d08": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -6095,6 +4354,7 @@
     },
     "043ba303a74a628900ba": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -6127,6 +4387,7 @@
     },
     "ab60c872d5e7492fcf72": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6149,6 +4410,7 @@
     },
     "957a75a0fd2675a76f18": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6158,6 +4420,7 @@
     },
     "3c405a0bb1e8fabddd4b": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6167,6 +4430,7 @@
     },
     "ca847eed9bccc50a1861": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -6219,6 +4483,7 @@
     },
     "79fc62eb556362035a5e": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -6261,6 +4526,7 @@
     },
     "a1a2e2187743a48debe2": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -6293,6 +4559,7 @@
     },
     "99704cbe158b9393038d": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -6335,6 +4602,7 @@
     },
     "bc3f7e9a8fc071f8e527": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -6367,6 +4635,7 @@
     },
     "9d3540739538946faee5": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6389,6 +4658,7 @@
     },
     "bc32030127ad32b60f5b": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6398,6 +4668,7 @@
     },
     "b54f89c5224199eace32": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6407,6 +4678,7 @@
     },
     "f0bf8ba6f4e470965c8e": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6429,6 +4701,7 @@
     },
     "699d541ab249d44a7e9f": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -6471,6 +4744,7 @@
     },
     "461faedcd65a1e45d783": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6480,6 +4754,7 @@
     },
     "3c1589a9d3ec156abf34": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -6512,6 +4787,7 @@
     },
     "3000975bf4b31ba8d107": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6521,6 +4797,7 @@
     },
     "1931fe9ea24947df0b02": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6530,6 +4807,7 @@
     },
     "fc558a6970d94ec79ec6": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6539,6 +4817,7 @@
     },
     "8e4aff994f3e87d23b82": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -6548,6 +4827,7 @@
     },
     "52e4c0200a2005467431": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6570,6 +4850,7 @@
     },
     "958f5fbde54fab992c51": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "configuration",
@@ -6602,6 +4883,7 @@
     },
     "fff4f0578bc035cfc2a7": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6624,6 +4906,7 @@
     },
     "f58cc7d8c1fcaa55c1bb": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -6656,6 +4939,7 @@
     },
     "e89de3c6a7756d8b56da": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -6688,6 +4972,7 @@
     },
     "d2210c37c3f9be5e60cb": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -6710,6 +4995,7 @@
     },
     "49d76eb952ee7b4e6c0d": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6732,6 +5018,7 @@
     },
     "2f3e91b0ddc781586e10": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6754,6 +5041,7 @@
     },
     "c87d66ba2eb9cb838bae": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -6786,6 +5074,7 @@
     },
     "412992aecdb6a0ee38db": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6808,6 +5097,7 @@
     },
     "88b84e8b21992af51f42": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6840,6 +5130,7 @@
     },
     "75fbe5c42b04cbe3c4db": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6862,6 +5153,7 @@
     },
     "029817c0485deacec31c": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6884,6 +5176,7 @@
     },
     "cc8987f03d55d16b8b0b": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "deprecation",
@@ -6916,6 +5209,7 @@
     },
     "3a3e8d71817fbfc8ba98": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6948,6 +5242,7 @@
     },
     "cabca3d2c60536248830": {
       "priority": "low",
+      "needs_review": true,
       "themes": [
         {
           "id": "plugin",
@@ -6970,6 +5265,7 @@
     },
     "40c49551c17bb8055981": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -6992,6 +5288,7 @@
     },
     "2edad4de723ca039b092": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7001,6 +5298,7 @@
     },
     "7e1b6edd2edc1b3a4677": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7010,6 +5308,7 @@
     },
     "ddec2e772ce03c2e0223": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7019,6 +5318,7 @@
     },
     "baeae132a6bcdb7f0fa7": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7028,6 +5328,7 @@
     },
     "97119626636632166d11": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -7070,6 +5371,7 @@
     },
     "59b898400cfa27839fbb": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -7131,6 +5433,7 @@
     },
     "f37376e25fdf7b87afa5": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7140,6 +5443,7 @@
     },
     "d266146d6593ca61b57c": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7149,6 +5453,7 @@
     },
     "d16ff300e470c9271ede": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7158,6 +5463,7 @@
     },
     "8235d775c82dbddef2dc": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -7180,6 +5486,7 @@
     },
     "2da096c9d9b0c4927de6": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -7212,6 +5519,7 @@
     },
     "e3df876d0d80212ab0e6": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "security",
@@ -7234,6 +5542,7 @@
     },
     "418bc311d74946de44e2": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7243,6 +5552,7 @@
     },
     "0aefb5db4078a0a97aaf": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "compatibility",
@@ -7275,6 +5585,7 @@
     },
     "b035d5528962f5649e12": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "feature",
@@ -7307,6 +5618,7 @@
     },
     "dd30bea6a5cf8d13239e": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -7339,6 +5651,7 @@
     },
     "daadb33325bca794f962": {
       "priority": "low",
+      "needs_review": false,
       "themes": [
         {
           "id": "bugfix",
@@ -7361,6 +5674,7 @@
     },
     "3bc2830fc44b35c6fe6a": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7370,6 +5684,7 @@
     },
     "e0e4c8b27f416a1816c0": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7379,6 +5694,7 @@
     },
     "56073cb02c99c15c62ef": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7388,6 +5704,7 @@
     },
     "f8cb3cea68df084dd2d0": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -7410,6 +5727,7 @@
     },
     "391325812f5c4f3cf9da": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7419,6 +5737,7 @@
     },
     "116b9f7a042149a86541": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7428,6 +5747,7 @@
     },
     "9defbdda96185a2c3e02": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7437,6 +5757,7 @@
     },
     "df231e574de8b79904fd": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -7459,6 +5780,7 @@
     },
     "fb9fed5f81bc02012f37": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7468,6 +5790,7 @@
     },
     "166a7b72657d6cc1e49f": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -7500,6 +5823,7 @@
     },
     "5790f101e2d71e9251fa": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7509,6 +5833,7 @@
     },
     "f1ce51114ea346a629d2": {
       "priority": "high",
+      "needs_review": true,
       "themes": [
         {
           "id": "breaking",
@@ -7541,6 +5866,7 @@
     },
     "3bb132c2528f132e18c1": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7550,6 +5876,7 @@
     },
     "a526230a1fdb87ff6dff": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],
@@ -7559,6 +5886,7 @@
     },
     "72f3fb60053b485fed6e": {
       "priority": "medium",
+      "needs_review": true,
       "themes": [
         {
           "id": "performance",
@@ -7581,6 +5909,7 @@
     },
     "86a93abb271d560e3d6a": {
       "priority": "low",
+      "needs_review": false,
       "themes": [],
       "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
       "review_actions": [],

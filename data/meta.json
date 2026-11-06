@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T08:42:11.443622+00:00",
-  "item_count": 310,
+  "generated_at": "2026-11-06T08:43:26.444924+00:00",
+  "item_count": 237,
   "sources": [
     {
       "name": "Prometheus blog",
@@ -37,6 +37,12 @@
       "project": "OpenTelemetry",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHZDBZTIfdy94xMjMKz-_MA"
+    },
+    {
+      "name": "CNCF official YouTube channel",
+      "project": "CNCF",
+      "type": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA"
     },
     {
       "name": "prometheus/prometheus releases",

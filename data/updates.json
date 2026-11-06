@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:42:11.443622+00:00",
+  "generated_at": "2026-11-06T08:43:26.444924+00:00",
   "items": [
     {
       "id": "eac2806ff6607ce1b621",
@@ -30,6 +30,17 @@
       "new_components": []
     },
     {
+      "id": "7064e03b34dd9bda9e13",
+      "title": "Meet Diana Zawadzki - Speaker at KubeCon + CloudNativeCon North America",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/UoJSzFnzqpg",
+      "date": "2026-11-05T21:00:38+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
       "id": "fde1031e9a382e0f31d6",
       "title": "What’s new with Grafana variables: less clutter, easier reuse across dashboards, and more",
       "summary": "Template variables are one of the most used features in Grafana, providing users with a dropdown to turn one dashboard into hundreds: pick a different cluster , region , or service , and every panel updates. For most of Grafana's history, variables had a single home at the top of the dashboard. Each dashboard had one flat list of variables, and that list was shared by every panel on it. But as dashboards grew in size and number, those controls became harder to organize and maintain. The top of a dashboard could get crowded with dropdowns that only applied to certain panels, while shared controls were copied across dashboards and had to be updated individually. To address these challenges, we’ve rolled out two new features in Grafana: Section-level variables for rows and tabs (generally available): these variables let you place controls near the panels they affect, reducing clutter at the top of the dashboard. Cross-dashboard variables (public preview): these are variables you can define once and reuse across dashboards, keeping configurations consistent and easier to maintain. In thi",
@@ -39,6 +50,17 @@
       "source": "Grafana Labs blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "f6b14741e9f9b15dd135",
+      "title": "Merge Forward Meeting - November 2026",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=dtpMgGIynEs",
+      "date": "2026-11-05T18:57:58+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
     },
     {
       "id": "ef05fdfc85af754864ff",
@@ -63,6 +85,17 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "7bc33e1a40856bc811f1",
+      "title": "Meet Felicitas Pojtinger - Speaker at KubeCon + CloudNativeCon North America",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=VBqDvu9HvWw",
+      "date": "2026-11-05T16:00:47+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
     },
     {
       "id": "6b69a03147f205d9b36c",
@@ -127,6 +160,17 @@
       "source": "CNCF blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "30dcff11993881278ac5",
+      "title": "CNCF On-Demand: Governing & Understanding AI Agent Decisions",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=-rtcL6IlVbk",
+      "date": "2026-11-05T08:00:13+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
     },
     {
       "id": "7c9d0403ab81472d989f",
@@ -198,6 +242,28 @@
       "new_components": []
     },
     {
+      "id": "79f76e32a628312a3424",
+      "title": "The Linkerd Story: The People Behind the Service Mesh Premiere Announcement",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=R2RbdgJx9Dg",
+      "date": "2026-11-04T23:12:19+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "7cbfff1bcfb6dfa3f50e",
+      "title": "Meet Lu Zhang - Speaker at KubeCon + CloudNativeCon North America",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=Yo1qUp6fadk",
+      "date": "2026-11-04T19:00:49+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
       "id": "4e66fcee77ea628d1295",
       "title": "Loki v4.0.0-rc.2",
       "summary": "See CHANGELOG.md for the full list of changes.",
@@ -257,6 +323,17 @@
       "content_type": "blog"
     },
     {
+      "id": "688e3177f343a002d8b7",
+      "title": "Production AI Insights Live | KubeCon + CloudNativeCon 2026",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/KApYmjL8kWY",
+      "date": "2026-11-03T21:07:29+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
       "id": "c916890b78b68dad48a2",
       "title": "Prometheus v3.16.0-rc.4",
       "summary": "- [CHANGE] API: The experimental search endpoints now clamp batch size to 1000. 19731",
@@ -279,6 +356,28 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "4fa9370af84199275b86",
+      "title": "How Community Involvement Accelerates Your Open Source Career",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/nETsv3mJUwY",
+      "date": "2026-11-03T17:46:25+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "a4ce31db171724567b8d",
+      "title": "Meet Muhammed Yunas Chirayath - Speaker at KubeCon + CloudNativeCon North America",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/i0KFA5yaS2I",
+      "date": "2026-11-03T16:00:59+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
     },
     {
       "id": "3ada34e46f39865a08d1",
@@ -327,6 +426,17 @@
       "new_components": []
     },
     {
+      "id": "c44388e210879b4643ea",
+      "title": "Meet Adam Gordon Bell - Speaker at KubeCon + CloudNativeCon North America",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=6OZ9WiXmf9k",
+      "date": "2026-11-02T21:00:50+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
       "id": "847320066e544be6f57b",
       "title": "What's New in OTel? OTel Go Compile-time Instrumentation & eBPF!",
       "summary": "",
@@ -334,6 +444,61 @@
       "date": "2026-11-02T20:55:15+00:00",
       "project": "OpenTelemetry",
       "source": "OpenTelemetry official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "56be07c5d853fc1f817c",
+      "title": "Does anyone still need Prometheus Agent mode? - Kyle Eckhart",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=VBfD0j23oss",
+      "date": "2026-11-02T19:23:56+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "354082dfb75af6949660",
+      "title": "Pushing the Limits: Scaling Prometheus for High-Performance AI & GPU Workloads - Sagar Utekar",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=0inJjgIBBus",
+      "date": "2026-11-02T19:23:55+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "1be78973455a46378b58",
+      "title": "Materialized metrics: scrape-time aggregation in Prometheus - Walther Lee",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=63WA36FNkBM",
+      "date": "2026-11-02T19:23:55+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "5051ca8587d16552acac",
+      "title": "Shaving the PromQL Yak: 6 PromQL Functions to Escape from Analytical Workarou... Juan Jose Ciarlante",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=B6ZZwbz_wiE",
+      "date": "2026-11-02T19:23:55+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
+      "category": "Video",
+      "content_type": "video"
+    },
+    {
+      "id": "0806714f6745bca0feae",
+      "title": "Least-Privilege Metrics: Securing PromQL in Multi-Tenant Clusters - Oshi Gupta & Anushka Saxena",
+      "summary": "",
+      "url": "https://www.youtube.com/watch?v=JV4I5hlRRHQ",
+      "date": "2026-11-02T19:23:55+00:00",
+      "project": "CNCF",
+      "source": "CNCF official YouTube channel",
       "category": "Video",
       "content_type": "video"
     },
@@ -832,20 +997,6 @@
       "new_components": []
     },
     {
-      "id": "19cc0cefa276c730ddd3",
-      "title": "OpenTelemetry Collector Distributions cmd/opampsupervisor/v0.164.0",
-      "summary": "Release of OpAMP supervisor artifacts",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/cmd/opampsupervisor/v0.164.0",
-      "date": "2026-10-26T23:49:41Z",
-      "project": "OpenTelemetry Collector Distributions",
-      "source": "GitHub · open-telemetry/opentelemetry-collector-releases",
-      "category": "Release",
-      "version": "cmd/opampsupervisor/v0.164.0",
-      "release_notes": "### Release of OpAMP supervisor artifacts\n\n",
-      "change_sections": [],
-      "new_components": []
-    },
-    {
       "id": "26e407628333888ccb80",
       "title": "OpenTelemetry Collector Distributions v0.164.0",
       "summary": "Check the v0.164.0 contrib changelog and the v0.164.0 core changelog for changelogs on specific components.",
@@ -876,20 +1027,6 @@
           ]
         }
       ],
-      "new_components": []
-    },
-    {
-      "id": "20aa9128a27f6e040361",
-      "title": "OpenTelemetry Collector Distributions cmd/builder/v0.164.0",
-      "summary": "Images and binaries for collector distributions here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.164.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/cmd/builder/v0.164.0",
-      "date": "2026-10-26T23:45:40Z",
-      "project": "OpenTelemetry Collector Distributions",
-      "source": "GitHub · open-telemetry/opentelemetry-collector-releases",
-      "category": "Release",
-      "version": "cmd/builder/v0.164.0",
-      "release_notes": "### Images and binaries for collector distributions here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.164.0\n\n",
-      "change_sections": [],
       "new_components": []
     },
     {
@@ -981,79 +1118,9 @@
       ],
       "new_components": [
         {
-          "type": "connector",
-          "name": "failover",
-          "evidence": "- connector/failover: Fix recovery after a new failover immediately follows primary pipeline recovery. ( 48668)"
-        },
-        {
-          "type": "exporter",
-          "name": "awss3",
-          "evidence": "- exporter/awss3: Add access key and secret key options to configure static AWS credentials ( 52140)"
-        },
-        {
-          "type": "exporter",
-          "name": "awsxray",
-          "evidence": "- exporter/awsxray: Add feature gates to migrate semantic conventions from v1.12.0 to v1.40.0 ( 46537)"
-        },
-        {
-          "type": "exporter",
-          "name": "clickhouse",
-          "evidence": "- exporter/clickhouse: Added a Bloom Filter data skipping index (idx event name) to the EventName column with a 0.01 false positive rate and granularity 1. ( 49310)"
-        },
-        {
-          "type": "exporter",
-          "name": "elasticsearch",
-          "evidence": "- exporter/elasticsearch: Add opt-in telemetry::include destination index to add the destination index as an attribute to the otelcol.elasticsearch.docs.processed metric ( 52108)"
-        },
-        {
-          "type": "extension",
-          "name": "datadog",
-          "evidence": "- extension/datadog: Add NewFactoryWithOptions so a host embedding the collector can supply extra Agent-config options, for example to propagate an API key rotation into the extension's forwarder. ( 51877)"
-        },
-        {
-          "type": "extension",
-          "name": "opamp",
-          "evidence": "- extension/opamp: Add reports heartbeat capability, enabled by default, to allow the OpAMP server to configure the agent's heartbeat interval ( 51427)"
-        },
-        {
           "type": "extension",
           "name": "redis_fleet_tracker",
           "evidence": "- extension/redis fleet tracker: Add the redis fleet tracker extension, which reports a collector fleet's live member count so adaptive tail sampling can treat goal throughput as a fleet-wide budget. ( 50577)"
-        },
-        {
-          "type": "extension",
-          "name": "redis_storage",
-          "evidence": "- extension/redis storage: Add IncrementBy and BatchIncrementBy for atomic integer counters shared across Collector instances. ( 51567)"
-        },
-        {
-          "type": "processor",
-          "name": "adaptive_tail_sampling",
-          "evidence": "- processor/adaptive tail sampling: Add a metric to track multiple root span condition matches ( 51458)"
-        },
-        {
-          "type": "processor",
-          "name": "k8s_attributes",
-          "evidence": "- processor/k8s attributes: Add experimental kubelet /pods polling as an opt-in pod metadata source. ( 14475)"
-        },
-        {
-          "type": "processor",
-          "name": "partitioning",
-          "evidence": "- processor/partitioning: Add otelcol.processor.partitioning.partitions and otelcol.processor.partitioning.key evaluation.errors internal telemetry metrics. ( 39199)"
-        },
-        {
-          "type": "processor",
-          "name": "probabilistic_sampler",
-          "evidence": "- processor/probabilistic sampler: Add the otelcol processor probabilistic sampler count spans processed metric and deprecate otelcol processor probabilistic sampler count traces sampled in favor of it. ( 50954)"
-        },
-        {
-          "type": "processor",
-          "name": "resource_detection",
-          "evidence": "- processor/resource detection: Add attributes.included and attributes.excluded options to the env detector to filter which attribute keys from OTEL RESOURCE ATTRIBUTES are emitted. Both lists support and ? as wildcards, and excluded is applied after included. ( 49970)"
-        },
-        {
-          "type": "processor",
-          "name": "transform",
-          "evidence": "- processor/transform: Deprecate the flatten data option in favor of the new flatten.log option. ( 51766)"
         },
         {
           "type": "processor",
@@ -1067,148 +1134,10 @@
         },
         {
           "type": "receiver",
-          "name": "google_cloud_spanner",
-          "evidence": "- receiver/google cloud spanner: Add oldest active queries metrics and hide client ip address configuration to mask client ip address in oldest active queries in googlecloudspannerreceiver. ( 52089)"
-        },
-        {
-          "type": "receiver",
-          "name": "k8s_objects",
-          "evidence": "- receiver/k8s objects: Add an opt-in informer-based observer behind the receiver.k8sobjects.useInformerObserver feature gate. ( 43602)"
-        },
-        {
-          "type": "receiver",
-          "name": "kafka",
-          "evidence": "- receiver/kafka: Add partition processing.max prefetch.bytes to cap the bytes of fetched batches waiting for each partition worker. Use it to bound memory when batch sizes vary. ( 52253)"
-        },
-        {
-          "type": "receiver",
-          "name": "mongodb",
-          "evidence": "- receiver/mongodb: Add operation latency count and non-tailable collection scan metrics ( 51909)"
-        },
-        {
-          "type": "receiver",
-          "name": "mysql",
-          "evidence": "- receiver/mysql: Add mysql.client.name to db.server.query sample, the client driver's self-reported identity. ( 51317)"
-        },
-        {
-          "type": "receiver",
           "name": "nats",
           "evidence": "- receiver/nats: Add the NATS receiver to receive traces, metrics, and logs from a NATS server (skeleton; in development). ( 50735)"
-        },
-        {
-          "type": "receiver",
-          "name": "prometheus_remote_write",
-          "evidence": "- receiver/prometheus remote write: Add resource cache size to configure the number of job/instance pairs kept in the resource metrics cache. ( 52195)"
-        },
-        {
-          "type": "receiver",
-          "name": "snmp",
-          "evidence": "- receiver/snmp: Add max repetitions configuration option (defaulting to 25) for GETBULK requests to prevent request timeouts on MTU boundaries. ( 51925)"
-        },
-        {
-          "type": "receiver",
-          "name": "sql_server",
-          "evidence": "- receiver/sql server: Add sqlserver.tempdb.file.size and sqlserver.tempdb.allocation.waiters.count metrics, and extend sqlserver.database.tempdb.space. ( 52057)"
         }
       ]
-    },
-    {
-      "id": "190c80e6f0483a98a10d",
-      "title": "New OTel Collector connector: failover",
-      "summary": "- connector/failover: Fix recovery after a new failover immediately follows primary pipeline recovery. ( 48668)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "connector",
-      "component_name": "failover",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "da6dde0dbc5870a9e8f2",
-      "title": "New OTel Collector exporter: awss3",
-      "summary": "- exporter/awss3: Add access key and secret key options to configure static AWS credentials ( 52140)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "exporter",
-      "component_name": "awss3",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "099962c8b0fcad8496b1",
-      "title": "New OTel Collector exporter: awsxray",
-      "summary": "- exporter/awsxray: Add feature gates to migrate semantic conventions from v1.12.0 to v1.40.0 ( 46537)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "exporter",
-      "component_name": "awsxray",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "785ebc323160eea2232c",
-      "title": "New OTel Collector exporter: clickhouse",
-      "summary": "- exporter/clickhouse: Added a Bloom Filter data skipping index (idx event name) to the EventName column with a 0.01 false positive rate and granularity 1. ( 49310)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "exporter",
-      "component_name": "clickhouse",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "0749f07b96c32ba0549b",
-      "title": "New OTel Collector exporter: elasticsearch",
-      "summary": "- exporter/elasticsearch: Add opt-in telemetry::include destination index to add the destination index as an attribute to the otelcol.elasticsearch.docs.processed metric ( 52108)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "exporter",
-      "component_name": "elasticsearch",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "31ecfa7e2b01b11997d3",
-      "title": "New OTel Collector extension: datadog",
-      "summary": "- extension/datadog: Add NewFactoryWithOptions so a host embedding the collector can supply extra Agent-config options, for example to propagate an API key rotation into the extension's forwarder. ( 51877)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "extension",
-      "component_name": "datadog",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "d23a24026d0af7bb6374",
-      "title": "New OTel Collector extension: opamp",
-      "summary": "- extension/opamp: Add reports heartbeat capability, enabled by default, to allow the OpAMP server to configure the agent's heartbeat interval ( 51427)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "extension",
-      "component_name": "opamp",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
     },
     {
       "id": "e3e3cb030c4d00f3a7d3",
@@ -1222,104 +1151,6 @@
       "version": "v0.164.0",
       "component_type": "extension",
       "component_name": "redis_fleet_tracker",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "b1d87a3a78cfed802850",
-      "title": "New OTel Collector extension: redis_storage",
-      "summary": "- extension/redis storage: Add IncrementBy and BatchIncrementBy for atomic integer counters shared across Collector instances. ( 51567)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "extension",
-      "component_name": "redis_storage",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "c0b7c9e39e15efe2694d",
-      "title": "New OTel Collector processor: adaptive_tail_sampling",
-      "summary": "- processor/adaptive tail sampling: Add a metric to track multiple root span condition matches ( 51458)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "adaptive_tail_sampling",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "98cff8aff4971bc28f89",
-      "title": "New OTel Collector processor: k8s_attributes",
-      "summary": "- processor/k8s attributes: Add experimental kubelet /pods polling as an opt-in pod metadata source. ( 14475)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "k8s_attributes",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "8e13bb9ae8e33ed9e1be",
-      "title": "New OTel Collector processor: partitioning",
-      "summary": "- processor/partitioning: Add otelcol.processor.partitioning.partitions and otelcol.processor.partitioning.key evaluation.errors internal telemetry metrics. ( 39199)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "partitioning",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "31dbecae3a52c024929a",
-      "title": "New OTel Collector processor: probabilistic_sampler",
-      "summary": "- processor/probabilistic sampler: Add the otelcol processor probabilistic sampler count spans processed metric and deprecate otelcol processor probabilistic sampler count traces sampled in favor of it. ( 50954)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "probabilistic_sampler",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "f05adc9b38032a6e4b00",
-      "title": "New OTel Collector processor: resource_detection",
-      "summary": "- processor/resource detection: Add attributes.included and attributes.excluded options to the env detector to filter which attribute keys from OTEL RESOURCE ATTRIBUTES are emitted. Both lists support and ? as wildcards, and excluded is applied after included. ( 49970)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "resource_detection",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "f5bd637e7356044d14f9",
-      "title": "New OTel Collector processor: transform",
-      "summary": "- processor/transform: Deprecate the flatten data option in favor of the new flatten.log option. ( 51766)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "processor",
-      "component_name": "transform",
       "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
     },
     {
@@ -1351,76 +1182,6 @@
       "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
     },
     {
-      "id": "69d1dfc56150a40fb968",
-      "title": "New OTel Collector receiver: google_cloud_spanner",
-      "summary": "- receiver/google cloud spanner: Add oldest active queries metrics and hide client ip address configuration to mask client ip address in oldest active queries in googlecloudspannerreceiver. ( 52089)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "google_cloud_spanner",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "1bf6c60af1e7f7d1673b",
-      "title": "New OTel Collector receiver: k8s_objects",
-      "summary": "- receiver/k8s objects: Add an opt-in informer-based observer behind the receiver.k8sobjects.useInformerObserver feature gate. ( 43602)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "k8s_objects",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "646b537fcd56a80021ef",
-      "title": "New OTel Collector receiver: kafka",
-      "summary": "- receiver/kafka: Add partition processing.max prefetch.bytes to cap the bytes of fetched batches waiting for each partition worker. Use it to bound memory when batch sizes vary. ( 52253)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "kafka",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "dccbe976bf58bc6ff808",
-      "title": "New OTel Collector receiver: mongodb",
-      "summary": "- receiver/mongodb: Add operation latency count and non-tailable collection scan metrics ( 51909)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "mongodb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "61930ed777f425899666",
-      "title": "New OTel Collector receiver: mysql",
-      "summary": "- receiver/mysql: Add mysql.client.name to db.server.query sample, the client driver's self-reported identity. ( 51317)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "mysql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
       "id": "7f1d482ccd3206055f38",
       "title": "New OTel Collector receiver: nats",
       "summary": "- receiver/nats: Add the NATS receiver to receive traces, metrics, and logs from a NATS server (skeleton; in development). ( 50735)",
@@ -1432,48 +1193,6 @@
       "version": "v0.164.0",
       "component_type": "receiver",
       "component_name": "nats",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "a9fd1e3442346ab46514",
-      "title": "New OTel Collector receiver: prometheus_remote_write",
-      "summary": "- receiver/prometheus remote write: Add resource cache size to configure the number of job/instance pairs kept in the resource metrics cache. ( 52195)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "prometheus_remote_write",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "80017fd1f45ab49d245f",
-      "title": "New OTel Collector receiver: snmp",
-      "summary": "- receiver/snmp: Add max repetitions configuration option (defaulting to 25) for GETBULK requests to prevent request timeouts on MTU boundaries. ( 51925)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "snmp",
-      "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
-    },
-    {
-      "id": "18c55bd05541b8bab892",
-      "title": "New OTel Collector receiver: sql_server",
-      "summary": "- receiver/sql server: Add sqlserver.tempdb.file.size and sqlserver.tempdb.allocation.waiters.count metrics, and extend sqlserver.database.tempdb.space. ( 52057)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.164.0",
-      "date": "2026-10-26T18:21:43Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.164.0",
-      "component_type": "receiver",
-      "component_name": "sql_server",
       "parent_release": "OpenTelemetry Collector Contrib v0.164.0"
     },
     {
@@ -1917,20 +1636,6 @@
           ]
         }
       ],
-      "new_components": []
-    },
-    {
-      "id": "a69561b617b4151b6b21",
-      "title": "OpenTelemetry Collector Distributions cmd/opampsupervisor/v0.163.2",
-      "summary": "Release of OpAMP supervisor artifacts",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/cmd/opampsupervisor/v0.163.2",
-      "date": "2026-10-21T16:21:57Z",
-      "project": "OpenTelemetry Collector Distributions",
-      "source": "GitHub · open-telemetry/opentelemetry-collector-releases",
-      "category": "Release",
-      "version": "cmd/opampsupervisor/v0.163.2",
-      "release_notes": "### Release of OpAMP supervisor artifacts\n\n",
-      "change_sections": [],
       "new_components": []
     },
     {
@@ -2476,84 +2181,9 @@
       ],
       "new_components": [
         {
-          "type": "exporter",
-          "name": "cassandra",
-          "evidence": "- exporter/cassandra: Add configuration validation and error case tests. ( 51730)"
-        },
-        {
-          "type": "exporter",
-          "name": "clickhouse",
-          "evidence": "- exporter/clickhouse: Add database engine config to set the ENGINE used when creating the database, such as Replicated. ( 51513)"
-        },
-        {
-          "type": "exporter",
-          "name": "kafka",
-          "evidence": "- exporter/kafka: Add the trace context to Kafka record headers using the propagators configured in service::telemetry::traces::propagators. ( 51078)"
-        },
-        {
-          "type": "extension",
-          "name": "opamp",
-          "evidence": "- extension/opamp: Add a socket option under server.ws and server.http to dial the OpAMP server over a Unix domain socket (transport: unix) or Windows named pipe (transport: npipe). ( 50603)"
-        },
-        {
-          "type": "extension",
-          "name": "pebble_tail_storage",
-          "evidence": "- extension/pebble tail storage: Add on read error to choose between dropping a trace or returning the readable part when stored batches cannot be read or decoded. ( 49906)"
-        },
-        {
           "type": "processor",
           "name": "adaptive_tail_sampling",
-          "evidence": "- processor/adaptive tail sampling: Add fleet tracker to divide each adaptive throughput rule's goal throughput by the live fleet member count reported by a fleet tracker extension, making the goal a fleet-wide budget instead of a per-instance one. ( 50577)"
-        },
-        {
-          "type": "processor",
-          "name": "akamaidetector",
-          "evidence": "- processor/akamaidetector: Add omit detector akamai go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "alibabaecsdetector",
-          "evidence": "- processor/alibabaecsdetector: Add omit detector alibaba ecs go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "azuredetector",
-          "evidence": "- processor/azuredetector: Add omit detector azure go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "digitaloceandetector",
-          "evidence": "- processor/digitaloceandetector: Add omit detector digitalocean go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "dynatracedetector",
-          "evidence": "- processor/dynatracedetector: Add omit detector dynatrace go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "hetznerdetector",
-          "evidence": "- processor/hetznerdetector: Add omit detector hetzner go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "ibmcloudclassicdetector",
-          "evidence": "- processor/ibmcloudclassicdetector: Add omit detector ibmcloud classic go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "ibmcloudvpcdetector",
-          "evidence": "- processor/ibmcloudvpcdetector: Add omit detector ibmcloud vpc go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "novadetector",
-          "evidence": "- processor/novadetector: Add omit detector openstack nova go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "oracleclouddetector",
-          "evidence": "- processor/oracleclouddetector: Add omit detector oraclecloud go build tag to omit detector at build time. ( 47218)"
+          "evidence": "- processor/adaptive tail sampling: Promote the adaptive tail sampling processor to alpha stability and include it in the contrib distribution. ( 49311)"
         },
         {
           "type": "processor",
@@ -2562,170 +2192,15 @@
         },
         {
           "type": "processor",
-          "name": "resource_detection",
-          "evidence": "- processor/resource detection: Add omit detector aws ecs go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
           "name": "rolling_span_latency",
           "evidence": "- processor/rolling span latency: Promote the rolling span latency processor to alpha stability and include it in the contrib distribution. ( 50260)"
-        },
-        {
-          "type": "processor",
-          "name": "scalewaydetector",
-          "evidence": "- processor/scalewaydetector: Add omit detector scaleway go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "tencentcvmdetector",
-          "evidence": "- processor/tencentcvmdetector: Add omit detector tencent cvm go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "upclouddetector",
-          "evidence": "- processor/upclouddetector: Add omit detector upcloud go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "processor",
-          "name": "vultrdetector",
-          "evidence": "- processor/vultrdetector: Add omit detector vultr go build tag to omit detector at build time. ( 47218)"
-        },
-        {
-          "type": "receiver",
-          "name": "aws_cloudwatch",
-          "evidence": "- receiver/aws cloudwatch: Add scope.name and scope.version to logs and metrics. ( 51333)"
-        },
-        {
-          "type": "receiver",
-          "name": "azure_blob",
-          "evidence": "- receiver/azure blob: Add a compression option to read gzip compressed blobs ( 51412)"
-        },
-        {
-          "type": "receiver",
-          "name": "azure_monitor",
-          "evidence": "- receiver/azure monitor: Add per-metric time grain overrides for Azure Monitor metric queries. ( 51295)"
-        },
-        {
-          "type": "receiver",
-          "name": "google_cloud_spanner",
-          "evidence": "- receiver/google cloud spanner: Add total minute transaction stats metrics to googlecloudspannerreceiver. ( 51296)"
-        },
-        {
-          "type": "receiver",
-          "name": "kafka",
-          "evidence": "- receiver/kafka: Add partition processing.max in flight.records to run concurrent unmarshal-plus-Consume calls on one independent partition worker. ( 51080)"
-        },
-        {
-          "type": "receiver",
-          "name": "kubelet_stats",
-          "evidence": "- receiver/kubelet stats: Add optional k8s node pid limit and usage metrics. ( 48926)"
-        },
-        {
-          "type": "receiver",
-          "name": "mongodb",
-          "evidence": "- receiver/mongodb: Add query executor scan and collection scan metrics ( 51060)"
-        },
-        {
-          "type": "receiver",
-          "name": "mysql",
-          "evidence": "- receiver/mysql: Add row-count and database namespace context to the top query event ( 51312)"
-        },
-        {
-          "type": "receiver",
-          "name": "oracledb",
-          "evidence": "- receiver/oracledb: Add support for Kerberos authentication via a new auth type option and kerberos configuration block. ( 50401)"
-        },
-        {
-          "type": "receiver",
-          "name": "postgresql",
-          "evidence": "- receiver/postgresql: Add postgresql.userid to db.server.top query and db.server.query plan, and key the top-query counter cache and EXPLAIN plan cache on it instead of postgresql.rolname. Fixes a case where two dropped database roles could be reported under each other's counters or query plan, and keeps counter deltas continuous across a role ren"
-        },
-        {
-          "type": "receiver",
-          "name": "pulsar",
-          "evidence": "- receiver/pulsar: Add freebsd/amd64 as a supported build platform. ( 15781)"
-        },
-        {
-          "type": "receiver",
-          "name": "sql_server",
-          "evidence": "- receiver/sql server: Add sqlserver.db.edition resource attribute. ( 51414)"
         }
       ]
     },
     {
-      "id": "473569bd3fcb2567eff4",
-      "title": "New OTel Collector exporter: cassandra",
-      "summary": "- exporter/cassandra: Add configuration validation and error case tests. ( 51730)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "exporter",
-      "component_name": "cassandra",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "3e457d67540ae7e9877d",
-      "title": "New OTel Collector exporter: clickhouse",
-      "summary": "- exporter/clickhouse: Add database engine config to set the ENGINE used when creating the database, such as Replicated. ( 51513)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "exporter",
-      "component_name": "clickhouse",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "d47e3287ecf91e859c31",
-      "title": "New OTel Collector exporter: kafka",
-      "summary": "- exporter/kafka: Add the trace context to Kafka record headers using the propagators configured in service::telemetry::traces::propagators. ( 51078)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "exporter",
-      "component_name": "kafka",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "d0757e5269d16b3bab11",
-      "title": "New OTel Collector extension: opamp",
-      "summary": "- extension/opamp: Add a socket option under server.ws and server.http to dial the OpAMP server over a Unix domain socket (transport: unix) or Windows named pipe (transport: npipe). ( 50603)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "extension",
-      "component_name": "opamp",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "f1a5d7b48fc8d51e965c",
-      "title": "New OTel Collector extension: pebble_tail_storage",
-      "summary": "- extension/pebble tail storage: Add on read error to choose between dropping a trace or returning the readable part when stored batches cannot be read or decoded. ( 49906)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "extension",
-      "component_name": "pebble_tail_storage",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
       "id": "e157bc953ffd7fe07048",
       "title": "New OTel Collector processor: adaptive_tail_sampling",
-      "summary": "- processor/adaptive tail sampling: Add fleet tracker to divide each adaptive throughput rule's goal throughput by the live fleet member count reported by a fleet tracker extension, making the goal a fleet-wide budget instead of a per-instance one. ( 50577)",
+      "summary": "- processor/adaptive tail sampling: Promote the adaptive tail sampling processor to alpha stability and include it in the contrib distribution. ( 49311)",
       "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
       "date": "2026-10-14T06:53:39Z",
       "project": "OpenTelemetry Collector",
@@ -2734,146 +2209,6 @@
       "version": "v0.163.0",
       "component_type": "processor",
       "component_name": "adaptive_tail_sampling",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "1103aa6c99e6b6c5ae37",
-      "title": "New OTel Collector processor: akamaidetector",
-      "summary": "- processor/akamaidetector: Add omit detector akamai go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "akamaidetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "0fb11ddf5646583f462c",
-      "title": "New OTel Collector processor: alibabaecsdetector",
-      "summary": "- processor/alibabaecsdetector: Add omit detector alibaba ecs go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "alibabaecsdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "f96b0ec0b6b44733df78",
-      "title": "New OTel Collector processor: azuredetector",
-      "summary": "- processor/azuredetector: Add omit detector azure go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "azuredetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "50e97afeefff90dfacc0",
-      "title": "New OTel Collector processor: digitaloceandetector",
-      "summary": "- processor/digitaloceandetector: Add omit detector digitalocean go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "digitaloceandetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "fbcf12dae68951d08dc5",
-      "title": "New OTel Collector processor: dynatracedetector",
-      "summary": "- processor/dynatracedetector: Add omit detector dynatrace go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "dynatracedetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "ac28a09e1a24a0a0c858",
-      "title": "New OTel Collector processor: hetznerdetector",
-      "summary": "- processor/hetznerdetector: Add omit detector hetzner go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "hetznerdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "7aa52bc477f3d38c4a07",
-      "title": "New OTel Collector processor: ibmcloudclassicdetector",
-      "summary": "- processor/ibmcloudclassicdetector: Add omit detector ibmcloud classic go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "ibmcloudclassicdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "9414a7ae52ad78ec68e8",
-      "title": "New OTel Collector processor: ibmcloudvpcdetector",
-      "summary": "- processor/ibmcloudvpcdetector: Add omit detector ibmcloud vpc go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "ibmcloudvpcdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "7087b2266a98557a3b7c",
-      "title": "New OTel Collector processor: novadetector",
-      "summary": "- processor/novadetector: Add omit detector openstack nova go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "novadetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "1f7834fe6e1efcdca8c4",
-      "title": "New OTel Collector processor: oracleclouddetector",
-      "summary": "- processor/oracleclouddetector: Add omit detector oraclecloud go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "oracleclouddetector",
       "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
     },
     {
@@ -2891,20 +2226,6 @@
       "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
     },
     {
-      "id": "895ec5da1316cd8448d4",
-      "title": "New OTel Collector processor: resource_detection",
-      "summary": "- processor/resource detection: Add omit detector aws ecs go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "resource_detection",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
       "id": "da924fb0aa92dddf9b7c",
       "title": "New OTel Collector processor: rolling_span_latency",
       "summary": "- processor/rolling span latency: Promote the rolling span latency processor to alpha stability and include it in the contrib distribution. ( 50260)",
@@ -2916,230 +2237,6 @@
       "version": "v0.163.0",
       "component_type": "processor",
       "component_name": "rolling_span_latency",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "2292fb1bc8eab8e86605",
-      "title": "New OTel Collector processor: scalewaydetector",
-      "summary": "- processor/scalewaydetector: Add omit detector scaleway go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "scalewaydetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "105d738500330ef56045",
-      "title": "New OTel Collector processor: tencentcvmdetector",
-      "summary": "- processor/tencentcvmdetector: Add omit detector tencent cvm go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "tencentcvmdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "7e90cbde38c53f43f83c",
-      "title": "New OTel Collector processor: upclouddetector",
-      "summary": "- processor/upclouddetector: Add omit detector upcloud go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "upclouddetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "fbc42840f86f3d6d824f",
-      "title": "New OTel Collector processor: vultrdetector",
-      "summary": "- processor/vultrdetector: Add omit detector vultr go build tag to omit detector at build time. ( 47218)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "processor",
-      "component_name": "vultrdetector",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "db071cda092e425c3a6e",
-      "title": "New OTel Collector receiver: aws_cloudwatch",
-      "summary": "- receiver/aws cloudwatch: Add scope.name and scope.version to logs and metrics. ( 51333)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "aws_cloudwatch",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "6ded762bced39021d5c1",
-      "title": "New OTel Collector receiver: azure_blob",
-      "summary": "- receiver/azure blob: Add a compression option to read gzip compressed blobs ( 51412)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "azure_blob",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "c6868a7dbc06de71f7ee",
-      "title": "New OTel Collector receiver: azure_monitor",
-      "summary": "- receiver/azure monitor: Add per-metric time grain overrides for Azure Monitor metric queries. ( 51295)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "azure_monitor",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "634fec2c5ec84e440e9a",
-      "title": "New OTel Collector receiver: google_cloud_spanner",
-      "summary": "- receiver/google cloud spanner: Add total minute transaction stats metrics to googlecloudspannerreceiver. ( 51296)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "google_cloud_spanner",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "5c29565acbbfa0d74c8c",
-      "title": "New OTel Collector receiver: kafka",
-      "summary": "- receiver/kafka: Add partition processing.max in flight.records to run concurrent unmarshal-plus-Consume calls on one independent partition worker. ( 51080)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "kafka",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "dd8ab0f8d7eba65f4a7b",
-      "title": "New OTel Collector receiver: kubelet_stats",
-      "summary": "- receiver/kubelet stats: Add optional k8s node pid limit and usage metrics. ( 48926)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "kubelet_stats",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "bda1e1431724d8a50c3b",
-      "title": "New OTel Collector receiver: mongodb",
-      "summary": "- receiver/mongodb: Add query executor scan and collection scan metrics ( 51060)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "mongodb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "6b0b02f00caabd84f38d",
-      "title": "New OTel Collector receiver: mysql",
-      "summary": "- receiver/mysql: Add row-count and database namespace context to the top query event ( 51312)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "mysql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "e2050f6dce0e6673c187",
-      "title": "New OTel Collector receiver: oracledb",
-      "summary": "- receiver/oracledb: Add support for Kerberos authentication via a new auth type option and kerberos configuration block. ( 50401)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "oracledb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "4114158b4a7589ba37ba",
-      "title": "New OTel Collector receiver: postgresql",
-      "summary": "- receiver/postgresql: Add postgresql.userid to db.server.top query and db.server.query plan, and key the top-query counter cache and EXPLAIN plan cache on it instead of postgresql.rolname. Fixes a case where two dropped database roles could be reported under each other's counters or query plan, and keeps counter deltas continuous across a role ren",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "postgresql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "d654c58a60b8898475c3",
-      "title": "New OTel Collector receiver: pulsar",
-      "summary": "- receiver/pulsar: Add freebsd/amd64 as a supported build platform. ( 15781)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "pulsar",
-      "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
-    },
-    {
-      "id": "8332bb3ac9cb0d6bedce",
-      "title": "New OTel Collector receiver: sql_server",
-      "summary": "- receiver/sql server: Add sqlserver.db.edition resource attribute. ( 51414)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.0",
-      "date": "2026-10-14T06:53:39Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.163.0",
-      "component_type": "receiver",
-      "component_name": "sql_server",
       "parent_release": "OpenTelemetry Collector Contrib v0.163.0"
     },
     {
@@ -3667,29 +2764,9 @@
       ],
       "new_components": [
         {
-          "type": "connector",
-          "name": "exceptions",
-          "evidence": "- connector/exceptions: Add logs to logs and logs to metrics support, and fix the traces to logs edge to emit spec-conformant exception LogEvents (event.name, required exception. attributes, and full resource attribute propagation). ( 50900)"
-        },
-        {
-          "type": "exporter",
-          "name": "doris",
-          "evidence": "- exporter/doris: Fix materialized view and scheduled job creation on Doris 4.x, and add an is root column plus a summary materialized view to the traces table. ( 51265)"
-        },
-        {
-          "type": "exporter",
-          "name": "load_balancing",
-          "evidence": "- exporter/load balancing: Add randomness routing key that routes spans by the OTel tracestate randomness value (ot=rv), falling back to trace ID randomness when absent, so traces sharing an explicit randomness value are routed to the same backend. ( 49660)"
-        },
-        {
           "type": "exporter",
           "name": "nats",
           "evidence": "- exporter/nats: Add the NATS exporter to export traces, metrics, and logs to a NATS server (skeleton; in development). ( 39540)"
-        },
-        {
-          "type": "exporter",
-          "name": "syslog",
-          "evidence": "- exporter/syslog: Add support for exporting to Unix datagram sockets such as /dev/log. ( 50867)"
         },
         {
           "type": "extension",
@@ -3698,152 +2775,15 @@
         },
         {
           "type": "extension",
-          "name": "json_log_encoding",
-          "evidence": "- extension/json log encoding: Add the opt-in parse ints setting to preserve JSON integer literals within the int64 range. ( 51299)"
-        },
-        {
-          "type": "extension",
-          "name": "pebble_tail_storage",
-          "evidence": "- extension/pebble tail storage: Add extension telemetry counters for Pebble tail storage operations and read-path failures ( 49697)"
-        },
-        {
-          "type": "extension",
           "name": "sd_notify",
           "evidence": "- extension/sd notify: Promote sd notify extension stability from development to alpha. ( 49607)"
         },
         {
           "type": "processor",
-          "name": "adaptive_tail_sampling",
-          "evidence": "- processor/adaptive tail sampling: Add sampler request count, sampler keyspace size, and sampler burst count metrics exposing the internal performance of adaptive percentage and adaptive throughput samplers, labelled by rule, sampler type, and sampler algorithm. ( 49311)"
-        },
-        {
-          "type": "processor",
-          "name": "interval",
-          "evidence": "- processor/interval: Add delta temporality metrics support. ( 50845)"
-        },
-        {
-          "type": "processor",
-          "name": "resource_detection",
-          "evidence": "- processor/resource detection: Add Azure Functions resource detector ( 50633)"
-        },
-        {
-          "type": "processor",
           "name": "telemetry_policy",
           "evidence": "- processor/telemetry policy: Add the initial skeleton for the telemetry policy processor. ( 50965)"
-        },
-        {
-          "type": "processor",
-          "name": "transform",
-          "evidence": "- processor/transform: Add extract avg metric OTTL function to transform processor ( 49238)"
-        },
-        {
-          "type": "receiver",
-          "name": "azure_monitor",
-          "evidence": "- receiver/azure monitor: Add support for filtering Azure resources by tags. ( 50959)"
-        },
-        {
-          "type": "receiver",
-          "name": "gitlab",
-          "evidence": "- receiver/gitlab: Add gitlab.project.id resource attribute ( 48993)"
-        },
-        {
-          "type": "receiver",
-          "name": "google_cloud_spanner",
-          "evidence": "- receiver/google cloud spanner: Add query type label to top minute query stats in googlecloudspannerreceiver. ( 50843)"
-        },
-        {
-          "type": "receiver",
-          "name": "journald",
-          "evidence": "- receiver/journald: Add \"convert to semantic conventions\" config option to map well-known journald fields to OpenTelemetry semantic convention attributes ( 7298)"
-        },
-        {
-          "type": "receiver",
-          "name": "macos_unified_logging",
-          "evidence": "- receiver/macos unified logging: Add predicate field aliases and support additional fields ( 50626)"
-        },
-        {
-          "type": "receiver",
-          "name": "mongodb",
-          "evidence": "- receiver/mongodb: Add replica set topology and oplog metrics ( 50654)"
-        },
-        {
-          "type": "receiver",
-          "name": "mysql",
-          "evidence": "- receiver/mysql: Add a new db.server.query plan event that reports the query execution plan on a record of its own, so it can be filtered, routed or dropped independently of the query statistics. ( 51281)"
-        },
-        {
-          "type": "receiver",
-          "name": "oracledb",
-          "evidence": "- receiver/oracledb: Add the db.system.name attribute to the db.server.query plan and db.server.session.wait sample events. ( 51065)"
-        },
-        {
-          "type": "receiver",
-          "name": "postgresql",
-          "evidence": "- receiver/postgresql: Add a new db.server.query plan event to report the query execution plan separately. ( 51301)"
-        },
-        {
-          "type": "receiver",
-          "name": "rabbitmq",
-          "evidence": "- receiver/rabbitmq: Add the disabled-by-default rabbitmq.cluster.name resource attribute. ( 50168)"
-        },
-        {
-          "type": "receiver",
-          "name": "receiver_creator",
-          "evidence": "- receiver/receiver creator: Add a joinHostPort function for receiver template expressions. ( 50969)"
-        },
-        {
-          "type": "receiver",
-          "name": "sqlserver",
-          "evidence": "- receiver/sqlserver: Add db.namespace and db.system.name to the db.server.query plan event, so all four log events carry them. ( 50629)"
-        },
-        {
-          "type": "receiver",
-          "name": "vcenter",
-          "evidence": "- receiver/vcenter: Add proxy url to configure a per-receiver proxy for vSphere SDK connections. ( 51187)"
         }
       ]
-    },
-    {
-      "id": "268229fd444fcbdc8187",
-      "title": "New OTel Collector connector: exceptions",
-      "summary": "- connector/exceptions: Add logs to logs and logs to metrics support, and fix the traces to logs edge to emit spec-conformant exception LogEvents (event.name, required exception. attributes, and full resource attribute propagation). ( 50900)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "connector",
-      "component_name": "exceptions",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "83dd941962d82eec8722",
-      "title": "New OTel Collector exporter: doris",
-      "summary": "- exporter/doris: Fix materialized view and scheduled job creation on Doris 4.x, and add an is root column plus a summary materialized view to the traces table. ( 51265)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "exporter",
-      "component_name": "doris",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "a55a28b5f5ec2aa8cb79",
-      "title": "New OTel Collector exporter: load_balancing",
-      "summary": "- exporter/load balancing: Add randomness routing key that routes spans by the OTel tracestate randomness value (ot=rv), falling back to trace ID randomness when absent, so traces sharing an explicit randomness value are routed to the same backend. ( 49660)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "exporter",
-      "component_name": "load_balancing",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
     },
     {
       "id": "410aaf3191bee865053b",
@@ -3857,20 +2797,6 @@
       "version": "v0.162.0",
       "component_type": "exporter",
       "component_name": "nats",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "b8fb064ddc86619cc44c",
-      "title": "New OTel Collector exporter: syslog",
-      "summary": "- exporter/syslog: Add support for exporting to Unix datagram sockets such as /dev/log. ( 50867)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "exporter",
-      "component_name": "syslog",
       "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
     },
     {
@@ -3888,34 +2814,6 @@
       "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
     },
     {
-      "id": "fa57fbc8cdbe65910cf3",
-      "title": "New OTel Collector extension: json_log_encoding",
-      "summary": "- extension/json log encoding: Add the opt-in parse ints setting to preserve JSON integer literals within the int64 range. ( 51299)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "extension",
-      "component_name": "json_log_encoding",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "d05949064534d6d06ab6",
-      "title": "New OTel Collector extension: pebble_tail_storage",
-      "summary": "- extension/pebble tail storage: Add extension telemetry counters for Pebble tail storage operations and read-path failures ( 49697)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "extension",
-      "component_name": "pebble_tail_storage",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
       "id": "4f1082448e9c4601ac8e",
       "title": "New OTel Collector extension: sd_notify",
       "summary": "- extension/sd notify: Promote sd notify extension stability from development to alpha. ( 49607)",
@@ -3930,48 +2828,6 @@
       "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
     },
     {
-      "id": "fac69ecf691e4b2f2a91",
-      "title": "New OTel Collector processor: adaptive_tail_sampling",
-      "summary": "- processor/adaptive tail sampling: Add sampler request count, sampler keyspace size, and sampler burst count metrics exposing the internal performance of adaptive percentage and adaptive throughput samplers, labelled by rule, sampler type, and sampler algorithm. ( 49311)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "processor",
-      "component_name": "adaptive_tail_sampling",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "83d8233c5de2c79d9f23",
-      "title": "New OTel Collector processor: interval",
-      "summary": "- processor/interval: Add delta temporality metrics support. ( 50845)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "processor",
-      "component_name": "interval",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "c67213c361d43705a325",
-      "title": "New OTel Collector processor: resource_detection",
-      "summary": "- processor/resource detection: Add Azure Functions resource detector ( 50633)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "processor",
-      "component_name": "resource_detection",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
       "id": "6400a1611a9e752abf1c",
       "title": "New OTel Collector processor: telemetry_policy",
       "summary": "- processor/telemetry policy: Add the initial skeleton for the telemetry policy processor. ( 50965)",
@@ -3983,202 +2839,6 @@
       "version": "v0.162.0",
       "component_type": "processor",
       "component_name": "telemetry_policy",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "25b2aae4a104fed19b4e",
-      "title": "New OTel Collector processor: transform",
-      "summary": "- processor/transform: Add extract avg metric OTTL function to transform processor ( 49238)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "processor",
-      "component_name": "transform",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "a98b15854d3a7d0f742d",
-      "title": "New OTel Collector receiver: azure_monitor",
-      "summary": "- receiver/azure monitor: Add support for filtering Azure resources by tags. ( 50959)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "azure_monitor",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "7007b4b96835cb7537ec",
-      "title": "New OTel Collector receiver: gitlab",
-      "summary": "- receiver/gitlab: Add gitlab.project.id resource attribute ( 48993)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "gitlab",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "849357961cbb6c04b255",
-      "title": "New OTel Collector receiver: google_cloud_spanner",
-      "summary": "- receiver/google cloud spanner: Add query type label to top minute query stats in googlecloudspannerreceiver. ( 50843)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "google_cloud_spanner",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "37f50099d3b75538092d",
-      "title": "New OTel Collector receiver: journald",
-      "summary": "- receiver/journald: Add \"convert to semantic conventions\" config option to map well-known journald fields to OpenTelemetry semantic convention attributes ( 7298)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "journald",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "93fc7c615ea41b062f62",
-      "title": "New OTel Collector receiver: macos_unified_logging",
-      "summary": "- receiver/macos unified logging: Add predicate field aliases and support additional fields ( 50626)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "macos_unified_logging",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "d054586df04b76ab4e59",
-      "title": "New OTel Collector receiver: mongodb",
-      "summary": "- receiver/mongodb: Add replica set topology and oplog metrics ( 50654)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "mongodb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "b6bb31715f2665596018",
-      "title": "New OTel Collector receiver: mysql",
-      "summary": "- receiver/mysql: Add a new db.server.query plan event that reports the query execution plan on a record of its own, so it can be filtered, routed or dropped independently of the query statistics. ( 51281)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "mysql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "13b91e697339a543bbe3",
-      "title": "New OTel Collector receiver: oracledb",
-      "summary": "- receiver/oracledb: Add the db.system.name attribute to the db.server.query plan and db.server.session.wait sample events. ( 51065)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "oracledb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "18c2a0aa2eb887738074",
-      "title": "New OTel Collector receiver: postgresql",
-      "summary": "- receiver/postgresql: Add a new db.server.query plan event to report the query execution plan separately. ( 51301)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "postgresql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "0b02c31b0ff4c361e8f4",
-      "title": "New OTel Collector receiver: rabbitmq",
-      "summary": "- receiver/rabbitmq: Add the disabled-by-default rabbitmq.cluster.name resource attribute. ( 50168)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "rabbitmq",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "9ee0fa3f6d53d8454ee4",
-      "title": "New OTel Collector receiver: receiver_creator",
-      "summary": "- receiver/receiver creator: Add a joinHostPort function for receiver template expressions. ( 50969)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "receiver_creator",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "aad6e019e5ea2dc2e5c7",
-      "title": "New OTel Collector receiver: sqlserver",
-      "summary": "- receiver/sqlserver: Add db.namespace and db.system.name to the db.server.query plan event, so all four log events carry them. ( 50629)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "sqlserver",
-      "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
-    },
-    {
-      "id": "211738e3635bf43cb05a",
-      "title": "New OTel Collector receiver: vcenter",
-      "summary": "- receiver/vcenter: Add proxy url to configure a per-receiver proxy for vSphere SDK connections. ( 51187)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0",
-      "date": "2026-09-29T10:11:33Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "receiver",
-      "component_name": "vcenter",
       "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
     },
     {
@@ -4301,11 +2961,6 @@
           "type": "exporter",
           "name": "enqueue",
           "evidence": "- pkg/exporterhelper: Add exporter and data type attributes to exporter/enqueue spans. ( 16022)"
-        },
-        {
-          "type": "extension",
-          "name": "memory_limiter",
-          "evidence": "- extension/memory limiter: Add otelcol memorylimiter refused requests metric to record network request refusals in extension mode. ( 15561)"
         }
       ]
     },
@@ -4321,20 +2976,6 @@
       "version": "v0.162.0",
       "component_type": "exporter",
       "component_name": "enqueue",
-      "parent_release": "OpenTelemetry Collector v0.162.0"
-    },
-    {
-      "id": "bd1ebe36457745b9b83a",
-      "title": "New OTel Collector extension: memory_limiter",
-      "summary": "- extension/memory limiter: Add otelcol memorylimiter refused requests metric to record network request refusals in extension mode. ( 15561)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.162.0",
-      "date": "2026-09-28T14:09:31Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector",
-      "category": "Component",
-      "version": "v0.162.0",
-      "component_type": "extension",
-      "component_name": "memory_limiter",
       "parent_release": "OpenTelemetry Collector v0.162.0"
     },
     {
@@ -4462,11 +3103,6 @@
       "new_components": [
         {
           "type": "extension",
-          "name": "opamp",
-          "evidence": "- extension/opamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341)"
-        },
-        {
-          "type": "extension",
           "name": "sd_notify",
           "evidence": "- extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607)"
         },
@@ -4479,52 +3115,8 @@
           "type": "processor",
           "name": "signing",
           "evidence": "- processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and signs each log record, storing the base64-encoded signature as audit.integrity.value and setting audit.integrity.algorithm and audit.integrity.certificate as resource attributes. Supports RS256, RS512, ES256, EdDSA, and HMAC-SHA256. ( 50079, 50080)"
-        },
-        {
-          "type": "receiver",
-          "name": "k8s_cluster",
-          "evidence": "- receiver/k8s cluster: Add the k8s.statefulset.pod.available metric reporting the number of available pods (StatefulSetStatus.availableReplicas) per stateful set. ( 50345)"
-        },
-        {
-          "type": "receiver",
-          "name": "mongodb",
-          "evidence": "- receiver/mongodb: Add db.system.version resource attribute ( 50710)"
-        },
-        {
-          "type": "receiver",
-          "name": "mysql",
-          "evidence": "- receiver/mysql: Add support for AWS IAM authentication ( 49044)"
-        },
-        {
-          "type": "receiver",
-          "name": "oracledb",
-          "evidence": "- receiver/oracledb: Add server.address and server.port resource attributes ( 50724)"
-        },
-        {
-          "type": "receiver",
-          "name": "sqlserver",
-          "evidence": "- receiver/sqlserver: Add the db.server.top procedure event, reporting aggregated stored procedure statistics. ( 50799)"
-        },
-        {
-          "type": "receiver",
-          "name": "tls_check",
-          "evidence": "- receiver/tls check: Add a \"scrape all certs\" option to TLS Check Receiver to record metrics for all certificates found on an endpoint or in a file, and a \"tlscheck.x509.fingerprint\" metric attribute to identify each certificate. ( 48520)"
         }
       ]
-    },
-    {
-      "id": "fe679707aacd93651208",
-      "title": "New OTel Collector extension: opamp",
-      "summary": "- extension/opamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "extension",
-      "component_name": "opamp",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
     },
     {
       "id": "20f5cb31973b099c8194",
@@ -4566,90 +3158,6 @@
       "version": "v0.161.0",
       "component_type": "processor",
       "component_name": "signing",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "3dc4ec164b125bb2d5cf",
-      "title": "New OTel Collector receiver: k8s_cluster",
-      "summary": "- receiver/k8s cluster: Add the k8s.statefulset.pod.available metric reporting the number of available pods (StatefulSetStatus.availableReplicas) per stateful set. ( 50345)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "k8s_cluster",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "6efd46a481f7ac8773c3",
-      "title": "New OTel Collector receiver: mongodb",
-      "summary": "- receiver/mongodb: Add db.system.version resource attribute ( 50710)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "mongodb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "5a2b22b6170e5d7108d7",
-      "title": "New OTel Collector receiver: mysql",
-      "summary": "- receiver/mysql: Add support for AWS IAM authentication ( 49044)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "mysql",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "47d0d70787edda1cb73a",
-      "title": "New OTel Collector receiver: oracledb",
-      "summary": "- receiver/oracledb: Add server.address and server.port resource attributes ( 50724)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "oracledb",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "fea8bbfb55bef0f9b091",
-      "title": "New OTel Collector receiver: sqlserver",
-      "summary": "- receiver/sqlserver: Add the db.server.top procedure event, reporting aggregated stored procedure statistics. ( 50799)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "sqlserver",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "cf923ef67caf7a0f7400",
-      "title": "New OTel Collector receiver: tls_check",
-      "summary": "- receiver/tls check: Add a \"scrape all certs\" option to TLS Check Receiver to record metrics for all certificates found on an endpoint or in a file, and a \"tlscheck.x509.fingerprint\" metric attribute to identify each certificate. ( 48520)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "receiver",
-      "component_name": "tls_check",
       "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
     },
     {
