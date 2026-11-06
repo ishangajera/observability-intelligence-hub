@@ -48,6 +48,69 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA",
       "category": "Video",
       "kind": "video"
+    },
+    {
+      "name": "Datadog blog",
+      "project": "Datadog",
+      "url": "https://www.datadoghq.com/blog/index.xml",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "New Relic blog",
+      "project": "New Relic",
+      "url": "https://blog.newrelic.com/feed",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "New Relic product updates",
+      "project": "New Relic",
+      "url": "https://docs.newrelic.com/whats-new/feed.xml",
+      "category": "Article",
+      "kind": "product-updates"
+    },
+    {
+      "name": "New Relic security bulletins",
+      "project": "New Relic",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/feed.xml",
+      "category": "Security",
+      "kind": "security"
+    },
+    {
+      "name": "Honeycomb blog",
+      "project": "Honeycomb",
+      "url": "https://www.honeycomb.io/rss/blog.xml",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "Elastic blog",
+      "project": "Elastic",
+      "url": "https://www.elastic.co/blog/feed",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "VictoriaMetrics blog",
+      "project": "VictoriaMetrics",
+      "url": "https://victoriametrics.com/index.xml",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "Isovalent / Cilium blog",
+      "project": "Cilium",
+      "url": "https://isovalent.com/blog/rss.xml",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "Splunk product releases",
+      "project": "Splunk",
+      "url": "https://www.splunk.com/page/release_rss",
+      "category": "Release",
+      "kind": "release-feed"
     }
   ],
   "repos": [
