@@ -1,90 +1,42 @@
 {
-  "generated_at": "2026-11-06T08:18:45.437774+00:00",
-  "item_count": 120,
+  "generated_at": "2026-11-06T08:40:37.397504+00:00",
+  "item_count": 500,
   "sources": [
     {
       "name": "Prometheus blog",
       "project": "Prometheus",
-      "type": "rss",
-      "url": "https://prometheus.io/blog/"
+      "type": "blog",
+      "url": "https://prometheus.io/blog/feed.xml"
     },
     {
       "name": "OpenTelemetry blog",
       "project": "OpenTelemetry",
-      "type": "rss",
-      "url": "https://opentelemetry.io/blog/"
+      "type": "blog",
+      "url": "https://opentelemetry.io/blog/index.xml"
     },
     {
       "name": "Grafana Labs blog",
       "project": "Grafana",
-      "type": "rss",
-      "url": "https://grafana.com/blog/"
+      "type": "blog",
+      "url": "https://grafana.com/blog/index.xml"
     },
     {
       "name": "CNCF blog",
       "project": "CNCF",
-      "type": "rss",
-      "url": "https://www.cncf.io/blog/"
+      "type": "blog",
+      "url": "https://www.cncf.io/feed/"
     },
     {
-      "name": "Chronosphere blog",
-      "project": "Chronosphere",
-      "type": "rss",
-      "url": "https://chronosphere.io/blog/"
+      "name": "Grafana plugin development community",
+      "project": "Grafana ecosystem",
+      "type": "community",
+      "url": "https://community.grafana.com/c/plugin-development/30.rss"
     },
     {
-      "name": "Datadog blog",
-      "project": "Datadog",
-      "type": "rss",
-      "url": "https://www.datadoghq.com/blog/"
-    },
-    {
-      "name": "New Relic blog",
-      "project": "New Relic",
-      "type": "rss",
-      "url": "https://newrelic.com/blog"
-    },
-    {
-      "name": "Honeycomb blog",
-      "project": "Honeycomb",
-      "type": "rss",
-      "url": "https://www.honeycomb.io/blog"
-    },
-    {
-      "name": "Elastic blog",
-      "project": "Elastic",
-      "type": "rss",
-      "url": "https://www.elastic.co/blog"
-    },
-    {
-      "name": "Splunk blog",
-      "project": "Splunk",
-      "type": "rss",
-      "url": "https://www.splunk.com/en_us/blog.html"
-    },
-    {
-      "name": "VictoriaMetrics blog",
-      "project": "VictoriaMetrics",
-      "type": "rss",
-      "url": "https://victoriametrics.com/blog/"
-    },
-    {
-      "name": "Cilium blog",
-      "project": "Cilium",
-      "type": "rss",
-      "url": "https://isovalent.com/blog/"
-    },
-    {
-      "name": "Fluent Bit blog",
-      "project": "Fluent Bit",
-      "type": "rss",
-      "url": "https://fluentbit.io/blog/"
-    },
-    {
-      "name": "Vector site",
-      "project": "Vector",
-      "type": "rss",
-      "url": "https://vector.dev/"
+      "name": "OpenTelemetry official YouTube channel",
+      "project": "OpenTelemetry",
+      "type": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHZDBZTIfdy94xMjMKz-_MA"
     },
     {
       "name": "prometheus/prometheus releases",
@@ -97,6 +49,24 @@
       "project": "OpenTelemetry Collector",
       "type": "github",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases"
+    },
+    {
+      "name": "open-telemetry/opentelemetry-collector-contrib releases",
+      "project": "OpenTelemetry Collector Contrib",
+      "type": "github",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases"
+    },
+    {
+      "name": "open-telemetry/opentelemetry-collector-releases releases",
+      "project": "OpenTelemetry Collector Distributions",
+      "type": "github",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases"
+    },
+    {
+      "name": "open-telemetry/opentelemetry-operator releases",
+      "project": "OpenTelemetry Operator",
+      "type": "github",
+      "url": "https://github.com/open-telemetry/opentelemetry-operator/releases"
     },
     {
       "name": "open-telemetry/opentelemetry-specification releases",
