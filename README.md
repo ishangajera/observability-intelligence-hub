@@ -7,9 +7,9 @@ Public, automatically refreshed observability engineering intelligence dashboard
 - OpenTelemetry Collector core, contrib, distribution, and operator releases.
 - New Collector receivers, processors, exporters, connectors, and extensions identified in release-note sections.
 - Technical articles and blog posts from Prometheus, OpenTelemetry, Grafana Labs, and CNCF.
-- Grafana plugin-development community announcements.
+- Grafana plugin-development community announcements, plus daily catalog-diff detection for newly listed plugins and version changes.
 - The public Grafana plugin catalog, with a daily baseline and subsequent new-plugin/version-change detection.
-- Videos from the official OpenTelemetry YouTube channel.
+- Videos from the official OpenTelemetry and CNCF YouTube channels.
 
 ## Editorial triage
 This is a focused review queue, not a duplicate feed. It shows only entries with explicit source-text matches, with item-specific matched themes, source excerpts, and theme-specific review actions. Priority is an attention cue, not product severity or verified deployment impact.

@@ -54,16 +54,20 @@ for item in items:
         for pattern in patterns:
             matched=excerpt(text,pattern)
             if matched:break
+        if key=="component" and item.get("new_components"):
+            names=", ".join(f"{x.get('type')}/{x.get('name')}" for x in item["new_components"][:12])
+            matched="New Collector component additions listed in this release: "+names
         if item.get("category")=="Component" and key=="component":matched=item.get("summary","")[:260]
         if matched:
             tags.append({"id":key,"label":label,"priority":priority})
             if len(evidence)<5:evidence.append({"theme":label,"text":matched[:420]})
+    needs_review=any(tag["id"] in {"security","breaking","deprecation","compatibility","performance","configuration","component","plugin"} for tag in tags)
     priorities=[tag["priority"] for tag in tags]
     priority="high" if "high" in priorities else ("medium" if "medium" in priorities else "low")
     primary=next((tag["id"] for tag in tags if tag["priority"]==priority),tags[0]["id"] if tags else None)
     actions=list(dict.fromkeys(ACTIONS[tag["id"]] for tag in tags))[:4]
     result[item.get("id",item.get("url",""))]={
-      "priority":priority,"themes":tags,
+      "priority":priority,"needs_review":needs_review,"themes":tags,
       "why_it_matters":WHY.get(primary,"No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue."),
       "review_actions":actions,"evidence":evidence,
       "confidence":"explicit source phrase match" if tags else "no matching editorial rule","method":"transparent-rules"

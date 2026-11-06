@@ -41,6 +41,13 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHZDBZTIfdy94xMjMKz-_MA",
       "category": "Video",
       "kind": "video"
+    },
+    {
+      "name": "CNCF official YouTube channel",
+      "project": "CNCF",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA",
+      "category": "Video",
+      "kind": "video"
     }
   ],
   "repos": [

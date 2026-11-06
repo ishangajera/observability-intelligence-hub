@@ -89,7 +89,8 @@ def find_new_components(body):
             in_new_section=any(token in h for token in ("new component","new receiver","new processor","new exporter","new connector","new extension"))
         hits=list(COMPONENT_RE.finditer(line))
         if not hits:continue
-        is_new=in_new_section or bool(re.search(r"\b(new|add(?:ed)?|introduc(?:e|ed|ing)|initial implementation)\b",line,re.I))
+        prefix=line[:hits[0].start()]
+        is_new=in_new_section or bool(re.search(r"\b(new|add(?:ed)?|introduc(?:e|ed|ing)|initial implementation)\b",prefix,re.I))
         if is_new:
             for hit in hits:found[(hit.group(1).lower(),hit.group(2))]=clean(line)[:350]
     return [{"type":kind,"name":name,"evidence":evidence} for (kind,name),evidence in sorted(found.items())]
@@ -103,8 +104,9 @@ def releases(repo):
         for release in data:
             if release.get("draft"):continue
             href=release.get("html_url","");tag=release.get("tag_name","release");body=release.get("body") or ""
+            if repo["repo"]=="opentelemetry-collector-releases" and not re.match(r"^v\d",tag):continue
             sections=parse_release_sections(body)
-            components=find_new_components(body) if "opentelemetry-collector" in repo["repo"] else []
+            components=find_new_components(body) if repo["repo"] in ("opentelemetry-collector","opentelemetry-collector-contrib") else []
             first=next((clean(line) for line in body.splitlines() if clean(line) and not clean(line).startswith("#")),"")
             results.append({"id":stable_id(href),"title":f"{repo['project']} {tag}",
               "summary":(first or "Open upstream release notes for changes, compatibility notes, and upgrade guidance.")[:900],
