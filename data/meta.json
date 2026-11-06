@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T08:43:26.444924+00:00",
-  "item_count": 237,
+  "generated_at": "2026-11-06T08:45:02.493850+00:00",
+  "item_count": 508,
   "sources": [
     {
       "name": "Prometheus blog",
@@ -43,6 +43,60 @@
       "project": "CNCF",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA"
+    },
+    {
+      "name": "Datadog blog",
+      "project": "Datadog",
+      "type": "blog",
+      "url": "https://www.datadoghq.com/blog/index.xml"
+    },
+    {
+      "name": "New Relic blog",
+      "project": "New Relic",
+      "type": "blog",
+      "url": "https://blog.newrelic.com/feed"
+    },
+    {
+      "name": "New Relic product updates",
+      "project": "New Relic",
+      "type": "product-updates",
+      "url": "https://docs.newrelic.com/whats-new/feed.xml"
+    },
+    {
+      "name": "New Relic security bulletins",
+      "project": "New Relic",
+      "type": "security",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/feed.xml"
+    },
+    {
+      "name": "Honeycomb blog",
+      "project": "Honeycomb",
+      "type": "blog",
+      "url": "https://www.honeycomb.io/rss/blog.xml"
+    },
+    {
+      "name": "Elastic blog",
+      "project": "Elastic",
+      "type": "blog",
+      "url": "https://www.elastic.co/blog/feed"
+    },
+    {
+      "name": "VictoriaMetrics blog",
+      "project": "VictoriaMetrics",
+      "type": "blog",
+      "url": "https://victoriametrics.com/index.xml"
+    },
+    {
+      "name": "Isovalent / Cilium blog",
+      "project": "Cilium",
+      "type": "blog",
+      "url": "https://isovalent.com/blog/rss.xml"
+    },
+    {
+      "name": "Splunk product releases",
+      "project": "Splunk",
+      "type": "release-feed",
+      "url": "https://www.splunk.com/page/release_rss"
     },
     {
       "name": "prometheus/prometheus releases",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:43:26.444924+00:00",
+  "generated_at": "2026-11-06T08:45:02.493850+00:00",
   "items": [
     {
       "id": "eac2806ff6607ce1b621",
@@ -242,6 +242,61 @@
       "new_components": []
     },
     {
+      "id": "07fc94e0ebbee12e05c9",
+      "title": "How we continuously validate formal specifications in production",
+      "summary": "Learn how Datadog built FETCh to continuously validate production behavior against TLA+ specifications and uncover a subtle bug that conventional testing had not exposed.",
+      "url": "https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation/",
+      "date": "2026-11-05T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "64278ce4fb0eb614ac23",
+      "title": "Manage Kubernetes observability with DatadogInstrumentation",
+      "summary": "Configure Kubernetes checks, logs, tracing, and profiling with DatadogInstrumentation while keeping workload changes separate from Agent deployments.",
+      "url": "https://www.datadoghq.com/blog/manage-kubernetes-observability-with-datadoginstrumentation/",
+      "date": "2026-11-05T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "04baa966fe576c2adedd",
+      "title": "Highlights from Oracle AI World 2026",
+      "summary": "A recap from Oracle AI World 2026, covering AI agents, multi-cloud databases, and Datadog’s support for monitoring Oracle environments.",
+      "url": "https://www.datadoghq.com/blog/highlights-from-oracle-ai-world-2026/",
+      "date": "2026-11-05T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3954656896c874c71501",
+      "title": "Distributed by design: Why Agile Combat Employment needs one platform, not a dozen",
+      "summary": "Learn how Elastic helps ACE's data problem by unifying, normalizing, and correlating heterogeneous data across sites, providing a common operational picture of equipment health, performance, and security.",
+      "url": "https://www.elastic.co/blog/agile-combat-employment",
+      "date": "2026-11-05T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "f203523a62ca18d56095",
+      "title": "VictoriaMetrics Is Expanding in North America",
+      "summary": "VictoriaMetrics Expands in North America as Spotify and MongoDB Use Our Open-Source Stack to Run Observability at Scale",
+      "url": "https://victoriametrics.com/blog/victoriametrics-is-expanding-in-north-america/",
+      "date": "2026-11-05T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "79f76e32a628312a3424",
       "title": "The Linkerd Story: The People Behind the Service Mesh Premiere Announcement",
       "summary": "",
@@ -262,6 +317,17 @@
       "source": "CNCF official YouTube channel",
       "category": "Video",
       "content_type": "video"
+    },
+    {
+      "id": "9c2877ce2c953814a38c",
+      "title": "Good Agents Need Good Managers: What We Heard at Innovation Week",
+      "summary": "Recapping the questions that came up at Innovation Week: what a good goal looks like, how an agent earns more autonomy, how to get a fleet-wide signal, and what stays human as agents take on more of the work.",
+      "url": "https://www.honeycomb.io/blog/good-agents-need-good-managers-innovation-week",
+      "date": "2026-11-04T19:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "4e66fcee77ea628d1295",
@@ -310,6 +376,94 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "d59fc77f1c92c776a06e",
+      "title": "The eBee Quest Lands at KubeCon America 2026",
+      "summary": "When labs turned into a map, a leaderboard, and a little friendly competition, the eBee Quest was born. A hands-on adventure through Cloud Native networking and security—at events, online, and beyond. Pick your path, climb the leaderboard, and keep the quest going wherever you are.",
+      "url": "https://isovalent.com/blog/post/kcna26-quest/",
+      "date": "2026-11-04T14:02:24+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "bb85be3859992fce5d86",
+      "title": "Log Management vs SIEM: Understanding the Key Differences and Use Cases",
+      "summary": "Discover the differences between log management vs SIEM and learn when each tool is right for your team to improve visibility and security.",
+      "url": "https://newrelic.com/blog/log/log-management-vs-siem",
+      "date": "2026-11-04T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "89a5a5f6b7dcf0cc227a",
+      "title": "DevOps Log Management: A Comprehensive Evaluation Guide",
+      "summary": "Discover how effective devops log management helps you quickly troubleshoot incidents, reduce noise, and improve operational visibility with the right data.",
+      "url": "https://newrelic.com/blog/log/devops-log-management",
+      "date": "2026-11-04T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "65100ec8babb89c511a1",
+      "title": "Datadog Pricing Explained: What Drives the Bill and How to Avoid Surprises",
+      "summary": "Datadog charges separately for hosts, logs, and custom metrics, and the bill can grow fast. See how the pricing model works and what to check before you sign.",
+      "url": "https://newrelic.com/blog/observability/datadog-pricing",
+      "date": "2026-11-04T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "878fb75b7a281ad297c2",
+      "title": "Datadog vs. New Relic Pricing: What Actually Drives Your Bill",
+      "summary": "Compare how Datadog and New Relic actually price observability — data, hosts, and users — so you can size your real cost before you commit.",
+      "url": "https://newrelic.com/blog/observability/datadog-vs-new-relic-pricing",
+      "date": "2026-11-04T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "bae0cd698e4d14f279dc",
+      "title": "Compare AI agent changes with Online Experiments in Agent Observability",
+      "summary": "Learn how Datadog Online Experiments, available through Agent Observability, enables you to test AI agent changes against real production traffic so you can compare response quality, cost, latency, and errors.",
+      "url": "https://www.datadoghq.com/blog/online-experiments-agent-observability/",
+      "date": "2026-11-04T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "227691217a63c40f186f",
+      "title": "Migrate Splunk queries, alerts, and dashboards to Datadog",
+      "summary": "Use Datadog Log Management’s Translate and Import tools to migrate Splunk SPL queries, alerts, and dashboards, as well as track migration progress.",
+      "url": "https://www.datadoghq.com/blog/migrate-queries-alerts-dashboards-to-datadog/",
+      "date": "2026-11-04T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "48c727af1aa8a6d07fb5",
+      "title": "AI in the SOC: Where security teams stand",
+      "summary": "New data from 400+ security pros reveals the gap between AI SOC adoption and governance, and what an enforced AI governance framework needs.",
+      "url": "https://www.elastic.co/blog/ai-adoption-in-soc",
+      "date": "2026-11-04T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "9cc104ef886f366fa408",
@@ -391,6 +545,17 @@
       "content_type": "blog"
     },
     {
+      "id": "6b3826262e4e6d4b88a5",
+      "title": "Honeycomb Team Agents: AI SRE Done Right",
+      "summary": "Honeycomb Team Agents are AI SRE coworkers that join your team proactively, not just reactively. Personal agents answer questions about production with evidence; team agents run on goals you define, checking releases, instrumentation, cost, agent quality, and resolving incidents with autonomy you match to risk.",
+      "url": "https://www.honeycomb.io/blog/honeycomb-team-agents-ai-sre-done-right",
+      "date": "2026-11-03T13:58:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "f9aa885f93319a9546eb",
       "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
       "summary": "About OpenKruise Agents OpenKruise Agents is a sub-project of OpenKruise, the CNCF open-source application automation and workload orchestration project. It provides full lifecycle management for Agent Sandboxes running at scale on Kubernetes, together with a complete...",
@@ -398,6 +563,28 @@
       "date": "2026-11-03T12:00:00+00:00",
       "project": "CNCF",
       "source": "CNCF blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e00bb7b6b59ec3ea1477",
+      "title": "Evaluate your AI agents with Fireworks AI models in Datadog Agent Observability",
+      "summary": "Learn how you can evaluate your AI agents and compare models in the Playground by using Fireworks AI models in Datadog Agent Observability.",
+      "url": "https://www.datadoghq.com/blog/fireworks-ai-integration/",
+      "date": "2026-11-03T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3fb5e40c314a69ea3bfb",
+      "title": "What's New in VictoriaMetrics Cloud Q3 2026? VictoriaTraces, a Revamped Overview and Monitoring, Alerting for Logs and Traces, and a new Beta coming soon",
+      "summary": "Q3 2026 brought VictoriaTraces to VictoriaMetrics Cloud, completing the stack with metrics, logs and traces. We also revamped the Overview and Monitoring pages for full transparency, added alerting for logs and traces, enabled stream aggregation for VictoriaMetrics Single, and announced code-named project Visum: our upcoming visualization tool.",
+      "url": "https://victoriametrics.com/blog/q3-2026-whats-new-victoriametrics-cloud/",
+      "date": "2026-11-03T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -503,6 +690,17 @@
       "content_type": "video"
     },
     {
+      "id": "ea698d9a33e1525c99fe",
+      "title": "Cilium Essential Training: Hands-On Kubernetes Networking with eBPF",
+      "summary": "A new Cilium Course is now available!",
+      "url": "https://isovalent.com/blog/post/cilium-course/",
+      "date": "2026-11-02T15:57:41+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "bef1b0c97f595203e21f",
       "title": "Instrumentation Hub in Grafana Cloud: start easier, stay in control",
       "summary": "It's no secret that getting started with observability can be much harder than it should be. That's why, at ObservabilityCon 2025, we introduced Instrumentation Hub: a guided, scalable way to roll out observability coverage while still keeping you in control. Today, we’re excited to announce that Instrumentation Hub is now Generally Available in Grafana Cloud. As we hinted at before , this new iteration introduces selective OpenTelemetry SDK injection, giving you deeper runtime insights for a wide range of languages to complement eBPF instrumentation with a single click. What is the Instrumentation Hub? Instrumentation Hub makes the biggest bottleneck of starting with observability, instrumentation, faster and easier by leveraging open source eBPF and OTel injection. At Grafana Labs, we're champions of open-standards-based observability, but we also realize that getting meaningful coverage of your systems can often mean months of manual toil. Each layer requires its own instrumentation approach, balancing technology tradeoffs, and unique brittle steps. Organizational challenges exace",
@@ -532,6 +730,149 @@
       "date": "2026-11-02T12:00:00+00:00",
       "project": "CNCF",
       "source": "CNCF blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "656840b7f8ca89d61d5b",
+      "title": "The 2026 Observability Forecast: India Edition",
+      "summary": "New Relic partnered with Enterprise Technology Research (ETR) to survey 2,575 IT and engineering leaders and practitioners worldwide. 500 of these are based in India, 20% of the global sample and the second largest single-country cut in the study.",
+      "url": "https://newrelic.com/blog/observability/the-observability-forecast-2026-india",
+      "date": "2026-11-02T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "76537669ae10a2c8db9d",
+      "title": "Extend RUM to Electron’s main process with the Datadog Electron SDK",
+      "summary": "Use the Datadog Electron SDK to connect RUM data across Node.js and Chromium, capture main process failures, and trace requests.",
+      "url": "https://www.datadoghq.com/blog/datadog-electron-sdk/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "074211bc5b0e602dc72e",
+      "title": "Store and recover user sessions with RUM Managed Archive",
+      "summary": "Store every ingested RUM session and recover specific sessions on demand for support, debugging, incident investigations, and audits.",
+      "url": "https://www.datadoghq.com/blog/rum-managed-archive/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d06e514a9b16fe33b173",
+      "title": "Export RUM and Product Analytics data with Export Pipelines",
+      "summary": "Send Datadog RUM and Product Analytics events to your cloud storage for data analysis, ML model training, and long-term data access.",
+      "url": "https://www.datadoghq.com/blog/export-pipelines/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "38574e4d7453408a0563",
+      "title": "Monitor C and C++ applications with Datadog RUM",
+      "summary": "Use Datadog RUM to investigate native C and C++ application crashes, track user activity, and monitor workflows across desktop and other native apps.",
+      "url": "https://www.datadoghq.com/blog/monitor-native-apps-datadog-rum/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "30ea256f940d32e02442",
+      "title": "Datadog is now available on Anthropic’s Claude Marketplace",
+      "summary": "Datadog is available on Anthropic’s Claude Marketplace, offering you a simpler way to gain visibility into your Claude-powered AI applications.",
+      "url": "https://www.datadoghq.com/blog/datadog-anthropic-claude-marketplace/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c132ae76c51aad93af85",
+      "title": "Agents make decisions at runtime—your security controls should too",
+      "summary": "Learn how we’re building AI Guard to secure AI agents at by detecting and blocking threats at runtime.",
+      "url": "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e5d795368ee772bd89e0",
+      "title": "Bits investigations are faster, more accurate, and cost less",
+      "summary": "See how Bits Investigation has reduced average cost by 84% and investigation time by 82% since launch, with a 44% accuracy gain.",
+      "url": "https://www.datadoghq.com/blog/bits-investigations-cost-speed-accuracy/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "1af108e4676ea6bc7a7b",
+      "title": "Diagnose frontend performance issues with RUM Profiling",
+      "summary": "Use Datadog RUM Profiling to identify CPU-intensive code behind slow mobile app launches and frontend interactions across iOS, Android, and the browser.",
+      "url": "https://www.datadoghq.com/blog/rum-profiling-mobile/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "afe7de09377db67e8d56",
+      "title": "Manage and deploy LLM prompts with Datadog",
+      "summary": "Manage, version, deploy, and monitor LLM prompts independently of application releases with Prompt Management in Datadog Agent Observability.",
+      "url": "https://www.datadoghq.com/blog/agent-observability-prompt-management/",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "b0deb7add4d2e589f1b2",
+      "title": "Elastic Stack 9.5.6 released",
+      "summary": "Version 9.5.6 of the Elastic Stack was released today. We recommend you upgrade to this latest version . We recommend 9.5.6 over the previous versions 9.5.5 For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes . These releases contain security fixes. For details, refer to the Elastic Security Advisories at https://discuss.elastic.co/c/announcements/security-announcements/31 .",
+      "url": "https://www.elastic.co/blog/elastic-stack-9-5-6-released",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "41f61d360ef0dcab489b",
+      "title": "Elastic Stack 9.4.9 released",
+      "summary": "Version 9.4.9 of the Elastic Stack was released today. We recommend you upgrade to this latest version . We recommend 9.4.9 over the previous versions 9.4.8 For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes . These releases contain security fixes. For details, refer to the Elastic Security Advisories at https://discuss.elastic.co/c/announcements/security-announcements/31 .",
+      "url": "https://www.elastic.co/blog/elastic-stack-9-4-9-released",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8bb2ba71377a6bb1931f",
+      "title": "Elastic Stack 8.19.24 released",
+      "summary": "Version 8.19.24 of the Elastic Stack was released today. We recommend you upgrade to this latest version . We recommend 8.19.24 over the previous versions 8.19.23 For details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes . These releases contain security fixes. For details, refer to the Elastic Security Advisories at https://discuss.elastic.co/c/announcements/security-announcements/31 .",
+      "url": "https://www.elastic.co/blog/elastic-stack-8-19-24-released",
+      "date": "2026-11-02T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -602,6 +943,17 @@
       "content_type": "blog"
     },
     {
+      "id": "f5bcc78792ea80a09612",
+      "title": "How we use Insights to improve the agent behind Insights",
+      "summary": "Learn how Datadog uses Insights in Agent Observability to identify cost and reliability problems in its own AI agent and prepare fixes.",
+      "url": "https://www.datadoghq.com/blog/improving-insights-agent-observability/",
+      "date": "2026-10-30T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "9c6727a6ff858d3ced3c",
       "title": "The boundary problem in agentic AI is a platform problem",
       "summary": "An autonomous agent will do exactly what its tools let it do, and no more. This sounds like a constraint. In practice it is the whole risk, because the set of things an agent’s tools let...",
@@ -666,6 +1018,83 @@
       "date": "2026-10-29T15:01:42+00:00",
       "project": "Grafana",
       "source": "Grafana Labs blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d654d3141a854914bcbc",
+      "title": "Turo + New Relic: Turn AI code volume into production reliability",
+      "summary": "See how Turo uses the New Relic MCP server to give AI agents live production context, slash incident triage to 60 seconds, and scale releases safely.",
+      "url": "https://newrelic.com/blog/ai/turo-new-relic-turn-ai-code-volume-into-production-reliability",
+      "date": "2026-10-29T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "69c3acfd00cff7eba76d",
+      "title": "How to Upload Kubernetes Packet Captures to S3 With Isopcap",
+      "summary": "Isopcap can now save Kubernetes packet captures to S3, providing better collaboration.",
+      "url": "https://isovalent.com/blog/post/how-to-upload-kubernetes-packet-captures-to-s3-with-isopcap/",
+      "date": "2026-10-29T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d2bcb15353045ce4ee32",
+      "title": "Datadog named a Leader in the Forrester Wave™: AIOps Platforms, Q4 2026",
+      "summary": "Datadog has been named a Leader in this report, reflecting Datadog’s commitment to transforming observability into AI-powered, autonomous operations.",
+      "url": "https://www.datadoghq.com/blog/datadog-aiops-platforms-forrester-wave-2026/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8923e506ae895eaf965e",
+      "title": "Trace voice agents with Datadog Agent Observability",
+      "summary": "Use Agent Observability to replay voice interactions and investigate latency, cost, interruptions, and transcripts across OpenAI Realtime sessions.",
+      "url": "https://www.datadoghq.com/blog/agent-observability-voice-agent/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "fca23f4de3f32f1fea9b",
+      "title": "Detect when your AI agent copies a self-replicating prompt injection",
+      "summary": "Learn how Datadog AI Guard can flag self-replicating prompt injections when an AI agent copies hidden instructions into email replies or skill files.",
+      "url": "https://www.datadoghq.com/blog/detect-when-your-ai-agent-copies-a-self-replicating-prompt-injection/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "2d18945c6fc556bbae9c",
+      "title": "Default to serverless for AI agents, then let production data decide what moves",
+      "summary": "Learn how to run AI agents as serverless workflows, build an execution profile, and compare costs against warm or dedicated compute.",
+      "url": "https://www.datadoghq.com/blog/serverless-ai-agents/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e8edab96a81c44d2dcab",
+      "title": "VictoriaLogs vs Loki, Elasticsearch, OpenSearch, SigNoz and ClickStack on structured log ingestion",
+      "summary": "We benchmarked structured log ingestion in VictoriaLogs, Loki, Elasticsearch, OpenSearch, SigNoz and ClickStack, and explain the trade-offs behind each result.",
+      "url": "https://victoriametrics.com/blog/structured-log-ingestion-benchmark/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -762,6 +1191,72 @@
       "content_type": "blog"
     },
     {
+      "id": "b218df25bb573f3cf4e2",
+      "title": "PHP2Shell: Limiting the impact of PHP exploits with Tetragon",
+      "summary": "Limit PHP2Shell’s impact with Tetragon’s eBPF runtime enforcement.",
+      "url": "https://isovalent.com/blog/post/php2shell-tetragon/",
+      "date": "2026-10-28T15:52:19+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "f469534b085358a75177",
+      "title": "Optimize your NRQL with Macros!",
+      "summary": "Parse, transform, and analyse your data with NRQL Macros",
+      "url": "https://newrelic.com/blog/news/optimize-your-nrql-with-macros",
+      "date": "2026-10-28T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3182c71c95992af2f40a",
+      "title": "Track your Black October vulnerabilities from visibility to validated patch",
+      "summary": "PHP2Shell and Node2Shell hit the runtimes under your apps. Here's how New Relic users can find exposed services and confirm the fix is running everywhere.",
+      "url": "https://newrelic.com/blog/security/black-october-cves-new-relic",
+      "date": "2026-10-28T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "5a7c253722bb20b6bfba",
+      "title": "New Relic at GitHub Universe 2026: Bringing real-time observability to AI code velocity",
+      "summary": "Discover New Relic's new GitHub Copilot and MCP integrations for real-time AI code observability, change tracking, and production reliability.",
+      "url": "https://newrelic.com/blog/news/github-universe-2026",
+      "date": "2026-10-28T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "bf54bca3ed7e95f2320e",
+      "title": "Match monitoring depth to workload needs with Infrastructure Basic",
+      "summary": "Monitor host health and resource usage across lower-priority workloads with the lightweight Infrastructure Basic tier from Datadog.",
+      "url": "https://www.datadoghq.com/blog/infrastructure-monitoring-basic/",
+      "date": "2026-10-28T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "a4a72faac0ccab2ca511",
+      "title": "Elastic is a Strong Performer in The Forrester Wave™ for AIOps Platforms, Q4 2026",
+      "summary": "Elastic is a Strong Performer in The Forrester Wave™: AIOps Platforms, Q4 2026. Elastic’s AI is built on complete context, shows its evidence, and learns from every investigation.",
+      "url": "https://www.elastic.co/blog/forrester-wave-aiops-platforms-2026",
+      "date": "2026-10-28T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "40ddc01098a6030801d1",
       "title": "OpenTelemetry Transformation Language reaches v1",
       "summary": "The OpenTelemetry Transformation Language (OTTL) is now v1. Starting with opentelemetry-collector-contrib v0.164.0, OTTL is stable for traces, metrics, and logs. The release of v1 means OTTL meets the Collector’s ‘stable’ stability criteria for testing, benchmarking, documentation, and telemetry. It also comes with a compatibility promise for all of 1.x. If you write OTTL statements, the syntax and the standard functions stay backward compatible. If you build your own components on top of OTTL, the Go API will also remain compatible.",
@@ -780,6 +1275,17 @@
       "date": "2026-10-27T14:32:18+00:00",
       "project": "Grafana",
       "source": "Grafana Labs blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ed83d1a37c2c2ca584d3",
+      "title": "Do You Need Forward Deployed Engineers? 5 Signals from New Relic Now",
+      "summary": "Discover 5 key signals on forward deployed engineers, AI agents in production, and observability insights from New Relic Now and Anthropic.",
+      "url": "https://newrelic.com/blog/ai/do-you-need-forward-deployed-engineers",
+      "date": "2026-10-27T12:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -995,6 +1501,28 @@
       "release_notes": "v0.42.4 but with eMudhra CA fix.",
       "change_sections": [],
       "new_components": []
+    },
+    {
+      "id": "3eaf1a14947eeb86f563",
+      "title": "NR26-11: Node.js Critical Security Vulnerabilities Including Remote Code Execution (CVE-2026-111497 et al.)",
+      "summary": "Security bulletin for Node.js vulnerabilities, including remote code execution (CVE-2026-111497), affecting Synthetic monitoring Public and Private locations.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-11",
+      "date": "2026-10-27T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "aba7e1123ecd32ae1704",
+      "title": "Finding Why Payments Fail with VictoriaLogs Drilldown",
+      "summary": "The VictoriaLogs data source for Grafana now ships with Drilldown, a point-and-click way to explore logs without writing queries. In this post, we use it to investigate failing payments in the OpenTelemetry demo shop, going from a single warning to the release, the log message, and the line of code behind it, all without typing a line of LogsQL.",
+      "url": "https://victoriametrics.com/blog/finding-why-payments-fail-with-victorialogs-drilldown/",
+      "date": "2026-10-27T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "26e407628333888ccb80",
@@ -1279,6 +1807,28 @@
       "date": "2026-10-26T11:30:00+00:00",
       "project": "CNCF",
       "source": "CNCF blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "5fa4f1042b8f54c8ae29",
+      "title": "Best practices for scaling A/B testing with experiment protocols",
+      "summary": "Learn how to standardize A/B testing at scale with experiment protocols. Define metrics, randomization, exposure, and analysis, then reuse them across teams.",
+      "url": "https://www.datadoghq.com/blog/best-practices-for-scaling-ab-testing-with-experiment-protocols/",
+      "date": "2026-10-26T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "38134c56e9f5fe759ac2",
+      "title": "Monitor Oracle AI Database across clouds with Datadog",
+      "summary": "Learn how you can use Datadog to monitor Oracle AI Database on AWS, Azure, and Google Cloud to optimize performance, validate migrations, and manage costs.",
+      "url": "https://www.datadoghq.com/blog/monitor-oracle-ai-database-across-clouds/",
+      "date": "2026-10-26T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -1571,6 +2121,28 @@
       "new_components": []
     },
     {
+      "id": "f77c3640b31e6a9c391d",
+      "title": "Optimize AI costs with Agent Observability",
+      "summary": "Find the applications and behaviors driving AI spend, prioritize savings opportunities, and validate cost changes against quality and performance.",
+      "url": "https://www.datadoghq.com/blog/cost-agent-observability/",
+      "date": "2026-10-22T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "51effa82efdcb934bf8c",
+      "title": "How Elastic helps Audi Revolut F1® Team find what matters across engineering software",
+      "summary": "We are excited to announce a new multi-year partnership between Elastic and Audi Revolut F1® Team. The partnership builds on an existing technical relationship: the team already uses Elastic to support investigations across its engineering software.",
+      "url": "https://www.elastic.co/blog/elastic-audi-revolut-f1-team-partnership",
+      "date": "2026-10-22T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "d59752258af0b21d202a",
       "title": "Grafana Alloy v1.21.1",
       "summary": "1.21.1 (2026-10-21)",
@@ -1782,6 +2354,17 @@
       "content_type": "blog"
     },
     {
+      "id": "0ab69f64bb3198d9da16",
+      "title": "Elastic looks to speed up Jina Model Inference by 8x using NVIDIA RTX GPUs",
+      "summary": "Elastic is accelerating Jina model inference with NVIDIA RTX Pro 6000 GPUs, delivering up to 8x faster embedding, 4x faster reranking, and 3.7x faster OCR to power search and agentic AI.",
+      "url": "https://www.elastic.co/blog/jina-model-inference-nvidia-rtx-gpus",
+      "date": "2026-10-21T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "48eb8f67a6d8bb252435",
       "title": "Loki v3.7.9",
       "summary": "3.7.9 (2026-10-20)",
@@ -1912,6 +2495,17 @@
       "content_type": "blog"
     },
     {
+      "id": "6a2ef241d18620e63fc8",
+      "title": "Our Limits Are Not Our Imagination",
+      "summary": "AI doesn't just make coding faster—used well, it can make code more rigorous than anything we wrote unassisted: property-based testing, formal verification, strict architecture checks, and more review than ever. The ceiling isn't our imagination. It's the development system we build around the agent.",
+      "url": "https://www.honeycomb.io/blog/our-limits-are-not-our-imagination",
+      "date": "2026-10-20T13:14:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "093d64df2756cff0c1c0",
       "title": "VictoriaMetrics v1.154.1",
       "summary": "v1.154.1",
@@ -1931,6 +2525,28 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "4c72ceb4fa7dc4a7d94b",
+      "title": "Beyond container image signing: How we enforce software supply chain policies at Datadog",
+      "summary": "Datadog built Turnstile to evaluate signed attestations and enforce software supply chain policies before container images are deployed.",
+      "url": "https://www.datadoghq.com/blog/engineering/software-supply-chain-policy-enforcement/",
+      "date": "2026-10-20T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8d97527fe6522eea6a6a",
+      "title": "Build better SLOs with RUM and synthetic SLIs",
+      "summary": "Learn when to use RUM and synthetic monitoring for SLIs, what each source misses, and how to interpret their results together.",
+      "url": "https://www.datadoghq.com/blog/rum-synthetic-slos-slis/",
+      "date": "2026-10-20T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "188f68e4f2288278cf8e",
@@ -2010,6 +2626,17 @@
       "content_type": "blog"
     },
     {
+      "id": "a763e36e69231c7960aa",
+      "title": "Observability Lessons NVIDIA and CoreWeave",
+      "summary": "NVIDIA now ships VictoriaMetrics as the default metrics backed in their self-managed Cloud Functions, and CoreWeave uses VictoriaMetrics for infrastructure monitoring and AI capabilities.",
+      "url": "https://victoriametrics.com/blog/observability-lessons-nvidia-coreweave/",
+      "date": "2026-10-19T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "e7c58929818d6d1f187e",
       "title": "Tempo v3.0.4",
       "summary": "Security",
@@ -2036,6 +2663,17 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "40c11d9d27b63046d186",
+      "title": "Everything We Talked About at O11yDay London 2026",
+      "summary": "A recap of every session at O11yDay London 2026, from Sam Newman's cobots and dark factories to Corey Quinn on AI cost observability, plus how Honeycomb debugs its own agents with Canvas, Agent Timeline, and AI Ecosystem.",
+      "url": "https://www.honeycomb.io/blog/everything-we-talked-about-o11yday-london-2026",
+      "date": "2026-10-16T14:26:42+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "3dbda8d8c469a7800d70",
@@ -2068,6 +2706,50 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "73fc38a7af80a305231a",
+      "title": "Elastic Security integration with Google Distributed Cloud: Closing the velocity gap in air-gapped environments",
+      "summary": "As AI-powered threats grow more complex, traditional security operations struggle to keep pace. Google Distributed Cloud AI SecOps, powered by Elastic, brings AI-driven detection, investigation, and response to fully air-gapped environments.",
+      "url": "https://www.elastic.co/blog/elastic-security-integration-with-google-distributed-cloud",
+      "date": "2026-10-16T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "cbc7975ea35336d96766",
+      "title": "Making data work across boundaries: The next challenge for policing",
+      "summary": "Police reform depends on making data work across force boundaries. Connecting data where it lives gives policing national reach, keeps local accountability, and makes AI cheaper and faster to scale.",
+      "url": "https://www.elastic.co/blog/making-data-work-across-boundaries-policing",
+      "date": "2026-10-16T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "606b5b43a74abb983d7e",
+      "title": "Go, Logs and the Engineering Behind VictoriaLogs Performance",
+      "summary": "Tech Talk 15: Jesús Espino explains how architecture, data locality, Bloom filters, and Go help VictoriaLogs deliver efficient log storage and fast queries.",
+      "url": "https://victoriametrics.com/blog/go-logs-and-the-engineering-behind-victorialogs-performance/",
+      "date": "2026-10-16T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "7b8e869ea13abb80396c",
+      "title": "What Is Observability? It’s More Than Metrics, Logs, and Traces",
+      "summary": "Observability is a practice, not a product. Learn how metrics, logs, traces, and OpenTelemetry help engineers investigate problems and understand their systems.",
+      "url": "https://victoriametrics.com/blog/what-is-observability/",
+      "date": "2026-10-16T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "003a90ecc61693ea1ea5",
@@ -2116,6 +2798,50 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "deedf1dba71b42b36862",
+      "title": "Introducing Scout 1.0: A new SRE model powering Bits AI with frontier performance at a fraction of the cost",
+      "summary": "Scout 1.0 is Datadog’s first AI model specialized for investigating production issues while achieving a better price-performance curve on our target scenarios when compared with general-purpose frontier models.",
+      "url": "https://www.datadoghq.com/blog/ai/introducing-scout-sre-specialized-model-bits-ai/",
+      "date": "2026-10-15T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "b9bcb0a195efe0e35894",
+      "title": "Monitor the performance of critical steps in user journeys with RUM operations",
+      "summary": "Learn how RUM Operations Monitoring helps you track the performance of application steps, investigate degradations, and connect operations to user journeys.",
+      "url": "https://www.datadoghq.com/blog/rum-operations-monitoring/",
+      "date": "2026-10-15T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "736aaa59b3db51e123ef",
+      "title": "How Kubernetes DRA can improve GPU utilization and cut costs",
+      "summary": "Learn how Kubernetes Dynamic Resource Allocation raises GPU utilization, and what to watch to confirm it’s actually reducing your GPU costs.",
+      "url": "https://www.datadoghq.com/blog/how-kubernetes-dra-can-improve-gpu-utilization-and-cut-costs/",
+      "date": "2026-10-15T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "52281b683a515bf0c422",
+      "title": "Honeycomb Adds Another AWS Competency: Resilience Technology",
+      "summary": "Honeycomb has achieved the Resilience Technology AWS Competency, recognizing its ability to help customers detect, investigate, and recover from failures in production systems running on AWS.",
+      "url": "https://www.honeycomb.io/blog/honeycomb-aws-resilience-technology-competency",
+      "date": "2026-10-14T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "b3b32eaaf179289ebfb2",
@@ -2307,6 +3033,17 @@
       "content_type": "blog"
     },
     {
+      "id": "5d1e1ba14e0b223db711",
+      "title": "Honeycomb Is Hiring a New VP of Engineering",
+      "summary": "Honeycomb is hiring a new VP of Engineering as Emily Nakashima moves into an operational role after nine years leading engineering. We're looking for a partner to SVP Product Graham Siener.",
+      "url": "https://www.honeycomb.io/blog/honeycomb-hiring-vp-engineering",
+      "date": "2026-10-13T20:46:52+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "686af2302835e78de8b3",
       "title": "OpenTelemetry Operator v0.161.0",
       "summary": "0.161.0",
@@ -2358,6 +3095,28 @@
       "new_components": []
     },
     {
+      "id": "7bd71a0145a3146e3f1d",
+      "title": "How Datadog defines service criticality at scale",
+      "summary": "Learn how Datadog classifies internal services by criticality using incident history, APM traces, monitor data, and traffic signals.",
+      "url": "https://www.datadoghq.com/blog/how-datadog-defines-service-criticality-at-scale/",
+      "date": "2026-10-13T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "62903d000440ef9d0fb4",
+      "title": "VictoriaLogs Has Now a Long Term Support (LTS) Release",
+      "summary": "VictoriaLogs v1.52.1 is our first Long Term Support release. Enterprise users get 12 months of guaranteed security and bug fix backports, with no new features or breaking changes.",
+      "url": "https://victoriametrics.com/blog/announcing-victorialogs-lts-release/",
+      "date": "2026-10-13T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "a9a2a1921ff2b0f5a7cc",
       "title": "VictoriaMetrics v1.154.0",
       "summary": "v1.154.0",
@@ -2389,6 +3148,17 @@
       "date": "2026-10-12T06:51:10+00:00",
       "project": "OpenTelemetry",
       "source": "OpenTelemetry blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "1945fc4092620489697b",
+      "title": "VictoriaMetrics September 2026 Ecosystem Updates",
+      "summary": "September release roundup brings new releases across the VictoriaMetrics ecosystem, plus the launch of VictoriaTraces in Cloud, completing our managed observability offering of metrics, logs, and traces stack.",
+      "url": "https://victoriametrics.com/blog/victoriametrics-september-ecosystem-updates/",
+      "date": "2026-10-12T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -2456,6 +3226,17 @@
       "content_type": "blog"
     },
     {
+      "id": "54656f716682f5eb9abd",
+      "title": "Unify data across Datadog BYOC with cross-cluster queries for teams and AI agents",
+      "summary": "Use cross-cluster queries in Datadog BYOC Logs to investigate incidents across regions and business units without centralizing stored logs.",
+      "url": "https://www.datadoghq.com/blog/byoc-cross-cluster-queries/",
+      "date": "2026-10-09T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "0df2747b55534625f2b6",
       "title": "Vector vdev-v0.3.28",
       "summary": "Open upstream release notes for changes, compatibility notes, and upgrade guidance.",
@@ -2468,6 +3249,28 @@
       "release_notes": "",
       "change_sections": [],
       "new_components": []
+    },
+    {
+      "id": "4497b0f46b108e1d57d5",
+      "title": "Define user actions on your web app with visual labeling in Product Analytics",
+      "summary": "Learn how to label autocaptured web actions in Datadog Product Analytics without code changes, then reuse those definitions across behavioral analysis.",
+      "url": "https://www.datadoghq.com/blog/product-analytics-visual-labeling/",
+      "date": "2026-10-08T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "9520b8f75c4a0c770973",
+      "title": "Run incident response in your FedRAMP High environment",
+      "summary": "Run paging, incident coordination, and response automation for sensitive federal workloads with Datadog Incident Response.",
+      "url": "https://www.datadoghq.com/blog/fedramp-high-incident-response/",
+      "date": "2026-10-08T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "97030843b7ad030fb3f2",
@@ -2498,6 +3301,28 @@
       "date": "2026-10-07T14:01:16+00:00",
       "project": "OpenTelemetry",
       "source": "OpenTelemetry blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "1cc2e021bc8a43e298be",
+      "title": "OpenTelemetry Collector Configuration for LLM Observability",
+      "summary": "A complete, annotated OpenTelemetry Collector configuration for LLM observability: receiving traces over OTLP, normalizing OpenInference/OpenLLMetry schemas onto GenAI semantic conventions, redacting sensitive prompt and completion content, managing volume without sampling away conversations, exporting to Honeycomb, plus validation steps and a troubleshooting table.",
+      "url": "https://www.honeycomb.io/blog/otel-collector-llm-observability",
+      "date": "2026-10-07T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "094569060d7ba319dba1",
+      "title": "How we replaced our host vulnerability scanner with the Datadog Agent",
+      "summary": "Learn how Datadog evaluated Agent-based host vulnerability scanning, compared detection results, and preserved coverage and audit reporting during the migration.",
+      "url": "https://www.datadoghq.com/blog/how-we-replaced-our-host-vulnerability-scanner-with-the-datadog-agent/",
+      "date": "2026-10-07T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -2593,6 +3418,50 @@
       "content_type": "blog"
     },
     {
+      "id": "8ee7fc367ce541d46352",
+      "title": "Ship faster, improve reliability, and control CI costs with Datadog CI/CD Optimization",
+      "summary": "Learn how Datadog CI/CD Optimization helps teams ship faster with shorter CI feedback loops, reliable builds, and controlled compute costs.",
+      "url": "https://www.datadoghq.com/blog/ci-cd-optimization/",
+      "date": "2026-10-06T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c6526b1f408579783edc",
+      "title": "The Data Race That Wasn't a Bug (and the One That Was)",
+      "summary": "You turn on Go’s race detector and get a data race inside net/http that makes no sense at first. This post digs into how Go’s HTTP client really sends a request body, why it can keep reading your buffer after Client.Do has returned, why we decided that race is harmless in vmagent, and why the same behavior could corrupt data in vmauth, so we fixed it there.",
+      "url": "https://victoriametrics.com/blog/http-race-condition/",
+      "date": "2026-10-06T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8ab2c60f0916428d0883",
+      "title": "Kubernetes VPC on OpenShift with Isovalent Networking for Virtualization",
+      "summary": "In this post we explore how Isovalent Networking for Virtualization with Isovalent Private Networks, and why they are best understood as the Kubernetes VPC. In this post, we’ll focus on two demo builds using isolated private networks with overlapping CIDRs on an OpenShift Virtualization cluster.",
+      "url": "https://isovalent.com/blog/post/kubernetes-vpc-on-openshift/",
+      "date": "2026-10-05T22:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d348d343ba7883f9c333",
+      "title": "How Honeycomb Private Cloud Drinks From the Fire Hose",
+      "summary": "This post walks through how the Honeycomb Private Cloud team built an automated drift report, refactored their own config to make diffing possible, and layered on an AI triage skill to keep pace with changes across the org—plus the guiding principles that made the automation trustworthy.",
+      "url": "https://www.honeycomb.io/blog/how-honeycomb-private-cloud-drinks-from-the-fire-hose",
+      "date": "2026-10-05T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "c4257d4ba291b92ce236",
       "title": "Feedback wanted: Slickfast rendering Grafana panels to images without a browser",
       "summary": "Hey, everyone. I’m Alex and I built SlickFast, an open-source (AGPL) render engine that turns a JSON chart spec into SVG or PNG without needing a browser. It’s deterministic: the same data always produces byte-identical output. I’ve been testing it against Grafana 13 as a way to get panel images without running a headless browser. A small prototype reads a dashboard and its panel data through the HTTP API (read-only Viewer token), maps core panels to SlickFast charts, and renders the whole board. On Node Exporter Full with real Prometheus data: 124 panels, no unsupported core panels, about 15 ms to render the SVG and 175 ms for a high-resolution PNG. (image) Because it’s just an image, it can go anywhere: alert notifications, email, Slack, e-ink displays, AI agents. The deterministic output also means a report can be fingerprinted and verified later. Questions for people who know this space better than I do: Would this be more useful as a backend plugin, an app plugin, or a standalone service next to Grafana? Which panel types or options matter most for alerts and reports? Is there a",
@@ -2602,6 +3471,83 @@
       "source": "Grafana plugin development community",
       "category": "Community",
       "content_type": "community"
+    },
+    {
+      "id": "df59d00a2a40f4bead45",
+      "title": "Process and route critical security logs to Exabeam with Observability Pipelines",
+      "summary": "Learn how Observability Pipelines Packs reduce security log volume before data reaches Exabeam while preserving parser compatibility.",
+      "url": "https://www.datadoghq.com/blog/observability-pipelines-exabeam-packs/",
+      "date": "2026-10-05T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c99b5e75559043326a9d",
+      "title": "The Year-2 Price Cliff: What Your Observability Stack Really Costs Over 3 Years",
+      "summary": "Why aggressive year-1 discounts in observability often lead to 2–3x renewal bills, plus a simple 3-year TCO framework and five questions to ask before signing.",
+      "url": "https://victoriametrics.com/blog/year-2-price-cliff-observability-tco/",
+      "date": "2026-10-05T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d8381b6bdaf00f966a10",
+      "title": "Key metrics for monitoring Databricks",
+      "summary": "Learn about key metrics for monitoring the health, performance, and costs of Databricks data engineering, analytics, and Model Serving workloads.",
+      "url": "https://www.datadoghq.com/blog/key-metrics-for-databricks-monitoring/",
+      "date": "2026-10-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "806b2407cdbba28f8bb4",
+      "title": "Databricks’ native monitoring resources",
+      "summary": "Learn how to collect Databricks and Spark telemetry with system tables, the Databricks and Spark UIs, job notifications, and the Databricks REST API.",
+      "url": "https://www.datadoghq.com/blog/databricks-native-monitoring-resources/",
+      "date": "2026-10-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "4d3101eb6b16078a94ce",
+      "title": "Monitor Databricks with Datadog",
+      "summary": "Learn how to monitor the performance, data quality, and costs of your Databricks analytics and AI/ML workloads with Datadog.",
+      "url": "https://www.datadoghq.com/blog/how-to-monitor-databricks-with-datadog/",
+      "date": "2026-10-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d9db96d870583bea9d59",
+      "title": "The first 72 hours of a ransomware attack: Why restored isn’t recovered",
+      "summary": "Restoring servers isn’t the same as recovering the business. Plan ransomware recovery and use AI-assisted investigation to detect attacks sooner.",
+      "url": "https://www.datadoghq.com/blog/the-first-72-hours-of-a-ransomware-attack-why-restored-isnt-recovered/",
+      "date": "2026-10-02T00:00:00+00:00",
+      "project": "Datadog",
+      "source": "Datadog blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "571ed8600407e869018d",
+      "title": "Dr. Cat Hicks on the Psychology of Software Teams",
+      "summary": "Dr. Cat Hicks, author of The Psychology of Software Teams and founder of Catharsis, joins Charity Majors for episode two of Leading With Observability. They talk organizational trust in AI, identity threat among developers, and how leaders can create the structure that reduces anxiety in this new era.",
+      "url": "https://www.honeycomb.io/blog/cat-hicks-psychology-of-software-teams",
+      "date": "2026-10-01T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "8b3de6d284996b44f107",
@@ -2646,6 +3592,39 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "5901f3d3837bfff58573",
+      "title": "Bring your own key to existing Elastic Cloud deployments",
+      "summary": "Enable BYOK on existing Elastic Cloud Hosted deployments: encrypt data and snapshots with your own KMS key, in place, without recreating the deployment.",
+      "url": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
+      "date": "2026-10-01T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "49159a8befff7d35ed31",
+      "title": "A Peek Behind Our UI Refresh",
+      "summary": "Sol walks through the reasoning behind a recent UI refresh: softer shadows and rounder corners, a new magma-inspired heatmap color ramp tuned for dark mode and accessibility, and small polish that makes a dense product feel calmer.",
+      "url": "https://www.honeycomb.io/blog/soft-launch-sharper-signals-ui-refresh",
+      "date": "2026-09-30T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c41a04a12561888d80b9",
+      "title": "Better together: Celebrating the 2026–2027 Elastic Partner Awards",
+      "summary": "We created the Elastic Partner Awards to recognize our partners' contributions and the results they are delivering for customers. See who the Elastic Partner Award winners are for 2026–2027!",
+      "url": "https://www.elastic.co/blog/elastic-partner-awards-2026",
+      "date": "2026-09-30T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "e3065418a21a8759494c",
@@ -2697,6 +3676,28 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "138e355fe120006065b8",
+      "title": "Agents Need Context: Introducing Canvas Connectors, Fleet-wide AI Agent Visibility, and More",
+      "summary": "Canvas agents can now read your code, incidents, runbooks and tickets, to get to the right solution, first time. Also new: AI Ecosystem and LLM cost tracking in early access, Anomaly Detection GA, and onboarding from your coding agent.",
+      "url": "https://www.honeycomb.io/blog/agents-need-context-canvas-connectors-ai-agent-visibility",
+      "date": "2026-09-29T12:57:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "534ffa01bd0553f5956f",
+      "title": "Introducing AI Ecosystem: Zoom Out to See Your Whole AI Agent Fleet",
+      "summary": "Honeycomb is announcing early access to AI Ecosystem: an AI agent fleet-level analysis layer built on Honeycomb's context-rich data model. It covers AI Agent Fleet Performance, LLM Cost Tracking, and Agent Conversations, with one-click drilldown from any fleet-level signal into the exact conversation on Agent Timeline that explains it.",
+      "url": "https://www.honeycomb.io/blog/introducing-ai-ecosystem",
+      "date": "2026-09-29T12:57:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "48de6dc946a7d1fd29fe",
@@ -2840,6 +3841,28 @@
       "component_type": "processor",
       "component_name": "telemetry_policy",
       "parent_release": "OpenTelemetry Collector Contrib v0.162.0"
+    },
+    {
+      "id": "1ae1f64c67f7d818375a",
+      "title": "How Linux readahead works, and the two ways to change it",
+      "summary": "The kernel reads your files before you ask for them, guessing from where your reads land. Here is how that guessing actually works (the window, the marker, the background fetch) and the two ways to influence it: read ahead kb on the device, and posix fadvise from inside the program. Neither does quite what its name suggests.",
+      "url": "https://victoriametrics.com/blog/linux-readahead-and-fadvise/",
+      "date": "2026-09-29T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "754a619b4fff292794c3",
+      "title": "VictoriaTraces in VictoriaMetrics Cloud: Complete Observability is Here",
+      "summary": "Announcing VictoriaTraces in VictoriaMetrics Cloud: managed distributed tracing with native OpenTelemetry support, LogsQL for powerful trace analysis, and integrations with Grafana and Jaeger for complete observability, offering predictable pricing and operational simplicity without the overhead of managing a tracing backend yourself.",
+      "url": "https://victoriametrics.com/blog/announcing-victoriatraces-in-cloud/",
+      "date": "2026-09-29T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "c3fdaffcd3c0cf6da708",
@@ -3014,6 +4037,39 @@
       "content_type": "blog"
     },
     {
+      "id": "63aa2c0639ee19292c93",
+      "title": "Kubernetes Ingress vs Gateway API",
+      "summary": "Kubernetes Ingress and Gateway API solve a similar problem: routing traffic from outside a Kubernetes cluster to internal Services. The difference is how much routing they can handle natively and how the configuration is organized.",
+      "url": "https://isovalent.com/blog/post/ingress-vs-gateway-api/",
+      "date": "2026-09-24T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "b142f73cb73a5532180d",
+      "title": "The Evolution of Identity for Network Security: Tetragon Network Policy",
+      "summary": "Tetragon Network Policy has arrived! Match on binaries, write with FQDN, and learn more about enforcing microseg use cases.",
+      "url": "https://isovalent.com/blog/post/tetragon-network-policy/",
+      "date": "2026-09-23T15:07:22+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "4609a13efdd98f4b9b14",
+      "title": "How Adaptive Tail Sampling Works in the OpenTelemetry Collector",
+      "summary": "A technical deep dive into Honeycomb's adaptive tail sampling processor for the OpenTelemetry Collector: how decisions get made, the samplers available, how thresholds compose with the rest of a sampling pipeline, performance benchmarks, deployment limitations, and how it compares to Refinery.",
+      "url": "https://www.honeycomb.io/blog/how-adaptive-tail-sampling-works",
+      "date": "2026-09-21T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "92562fb5f151bb157f7d",
       "title": "Prometheus and OpenTelemetry interoperability in 2026 - Survey results",
       "summary": "We ran a survey asking users of OpenTelemetry and Prometheus how they collect, process, and store metrics. The goal was to understand, with real usage data rather than assumptions, how far the ecosystem has moved and whether the interoperability still causes friction. Key takeaways Interoperability has measurably improved since our 2024 survey : the average ease-of-use rating rose from 3.1 to 3.6, the equivalent of one in two respondents rating a whole category higher, and the share of respondents finding the two hard to use together fell from 29% to 10%. In infrastructure instrumentation, Prometheus exporters remain the most-used method (72%) with OTel receivers close behind (57%), and nearly half of respondents run both at once rather than migrating from one to the other. In application instrumentation, OTel SDKs are the most-used method at 65% with Prometheus SDKs at 52%, and 41% use only the OTel style of application instrumentation. Prometheus relabeling rules (54%) and the open source OTel Collector (53%) are the two most common processing steps, and 65% of respondents run a \"v",
@@ -3021,6 +4077,17 @@
       "date": "2026-09-21T00:00:00+00:00",
       "project": "Prometheus",
       "source": "Prometheus blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "361cde75f3df1900eb28",
+      "title": "SNAP payment error detection: how Elastic helps US states beat the FY2028 penalty",
+      "summary": "Detecting SNAP fraud requires a layered approach, where rules catch what agencies know to look for, machine learning surfaces what rules miss, and conversational investigation helps analysts act on what the data reveals. Elastic delivers all three.",
+      "url": "https://www.elastic.co/blog/snap-error-fy2028-penalty",
+      "date": "2026-09-18T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -3405,6 +4472,17 @@
       "new_components": []
     },
     {
+      "id": "e6ceab4c8a09cca5f65e",
+      "title": "How Canvas Powers the AI Agent Development Feedback Loop",
+      "summary": "AI agents need a real feedback loop, not just reactive debugging. This post walks through how Honeycomb's Canvas powers each stage—instrumenting agents with OpenTelemetry, understanding a single run, finding the problems worth fixing, shipping the fix, and proving it worked—plus tips for getting the most out of Canvas.",
+      "url": "https://www.honeycomb.io/blog/how-canvas-powers-ai-agent-development-feedback-loop",
+      "date": "2026-09-14T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "71961aabd456fd535450",
       "title": "VictoriaMetrics v1.152.0",
       "summary": "v1.152.0",
@@ -3429,6 +4507,61 @@
       "new_components": []
     },
     {
+      "id": "10ce0d220f837e7feb79",
+      "title": "The most expensive half-hour of an incident.",
+      "summary": "Two teams run the same stack. One stays calm, one firefights. The difference isn’t the software. It’s knowledge.",
+      "url": "https://victoriametrics.com/blog/the-most-expensive-half-hour-of-an-incident/",
+      "date": "2026-09-11T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "404960408b65f594fdf2",
+      "title": "AI Norms & Values, Part 3 of 3: Things We Hold True",
+      "summary": "The final part of Honeycomb's AI Norms & Values series: the principles the company holds true about AI as a tool, ownership of work, and rising standards; how it actually uses AI day to day; usage patterns for respecting each other's time; and where it stands on AI's ethical externalities like energy use, IP, bias, and wages.",
+      "url": "https://www.honeycomb.io/blog/ai-norms-values-part-3-things-we-hold-true",
+      "date": "2026-09-09T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ae1193bbff86363ed6b7",
+      "title": "Wide Events vs. Three Pillars: AI Observability Costs",
+      "summary": "AI agents make telemetry costs harder to predict. This post compares the three pillars against the wide event model, and explains why wide events keep AI observability costs predictable without sacrificing the context engineers need.",
+      "url": "https://www.honeycomb.io/blog/wide-events-vs-three-pillars-ai-observability-costs",
+      "date": "2026-09-08T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "22a89c68f404532cbea1",
+      "title": "VictoriaMetrics August 2026 Ecosystem Updates",
+      "summary": "The VictoriaMetrics team shipped two core releases with important security fixes. The vmanomaly team shipped two updates with improved scaling and more efficient models. Plus, Tech Talks are back, this time demoing AI-assisted incident troubleshooting.",
+      "url": "https://victoriametrics.com/blog/victoriametrics-august-2026-ecosystem-updates/",
+      "date": "2026-09-08T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d94a750d5222d6148ebe",
+      "title": "Relational Query Superpowers",
+      "summary": "See how Honeycomb's relational query keywords—root, parent, child, any, any2, any3, and none—let you pull attributes from anywhere in a single trace into one query, walked through with a real checkout-error investigation.",
+      "url": "https://www.honeycomb.io/blog/relational-query-superpowers",
+      "date": "2026-09-07T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "b6d98329ea707919d1f1",
       "title": "Seeking Grafana guidance on whether a Community App Plugin can safely rely on the public EmbeddedDashboard API while it remains marked @alpha.",
       "summary": "I’m developing a Grafana Community App Plugin intended for eventual submission to the Grafana Plugin Catalog. The app needs to render an existing Grafana dashboard by UID inside the plugin without requiring users to manually reconstruct their dashboards. The public EmbeddedDashboard export from @grafana/runtime provides the capability I need, and I have validated it with Grafana 13.2. However, the TypeScript declaration currently marks EmbeddedDashboard as @alpha . For a Grafana Community App Plugin, is it considered acceptable for the core workflow to depend on the public @grafana/runtime EmbeddedDashboard export while it is marked @alpha , or would Grafana recommend avoiding that dependency for a plugin intended for Catalog publication? I’m primarily trying to understand the expected plugin-development/publication boundary before building more of the product around this API. 2 posts - 2 participants Read full topic",
@@ -3449,6 +4582,39 @@
       "source": "OpenTelemetry official YouTube channel",
       "category": "Video",
       "content_type": "video"
+    },
+    {
+      "id": "11878eb23ba31c016577",
+      "title": "PostgreSQL 19 interactive tour",
+      "summary": "An interactive tour of what’s new in PostgreSQL 19: property graph queries, REPACK, plan advice, temporal updates, and more, with short runnable SQL examples you can edit and run in the browser.",
+      "url": "https://victoriametrics.com/blog/postgres-19/",
+      "date": "2026-09-07T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "59527133f3f19c3b073e",
+      "title": "Two cats, two dogs, four vendors, and the model the AI couldn't find (Tech Talk Companion)",
+      "summary": "Tech Talk 13: Mathias runs his house and four pets on Home Assistant, VictoriaMetrics, and vmanomaly. Then the AI picked the wrong model. Watch on demand.",
+      "url": "https://victoriametrics.com/blog/two-cats-two-dogs-four-vendors-and-the-model-ai-couldnt-find/",
+      "date": "2026-09-07T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8787878790b4d0ce28e7",
+      "title": "How Go’s Built-in Map Works with Swiss Tables",
+      "summary": "Go 1.24 replaced the built-in map’s bucket-based runtime with Swiss Tables. This article explains groups, control bytes, H1 and H2, probing, table growth, directories, deletion, load factor, and the experimental split-group layout.",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/",
+      "date": "2026-09-03T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "950a524790c57b32374e",
@@ -3514,6 +4680,17 @@
       "new_components": []
     },
     {
+      "id": "57dff99476258d0ed0a7",
+      "title": "AI Norms & Values, Part 2 of 3: AI for Honeycomb Engineering",
+      "summary": "Charity Majors shares a note from Emily Nakashima, SVP of Engineering, on why Honeycomb's engineering org is going all in on AI, the north star it's aiming for, and an honest FAQ about what that means day to day.",
+      "url": "https://www.honeycomb.io/blog/ai-norms-values-part-2-ai-honeycomb-engineering",
+      "date": "2026-09-02T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "0b3ec32634de465d664b",
       "title": "OTel in Practice: Practical Guide on OpenTelemetry Manual Instrumentation",
       "summary": "",
@@ -3523,6 +4700,28 @@
       "source": "OpenTelemetry official YouTube channel",
       "category": "Video",
       "content_type": "video"
+    },
+    {
+      "id": "328a446e05778f2b68fe",
+      "title": "Bringing the Most Advanced Sampling to the OpenTelemetry Collector",
+      "summary": "Honeycomb is donating its adaptive tail sampling processor, built on years of Refinery experience, to the OpenTelemetry Collector. See how adaptive sampling, trace fingerprinting, and sample rate attribution work, and how to try it today with the Honeycomb Collector Distribution.",
+      "url": "https://www.honeycomb.io/blog/bringing-most-advanced-sampling-opentelemetry-collector",
+      "date": "2026-09-01T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "fdcb0f56a4f7a4155a7f",
+      "title": "Fin's CTO on Building Great Engineering Organizations in the AI Era",
+      "summary": "Fin (formerly Intercom) CTO Darragh Curran set a public goal to double engineering productivity—and nearly tripled it. In the first episode of Leading With Observability, he talks with Charity Majors about AI-driven PR review, hands-on leadership through the transition, and why observability is the trust mechanism that makes it all work.",
+      "url": "https://www.honeycomb.io/blog/fin-cto-building-great-engineering-organizations-ai-era",
+      "date": "2026-08-31T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "9a706a5027ac5bcd54ce",
@@ -3536,6 +4735,28 @@
       "content_type": "video"
     },
     {
+      "id": "c0dc35027fe03850fec0",
+      "title": "7 Best Datadog Alternatives for AI and Agent Observability",
+      "summary": "Comparing Datadog alternatives for AI and agent observability? See how Honeycomb, New Relic, Dynatrace, Grafana Cloud, Phoenix, Langfuse, and SigNoz stack up on cost, investigation, and OpenTelemetry support.",
+      "url": "https://www.honeycomb.io/blog/datadog-alternatives",
+      "date": "2026-08-26T20:01:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "440c5ea40a7506e0adb8",
+      "title": "Replaying OpenShift Network Traffic with Hubble Timescape",
+      "summary": "OpenShift offers amazing metrics and observability out of the box. But what if you want to go back in time and see exactly what your network was doing when something went wrong? In this blog we explore Openshift with Hubble Timescape",
+      "url": "https://isovalent.com/blog/post/replaying-openshift-network-traffic-with-hubble-timescape/",
+      "date": "2026-08-25T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "203e6683ab3b27e27fee",
       "title": "OTel in Practice: OTel-powered Distributed Tracing & Events in OpenChoreo",
       "summary": "",
@@ -3547,6 +4768,17 @@
       "content_type": "video"
     },
     {
+      "id": "13fde421f84c3d81fdfa",
+      "title": "AI Norms & Values, Part 1 of 3: How We Do Business at Honeycomb",
+      "summary": "It's been a year since Honeycomb issued its AI mandate. Charity reflects on what that produced, why AI isn't special (it just amplifies what's already there), and shares the first of three new documents on Honeycomb's AI norms and values: how we do business.",
+      "url": "https://www.honeycomb.io/blog/ai-norms-values-part-1-how-we-do-business-at-honeycomb",
+      "date": "2026-08-20T14:50:39+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "0a38b8372d96258a53d4",
       "title": "[Showcase] Agent AI — An open-source AI assistant for Grafana",
       "summary": "Hi Grafana community, my name is Luis . I’m excited to share Agent AI , an open-source Grafana app plugin that adds an AI-powered assistant directly inside Grafana. Agent AI is designed to help users investigate dashboards, metrics, logs, traces, alerts, and other observability data through natural-language conversations, without requiring a separate interface outside Grafana. Key features Native chat experience inside Grafana Dashboard-aware conversations Support for OpenAI-compatible AI providers Support for self-hosted and local LLMs Integration with Grafana data sources and APIs Support for Prometheus, Loki, Tempo, CloudWatch, Elasticsearch, and other observability integrations Optional MCP tool integrations Role-based restrictions for sensitive tools and specialist agents Open-source and self-hosted deployment support Why I built it Existing AI assistants often require a specific cloud provider, external interface, or hosted AI service. Agent AI was created to provide a more flexible approach that can work with Grafana OSS, private infrastructure, self- hosted models, and OpenAI",
@@ -3556,6 +4788,17 @@
       "source": "Grafana plugin development community",
       "category": "Community",
       "content_type": "community"
+    },
+    {
+      "id": "f710e4785dd6cdd43287",
+      "title": "How I Support Humans in the AI Era",
+      "summary": "A remote engineering manager on why she didn't write a new AI policy for her team. Instead, she created space: for connection, for collaboration, and for discussion.",
+      "url": "https://www.honeycomb.io/blog/how-i-support-humans-in-the-ai-era",
+      "date": "2026-08-17T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "f7dcf629f7148a0164c9",
@@ -3597,6 +4840,17 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "bc7f3e672655300751b0",
+      "title": "AI Model Drift: How to Keep Models Reliable",
+      "summary": "Learn what AI model drift is, why it happens, and how production teams detect changes in model quality, inputs, prompts, and behavior.",
+      "url": "https://www.honeycomb.io/blog/ai-model-drift",
+      "date": "2026-08-10T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "455be5bfd3b40f8b8910",
@@ -3652,6 +4906,17 @@
       "new_components": []
     },
     {
+      "id": "ba7068242479edf2d76c",
+      "title": "Progressive Delivery with Argo Rollouts, Isovalent and Gateway API",
+      "summary": "Progressive delivery is not only about creating the new Pods, it is also about controlling which traffic reaches them. This blog explores Header-based canaries with Argo Rollouts and Gateway API",
+      "url": "https://isovalent.com/blog/post/argo-rollouts-and-gateway-api/",
+      "date": "2026-08-06T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "fe6ad86abdd40c2fd9ce",
       "title": "OpenSearch 3.8.0",
       "summary": "Version 3.8.0 Release Notes",
@@ -3703,6 +4968,50 @@
       "new_components": []
     },
     {
+      "id": "b33aab357031857cc460",
+      "title": "Introducing AI BubbleUp",
+      "summary": "Every BubbleUp query now surfaces significant correlations based on relevance, not just statistical analysis. Available today to all Honeycomb customers who have enabled Honeycomb Intelligence.",
+      "url": "https://www.honeycomb.io/blog/introducing-ai-bubbleup",
+      "date": "2026-08-05T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8f4192c61f2626af677f",
+      "title": "AMA Recap: More Answers From the Observability Engineering Authors",
+      "summary": "We couldn't get through every question during our live AMA with the authors of Observability Engineering, so Charity, Liz, George, and Austin stuck around to answer more on AI, telemetry, and what still needs a human in the loop.",
+      "url": "https://www.honeycomb.io/blog/ama-recap-observability-engineering-authors-more-answers",
+      "date": "2026-08-04T15:29:56+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "297853b774c021a8298d",
+      "title": "Spend More Time Talking to Humans",
+      "summary": "LLMs have reshaped the day-to-day work of software engineering, leaving senior engineers exhausted by context-switching and junior engineers unsure how to grow. The fix isn’t a better prompt — it’s spending more time talking to humans: reducing context churn, pairing across seniority levels, and communicating more across teams.",
+      "url": "https://www.honeycomb.io/blog/spend-more-time-talking-to-humans",
+      "date": "2026-08-03T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8ccfd63501088a3c0126",
+      "title": "Cilium 1.20: Gateway API ExternalAuth, TCPRoute/UDPRoute, ENI IPAM for IPv6, and more!",
+      "summary": "Cilium 1.20 expands Gateway API, datapath extensibility and security.",
+      "url": "https://isovalent.com/blog/post/cilium-1-20/",
+      "date": "2026-07-30T15:42:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "ada39904a3cbdd1b2bc7",
       "title": "Thanos v0.42.4",
       "summary": "Had to do another version release due to broken base image SHAs. No changes.",
@@ -3715,6 +5024,17 @@
       "release_notes": "Had to do another version release due to broken base image SHAs. No changes.\r\n\r\n**Full Changelog**: https://github.com/thanos-io/thanos/compare/v0.42.3...v0.42.4",
       "change_sections": [],
       "new_components": []
+    },
+    {
+      "id": "813ae5ad3b72846360c5",
+      "title": "Honeycomb Named a Visionary in the 2026 Gartner® Magic Quadrant™ for Observability Platforms",
+      "summary": "For the third consecutive year, Honeycomb has been named a Visionary in the Gartner® Magic Quadrant™ for Observability Platforms. The recognition reflects Honeycomb's vision for fast, flexible, high-cardinality querying, agent-era observability with Agent Timeline and Canvas, and predictable event-based pricing at trillions of events.",
+      "url": "https://www.honeycomb.io/blog/honeycomb-named-visionary-2026-gartner-magic-quadrant-observability-platforms",
+      "date": "2026-07-29T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "29e866f2331455569dd6",
@@ -3736,6 +5056,50 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "833cfa9abea809b91894",
+      "title": "Introducing Isopcap: Kubernetes-Native Packet Capture for Cloud Native Operations",
+      "summary": "Kubernetes tells you what failed. But what actually happened on the wire? That is why we are introducing Isopcap as part of the Isovalent Enterprise Platform. Isopcap is a Kubernetes-native packet capture product from Isovalent.",
+      "url": "https://isovalent.com/blog/post/introducing-isopcap-kubernetes-native-packet-capture-for-cloud-native-operations/",
+      "date": "2026-07-28T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "fc1d22ae139c35922e47",
+      "title": "What Is Cilium?",
+      "summary": "Learn what Cilium is, how it uses eBPF to power Kubernetes networking, security, and observability, and why organizations choose it for modern cloud-native infrastructure.",
+      "url": "https://isovalent.com/blog/post/what-is-cilium/",
+      "date": "2026-07-23T07:01:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "55dbb776269d5ab7c2d9",
+      "title": "Embracing the Code Review Bottleneck",
+      "summary": "Faced with an endless stream of AI-generated code reviews, our team made the counterintuitive choice to lean into the bottleneck rather than reduce it. Surprisingly, velocity held up, knowledge sharing improved, and we developed a collective system ownership that stuck.",
+      "url": "https://www.honeycomb.io/blog/embracing-code-review-bottleneck",
+      "date": "2026-07-22T15:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "4cfaf5f07abbf7217481",
+      "title": "What Comes After Observability?",
+      "summary": "A year ago, I predicted ways in which AI was about to fundamentally change observability as we knew it. Here's what we've seen happen since—both at Honeycomb and with our customers—and what we're building for the future.",
+      "url": "https://www.honeycomb.io/blog/what-comes-after-observability",
+      "date": "2026-07-20T15:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "31d9d69d0bed0d759ffe",
@@ -3840,6 +5204,72 @@
       "new_components": []
     },
     {
+      "id": "c9ad34fddc2b977a9ef4",
+      "title": "AI Amplifies Your Existing Practices: Lessons from Our Shift to an AI-First Strategy",
+      "summary": "As the Honeycomb engineering team worked to double our productivity, we learned a lot. The most important takeaway? Nothing anyone tells you about AI will land if your starting substrate is unhealthy.",
+      "url": "https://www.honeycomb.io/blog/ai-amplifies-existing-practices-lessons-ai-first-strategy",
+      "date": "2026-07-16T15:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "0497473ab3d08c582557",
+      "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
+      "summary": "The Honeycomb engineering team set out to double our productivity in a year. This is how we did it, what we did to keep things stable, what it cost us, and what we’re still figuring out.",
+      "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
+      "date": "2026-07-16T15:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3a7a0cb14d8f230753a1",
+      "title": "Transforming How We Run Kafka at Honeycomb",
+      "summary": "We just completed a large-scale, multi-month Kafka migration project. We couldn't have done it without learning from past mistakes, prioritizing rollback safety, and building shared knowledge across the team through repeated migration practice.",
+      "url": "https://www.honeycomb.io/blog/transforming-how-we-run-kafka-honeycomb",
+      "date": "2026-07-15T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "1c96920ea7673b133d43",
+      "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms",
+      "summary": "Elastic was named a Leader in the Gartner® Magic Quadrant™ for Observability Platforms. In our opinion, Elastic Observability helps teams investigate faster with agentic AI with full context and reduces costs with efficient metrics and logs storage.",
+      "url": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026",
+      "date": "2026-07-15T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c89a8b0a005fc5cce277",
+      "title": "Shipping Is Your Company's Heartbeat: A Letter from a CTO",
+      "summary": "In an open letter to engineering leaders everywhere, Fin CTO Darragh Curran explains that AI isn't a magic wand but rather an amplifier—of the good and the bad—of your engineering practices. And engineering rigor is more important than ever.",
+      "url": "https://www.honeycomb.io/blog/shipping-is-your-companys-heartbeat-letter-from-cto",
+      "date": "2026-07-14T15:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "f0a2718b6149c2d691e5",
+      "title": "Lattice Watch: Smarter Guardrails for Design System Observability",
+      "summary": "In the past, I was part of a group of engineers responsible for doing random code reviews with an eye for design system adherence. The design system team had been tracking who used their system the most and invited those engineers to help them review PRs, with the hope that education would be the key to getting more product engineers to use the system. I wanted to create something like that here at Honeycomb for our design system, Lattice.",
+      "url": "https://www.honeycomb.io/blog/lattice-watch-smarter-guardrails-design-system-observability",
+      "date": "2026-07-13T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "c4b400a6726714062d08",
       "title": "OpenTelemetry Specification v1.59.0",
       "summary": "Context",
@@ -3895,6 +5325,83 @@
       "new_components": []
     },
     {
+      "id": "aee74fb1e8419e8ddc20",
+      "title": "Observability vs. Monitoring for AI Systems",
+      "summary": "Monitoring catches the failures you predicted. AI systems fail in ways you didn't. This post breaks down why AI workloads demand observability—request-level context, distributed tracing, and learning from production—rather than another wall of dashboards.",
+      "url": "https://www.honeycomb.io/blog/observability-vs-monitoring-for-ai-systems",
+      "date": "2026-07-10T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "7357c6377b5f3871d5a9",
+      "title": "16 Best AI Observability Tools for Production Teams in 2026",
+      "summary": "Compare the best AI observability tools for tracing, evals, token cost tracking, agent workflows, and production reliability in 2026.",
+      "url": "https://www.honeycomb.io/blog/best-ai-observability-tools",
+      "date": "2026-07-10T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "0155e349556d9dbbc1d1",
+      "title": "Isovalent Networking for Kubernetes 1.19: BGP Route Import, Policy Tiers, and Timescape enhancements",
+      "summary": "Learn about the latest Isovalent Networking for Kubernetes 1.19 release",
+      "url": "https://isovalent.com/blog/post/isovalent-networking-for-kubernetes-119-bgp-route-import-policy-tiers-and-timescape-enhancements/",
+      "date": "2026-07-10T08:58:39+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "24971fab7fa7071d92da",
+      "title": "Isovalent Enterprise Platform 26.05: Bringing Kubernetes, VMs, and Load Balancing Into One Operating Model",
+      "summary": "Learn all about Isovalent Enterprise Platform 26.05",
+      "url": "https://isovalent.com/blog/post/isovalent-enterprise-platform-2605-bringing-kubernetes-vms-and-load-balancing-into-one-operating-model/",
+      "date": "2026-07-10T08:53:24+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "cfde2bdea04c50089eee",
+      "title": "Splunk and Isovalent Runtime Security: Protecting the Platform Behind Splunk",
+      "summary": "Splunk uses Isovalent Runtime Security, built on Tetragon, to protect its customer facing platform.",
+      "url": "https://isovalent.com/blog/post/splunk-and-isovalent-runtime-security-protecting-the-platform-behind-splunk/",
+      "date": "2026-07-09T06:02:44+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "f164a087214011090e72",
+      "title": "Multi-Agent Collaboration on a Shared Canvas",
+      "summary": "This is part 2 of a series on taking agentic applications from prototype to production with AWS AgentCore. Part 1 covers foundational design questions, like cardinality, session lifecycle, state management, and operational constraints. This post goes deeper on one of those topics: how we use the difference between an LLM session and an AgentCore Runtime session to build collaborative multi-agent investigations.",
+      "url": "https://www.honeycomb.io/blog/multi-agent-collaboration-on-shared-canvas",
+      "date": "2026-07-08T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8bf51706803f469d16b0",
+      "title": "Help Us Map The State of Kubernetes Networking in 2026",
+      "summary": "Share how you run Kubernetes networking in 2026. Take the 10-min survey and enter to win prizes!",
+      "url": "https://isovalent.com/blog/post/state-of-kubernetes-networking-2026/",
+      "date": "2026-07-08T09:09:00+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "043ba303a74a628900ba",
       "title": "OpenSearch 2.19.6",
       "summary": "Version 2.19.6 Release Notes",
@@ -3928,6 +5435,17 @@
       "new_components": []
     },
     {
+      "id": "cd1bca847fe4eba79e83",
+      "title": "From Prototype to Production With AWS AgentCore",
+      "summary": "Canvas runs on AWS Bedrock AgentCore. We picked AgentCore because it supports the ramp described in this post: it’s quick to get running, it’s modular, and it has production-grade underpinnings. But, like any platform, it has some traps to be aware of. In this post, we share some of the most important things we learned while building on AWS AgentCore.",
+      "url": "https://www.honeycomb.io/blog/prototype-production-aws-agentcore",
+      "date": "2026-07-06T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "ab60c872d5e7492fcf72",
       "title": "Plugin stats in Grafana.com user account",
       "summary": "Grafana user account in ‘My plugins’ has a Stats section for my plugins. It is confusing. Downloads shows 5 times less than the real number, Installs show 10 times more than the real downloads. The ‘real’ number i compare with is coming from the ‘downloads’ output from grafana.com/api/plugins But this endpoint is also a weak candidate for the source of truth as it shows some random numbers for Popularity, Weight, etc. These metrics change day-to-day, and the catalog can sometimes prioritize abondoned plugins with no downloads, etc. That makes the catalog website filtering irrelevant. May be someone can shed some light on it 2 posts - 2 participants Read full topic",
@@ -3937,6 +5455,17 @@
       "source": "Grafana plugin development community",
       "category": "Community",
       "content_type": "community"
+    },
+    {
+      "id": "d7798c7095e44905ab72",
+      "title": "Could vs. Should: The First Year Managing an SRE Team",
+      "summary": "A first-time engineering manager reflects on the first year leading Honeycomb's SRE team, from a chaotic first week through a year of lessons. Their advice for new managers: invest in relationships, seek feedback relentlessly, and never stop asking questions.",
+      "url": "https://www.honeycomb.io/blog/could-should-first-year-managing-sre-team",
+      "date": "2026-07-02T13:00:00+00:00",
+      "project": "Honeycomb",
+      "source": "Honeycomb blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "957a75a0fd2675a76f18",
@@ -3950,6 +5479,17 @@
       "content_type": "blog"
     },
     {
+      "id": "fc88005f88fb24793c6c",
+      "title": "Taming the AI Double Threat with Isovalent Runtime Security",
+      "summary": "This blog post explores how AI-assisted attacks are changing the assumptions we make about the adversary, the new attack surface AI workloads introduce, and the infrastructure, identity, and runtime controls they require, and finally, how teams can address this new threat landscape with Isovalent Runtime Security.",
+      "url": "https://isovalent.com/blog/post/taming-the-ai-double-threat-with-isovalent-runtime-security/",
+      "date": "2026-06-26T18:47:44+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "3c405a0bb1e8fabddd4b",
       "title": "What's New in OTel? Updates on OTel x Prometheus!",
       "summary": "",
@@ -3959,6 +5499,17 @@
       "source": "OpenTelemetry official YouTube channel",
       "category": "Video",
       "content_type": "video"
+    },
+    {
+      "id": "d90616cc4e095b309ec7",
+      "title": "What Is Multi-Cloud?",
+      "summary": "Learn what makes a multi-cloud architecture, why it's important and how Isovalent Cilium enables a consistent networking and security operational model across any cloud infrastructure.",
+      "url": "https://isovalent.com/blog/post/what-is-multi-cloud/",
+      "date": "2026-06-23T16:45:27+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "ca847eed9bccc50a1861",
@@ -4031,6 +5582,17 @@
       "new_components": []
     },
     {
+      "id": "5bf02734b47cf1e85056",
+      "title": "Join the Security Summer School 2026: Prepare for the AI age",
+      "summary": "AI is re-shaping the IT landscape. Time to up your security skills and prepare to meet it! Join our Summer School and learn how to secure your host, protect against malware, and contain your AI agents.",
+      "url": "https://isovalent.com/blog/post/security-summer-school-2026/",
+      "date": "2026-06-11T07:27:25+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "a1a2e2187743a48debe2",
       "title": "OpenSearch 3.7.0",
       "summary": "Version 3.7.0 Release Notes",
@@ -4080,6 +5642,17 @@
         }
       ],
       "new_components": []
+    },
+    {
+      "id": "0766d0e5a5e9a613cbfa",
+      "title": "Tetragon 1.7: Precision filtering, richer context, and better performance",
+      "summary": "Tetragon 1.7 introduces a new fentry sensor, environment variables capturing, parent process visibility, granular policy scoping with hostSelector and more!",
+      "url": "https://isovalent.com/blog/post/tetragon-v1.7-release/",
+      "date": "2026-06-09T14:01:46+00:00",
+      "project": "Cilium",
+      "source": "Isovalent / Cilium blog",
+      "category": "Article",
+      "content_type": "blog"
     },
     {
       "id": "99704cbe158b9393038d",
@@ -4234,6 +5807,17 @@
       "content_type": "community"
     },
     {
+      "id": "c4725dfa74bd4cca3251",
+      "title": "NR26-05: Linux Kernel Privilege Escalation (CVE-2026-31431)",
+      "summary": "Security bulletin for Linux Kernel privilege escalation vulnerability (CVE-2026-31431) affecting Private Synthetics locations.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-05",
+      "date": "2026-05-08T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
       "id": "3000975bf4b31ba8d107",
       "title": "Humans of OTel KubeCon EU 2026 - Evan Bradley",
       "summary": "",
@@ -4298,6 +5882,17 @@
       "source": "Prometheus blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "843002e8f82a24b145bc",
+      "title": "NR26-04: Google Chrome – Critical Use-After-Free (CVE-2026-5281)",
+      "summary": "Security bulletin for Google Chrome addressing a critical use-after-free vulnerability (CVE-2026-5281).",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-04",
+      "date": "2026-04-04T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
     },
     {
       "id": "fff4f0578bc035cfc2a7",
@@ -4465,6 +6060,17 @@
       "content_type": "blog"
     },
     {
+      "id": "27f37883e013acc33517",
+      "title": "NR25-02- Fluent Bit Plugins (CVE-2025-12969, CVE-2025-12970, CVE-2025-12972, CVE-2025-12977, CVE-2025-12978)",
+      "summary": "Security bulletin for Windows and Linux infrastructure agent and Fluent Bit, the Kubernetes plugin, and the Fluent Bit output plugin.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr25-02",
+      "date": "2025-12-11T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
       "id": "2edad4de723ca039b092",
       "title": "Visualizing Target Relabeling Rules in Prometheus 3.8.0",
       "summary": "Prometheus' target relabeling feature allows you to adjust the labels of a discovered target or even drop the target entirely. Relabeling rules, while powerful, can be hard to understand and debug. Your rules have to match the expected labels that your service discovery mechanism returns, and getting any step wrong could label your target incorrectly or accidentally drop it. To help you figure out where things go wrong (or right), Prometheus 3.8.0 just added a relabeling visualizer to the Prometheus server's web UI that allows you to inspect how each relabeling rule is applied to a discovered target's labels. Let's take a look at how it works! Using the relabeling visualizer If you head to any Prometheus server's \"Service discovery\" page (for example: https://demo.promlabs.com/service-discovery ), you will now see a new \"show relabeling\" button for each discovered target: Clicking this button shows you how each relabeling rule is applied to that particular target in sequence: The visualizer shows you: The initial labels of the target as discovered by the service discovery mechanism. ",
@@ -4487,6 +6093,17 @@
       "content_type": "blog"
     },
     {
+      "id": "2cfd53735da2ed1afe1c",
+      "title": "Version 9.4.6 (Build splunk-9.4.6-60284236)",
+      "summary": "Release Notes",
+      "url": "http://www.splunk.com/download",
+      "date": "2025-10-30T00:00:00+00:00",
+      "project": "Splunk",
+      "source": "Splunk product releases",
+      "category": "Release",
+      "content_type": "release-feed"
+    },
+    {
       "id": "ddec2e772ce03c2e0223",
       "title": "PromCon is Only One Month Away; See You in Person or via Live Stream!",
       "summary": "It's that time of the year again! With just a few weeks to go until PromCon EU 2025 , the Prometheus community is buzzing with excitement, preparations, and passionate conference-driven development. This tenth iteration of the conference dedicated to the CNCF Prometheus monitoring ecosystem continues the tradition of a cozy, community-led, single-track, 2-day intense Prometheus user and developer learning time! The conference is taking place on October 21–22 at the Google Office in Munich, with an incredible lineup of talks and discussions you won't want to miss! Content Highlights The schedule is packed with sessions for everyone, from beginners to seasoned veterans. Topics range from: Exciting development of Prometheus features and protocols, e.g. OpenMetrics 2.0, downsampling, delta metric, Parquet-based storage. Insightful user community case studies and integrations, e.g. agentic AI, OpenTelemetry Schema and Resource Attributes adoption, auto aggregations, operator improvements, Perses novelties and Rust ecosystem updates. General best practices and guidelines for navigating com",
@@ -4494,6 +6111,171 @@
       "date": "2025-09-22T00:00:00+00:00",
       "project": "Prometheus",
       "source": "Prometheus blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "a91102ba9e596b112b80",
+      "title": "AI-driven threat detection and response",
+      "summary": "Relegating time-consuming, data-intensive tasks to AI expedites teams' mean time to detect and respond, increases scale of data analysis, improves fidelity and accuracy of alerts, and boosts efficiency. Here's how...",
+      "url": "https://www.elastic.co/blog/resources/article/ai-driven-threat-detection-and-response/ai-cybersecurity-test",
+      "date": "2025-09-09T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c3b4949dcbf3f152aeda",
+      "title": "From alert fatigue to action: Smarter SOC workflows for defence teams",
+      "summary": "Defence SOC teams are under pressure from growing cyber threats and shrinking resources. Discover how automation helps reduce fatigue, speed up investigations, and strengthen defence cyber posture.",
+      "url": "https://www.elastic.co/blog/automating-soc-workflows-defence",
+      "date": "2025-07-30T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e1dc9cc9169d773033d8",
+      "title": "AI and the 2025 SIEM landscape: A guide for SOC leaders",
+      "summary": "Discover how AI is redefining the SIEM landscape. Explore key capabilities, architecture, and real-world benefits for SOC teams facing evolving cybersecurity challenges.",
+      "url": "https://www.elastic.co/blog/ai-siem-landscape",
+      "date": "2025-07-23T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "4b599d988c3826c179a0",
+      "title": "4 steps to cook up a solid generative AI data strategy",
+      "summary": "Jay Shah, sr. director of enterprise applications, shares steps to building a solid generative AI data strategy. Learn how to align your goals, choose the right tools, bridge the gap between tech and business outcomes, and continuously measure value.",
+      "url": "https://www.elastic.co/blog/4-steps-generative-ai-data-strategy",
+      "date": "2025-07-21T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "1bc94e3294739e515f2a",
+      "title": "Day in the life of an SOC leader",
+      "summary": "Explore a day in the life of a SOC leader, and learn how they oversee analysts, lead incident response, and threat detection in today’s cybersecurity landscape.",
+      "url": "https://www.elastic.co/blog/soc-leader",
+      "date": "2025-07-17T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8e7af92b048ac22fcd8a",
+      "title": "SOC analyst vs. security analyst: What’s the difference?",
+      "summary": "Learn what SOC and security analysts do, including key responsibilities, skills, career paths, and how they help strengthen an organization's cybersecurity posture.",
+      "url": "https://www.elastic.co/blog/soc-analyst-vs-security-analyst",
+      "date": "2025-07-03T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "7a7d5e317c97242b0fb8",
+      "title": "AI, out-of-the-box!",
+      "summary": "Elastic now includes a default managed LLM, prioritizing privacy and eliminating the need for additional setup or subscriptions. External LLMs continue to be supported, ensuring flexibility to meet user requirements.",
+      "url": "https://www.elastic.co/blog/elastic-out-of-box-genai-capabilities",
+      "date": "2025-06-23T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "7b42a9d54b343543c963",
+      "title": "Reclaiming analyst time: Smarter investigations with AI in defence",
+      "summary": "Security analysts at the UK MOD face thousands of alerts daily, causing burnout while breaches increase. Here’s how Elastic's AI tools shorten investigations from hours to minutes, supporting the Defence AI Strategy and Zero Trust goals.",
+      "url": "https://www.elastic.co/blog/ai-in-defence",
+      "date": "2025-06-20T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "9e96eee3fd1a47066385",
+      "title": "How the MOD can achieve decision superiority against cyber threats",
+      "summary": "Here’s how AI-enhanced security platforms unify cyber security across legacy systems and security classifications, giving military teams decision superiority against evolving cyber threats with faster detection and streamlined operations.",
+      "url": "https://www.elastic.co/blog/decision-superiority-against-cyber-threats",
+      "date": "2025-05-28T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "7f083b30e8c6342ea4e5",
+      "title": "Tips for choosing an AI-driven SIEM",
+      "summary": "Today’s adapting SOC needs full visibility, advanced analytics, automation with AI, and flexible deployment. In this blog, we explore some of the key considerations to account for when adopting a new AI-driven SIEM that can rise to the occasion.",
+      "url": "https://www.elastic.co/blog/ai-driven-siem",
+      "date": "2025-05-02T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "9adf3d6f4cb297dbb3d8",
+      "title": "App Search and Workplace Search standalone products are now deprecated",
+      "summary": "Previously bundled as Elastic’s App Search and Workplace Search, core capabilities for building search for the enterprise are all available in Elasticsearch Serverless.",
+      "url": "https://www.elastic.co/blog/search-for-enterprise-serverless",
+      "date": "2025-04-15T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "0a796e43321f27ff762b",
+      "title": "NR25-01- Fluent Bit Plugins (CVE-2024-50608 & CVE-2024-50609)",
+      "summary": "Security bulletin for Windows and Linux infrastructure agent and Fluent Bit, the Kubernetes plugin, and the Fluent Bit output plugin.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr25-01",
+      "date": "2025-02-27T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "0b9bf660da2ddb49eb60",
+      "title": "7 lessons from IT leaders on their AI adoption journeys",
+      "summary": "AI adoption is top of mind for 92% of IT leaders. Three IT CxOs share what they’ve learned on their AI adoption journeys, how they tackled challenges, and how they’re leading their organizations in this new era.",
+      "url": "https://www.elastic.co/blog/ai-adoption-lessons-from-it-leaders",
+      "date": "2025-02-18T08:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3b8b8d6c99d4e741c6f7",
+      "title": "Top 5 IT challenges leaders are facing (and solutions to them)",
+      "summary": "CIOs face mounting IT challenges like data silos and manual processes, hindering business growth. GenAI and data-driven solutions offer relief, but leaders must address their data management issues to unlock GenAI's full potential for innovation.",
+      "url": "https://www.elastic.co/blog/top-5-it-challenges-leaders-face-solutions",
+      "date": "2024-12-12T08:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "9af9e0253f73d3b9bdbe",
+      "title": "Elastic Security on Elastic Cloud Serverless enters general availability",
+      "summary": "Elastic Security on Elastic Cloud Serverless is now generally available. You can launch a deployment in minutes — no experience required. Serverless is fully managed, minimizing TCO and providing fast access to the power of Elastic Security.",
+      "url": "https://www.elastic.co/blog/elastic-security-on-cloud-serverless",
+      "date": "2024-12-02T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -4520,6 +6302,39 @@
       "content_type": "blog"
     },
     {
+      "id": "9a954c067bd14172844a",
+      "title": "Faster threat detection, stronger security: The Kibana advantage",
+      "summary": "Within security, the power of an intuitive and user-friendly interface like Kibana cannot be overstated. A streamlined interface empowers security teams to respond rapidly to threats, significantly reducing the MTTD and minimizing potential damage.",
+      "url": "https://www.elastic.co/blog/threat-detection-security-kibana-advantage",
+      "date": "2024-09-30T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "d1a8478c7a93815de87d",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with Google Cloud",
+      "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using Google Cloud Key Management Service.",
+      "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
+      "date": "2024-09-25T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "5fc571917bc564571e84",
+      "title": "5 pillars of operational resilience",
+      "summary": "Building an operational resilience framework through these key principles will set your business up to respond, recover, and learn from disruptions.",
+      "url": "https://www.elastic.co/blog/operational-resilience-pillars",
+      "date": "2024-09-25T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
       "id": "59b898400cfa27839fbb",
       "title": "Prometheus 3.0 Beta Released",
       "summary": "The Prometheus Team is proud to announce the availability of Prometheus Version 3.0-beta! You can download it here . As is traditional with a beta release, we do not recommend users install Prometheus 3.0-beta on critical production systems, but we do want everyone to test it out and find bugs. In general, the only breaking changes are the removal of deprecated feature flags. The Prometheus team worked hard to ensure backwards-compatibility and not to break existing installations, so all of the new features described below build on top of existing functionality. Most users should be able to try Prometheus 3.0 out of the box without any configuration changes. What's New With over 7500 commits in the 7 years since Prometheus 2.0 came out there are too many new individual features and fixes to list, but there are some big shiny and breaking changes we wanted to call out. We need everyone in the community to try them out and report any issues you might find. The more feedback we get, the more stable the final 3.0 release can be. New UI One of the highlights in Prometheus 3.0 is its brand",
@@ -4527,6 +6342,116 @@
       "date": "2024-09-11T00:00:00+00:00",
       "project": "Prometheus",
       "source": "Prometheus blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "cb96de49b0caaaaac533",
+      "title": "Is your SIEM ready for the AI era? Essential insights and preparations",
+      "summary": "Legacy systems no longer effectively address today’s fast-evolving cyber threats. The future SIEM is an AI-enhanced system that analyzes all of your data — ignoring the noise to proactively detect attacks and automatically remediate threats.",
+      "url": "https://www.elastic.co/blog/siem-ai-preparation",
+      "date": "2024-09-04T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "c5ed48ce5d00f344705d",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with Azure Key Vault",
+      "summary": "Follow this step-by-step process to implement encryption at rest with Azure Key Vault keys and Elastic Cloud deployments to create a secure and compliant environment for your sensitive data.",
+      "url": "https://www.elastic.co/blog/elastic-cloud-azure-key-vault",
+      "date": "2024-08-20T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "e7e35fae0ebd8daaee9f",
+      "title": "Elastic launches Express Migration program for Splunk customers",
+      "summary": "The Elastic Express Migration program eases your transition from Splunk to Elastic Security, accelerating adoption and reducing total cost of ownership.",
+      "url": "https://www.elastic.co/blog/elastic-express-migration-program",
+      "date": "2024-08-07T07:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "2cce8c31c2ab4267d779",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with AWS KMS",
+      "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using AWS Key Management Service (KMS).",
+      "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-aws-kms",
+      "date": "2024-08-01T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "48d36b35c3d1e0d22205",
+      "title": "NR24-02 - OpenSSH in New Relic Salesforce Exporter",
+      "summary": "Security bulletin for all customers using the New Relic Salesforce Exporter.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr24-02",
+      "date": "2024-07-18T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "51355c518288cb85bca0",
+      "title": "How to put your untapped data to work to transform your business",
+      "summary": "Discover how to leverage your organization's untapped data in 3 steps to reduce security risks, increase resilience, and enhance user experiences.",
+      "url": "https://www.elastic.co/blog/how-to-put-your-untapped-data-to-work-to-transform-your-business",
+      "date": "2024-06-24T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "5dd1d0bad43d05a8abc4",
+      "title": "Where are you on the 4-stage data maturity journey?",
+      "summary": "Discover your stage in the 4-stage data maturity journey and learn to aggregate data for meaningful insights and informed decision-making.",
+      "url": "https://www.elastic.co/blog/where-are-you-on-your-data-maturity-journey",
+      "date": "2024-06-24T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "157585b6b351a9184683",
+      "title": "3 steps to advance your data maturity journey",
+      "summary": "Identify your data maturity stage and learn three steps to advance your journey, transforming your organization into a data-driven powerhouse.",
+      "url": "https://www.elastic.co/blog/advance-data-maturity-journey",
+      "date": "2024-06-24T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8b29be3582195d0e1424",
+      "title": "NR24-01 - Fluent Bit",
+      "summary": "Security bulletin for Windows and Linux infrastructure agent and Fluent Bit, the Kubernetes plugin, and the Fluent Bit output plugin.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr24-01",
+      "date": "2024-06-08T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "dccafc0c777bceb6edac",
+      "title": "Encryption at rest in Elastic Cloud: A strategic imperative for enterprise security",
+      "summary": "Encryption at rest is crucial for data security in cloud-based environments. It protects sensitive data stored within SaaS applications, ensuring confidentiality and compliance. Elastic Cloud helps customer-managed keys for better control and trust.",
+      "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-enterprise-security",
+      "date": "2024-05-16T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -4542,6 +6467,17 @@
       "content_type": "blog"
     },
     {
+      "id": "40511024abf8bbf33f22",
+      "title": "Security Bulletin NR23-01 — Security Advisory",
+      "summary": "Final update to Security Bulletin NR23-01",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr23-01-security-advisory",
+      "date": "2023-11-22T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
       "id": "d266146d6593ca61b57c",
       "title": "The Schedule for the PromCon Europe 2023 is Live",
       "summary": "PromCon Europe is the eighth conference fully dedicated to the Prometheus monitoring system Berlin, Germany – September 1, 2023 – The CNCF and the Prometheus team, released the two-day schedule for the single-track PromCon Europe 2023 conference happening in Berlin, Germany from September 28 to September 29, 2023. Attendees will be able to choose from 21 full-length (25min) sessions and up to 20 five-minute lightning talk sessions spanning diverse topics related to Prometheus . Now in its 8th installment, PromCon brings together Prometheus users and developers from around the world to exchange knowledge, best practices, and experience gained through using Prometheus. The program committee reviewed 66 submissions that will provide a fresh and informative look into the most pressing topics around Prometheus today. \"We are super excited for PromCon to be coming home to Berlin. Prometheus was started in Berlin at Soundcloud in 2012. The first PromCon was hosted in Berlin and in between moved to Munich. This year we're hosting around 300 attendees at Radialsystem in Friedrichshain, Berlin",
@@ -4549,6 +6485,17 @@
       "date": "2023-09-01T00:00:00+00:00",
       "project": "Prometheus",
       "source": "Prometheus blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ea7dda2b827418f47782",
+      "title": "Achieve operational resilience with a flexible data store",
+      "summary": "Are you prepared for the unexpected? A resilient data store helps to ensure that an application performs optimally and data integrity is maintained. Discover what to look for in your data store solution to help you achieve operational resilience.",
+      "url": "https://www.elastic.co/blog/achieve-operational-resilience-flexible-data-store",
+      "date": "2023-06-01T00:00:00+00:00",
+      "project": "Elastic",
+      "source": "Elastic blog",
       "category": "Article",
       "content_type": "blog"
     },
@@ -4562,6 +6509,39 @@
       "source": "Prometheus blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "1d0716bfb52d9b754a04",
+      "title": "Containerized Private Minion Removes Log4j Version 1.2.17 subdependency",
+      "summary": "Containerized Private Minion Removes Log4j Version 1.2.17 subdependency, Security Bulletin NR22-01",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr22-01",
+      "date": "2022-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "511c529421841f6234c4",
+      "title": "Apache Log4j Critical Vulnerability CVE-2021-44228 - CPM",
+      "summary": "Apache Log4j CVE 2021-44228, Security Bulletin NR21-04 (Containerized Private Minions)",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04",
+      "date": "2021-12-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "4cfa9b476cd1fa72d8ce",
+      "title": "Apache Log4j Critical Vulnerability CVE-2021-44228 - Java",
+      "summary": "Apache Log4j CVE-2021-44228, Security Bulletin NR21-03 (Java)",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-03",
+      "date": "2021-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
     },
     {
       "id": "8235d775c82dbddef2dc",
@@ -4619,6 +6599,28 @@
       "content_type": "blog"
     },
     {
+      "id": "c807e433614626e490b1",
+      "title": "Security Bulletin NR21-02",
+      "summary": "Security vulnerability update for New Relic Java agent, April 26, 2021",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-02",
+      "date": "2021-04-26T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "13cb7d1ffed8c38b490d",
+      "title": "Security Bulletin NR21-01",
+      "summary": "Security vulnerability update for browser monitoring agent, March 09, 2021",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-01",
+      "date": "2021-03-22T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
       "id": "b035d5528962f5649e12",
       "title": "Introducing the '@' Modifier",
       "summary": "Have you ever selected the top 10 time series for something, but instead of 10 you got 100? If yes, this one is for you. Let me walk you through what the underlying problem is and how I fixed it. Currently, the topk() query only makes sense as an instant query where you get exactly k results, but when you run it as a range query, you can get much more than k results since every step is evaluated independently. This @ modifier lets you fix the ranking for all the steps in a range query. In Prometheus v2.25.0, we have introduced a new PromQL modifier @ . Similar to how offset modifier lets you offset the evaluation of vector selector, range vector selector, and subqueries by a fixed duration relative to the evaluation time, the @ modifier lets you fix the evaluation for those selectors irrespective of the query evaluation time. The credits for this syntax goes to Björn Rabenstein . @ @ @ The is a unix timestamp and described with a float literal. For example, the query http requests total @ 1609746000 returns the value of http requests total at 2021-01-04T07:40:00+00:00 . The query rat",
@@ -4639,6 +6641,743 @@
       "source": "Prometheus blog",
       "category": "Article",
       "content_type": "blog"
+    },
+    {
+      "id": "1c6827bc2f79af29c987",
+      "title": "Agentless syslog onboarding for New Relic log management",
+      "summary": "Host-based log ingestion using rsyslog or syslog-ng with a new TCP endpoint",
+      "url": "https://docs.newrelic.com/whats-new/2021/01/agentless-syslog-onboarding-new-relic-log-management",
+      "date": "2021-01-28T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "15eecb9f042db3e27573",
+      "title": "New Python agent features",
+      "summary": "Python agent now auto instruments HTTPX and Django ASGI",
+      "url": "https://docs.newrelic.com/whats-new/2021/01/new-python-agent-features",
+      "date": "2021-01-21T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "477dfc7941c08be0b127",
+      "title": "New Anomalies feed as part of AI overview page",
+      "summary": "View all your anomalies in a single place",
+      "url": "https://docs.newrelic.com/whats-new/2021/01/new-anomalies-feed-part-ai-overview-page",
+      "date": "2021-01-19T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "3ca21bba68662c15b24d",
+      "title": "COVID-19",
+      "summary": "Information from New Relic's Crisis Management Team about COVID-19 (also known as novel coronavirus).",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/covid-19",
+      "date": "2021-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "217ad8888e964d02242b",
+      "title": "Security Bulletin NR19-04",
+      "summary": "Published: Thu, 14 Jan 2021 00:00:00 +0000.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr19-04",
+      "date": "2021-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "00176026dbdb3d42e856",
+      "title": "Security Bulletin NR19-05",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr19-05",
+      "date": "2021-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "aa4268da6c1e0d56ad47",
+      "title": "Security Bulletin NR20-01",
+      "summary": "Security vulnerability update for New Relic .NET agent, January 16, 2020",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr20-01",
+      "date": "2021-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "a24635380430b5f00e28",
+      "title": "Security Bulletin NR20-02",
+      "summary": "Security vulnerability update for New Relic Node.js agent, August 20, 2020",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr20-02",
+      "date": "2021-01-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "ca18d1908f7c0b81d978",
+      "title": "Notification of Apollo.io security incident",
+      "summary": "A summary of the 2018 security breach of the systems of Apollo.io and New Relic's response.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/notification-apolloio-security-incident",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "853d5b0cf2fd418d145d",
+      "title": "Security Bulletin NR17-04",
+      "summary": "Security vulnerability update for New Relic Node.js agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-04",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "91a60a6dfc1e4d936dcf",
+      "title": "Security Bulletin NR17-05",
+      "summary": "Security vulnerability update for New Relic JavA agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-05",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "4dc4b2b01b2b9d3ea200",
+      "title": "Security Bulletin NR17-06",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-06",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "00836690c0e212628509",
+      "title": "Security Bulletin NR18-01",
+      "summary": "Security vulnerability update for New Relic Python agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-01",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "f00e98649713e766832c",
+      "title": "Security Bulletin NR18-02",
+      "summary": "Security vulnerability update for New Relic Python agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-02",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "e5244a958d4ab5f6201d",
+      "title": "Security Bulletin NR18-04",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-04",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "5f455bb5bf5029d82c97",
+      "title": "Security Bulletin NR18-03",
+      "summary": "Security vulnerability update for synthetic monitoring and private minion.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-03",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "b62054750e5bfa553b94",
+      "title": "Security Bulletin NR18-05",
+      "summary": "Security vulnerability update for New Relic Infrastructure agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-05",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "09906ba3aaff631b1bc0",
+      "title": "Security Bulletin NR18-06",
+      "summary": "Published: Thu, 10 Dec 2020 00:00:00 +0000.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-06",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "4c3f358d6beb0a5ff8ad",
+      "title": "Security Bulletin NR18-08",
+      "summary": "Published: Thu, 10 Dec 2020 00:00:00 +0000.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-08",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "932c30da99152f14d70d",
+      "title": "Security Bulletin NR18-09",
+      "summary": "Security vulnerability update for New Relic Java, Python, and .NET agents.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-09",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "332c65afc408073f40b1",
+      "title": "Security Bulletin NR18-07",
+      "summary": "Security vulnerability update for New Relic Java, Python, and .NET agents.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-07",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "5c6a6a841492940fa4b0",
+      "title": "Security Bulletin NR18-10",
+      "summary": "Security vulnerability update for New Relic Java, Python, and .NET agents.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-10",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "fa1c02bf97703decd36a",
+      "title": "Security Bulletin NR18-11",
+      "summary": "Security vulnerability update for New Relic Java, Python, and .NET agents.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-11",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "5870465f7b4bd4ae14d3",
+      "title": "Security Bulletin NR19-01",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr19-01",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "99259074bdaeb117afb0",
+      "title": "Security Bulletin NR19-02",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr19-02",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "6f589b3ded0ae79192a9",
+      "title": "Security Bulletin NR19-03",
+      "summary": "Security vulnerability update for New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr19-03",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "87076779a239c1ea389e",
+      "title": "Security Bulletin NR18-12",
+      "summary": "Security vulnerability update for New Relic Infrastructure agent for Windows",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr18-12",
+      "date": "2020-12-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "d90c95a98dfce635a1b1",
+      "title": "Security Bulletin NR17-01",
+      "summary": "Security vulnerability update for New Relic Node.js agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-01",
+      "date": "2020-12-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "1b32f4e1c1692c2630f2",
+      "title": "Security Bulletin NR17-02",
+      "summary": "Security vulnerability for version of New Relic .NET agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-02",
+      "date": "2020-12-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "c312eb04c22c0fec88bf",
+      "title": "Security Bulletin NR17-03",
+      "summary": "Security vulnerability update for New Relic Node.js agent.",
+      "url": "https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr17-03",
+      "date": "2020-12-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic security bulletins",
+      "category": "Security",
+      "content_type": "security"
+    },
+    {
+      "id": "8a11233cbe26a64a3b13",
+      "title": "Recap: Top 10 new observability features you need to know",
+      "summary": "Our engineers and product managers share their favorite features, capabilities, and integrations to help you be more productive and collaborative.",
+      "url": "https://docs.newrelic.com/whats-new/2020/12/recap-top-10-new-observability-features-you-need-know",
+      "date": "2020-12-07T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "7fa911ba6252b550e4a0",
+      "title": "Percentiles now available in events-to-metrics service",
+      "summary": "For the events-to-metrics service, return an attribute's approximate value at a given percentile.",
+      "url": "https://docs.newrelic.com/whats-new/2020/12/percentiles-now-available-events-metrics-service",
+      "date": "2020-12-01T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "475a53efd5286ad996be",
+      "title": "Alerts and Applied Intelligence new landing page",
+      "summary": "Surface insights with a new landing page.",
+      "url": "https://docs.newrelic.com/whats-new/2020/12/alerts-applied-intelligence-new-landing-page",
+      "date": "2020-12-01T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "dd2a4bc254ad3c24f102",
+      "title": "API keys app",
+      "summary": "There's a new app for managing your API keys.",
+      "url": "https://docs.newrelic.com/whats-new/2020/11/api-keys-app",
+      "date": "2020-11-12T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "4b3c6066c95da1626fc6",
+      "title": "New Relic Lambda extension",
+      "summary": "Our new extension improves observability of your Lambda data.",
+      "url": "https://docs.newrelic.com/whats-new/2020/11/new-relic-lambda-extension",
+      "date": "2020-11-12T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "765502acd4a152000dac",
+      "title": "Invite a teammate",
+      "summary": "See how easy it is to invite your team to New Relic.",
+      "url": "https://docs.newrelic.com/whats-new/2020/11/invite-teammate",
+      "date": "2020-11-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "343553d64a11bda72a60",
+      "title": "Enhanced errors experience in New Relic One",
+      "summary": "We've improved the new errors experience.",
+      "url": "https://docs.newrelic.com/whats-new/2020/11/enhanced-errors-experience-new-relic-one",
+      "date": "2020-11-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "c0b172b5570d12776e2d",
+      "title": "Troubleshoot performance and crash issues faster with New Relic's real-time Java profiling",
+      "summary": "New Relic is excited to announce the availability of real-time Java profiling using Java Flight Recorder (JFR).",
+      "url": "https://docs.newrelic.com/whats-new/2020/11/troubleshoot-performance-crash-issues-faster-new-relics-real-time-java-profiling",
+      "date": "2020-11-03T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "c2630359fa211f9cccc2",
+      "title": "Build high-resolution charts using sliding windows",
+      "summary": "Increase your chart resolution with rolling aggregates, powered by sliding windows.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/build-high-resolution-charts-using-sliding-windows",
+      "date": "2020-10-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "da0e3dc4ccf8eac19599",
+      "title": "Kafka Connect: Unlock open source and alternative instrumentation sources",
+      "summary": "Build observability pipelines from open source tools and alternative instrumentation sources with the New Relic connector for Kafka Connect.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/kafka-connect-unlock-open-source-alternative-instrumentation-sources",
+      "date": "2020-10-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "2bdb13b6eddfdc5dae01",
+      "title": "Veneur sink: Your pipeline to 3rd party metrics",
+      "summary": "Send metrics to New Relic using our Veneur sink.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/veneur-sink-your-pipeline-3rd-party-metrics",
+      "date": "2020-10-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "4c3af4b19ddbd09765dd",
+      "title": "Three big updates for your native mobile apps",
+      "summary": "Three big updates: The New Relic iOS and tvOS agents will now be distributed as the New Relic XCFramework Agent 7.0.0. For instrumenting React Native applications, we have an experimental open source React Native Module. Plus, we’ve improved reliability from our Android service and changed the way our service handles Android stack deobfuscation.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/three-big-updates-your-native-mobile-apps",
+      "date": "2020-10-29T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "eb3a095bff7ac2525761",
+      "title": "Monitor Apollo Server GraphQL Node applications",
+      "summary": "Use our Node.js agent plugin to capture executed GraphQL queries.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/monitor-apollo-server-graphql-node-applications",
+      "date": "2020-10-27T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "1fa8b74ea17d2cd92745",
+      "title": "Monitor ASGI apps using the Python agent",
+      "summary": "The Python agent now supports monitoring Uvicorn, Starlette, and FastAPI ASGI applications.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/monitor-asgi-apps-using-python-agent",
+      "date": "2020-10-27T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "298e7f79ffdd9d10d077",
+      "title": "Applied Intelligence: Better, smarter webhooks",
+      "summary": "Webhooks now automatically deliver anomaly charts.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/applied-intelligence-better-smarter-webhooks",
+      "date": "2020-10-15T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "23e11edd48ed976b645f",
+      "title": "New Relic One now has a new UI for OpenTelemetry",
+      "summary": "Check out our APM functionality for your OpenTelemetry data.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/new-relic-one-now-has-new-ui-opentelemetry",
+      "date": "2020-10-14T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "f3370cbb411912482324",
+      "title": "Store data in an encrypted storage solution with NerdStorageVault",
+      "summary": "Store and receive sensitive third-party secrets data.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/store-data-encrypted-storage-solution-nerdstoragevault",
+      "date": "2020-10-13T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "e14dc12da49847460f5e",
+      "title": "Saved views for log management",
+      "summary": "Save your table column, time range, etc. in the logs UI",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/saved-views-log-management",
+      "date": "2020-10-12T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "3d29ebf5ff9933180a5e",
+      "title": "Alerting: Loss of signal detection and configurable gap-filling strategies",
+      "summary": "Specify how long the system should wait before a signal is considered lost.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/alerting-loss-signal-detection-configurable-gap-filling-strategies",
+      "date": "2020-10-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "8b458a05771e5f9f88c6",
+      "title": "New Relic achieves AWS Outposts Ready designation",
+      "summary": "New Relic has achieved the AWS Outposts Ready designation, part of the Amazon Web Services (AWS) Service Ready Program.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/new-relic-achieves-aws-outposts-ready-designation",
+      "date": "2020-10-07T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "98291694575ee75148db",
+      "title": "Applied Intelligence now features accelerated suggested decisions",
+      "summary": "Reduce alert noise by using our suggested correlation decisions.",
+      "url": "https://docs.newrelic.com/whats-new/2020/10/applied-intelligence-now-features-accelerated-suggested-decisions",
+      "date": "2020-10-01T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "4ec52da5a5fca63d6524",
+      "title": "Applied Intelligence: Deployment events in the issue feed",
+      "summary": "Applied Intelligence now includes any relevant APM deployment data.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/applied-intelligence-deployment-events-issue-feed",
+      "date": "2020-09-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "ef2fd52fbdc6342a3ef5",
+      "title": "New Relic Edge with Infinite Tracing",
+      "summary": "New Relic users with Pro or Enterprise Full-Stack Observability can now access and benefit from New Relic Edge.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/new-relic-edge-infinite-tracing",
+      "date": "2020-09-29T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "e79c4a548b60185754e2",
+      "title": "Anomalies visible in the activity stream",
+      "summary": "The activity stream shows recent events so you can quickly see what's happening in your system.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/anomalies-visible-activity-stream",
+      "date": "2020-09-11T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "e75063b4db78a8580ed6",
+      "title": "Windows logs supported",
+      "summary": "Support for Windows logs with New Relic's infrastructure agent",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/windows-logs-supported",
+      "date": "2020-09-09T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "a55d55bde96d7c543160",
+      "title": "New Relic One has dark mode!",
+      "summary": "We now have dark mode!",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/new-relic-one-has-dark-mode",
+      "date": "2020-09-04T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "1250b9bc4c57074aba11",
+      "title": "New Relic support for Amazon Web Services (AWS) Bottlerocket",
+      "summary": "Gain full visibility into your workloads and infrastructure running on AWS Bottlerocket.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/new-relic-support-amazon-web-services-aws-bottlerocket",
+      "date": "2020-09-04T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "a131f3a45fd0526878c4",
+      "title": "What's new?",
+      "summary": "Your in-product destination for New Relic One updates!",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/whats-new",
+      "date": "2020-09-04T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "75b9db17a59df7bdacbc",
+      "title": "Issue summary and analysis in Applied Intelligence",
+      "summary": "Rely on the issue summary to help you identify and resolve relevant issues.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/issue-summary-analysis-applied-intelligence",
+      "date": "2020-09-01T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "337dccf25ad35eb38073",
+      "title": "Visual issue timeline in Applied Intelligence",
+      "summary": "Use our Gantt-style timeline chart to see your related events.",
+      "url": "https://docs.newrelic.com/whats-new/2020/09/visual-issue-timeline-applied-intelligence",
+      "date": "2020-09-01T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "e56b445928bd24df6093",
+      "title": "Real user monitoring support for W3C trace context and Google Core Web Vitals",
+      "summary": "We've added support for W3C trace context and Google Core Web Vitals!",
+      "url": "https://docs.newrelic.com/whats-new/2020/08/real-user-monitoring-support-w3c-trace-context-google-core-web-vitals",
+      "date": "2020-08-26T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "417d989c1a4c4d49a4d2",
+      "title": "Alert analysis for Applied Intelligence",
+      "summary": "Alert analysis gives you greater context for your alert incidents and notifications.",
+      "url": "https://docs.newrelic.com/whats-new/2020/08/alert-analysis-applied-intelligence",
+      "date": "2020-08-18T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "da7e8c16e825c72a571b",
+      "title": "Ingest New Relic logs directly with Amazon Web Services (AWS) Kinesis Data Firehose",
+      "summary": "New Relic can ingest data from Amazon's Kinesis Data Firehose.",
+      "url": "https://docs.newrelic.com/whats-new/2020/08/ingest-new-relic-logs-directly-amazon-web-services-aws-kinesis-data-firehose",
+      "date": "2020-08-16T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "769c54e073b07cd9abb4",
+      "title": "Tracing the gap: AWS X-Ray integration",
+      "summary": "Use New Relic with AWS X-Ray, a critical distributed tracing tool for getting visibility across your AWS services.",
+      "url": "https://docs.newrelic.com/whats-new/2020/08/tracing-gap-aws-x-ray-integration",
+      "date": "2020-08-16T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "355900dc6e5fea6006cb",
+      "title": "Create Grafana dashboards with Prometheus data stored in New Relic",
+      "summary": "You can create Grafana dashboards with Prometheus data stored in New Relic!",
+      "url": "https://docs.newrelic.com/whats-new/2020/08/create-grafana-dashboards-prometheus-data-stored-new-relic",
+      "date": "2020-08-10T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "c1f56a544a4bfdf14580",
+      "title": "Scheduled alert muting",
+      "summary": "Schedule when you want to mute alerts to avoid messages during maintenance or deployments.",
+      "url": "https://docs.newrelic.com/whats-new/2020/07/scheduled-alert-muting",
+      "date": "2020-07-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
+    },
+    {
+      "id": "8f2984cce0f892ff1d67",
+      "title": "Overall New Relic One experience updates",
+      "summary": "We've made updates across all of New Relic One!",
+      "url": "https://docs.newrelic.com/whats-new/2020/07/overall-new-relic-one-experience-updates",
+      "date": "2020-07-30T00:00:00+00:00",
+      "project": "New Relic",
+      "source": "New Relic product updates",
+      "category": "Article",
+      "content_type": "product-updates"
     },
     {
       "id": "daadb33325bca794f962",
@@ -4824,6 +7563,248 @@
       "date": "2017-04-06T00:00:00+00:00",
       "project": "Prometheus",
       "source": "Prometheus blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "09c1fcefb64656216f2f",
+      "title": "Piros | VictoriaMetrics Partner",
+      "summary": "Piros integrates VictoriaMetrics into enterprise infrastructures to establish a sustainable observability operating model. Their consultants provide practical guidance on managing time series data within strictly regulated environments. This approach ensures clients move beyond simple metrics to a fully reliable platform for critical decision making.",
+      "url": "https://victoriametrics.com/partners/piros/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ae8c6b93d6389bddb259",
+      "title": "Allenta | VictoriaMetrics Partner",
+      "summary": "Allenta optimizes systems to maximize the efficiency and performance of VictoriaMetrics for high traffic use cases. They help engineering teams build a robust observability function that utilizes the full power of the database for deep system analysis. Their specific training empowers Spanish enterprises to maintain a cost effective and scalable monitoring architecture.",
+      "url": "https://victoriametrics.com/partners/allenta/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "dcf65afe09fc3e0e4340",
+      "title": "CloudRaft | VictoriaMetrics Partner",
+      "summary": "CloudRaft designs scalable observability stacks to support rapid business growth and site reliability engineering. They offer practical guidance on migrating legacy monitoring systems to VictoriaMetrics establishing a long term operating model. Their expertise helps fast moving companies reduce overhead while increasing visibility into operations.",
+      "url": "https://victoriametrics.com/partners/cloudraft/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "846f0779efe77eb8b727",
+      "title": "Sensedia & VictoriaMetrics: API-compatible Efficient Storage",
+      "summary": "Sensedia chose VictoriaMetrics for efficient resource use, solid documentation, community support, a hassle-free fit with Grafana and PromQL, and much more.",
+      "url": "https://victoriametrics.com/case-studies/sensedia/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "77edc48156ed276c8062",
+      "title": "Scalable Prometheus: Why DSV Chose VictoriaMetrics",
+      "summary": "World’s largest freight forwarder DSV chose VictoriaMetrics for observability: Stability & Reliability, Operational Simplicity, Proven Scale. 800k datapoints/second, 72M ATS",
+      "url": "https://victoriametrics.com/case-studies/dsv/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ca9c6a30fb45e835e166",
+      "title": "Sensor Factory | VictoriaMetrics Partner",
+      "summary": "Sensor Factory utilizes VictoriaMetrics to unify observability across IT infrastructure and physical sensor networks. They guide organizations in building a sustainable operating model that consolidates environmental data with system metrics for a complete operational view. Their experts act as a technical extension of the client team, ensuring monitoring platforms scale efficiently.",
+      "url": "https://victoriametrics.com/partners/sensor-factory/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "2b9bc65e0d296b4bd23e",
+      "title": "Erythix | VictoriaMetrics Partner",
+      "summary": "Erythix deploys sovereign VictoriaMetrics instances to secure critical infrastructure and strictly regulated data environments in EU. Their team establishes a resilient observability function that helps defense and industrial sectors detect anomalies while maintaining compliance. They focus on building an operating model that prioritizes data sovereignty and cybersecurity alongside performance.",
+      "url": "https://victoriametrics.com/partners/erythix/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "74971459217f22b880ad",
+      "title": "Groove X & VictoriaMetrics: Faster Device Health Monitoring",
+      "summary": "Groove X, a robotics startup, improved monitoring performance and metrics accuracy in their robot and charging station systems by switching to VictoriaMetrics.",
+      "url": "https://victoriametrics.com/case-studies/groove-x/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "33ee25a69f708e9dff1c",
+      "title": "Scaled & Performant Monitoring at Spotify with VictoriaMetrics",
+      "summary": "Spotify Chose VictoriaMetrics for Observability: Stability & Reliability, Operational Simplicity, Proven Scale. 78M datapoints/second",
+      "url": "https://victoriametrics.com/case-studies/spotify/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "f61fa0d9080d1c2654f5",
+      "title": "Grammarly & VictoriaMetrics: 10× Lower Costs & Direct Access",
+      "summary": "Grammarly cut costs tenfold and streamlined metrics ingestion by choosing VictoriaMetrics for performance, flexible format, and developer-friendly assistance.",
+      "url": "https://victoriametrics.com/case-studies/grammarly/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ce8bdb26e2b718ff4a8b",
+      "title": "Zelarsoft | VictoriaMetrics Partner",
+      "summary": "Zelarsoft implements VictoriaMetrics as the core of modern Kubernetes observability strategies for global enterprises. They teach DevOps teams how to maintain a sustainable operating model that automates monitoring and reduces infrastructure costs. Their delivery focuses on enabling clients to own their observability stack through better data practices and efficient architecture.",
+      "url": "https://victoriametrics.com/partners/zelarsoft/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "8f14d0a97fdf12764942",
+      "title": "DFKI & VictoriaMetrics: Efficient Long-Term Metric Storage",
+      "summary": "Leading German research center chose VictoriaMetrics with impressive results: ⅓ storage needs, lower CPU/RAM usage, smooth migration, and support for HA setups.",
+      "url": "https://victoriametrics.com/case-studies/dfki/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "84e9a5d20b8426f02db7",
+      "title": "Niubits | VictoriaMetrics Partner",
+      "summary": "Niubits architects cloud-native observability stacks on Kubernetes, helping enterprises gain deep visibility into containerized workloads with VictoriaMetrics. Their engineers design multicloud-ready IT platforms with infrastructure as code practices that scale monitoring effortlessly across complex distributed environments.",
+      "url": "https://victoriametrics.com/partners/niubits/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "26d8e4cbe78f329cf666",
+      "title": "Megazone Cloud | VictoriaMetrics Partner",
+      "summary": "Megazone Cloud is a leading cloud managed service provider and digital transformation partner in Asia, helping enterprises modernize infrastructure and operate cloud environments at scale. With strong capabilities in managed services, platform modernization, and solution integration, they help customers build scalable, cost-efficient observability solutions for metrics, logs, traces, and cloud-native workloads.",
+      "url": "https://victoriametrics.com/partners/megazone-cloud/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "870b40a4f64c8753ccb6",
+      "title": "Cogito Software | VictoriaMetrics Partner",
+      "summary": "Cogito Software enables enterprises across Asia Pacific to adopt VictoriaMetrics with localized technical support, procurement expertise, and project consulting. Their regional presence across China, Hong Kong, Taiwan, Singapore, Japan, and Australia ensures hands-on assistance in local languages and time zones.",
+      "url": "https://victoriametrics.com/partners/cogito-software/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "a3169b819a5da97678de",
+      "title": "Bajau | VictoriaMetrics Partner",
+      "summary": "Bajau brings deep open source and Linux expertise to VictoriaMetrics deployments across Indonesian enterprises in banking, manufacturing, and government. Their engineers specialize in IT automation and infrastructure integration, building observability into modernization projects from the ground up with over two decades of enterprise-grade open source experience.",
+      "url": "https://victoriametrics.com/partners/bajau/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "083d7329111d7bcac505",
+      "title": "Find Out Why Dig Security Chose VictoriaMetrics!",
+      "summary": "Read this case study on why Dig Security chose VictoriaMetrics. Spoiler: Amazing speed, easy to use, easy to set-up, cost effective!",
+      "url": "https://victoriametrics.com/case-studies/dig-security/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "296247aa825d88bf873a",
+      "title": "Ness | VictoriaMetrics Partner",
+      "summary": "Ness leverages decades of large-scale project delivery to implement VictoriaMetrics as part of enterprise observability strategies across Israeli organizations. Their consultants bring expertise in cloud migration, managed services, and cybersecurity to ensure monitoring is embedded in every transformation initiative.",
+      "url": "https://victoriametrics.com/partners/ness/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "53f2acc36e8f158e33ab",
+      "title": "Alpha Data | VictoriaMetrics Partner",
+      "summary": "Alpha Data integrates VictoriaMetrics into digital transformation projects for government and enterprise clients across the Middle East. With over four decades of systems integration experience, they design observability solutions spanning cloud, IoT, and traditional infrastructure for real-time operational visibility.",
+      "url": "https://victoriametrics.com/partners/alpha-data/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "a30fe2315a3eb7e6097b",
+      "title": "SIOS Technology | VictoriaMetrics Partner",
+      "summary": "SIOS Technology is a leading software solution provider and systems integration partner in Japan, helping enterprises modernize IT operations and accelerate digital transformation. Through advanced cloud and AI technologies, systems integration services, and a one-stop VictoriaMetrics Enterprise offering, SIOS Technology helps customers improve performance, scalability, and cost efficiency across complex IT environments.",
+      "url": "https://victoriametrics.com/partners/sios/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "ed29fad9d2d229d60449",
+      "title": "4data | VictoriaMetrics Partner",
+      "summary": "4data AG is a boutique platform engineering company based in Zurich, Switzerland. Its experienced team helps organizations accelerate software delivery by designing secure, automated, and reliable platforms built around cloud-native and open source technologies.",
+      "url": "https://victoriametrics.com/partners/4data/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "a367dcfce36d9534170e",
+      "title": "Proservability | VictoriaMetrics Partner",
+      "summary": "Proservability combines observability engineering, telemetry management, and vendor strategy to help teams get the maximum value from VictoriaMetrics and optimize commercial open-source spend.",
+      "url": "https://victoriametrics.com/partners/proservability/",
+      "date": "2001-01-01T00:00:00+00:00",
+      "project": "VictoriaMetrics",
+      "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
     }
