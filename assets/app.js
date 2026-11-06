@@ -29,7 +29,7 @@ function draw(){
  const q=$("#q").value.toLowerCase(),category=$("#category").value,project=$("#project").value,sort=$("#sort").value;
  let rows=[...items];
  if(view==="overview")rows=rows.slice(0,8);
- if(view==="triage")rows=rows.filter(x=>triage(x)?.needs_review);
+ if(view==="triage")rows=rows.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category));
  if(view==="releases")rows=rows.filter(x=>["Release","Component","Plugin"].includes(x.category));
  if(category)rows=rows.filter(x=>x.category===category);
  if(project)rows=rows.filter(x=>x.project===project);
@@ -69,7 +69,7 @@ async function init(){
   items=r[0].items||[];meta=r[1];intel=r[2];
   $("#status").textContent="OPERATIONAL";$("#last").textContent=meta.generated_at?"Last sync "+date(meta.generated_at):"Awaiting sync";
   $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component","Plugin"].includes(x.category)).length;
-  $("#sources").textContent=items.filter(x=>triage(x)?.needs_review).length;
+  $("#sources").textContent=items.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category)).length;
   $("#synced").textContent=meta.generated_at?new Date(meta.generated_at).toLocaleString():"PENDING";
   $("#nav-count").textContent=items.length;$("#triage-count").textContent=items.filter(x=>(triage(x)?.themes||[]).length>0).length;
   const projects=[...new Set(items.map(x=>x.project).filter(Boolean))].sort();

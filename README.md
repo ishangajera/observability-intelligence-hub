@@ -12,7 +12,7 @@ Public, automatically refreshed observability engineering intelligence dashboard
 - Videos from the official OpenTelemetry and CNCF YouTube channels.
 
 ## Editorial triage
-This is a focused review queue, not a duplicate feed. It shows only entries with explicit source-text matches, with item-specific matched themes, source excerpts, and theme-specific review actions. Priority is an attention cue, not product severity or verified deployment impact.
+This is a focused review queue, not a duplicate feed. It shows only releases, component additions, plugin changes, and security advisories with explicit source-text matches, with item-specific matched themes, source excerpts, and theme-specific review actions. Articles, videos, and community discussions remain in the main feed. Priority is an attention cue, not product severity or verified deployment impact.
 
 ## Release parsing
 GitHub release entries retain the full upstream release notes and a parsed heading/bullet outline. For OpenTelemetry Collector releases, the collector looks for component paths under receiver/, processor/, exporter/, connector/, and extension/, especially in sections labelled as new components. Detected additions are surfaced as separate signals linked to the parent release. This is best-effort parsing; confirm each result in the upstream notes.
