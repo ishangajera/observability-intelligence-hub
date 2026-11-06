@@ -8,7 +8,7 @@ function releaseDetails(x){
  if(x.category!=="Release"&&x.category!=="Component")return"";
  const components=(x.new_components||[]).map(c=>'<li><b>'+esc(c.type)+'</b> / <code>'+esc(c.name)+'</code> — '+esc(c.evidence)+'</li>').join("");
  const sections=(x.change_sections||[]).slice(0,12).map(s=>'<section class="release-section"><b>'+esc(s.heading)+'</b><ul>'+((s.items||[]).slice(0,6).map(v=>'<li>'+esc(v)+'</li>').join(""))+'</ul></section>').join("");
- const notes=x.release_notes?'<details class="release-details"><summary>Parsed release notes · '+((x.change_sections||[]).length)+' sections</summary>'+(components?'<b class="action-label">New components detected</b><ul>'+components+'</ul>':"")+(sections||'<p>'+esc(x.release_notes.slice(0,2500))+'</p>')+'<details><summary>Full upstream notes (raw)</summary><pre>'+esc(x.release_notes)+'</pre></details></details>':"";
+ const notes=x.release_notes?'<details class="release-details"><summary>Parsed release notes · '+((x.change_sections||[]).length)+' sections</summary>'+(components?'<b class="action-label">New components detected</b><ul>'+components+'</ul>':"")+(sections||'<p>'+esc(x.release_notes.slice(0,2500))+'</p>')+'<details><summary>Raw release-note excerpt</summary><pre>'+esc(x.release_notes)+'</pre></details></details>':"";
  return(x.component_type?'<div class="component-pill">NEW '+esc(x.component_type.toUpperCase())+' · '+esc(x.component_name)+'</div>':"")+notes;
 }
 function editorial(x,t){
@@ -71,7 +71,7 @@ async function init(){
   $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component","Plugin"].includes(x.category)).length;
   $("#sources").textContent=items.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category)).length;
   $("#synced").textContent=meta.generated_at?new Date(meta.generated_at).toLocaleString():"PENDING";
-  $("#nav-count").textContent=items.length;$("#triage-count").textContent=items.filter(x=>(triage(x)?.themes||[]).length>0).length;
+  $("#nav-count").textContent=items.length;$("#triage-count").textContent=items.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category)).length;
   const projects=[...new Set(items.map(x=>x.project).filter(Boolean))].sort();
   $("#project").innerHTML='<option value="">All projects</option>'+projects.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
   change("overview");
