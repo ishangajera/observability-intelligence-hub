@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T19:58:40.454232+00:00",
+  "generated_at": "2026-11-07T18:04:39.304094+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 512,
+  "item_count": 504,
   "items": {
-    "d70510d70425a271f552": {
+    "10e350bae07b50c9a221": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -14,24 +14,204 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "1721bef5f969aac0ec47": {
-      "priority": "low",
+    "25e90517014f90d7f196": {
+      "priority": "high",
       "needs_review": true,
       "themes": [
         {
-          "id": "plugin",
-          "label": "Plugin",
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
           "priority": "low"
         }
       ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
       "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+        "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
       ],
       "evidence": [
         {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Azure Monitor 13.0.8 Catalog version changed from 13.0.6 to 13.0.8. Data source for Microsoft Azure Monitor & Application Insights"
+          "theme": "Breaking change",
+          "text": "ttps://github.com/grafana/loki/compare/v4.0.0-rc.2...v4.0.0-rc.3) (2026-11-06) ### ⚠ BREAKING CHANGES * **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4."
+        },
+        {
+          "theme": "Bug fix",
+          "text": "([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] (#26310) ### Bug Fixes * **compactor:** Use main compactor for deletes ([#26305](https://github.com/grafana/loki/issues/26305)) [release-4.0.0] ([#26311](https://github."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "4821bc0a6b32b713f5a1": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "13d502f2fe0b31e9c7c4": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "3883934c8f8147d248e4": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d197c2e234de37648fc3": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "21a5ca3cc3991b2e5bbb": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "32c24edaa648bd442b72": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
+      "review_actions": [
+        "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "pport them. - exporter/logicmonitor - receiver/riak ## End User Changelog ### 🛑 Breaking changes 🛑 - `all`: Remove the deprecated SignalFx receiver. Use the OTLP receiver instead. (#51934) - `connector/service_graph`: Remove deprecated featur"
+        },
+        {
+          "theme": "Deprecation",
+          "text": "receiver/riak ## End User Changelog ### 🛑 Breaking changes 🛑 - `all`: Remove the deprecated SignalFx receiver. Use the OTLP receiver instead. (#51934) - `connector/service_graph`: Remove deprecated feature gates connector.servicegraph.legac"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "stem.name (semconv v1.40.0) instead of the deprecated db.system (semconv v1.28.0). The migration remains reversible by disabling the gates. - `pkg/coreinternal`: Promote internal.coreinternal.goldendataset.EmitV1NetworkConventions and int"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "9e1d945b5e5a4a55d65a": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "ebc4baef43591b20edaa": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "breaking",
+          "label": "Breaking change",
+          "priority": "high"
+        },
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
+      "review_actions": [
+        "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Breaking change",
+          "text": "etry/opentelemetry-collector-releases/releases/tag/v0.165.0 ## End User Changelog ### 🛑 Breaking changes 🛑 - `pkg/confighttp`: Remove deprecated fields `IdleConnTimeout`, `MaxIdleConns`, `MaxIdleConnsPerHost`, `DisableKeepAlives`. (#15973) ### 🚀 New co"
+        },
+        {
+          "theme": "Deprecation",
+          "text": "tag/v0.165.0 ## End User Changelog ### 🛑 Breaking changes 🛑 - `pkg/confighttp`: Remove deprecated fields `IdleConnTimeout`, `MaxIdleConns`, `MaxIdleConnsPerHost`, `DisableKeepAlives`. (#15973) ### 🚀 New components 🚀 - `pkg/xreceiverhelper`: Add"
+        },
+        {
+          "theme": "Compatibility",
+          "text": "attributes. (#15644) - `cmd/mdatagen`: Fix generated metrics tests failing when a metric migration's `through_gates` feature gates are promoted past alpha. (#16249) The generated tests now explicitly set the migration feature gates for each test"
+        },
+        {
+          "theme": "Performance",
+          "text": "`pkg/featuregate`: Allow underscores in feature gate IDs. (#16243) - `pkg/pdata`: Improve performance of pcommon.Map Get, Range, and All functions. (#16282, #16321) - `pkg/pdata`: Reduce number of allocations when updating an oneof primitive (#16226)"
+        },
+        {
+          "theme": "Configuration",
+          "text": "ghttp.ToClient and configgrpc.ToClient (#16019) - `pkg/featuregate`: Allow underscores in feature gate IDs. (#16243) - `pkg/pdata`: Improve performance of pcommon.Map Get, Range, and All functions. (#16282, #16321) - `pkg/pdata`: Reduce number of alloc"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -75,29 +255,6 @@
         {
           "theme": "Bug fix",
           "text": "26 UTC +41 -1 Type of Change Please check the relevant option. - [ ] 🚀 Feature - [ … x] 🐛 Bug Fix - [ ] 📝 Documentation - [ ] 🧹 Refactor / Chore --- Bug Fix What is the bug? Currently, when a Loki datasource health check fails, Grafana always disp"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d4df990b943d152efb36": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Interactive learning 2.26.0 Catalog version changed from 2.25.0 to 2.26.0. Get help exactly when and where you need it. Interactive learning"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -159,29 +316,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "0b01edea16fa73b0099c": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Finnhub 1.1.0 Catalog version changed from 1.0.0 to 1.1.0. Finnhub Data Source"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "04d0991a1b6030334abd": {
       "priority": "high",
       "needs_review": true,
@@ -215,29 +349,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "d46eb92154d0263bed00": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: ITRS Analytics 3.5.0 Catalog version changed from 3.4.2 to 3.5.0. Data source for ITRS Analytics platform"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "2e5715cffbf7188a5298": {
       "priority": "low",
       "needs_review": false,
@@ -249,16 +360,6 @@
       "method": "transparent-rules"
     },
     "68f16141b04e39898721": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "eac2806ff6607ce1b621": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -409,29 +510,6 @@
         {
           "theme": "Compatibility",
           "text": "ed SDK 3.0 ( stable v3.0.0 packages and experimental v0.300.0 packages ) and API 1.10.0 . Migration guide For a detailed description of breaking changes, see the OpenTelemetry JS SDK 3.x migration guide . What is JS SDK 3.x? JS SDK 3.x encompasses n"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "045d109a8a40ba39227e": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "New Grafana plugin: n8n Data Source plugin added to the public catalog. Workflow and execution observability for n8n Cloud and self-hosted n8n via the n8n public API (c"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -2529,29 +2607,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "cb74fa42d60bd41c74aa": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "Isolation. Security. Scale. Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensur"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "5fa4f1042b8f54c8ae29": {
       "priority": "low",
       "needs_review": false,
@@ -3061,29 +3116,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "6d3876e7ab13a810d07f": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "or Distributions v0.163.2 This release updates the binaries' Go version and CA bundle. It fixes 1722. This release updates the binaries' Go version and CA bundle. It fixes #1722. To see the collector changes in v0.163.x see [v0.163.0](https:/"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "397ffa8696a93bbf7f87": {
       "priority": "high",
       "needs_review": true,
@@ -3186,29 +3218,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "afaf708ecf6dd715fd3b": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "put by @edsiper in https://github.com/fluent/fluent-bit/pull/12596 * out_cloudwatch_logs: fix log stream leak when group allocation fails by @ParakhJaggi in https://github.com/fluent/fluent-bit/pull/12257 * in_nginx_exporter_metrics: mitigate"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "80c39506303e59a3ed02": {
       "priority": "high",
       "needs_review": true,
@@ -3290,39 +3299,6 @@
         {
           "theme": "Bug fix",
           "text": "0) ## [3.7.9](https://github.com/grafana/loki/compare/v3.7.8...v3.7.9) (2026-10-20) ### Bug Fixes * **deps:** Update github.com/thanos-io/objstore digest to 72d3b9f (release-3.7.x) ([#25389](https://github.com/grafana/loki/issues/25389)) ([e7d680"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "cc8ca9afbc766f5886f9": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "ps://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20) ### Bug Fixes * **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com/grafana/loki/"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "## [3.6.19](https://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20) ### Bug Fixes * **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -3597,29 +3573,6 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "3dbda8d8c469a7800d70": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "o 1.34.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12514 * output: fix failing internal output tests by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12509 * filter_kubernetes: mitigate unbounded tag issue by @"
-        }
-      ],
-      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "73fc38a7af80a305231a": {
@@ -4186,29 +4139,6 @@
         {
           "theme": "Compatibility",
           "text": "Vector vdev-v0.3.29 Open upstream release notes for changes, compatibility notes, and upgrade guidance."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "03ee4ade9fd4faed601d": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "y @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12364 * in_winevtlog: fix crash when all channels are missing and ignore_missing_channels is enabled [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pu"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -5222,152 +5152,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "dea6edd25d8e2e591e9b": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "breaking",
-          "label": "Breaking change",
-          "priority": "high"
-        },
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibility",
-          "priority": "medium"
-        },
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The release notes identify an incompatible or removed surface that may affect upgrades or configuration.",
-      "review_actions": [
-        "Compare the change with pinned versions and configuration; test upgrade and rollback paths in staging.",
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
-      ],
-      "evidence": [
-        {
-          "theme": "Breaking change",
-          "text": "1.0), be sure to check the release notes there as well. ## End User Changelog ### 🛑 Breaking changes 🛑 - `all`: Remove the deprecated mezmo exporter. (#49953) Use the OTLP/HTTP exporter to send logs directly to Mezmo instead. See https://doc"
-        },
-        {
-          "theme": "Deprecation",
-          "text": "here as well. ## End User Changelog ### 🛑 Breaking changes 🛑 - `all`: Remove the deprecated mezmo exporter. (#49953) Use the OTLP/HTTP exporter to send logs directly to Mezmo instead. See https://docs.mezmo.com/telemetry-pipelines/otel"
-        },
-        {
-          "theme": "Compatibility",
-          "text": "tel-collector and https://docs.mezmo.com/telemetry-pipelines/open-telemetry-source for migration guidance. - `cmd/opampsupervisor`: Deprecate the `reports_remote_config` capability config option. The `accepts_remote_config` option now enable"
-        },
-        {
-          "theme": "Performance",
-          "text": "are the initial implementation for sd notify extension. ( 49607) - processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260) - processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and sign"
-        },
-        {
-          "theme": "Configuration",
-          "text": "guidance. - `cmd/opampsupervisor`: Deprecate the `reports_remote_config` capability config option. The `accepts_remote_config` option now enables both the AcceptsRemoteConfig and ReportsRemoteConfig OpAMP capabilities. (#49763) `reports_remote_"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "20f5cb31973b099c8194": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "cef639ae113798f8cad9": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "New OTel Collector processor: rolling_span_latency - processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260)"
-        },
-        {
-          "theme": "New component",
-          "text": "- processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "94a89897762ab0b0fd90": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "A new Collector component appears in upstream release notes; confirm its maturity and distribution support.",
-      "review_actions": [
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build."
-      ],
-      "evidence": [
-        {
-          "theme": "New component",
-          "text": "- processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and signs each log record, storing the base64-encoded signature as audit.integrity.value and setting audit.integrity.algorithm and audit.integrity.certificate as "
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "00986a031df8a915366a": {
       "priority": "low",
       "needs_review": true,
@@ -5763,59 +5547,6 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "950a524790c57b32374e": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibility",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "s/releases/tag/v0.160.0 ## End User Changelog ### 🚩 Deprecations 🚩 - `pkg/confighttp`: Deprecate flat keepalive fields in client and server config in favor of the new `keepalive` section. (#14020) The following client configuration fields are d"
-        },
-        {
-          "theme": "Compatibility",
-          "text": "(#15751) ### 🧰 Bug fixes 🧰 - `cmd/mdatagen`: Allow underscores in feature gate IDs for compatibility with component names with underscores (#15592) - `pkg/pprofile`: add bounds checks to FromLocationIndices and switchDictionary (#15697) FromLocatio"
-        },
-        {
-          "theme": "Configuration",
-          "text": "nd server config in favor of the new `keepalive` section. (#14020) The following client configuration fields are deprecated in favor of the `keepalive` section: - `idle_conn_timeout` -> `keepalive::idle_conn_timeout` - `max_idle_conns` -> `kee"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "ort memory limiter component health status when the health state changes. (#15751) ### 🧰 Bug fixes 🧰 - `cmd/mdatagen`: Allow underscores in feature gate IDs for compatibility with component names with underscores (#15592) - `pkg/pprofile`: add bou"
-        }
-      ],
-      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "57dff99476258d0ed0a7": {

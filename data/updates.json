@@ -1,33 +1,258 @@
 {
-  "generated_at": "2026-11-06T19:58:28.776834+00:00",
+  "generated_at": "2026-11-07T18:04:25.036992+00:00",
   "items": [
     {
-      "id": "d70510d70425a271f552",
-      "title": "Fluent Bit wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
+      "id": "10e350bae07b50c9a221",
+      "title": "Fluent Bit wasm-browser-9c04b3bcfcb50a036692ab30f2added0cb682215",
       "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
-      "date": "2026-11-06T19:41:36Z",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-9c04b3bcfcb50a036692ab30f2added0cb682215",
+      "date": "2026-11-07T17:45:21Z",
       "project": "Fluent Bit",
       "source": "GitHub · fluent/fluent-bit",
       "category": "Release",
-      "version": "wasm-browser-85c7030b29c4a9702fa0229efd9eb71736e03038",
-      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42277795747\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "version": "wasm-browser-9c04b3bcfcb50a036692ab30f2added0cb682215",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42396466902\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
       "change_sections": [],
       "new_components": []
     },
     {
-      "id": "1721bef5f969aac0ec47",
-      "title": "Grafana plugin update: Azure Monitor 13.0.8",
-      "summary": "Catalog version changed from 13.0.6 to 13.0.8. Data source for Microsoft Azure Monitor & Application Insights",
-      "url": "https://grafana.com/grafana/plugins/grafana-azure-monitor-datasource/",
-      "date": "2026-11-06T18:44:31+00:00",
-      "project": "Grafana plugins",
-      "source": "Grafana public plugin catalog",
-      "category": "Plugin",
-      "version": "13.0.8",
-      "plugin_slug": "grafana-azure-monitor-datasource",
-      "plugin_type": "Data Source",
-      "repository": "https://github.com/grafana/grafana-azure-monitor-datasource"
+      "id": "25e90517014f90d7f196",
+      "title": "Loki v4.0.0-rc.3",
+      "summary": "4.0.0-rc.3 (2026-11-06)",
+      "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.3",
+      "date": "2026-11-07T16:01:33Z",
+      "project": "Loki",
+      "source": "GitHub · grafana/loki",
+      "category": "Release",
+      "version": "v4.0.0-rc.3",
+      "release_notes": "## [4.0.0-rc.3](https://github.com/grafana/loki/compare/v4.0.0-rc.2...v4.0.0-rc.3) (2026-11-06)\r\n\r\n\r\n### ⚠ BREAKING CHANGES\r\n\r\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] (#26310)\r\n\r\n### Bug Fixes\r\n\r\n* **compactor:** Use main compactor for deletes ([#26305](https://github.com/grafana/loki/issues/26305)) [release-4.0.0] ([#26311](https://github.com/grafana/loki/issues/26311)) ([1665c02](https://github.com/grafana/loki/commit/1665c0203b3c7b025608336809d18473d8262f00))\r\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] ([#26310](https://github.com/grafana/loki/issues/26310)) ([cea7d12](https://github.com/grafana/loki/commit/cea7d12c3e839f5350952e11028021a8f3ca7fbe))",
+      "change_sections": [
+        {
+          "heading": "⚠ BREAKING CHANGES",
+          "items": [
+            "storage: Limit supported S3 storage classes to STANDARD and STANDARD IA ( 26273) [release-4.0.0] ( 26310)"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "compactor: Use main compactor for deletes ( 26305) [release-4.0.0] ( 26311) (1665c02)",
+            "storage: Limit supported S3 storage classes to STANDARD and STANDARD IA ( 26273) [release-4.0.0] ( 26310) (cea7d12)"
+          ]
+        }
+      ],
+      "new_components": []
+    },
+    {
+      "id": "4821bc0a6b32b713f5a1",
+      "title": "Fluent Bit wasm-browser-78911a0ff0594a2198235a96d6048d72909ff041",
+      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-78911a0ff0594a2198235a96d6048d72909ff041",
+      "date": "2026-11-07T13:31:16Z",
+      "project": "Fluent Bit",
+      "source": "GitHub · fluent/fluent-bit",
+      "category": "Release",
+      "version": "wasm-browser-78911a0ff0594a2198235a96d6048d72909ff041",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42376091253\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "change_sections": [],
+      "new_components": []
+    },
+    {
+      "id": "13d502f2fe0b31e9c7c4",
+      "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
+      "summary": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental sustainability. This October, we brought these conversations...",
+      "url": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
+      "date": "2026-11-07T12:30:00+00:00",
+      "project": "CNCF",
+      "source": "CNCF blog",
+      "category": "Article",
+      "content_type": "blog"
+    },
+    {
+      "id": "3883934c8f8147d248e4",
+      "title": "OpenTelemetry Collector Distributions v0.165.0",
+      "summary": "Check the v0.165.0 contrib changelog and the v0.165.0 core changelog for changelogs on specific components.",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.165.0",
+      "date": "2026-11-07T05:02:43Z",
+      "project": "OpenTelemetry Collector Distributions",
+      "source": "GitHub · open-telemetry/opentelemetry-collector-releases",
+      "category": "Release",
+      "version": "v0.165.0",
+      "release_notes": "Check the [v0.165.0 contrib changelog](https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.165.0) and the [v0.165.0 core changelog](https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.165.0) for changelogs on specific components.\r\n\n\n## Changelog\n* b9425f263115f328bc3bd4e65b825101b499f144 Update version to 0.165.0 (#1760)\n* 05ba854be2c25767a5c908723db6e438b264dbde Update OpenTelemetry Collector Components (#1759)\n\n",
+      "change_sections": [
+        {
+          "heading": "Changelog",
+          "items": [
+            "b9425f263115f328bc3bd4e65b825101b499f144 Update version to 0.165.0 ( 1760)",
+            "05ba854be2c25767a5c908723db6e438b264dbde Update OpenTelemetry Collector Components ( 1759)"
+          ]
+        }
+      ],
+      "new_components": []
+    },
+    {
+      "id": "d197c2e234de37648fc3",
+      "title": "Fluent Bit wasm-browser-a88af96c92534e1bb0d585f63e97e41cd543a059",
+      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-a88af96c92534e1bb0d585f63e97e41cd543a059",
+      "date": "2026-11-07T04:49:02Z",
+      "project": "Fluent Bit",
+      "source": "GitHub · fluent/fluent-bit",
+      "category": "Release",
+      "version": "wasm-browser-a88af96c92534e1bb0d585f63e97e41cd543a059",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42338462392\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "change_sections": [],
+      "new_components": []
+    },
+    {
+      "id": "21a5ca3cc3991b2e5bbb",
+      "title": "Fluent Bit wasm-browser-364a2d700a05893618527fff8d4d1f9e5e2e35cd",
+      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-364a2d700a05893618527fff8d4d1f9e5e2e35cd",
+      "date": "2026-11-07T03:34:11Z",
+      "project": "Fluent Bit",
+      "source": "GitHub · fluent/fluent-bit",
+      "category": "Release",
+      "version": "wasm-browser-364a2d700a05893618527fff8d4d1f9e5e2e35cd",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42333135908\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "change_sections": [],
+      "new_components": []
+    },
+    {
+      "id": "32c24edaa648bd442b72",
+      "title": "OpenTelemetry Collector Contrib v0.165.0",
+      "summary": "The OpenTelemetry Collector Contrib contains everything in the opentelemetry-collector release, be sure to check the release notes there as well.",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.165.0",
+      "date": "2026-11-07T02:04:10Z",
+      "project": "OpenTelemetry Collector Contrib",
+      "source": "GitHub · open-telemetry/opentelemetry-collector-contrib",
+      "category": "Release",
+      "version": "v0.165.0",
+      "release_notes": "The OpenTelemetry Collector Contrib contains everything in the [opentelemetry-collector release](https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.165.0), be sure to check the release notes there as well.\r\n\r\n## Unmaintained Components\r\n\r\nThese components are marked as [Unmaintained](https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#unmaintained) and will eventually be removed from our community distributions. If you depend on these components we need your help to support them.\r\n\r\n- exporter/logicmonitor\r\n- receiver/riak\r\n\r\n## End User Changelog\r\n\r\n### 🛑 Breaking changes 🛑\r\n\r\n- `all`: Remove the deprecated SignalFx receiver. Use the OTLP receiver instead. (#51934)\r\n- `connector/service_graph`: Remove deprecated feature gates connector.servicegraph.legacyLatencyMetricNames and connector.servicegraph.legacyLatencyUnitMs (#52246)\r\n- `exporter/signalfx`: Stop producing `disk_ops.total` and `disk_ops.pending` metrics with the default translation rules. (#52729)\r\n  Use `system.disk.operations` instead of `disk_ops.total`. It is sent by default as a cumulative counter, so the per-period\r\n  number of operations on a host can be charted with SignalFlow, for example:\r\n  ```\r\n  data('system.disk.operations', rollup='delta').sum(by=['host.name'])\r\n  ```\r\n  Use `system.disk.pending_operations` instead of `disk_ops.pending`. Both are excluded by default, so replace\r\n  `disk_ops.pending` with `system.disk.pending_operations` in `include_metrics`:\r\n  ```yaml\r\n  exporters:\r\n    signalfx:\r\n      include_metrics:\r\n        - metric_name: system.disk.pending_operations\r\n  ```\r\n  \r\n- `pkg/coreinternal`: Promote internal.coreinternal.goldendataset.EmitV1DatabaseConventions and internal.coreinternal.goldendataset.DontEmitV0DatabaseConventions feature gates from Alpha to Beta. (#52690)\r\n  The gates are now enabled by default, so goldendataset generates db.system.name (semconv v1.40.0)\r\n  instead of the deprecated db.system (semconv v1.28.0). The migration remains reversible by disabling\r\n  the gates.\r\n  \r\n- `pkg/coreinternal`: Promote internal.coreinternal.goldendataset.EmitV1NetworkConventions and internal.coreinternal.goldendataset.DontEmitV0NetworkConventions feature gates to Stable. (#52503)\r\n  The gates can no longer be disabled. goldendataset now always generates `network.local.address`,\r\n  `network.peer.address`, and `server.address`, and no longer generates the deprecated `net.host.ip`,\r\n  `net.peer.ip`, `http.host`, and `http.server_name` attributes.\r\n  \r\n- `pkg/coreinternal`: Promote internal.coreinternal.goldendataset.EmitV1RPCConventions and internal.coreinternal.goldendataset.DontEmitV0RPCConventions feature gates to Stable. (#52219)\r\n  The gates can no longer be disabled. goldendataset now always generates `rpc.method` and\r\n  `service.peer.name`, and no longer generates the deprecated `rpc.service` and `peer.service`\r\n  attributes.\r\n  \r\n- `pkg/jaeger`: Promote \"pkg.translator.jaeger.EmitV1",
+      "change_sections": [
+        {
+          "heading": "Unmaintained Components",
+          "items": [
+            "exporter/logicmonitor",
+            "receiver/riak"
+          ]
+        },
+        {
+          "heading": "🛑 Breaking changes 🛑",
+          "items": [
+            "all: Remove the deprecated SignalFx receiver. Use the OTLP receiver instead. ( 51934)",
+            "connector/service graph: Remove deprecated feature gates connector.servicegraph.legacyLatencyMetricNames and connector.servicegraph.legacyLatencyUnitMs ( 52246)",
+            "exporter/signalfx: Stop producing disk ops.total and disk ops.pending metrics with the default translation rules. ( 52729)",
+            "metric name: system.disk.pending operations"
+          ]
+        },
+        {
+          "heading": "🚩 Deprecations 🚩",
+          "items": [
+            "connector/routing: Stabilizing gate connector.routing.defaultErrorModeIgnore ( 52352)",
+            "processor/resource detection: The system detector adds the os.build id resource attribute and deprecates os.build.id. ( 52806)",
+            "processor/resource detection: Deprecate the azure.resourcegroup.name resource attribute in favor of azure.resource group.name, behind the processor.azuredetector.RenameResourceGroupAttribute feature gate ( 49079)"
+          ]
+        },
+        {
+          "heading": "💡 Enhancements 💡",
+          "items": [
+            "connector/datadog: Use url.template for HTTP client span resource names when it is present. ( 52553)",
+            "connector/span metrics: Reduce consume-path allocations by reusing shared metric keys, avoiding per-event attribute map copies, and filtering resource key attributes without a full map copy. ( 49860)",
+            "exporter/azuredataexplorer: Restore the stability of the exporter from unmaintained to beta ( 52282)",
+            "exporter/clickhouse: Size the ClickHouse client connection pool from sending queue.num consumers by default. ( 52350)"
+          ]
+        },
+        {
+          "heading": "🧰 Bug fixes 🧰",
+          "items": [
+            "cmd/opampsupervisor: Stop losing the last lines of Collector output when passthrough logging is enabled. ( 52675)",
+            "connector/datadog: Update go-sqllexer to v0.2.6 for SQL obfuscation. ( 52553)",
+            "connector/datadog: Fix several APM stats computation issues. ( 52553)",
+            "traces.ignore resources now matches as a regular expression, as documented, instead of by exact name (DataDog/datadog-agent 58619)."
+          ]
+        },
+        {
+          "heading": "🛑 Breaking changes 🛑",
+          "items": [
+            "all: Remove the deprecated SignalFx receiver. Use the OTLP receiver instead. ( 51934)",
+            "processor/resource detection: Change the type of the openshift detector token option to configopaque.String so it is redacted when the configuration is printed. ( 52775)",
+            "processor/transform: Remove the deprecated flatten data config option. Use flatten.log instead. ( 32080)"
+          ]
+        }
+      ],
+      "new_components": []
+    },
+    {
+      "id": "9e1d945b5e5a4a55d65a",
+      "title": "Fluent Bit wasm-browser-a0c6ac530896994398822df052015582e3830243",
+      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
+      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-a0c6ac530896994398822df052015582e3830243",
+      "date": "2026-11-06T23:46:30Z",
+      "project": "Fluent Bit",
+      "source": "GitHub · fluent/fluent-bit",
+      "category": "Release",
+      "version": "wasm-browser-a0c6ac530896994398822df052015582e3830243",
+      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42311502169\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
+      "change_sections": [],
+      "new_components": []
+    },
+    {
+      "id": "ebc4baef43591b20edaa",
+      "title": "OpenTelemetry Collector v0.165.0",
+      "summary": "Images and binaries here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.165.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.165.0",
+      "date": "2026-11-06T23:42:20Z",
+      "project": "OpenTelemetry Collector",
+      "source": "GitHub · open-telemetry/opentelemetry-collector",
+      "category": "Release",
+      "version": "v0.165.0",
+      "release_notes": "### Images and binaries here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.165.0\n\n## End User Changelog\n\n### 🛑 Breaking changes 🛑\n\n- `pkg/confighttp`: Remove deprecated fields `IdleConnTimeout`, `MaxIdleConns`, `MaxIdleConnsPerHost`, `DisableKeepAlives`. (#15973)\n\n### 🚀 New components 🚀\n\n- `pkg/xreceiverhelper`: Add xreceiverhelper with an `ObsReport` that reports profile sample metrics per sample type. (#16251)\n  `ObsReport.EndProfilesOpBySampleType` records the\n  `otelcol_receiver_{accepted,refused,failed}_profile_samples` metrics with an additional\n  `sample_type` attribute, formatted as \"type:unit\", as a single payload can hold multiple profiles\n  with different sample types. Use `ProfileSampleCountsByType` to compute the sample counts before\n  the profiles are passed to the next consumer, as the data may be mutated downstream.\n  The OTLP receiver now uses `EndProfilesOpBySampleType`.\n  \n\n### 💡 Enhancements 💡\n\n- `pkg/configmiddleware`: allow to override the dialer used by confighttp.ToClient and configgrpc.ToClient (#16019)\n- `pkg/featuregate`: Allow underscores in feature gate IDs. (#16243)\n- `pkg/pdata`: Improve performance of pcommon.Map Get, Range, and All functions. (#16282, #16321)\n- `pkg/pdata`: Reduce number of allocations when updating an oneof primitive (#16226)\n- `pkg/service`: Service now supports configuring additional resource detectors for internal telemetry as per the update to otelconf v0.26.0. (#15869)\n- `pkg/service`: Warn at startup when a pipeline combines the batch processor with exporterhelper batching. (#15965)\n  Detection does not cross connectors or inspect exporter wrappers that hide exporterhelper's batching capability.\n- `pkg/xprocessorhelper`: Instrument `xprocessorhelper.NewProfiles` with `otelcol_processor_incoming_items`, `otelcol_processor_outgoing_items`, and `otelcol_processor_internal_duration`, consistent with the other signal constructors. (#15523)\n- `processor/memory_limiter`: Add `garbage_collector` config section to allow disabling forced garbage collection via `enabled` field. (#15081)\n- `processor/queue_batch`: Promote the queue_batch processor to beta for traces, metrics, and logs, and to alpha for profiles. (#12022)\n- `processor/queue_batch`: Report queue and batch metrics as processor metrics (#14038)\n\n### 🧰 Bug fixes 🧰\n\n- `cmd/mdatagen`: Fix panic in `Attribute.TestValue()` and `Attribute.TestValueTwo()` when handling single-element or empty enum attributes. (#15644)\n- `cmd/mdatagen`: Fix generated metrics tests failing when a metric migration's `through_gates` feature gates are promoted past alpha. (#16249)\n  The generated tests now explicitly set the migration feature gates for each test case and restore\n  their previous state on cleanup, instead of assuming the gates are disabled by default.\n  When a gate's stage forbids the state a case needs, such as disabling a stable gate, the metrics-builder\n  test skips only its gate-dependent count and warning asse",
+      "change_sections": [
+        {
+          "heading": "🛑 Breaking changes 🛑",
+          "items": [
+            "pkg/confighttp: Remove deprecated fields IdleConnTimeout, MaxIdleConns, MaxIdleConnsPerHost, DisableKeepAlives. ( 15973)"
+          ]
+        },
+        {
+          "heading": "🚀 New components 🚀",
+          "items": [
+            "pkg/xreceiverhelper: Add xreceiverhelper with an ObsReport that reports profile sample metrics per sample type. ( 16251)"
+          ]
+        },
+        {
+          "heading": "💡 Enhancements 💡",
+          "items": [
+            "pkg/configmiddleware: allow to override the dialer used by confighttp.ToClient and configgrpc.ToClient ( 16019)",
+            "pkg/featuregate: Allow underscores in feature gate IDs. ( 16243)",
+            "pkg/pdata: Improve performance of pcommon.Map Get, Range, and All functions. ( 16282, 16321)",
+            "pkg/pdata: Reduce number of allocations when updating an oneof primitive ( 16226)"
+          ]
+        },
+        {
+          "heading": "🧰 Bug fixes 🧰",
+          "items": [
+            "cmd/mdatagen: Fix panic in Attribute.TestValue() and Attribute.TestValueTwo() when handling single-element or empty enum attributes. ( 15644)",
+            "cmd/mdatagen: Fix generated metrics tests failing when a metric migration's through gates feature gates are promoted past alpha. ( 16249)",
+            "cmd/mdatagen: Generate README configuration docs for exported configs definitions. ( 16164)",
+            "cmd/schemagen: Handle file-not-found errors when loading schemas ( 15925)"
+          ]
+        },
+        {
+          "heading": "🚩 Deprecations 🚩",
+          "items": [
+            "pkg/componentstatus: Deprecate componentstatus.Watcher in favour of extensioncapabilities.ComponentStatusWatcher ( 16304)"
+          ]
+        },
+        {
+          "heading": "🚀 New components 🚀",
+          "items": [
+            "pkg/xreceiverhelper: Add xreceiverhelper with an ObsReport that reports profile sample metrics per sample type. ( 16251)"
+          ]
+        }
+      ],
+      "new_components": []
     },
     {
       "id": "bca347e3f7cf41468c91",
@@ -50,20 +275,6 @@
       "source": "Grafana plugin development community",
       "category": "Community",
       "content_type": "community"
-    },
-    {
-      "id": "d4df990b943d152efb36",
-      "title": "Grafana plugin update: Interactive learning 2.26.0",
-      "summary": "Catalog version changed from 2.25.0 to 2.26.0. Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
-      "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
-      "date": "2026-11-06T16:25:52+00:00",
-      "project": "Grafana plugins",
-      "source": "Grafana public plugin catalog",
-      "category": "Plugin",
-      "version": "2.26.0",
-      "plugin_slug": "grafana-pathfinder-app",
-      "plugin_type": "Application",
-      "repository": "https://github.com/grafana/grafana-pathfinder-app"
     },
     {
       "id": "2ed9ed0aadca2703e8e3",
@@ -101,20 +312,6 @@
       "content_type": "blog"
     },
     {
-      "id": "0b01edea16fa73b0099c",
-      "title": "Grafana plugin update: Finnhub 1.1.0",
-      "summary": "Catalog version changed from 1.0.0 to 1.1.0. Finnhub Data Source",
-      "url": "https://grafana.com/grafana/plugins/clarity89-finnhub-datasource/",
-      "date": "2026-11-06T14:27:10+00:00",
-      "project": "Grafana plugins",
-      "source": "Grafana public plugin catalog",
-      "category": "Plugin",
-      "version": "1.1.0",
-      "plugin_slug": "clarity89-finnhub-datasource",
-      "plugin_type": "Data Source",
-      "repository": "https://github.com/Clarity-89/grafana-finnhub"
-    },
-    {
       "id": "04d0991a1b6030334abd",
       "title": "New data source plugin: n8n (workflow automation), for n8n Cloud and self-hosted",
       "summary": "Hi all, The n8n data source is now in the plugin catalog: n8n plugin for Grafana | Grafana Labs n8n is a workflow automation tool. Until now, monitoring it in Grafana meant scraping its Prometheus endpoint or querying its PostgreSQL database, and neither is possible on n8n Cloud. This plugin uses the n8n public API, so it works for n8n Cloud and self-hosted n8n alike. Backend plugin (Go): the API key stays server-side, works with alerting and Grafana Cloud Query types: executions (table), execution statistics (time series: counts, success/error rate, duration percentiles), workflows, n8n Insights, security audit Template variables for workflows, projects and tags Private Data Source Connect for self-hosted n8n on private networks Bundled dashboard Requires Grafana 13.2+ Code and docs: GitHub - nluecke/grafana-n8n-datasource: Grafana data source for n8n Cloud and self-hosted n8n via the n8n public API: executions, statistics, Insights, alerting, bundled dashboard · GitHub Happy about feedback and issues! 1 post - 1 participant Read full topic",
@@ -124,20 +321,6 @@
       "source": "Grafana plugin development community",
       "category": "Community",
       "content_type": "community"
-    },
-    {
-      "id": "d46eb92154d0263bed00",
-      "title": "Grafana plugin update: ITRS Analytics 3.5.0",
-      "summary": "Catalog version changed from 3.4.2 to 3.5.0. Data source for ITRS Analytics platform",
-      "url": "https://grafana.com/grafana/plugins/itrs-analytics-datasource/",
-      "date": "2026-11-06T12:44:54+00:00",
-      "project": "Grafana plugins",
-      "source": "Grafana public plugin catalog",
-      "category": "Plugin",
-      "version": "3.5.0",
-      "plugin_slug": "itrs-analytics-datasource",
-      "plugin_type": "Data Source",
-      "repository": ""
     },
     {
       "id": "2e5715cffbf7188a5298",
@@ -160,20 +343,6 @@
       "source": "New Relic blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "eac2806ff6607ce1b621",
-      "title": "Fluent Bit wasm-browser-e090fbd054c82ae67f12ebe926600827b6cf5f48",
-      "summary": "Experimental browser SDK from master. Optimized and ASan browser validation passed.",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/wasm-browser-e090fbd054c82ae67f12ebe926600827b6cf5f48",
-      "date": "2026-11-06T00:04:21Z",
-      "project": "Fluent Bit",
-      "source": "GitHub · fluent/fluent-bit",
-      "category": "Release",
-      "version": "wasm-browser-e090fbd054c82ae67f12ebe926600827b6cf5f48",
-      "release_notes": "Experimental browser SDK from master. Optimized and ASan browser validation passed.\nValidation: https://github.com/fluent/fluent-bit/actions/runs/42131734570\nDownload the archive, verify its checksum, and deploy the complete SDK on your application origin.\nHTTPS and COOP/COEP are required. This is not a production support promise.\n",
-      "change_sections": [],
-      "new_components": []
     },
     {
       "id": "5cd9895adb8db1923196",
@@ -289,20 +458,6 @@
       "source": "OpenTelemetry blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "045d109a8a40ba39227e",
-      "title": "New Grafana plugin: n8n",
-      "summary": "Data Source plugin added to the public catalog. Workflow and execution observability for n8n Cloud and self-hosted n8n via the n8n public API (community plugin, not affiliated with n8n GmbH)",
-      "url": "https://grafana.com/grafana/plugins/nluecke-n8n-datasource/",
-      "date": "2026-11-05T15:51:27+00:00",
-      "project": "Grafana plugins",
-      "source": "Grafana public plugin catalog",
-      "category": "Plugin",
-      "version": "1.0.6",
-      "plugin_slug": "nluecke-n8n-datasource",
-      "plugin_type": "Data Source",
-      "repository": "https://github.com/nluecke/grafana-n8n-datasource"
     },
     {
       "id": "3dd911e04ec4136f3536",
@@ -1974,17 +2129,6 @@
       "new_components": []
     },
     {
-      "id": "cb74fa42d60bd41c74aa",
-      "title": "Isolation. Security. Scale.",
-      "summary": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
-      "url": "https://www.cncf.io/blog/2026/10/26/isolation-security-scale/",
-      "date": "2026-10-26T11:30:00+00:00",
-      "project": "CNCF",
-      "source": "CNCF blog",
-      "category": "Article",
-      "content_type": "blog"
-    },
-    {
       "id": "5fa4f1042b8f54c8ae29",
       "title": "Best practices for scaling A/B testing with experiment protocols",
       "summary": "Learn how to standardize A/B testing at scale with experiment protocols. Define metrics, randomization, exposure, and analysis, then reuse them across teams.",
@@ -2350,30 +2494,6 @@
       "new_components": []
     },
     {
-      "id": "6d3876e7ab13a810d07f",
-      "title": "OpenTelemetry Collector Distributions v0.163.2",
-      "summary": "This release updates the binaries' Go version and CA bundle. It fixes 1722.",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.163.2",
-      "date": "2026-10-21T16:22:34Z",
-      "project": "OpenTelemetry Collector Distributions",
-      "source": "GitHub · open-telemetry/opentelemetry-collector-releases",
-      "category": "Release",
-      "version": "v0.163.2",
-      "release_notes": "This release updates the binaries' Go version and CA bundle. It fixes #1722.\r\n\r\nTo see the collector changes in v0.163.x see [v0.163.0](https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.163.0)\r\n\r\n## Changelog\r\n* 6c65793ec707f673304e52dfcb642684fda1a048 [chore] Prepare release 0.163.2 (#1726)\r\n* fb0342cf6d12ea5b95697eb39564fe48b2f407df maint: ensure we use the latest Go and CA bundles (#1723)\r\n* 94fec53ca1bf43dd47f180067db5675328705fde Update golang:1.27-alpine3.23 Docker digest to 895e5fe (#1720)\r\n* 022f62959e0703f56ebe98df8e3801fafb60c17a Update github-actions deps (#1721)\r\n\r\n",
-      "change_sections": [
-        {
-          "heading": "Changelog",
-          "items": [
-            "6c65793ec707f673304e52dfcb642684fda1a048 [chore] Prepare release 0.163.2 ( 1726)",
-            "fb0342cf6d12ea5b95697eb39564fe48b2f407df maint: ensure we use the latest Go and CA bundles ( 1723)",
-            "94fec53ca1bf43dd47f180067db5675328705fde Update golang:1.27-alpine3.23 Docker digest to 895e5fe ( 1720)",
-            "022f62959e0703f56ebe98df8e3801fafb60c17a Update github-actions deps ( 1721)"
-          ]
-        }
-      ],
-      "new_components": []
-    },
-    {
       "id": "397ffa8696a93bbf7f87",
       "title": "Prometheus v3.15.1",
       "summary": "- [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" following the compromise of eMudhra intermediate CA private keys.",
@@ -2450,38 +2570,6 @@
       "new_components": []
     },
     {
-      "id": "afaf708ecf6dd715fd3b",
-      "title": "Fluent Bit v5.1.5",
-      "summary": "https://fluentbit.io/announcements/v5.1.5/",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.5",
-      "date": "2026-10-21T14:34:35Z",
-      "project": "Fluent Bit",
-      "source": "GitHub · fluent/fluent-bit",
-      "category": "Release",
-      "version": "v5.1.5",
-      "release_notes": "https://fluentbit.io/announcements/v5.1.5/\n\n## What's Changed\n* api: v2: trace: plug leaks on trace requests with duplicated parameters by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12569\n* workflows: bump ossf/scorecard-action from 2.4.4 to 2.5.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12578\n* workflows: bump reviewdog/action-actionlint from 1.80.0 to 1.80.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12588\n* release: update to 5.1.5 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12591\n* tests: runtime: out_http: push JSON format records together by @edsiper in https://github.com/fluent/fluent-bit/pull/12600\n* router: apply input routes with a single input and output by @edsiper in https://github.com/fluent/fluent-bit/pull/12596\n* out_cloudwatch_logs: fix log stream leak when group allocation fails by @ParakhJaggi in https://github.com/fluent/fluent-bit/pull/12257\n* in_nginx_exporter_metrics: mitigate nginx plus response type confusion by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12609\n* lua: bound MessagePack reads when pushing values to Lua by @edsiper in https://github.com/fluent/fluent-bit/pull/12597\n* in_forward: mitigate forward trace decoding bypasses by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12615\n* http_server: address cumulative bytes on http2 headers by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12590\n* opentelemetry: in_opentelemetry: log_event_encoder: mitigate otel attributes quadratic encoding expansion by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12603\n* oauth2_jwt: mitigate leaks on duplicated JWT members by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12605\n* out_chronicle: add support for the Chronicle API by @cozybear-dev in https://github.com/fluent/fluent-bit/pull/12548\n* http_client: out_loki: Mitigate crlf injection on HTTP headers by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12613\n* filter_kubernetes: mitigate SEGV occurrences on using Use_Kubelet by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12580\n* out_http: add PATCH as an http method by @cestercian in https://github.com/fluent/fluent-bit/pull/12552\n* out_stackdriver: out_bigquery: out_chronicle: conceal jwt token on debug logs by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12604\n* in_collectd: mitigate collectd unaligned type read by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12606\n* filter_parser: free the previous parse buffer when Key_Name repeats by @cestercian in https://github.com/fluent/fluent-bit/pull/12539\n* out_stackdriver: fix cacheHit copied from cacheLookup in httpRequest by @riccardonar in https://github.com/fluent/fluent-bit/pull/12469\n* snappy: decompression: mitigate checksum fault on snappy decompression by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12614\n* in_tail: fix missed copytruncate after cached size refresh by @edsiper in https://",
-      "change_sections": [
-        {
-          "heading": "What's Changed",
-          "items": [
-            "api: v2: trace: plug leaks on trace requests with duplicated parameters by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12569",
-            "workflows: bump ossf/scorecard-action from 2.4.4 to 2.5.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12578",
-            "workflows: bump reviewdog/action-actionlint from 1.80.0 to 1.80.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12588",
-            "release: update to 5.1.5 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12591"
-          ]
-        },
-        {
-          "heading": "New Contributors",
-          "items": [
-            "@cozybear-dev made their first contribution in https://github.com/fluent/fluent-bit/pull/12548",
-            "@cestercian made their first contribution in https://github.com/fluent/fluent-bit/pull/12552",
-            "@riccardonar made their first contribution in https://github.com/fluent/fluent-bit/pull/12469"
-          ]
-        }
-      ],
-      "new_components": []
-    },
-    {
       "id": "80c39506303e59a3ed02",
       "title": "Prometheus v3.13.5",
       "summary": "- [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" following the compromise of eMudhra intermediate CA private keys.",
@@ -2546,27 +2634,6 @@
             "deps: Update go4.org/netipx digest to 3075585 (release-3.7.x) ( 25390) (24be2f4)",
             "deps: Update k8s.io/utils digest to cf1189d (release-3.7.x) ( 25391) (a5218df)",
             "ingester: Concurrent WAL Append() calls could lead to inconsitent record order and irrecoverable WAL state ( 25125) (72aa93e)"
-          ]
-        }
-      ],
-      "new_components": []
-    },
-    {
-      "id": "cc8ca9afbc766f5886f9",
-      "title": "Loki v3.6.19",
-      "summary": "3.6.19 (2026-10-20)",
-      "url": "https://github.com/grafana/loki/releases/tag/v3.6.19",
-      "date": "2026-10-20T22:36:42Z",
-      "project": "Loki",
-      "source": "GitHub · grafana/loki",
-      "category": "Release",
-      "version": "v3.6.19",
-      "release_notes": "## [3.6.19](https://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20)\n\n\n### Bug Fixes\n\n* **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com/grafana/loki/commit/de41836f1cfe918cc2c053deed98a751a6f639ee))",
-      "change_sections": [
-        {
-          "heading": "Bug Fixes",
-          "items": [
-            "security: Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ( 25457) (de41836)"
           ]
         }
       ],
@@ -2826,38 +2893,6 @@
       "source": "Honeycomb blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "3dbda8d8c469a7800d70",
-      "title": "Fluent Bit v5.1.4",
-      "summary": "https://fluentbit.io/announcements/v5.1.4/",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.4",
-      "date": "2026-10-16T11:49:47Z",
-      "project": "Fluent Bit",
-      "source": "GitHub · fluent/fluent-bit",
-      "category": "Release",
-      "version": "v5.1.4",
-      "release_notes": "https://fluentbit.io/announcements/v5.1.4/\n\n## What's Changed\n* release: update to 5.1.4 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12502\n* github: workflows: require publicly verified release metadata by @edsiper in https://github.com/fluent/fluent-bit/pull/12513\n* workflows: bump reviewdog/action-actionlint from 1.77.0 to 1.79.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12524\n* workflows: bump reviewdog/action-shellcheck from 1.34.0 to 1.34.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12514\n* output: fix failing internal output tests by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12509\n* filter_kubernetes: mitigate unbounded tag issue by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12530\n* in_opentelemetry: mitigate unbounded decompression of otlp gRPC by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12526\n* out_gelf: mitigate stuck issue on exceptions of UDP sockets by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12516\n* rewrite_tag: mitigate dropping metadata on rewrite tag by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12500\n* mp_preflight: in_forward: add object budget of unpacking msgpack objects by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12525\n* tests: integration: cover hot reload with glob includes by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12508\n* stream_processor: fix operator precedence for logical operations by @unitmatrix in https://github.com/fluent/fluent-bit/pull/9388\n* lib: flb_libco: upgrade to 1ae2c7f by @edsiper in https://github.com/fluent/fluent-bit/pull/12536\n* lib: cfl: upgrade to v1.0.2 by @edsiper in https://github.com/fluent/fluent-bit/pull/12537\n* workflows: bump helm/kind-action from 1.15.0 to 1.15.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12542\n* workflows: bump azure/setup-kubectl from 5.1.0 to 5.2.0 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12543\n* lib: zstd: only require a C compiler by @edsiper in https://github.com/fluent/fluent-bit/pull/12538\n* tests: fix signv4 fixtures with raw request targets by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12540\n* packaging: use archived Bullseye repositories by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12545\n* workflows: bump github/codeql-action/upload-sarif from 4.38.2 to 4.38.3 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12561\n* ripser.cpp: initialize temporary diameter entry by @AaronM3-97 in https://github.com/fluent/fluent-bit/pull/12533\n* multiline: enforce multiline_buffer_limit for EQ and ENDSWITH types by @psghahremani in https://github.com/fluent/fluent-bit/pull/12289\n* filter_kubernetes: fix uninitialized mem edge case by @runderwo in https://github.com/fluent/fluent-bit/pull/12078\n* build: enable C++ before configuring zstd with MSVC by @edsiper in https://github.com/fluent/fluent-bit/pull/12566\n* build: Enclos",
-      "change_sections": [
-        {
-          "heading": "What's Changed",
-          "items": [
-            "release: update to 5.1.4 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12502",
-            "github: workflows: require publicly verified release metadata by @edsiper in https://github.com/fluent/fluent-bit/pull/12513",
-            "workflows: bump reviewdog/action-actionlint from 1.77.0 to 1.79.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12524",
-            "workflows: bump reviewdog/action-shellcheck from 1.34.0 to 1.34.1 by @dependabot[bot] in https://github.com/fluent/fluent-bit/pull/12514"
-          ]
-        },
-        {
-          "heading": "New Contributors",
-          "items": [
-            "@unitmatrix made their first contribution in https://github.com/fluent/fluent-bit/pull/9388",
-            "@AaronM3-97 made their first contribution in https://github.com/fluent/fluent-bit/pull/12533",
-            "@psghahremani made their first contribution in https://github.com/fluent/fluent-bit/pull/12289"
-          ]
-        }
-      ],
-      "new_components": []
     },
     {
       "id": "73fc38a7af80a305231a",
@@ -3316,30 +3351,6 @@
       "version": "vdev-v0.3.29",
       "release_notes": "",
       "change_sections": [],
-      "new_components": []
-    },
-    {
-      "id": "03ee4ade9fd4faed601d",
-      "title": "Fluent Bit v5.0.11",
-      "summary": "https://fluentbit.io/announcements/v5.0.11/",
-      "url": "https://github.com/fluent/fluent-bit/releases/tag/v5.0.11",
-      "date": "2026-10-09T15:54:41Z",
-      "project": "Fluent Bit",
-      "source": "GitHub · fluent/fluent-bit",
-      "category": "Release",
-      "version": "v5.0.11",
-      "release_notes": "https://fluentbit.io/announcements/v5.0.11/\n\n## What's Changed\n* release: update to 5.0.11 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12364\n* in_winevtlog: fix crash when all channels are missing and ignore_missing_channels is enabled [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12365\n* packaging: distros: centos: Enable kafka input/output plugins for Stream 9/10 [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12430\n* packaging: distros: almalinux: rockylinux: Install zlib-devel correctly [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12431\n* github: workflows: Use cmake 4.2 and minimum policy [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12523\n\n\n**Full Changelog**: https://github.com/fluent/fluent-bit/compare/v5.0.10...v5.0.11",
-      "change_sections": [
-        {
-          "heading": "What's Changed",
-          "items": [
-            "release: update to 5.0.11 by @github-actions[bot] in https://github.com/fluent/fluent-bit/pull/12364",
-            "in winevtlog: fix crash when all channels are missing and ignore missing channels is enabled [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12365",
-            "packaging: distros: centos: Enable kafka input/output plugins for Stream 9/10 [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12430",
-            "packaging: distros: almalinux: rockylinux: Install zlib-devel correctly [Backport to 5.0] by @cosmo0920 in https://github.com/fluent/fluent-bit/pull/12431"
-          ]
-        }
-      ],
       "new_components": []
     },
     {
@@ -4176,131 +4187,6 @@
       "content_type": "video"
     },
     {
-      "id": "dea6edd25d8e2e591e9b",
-      "title": "OpenTelemetry Collector Contrib v0.161.0",
-      "summary": "The OpenTelemetry Collector Contrib contains everything in the opentelemetry-collector release, be sure to check the release notes there as well.",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector Contrib",
-      "source": "GitHub · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Release",
-      "version": "v0.161.0",
-      "release_notes": "The OpenTelemetry Collector Contrib contains everything in the [opentelemetry-collector release](https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.161.0), be sure to check the release notes there as well.\r\n\r\n## End User Changelog\r\n\r\n### 🛑 Breaking changes 🛑\r\n\r\n- `all`: Remove the deprecated mezmo exporter. (#49953)\r\n  Use the OTLP/HTTP exporter to send logs directly to Mezmo instead. See\r\n  https://docs.mezmo.com/telemetry-pipelines/otel-collector and\r\n  https://docs.mezmo.com/telemetry-pipelines/open-telemetry-source for migration guidance.\r\n  \r\n- `cmd/opampsupervisor`: Deprecate the `reports_remote_config` capability config option. The `accepts_remote_config` option now enables both the AcceptsRemoteConfig and ReportsRemoteConfig OpAMP capabilities. (#49763)\r\n  `reports_remote_config` is still accepted but has no effect. The supervisor logs an error at startup when it is set to `true`.\r\n  Configurations with `accepts_remote_config: true` and `reports_remote_config: false` now report remote config status.\r\n  The option will fail startup in v0.163.0 and be removed in v0.165.0.\r\n  \r\n- `extension/azure_encoding`: Promote extension.azureencoding.DontEmitV0LogConventions and extension.azureencoding.EmitV1LogConventions feature gates to Beta (#50885)\r\n  The gates are now enabled by default, so Azure log records emit the v1 semconv attribute exception.message instead of the deprecated v1.39.0 attribute error.message. Disable both gates to restore the previous behavior.\r\n- `extension/google_cloud_logentry_encoding`: Promote extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions feature gate to Beta (#50879)\r\n  The gate is now enabled by default, so the audit log parser no longer emits the deprecated semconv v1.38.0 attributes rpc.jsonrpc.error_code and rpc.jsonrpc.error_message. It can be disabled to restore the previous behavior.\r\n- `pkg/coreinternal`: Promote internal.coreinternal.goldendataset.DontEmitV0MessagingConventions and internal.coreinternal.goldendataset.EmitV1MessagingConventions feature gates to Beta (#45077)\r\n  Both feature gates should be promoted together as per RFC.\r\n  goldendataset now generates spans with messaging.destination.name (semconv v1.40.0) by default,\r\n  and no longer generates the deprecated messaging.destination (semconv v1.16.0) and\r\n  messaging.destination.kind (semconv v1.19.0) attributes.\r\n  \r\n- `pkg/faro`: Promote `pkg.translator.faro.EmitV1DeploymentEnvironmentConventions` and `pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions` feature gates to beta. (#45074)\r\n  Make faroreceiver emit deployment.environment.name instead of deployment.environment resource attribute by default.\r\n- `pkg/kafka/configkafka`: Reject configurations that set both `auth.sasl` and `auth.kerberos`. (#50748)\r\n- `pkg/ottl`: Promote the `ottl.PanicDuplicateName` feature gate to stable. (#50873)\r\n- `pkg/ottl`: Remove the deprecated `Base64Decode` converter. Use the `Decode` converter with the `",
-      "change_sections": [
-        {
-          "heading": "🛑 Breaking changes 🛑",
-          "items": [
-            "all: Remove the deprecated mezmo exporter. ( 49953)",
-            "cmd/opampsupervisor: Deprecate the reports remote config capability config option. The accepts remote config option now enables both the AcceptsRemoteConfig and ReportsRemoteConfig OpAMP capabilities. ( 49763)",
-            "extension/azure encoding: Promote extension.azureencoding.DontEmitV0LogConventions and extension.azureencoding.EmitV1LogConventions feature gates to Beta ( 50885)",
-            "extension/google cloud logentry encoding: Promote extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions feature gate to Beta ( 50879)"
-          ]
-        },
-        {
-          "heading": "🚀 New components 🚀",
-          "items": [
-            "extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607)",
-            "processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260)",
-            "processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and signs each log record, storing the base64-encoded signature as audit.integrity.value and setting audit.integrity.algorit"
-          ]
-        },
-        {
-          "heading": "💡 Enhancements 💡",
-          "items": [
-            "exporter/datadog: The container.image.tags attribute is now mapped to the image tag attribute ( 50864)",
-            "extension/opamp: Add an opt-in reports raw config setting to additionally report the raw, unexpanded configuration alongside the effective configuration ( 44341)",
-            "internal/healthcheck: Migrate to NotifyConfigSnapshot ( 50924)",
-            "pkg/fileconsumer: Move filelog.mtimeSortType featuregate to beta ( 46635)"
-          ]
-        },
-        {
-          "heading": "🧰 Bug fixes 🧰",
-          "items": [
-            "all: Do not panic on AIX ( 50764)",
-            "connector/datadogconnector",
-            "exporter/datadogexporter",
-            "exporter/pulsarexporter"
-          ]
-        },
-        {
-          "heading": "🛑 Breaking changes 🛑",
-          "items": [
-            "pkg/ottl: Change ConcatArguments.Vals to use ottl.SliceGetter. ( 27821, 38690)",
-            "pkg/ottl: Remove the deprecated Base64Decode converter. Use the Decode converter with the base64 encoding instead. ( 50875)",
-            "pkg/ottl: Rename NewTransformContextPtr to NewTransformContext in all OTTL contexts. ( 50869)",
-            "processor/filter: Removing deprecated funcs ( 50898)"
-          ]
-        },
-        {
-          "heading": "💡 Enhancements 💡",
-          "items": [
-            "extension/datadog: Migrate from NotifyConfig to NotifyConfigSnapshot ( 50928)",
-            "pkg/ottl: Export the SchemaURLItem interface so it can be named by callers of the exported context API. ( 50901)",
-            "pkg/stanza: Add optional server authenticator support to the tcp input operator via a new auth configuration block. ( 49339)"
-          ]
-        }
-      ],
-      "new_components": [
-        {
-          "type": "extension",
-          "name": "sd_notify",
-          "evidence": "- extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607)"
-        },
-        {
-          "type": "processor",
-          "name": "rolling_span_latency",
-          "evidence": "- processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260)"
-        },
-        {
-          "type": "processor",
-          "name": "signing",
-          "evidence": "- processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and signs each log record, storing the base64-encoded signature as audit.integrity.value and setting audit.integrity.algorithm and audit.integrity.certificate as resource attributes. Supports RS256, RS512, ES256, EdDSA, and HMAC-SHA256. ( 50079, 50080)"
-        }
-      ]
-    },
-    {
-      "id": "20f5cb31973b099c8194",
-      "title": "New OTel Collector extension: sd_notify",
-      "summary": "- extension/sd notify: Prepare the initial implementation for sd notify extension. ( 49607)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "extension",
-      "component_name": "sd_notify",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "cef639ae113798f8cad9",
-      "title": "New OTel Collector processor: rolling_span_latency",
-      "summary": "- processor/rolling span latency: Add rollingspanlatencyprocessor. ( 50260)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "processor",
-      "component_name": "rolling_span_latency",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
-      "id": "94a89897762ab0b0fd90",
-      "title": "New OTel Collector processor: signing",
-      "summary": "- processor/signing: Add signingprocessor implementation — computes RFC 8785 (JCS) canonical hash and signs each log record, storing the base64-encoded signature as audit.integrity.value and setting audit.integrity.algorithm and audit.integrity.certificate as resource attributes. Supports RS256, RS512, ES256, EdDSA, and HMAC-SHA256. ( 50079, 50080)",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.161.0",
-      "date": "2026-09-15T15:05:47Z",
-      "project": "OpenTelemetry Collector",
-      "source": "Component announcement · open-telemetry/opentelemetry-collector-contrib",
-      "category": "Component",
-      "version": "v0.161.0",
-      "component_type": "processor",
-      "component_name": "signing",
-      "parent_release": "OpenTelemetry Collector Contrib v0.161.0"
-    },
-    {
       "id": "00986a031df8a915366a",
       "title": "Become the Founding Partner of Grafana Marketplace",
       "summary": "You’re invited to become a Founding Partner of the Grafana Marketplace! What is the Grafana Marketplace? It’s a commercial route for Grafana plugins. You build, sell, and support the plugin; Grafana Labs handles billing, payments, and the commercial relationship with the customer. Every listing is reviewed and signed before it goes live. Your free and open source plugins are unaffected — this is an additional option for those who want to monetize their work, not a replacement. Background on how it works is in the pilot announcement: An early look at the Grafana Marketplace: Expanding the big tent | Grafana Labs What’s the process to apply? Please apply here . What are the terms? You build your Marketplace plugin and provide a EULA and pricing. We publish the plugin to our Plugins Catalog labeled as a “Marketplace plugin,” and interested customers can trial and purchase it. We operate on a revenue-share basis. Founding Partners get a promotional revenue-share rate. We’ll send more detailed information to those who apply. Application deadline: September 30. I don’t think I can make the",
@@ -4688,69 +4574,6 @@
       "source": "VictoriaMetrics blog",
       "category": "Article",
       "content_type": "blog"
-    },
-    {
-      "id": "950a524790c57b32374e",
-      "title": "OpenTelemetry Collector v0.160.0",
-      "summary": "Images and binaries here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.160.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.160.0",
-      "date": "2026-09-02T14:38:58Z",
-      "project": "OpenTelemetry Collector",
-      "source": "GitHub · open-telemetry/opentelemetry-collector",
-      "category": "Release",
-      "version": "v0.160.0",
-      "release_notes": "### Images and binaries here: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.160.0\n\n## End User Changelog\n\n### 🚩 Deprecations 🚩\n\n- `pkg/confighttp`: Deprecate flat keepalive fields in client and server config in favor of the new `keepalive` section. (#14020)\n  The following client configuration fields are deprecated in favor of the `keepalive` section:\n    - `idle_conn_timeout` -> `keepalive::idle_conn_timeout`\n    - `max_idle_conns` -> `keepalive::max_idle_conns`\n    - `max_idle_conns_per_host` -> `keepalive::max_idle_conns_per_host`\n    - `disable_keep_alives: true` -> `keepalive::enabled: false`\n  The following server configuration fields are deprecated in favor of the `keepalive` section:\n    - `idle_timeout` -> `keepalive::idle_timeout`\n    - `keep_alives_enabled: false` -> `keepalive::enabled: false`\n  Deprecated fields set in the configuration keep working exactly as before and produce a\n  deprecation warning when the client or server is created. Setting deprecated fields together\n  with the new `keepalive` section is an error.\n  Code migrating off the deprecated fields can use the new `NewDefaultKeepaliveClientConfig`\n  and `NewDefaultKeepaliveServerConfig` functions to build a `keepalive` section with the\n  default values.\n  \n\n### 💡 Enhancements 💡\n\n- `all`: Bump go version in all go.mod to 1.26.0, drop support on 1.25.0 (#15799)\n- `all`: Declare windows/amd64 tier 1 and windows/arm64 tier 2 support (#15786)\n- `pkg/confmap`: Remove dead `isStringyStructure` helper (unused since (#12793)\n  This is an internal, unexported code path with no user-facing behavior change.\n  \n- `pkg/exporterhelper`: Cache the request size per sizer type so byte-sized batching no longer recomputes the serialized proto size of the whole accumulated batch on every consumed request. (#12636)\n  With `sizer: bytes`, the batcher's MinSize check called `BytesSize()`, which\n  ignored the cached size and re-walked the entire batch's protobuf on every\n  consumed request, making accumulation O(n^2) in the number of merged requests.\n  The size is now cached separately for the bytes and items dimensions and\n  maintained incrementally during merge/split, so the check is O(1). A single\n  untyped cache could not be reused safely because the batcher and the queue may\n  ask for different sizer types on the same request.\n  \n- `processor/memory_limiter`: Only report memory limiter component health status when the health state changes. (#15751)\n\n### 🧰 Bug fixes 🧰\n\n- `cmd/mdatagen`: Allow underscores in feature gate IDs for compatibility with component names with underscores (#15592)\n- `pkg/pprofile`: add bounds checks to FromLocationIndices and switchDictionary (#15697)\n  FromLocationIndices now returns an error instead of panicking on an out-of-range or\n  negative location index, mirroring FromAttributeIndices.\n  The index checks used when merging profiles now also reject negative indices. These\n  were previously reachable with a negative index de",
-      "change_sections": [
-        {
-          "heading": "🚩 Deprecations 🚩",
-          "items": [
-            "pkg/confighttp: Deprecate flat keepalive fields in client and server config in favor of the new keepalive section. ( 14020)",
-            "idle conn timeout -> keepalive::idle conn timeout",
-            "max idle conns -> keepalive::max idle conns",
-            "max idle conns per host -> keepalive::max idle conns per host"
-          ]
-        },
-        {
-          "heading": "💡 Enhancements 💡",
-          "items": [
-            "all: Bump go version in all go.mod to 1.26.0, drop support on 1.25.0 ( 15799)",
-            "all: Declare windows/amd64 tier 1 and windows/arm64 tier 2 support ( 15786)",
-            "pkg/confmap: Remove dead isStringyStructure helper (unused since ( 12793)",
-            "pkg/exporterhelper: Cache the request size per sizer type so byte-sized batching no longer recomputes the serialized proto size of the whole accumulated batch on every consumed request. ( 12636)"
-          ]
-        },
-        {
-          "heading": "🧰 Bug fixes 🧰",
-          "items": [
-            "cmd/mdatagen: Allow underscores in feature gate IDs for compatibility with component names with underscores ( 15592)",
-            "pkg/pprofile: add bounds checks to FromLocationIndices and switchDictionary ( 15697)",
-            "pkg/service: Route OpenTelemetry SDK-internal errors (e.g. failed metric/log/trace exports) through the collector's configured logger instead of the OTel SDK's default global error handler, which always printed to stderr"
-          ]
-        },
-        {
-          "heading": "🛑 Breaking changes 🛑",
-          "items": [
-            "pkg/service: telemetry.Factory.CreateResource and telemetry.CreateResourceFunc now return (pcommon.Resource, string, error) instead of (pcommon.Resource, error) to expose the resource's schema URL. ( 15129)"
-          ]
-        },
-        {
-          "heading": "🚩 Deprecations 🚩",
-          "items": [
-            "pkg/confighttp: Deprecate flat keepalive fields in client and server config in favor of the new keepalive section. ( 14020)",
-            "idle conn timeout -> keepalive::idle conn timeout",
-            "max idle conns -> keepalive::max idle conns",
-            "max idle conns per host -> keepalive::max idle conns per host"
-          ]
-        },
-        {
-          "heading": "💡 Enhancements 💡",
-          "items": [
-            "pkg/component: Add ResourceSchemaURL field to component.TelemetrySettings to expose the collector resource's schema URL to components. ( 15129)",
-            "pkg/exporterhelper: Migrate TimeoutConfig to schema-based configuration generated by mdatagen. ( 15505)"
-          ]
-        }
-      ],
-      "new_components": []
     },
     {
       "id": "57dff99476258d0ed0a7",
