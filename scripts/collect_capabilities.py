@@ -107,16 +107,16 @@ for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTele
       for gate in parse_gate_blocks(content):gates.append((path,gate))
      except Exception as e:print("metadata read error:",repo,ref,str(e)[:100])
    for path,gate in gates:
-    stage=gate["stage"] or "unspecified"
-    desc=gate["description"] or "See the component metadata and linked reference for gate behavior."
+    stage=gate.get("stage") or "unspecified"
+    desc=gate.get("description") or "See the component metadata and linked reference for gate behavior."
     summary=f"{stage.upper()} gate; introduced {gate['from_version'] or 'version unspecified'}. {desc}"
-    if gate["to_version"]:summary+=f" Stage transition/removal version: {gate['to_version']}."
-    gate_url=gate["reference_url"] or f"https://github.com/{owner}/{repo}/blob/{ref}/{path}"
+    if gate.get("to_version"):summary+=f" Stage transition/removal version: {gate.get('to_version')}."
+    gate_url=gate.get("reference_url") or f"https://github.com/{owner}/{repo}/blob/{ref}/{path}"
     items.append({"id":ident(f"otel-gate:{owner}/{repo}:{ref}:{gate['id']}"),
      "title":f"OTel feature gate: {gate['id']} · {label}",
      "summary":summary[:1000],"url":gate_url,"date":None,"project":project,
      "source":f"OpenTelemetry feature-gate metadata · {owner}/{repo}",
-     "category":"Feature gate","feature_gate":gate["id"],"gate_stage":stage,
+     "category":"Feature gate","feature_gate":gate.get("id") or gate.get("name"),"gate_stage":stage,
      "from_version":gate["from_version"],"to_version":gate["to_version"],
      "component_metadata":f"https://github.com/{owner}/{repo}/blob/{ref}/{path}",
      "flag_scope":"--feature-gates","collector_ref":label,"inventory":"versioned metadata.yaml"})
