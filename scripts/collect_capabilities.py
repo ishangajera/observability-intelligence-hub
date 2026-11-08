@@ -73,6 +73,7 @@ for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTele
    if tree.get("truncated"):print("Tree truncated:",repo,ref)
    paths={x.get("path","") for x in tree.get("tree",[])}
    metadata=sorted(p for p in paths if re.match(r"^(receiver|processor|exporter|connector|extension)/[^/]+/metadata\.yaml$",p))
+   gate_metadata=sorted(p for p in paths if p.endswith("/metadata.yaml") and not p.startswith(("cmd/","internal/")))
    components=set()
    for path in metadata:
     m=re.match(r"^(receiver|processor|exporter|connector|extension)/([^/]+)/metadata\.yaml$",path)
@@ -89,7 +90,7 @@ for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTele
     return path,get(f"https://raw.githubusercontent.com/{owner}/{repo}/{ref}/{path}").decode(errors="replace")
    gates=[]
    with ThreadPoolExecutor(max_workers=12) as pool:
-    futures=[pool.submit(read_metadata,p) for p in metadata]
+    futures=[pool.submit(read_metadata,p) for p in gate_metadata]
     for future in as_completed(futures):
      try:
       path,content=future.result()
