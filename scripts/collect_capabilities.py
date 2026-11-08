@@ -32,21 +32,25 @@ except Exception as e:print("Prometheus feature flag inventory error:",str(e)[:1
 # Collector release and current main. metadata.yaml is the source of truth.
 from concurrent.futures import ThreadPoolExecutor,as_completed
 def parse_gate_blocks(text):
- match=re.search(r"(?m)^feature_gates:\s*$",text)
+ match=re.search(r"(?m)^feature_gates:\\s*$",text)
  if not match:return []
- tail=text[match.end():]
- starts=list(re.finditer(r"(?m)^  - (?:id|name):\s*(.+)$",tail))
- out=[]
- for i,m in enumerate(starts):
-  stop=starts[i+1].start() if i+1<len(starts) else len(tail)
-  chunk=tail[m.start():stop]
-  gate=m.group(1).strip().strip(chr(34)+chr(39))
-  def field(name):
-   x=re.search(r"(?m)^    "+re.escape(name)+r":\s*(.*)$",chunk)
-   return x.group(1).strip().strip(chr(34)+chr(39)) if x else ""
-  out.append({"id":gate,"description":field("description"),"stage":field("stage"),
-              "from_version":field("from_version"),"to_version":field("to_version"),
-              "reference_url":field("reference_url")})
+ out=[];current=None;active=""
+ def finish():
+  if current and current.get("id"):out.append(current.copy())
+ for line in text[match.end():].splitlines():
+  item=re.match(r"^- (?:id|name):\\s*(.+)$",line)
+  if item:
+   finish();current={"id":item.group(1).strip().strip(chr(34)+chr(39))};active="";continue
+  if current is None:continue
+  field=re.match(r"^(stage|description|from_version|to_version|reference_url):\\s*(.*)$",line)
+  if field:
+   active=field.group(1);value=field.group(2).strip().strip(chr(34)+chr(39))
+   current[active]=value if value not in (">-","|","") else ""
+  elif active=="description" and line.strip():
+   current["description"]=(current.get("description","")+" "+line.strip()).strip()
+  elif not line.strip():
+   active=""
+ finish()
  return out
 for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTelemetry Collector core"),
                            ("open-telemetry","opentelemetry-collector-contrib","OpenTelemetry Collector contrib")]:
