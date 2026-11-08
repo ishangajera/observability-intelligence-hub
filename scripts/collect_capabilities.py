@@ -130,4 +130,16 @@ unique={x["id"]:x for x in items}
 archive["items"]=sorted(unique.values(),key=lambda x:x.get("date") or "",reverse=True)
 archive["generated_at"]=NOW.isoformat()
 (OUT/"updates.json").write_text(json.dumps(archive,indent=2,ensure_ascii=False))
+meta_path=OUT/"meta.json"
+if meta_path.exists():
+ meta=json.loads(meta_path.read_text());meta["generated_at"]=NOW.isoformat();meta["item_count"]=len(archive["items"])
+ sources=meta.setdefault("sources",[])
+ extras=[
+  {"name":"Prometheus feature flag documentation","project":"Prometheus","type":"feature-flags","url":"https://prometheus.io/docs/prometheus/latest/feature_flags/"},
+  {"name":"Deckhouse Prom++ upstream changelog","project":"Deckhouse Prom++","type":"changelog","url":"https://github.com/deckhouse/prompp/blob/pp/CHANGELOG.md"},
+  {"name":"OpenTelemetry Collector component and feature-gate inventory","project":"OpenTelemetry Collector","type":"component-inventory","url":"https://github.com/open-telemetry/opentelemetry-collector/tree/v0.145.0"},
+  {"name":"OpenTelemetry Collector Contrib component and feature-gate inventory","project":"OpenTelemetry Collector Contrib","type":"component-inventory","url":"https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.145.0"}]
+ known={x.get("name") for x in sources}
+ sources.extend(x for x in extras if x["name"] not in known)
+ meta["item_count"]=len(archive["items"]);(meta_path).write_text(json.dumps(meta,indent=2,ensure_ascii=False))
 print("Capability-enriched archive:",len(archive["items"]),"items")
