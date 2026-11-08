@@ -48,7 +48,7 @@ def parse_gate_blocks(text):
    current[active]=value if value not in (">-","|","") else ""
   elif active=="description" and line.strip():
    current["description"]=(current.get("description","")+" "+line.strip()).strip()
-  elif not line.strip():
+  elif line.strip() and not line.startswith(" "):
    active=""
  finish()
  return out
