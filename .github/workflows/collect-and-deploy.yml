@@ -25,6 +25,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/collect.py
+      - name: Collect feature flags and versioned Collector component inventory
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect_capabilities.py
       - name: Generate editorial triage
         run: python scripts/enrich.py
       - name: Commit refreshed archive
