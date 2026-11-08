@@ -2,6 +2,8 @@ name: Collect signals and deploy Signal Desk
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "data/**"
   workflow_dispatch:
   schedule:
     - cron: "20 13 * * *"
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 concurrency:
   group: signal-desk-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   collect-and-deploy:
     runs-on: ubuntu-latest
@@ -29,6 +31,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/collect_capabilities.py
+      - name: Discover new observability tools and launch signals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m pip install --quiet pyyaml
+          python scripts/discover_tools.py
       - name: Generate editorial triage
         run: python scripts/enrich.py
       - name: Commit refreshed archive
