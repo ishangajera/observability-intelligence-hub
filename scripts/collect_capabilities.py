@@ -32,7 +32,7 @@ except Exception as e:print("Prometheus feature flag inventory error:",str(e)[:1
 # GitHub Releases objects, which may not mirror every tagged changelog entry.
 try:
  changelog=get("https://raw.githubusercontent.com/deckhouse/prompp/pp/CHANGELOG.md").decode(errors="replace")
- heads=list(re.finditer(r"(?m)^## (v[0-9][^ /]*)(?:\\s*/\\s*(\\d{4}-\\d{2}-\\d{2}))?\\s*$",changelog))
+ heads=list(re.finditer(r"(?m)^## (v[0-9][^ /]*)(?:\s*/\s*(\d{4}-\d{2}-\d{2}))?\s*$",changelog))
  for i,h in enumerate(heads[:20]):
   end=heads[i+1].start() if i+1<len(heads) else len(changelog)
   body=changelog[h.end():end].strip()
@@ -44,7 +44,7 @@ try:
    "url":href,"date":date+"T00:00:00+00:00" if date else None,"project":"Deckhouse Prom++",
    "source":"Deckhouse Prom++ upstream CHANGELOG.md","category":"Release","version":version,
    "release_notes":body[:5000],"inventory":"upstream changelog"})
-  flags=set(re.findall(r"(?i)PROMPP_FEATURES\\s*=\\s*([A-Za-z0-9_, -]+)",body))
+  flags=set(re.findall(r"(?i)PROMPP_FEATURES\s*=\s*([A-Za-z0-9_, -]+)",body))
   for flag_list in flags:
    for flag in re.findall(r"[A-Za-z][A-Za-z0-9_]+",flag_list):
     items.append({"id":ident("prompp-feature:"+version+":"+flag),
@@ -59,17 +59,17 @@ except Exception as e:print("Prom++ changelog error:",str(e)[:180])
 # Collector release and current main. metadata.yaml is the source of truth.
 from concurrent.futures import ThreadPoolExecutor,as_completed
 def parse_gate_blocks(text):
- match=re.search(r"(?m)^feature_gates:\\s*$",text)
+ match=re.search(r"(?m)^feature_gates:\s*$",text)
  if not match:return []
  out=[];current=None;active=""
  def finish():
   if current and current.get("id"):out.append(current.copy())
  for line in text[match.end():].splitlines():
-  item=re.match(r"^- (?:id|name):\\s*(.+)$",line)
+  item=re.match(r"^- (?:id|name):\s*(.+)$",line)
   if item:
    finish();current={"id":item.group(1).strip().strip(chr(34)+chr(39))};active="";continue
   if current is None:continue
-  field=re.match(r"^(stage|description|from_version|to_version|reference_url):\\s*(.*)$",line)
+  field=re.match(r"^(stage|description|from_version|to_version|reference_url):\s*(.*)$",line)
   if field:
    active=field.group(1);value=field.group(2).strip().strip(chr(34)+chr(39))
    current[active]=value if value not in (">-","|","") else ""
