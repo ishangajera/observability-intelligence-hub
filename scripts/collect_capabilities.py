@@ -28,6 +28,33 @@ try:
    "feature_flag":name,"flag_scope":"--enable-feature","inventory":"current documentation"})
  print("Prometheus feature flags inventoried")
 except Exception as e:print("Prometheus feature flag inventory error:",str(e)[:180])
+# Prom++ publishes its own changelog on the pp branch; do not rely solely on
+# GitHub Releases objects, which may not mirror every tagged changelog entry.
+try:
+ changelog=get("https://raw.githubusercontent.com/deckhouse/prompp/pp/CHANGELOG.md").decode(errors="replace")
+ heads=list(re.finditer(r"(?m)^## (v[0-9][^ /]*)(?:\\s*/\\s*(\\d{4}-\\d{2}-\\d{2}))?\\s*$",changelog))
+ for i,h in enumerate(heads[:20]):
+  end=heads[i+1].start() if i+1<len(heads) else len(changelog)
+  body=changelog[h.end():end].strip()
+  version,date=h.group(1),h.group(2)
+  first=next((clean(line.lstrip(" -*")) for line in body.splitlines() if clean(line) and not clean(line).startswith("#")),"")
+  href=f"https://github.com/deckhouse/prompp/blob/pp/CHANGELOG.md"
+  items.append({"id":ident("prompp-changelog:"+version),"title":f"Deckhouse Prom++ {version}",
+   "summary":first[:950] or "See the upstream Prom++ changelog for release details.",
+   "url":href,"date":date+"T00:00:00+00:00" if date else None,"project":"Deckhouse Prom++",
+   "source":"Deckhouse Prom++ upstream CHANGELOG.md","category":"Release","version":version,
+   "release_notes":body[:5000],"inventory":"upstream changelog"})
+  flags=set(re.findall(r"(?i)PROMPP_FEATURES\\s*=\\s*([A-Za-z0-9_, -]+)",body))
+  for flag_list in flags:
+   for flag in re.findall(r"[A-Za-z][A-Za-z0-9_]+",flag_list):
+    items.append({"id":ident("prompp-feature:"+version+":"+flag),
+     "title":f"Prom++ feature flag: {flag} · {version}",
+     "summary":f"Flag referenced in Prom++ {version} release notes. Verify whether it is opt-in, default-on, experimental, or deprecated before enabling.",
+     "url":href,"date":date+"T00:00:00+00:00" if date else None,"project":"Deckhouse Prom++",
+     "source":"Deckhouse Prom++ upstream CHANGELOG.md","category":"Feature flag",
+     "feature_flag":flag,"flag_scope":"PROMPP_FEATURES","version":version})
+ print(f"Prom++ changelog: {len(heads[:20])} releases parsed")
+except Exception as e:print("Prom++ changelog error:",str(e)[:180])
 # Compare component inventories and declarative feature gates at a pinned
 # Collector release and current main. metadata.yaml is the source of truth.
 from concurrent.futures import ThreadPoolExecutor,as_completed
