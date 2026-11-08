@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Collect versioned capability inventories and opt-in feature flags."""
-import hashlib,json,re,urllib.request
+import hashlib,json,re,urllib.request,yaml
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/"data"; NOW=datetime.now(timezone.utc)
@@ -58,27 +58,13 @@ except Exception as e:print("Prom++ changelog error:",str(e)[:180])
 # Compare component inventories and declarative feature gates at a pinned
 # Collector release and current main. metadata.yaml is the source of truth.
 from concurrent.futures import ThreadPoolExecutor,as_completed
+def parse_metadata(text):
+ try:return yaml.safe_load(text) or {}
+ except Exception:return {}
 def parse_gate_blocks(text):
- match=re.search(r"(?m)^feature_gates:\s*$",text)
- if not match:return []
- out=[];current=None;active=""
- def finish():
-  if current and current.get("id"):out.append(current.copy())
- for line in text[match.end():].splitlines():
-  item=re.match(r"^\s*-\s*(?:id|name):\s*(.+)$",line)
-  if item:
-   finish();current={"id":item.group(1).strip().strip(chr(34)+chr(39))};active="";continue
-  if current is None:continue
-  field=re.match(r"^\s+(stage|description|from_version|to_version|reference_url):\s*(.*)$",line)
-  if field:
-   active=field.group(1);value=field.group(2).strip().strip(chr(34)+chr(39))
-   current[active]=value if value not in (">-","|","") else ""
-  elif active=="description" and line.strip():
-   current["description"]=(current.get("description","")+" "+line.strip()).strip()
-  elif line.strip() and not line.startswith(" "):
-   active=""
- finish()
- return out
+ doc=parse_metadata(text)
+ gates=doc.get("feature_gates",[]) or []
+ return gates if isinstance(gates,list) else []
 for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTelemetry Collector core"),
                            ("open-telemetry","opentelemetry-collector-contrib","OpenTelemetry Collector contrib")]:
  for ref,label in [("v0.145.0","0.145.0"),("main","main")]:
