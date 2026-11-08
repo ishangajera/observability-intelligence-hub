@@ -19,3 +19,10 @@ GitHub release entries retain a bounded raw release-note excerpt and a parsed he
 
 ## Collection
 The daily GitHub Actions workflow runs scripts/collect.py and scripts/enrich.py, updates data/updates.json, data/meta.json, and data/intelligence.json, then deploys GitHub Pages. RSS/Atom sources, GitHub releases, community posts, and videos are public. No LLM, external AI API, credentials, or private repository data are used. Feed/API errors are logged in workflow output; one failed source does not stop the others.
+
+ 
+## Capability inventories
+- Prometheus feature flags are collected from the official feature-flag documentation, including the `memory-snapshot-on-shutdown` flag (a startup-time optimization enabled at shutdown to accelerate subsequent startup).
+- Deckhouse Prom++ is tracked as its own upstream GitHub project and release stream, in addition to the Deckhouse module release notes.
+- OpenTelemetry Collector core and contrib component directory inventories are captured for the pinned `v0.145.0` source ref and current `main`. This is broader than parsing the newest release notes and makes components already present in an older deployed version discoverable.
+- Component inventory is not a claim that a component ships in every distribution or is enabled at runtime. Review component stability, signal support, distribution manifests, configuration and per-component feature gates in the linked upstream documentation. The inventory is best-effort based on component README paths in the source tree.
