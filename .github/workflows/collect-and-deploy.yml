@@ -46,6 +46,7 @@ jobs:
           git add data/updates.json data/meta.json data/intelligence.json data/plugin_catalog.json data/discovery_state.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh observability signals"
+            git pull --rebase origin main
             git push
           fi
       - name: Configure GitHub Pages
