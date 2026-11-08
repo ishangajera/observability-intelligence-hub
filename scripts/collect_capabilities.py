@@ -44,7 +44,7 @@ try:
    "url":href,"date":date+"T00:00:00+00:00" if date else None,"project":"Deckhouse Prom++",
    "source":"Deckhouse Prom++ upstream CHANGELOG.md","category":"Release","version":version,
    "release_notes":body[:5000],"inventory":"upstream changelog"})
-  flags=set(re.findall(r"(?i)PROMPP_FEATURES\s*=\s*([A-Za-z0-9_, -]+)",body))
+  flags=set(re.findall(r"(?i)PROMPP_FEATURES\s*=\s*([A-Za-z0-9_,-]+)",body))
   for flag_list in flags:
    for flag in re.findall(r"[A-Za-z][A-Za-z0-9_]+",flag_list):
     items.append({"id":ident("prompp-feature:"+version+":"+flag),
