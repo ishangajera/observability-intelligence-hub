@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-11-07T18:04:39.304094+00:00",
+  "generated_at": "2026-11-08T15:17:36.680585+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 504,
+  "item_count": 509,
   "items": {
+    "e1578dde9f018a907f23": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source describes a new capability; assess whether it fills a current operational gap.",
+      "review_actions": [
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Feature",
+          "text": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI Back in July with v2.2, we added support for Windows guests. On November 6, we shipped v2.3 of Lima and now it runs without extra dependencies on Windows: VMs start through the same Host Com"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "317bb2c5d6738301578b": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "dcc88a0312de93f80000": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "4bfb9e62b3a603fe2a2d": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "10e350bae07b50c9a221": {
       "priority": "low",
       "needs_review": false,
@@ -47,16 +100,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "4821bc0a6b32b713f5a1": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "13d502f2fe0b31e9c7c4": {
       "priority": "low",
       "needs_review": false,
@@ -78,16 +121,6 @@
       "method": "transparent-rules"
     },
     "d197c2e234de37648fc3": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "21a5ca3cc3991b2e5bbb": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -138,16 +171,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "9e1d945b5e5a4a55d65a": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "ebc4baef43591b20edaa": {
@@ -1514,6 +1537,59 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "34075cdbbcf5029f97fc": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Assess whether the capability solves an active use case; prototype outside production first.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "is updated to v0.62.0 together with the related `golang.org/x/*` dependencies, including security fixes (#567). 5. **Federation reads the latest samples from the active head again.** Zero-length queries such as `/federate` requests no longer skip"
+        },
+        {
+          "theme": "Performance",
+          "text": "ng empty federation responses introduced by the head time-range optimization (#571). ### Performance 1. **Label matching on persisted blocks allocates less memory.** Matching postings offsets are collected compactly before allocating the exact number"
+        },
+        {
+          "theme": "Feature",
+          "text": "rely because its newest sample predates the query time, fixing empty federation responses introduced by the head time-range optimization (#571). ### Performance 1. **Label matching on persisted blocks allocates less memory.** Matching postings offse"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Deckhouse Prom++ v0.8.18 Fixes ### Fixes 1. **External labels no longer overwrite existing series labels.** Merging external labels for remote write and WAL replay now preserves t"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "f553bfb4a791fefde981": {
       "priority": "medium",
       "needs_review": true,
@@ -2210,16 +2286,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f365b73d89a8de051d3e": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "55f8ef431736ccac2614": {
@@ -3032,6 +3098,49 @@
         {
           "theme": "Bug fix",
           "text": "-2026-111943). #16939 * [BUGFIX] Update `golang.org/x/net` to v0.60.0 for HTTP/2 security fixes. #16832 * [BUGFIX] Upgrade Go to 1.26.9 to address [CVE-2026-56857](https://pkg.go.dev/vuln/GO-2026-6604), [CVE-2026-56866](https://pkg.go.dev/vuln/G"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "f6d0e024fd754d894d53": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source calls out a compatibility or migration concern across versions or integrations.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "failed C++ allocation throws `std::bad_alloc` again.** The jemalloc patch from the GCC 16 migration constructed a `std::bad_alloc` temporary instead of throwing it, so a throwing `operator new` returned `nullptr` on OOM and the failure surfaced late"
+        },
+        {
+          "theme": "Performance",
+          "text": ", so the last float of a truncated chunk could be returned as a valid sample (#549). ### Performance 1. **The active head is skipped for queries outside its time range.** Head time bounds are now maintained incrementally on append, so the active head"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ronous call duration across shards (`prompp_querier_query_shard_stage_*`). The labels are fixed (`source`, `operation`, `stage`), bounding cardinality at 188 series. The stage metrics are off by default and enabled with `PROMPP_FEATURES=enable_q"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -4055,6 +4164,39 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "debcdde5bef4e9730182": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "Deckhouse Prom++ v0.8.16 Features ### Features 1. **Append and WAL latency can now be broken down by stage.** New low-overhead counters report the duration and execution count of caller-side append stages (`prompp_head_appen"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ss\"` contains only the target LSS, so their sum preserves the previous total (#533). ### Fixes 1. **Persisting a head can no longer read a stale chunk iterator after loading the next batch.** The recoder used to position the next batch before `"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "a9a2a1921ff2b0f5a7cc": {
       "priority": "medium",
       "needs_review": true,
@@ -4588,6 +4730,49 @@
         {
           "theme": "Performance",
           "text": "Monitor Databricks with Datadog Learn how to monitor the performance, data quality, and costs of your Databricks analytics and AI/ML workloads with Datadog."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "424260870dae223ee5b4": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source calls out a compatibility or migration concern across versions or integrations.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards.",
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "anged (RFC 4122, 36 characters), so existing heads, catalog records and log files need no migration (#519). 2. **Prom++ can now report that it is running with a feature set other than the expected one.** The new optional `PROMPP_FEATURES_DEFAULT` en"
+        },
+        {
+          "theme": "Performance",
+          "text": "ing GHSA-4p3w-j4w9-5jqw — a path traversal through a crafted non-string locale name. ### Performance 1. **A rotated head no longer carries its ingestion lookup structures until retention.** They are released in two stages, each at the earliest safe p"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "=60m` equals `=1h`, `head_read_concurrency` equals `head_read_concurrency=1` (#523). ### Fixes 1. **A scrape target serving a malformed native histogram over protobuf could crash Prom++.** `ProtobufParser.Histogram()` calls `Compact(0)` before"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -5130,6 +5315,39 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "ac40bccbbf7859825bba": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "rs `410 Gone`. Nothing in the repository ever invoked `mcli` — it was only there to fetch performance-test data by hand. And `re2c` is now pinned to `4.6-1`: the previous pin `4.5.1-1` no longer exists in Debian sid, so apt failed the whole layer. `re"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "Deckhouse Prom++ v0.8.14 Fixes ### Fixes 1. **Go updated to 1.26.8**, closing the seven standard-library advisories `govulncheck` reported against the 1.26.5 toolchain the release"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "361cde75f3df1900eb28": {

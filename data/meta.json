@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T18:04:25.036992+00:00",
-  "item_count": 504,
+  "generated_at": "2026-11-08T15:17:25.266513+00:00",
+  "item_count": 509,
   "sources": [
     {
       "name": "Prometheus blog",
@@ -205,6 +205,12 @@
       "project": "OpenSearch",
       "type": "github",
       "url": "https://github.com/opensearch-project/OpenSearch/releases"
+    },
+    {
+      "name": "deckhouse/prompp releases",
+      "project": "Deckhouse Prom++",
+      "type": "github",
+      "url": "https://github.com/deckhouse/prompp/releases"
     },
     {
       "name": "Grafana public plugin catalog",
