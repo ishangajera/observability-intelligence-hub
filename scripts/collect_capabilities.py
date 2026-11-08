@@ -94,6 +94,16 @@ for owner,repo,project in [("open-telemetry","opentelemetry-collector","OpenTele
     for future in as_completed(futures):
      try:
       path,content=future.result()
+      doc=parse_metadata(content)
+      cm=re.match(r"^(receiver|processor|exporter|connector|extension)/([^/]+)/metadata\.yaml$",path)
+      if cm:
+       component_id=ident(f"otel-inventory:{owner}/{repo}:{ref}:{cm.group(1)}:{cm.group(2)}")
+       status=doc.get("status",{}) or {}
+       for record in items:
+        if record.get("id")==component_id:
+         record["component_stability"]=status.get("stability",{})
+         record["distributions"]=status.get("distributions",[])
+         break
       for gate in parse_gate_blocks(content):gates.append((path,gate))
      except Exception as e:print("metadata read error:",repo,ref,str(e)[:100])
    for path,gate in gates:
