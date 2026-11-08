@@ -65,11 +65,11 @@ def parse_gate_blocks(text):
  def finish():
   if current and current.get("id"):out.append(current.copy())
  for line in text[match.end():].splitlines():
-  item=re.match(r"^- (?:id|name):\s*(.+)$",line)
+  item=re.match(r"^\s*-\s*(?:id|name):\s*(.+)$",line)
   if item:
    finish();current={"id":item.group(1).strip().strip(chr(34)+chr(39))};active="";continue
   if current is None:continue
-  field=re.match(r"^(stage|description|from_version|to_version|reference_url):\s*(.*)$",line)
+  field=re.match(r"^\s+(stage|description|from_version|to_version|reference_url):\s*(.*)$",line)
   if field:
    active=field.group(1);value=field.group(2).strip().strip(chr(34)+chr(39))
    current[active]=value if value not in (">-","|","") else ""
