@@ -115,7 +115,7 @@ extras=[
  {"name":"Product Hunt observability launches (weekly research source)","project":"Emerging observability tools","type":"product-launch-directory","url":"https://www.producthunt.com/categories/observability-tools?order=recent_launches"},
  {"name":"Grafana Labs What’s New","project":"Grafana","type":"product-updates","url":"https://grafana.com/whats-new/"},
  {"name":"OpenTelemetry Collector component catalog","project":"OpenTelemetry","type":"component-catalog","url":"https://opentelemetry.io/docs/collector/components/"},
- {"name":"OpenTelemetry Registry (frozen reference)","project":"OpenTelemetry ecosystem","type":"historical-registry","url":"https://opentelemetry.netlify.app/ecosystem/registry/"}
+ {"name":"OpenTelemetry Registry (frozen reference)","project":"OpenTelemetry ecosystem","type":"historical-registry","url":"https://opentelemetry.netlify.app/ecosystem/registry/"},
  {"name":"Observability Wiki tools directory","project":"Observability ecosystem","type":"ecosystem-directory","url":"https://observability.wiki/tools/"},
  {"name":"Awesome Observability curated repository","project":"Observability ecosystem","type":"curated-directory","url":"https://github.com/adriannovegil/awesome-observability"}]
 known_names={x.get("name") for x in sources};sources.extend(x for x in extras if x["name"] not in known_names)
