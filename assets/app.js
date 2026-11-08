@@ -30,7 +30,7 @@ function draw(){
  let rows=[...items];
  if(view==="overview")rows=rows.slice(0,8);
  if(view==="triage")rows=rows.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category));
- if(view==="releases")rows=rows.filter(x=>["Release","Component","Plugin","Feature flag","Component inventory"].includes(x.category));
+ if(view==="releases")rows=rows.filter(x=>["Release","Component","Plugin","Feature flag","Feature gate","Component inventory"].includes(x.category));
  if(category)rows=rows.filter(x=>x.category===category);
  if(project)rows=rows.filter(x=>x.project===project);
  if(q)rows=rows.filter(x=>[x.title,x.summary,x.project,x.category,x.source,x.version,x.release_notes,triage(x)?.why_it_matters,(triage(x)?.themes||[]).map(t=>t.label).join(" ")].join(" ").toLowerCase().includes(q));
@@ -68,7 +68,7 @@ async function init(){
   ]);
   items=r[0].items||[];meta=r[1];intel=r[2];
   $("#status").textContent="OPERATIONAL";$("#last").textContent=meta.generated_at?"Last sync "+date(meta.generated_at):"Awaiting sync";
-  $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component","Plugin","Feature flag","Component inventory"].includes(x.category)).length;
+  $("#total").textContent=items.length;$("#releases").textContent=items.filter(x=>["Release","Component","Plugin","Feature flag","Feature gate","Component inventory"].includes(x.category)).length;
   $("#sources").textContent=items.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category)).length;
   $("#synced").textContent=meta.generated_at?new Date(meta.generated_at).toLocaleString():"PENDING";
   $("#nav-count").textContent=items.length;$("#triage-count").textContent=items.filter(x=>triage(x)?.needs_review && ["Release","Component","Plugin","Security"].includes(x.category)).length;
