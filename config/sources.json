@@ -111,6 +111,34 @@
       "url": "https://www.splunk.com/page/release_rss",
       "category": "Release",
       "kind": "release-feed"
+    },
+    {
+      "name": "Chronosphere engineering blog",
+      "project": "Chronosphere",
+      "url": "https://chronosphere.io/blog/feed/",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "OpenTelemetry registry",
+      "project": "OpenTelemetry ecosystem",
+      "url": "https://opentelemetry.io/ecosystem/registry/",
+      "category": "Component inventory",
+      "kind": "registry"
+    },
+    {
+      "name": "CNCF announcements",
+      "project": "CNCF",
+      "url": "https://www.cncf.io/blog/feed/",
+      "category": "Article",
+      "kind": "community"
+    },
+    {
+      "name": "Grafana Labs product updates",
+      "project": "Grafana",
+      "url": "https://grafana.com/whats-new/",
+      "category": "Release",
+      "kind": "product-updates"
     }
   ],
   "repos": [
