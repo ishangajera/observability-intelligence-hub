@@ -203,6 +203,11 @@
       "owner": "opensearch-project",
       "repo": "OpenSearch",
       "project": "OpenSearch"
+    },
+    {
+      "owner": "deckhouse",
+      "repo": "prompp",
+      "project": "Deckhouse Prom++"
     }
   ]
 }
