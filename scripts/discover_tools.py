@@ -15,7 +15,7 @@ def fetch(url,accept="application/json"):
  if os.getenv("GITHUB_TOKEN") and "api.github.com" in url:headers["Authorization"]="Bearer "+os.environ["GITHUB_TOKEN"]
  req=urllib.request.Request(url,headers=headers)
  with urllib.request.urlopen(req,timeout=35) as r:return r.read()
-def clean(s):return re.sub(r"\\s+"," ",re.sub(r"<[^>]+>"," ",str(s or ""))).strip()
+def clean(s):return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",str(s or ""))).strip()
 state=json.loads(STATE.read_text()) if STATE.exists() else {"cncf":{},"github":{},"hn":{}}
 first=not STATE.exists();events=[];archive=json.loads(ARCHIVE.read_text());items=archive.get("items",[])
 def add(key,title,summary,url,project,source,date=None,extra=None):
@@ -70,7 +70,7 @@ for q in queries:
      "description":clean(repo.get("description","")),"created_at":repo.get("created_at"),
      "pushed_at":repo.get("pushed_at"),"stars":repo.get("stargazers_count",0),
      "topics":repo.get("topics",[])}
-   if full not in known and not first:
+   if full not in known and (not first or (record["created_at"] and datetime.fromisoformat(record["created_at"].replace("Z","+00:00"))>=NOW-timedelta(days=14))):
     add("github-discovery:"+full,"New observability project candidate: "+record["full_name"],
       f"{record['description']} Created {record['created_at']}; {record['stars']} GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a product launch.",
       record["url"],"Emerging observability tools","GitHub repository discovery",record["created_at"],
@@ -89,7 +89,7 @@ for term in ["observability","OpenTelemetry","Prometheus monitoring","Grafana pl
    oid=hit.get("objectID");title=clean(hit.get("title",""))
    if not oid or not title:continue
    old=hn.get(oid)
-   if old is None and not first:
+   if old is None and (not first or (hit.get("created_at_i") and int(hit["created_at_i"])>=int((NOW-timedelta(days=7)).timestamp()))):
     link=hit.get("url") or "https://news.ycombinator.com/item?id="+oid
     add("hn-discovery:"+oid,"Community launch signal: "+title,
       f"Hacker News discussion with {hit.get('points',0)} points and {hit.get('num_comments',0)} comments. Treat as a discovery lead; verify the product and its primary repository/site before adding it to the tracked ecosystem.",
@@ -101,7 +101,7 @@ for term in ["observability","OpenTelemetry","Prometheus monitoring","Grafana pl
 # retain a source record even if its HTML representation changes.
 try:
  html=fetch("https://www.producthunt.com/categories/observability-tools?order=recent_launches","text/html").decode(errors="replace")
- names=set(re.findall(r'"name"\\s*:\\s*"([^"]{2,100})"[^{}]{0,500}?"url"\\s*:\\s*"(/posts/[^"]+)"',html))
+ names=set(re.findall(r'"name"\s*:\s*"([^"]{2,100})"[^{}]{0,500}?"url"\s*:\s*"(/posts/[^"]+)"',html))
  ph=state.setdefault("producthunt",{})
  for name,path in names:
   slug=path.rsplit("/",1)[-1];key=slug.lower()
