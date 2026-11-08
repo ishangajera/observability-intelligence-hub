@@ -5,7 +5,7 @@ from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/"data"; NOW=datetime.now(timezone.utc)
 def get(url):
- req=urllib.request.Request(url,headers={"User-Agent":"SignalDesk-Observability-Intelligence/3.0","Accept":"application/vnd.github+json"})
+ req=urllib.request.Request(url,headers={"User-Agent":"SignalDesk-Observability-Intelligence/3.0","Accept":"application/vnd.github+json",**({"Authorization":"Bearer "+__import__("os").environ["GITHUB_TOKEN"]} if __import__("os").environ.get("GITHUB_TOKEN") else {})})
  with urllib.request.urlopen(req,timeout=45) as r:return r.read()
 def ident(s):return hashlib.sha256(s.encode()).hexdigest()[:20]
 def clean(s):return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",s or "")).strip()
@@ -40,10 +40,10 @@ def parse_gate_blocks(text):
  for i,m in enumerate(starts):
   stop=starts[i+1].start() if i+1<len(starts) else len(tail)
   chunk=tail[m.start():stop]
-  gate=m.group(1).strip().strip("\\"'")
+  gate=m.group(1).strip().strip(chr(34)+chr(39))
   def field(name):
    x=re.search(r"(?m)^    "+re.escape(name)+r":\s*(.*)$",chunk)
-   return x.group(1).strip().strip("\\"'") if x else ""
+   return x.group(1).strip().strip(chr(34)+chr(39)) if x else ""
   out.append({"id":gate,"description":field("description"),"stage":field("stage"),
               "from_version":field("from_version"),"to_version":field("to_version"),
               "reference_url":field("reference_url")})
