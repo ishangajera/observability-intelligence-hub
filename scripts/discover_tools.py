@@ -97,22 +97,7 @@ for term in ["observability","OpenTelemetry","Prometheus monitoring","Grafana pl
       {"hn_id":oid,"points":hit.get("points",0),"comments":hit.get("num_comments",0),"discovery_method":"Hacker News"})
    hn[oid]={"title":title,"points":hit.get("points",0),"url":hit.get("url")}
  except Exception as e:print("Hacker News discovery error:",term,str(e)[:130])
-# 4. Product Hunt category is included as a launch radar. Its page is dynamic;
-# retain a source record even if its HTML representation changes.
-try:
- html=fetch("https://www.producthunt.com/categories/observability-tools?order=recent_launches","text/html").decode(errors="replace")
- names=set(re.findall(r'"name"\s*:\s*"([^"]{2,100})"[^{}]{0,500}?"url"\s*:\s*"(/posts/[^"]+)"',html))
- ph=state.setdefault("producthunt",{})
- for name,path in names:
-  slug=path.rsplit("/",1)[-1];key=slug.lower()
-  if key not in ph and not first:
-   add("producthunt:"+key,"Product Hunt observability launch: "+clean(name),
-     "New listing surfaced in Product Hunt's Observability Tools category. Validate launch date, product status, technical scope, and primary source before adding to the tracked project set.",
-     "https://www.producthunt.com"+path,"Emerging observability tools","Product Hunt · Observability Tools",NOW.isoformat(),
-     {"discovery_method":"Product Hunt"})
-  ph[key]=clean(name)
- print("Product Hunt listings parsed:",len(names))
-except Exception as e:print("Product Hunt discovery page error:",str(e)[:140])
+# Product Hunt is a weekly research lead; its category page blocks automated requests (403).
 # Keep a bounded, deduplicated archive. Persist state only after successful parsing.
 unique={x["id"]:x for x in items}
 for x in events:unique[x["id"]]=x
