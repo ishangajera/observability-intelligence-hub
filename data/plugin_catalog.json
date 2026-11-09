@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:23:59.949452+00:00",
+  "generated_at": "2026-11-09T19:01:54.214776+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.5",
+      "version": "2.1.7",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-05T09:43:37.000Z"
+      "updated_at": "2026-11-09T12:04:51.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -413,7 +413,7 @@
     },
     "grafana-timestream-datasource": {
       "name": "Amazon Timestream",
-      "version": "2.14.5",
+      "version": "2.14.6",
       "type": "Data Source",
       "description": "Managed timeseries database from amazon",
       "url": "https://grafana.com/grafana/plugins/grafana-timestream-datasource/",
@@ -503,7 +503,7 @@
     },
     "grafana-astradb-datasource": {
       "name": "AstraDB",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "type": "Data Source",
       "description": "AstraDB datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-astradb-datasource/",
@@ -1301,6 +1301,16 @@
       "created_at": "2022-12-21T09:24:16.000Z",
       "updated_at": "2026-01-28T14:53:27.000Z"
     },
+    "endoflifeai-eol-datasource": {
+      "name": "endoflife.ai EOL",
+      "version": "1.0.5",
+      "type": "Data Source",
+      "description": "Query end-of-life dates and EOL Risk Scores for 700+ software products from endoflife.ai, as tables you can use in any Grafana panel.",
+      "url": "https://grafana.com/grafana/plugins/endoflifeai-eol-datasource/",
+      "repository": "",
+      "created_at": "2026-11-06T10:26:29.000Z",
+      "updated_at": "2026-11-09T16:26:02.000Z"
+    },
     "larona-epict-panel": {
       "name": "ePict Panel",
       "version": "2.0.6",
@@ -1903,13 +1913,13 @@
     },
     "grafana-pathfinder-app": {
       "name": "Interactive learning",
-      "version": "2.26.0",
+      "version": "2.26.1",
       "type": "Application",
       "description": "Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
       "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
       "repository": "https://github.com/grafana/grafana-pathfinder-app",
       "created_at": "2025-10-13T11:29:42.000Z",
-      "updated_at": "2026-11-06T16:25:52.000Z"
+      "updated_at": "2026-11-09T12:22:06.000Z"
     },
     "equansdatahub-tree-panel": {
       "name": "Interactive Tree Panel",
@@ -2753,7 +2763,7 @@
     },
     "grafana-postgresql-datasource": {
       "name": "PostgreSQL",
-      "version": "13.0.6",
+      "version": "13.0.7",
       "type": "Data Source",
       "description": "Data source for PostgreSQL and compatible databases",
       "url": "https://grafana.com/grafana/plugins/grafana-postgresql-datasource/",
