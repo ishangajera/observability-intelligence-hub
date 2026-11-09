@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-11-09",
+  "release_tag": "v3.16.0",
+  "released_feature_flags": [
+    {
+      "id": "concurrent-rule-eval",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "created-timestamp-zero-ingestion",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "delayed-compaction",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "exemplar-storage",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "extra-scrape-metrics",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "histograms-st-encoding",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "memory-snapshot-on-shutdown",
+      "enabled_by_default": false,
+      "first_verified_version": "v2.30.0 (absent in v2.29.0; first verified, not commit-level proof)"
+    },
+    {
+      "id": "metadata-wal-records",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "old-ui",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "openmetrics2",
+      "enabled_by_default": false,
+      "first_verified_version": "v3.15.0 (present in v3.15.0, absent in v3.14.0)"
+    },
+    {
+      "id": "otlp-deltatocumulative",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "otlp-native-delta-ingestion",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-binop-fill-modifiers",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-delayed-name-removal",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-experimental-functions",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-extended-range-selectors",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-per-step-stats",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "promql-unquoted-utf8-names",
+      "enabled_by_default": false,
+      "first_verified_version": "v3.16.0"
+    },
+    {
+      "id": "query-cost",
+      "enabled_by_default": false,
+      "first_verified_version": "v3.16.0"
+    },
+    {
+      "id": "search-api",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "st-storage",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "st-synthesis",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "type-and-unit-labels",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "use-start-timestamps",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "use-uncached-io",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "xor2-encoding",
+      "enabled_by_default": false,
+      "first_verified_version": "not reconstructed in this run"
+    },
+    {
+      "id": "zstd-scrape",
+      "enabled_by_default": false,
+      "first_verified_version": "v3.15.0 (present in v3.15.0, absent in v3.14.0)"
+    }
+  ],
+  "current_main_flags": [
+    "concurrent-rule-eval",
+    "created-timestamp-zero-ingestion",
+    "delayed-compaction",
+    "exemplar-storage",
+    "extra-scrape-metrics",
+    "histograms-st-encoding",
+    "memory-snapshot-on-shutdown",
+    "metadata-wal-records",
+    "old-ui",
+    "openmetrics2",
+    "otlp-deltatocumulative",
+    "otlp-native-delta-ingestion",
+    "promql-binop-fill-modifiers",
+    "promql-delayed-name-removal",
+    "promql-experimental-functions",
+    "promql-extended-range-selectors",
+    "promql-native-histograms-as-classic",
+    "promql-per-step-stats",
+    "promql-unquoted-utf8-names",
+    "query-cost",
+    "search-api",
+    "st-storage",
+    "st-synthesis",
+    "type-and-unit-labels",
+    "use-start-timestamps",
+    "use-uncached-io",
+    "xor2-encoding",
+    "zstd-scrape"
+  ],
+  "main_only_vs_v3_16": [
+    "promql-native-histograms-as-classic"
+  ],
+  "known_lifecycle": {
+    "extra-scrape-metrics": "deprecated in v3.16.0 docs; prefer extra_scrape_metrics configuration",
+    "promql-extended-range-selectors": "no-op in v3.16.0 after anchored/smoothed selectors became stable and always-on",
+    "memory-snapshot-on-shutdown": "disabled by default; present since at least v2.30.0 and still present in v3.16.0"
+  },
+  "separate_remote_write_option": {
+    "id": "convert_nhcb_to_classic",
+    "status": "experimental in v3.16.0 release notes; not an --enable-feature gate",
+    "purpose": "convert native histograms with custom buckets to classic histograms for external systems"
+  },
+  "source_urls": [
+    "https://github.com/prometheus/prometheus/blob/v3.16.0/docs/feature_flags.md",
+    "https://github.com/prometheus/prometheus/blob/main/docs/feature_flags.md",
+    "https://github.com/prometheus/prometheus/blob/v2.30.0/docs/feature_flags.md",
+    "https://github.com/prometheus/prometheus/blob/v2.29.0/docs/feature_flags.md"
+  ]
+}
