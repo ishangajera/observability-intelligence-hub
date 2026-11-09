@@ -125,6 +125,34 @@
       "url": "https://www.cncf.io/blog/feed/",
       "category": "Article",
       "kind": "community"
+    },
+    {
+      "name": "Google Cloud Containers & Kubernetes blog",
+      "project": "Google Cloud · GKE/Kubernetes",
+      "url": "https://cloudblog.withgoogle.com/products/containers-kubernetes/rss/",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "Google Cloud Blog",
+      "project": "Google Cloud",
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "category": "Article",
+      "kind": "blog"
+    },
+    {
+      "name": "Google Cloud Platform release notes",
+      "project": "Google Cloud Platform",
+      "url": "https://cloud.google.com/feeds/gcp-release-notes.xml",
+      "category": "Release",
+      "kind": "product-updates"
+    },
+    {
+      "name": "Google Kubernetes Engine release notes",
+      "project": "Google Kubernetes Engine",
+      "url": "https://cloud.google.com/feeds/gke-main-release-notes.xml",
+      "category": "Release",
+      "kind": "product-updates"
     }
   ],
   "repos": [
