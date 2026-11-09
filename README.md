@@ -6,7 +6,8 @@ Public, automatically refreshed observability engineering intelligence dashboard
 - Upstream releases across Prometheus, OpenTelemetry, Grafana, Loki, Tempo, Mimir, Alloy, VictoriaMetrics, Thanos, Jaeger, Fluent Bit, Vector, Cilium, OpenSearch and related projects.
 - OpenTelemetry Collector core, contrib, distribution, and operator releases.
 - New Collector receivers, processors, exporters, connectors, and extensions identified in release-note sections.
-- Technical articles, blog posts, product updates, and security bulletins from Prometheus, OpenTelemetry, Grafana Labs, CNCF, Datadog, New Relic, Honeycomb, Elastic, VictoriaMetrics, Isovalent/Cilium, and Splunk.
+- Technical articles, blog posts, product updates, and security bulletins from Prometheus, OpenTelemetry, Grafana Labs, CNCF, Google Cloud (including the Containers & Kubernetes/GKE blog), Datadog, New Relic, Honeycomb, Elastic, VictoriaMetrics, Isovalent/Cilium, and Splunk.
+- Google Cloud Platform and GKE release-note feeds, alongside Google Cloud engineering articles, so product announcements and operational guidance are both monitored.
 - Grafana plugin-development community announcements, plus daily catalog-diff detection for newly listed plugins and version changes.
 - The public Grafana plugin catalog, with a daily baseline and subsequent new-plugin/version-change detection. Grafana's What's New page is included as a product-update research source.
 - Videos from the official OpenTelemetry and CNCF YouTube channels.
