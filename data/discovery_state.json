@@ -7175,7 +7175,7 @@
       "url": "https://github.com/Putnami/putnami",
       "description": "Putnami: a deterministic, observable workspace toolchain and application framework for Go, TypeScript and Python.",
       "created_at": "2026-10-01T12:14:57Z",
-      "pushed_at": "2026-11-09T18:57:57Z",
+      "pushed_at": "2026-11-09T19:53:04Z",
       "stars": 9,
       "topics": [
         "build-system",
@@ -7214,7 +7214,7 @@
       "url": "https://github.com/passioncode-ai/project-observatory-dashboard",
       "description": "Project Observatory by PassionCode.ai — a local dashboard and Mac app for the projects your agents work on: Git activity, findings, agent memory over MCP and known-key exposure. Signed releases that update themselves. AGPL-3.0 or commercial.",
       "created_at": "2026-09-21T10:04:49Z",
-      "pushed_at": "2026-11-09T18:08:28Z",
+      "pushed_at": "2026-11-09T19:58:48Z",
       "stars": 3,
       "topics": [
         "agent-memory",
@@ -7237,7 +7237,7 @@
       "url": "https://github.com/temet-ai/mike",
       "description": "A tool to know what claude is doing and remember what you did when you did it.",
       "created_at": "2026-11-06T09:11:20Z",
-      "pushed_at": "2026-11-09T18:56:49Z",
+      "pushed_at": "2026-11-09T19:53:42Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -7297,7 +7297,7 @@
       "url": "https://github.com/WizisCool/oh-my-cpa",
       "description": "Self-hosted control plane & usage observability console for CLIProxyAPI (CPA) — AI providers, client keys, streaming telemetry, and model cost snapshots.",
       "created_at": "2026-09-12T10:27:41Z",
-      "pushed_at": "2026-11-09T18:50:40Z",
+      "pushed_at": "2026-11-09T19:32:59Z",
       "stars": 350,
       "topics": [
         "ai-gateway",
@@ -7351,7 +7351,7 @@
       "url": "https://github.com/genaforvena/mishe-tauftauf",
       "description": "A small, plantable (parasitic but only in a good sense kefir) culture for development through self-observation.",
       "created_at": "2026-09-22T21:53:42Z",
-      "pushed_at": "2026-11-09T19:01:18Z",
+      "pushed_at": "2026-11-09T19:38:22Z",
       "stars": 3,
       "topics": [
         "agentic-ai",
@@ -8643,7 +8643,7 @@
       "url": "https://github.com/mutuiris/mbiu",
       "description": "Helps Kenyan musicians understand a music contract before they sign: clause-by-clause comparison with reviewed standard templates, in plain language. Not legal advice.",
       "created_at": "2026-10-19T20:24:58Z",
-      "pushed_at": "2026-11-09T15:48:17Z",
+      "pushed_at": "2026-11-09T19:56:39Z",
       "stars": 4,
       "topics": [
         "artists",
@@ -9327,7 +9327,7 @@
       "url": "https://github.com/damikun/inngest-dotnet",
       "description": "Inngest SDK for .NET. Write Inngest functions as plain C# classes in your ASP.NET Core app, with realtime updates and the .NET ecosystem you already use. .NET 8 and 10, Native AOT.",
       "created_at": "2026-10-29T10:34:26Z",
-      "pushed_at": "2026-11-09T18:20:04Z",
+      "pushed_at": "2026-11-09T19:21:00Z",
       "stars": 3,
       "topics": [
         "aspnetcore",
@@ -9462,7 +9462,7 @@
       "url": "https://github.com/msx752/SharpTicker",
       "description": "Background job scheduling for .NET: one-off and cron jobs with source-generated registration, pluggable persistence (EF Core, MongoDB, Redis) and a built-in real-time dashboard.",
       "created_at": "2026-10-30T11:37:04Z",
-      "pushed_at": "2026-11-09T14:27:10Z",
+      "pushed_at": "2026-11-09T19:50:33Z",
       "stars": 10,
       "topics": [
         "aspnetcore",
@@ -9810,7 +9810,7 @@
       "url": "https://github.com/gigaverse-app/ci-esta",
       "description": "GitHub Actions optimization and CI observability: reuse proven validation, measure latency and runner cost, keep merge gates honest.",
       "created_at": "2026-10-22T19:21:58Z",
-      "pushed_at": "2026-11-09T18:50:11Z",
+      "pushed_at": "2026-11-09T20:00:42Z",
       "stars": 2,
       "topics": [
         "ci-cd",
@@ -9906,7 +9906,7 @@
       "url": "https://github.com/GRUPOMORAESIMOVEIS/Lua-Polymorph-VM-Forge",
       "description": "Fast Roblox Lua Obfuscator VM 2026 Custom Bytecode CFF High Performance",
       "created_at": "2026-09-22T19:19:10Z",
-      "pushed_at": "2026-11-09T08:58:29Z",
+      "pushed_at": "2026-11-09T19:37:03Z",
       "stars": 68,
       "topics": [
         "anti-tamper",
@@ -11108,7 +11108,7 @@
       "url": "https://github.com/Nikolai752/nightfall-openwrt",
       "description": "Тема в стиле Windows 11 / Liquid Glass и монитор ресурсов для LuCI на OpenWrt 25.12",
       "created_at": "2026-11-01T21:25:18Z",
-      "pushed_at": "2026-11-09T14:47:08Z",
+      "pushed_at": "2026-11-09T20:05:31Z",
       "stars": 10,
       "topics": [
         "dark-theme",
@@ -11414,7 +11414,7 @@
       "url": "https://github.com/charlieh0tel/smartclock",
       "description": "HP / Agilent / Symmetricom SmartClock GPS receivers: reverse engineering and monitoring",
       "created_at": "2026-09-21T03:43:17Z",
-      "pushed_at": "2026-11-09T18:58:38Z",
+      "pushed_at": "2026-11-09T20:00:09Z",
       "stars": 6,
       "topics": [
         "gps",
@@ -11431,7 +11431,7 @@
       "description": "Your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero tokens.",
       "created_at": "2026-10-10T07:48:17Z",
       "pushed_at": "2026-11-09T12:20:47Z",
-      "stars": 353,
+      "stars": 354,
       "topics": [
         "ai-agents",
         "claude",
@@ -11525,7 +11525,7 @@
       "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
       "created_at": "2026-11-05T16:16:41Z",
       "pushed_at": "2026-11-06T15:58:11Z",
-      "stars": 1316,
+      "stars": 1344,
       "topics": [
         "bash",
         "cron",
@@ -12092,7 +12092,7 @@
       "url": "https://github.com/Peters-Development/herdbook",
       "description": "A self-hosted logbook for the applications, servers and domains you look after: uptime checks, incidents, runbooks, renewals and costs in one place.",
       "created_at": "2026-10-25T05:50:30Z",
-      "pushed_at": "2026-11-09T19:00:57Z",
+      "pushed_at": "2026-11-09T19:53:00Z",
       "stars": 6,
       "topics": [
         "docker",
@@ -12117,8 +12117,8 @@
       "url": "https://github.com/cronwatchdev/cronwatch",
       "description": "CronWatch records every run of your scheduled jobs in your own database, and speaks up when one is missed, fails, gets stuck, runs slow or costs too much. CronWatch is free and open-source.",
       "created_at": "2026-09-26T12:07:29Z",
-      "pushed_at": "2026-11-02T23:34:00Z",
-      "stars": 24,
+      "pushed_at": "2026-11-09T19:59:03Z",
+      "stars": 25,
       "topics": [
         "api",
         "cli",
@@ -12526,7 +12526,7 @@
       "url": "https://github.com/jxhnch/EtsNowPlaying",
       "description": "Now Playing screen for the cabin of ETS2/ATS: in-game radio (song, artist, cover) and Spotify on the truck's GPS display",
       "created_at": "2026-10-23T13:53:16Z",
-      "pushed_at": "2026-11-09T18:58:39Z",
+      "pushed_at": "2026-11-09T19:18:58Z",
       "stars": 7,
       "topics": [
         "american-truck-simulator",
@@ -13479,7 +13479,7 @@
       "url": "https://github.com/contrafy/tern-grafana",
       "description": "Grafana and Prometheus in the Tern terminal: native dashboards, PromQL, alerts and silences, logs, traces, and lenses for promtool, amtool and logcli.",
       "created_at": "2026-10-09T19:51:46Z",
-      "pushed_at": "2026-11-09T18:36:13Z",
+      "pushed_at": "2026-11-09T19:59:50Z",
       "stars": 12,
       "topics": [
         "alertmanager",
@@ -13498,7 +13498,7 @@
       "url": "https://github.com/jackulau/coding.sh",
       "description": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
       "created_at": "2026-11-07T02:57:14Z",
-      "pushed_at": "2026-11-09T18:31:06Z",
+      "pushed_at": "2026-11-09T19:32:41Z",
       "stars": 3,
       "topics": [
         "agent-evals",
@@ -14000,7 +14000,7 @@
       "url": "https://github.com/cedricziel/hermes-app",
       "description": "Unofficial Flutter client for a self-hosted Hermes Agent dashboard. iOS, iPadOS, macOS and Android.",
       "created_at": "2026-09-18T23:13:14Z",
-      "pushed_at": "2026-11-09T06:26:44Z",
+      "pushed_at": "2026-11-09T19:59:34Z",
       "stars": 3,
       "topics": [
         "ai-agent",
@@ -14331,6 +14331,26 @@
         "self-hosted",
         "sql",
         "telemetry"
+      ]
+    },
+    "theagenthealth/agenthealth": {
+      "name": "agenthealth",
+      "full_name": "TheAgentHealth/agenthealth",
+      "url": "https://github.com/TheAgentHealth/agenthealth",
+      "description": "Vendor-neutral health and readiness checks for agents, MCP, A2A and their dependencies. CLI, Go engine and experimental AHP serving.",
+      "created_at": "2026-10-07T03:43:58Z",
+      "pushed_at": "2026-11-09T19:36:53Z",
+      "stars": 2,
+      "topics": [
+        "a2a",
+        "agent-health",
+        "ai-agents",
+        "golang",
+        "health-check",
+        "kubernetes",
+        "mcp",
+        "observability",
+        "readiness"
       ]
     }
   },

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T19:02:29.081856+00:00",
-  "item_count": 1299,
+  "generated_at": "2026-11-09T20:05:58.201043+00:00",
+  "item_count": 1352,
   "sources": [
     {
       "name": "Prometheus blog",
@@ -109,6 +109,30 @@
       "project": "CNCF",
       "type": "community",
       "url": "https://www.cncf.io/blog/feed/"
+    },
+    {
+      "name": "Google Cloud Containers & Kubernetes blog",
+      "project": "Google Cloud · GKE/Kubernetes",
+      "type": "blog",
+      "url": "https://cloudblog.withgoogle.com/products/containers-kubernetes/rss/"
+    },
+    {
+      "name": "Google Cloud Blog",
+      "project": "Google Cloud",
+      "type": "blog",
+      "url": "https://cloudblog.withgoogle.com/rss/"
+    },
+    {
+      "name": "Google Cloud Platform release notes",
+      "project": "Google Cloud Platform",
+      "type": "product-updates",
+      "url": "https://cloud.google.com/feeds/gcp-release-notes.xml"
+    },
+    {
+      "name": "Google Kubernetes Engine release notes",
+      "project": "Google Kubernetes Engine",
+      "type": "product-updates",
+      "url": "https://cloud.google.com/feeds/gke-main-release-notes.xml"
     },
     {
       "name": "prometheus/prometheus releases",
