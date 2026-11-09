@@ -128,6 +128,22 @@ The zstd and recursion changes are security hardening for collectors accepting u
 **Why it matters**
 The SignalFx receiver removal is an immediate configuration/build break for anyone using it. Semantic-convention gates changing their default or becoming stable can silently change emitted attribute names and therefore dashboards, alert queries, sampling policies and downstream indexing. Preserving __scheme__ and __metrics_path__ changes the label/attribute surface and may affect cardinality and relabeling assumptions. The Kafka field has a concrete next-release removal version, so this is a near-term migration rather than a vague deprecation.
 
+**Conceptual data/control flow for adaptive tail sampling with fleet tracking**
+
+~~~mermaid
+flowchart LR
+  S[OTLP spans] --> C1[Collector replica A<br/>adaptive_tail_sampling]
+  S --> C2[Collector replica B<br/>adaptive_tail_sampling]
+  C1 -. membership / live count .-> R[(Redis fleet tracker)]
+  C2 -. membership / live count .-> R
+  R -. fleet size / budget context .-> C1
+  R -. fleet size / budget context .-> C2
+  C1 -->|kept traces| T[Trace backend]
+  C2 -->|kept traces| T
+~~~
+
+The span data path remains Collector-to-backend; Redis supplies fleet membership/budget context. The release notes announce the component pair, but the metadata snapshot does not prove every distro includes the Redis extension.
+
 ### 2.5 Collector component inventory — v0.145.0 baseline versus current upstream
 
 **Method:** compare metadata.yaml component inventories in the requested v0.145.0 source tags against the current main source snapshot captured 2026-11-08. The full component and feature-gate records are archived in [the Collector capability audit JSON](2026-11-09-collector-capability-audit.json).
@@ -165,7 +181,7 @@ The exact removal release is not established for every item in this source diff.
 
 ### 2.6 Collector feature-gate audit — all 18 gates in the v0.145.0 baseline
 
-Collector feature-gate defaults are determined by lifecycle stage: alpha is disabled by default; beta is enabled by default but can be disabled; stable is permanently enabled and should no longer be explicitly configured; deprecated is permanently disabled. from_version and to_version are metadata lifecycle fields. See the [Collector feature-gate lifecycle documentation](https://github.com/open-telemetry/opentelemetry-collector/blob/main/featuregate/README.md).
+Collector feature-gate defaults are determined by lifecycle stage: alpha is disabled by default; beta is enabled by default but can be disabled; stable is permanently enabled and should no longer be explicitly configured; deprecated is permanently disabled. The metadata records from_version and to_version; to_version is the version when a stable/deprecated gate reached its current stage, stable gates are removed in their to_version, and deprecated gates are removed after at least two Collector releases. See the [Collector feature-gate lifecycle documentation](https://github.com/open-telemetry/opentelemetry-collector/blob/main/featuregate/README.md).
 
 | Gate ID | Stage | From | To | Default / behavior |
 |---|---|---:|---:|---|
