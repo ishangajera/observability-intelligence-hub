@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:00:49.184335+00:00",
+  "generated_at": "2026-11-10T20:29:36.791380+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.7",
+      "version": "2.1.8",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-09T12:04:51.000Z"
+      "updated_at": "2026-11-10T11:34:57.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -943,13 +943,13 @@
     },
     "grafana-clickhouse-datasource": {
       "name": "ClickHouse",
-      "version": "4.23.4",
+      "version": "4.23.5",
       "type": "Data Source",
       "description": "ClickHouse datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-clickhouse-datasource/",
       "repository": "https://github.com/grafana/clickhouse-datasource",
       "created_at": "2021-12-09T19:18:13.000Z",
-      "updated_at": "2026-10-30T02:45:50.000Z"
+      "updated_at": "2026-11-10T11:15:56.000Z"
     },
     "grafana-clock-panel": {
       "name": "Clock",
@@ -1269,7 +1269,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-dynamodb-datasource/",
       "repository": "https://github.com/grafana/dynamodb-datasource",
       "created_at": "2024-03-21T18:19:50.000Z",
-      "updated_at": "2026-10-27T16:06:00.000Z"
+      "updated_at": "2026-11-10T16:18:00.000Z"
     },
     "grafana-dynatrace-datasource": {
       "name": "Dynatrace",
@@ -1289,7 +1289,7 @@
       "url": "https://grafana.com/grafana/plugins/elasticsearch/",
       "repository": "https://github.com/grafana/grafana-elasticsearch-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-11-02T17:02:08.000Z"
+      "updated_at": "2026-11-10T19:58:28.000Z"
     },
     "embraceio-metric-app": {
       "name": "Embrace",
@@ -2279,7 +2279,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-mqtt-datasource/",
       "repository": "https://github.com/grafana/mqtt-datasource",
       "created_at": "2022-12-01T18:19:18.000Z",
-      "updated_at": "2026-11-02T14:50:56.000Z"
+      "updated_at": "2026-11-10T11:26:15.000Z"
     },
     "arabian9ts-mux-datasource": {
       "name": "MUX-Datasource",
@@ -3463,13 +3463,13 @@
     },
     "grafana-synthetic-monitoring-app": {
       "name": "Synthetics",
-      "version": "1.67.0",
+      "version": "1.68.0",
       "type": "Application",
       "description": "Worldwide black box monitoring for services and applications",
       "url": "https://grafana.com/grafana/plugins/grafana-synthetic-monitoring-app/",
       "repository": "https://github.com/grafana/synthetic-monitoring-app",
       "created_at": "2020-07-01T17:00:12.000Z",
-      "updated_at": "2026-11-03T10:53:45.000Z"
+      "updated_at": "2026-11-10T15:43:44.000Z"
     },
     "smelentyev-tablecolumngrouping-panel": {
       "name": "Table with Column Grouping",
@@ -3653,13 +3653,13 @@
     },
     "victoriametrics-logs-datasource": {
       "name": "VictoriaLogs",
-      "version": "0.33.1",
+      "version": "0.34.0",
       "type": "Data Source",
       "description": "VictoriaLogs datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/victoriametrics-logs-datasource/",
       "repository": "https://github.com/VictoriaMetrics/victorialogs-datasource",
       "created_at": "2025-01-23T15:49:38.000Z",
-      "updated_at": "2026-10-16T14:33:24.000Z"
+      "updated_at": "2026-11-10T12:46:38.000Z"
     },
     "victoriametrics-metrics-datasource": {
       "name": "VictoriaMetrics",
@@ -3813,13 +3813,13 @@
     },
     "alexanderzobnin-zabbix-app": {
       "name": "Zabbix",
-      "version": "6.10.2",
+      "version": "6.10.3",
       "type": "Application",
       "description": "Zabbix plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/alexanderzobnin-zabbix-app/",
       "repository": "https://github.com/grafana/grafana-zabbix",
       "created_at": "2016-04-06T20:23:41.000Z",
-      "updated_at": "2026-11-02T14:50:01.000Z"
+      "updated_at": "2026-11-10T17:16:18.000Z"
     },
     "grafana-zendesk-datasource": {
       "name": "Zendesk",
@@ -3849,7 +3849,7 @@
       "url": "https://grafana.com/grafana/plugins/zipkin/",
       "repository": "https://github.com/grafana/grafana-zipkin-datasource",
       "created_at": "2022-06-23T14:29:32.000Z",
-      "updated_at": "2026-10-28T12:52:17.000Z"
+      "updated_at": "2026-11-10T15:42:35.000Z"
     },
     "crestdata-zoom-datasource": {
       "name": "Zoom",
