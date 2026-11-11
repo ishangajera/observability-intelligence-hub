@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:29:36.791380+00:00",
+  "generated_at": "2026-11-11T20:14:32.330868+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.8",
+      "version": "2.1.11",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-10T11:34:57.000Z"
+      "updated_at": "2026-11-11T14:31:10.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -393,13 +393,13 @@
     },
     "grafana-amazonprometheus-datasource": {
       "name": "Amazon Managed Service for Prometheus",
-      "version": "3.3.4",
+      "version": "3.3.5",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/grafana-amazonprometheus-datasource/",
       "repository": "https://github.com/grafana/grafana-amazonprometheus-datasource",
       "created_at": "2024-07-17T09:55:00.000Z",
-      "updated_at": "2026-10-29T14:47:25.000Z"
+      "updated_at": "2026-11-11T14:36:54.000Z"
     },
     "grafana-redshift-datasource": {
       "name": "Amazon Redshift",
@@ -613,13 +613,13 @@
     },
     "grafana-azure-data-explorer-datasource": {
       "name": "Azure Data Explorer Datasource",
-      "version": "7.2.16",
+      "version": "8.0.0",
       "type": "Data Source",
       "description": "Grafana data source for Azure Data Explorer",
       "url": "https://grafana.com/grafana/plugins/grafana-azure-data-explorer-datasource/",
       "repository": "https://github.com/grafana/azure-data-explorer-datasource",
       "created_at": "2018-10-05T22:35:34.000Z",
-      "updated_at": "2026-10-29T18:58:03.000Z"
+      "updated_at": "2026-11-11T12:53:40.000Z"
     },
     "grafana-azuredevops-datasource": {
       "name": "Azure DevOps",
@@ -643,13 +643,13 @@
     },
     "grafana-azureprometheus-datasource": {
       "name": "Azure Monitor Managed Service for Prometheus",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/grafana-azureprometheus-datasource/",
       "repository": "https://github.com/grafana/azure-prometheus-datasource",
       "created_at": "2025-04-09T11:34:08.000Z",
-      "updated_at": "2026-10-29T14:37:59.000Z"
+      "updated_at": "2026-11-11T15:21:29.000Z"
     },
     "timomyl-breadcrumb-panel": {
       "name": "Breadcrumb",
@@ -1153,13 +1153,13 @@
     },
     "grafana-datadog-datasource": {
       "name": "Datadog",
-      "version": "3.17.8",
+      "version": "3.17.11",
       "type": "Data Source",
       "description": "Datadog datasource plugin for Grafana. Grafana Data dog datasource plugin",
       "url": "https://grafana.com/grafana/plugins/grafana-datadog-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-04-11T21:18:38.000Z",
-      "updated_at": "2026-09-23T18:24:18.000Z"
+      "updated_at": "2026-11-11T18:49:22.000Z"
     },
     "sentinelone-dataset-datasource": {
       "name": "Dataset",
@@ -1273,17 +1273,17 @@
     },
     "grafana-dynatrace-datasource": {
       "name": "Dynatrace",
-      "version": "3.27.8",
+      "version": "3.27.11",
       "type": "Data Source",
       "description": "Dynatrace datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-dynatrace-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2018-04-04T17:41:07.000Z",
-      "updated_at": "2026-09-23T18:23:49.000Z"
+      "updated_at": "2026-11-11T16:48:18.000Z"
     },
     "elasticsearch": {
       "name": "Elasticsearch",
-      "version": "12.9.5",
+      "version": "12.9.6",
       "type": "Data Source",
       "description": "Open source logging & analytics database",
       "url": "https://grafana.com/grafana/plugins/elasticsearch/",
@@ -1533,13 +1533,13 @@
     },
     "stackdriver": {
       "name": "Google Cloud Monitoring",
-      "version": "12.6.4",
+      "version": "12.6.7",
       "type": "Data Source",
       "description": "Data source for Google's monitoring service (formerly named Stackdriver)",
       "url": "https://grafana.com/grafana/plugins/stackdriver/",
       "repository": "https://github.com/grafana/grafana-cloudmonitoring-datasource",
       "created_at": "2018-10-10T22:45:43.000Z",
-      "updated_at": "2026-10-27T15:32:59.000Z"
+      "updated_at": "2026-11-11T13:03:34.000Z"
     },
     "googlecloud-trace-datasource": {
       "name": "Google Cloud Trace",
@@ -1563,13 +1563,13 @@
     },
     "grafana-advisor-app": {
       "name": "Grafana Advisor",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "type": "Application",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-advisor-app/",
       "repository": "https://github.com/grafana/grafana-advisor-app",
       "created_at": "2025-02-21T11:31:30.000Z",
-      "updated_at": "2026-11-05T15:33:49.000Z"
+      "updated_at": "2026-11-11T09:05:02.000Z"
     },
     "grafana-enterprise-logs-app": {
       "name": "Grafana Enterprise Logs",
@@ -2493,13 +2493,13 @@
     },
     "grafana-opensearch-datasource": {
       "name": "OpenSearch",
-      "version": "2.34.6",
+      "version": "2.34.7",
       "type": "Data Source",
       "description": "Query OpenSearch to visualize logs or metrics.",
       "url": "https://grafana.com/grafana/plugins/grafana-opensearch-datasource/",
       "repository": "https://github.com/grafana/opensearch-datasource",
       "created_at": "2021-08-24T11:56:13.000Z",
-      "updated_at": "2026-10-21T12:54:17.000Z"
+      "updated_at": "2026-11-11T13:19:14.000Z"
     },
     "opentsdb": {
       "name": "OpenTSDB",
@@ -2793,13 +2793,13 @@
     },
     "prometheus": {
       "name": "Prometheus",
-      "version": "13.2.5",
+      "version": "13.2.6",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/prometheus/",
       "repository": "https://github.com/grafana/grafana-prometheus-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-10-27T17:25:45.000Z"
+      "updated_at": "2026-11-11T13:36:43.000Z"
     },
     "grafana-prometheusalerting-app": {
       "name": "Prometheus Alerting",
@@ -3343,13 +3343,13 @@
     },
     "grafana-splunk-datasource": {
       "name": "Splunk",
-      "version": "5.8.33",
+      "version": "5.9.0",
       "type": "Data Source",
       "description": "Splunk datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-splunk-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-04-11T21:18:30.000Z",
-      "updated_at": "2026-10-21T02:03:36.000Z"
+      "updated_at": "2026-11-11T12:28:58.000Z"
     },
     "grafana-splunk-monitoring-datasource": {
       "name": "Splunk Infrastructure Monitoring",
@@ -3703,13 +3703,13 @@
     },
     "grafana-wavefront-datasource": {
       "name": "Wavefront",
-      "version": "2.5.24",
+      "version": "2.5.27",
       "type": "Data Source",
       "description": "Wavefront datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-wavefront-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2020-09-01T13:02:57.000Z",
-      "updated_at": "2026-09-23T18:25:57.000Z"
+      "updated_at": "2026-11-11T18:49:00.000Z"
     },
     "armanfeyzi-wazuh-datasource": {
       "name": "Wazuh",
