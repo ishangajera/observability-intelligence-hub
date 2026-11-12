@@ -1,10 +1,89 @@
 {
-  "generated_at": "2026-11-11T20:15:30.851773+00:00",
+  "generated_at": "2026-11-12T20:54:27.293051+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 1392,
+  "item_count": 1399,
   "items": {
-    "3468999edcf233e44876": {
+    "4937f4c3273ac6db6bf5": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Interactive learning 2.27.0 Catalog version changed from 2.26.1 to 2.27.0. Get help exactly when and where you need it. Interactive learning"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "e17269efcce07978470e": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "wn 3.2.0 Catalog version changed from 3.1.0 to 3.2.0. View and analyze high-level service performance, identify problem processes for optimization, and diagnose issues to determine root causes."
+        },
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Grafana Profiles Drilldown 3.2.0 Catalog version changed from 3.1.0 to 3.2.0. View and analyze high-level service performance, identify probl"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "96b86f4dbafdd38ea7f1": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "ions, patient data, and AI services meet. When clinicians or agents act inside a session, security teams need clear control over what they can access. Healthcare systems frequently adopt a multi-vendor AI strategy, a flexibility that should be full"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "eafb1e6fcffe66329713": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -12,6 +91,522 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "b6565d6af5bb42247fc8": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source describes a new capability; assess whether it fills a current operational gap.",
+      "review_actions": [
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Feature",
+          "text": "ities to improve on that experience. That’s why, as part of the Grafana 13.3 release , we introduced the first phase of our biggest visual refresh since Grafana 7. We’re approaching this work in phases, with the refreshed UI currently in public previ"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "7a8a55a36381dc5ad245": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "ation. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as we"
+        },
+        {
+          "theme": "Feature",
+          "text": "urity teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "4134dd18aa2bfc543867": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "we’re making it simpler for enterprises to connect their locations to the cloud with the performance and reliability they need. This is an important step toward a more programmable, cloud-like networking experience.” - Jim Fowler, EVP, Chief Technolo"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "df1697183f6bca5244a7": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "09a18f5f21c65ee43055": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "Autonomous defense at cloud speed with SentinelOne and Google Security Operations Modern security operations centers (SOCs) face an ongoing pipeline dilemma. While ingesting comprehensive endpoint telemetry is non-negoti"
+        },
+        {
+          "theme": "Performance",
+          "text": "iable for defense, conventional delivery paths often drive up transfer overhead and alert latency. As attackers operate at machine speed, any unnecessary friction in how data moves from endpoints to the SOC can leave teams without the insight they"
+        },
+        {
+          "theme": "Feature",
+          "text": "telemetry through complex intermediary cloud buckets that require ongoing maintenance and introduce costly processing delays, engineering teams need a streamlined delivery architecture. By eliminating architectural bottlenecks and optimizing data tr"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "c54972c029505abb5a03": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "FrameTweak FrameTweak is an all-in-one Windows optimization tool designed to boost gaming performance, improve FPS, reduce system lag, and debloat Windows by removing unnecessary apps and background processes. With a modern interface and easy-to-use t"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "2e0ab4109e5f9095e3a9": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Grafana Assistant 2.1.13 Catalog version changed from 2.1.11 to 2.1.13. AI assistant for Grafana that helps teams troubleshoot issues, query"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "6d182146eebdb70a2a6d": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "eb7fada9f1117c4ef019": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "5d1829c05384be31e3ca": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "es, duplicated storage, and disjointed governance simply were not designed for the scale, performance, and latency required for agentic-scale work"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "832a80afed77812a5f76": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Grafana Logs Drilldown 3.2.0 Catalog version changed from 3.1.0 to 3.2.0. Visualize log volumes to easily detect anomalies or significant cha"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "f6aeb4285f4bf878e967": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "8d0cc98cdfa430b36db1": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "9bdc664a4e5e6d63afc4": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source describes a new capability; assess whether it fills a current operational gap.",
+      "review_actions": [
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Feature",
+          "text": "meet. Kubernetes schedules pods individually and independently, but distributed training introduces two requirements that break this model: Pods must land on hardware with..."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "53aff6d39f10044e22df": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: Cognite Data Fusion 4.7.0 Catalog version changed from 4.6.0 to 4.7.0. Cognite Data Fusion datasource"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "68c4b766d82c2d12ed12": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d2d3a1c309287c8addf3": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "compatibility",
+          "label": "Compatibility",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source calls out a compatibility or migration concern across versions or integrations.",
+      "review_actions": [
+        "Validate version and protocol compatibility across producers, collectors, backends, and dashboards."
+      ],
+      "evidence": [
+        {
+          "theme": "Compatibility",
+          "text": "y an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect you"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "1d945c426aaa8bacdc2e": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "f02cc4b9f9748571bfad": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "85df9a18571acff2074b": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "c6d1b86c1e018b888450": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "9a09c62ed8302c8bfce3": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "0799555b3a89790fe3c8": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "7c6457ff5e5989d65735": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "fe73c73c5ded77d19cd9": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "9b2f14a1096706f8b944": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "c708fda325ac49086cd7": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "a032d99cbe6c7f08064c": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "654f73a4f76bf9256faf": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "81d0bbc5ac88f3bf838e": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "93425547161f4663eaf6": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "2215c35bdfcebbfd4aaa": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "068dcd6144baa5ac3d57": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "software HWmonitor is a lightweight hardware monitoring software designed to track system performance and provide essential hardware information through a simple and intuitive interface. Created 2026-11-11T20:55:08Z; 81 GitHub stars. Discovered via re"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "0d266564f856a10f273d": {
@@ -24,73 +619,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "cfc2fad597bf2ddf19f5": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "88a9c9ea9531bbd4f7a8": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Datadog 3.17.11 Catalog version changed from 3.17.8 to 3.17.11. Datadog datasource plugin for Grafana. Grafana Data dog datasource plugin"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7d67989ba1358b714bf7": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Wavefront 2.5.27 Catalog version changed from 2.5.24 to 2.5.27. Wavefront datasource plugin for Grafana"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "759968c6c4df9c1d149a": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "54491abe153ef68da44b": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -156,27 +685,14 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "62be6d6744015cd33924": {
+    "54491abe153ef68da44b": {
       "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Dynatrace 3.27.11 Catalog version changed from 3.27.8 to 3.27.11. Dynatrace datasource plugin for Grafana"
-        }
-      ],
-      "confidence": "explicit source phrase match",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "fd65c4e7d36c9e9b7607": {
@@ -202,17 +718,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a02ad4e42d4dd33e50aa": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "7ba058afc70be20bfd37": {
+    "daba07fcad78017e9415": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -252,29 +758,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "84c16465c722fa90edc0": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Azure Monitor Managed Service for Prometheus 1.0.11 Catalog version changed from 1.0.10 to 1.0.11. Open source time series database & alertin"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "12d932da8c5f45e07316": {
       "priority": "low",
       "needs_review": false,
@@ -293,52 +776,6 @@
         {
           "theme": "Feature",
           "text": "in Tetragon v1.8: Stateful Policies, Uprobe Function Replacement, and more! Tetragon v1.8 introduces stateful policies that react to earlier events, command-line argument and uprobe caller filtering, runtime function replacement, and cleaner policy m"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "99a6df8a356d861b4a8e": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Amazon Managed Service for Prometheus 3.3.5 Catalog version changed from 3.3.4 to 3.3.5. Open source time series database & alerting"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "3055d6801ef26c82c47d": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Grafana Assistant 2.1.11 Catalog version changed from 2.1.8 to 2.1.11. AI assistant for Grafana that helps teams troubleshoot issues, query t"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -377,131 +814,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "8d0cc98cdfa430b36db1": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "9c137917aa830fbb03ba": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Prometheus 13.2.6 Catalog version changed from 13.2.5 to 13.2.6. Open source time series database & alerting"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8a06e8c445ec08fd7341": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: OpenSearch 2.34.7 Catalog version changed from 2.34.6 to 2.34.7. Query OpenSearch to visualize logs or metrics."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "e1ce74a6db9c50b9b853": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Google Cloud Monitoring 12.6.7 Catalog version changed from 12.6.4 to 12.6.7. Data source for Google's monitoring service (formerly named Sta"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "034c53b6e94ce183926f": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Azure Data Explorer Datasource 8.0.0 Catalog version changed from 7.2.16 to 8.0.0. Grafana data source for Azure Data Explorer"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f4984ecabd3a1ec915e5": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Splunk 5.9.0 Catalog version changed from 5.8.33 to 5.9.0. Splunk datasource plugin for Grafana"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "c6da24e82ec35c850af2": {
       "priority": "low",
       "needs_review": false,
@@ -535,29 +847,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "d219cbb38386d90687c7": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Grafana Advisor 1.1.3 Catalog version changed from 1.1.2 to 1.1.3."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "e9b5ba25cd5cf7a5ba22": {
       "priority": "medium",
       "needs_review": true,
@@ -568,11 +857,6 @@
           "priority": "medium"
         },
         {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        },
-        {
           "id": "bugfix",
           "label": "Bug fix",
           "priority": "low"
@@ -581,17 +865,12 @@
       "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
       "review_actions": [
         "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Assess whether the capability solves an active use case; prototype outside production first.",
         "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
       ],
       "evidence": [
         {
           "theme": "Performance",
           "text": "API products on demand when you open the Add Product dialog, improving initial page load performance. 576859695 Edge UI Fixed an issue in the Analytics Error Code Analysis dashboard where 504 Gateway Timeout responses caused by target timeouts were e"
-        },
-        {
-          "theme": "Feature",
-          "text": "lapping. Gemini Enterprise Agent Platform Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh : When sandboxing is enabled, cm build and c"
         },
         {
           "theme": "Bug fix",
@@ -611,97 +890,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "492ec1567b44445a2917": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "42e44bd1e151c684bfc2": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "57a5023929324dd5cc37": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "34c07cca8cecfb16fbdd": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "e41bfdaf7f3e096b3fd0": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "27e0678e789213e7bb04": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "9c8f03984f769c3f346e": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "7322a598283269181045": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "3158e75dcdf9e7ff0c7a": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "3f6342c5ccb920e103c9": {
+    "3d9cc53b71b821a22b63": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -732,26 +921,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "94552214cb0cf0d705aa": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "2bde4c9e0f0c485d3147": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "b72d1df6b523d473a8d2": {
@@ -919,27 +1088,14 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "3e031f121c4ce82a235e": {
+    "4dac2049daa4cc84111a": {
       "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Elasticsearch 12.9.6 Catalog version changed from 12.9.5 to 12.9.6. Open source logging & analytics database"
-        }
-      ],
-      "confidence": "explicit source phrase match",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "ccf0cf79a39e9552c6b5": {
@@ -1008,14 +1164,27 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "144c26b16cd1e891dcab": {
+    "7bd324a29ada464815fe": {
       "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "Grafana plugin update: DynamoDB 2.5.4 Catalog version changed from 2.5.3 to 2.5.4. DynamoDB datasource plugin for Grafana"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "16f8b59b84903687af99": {
@@ -1038,30 +1207,17 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "fdeea527d80c437d8099": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "ls for AI Era New certification validates specialized expertise in Kubernetes networking, security and troubleshooting as demand for cloud native skills grows Key Highlights SALT LAKE CITY – KubeCon + CloudNativeCon North America – November 10, 202"
-        }
-      ],
-      "confidence": "explicit source phrase match",
+    "cdcd9040a72865d7c124": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "cdcd9040a72865d7c124": {
+    "c60649d24890b84bd559": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -1134,16 +1290,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "c60649d24890b84bd559": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "23174d17326d64471ce1": {
       "priority": "high",
       "needs_review": true,
@@ -1167,27 +1313,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a756a7bb5ae52ebf7d17": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "238c49ebc814861995fc": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "08afc6ecaf316ec068f5": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -1243,7 +1369,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "d2aba4eb4ba6f2e0fcc7": {
+    "4eef3402a011a400d1cf": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -1251,6 +1377,29 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d2aba4eb4ba6f2e0fcc7": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "es. Once the rollout reaches a gateway, it uses TLS 1.3 with backends that support it. No configuration is required. Agent Platform Workbench Feature Antigravity CLI in Agent Platform Workbench instances Preview : The Antigravity CLI is available in Age"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "af10681bbdc4c0563c35": {
@@ -1277,6 +1426,16 @@
       "method": "transparent-rules"
     },
     "a50d4ebee15ba05b58fb": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d20c68a1b849a53d7a1b": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -1464,16 +1623,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "5f0ea137dcd63cb14a23": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "7128f0f56246a750dfff": {
       "priority": "low",
       "needs_review": false,
@@ -1495,16 +1644,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "6fad24a836c368947cea": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "d249506a270a4783eb47": {
@@ -1637,16 +1776,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "a817a599880245acd348": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "bab31ddd89d7df0ce8e5": {
@@ -1818,7 +1947,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "4502a8feb1d5de937f13": {
+    "7d6aeb1ae31832a3096a": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -2011,72 +2140,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "f0a26ec1c8fd9a7bfacb": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "up to 400 Gbps of Cloud Remote Direct Memory Access (RDMA) networking. RDMA improves the performance of these demanding workloads by reducing data-access latency by up to 60% compared to TCP networking, so you can increase your applications’ throughp"
-        },
-        {
-          "theme": "Feature",
-          "text": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems Today, we’re excited to announce the general availability of our next-generation S"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "7e33f9306828f99f85ea": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "2b5c84b0751fea5c554e": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "gle Cloud blog 101: Full list of topics, links, and resources . aside block Nov 2 - Nov 6 Security for AI workloads with Model Armor Securing generative AI applications requires robust runtime protection against prompt injection and malicious input"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "d7a4e340f83e9adcd7b8": {
       "priority": "low",
       "needs_review": true,
@@ -2200,26 +2263,6 @@
       "method": "transparent-rules"
     },
     "68f16141b04e39898721": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "cf360d490c14f76a7726": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "4c660636df3ebf112f5c": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -2431,7 +2474,27 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "2cdf8dda20f27b1ee528": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "c64e9e9a3b7b66579169": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "1f93fdbdf25f44195d2d": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -2522,6 +2585,29 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "17df321503975308f3ab": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "A control center and start page for a home server: what needs you, live numbers, and the fix one click away. Created 2026-11-04T18:39:52Z; 19 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a pr"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "4e66fcee77ea628d1295": {
@@ -2821,6 +2907,29 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "fbbe741aa0f483c8899b": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "New observability project candidate: ucfjoe/dsh-team-progress DeepSeek Harness GUI plugin: four views of a running agent team — who is on what, tracked defects, goal rounds, and what needs a human now. Every number counts durable state; a"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "d6665f4190b7b8d2386b": {
       "priority": "high",
       "needs_review": true,
@@ -2907,7 +3016,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "847320066e544be6f57b": {
+    "08048559d51da329ae0d": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -2917,7 +3026,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "2fe3c3be5a0b690feb96": {
+    "847320066e544be6f57b": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -3202,6 +3311,16 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "6cbc8287c9cf91303852": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "22b1443c0369f273af13": {
       "priority": "high",
       "needs_review": true,
@@ -3301,29 +3420,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b1e3733fd99d6a0ad7ab": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "for weeks on end, and GKE clusters across europe-west had ground to a halt. In a race to fix the problem, we involved engineers across Google Kubernetes Engine (GKE), Private Service Connect, networking, hostnet, kernel, and the Linux upstrea"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "5cf89091d808cff20fcf": {
       "priority": "high",
       "needs_review": true,
@@ -3352,6 +3448,29 @@
         {
           "theme": "Performance",
           "text": "w compute service: Agent Compute Engine is a purpose-built compute service providing high-performance, hardware-isolated microVM sandboxes alongside expanded agent governance capabilities like Agent Gateway and Agent Registry, all in the service of se"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "b1e3733fd99d6a0ad7ab": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
+      "review_actions": [
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Bug fix",
+          "text": "for weeks on end, and GKE clusters across europe-west had ground to a halt. In a race to fix the problem, we involved engineers across Google Kubernetes Engine (GKE), Private Service Connect, networking, hostnet, kernel, and the Linux upstrea"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -3543,16 +3662,6 @@
       "method": "transparent-rules"
     },
     "295a371c3d2fcb829e2f": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "562be43bafa647ac619d": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -4295,6 +4404,29 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "e146edc8a22388832faf": {
+      "priority": "high",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        }
+      ],
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
+      "review_actions": [
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
+      ],
+      "evidence": [
+        {
+          "theme": "Security",
+          "text": "New observability project candidate: levi-xy/vantage Self-hosted, security-first dashboard for homelabs: live network maps, hardware-shaped cards, Telegram alerts. Created 2026-10-26T14:31:40Z; 40 GitHub stars. Discovered vi"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "e945586e20cb1eecd498": {
       "priority": "high",
       "needs_review": true,
@@ -4412,16 +4544,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "437c1b9cb0d4c0d03422": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "9edade96bec6a09804e2": {
@@ -4821,6 +4943,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "94837b57fe252a5b1fae": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "b349ad6ab02452a48781": {
       "priority": "high",
       "needs_review": true,
@@ -5118,16 +5250,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "51e5ad48f8f7bd27ef15": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "c2e301794d9a7a5cfb86": {
       "priority": "high",
       "needs_review": true,
@@ -5225,29 +5347,6 @@
         {
           "theme": "Security",
           "text": "Tempo v3.0.5 Security ## Security - `deps`: Update Go to 1.26.10 (CVE-2026-111943) ([#8147](https://github.com/grafana/tempo/issues/8147)) (@mdisibio)"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8447c173e1ee12ab8aff": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "Spend less time on operational busywork and resolve incidents faster with Grafana Workflows You're investigating checkout errors when someone asks who's coordinating the incident. Support needs an upda"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -5507,6 +5606,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "28dfe5a38a8c8acc5f3b": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "8ed0aa1f1bdebd16c71c": {
       "priority": "high",
       "needs_review": true,
@@ -5530,7 +5639,27 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "2129eeeff94c5dd968b6": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "6a2ef241d18620e63fc8": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "95b3bfd53b9f36e534bb": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -5700,16 +5829,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "0b14e51f2899373897b9": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "e830be902ede10923b29": {
@@ -5897,6 +6016,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "4b6af550ff4f14cf60a4": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "93f6d58fd8eab39b8f5b": {
       "priority": "high",
       "needs_review": true,
@@ -5930,6 +6059,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "30e86560265b80022625": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "40c11d9d27b63046d186": {
       "priority": "low",
       "needs_review": false,
@@ -5951,16 +6090,6 @@
       "method": "transparent-rules"
     },
     "d32a7661f8042177c797": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "55e46ba324c6fd7fbc23": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6125,7 +6254,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "ae96d95fd2ed34fe2dfd": {
+    "52281b683a515bf0c422": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6135,7 +6264,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "52281b683a515bf0c422": {
+    "53d8a97f79fb0555ad33": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6400,16 +6529,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "ee71106d26e9476b7014": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "686af2302835e78de8b3": {
       "priority": "high",
       "needs_review": true,
@@ -6463,7 +6582,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "504dde98d25c85701e57": {
+    "56aae29c86d8685caf4a": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6592,7 +6711,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "3dbd029bfeb58772b137": {
+    "ad77a165e274319a6971": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6671,6 +6790,26 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "bd195f521e3fa7ac7ccb": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "deffc5d12d9004888177": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "01b613e0b032af7b60eb": {
       "priority": "medium",
       "needs_review": true,
@@ -6738,6 +6877,16 @@
       "method": "transparent-rules"
     },
     "9f0c5f2e8b3725685bd7": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "9402f60f8d93dc78b7ac": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -6818,39 +6967,6 @@
         {
           "theme": "Configuration",
           "text": "OpenTelemetry Collector Configuration for LLM Observability A complete, annotated OpenTelemetry Collector configuration for LLM observability: receiving traces over OTLP, normalizing Open"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "3d5b1eeb5ab2f1102ea5": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "1cfe79cb4664573c68bc": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "u can preview the new behavior now, before it becomes the default. 3.0 changes telemetry, configuration, and instrumentation defaults. Database and code conventions become stable defaults, messaging adopts newer conventions that are still experimental,"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -6999,16 +7115,6 @@
       "method": "transparent-rules"
     },
     "c99b5e75559043326a9d": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "62b62399afbd1adcfb86": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7167,7 +7273,40 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "7c9baa394f610d3fbfda": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "New observability project candidate: SRodi/kubectl-datapath Educational kubectl plugin for exploring how traffic moves through Kubernetes Pods, Services, and nodes using observable eBPF evidence. Created 2026-09-30T16:45:35Z; 2 GitHub s"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "49159a8befff7d35ed31": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "68b67f1be080cd437bd7": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7465,26 +7604,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "6641e30ab751854d2998": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "c3096101dbfd1c0c7856": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "7cb7cd6007f0afc0ed3e": {
       "priority": "medium",
       "needs_review": true,
@@ -7640,16 +7759,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a1522bf5fd337f1525a7": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "524d61d53ee732559006": {
       "priority": "low",
       "needs_review": false,
@@ -7660,7 +7769,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "579817a1c41524de9da3": {
+    "b1bba48a1a6a8fc265a3": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7701,6 +7810,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "70ca2e42f5f991098408": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "4609a13efdd98f4b9b14": {
@@ -7769,6 +7888,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "e9e6185964a08ad32da1": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "773490d2d40ac8f89570": {
       "priority": "medium",
       "needs_review": true,
@@ -7800,6 +7929,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "70fd3ff6ae5e00d2240d": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "3cfffe0889fef3b82c50": {
@@ -7879,16 +8018,6 @@
       "method": "transparent-rules"
     },
     "7f8c66237e2fb68ed949": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "7738c98319c1bb5211da": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -8124,16 +8253,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "3342301448c4d38c3c4c": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "10ce0d220f837e7feb79": {
@@ -11436,6 +11555,16 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "e7ccb8da95668ab797b8": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "91e270de44df27d7a1d6": {
       "priority": "low",
       "needs_review": false,
@@ -12468,29 +12597,6 @@
         {
           "theme": "Security",
           "text": "Security Bulletin NR17-02 Security vulnerability for version of New Relic .NET agent."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "c312eb04c22c0fec88bf": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "Security Bulletin NR17-03 Security vulnerability update for New Relic Node.js agent."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -14858,39 +14964,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "8652a1f6383b51b0ab0c": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing and listening behaviors to use custom TCP routing."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "3d0f88b7690f13a1bb19": {
       "priority": "medium",
       "needs_review": true,
@@ -14929,6 +15002,39 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: pkg.confighttp.PrioritizeNewKeepalive · main STABLE gate; introduced v0.162.0. When enabled, the Keepalive configuration is prioritized over the deprecated configuration fields. Stage transition/removal version: v0.166"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "8652a1f6383b51b0ab0c": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing and listening behaviors to use custom TCP routing."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -21276,6 +21382,39 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "2bfc11fd6d59636641d5": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metric"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metrics to the monitored resource type defined by the resource label gcp.resource_t"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "3af5d4081947769bbb68": {
       "priority": "medium",
       "needs_review": true,
@@ -21314,39 +21453,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: exporter.file.nativeCompression · main ALPHA gate; introduced v0.154.0. Use native file-level compression (zstd) instead of message-level compression. Creates standard .zst files compatible with standard decompr"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "2bfc11fd6d59636641d5": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metric"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metrics to the monitored resource type defined by the resource label gcp.resource_t"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -21831,49 +21937,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "6ab88bbed48ff62d7178": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "· main BETA gate; introduced v0.154.0. When enabled, audit log parser no longer emits the deprecated semconv v1.38.0 attributes rpc.jsonrpc.error_code and rpc.jsonrpc.error_message."
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions · main BETA gate; introduced v0.154.0. When enabled, audit log parser no lon"
-        },
-        {
-          "theme": "Feature",
-          "text": "extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions · main BETA gate; introduced v0.154.0. When enabled, audit log parser no longer emits the deprecated semconv v1.38.0 attributes rpc.jsonrpc.error_code and rpc.jsonrpc.error_messa"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "d49e36b2e8ccc5126b22": {
       "priority": "medium",
       "needs_review": true,
@@ -21935,6 +21998,49 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: extension.azureencoding.EmitV1LogConventions · main BETA gate; introduced v0.149.0. When enabled, v1 semconv log attribute names are emitted."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "6ab88bbed48ff62d7178": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "· main BETA gate; introduced v0.154.0. When enabled, audit log parser no longer emits the deprecated semconv v1.38.0 attributes rpc.jsonrpc.error_code and rpc.jsonrpc.error_message."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions · main BETA gate; introduced v0.154.0. When enabled, audit log parser no lon"
+        },
+        {
+          "theme": "Feature",
+          "text": "extension.encoding.googlecloudlogentryencoding.DontEmitV0RPCConventions · main BETA gate; introduced v0.154.0. When enabled, audit log parser no longer emits the deprecated semconv v1.38.0 attributes rpc.jsonrpc.error_code and rpc.jsonrpc.error_messa"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -22901,7 +23007,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "35017927e7360a71ba1e": {
+    "5c3d9ae4bde7d0b50cb7": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -22930,24 +23036,29 @@
       "evidence": [
         {
           "theme": "Deprecation",
-          "text": "urelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.function and code.filepath are not emitted. Requires pkg.translator.azurelogs.EmitV1LogConventions to also be enabled."
+          "text": "ain BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translator.faro.EmitV1DeploymentEnvironmentConventions to also be enabled."
         },
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.azurelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.functi"
+          "text": "OTel feature gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer em"
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: pkg.translator.azurelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.function and code.filepath are not emitted. Requires pkg.translator.azurelogs.EmitV1Lo"
+          "text": "re gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translato"
         }
       ],
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "4a5623758aa5d0f43d69": {
+    "e10d8c1a4f4f2a41360f": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
         {
           "id": "configuration",
           "label": "Configuration",
@@ -22959,19 +23070,24 @@
           "priority": "low"
         }
       ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
       "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
         "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
         "Assess whether the capability solves an active use case; prototype outside production first."
       ],
       "evidence": [
         {
+          "theme": "Deprecation",
+          "text": "d, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (semconv v1.26.0)."
+        },
+        {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.azurelogs.EmitV1LogConventions · main BETA gate; introduced v0.147.0. When enabled, the stable semconv attributes code.function.name"
+          "text": "OTel feature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator emits deployment"
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: pkg.translator.azurelogs.EmitV1LogConventions · main BETA gate; introduced v0.147.0. When enabled, the stable semconv attributes code.function.name and code.file.path are emitted."
+          "text": "eature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (sem"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -23063,7 +23179,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "5c3d9ae4bde7d0b50cb7": {
+    "35017927e7360a71ba1e": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -23092,29 +23208,24 @@
       "evidence": [
         {
           "theme": "Deprecation",
-          "text": "ain BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translator.faro.EmitV1DeploymentEnvironmentConventions to also be enabled."
+          "text": "urelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.function and code.filepath are not emitted. Requires pkg.translator.azurelogs.EmitV1LogConventions to also be enabled."
         },
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer em"
+          "text": "OTel feature gate: pkg.translator.azurelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.functi"
         },
         {
           "theme": "Feature",
-          "text": "re gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translato"
+          "text": "OTel feature gate: pkg.translator.azurelogs.DontEmitV0LogConventions · main BETA gate; introduced v0.147.0. When enabled, the deprecated semconv attributes code.function and code.filepath are not emitted. Requires pkg.translator.azurelogs.EmitV1Lo"
         }
       ],
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "e10d8c1a4f4f2a41360f": {
+    "4a5623758aa5d0f43d69": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
         {
           "id": "configuration",
           "label": "Configuration",
@@ -23126,24 +23237,19 @@
           "priority": "low"
         }
       ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
       "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
         "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
         "Assess whether the capability solves an active use case; prototype outside production first."
       ],
       "evidence": [
         {
-          "theme": "Deprecation",
-          "text": "d, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (semconv v1.26.0)."
-        },
-        {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator emits deployment"
+          "text": "OTel feature gate: pkg.translator.azurelogs.EmitV1LogConventions · main BETA gate; introduced v0.147.0. When enabled, the stable semconv attributes code.function.name"
         },
         {
           "theme": "Feature",
-          "text": "eature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main BETA gate; introduced v0.155.0. When enabled, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (sem"
+          "text": "OTel feature gate: pkg.translator.azurelogs.EmitV1LogConventions · main BETA gate; introduced v0.147.0. When enabled, the stable semconv attributes code.function.name and code.file.path are emitted."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -23942,39 +24048,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "0cd705cbc73aaa7b526d": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: processor.azuredetector.RenameResourceGroupAttribute · main ALPHA gate; introduced v0.165.0. When enabled, the azure detector emits the azure.resour"
-        },
-        {
-          "theme": "Feature",
-          "text": "Tel feature gate: processor.azuredetector.RenameResourceGroupAttribute · main ALPHA gate; introduced v0.165.0. When enabled, the azure detector emits the azure.resource_group.name resource attribute instead of azure.resourcegroup.name, aligning with"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "189b0750a2427ee25d50": {
       "priority": "medium",
       "needs_review": true,
@@ -24003,6 +24076,39 @@
         {
           "theme": "Feature",
           "text": "feature gate: processor.resourcedetection.consul.prefixMetaAttributes · main ALPHA gate; introduced v0.159.0. When enabled, Consul node metadata is emitted as `consul.meta.<key>` resource attributes instead of `<key>`."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "0cd705cbc73aaa7b526d": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: processor.azuredetector.RenameResourceGroupAttribute · main ALPHA gate; introduced v0.165.0. When enabled, the azure detector emits the azure.resour"
+        },
+        {
+          "theme": "Feature",
+          "text": "Tel feature gate: processor.azuredetector.RenameResourceGroupAttribute · main ALPHA gate; introduced v0.165.0. When enabled, the azure detector emits the azure.resource_group.name resource attribute instead of azure.resourcegroup.name, aligning with"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24500,11 +24606,11 @@
       "evidence": [
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: receiver.awsxray.DontEmitV0HttpConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy HTTP attributes are disabled."
+          "text": "OTel feature gate: receiver.awsxray.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, semconv legacy HTTP attributes are disabled."
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: receiver.awsxray.DontEmitV0HttpConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy HTTP attributes are disabled."
+          "text": "OTel feature gate: receiver.awsxray.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, semconv legacy HTTP attributes are disabled."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24533,11 +24639,11 @@
       "evidence": [
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: receiver.awsxray.EmitV1HttpConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable HTTP attributes are enabled."
+          "text": "OTel feature gate: receiver.awsxray.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, semconv stable HTTP attributes are enabled."
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: receiver.awsxray.EmitV1HttpConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable HTTP attributes are enabled."
+          "text": "OTel feature gate: receiver.awsxray.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, semconv stable HTTP attributes are enabled."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24718,72 +24824,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "8f7b889cabeba0816ed5": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "41d81d09496502f7eb69": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "5e93f17efb2bc8f96d41": {
       "priority": "medium",
       "needs_review": true,
@@ -24916,6 +24956,72 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "8f7b889cabeba0816ed5": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "41d81d09496502f7eb69": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "c5c189489d869ca6a96d": {
       "priority": "medium",
       "needs_review": true,
@@ -24949,6 +25055,39 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "cf853b8a60432c341c28": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.kubelet_stats.cpuUtilizationRounding · main ALPHA gate; introduced v0.165.0. When enabled, the pod and container cpu utilization metrics (*"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: receiver.kubelet_stats.cpuUtilizationRounding · main ALPHA gate; introduced v0.165.0. When enabled, the pod and container cpu utilization metrics (*.cpu.node.utilization, *.cpu_limit_utilization and *.cpu_request_utilization)"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "a816a2ce239054bc806c": {
       "priority": "medium",
       "needs_review": true,
@@ -24977,6 +25116,115 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.kubeletstats.cpuUsageScrapeBased · main BETA gate; introduced v0.156.0. When enabled, container.cpu.usage, k8s.pod.cpu.usage and k8s.node.cpu.usage (and the cpu utilization metrics derived from them) are calcula"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "2b9262ff1ff717040a57": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disabl"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disable the splitting of the job label by '/' to derive service.namespace and service."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "5ef2fb583c0675afef82": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.prometheus.UseTargetUrlForServerAddress · main ALPHA gate; introduced v0.165.0. When enabled, server.address, server.port, and url.scheme a"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: receiver.prometheus.UseTargetUrlForServerAddress · main ALPHA gate; introduced v0.165.0. When enabled, server.address, server.port, and url.scheme are populated from the scraped target's post-relabeling __address__ and __scheme_"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "ff9d655af849700f06f0": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "jected as 0-valued samples when appropriate. This is disabled by default due to worse CPU performance with higher metric volumes."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.prometheusreceiver.EnableCreatedTimestampZeroIngestion · main ALPHA gate; introduced v0.113.0. Enables the Prometheus created-timestamps-ze"
+        },
+        {
+          "theme": "Feature",
+          "text": "gate: receiver.prometheusreceiver.EnableCreatedTimestampZeroIngestion · main ALPHA gate; introduced v0.113.0. Enables the Prometheus created-timestamps-zero-injection feature. Created timestamps are injected as 0-valued samples when appropriate. Thi"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -25109,115 +25357,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.postgresql.useOTelSemconv · main ALPHA gate; introduced v0.156.0. When enabled, uses a single resource per server with a service.instance.id (UUID v5) resource attribute, aligning with OpenTelemetry semant"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5ef2fb583c0675afef82": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.prometheus.UseTargetUrlForServerAddress · main ALPHA gate; introduced v0.165.0. When enabled, server.address, server.port, and url.scheme a"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: receiver.prometheus.UseTargetUrlForServerAddress · main ALPHA gate; introduced v0.165.0. When enabled, server.address, server.port, and url.scheme are populated from the scraped target's post-relabeling __address__ and __scheme_"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "ff9d655af849700f06f0": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "jected as 0-valued samples when appropriate. This is disabled by default due to worse CPU performance with higher metric volumes."
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.prometheusreceiver.EnableCreatedTimestampZeroIngestion · main ALPHA gate; introduced v0.113.0. Enables the Prometheus created-timestamps-ze"
-        },
-        {
-          "theme": "Feature",
-          "text": "gate: receiver.prometheusreceiver.EnableCreatedTimestampZeroIngestion · main ALPHA gate; introduced v0.113.0. Enables the Prometheus created-timestamps-zero-injection feature. Created timestamps are injected as 0-valued samples when appropriate. Thi"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "2b9262ff1ff717040a57": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disabl"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disable the splitting of the job label by '/' to derive service.namespace and service."
         }
       ],
       "confidence": "explicit source phrase match",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:14:32.330868+00:00",
+  "generated_at": "2026-11-12T20:53:39.474021+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.11",
+      "version": "2.1.13",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-11T14:31:10.000Z"
+      "updated_at": "2026-11-12T16:50:07.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -579,7 +579,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-iot-twinmaker-app/",
       "repository": "https://github.com/grafana/grafana-iot-twinmaker-app",
       "created_at": "2021-11-19T19:10:51.000Z",
-      "updated_at": "2026-10-29T14:43:30.000Z"
+      "updated_at": "2026-11-12T13:08:09.000Z"
     },
     "axiomhq-axiom-datasource": {
       "name": "Axiom",
@@ -1013,13 +1013,13 @@
     },
     "cognitedata-datasource": {
       "name": "Cognite Data Fusion",
-      "version": "4.6.0",
+      "version": "4.7.0",
       "type": "Data Source",
       "description": "Cognite Data Fusion datasource",
       "url": "https://grafana.com/grafana/plugins/cognitedata-datasource/",
       "repository": "https://github.com/cognitedata/cognite-grafana-datasource",
       "created_at": "2019-03-01T01:02:51.000Z",
-      "updated_at": "2026-10-21T07:28:29.000Z"
+      "updated_at": "2026-11-12T10:13:12.000Z"
     },
     "snuids-svg-panel": {
       "name": "Colored SVG Panel",
@@ -1263,7 +1263,7 @@
     },
     "grafana-dynamodb-datasource": {
       "name": "DynamoDB",
-      "version": "2.5.3",
+      "version": "2.5.4",
       "type": "Data Source",
       "description": "DynamoDB datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-dynamodb-datasource/",
@@ -1613,13 +1613,13 @@
     },
     "grafana-lokiexplore-app": {
       "name": "Grafana Logs Drilldown",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "type": "Application",
       "description": "Visualize log volumes to easily detect anomalies or significant changes over time, without needing to compose LogQL queries.",
       "url": "https://grafana.com/grafana/plugins/grafana-lokiexplore-app/",
       "repository": "https://github.com/grafana/logs-drilldown",
       "created_at": "2024-04-02T12:08:58.000Z",
-      "updated_at": "2026-10-26T16:50:19.000Z"
+      "updated_at": "2026-11-12T15:45:39.000Z"
     },
     "grafana-metricsdrilldown-app": {
       "name": "Grafana Metrics Drilldown",
@@ -1633,13 +1633,13 @@
     },
     "grafana-pyroscope-app": {
       "name": "Grafana Profiles Drilldown",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "type": "Application",
       "description": "View and analyze high-level service performance, identify problem processes for optimization, and diagnose issues to determine root causes.",
       "url": "https://grafana.com/grafana/plugins/grafana-pyroscope-app/",
       "repository": "https://github.com/grafana/profiles-drilldown",
       "created_at": "2024-06-21T21:49:00.000Z",
-      "updated_at": "2026-10-27T06:18:41.000Z"
+      "updated_at": "2026-11-12T19:47:13.000Z"
     },
     "grafana-pyroscope-datasource": {
       "name": "Grafana Pyroscope",
@@ -1913,13 +1913,13 @@
     },
     "grafana-pathfinder-app": {
       "name": "Interactive learning",
-      "version": "2.26.1",
+      "version": "2.27.0",
       "type": "Application",
       "description": "Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
       "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
       "repository": "https://github.com/grafana/grafana-pathfinder-app",
       "created_at": "2025-10-13T11:29:42.000Z",
-      "updated_at": "2026-11-09T12:22:06.000Z"
+      "updated_at": "2026-11-12T20:50:06.000Z"
     },
     "equansdatahub-tree-panel": {
       "name": "Interactive Tree Panel",
