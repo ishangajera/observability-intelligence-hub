@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:53:39.474021+00:00",
+  "generated_at": "2026-11-13T20:31:41.748707+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -913,13 +913,13 @@
     },
     "crestdata-citrixcloud-datasource": {
       "name": "Citrix Cloud",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "type": "Data Source",
       "description": "Query Citrix Cloud platform data — system logs, administrators, Cloud Connectors, licensing, notifications, and resource locations.",
       "url": "https://grafana.com/grafana/plugins/crestdata-citrixcloud-datasource/",
       "repository": "",
       "created_at": "2026-09-14T11:00:57.000Z",
-      "updated_at": "2026-09-24T12:11:58.000Z"
+      "updated_at": "2026-11-13T14:55:51.000Z"
     },
     "crestdata-citrixdaas-datasource": {
       "name": "Citrix DaaS",
@@ -1623,13 +1623,13 @@
     },
     "grafana-metricsdrilldown-app": {
       "name": "Grafana Metrics Drilldown",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "type": "Application",
       "description": "Quickly find related metrics with a few clicks, without needing to write PromQL queries to retrieve metrics.",
       "url": "https://grafana.com/grafana/plugins/grafana-metricsdrilldown-app/",
       "repository": "https://github.com/grafana/metrics-drilldown",
       "created_at": "2025-02-20T10:51:44.000Z",
-      "updated_at": "2026-10-28T19:05:30.000Z"
+      "updated_at": "2026-11-12T21:58:27.000Z"
     },
     "grafana-pyroscope-app": {
       "name": "Grafana Profiles Drilldown",
