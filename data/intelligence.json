@@ -1,9 +1,115 @@
 {
-  "generated_at": "2026-11-13T20:32:41.570093+00:00",
+  "generated_at": "2026-11-14T18:46:57.016190+00:00",
   "method": "transparent-rule-based-triage",
   "disclaimer": "Priority is an attention cue based on source wording, not verified product severity or deployment-specific impact. Confirm applicability in the primary source.",
-  "item_count": 1382,
+  "item_count": 1390,
   "items": {
+    "8d0fa0b5de7a83dec75b": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "be1604c63c75c22c6fe5": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "8edc9806201485218abb": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "FrameTweak FrameTweak is an all-in-one Windows optimization tool designed to boost gaming performance, improve FPS, reduce system lag, and debloat Windows by removing unnecessary apps and background processes. With a modern interface and easy-to-use t"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "36ce031c04acee8e9750": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "aca9bc115905eae2466a": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "New observability project candidate: Wolflakechip39019/claude-resocket-plugin Uiprobe plugin for Claude Code: a check Claude can run against your Figma design. It compares the built page with the frame, value by value, and Clau"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "your Figma design. It compares the built page with the frame, value by value, and Claude fixes the differences. Created 2026-11-14T11:31:11Z; 50 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a p"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "080e4cba0db9d00544a2": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "f566cea9e4c5de41e294": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "9d647a7b219bda696172": {
       "priority": "medium",
       "needs_review": true,
@@ -32,29 +138,6 @@
         {
           "theme": "Bug fix",
           "text": "own or memory usage keeps climbing, knowing which code is responsible can help you find a fix faster. Continuous profiling gives you that visibility, so you can see where your application spends resources such as CPU time and memory. We’ve mad"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "2b5c84b0751fea5c554e": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "at scaling challenge with a fundamentally re-architected integration. As a Google Unified Security (GUS) Recommended endpoint detection and response (EDR) partner, SentinelOne pairs Google Security Operations through an optimized direct integration"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -116,37 +199,27 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "a4238288229d9ca29065": {
-      "priority": "medium",
+    "2b5c84b0751fea5c554e": {
+      "priority": "high",
       "needs_review": true,
       "themes": [
         {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
         }
       ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
       "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
       ],
       "evidence": [
         {
-          "theme": "Performance",
-          "text": "yle map of your Tailscale tailnet: where every node is, direct / DERP / peer-relay paths, latency matrix, containers and services. Zero dependencies. Created 2026-11-13T15:50:40Z; 8 GitHub stars. Discovered via repository topics/search. This is a"
+          "theme": "Security",
+          "text": "ms seamless access to both proprietary and open-weight capabilities with enterprise-grade security. Explore the models in the model garden today. Next-Generation SecOps: Sentinel"
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "2c09a990b51a998f26a6": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "e9d36cb1980207ef90de": {
@@ -180,39 +253,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "69be2c2743b9f06845df": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Citrix Cloud 1.0.3 Catalog version changed from 1.0.2 to 1.0.3. Query Citrix Cloud platform data — system logs, administrators, Cloud Connect"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "ac0121d95232bfe0eb20": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "9bdd21625a2994e48ec3": {
@@ -259,26 +299,46 @@
       "method": "transparent-rules"
     },
     "fa829f1d5bc121abe759": {
-      "priority": "medium",
+      "priority": "high",
       "needs_review": true,
       "themes": [
         {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
+          "id": "security",
+          "label": "Security",
+          "priority": "high"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
         }
       ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
       "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
       ],
       "evidence": [
         {
-          "theme": "Performance",
-          "text": "write access patterns for your Bigtable instances and clusters, including request volume, latency, bandwidth, and row scan metrics broken down by query type. This feature is generally available (GA) . For more information, see Analyze access patte"
+          "theme": "Security",
+          "text": "instances might not have the features and fixes available until the rollout is complete. Security Bug ID Description 579640924 Security fix for Apigee. Hardened the JavaCallout, Script, and JavaScript policy sandboxes. 579642864 Security fix for A"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "to complete across all Google Cloud zones. Your instances might not have the features and fixes available until the rollout is complete. Security Bug ID Description 579640924 Security fix for Apigee. Hardened the JavaCallout, Script, and JavaScr"
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "b1ce630f14b7b34d955c": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "257025d81242ac2fb59d": {
@@ -629,52 +689,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "82dab8bfbdfafe0416b1": {
-      "priority": "low",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
-      "review_actions": [
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Plugin",
-          "text": "Grafana plugin update: Grafana Metrics Drilldown 3.2.0 Catalog version changed from 3.1.0 to 3.2.0. Quickly find related metrics with a few clicks, without needing"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "f93ddfc8cebbc5639a3e": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "builds, deploys, polling, model time and waiting for you in an HTML report, and suggests fixes. Created 2026-11-12T20:37:53Z; 3 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a product launch."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "96b86f4dbafdd38ea7f1": {
       "priority": "high",
       "needs_review": true,
@@ -754,29 +768,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "4134dd18aa2bfc543867": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "we’re making it simpler for enterprises to connect their locations to the cloud with the performance and reliability they need. This is an important step toward a more programmable, cloud-like networking experience.” - Jim Fowler, EVP, Chief Technolo"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "df1697183f6bca5244a7": {
       "priority": "low",
       "needs_review": false,
@@ -830,6 +821,29 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "4134dd18aa2bfc543867": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "we’re making it simpler for enterprises to connect their locations to the cloud with the performance and reliability they need. This is an important step toward a more programmable, cloud-like networking experience.” - Jim Fowler, EVP, Chief Technolo"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "eb7fada9f1117c4ef019": {
       "priority": "low",
       "needs_review": false,
@@ -864,6 +878,16 @@
       "method": "transparent-rules"
     },
     "f6aeb4285f4bf878e967": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "3c0423e23d19d9dd0938": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -952,37 +976,24 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "fdb0695eddaae2756b13": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        },
-        {
-          "id": "plugin",
-          "label": "Plugin",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
-      "review_actions": [
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic.",
-        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
-      ],
-      "evidence": [
-        {
-          "theme": "Performance",
-          "text": "bservability project candidate: mswdev/orca-fleet-monitor Orca plugin that shows the live performance of every machine your Orca reaches (this computer and each paired Orca server) in one sidebar panel. Basic stats need nothing on the remote; install"
-        },
-        {
-          "theme": "Plugin",
-          "text": "New observability project candidate: mswdev/orca-fleet-monitor Orca plugin that shows the live performance of every machine your Orca reaches (this computer and each paired Orca server) in one sidebar panel. Basic stats need"
-        }
-      ],
-      "confidence": "explicit source phrase match",
+    "9d7cb5d554759a64c819": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "d200d50cad7924f15528": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "7d31a88e24f16b0baccc": {
@@ -1223,16 +1234,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "18faff80965f250894d8": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "c6da24e82ec35c850af2": {
       "priority": "low",
       "needs_review": false,
@@ -1264,6 +1265,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "a8369be9695edf98a186": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "e9b5ba25cd5cf7a5ba22": {
@@ -1307,6 +1318,29 @@
       "review_actions": [],
       "evidence": [],
       "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "6831bff7f872231ba145": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "performance",
+          "label": "Performance",
+          "priority": "medium"
+        }
+      ],
+      "why_it_matters": "The source discusses runtime performance, latency, throughput, or resource use.",
+      "review_actions": [
+        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
+      ],
+      "evidence": [
+        {
+          "theme": "Performance",
+          "text": "ect candidate: ranajahanzaib/distributed-request-debugger Distributed request debugging & latency root-cause analysis with Go, OpenTelemetry & Tempo. Created 2026-11-11T03:48:22Z; 3 GitHub stars. Discovered via repository topics/search. This is a"
+        }
+      ],
+      "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
     "8c054942663820895449": {
@@ -1497,6 +1531,26 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "00c926083d3b178544ef": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "bbbfbbc08e8612b4c5a1": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "ccf0cf79a39e9552c6b5": {
       "priority": "low",
       "needs_review": false,
@@ -1561,6 +1615,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "5b2b800e8b1e86ff8d68": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "16f8b59b84903687af99": {
@@ -2088,16 +2152,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "760949bd4bf1bd94ef3e": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "e0db15dc903b22588a02": {
       "priority": "low",
       "needs_review": false,
@@ -2245,6 +2299,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "0ca816e85e1a16a4deae": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "9f6480550887402cb801": {
@@ -2880,16 +2944,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "61235898a05b34ce8ace": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "56d0e3b73efe9b953197": {
       "priority": "medium",
       "needs_review": true,
@@ -3068,6 +3122,16 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "d14230be80cd8739f6e6": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "d6665f4190b7b8d2386b": {
       "priority": "high",
       "needs_review": true,
@@ -3155,6 +3219,16 @@
       "method": "transparent-rules"
     },
     "847320066e544be6f57b": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "834578553589def09483": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -3268,16 +3342,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "c0661e639b81ad91d276": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "76537669ae10a2c8db9d": {
@@ -3449,6 +3513,16 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "2b6ac481911697338375": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "22b1443c0369f273af13": {
       "priority": "high",
       "needs_review": true,
@@ -3490,29 +3564,6 @@
         {
           "theme": "Security",
           "text": "## Grafana Mimir * [BUGFIX] Update `github.com/go-jose/go-jose/v4` to v4.1.6 to address [CVE-2026-116587](https://github.com/advisories/GHSA-mgcc-cww5-fp2q), [CVE-2026-116585](https://github.com/advisories/GHSA-4w3g-jfj2-cw2q), and [CVE-2026-116586](http"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "01b0f46f1a87edc7f139": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source describes a fix; check whether the affected behavior exists in your deployed version.",
-      "review_actions": [
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Bug fix",
-          "text": "t the answer is wrong. Tracedown finds the step that caused it and replays the run with a fix. Created 2026-10-30T17:08:49Z; 17 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a product launch."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -3660,16 +3711,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "e8b0ef5cfcb14352635d": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "4dddee97f3e4775ee2e9": {
       "priority": "medium",
       "needs_review": true,
@@ -3777,6 +3818,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "31a36a120c3283389e92": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "07eb20b26ef120ce94a3": {
@@ -4147,16 +4198,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "dd214af630077a830515": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "40ddc01098a6030801d1": {
       "priority": "medium",
       "needs_review": true,
@@ -4198,6 +4239,29 @@
         {
           "theme": "Bug fix",
           "text": "Thanos v0.42.5 v0.42.4 but with eMudhra CA fix. v0.42.4 but with eMudhra CA fix."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "b67cad89e1f46fb1a969": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "candidate: YMoose/opencode-genai-obs OpenTelemetry GenAI tracing and raw LLM wire capture plugin for OpenCode v2 — streams turn-scoped traces (chats, tools, sub-agents, compaction, retries) to any OTLP backend Created 2026-10-27T10:27:22Z; 2 GitH"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -4939,16 +5003,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "b0eebee0b0a5a26b2a27": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "0b1a1e753c01fc2859c5": {
       "priority": "high",
       "needs_review": true,
@@ -5424,6 +5478,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "a15505272345255e3bd6": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "80c39506303e59a3ed02": {
       "priority": "high",
       "needs_review": true,
@@ -5754,6 +5818,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "2d53b5abc73bf9a6d7e6": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "4c72ceb4fa7dc4a7d94b": {
       "priority": "low",
       "needs_review": false,
@@ -5901,16 +5975,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "569b6267dd5578bc4993": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "09fc9c0bfab1832ab211": {
@@ -6492,16 +6556,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "ef316cec05525c352493": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "62903d000440ef9d0fb4": {
       "priority": "high",
       "needs_review": true,
@@ -6543,6 +6597,26 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "5a497b370ec9391ce5dd": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "da5e06fcf17d897f8607": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "debcdde5bef4e9730182": {
@@ -6632,16 +6706,6 @@
         }
       ],
       "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "1bd8a2966bdfd0cf83b6": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "b752e1c17f46ebaa8751": {
@@ -6799,16 +6863,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "0e334bda7265b4e737b4": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "7b630098255372d9dd8f": {
       "priority": "high",
       "needs_review": true,
@@ -6928,6 +6982,16 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "cec5a78ea4536ceb8d7e": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "d02da21f8e018d147907": {
       "priority": "medium",
       "needs_review": true,
@@ -6961,7 +7025,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "6b093a159a6123e46e8f": {
+    "4f016ce75c5d5cd652ae": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7012,6 +7076,16 @@
         }
       ],
       "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "f591e688072195ee91de": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
     "424260870dae223ee5b4": {
@@ -7115,39 +7189,6 @@
         {
           "theme": "Bug fix",
           "text": "=60m` equals `=1h`, `head_read_concurrency` equals `head_read_concurrency=1` (#523). ### Fixes 1. **A scrape target serving a malformed native histogram over protobuf could crash Prom++.** `ProtobufParser.Histogram()` calls `Compact(0)` before"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "adebc4fe89d4f91bad60": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        },
-        {
-          "id": "performance",
-          "label": "Performance",
-          "priority": "medium"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance.",
-        "Check the workload and benchmark context; validate resource usage and latency with representative traffic."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "ices for self-hosting Java and JVM apps on VPS and small servers. Deployment, monitoring, security, and performance. Created 2026-09-30T14:40:36Z; 30 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a"
-        },
-        {
-          "theme": "Performance",
-          "text": "hosting Java and JVM apps on VPS and small servers. Deployment, monitoring, security, and performance. Created 2026-09-30T14:40:36Z; 30 GitHub stars. Discovered via repository topics/search. This is a candidate, not confirmation of a product launch."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -7517,6 +7558,29 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "7af69b96bbda4d17bcec": {
+      "priority": "low",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "plugin",
+          "label": "Plugin",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions a Grafana plugin or plugin ecosystem change; verify compatibility and maintenance status.",
+      "review_actions": [
+        "Check plugin ownership, Grafana compatibility, signature status, and release cadence before adoption."
+      ],
+      "evidence": [
+        {
+          "theme": "Plugin",
+          "text": "roject candidate: jevlinai/jevlin-go Jevlin SuperSearch: A free multi-provider web search plugin for agents, with built in trajectory observability. Created 2026-09-24T12:26:38Z; 2 GitHub stars. Discovered via repository topics/search. This is a"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "63aa2c0639ee19292c93": {
       "priority": "medium",
       "needs_review": true,
@@ -7540,7 +7604,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "17fff933da31dd9d613c": {
+    "24678afc1561ca28a59d": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7626,7 +7690,7 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "9d67c4483c0115fe6062": {
+    "883d63fa30399f524946": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -7802,16 +7866,6 @@
       "method": "transparent-rules"
     },
     "c1f30a7ab7065eacc241": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
-    "1f6fcbaf0969c42ee1c8": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -9378,16 +9432,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "72a7f0e77d7423127a09": {
-      "priority": "low",
-      "needs_review": false,
-      "themes": [],
-      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
-      "review_actions": [],
-      "evidence": [],
-      "confidence": "no matching editorial rule",
-      "method": "transparent-rules"
-    },
     "3a7a0cb14d8f230753a1": {
       "priority": "medium",
       "needs_review": true,
@@ -10550,6 +10594,16 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "e7cf8fa80db850fec44f": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
     "68791575af91a2889019": {
       "priority": "low",
       "needs_review": false,
@@ -10561,6 +10615,16 @@
       "method": "transparent-rules"
     },
     "7e1b6edd2edc1b3a4677": {
+      "priority": "low",
+      "needs_review": false,
+      "themes": [],
+      "why_it_matters": "No explicit operational-risk phrase matched; this item stays in the general feed rather than the editorial review queue.",
+      "review_actions": [],
+      "evidence": [],
+      "confidence": "no matching editorial rule",
+      "method": "transparent-rules"
+    },
+    "2cfd53735da2ed1afe1c": {
       "priority": "low",
       "needs_review": false,
       "themes": [],
@@ -10598,29 +10662,6 @@
         {
           "theme": "Security",
           "text": "How Burgan Bank Türkiye transformed observability and security with Elastic Burgan Bank Türkiye modernized its IT with Elastic, moving from OpenShift to bare metal. Learn how the team used ML and an on-prem AI as"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "bea82a648450843bd666": {
-      "priority": "high",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "security",
-          "label": "Security",
-          "priority": "high"
-        }
-      ],
-      "why_it_matters": "The source explicitly mentions a security issue; verify whether the affected product and version are in use.",
-      "review_actions": [
-        "Check whether the affected component and version are deployed; review the upstream advisory and patch guidance."
-      ],
-      "evidence": [
-        {
-          "theme": "Security",
-          "text": "Unifying security monitoring with Elastic Security and Microsoft Sentinel Unlock superior security by integrating Elastic with Microsoft Sentinel. Enhance threat detec"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -14094,7 +14135,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "2f988e5585014127400c": {
+    "f5b3414b374cd0151c45": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -14117,7 +14158,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "f5b3414b374cd0151c45": {
+    "2f988e5585014127400c": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -14722,6 +14763,39 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
+    "8652a1f6383b51b0ab0c": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing and listening behaviors to use custom TCP routing."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "3d0f88b7690f13a1bb19": {
       "priority": "medium",
       "needs_review": true,
@@ -14760,39 +14834,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: pkg.confighttp.PrioritizeNewKeepalive · main STABLE gate; introduced v0.162.0. When enabled, the Keepalive configuration is prioritized over the deprecated configuration fields. Stage transition/removal version: v0.166"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8652a1f6383b51b0ab0c": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: pkg.configmiddleware.CustomTCPRouting · main ALPHA gate; introduced v0.164.0. When enabled, TCP-based clients and servers can override their dialing and listening behaviors to use custom TCP routing."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -20529,171 +20570,6 @@
       "confidence": "no matching editorial rule",
       "method": "transparent-rules"
     },
-    "f2a81e5672d0359a281f": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: connector.spanmetrics.excludeResourceMetrics · main ALPHA gate; introduced v0.137.0. When enabled, connector will exclude all resource attributes."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: connector.spanmetrics.excludeResourceMetrics · main ALPHA gate; introduced v0.137.0. When enabled, connector will exclude all resource attributes."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "67e655c469651b746328": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: connector.spanmetrics.includeCollectorInstanceID · main BETA gate; introduced v0.136.0. When enabled, connector add collector.instance.id to default"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: connector.spanmetrics.includeCollectorInstanceID · main BETA gate; introduced v0.136.0. When enabled, connector add collector.instance.id to default dimensions."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "cfc87211e641d80cf1f5": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: connector.spanmetrics.legacyMetricNames · main ALPHA gate; introduced v0.109.0. When enabled, connector uses legacy metric names."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: connector.spanmetrics.legacyMetricNames · main ALPHA gate; introduced v0.109.0. When enabled, connector uses legacy metric names."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "93b381128979b43c1f54": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: connector.spanmetrics.useSecondAsDefaultMetricsUnit · main ALPHA gate; introduced v0.137.0. When enabled, connector use second as default unit for d"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: connector.spanmetrics.useSecondAsDefaultMetricsUnit · main ALPHA gate; introduced v0.137.0. When enabled, connector use second as default unit for duration metrics."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "9b8013642323d7487151": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: spanmetrics.statusCodeConvention.useOtelPrefix · main ALPHA gate; introduced v0.141.0. When enabled, generated metrics will use `otel.status_code=ER"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: spanmetrics.statusCodeConvention.useOtelPrefix · main ALPHA gate; introduced v0.141.0. When enabled, generated metrics will use `otel.status_code=ERROR` instead of `status.code=STATUS_CODE_ERROR`"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "b3d15c8d8162c29326e9": {
       "priority": "medium",
       "needs_review": true,
@@ -21041,6 +20917,171 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "f2a81e5672d0359a281f": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: connector.spanmetrics.excludeResourceMetrics · main ALPHA gate; introduced v0.137.0. When enabled, connector will exclude all resource attributes."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: connector.spanmetrics.excludeResourceMetrics · main ALPHA gate; introduced v0.137.0. When enabled, connector will exclude all resource attributes."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "67e655c469651b746328": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: connector.spanmetrics.includeCollectorInstanceID · main BETA gate; introduced v0.136.0. When enabled, connector add collector.instance.id to default"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: connector.spanmetrics.includeCollectorInstanceID · main BETA gate; introduced v0.136.0. When enabled, connector add collector.instance.id to default dimensions."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "cfc87211e641d80cf1f5": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: connector.spanmetrics.legacyMetricNames · main ALPHA gate; introduced v0.109.0. When enabled, connector uses legacy metric names."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: connector.spanmetrics.legacyMetricNames · main ALPHA gate; introduced v0.109.0. When enabled, connector uses legacy metric names."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "93b381128979b43c1f54": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: connector.spanmetrics.useSecondAsDefaultMetricsUnit · main ALPHA gate; introduced v0.137.0. When enabled, connector use second as default unit for d"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: connector.spanmetrics.useSecondAsDefaultMetricsUnit · main ALPHA gate; introduced v0.137.0. When enabled, connector use second as default unit for duration metrics."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "9b8013642323d7487151": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: spanmetrics.statusCodeConvention.useOtelPrefix · main ALPHA gate; introduced v0.141.0. When enabled, generated metrics will use `otel.status_code=ER"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: spanmetrics.statusCodeConvention.useOtelPrefix · main ALPHA gate; introduced v0.141.0. When enabled, generated metrics will use `otel.status_code=ERROR` instead of `status.code=STATUS_CODE_ERROR`"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "3af5d4081947769bbb68": {
       "priority": "medium",
       "needs_review": true,
@@ -21079,72 +21120,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: exporter.file.nativeCompression · main ALPHA gate; introduced v0.154.0. Use native file-level compression (zstd) instead of message-level compression. Creates standard .zst files compatible with standard decompr"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "eecb3237bbabf83c3dc7": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: exporter.kafka.useRequestType · main ALPHA gate; introduced v0.157.0. When enabled, the Kafka exporter converts pdata into Kafka records at request-"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: exporter.kafka.useRequestType · main ALPHA gate; introduced v0.157.0. When enabled, the Kafka exporter converts pdata into Kafka records at request-creation time and uses a custom exporterhelper.Request for qu"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "2bfc11fd6d59636641d5": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metric"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metrics to the monitored resource type defined by the resource label gcp.resource_t"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -21244,6 +21219,105 @@
         {
           "theme": "Feature",
           "text": "Tel feature gate: exporter.datadogexporter.metricexportserializerclient · main BETA gate; introduced v0.122.0. When enabled, metric export in datadogexporter uses the serializer exporter from the Datadog Agent."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "2bfc11fd6d59636641d5": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metric"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: exporter.googlecloud.CustomMonitoredResources · main ALPHA gate; introduced v0.122.0. When enabled, the googlecloudexporter will map the OTLP metrics to the monitored resource type defined by the resource label gcp.resource_t"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "eecb3237bbabf83c3dc7": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: exporter.kafka.useRequestType · main ALPHA gate; introduced v0.157.0. When enabled, the Kafka exporter converts pdata into Kafka records at request-"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: exporter.kafka.useRequestType · main ALPHA gate; introduced v0.157.0. When enabled, the Kafka exporter converts pdata into Kafka records at request-creation time and uses a custom exporterhelper.Request for qu"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "ae2247d561ffc3c51023": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: exporter.signalfx.consumeEntityEvents · main ALPHA gate; introduced v0.145.0. Process entity events from logs pipeline and convert to dimension prop"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: exporter.signalfx.consumeEntityEvents · main ALPHA gate; introduced v0.145.0. Process entity events from logs pipeline and convert to dimension property updates"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -21553,105 +21627,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "ae2247d561ffc3c51023": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: exporter.signalfx.consumeEntityEvents · main ALPHA gate; introduced v0.145.0. Process entity events from logs pipeline and convert to dimension prop"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: exporter.signalfx.consumeEntityEvents · main ALPHA gate; introduced v0.145.0. Process entity events from logs pipeline and convert to dimension property updates"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d49e36b2e8ccc5126b22": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: extension.azureencoding.DontEmitV0LogConventions · main BETA gate; introduced v0.149.0. When enabled, v0 semconv log attribute names are not emitted"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: extension.azureencoding.DontEmitV0LogConventions · main BETA gate; introduced v0.149.0. When enabled, v0 semconv log attribute names are not emitted."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "b135f991fc242955301d": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: extension.azureencoding.EmitV1LogConventions · main BETA gate; introduced v0.149.0. When enabled, v1 semconv log attribute names are emitted."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: extension.azureencoding.EmitV1LogConventions · main BETA gate; introduced v0.149.0. When enabled, v1 semconv log attribute names are emitted."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "1df7dcc6068f8de5406d": {
       "priority": "medium",
       "needs_review": true,
@@ -21804,6 +21779,72 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "d49e36b2e8ccc5126b22": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: extension.azureencoding.DontEmitV0LogConventions · main BETA gate; introduced v0.149.0. When enabled, v0 semconv log attribute names are not emitted"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: extension.azureencoding.DontEmitV0LogConventions · main BETA gate; introduced v0.149.0. When enabled, v0 semconv log attribute names are not emitted."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "b135f991fc242955301d": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: extension.azureencoding.EmitV1LogConventions · main BETA gate; introduced v0.149.0. When enabled, v1 semconv log attribute names are emitted."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: extension.azureencoding.EmitV1LogConventions · main BETA gate; introduced v0.149.0. When enabled, v1 semconv log attribute names are emitted."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "6ab88bbed48ff62d7178": {
       "priority": "medium",
       "needs_review": true,
@@ -21908,6 +21949,158 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: extension.opampextension.RemoteRestarts · main ALPHA gate; introduced v0.145.0. When enabled, the OpAMP extension supports restart commands from the OpAMP server through the `CommandType_Restart` command."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "c7f4a4aa7e1f33308a7d": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: ottl.functions.enableLambda · main ALPHA gate; introduced v0.155.0. Allow OTTL functions to take lambda arguments. When disabled, lambda arguments a"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: ottl.functions.enableLambda · main ALPHA gate; introduced v0.155.0. Allow OTTL functions to take lambda arguments. When disabled, lambda arguments are rejected."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "08924f7dbebde23a4378": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.ottl.enableDynamicMapKeys · main ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at r"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.ottl.enableDynamicMapKeys · main ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at runtime. When disabled, map literal keys must be string litera"
+        },
+        {
+          "theme": "Bug fix",
+          "text": "in ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at runtime. When disabled, map literal keys must be string literals."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "d1ef63d5eda2347f6790": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        },
+        {
+          "id": "bugfix",
+          "label": "Bug fix",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first.",
+        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.ottl.functions.enableDynamicSliceArguments · main BETA gate; introduced v0.163.0. Allow slice arguments of stable OTTL functions, such as the va"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.ottl.functions.enableDynamicSliceArguments · main BETA gate; introduced v0.163.0. Allow slice arguments of stable OTTL functions, such as the values of Concat, to be paths or converters that resolve to a slice at runtime."
+        },
+        {
+          "theme": "Bug fix",
+          "text": "ts of stable OTTL functions, such as the values of Concat, to be paths or converters that resolve to a slice at runtime. When disabled, these arguments only accept list literals."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "299f290b23cfeba11638": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.ottl.functions.enableExperimental · main ALPHA gate; introduced v0.163.0. Allow OTTL statements and conditions to use experimental functions. Wh"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.ottl.functions.enableExperimental · main ALPHA gate; introduced v0.163.0. Allow OTTL statements and conditions to use experimental functions. When disabled, experimental functions are rejected."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -22656,158 +22849,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "c7f4a4aa7e1f33308a7d": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: ottl.functions.enableLambda · main ALPHA gate; introduced v0.155.0. Allow OTTL functions to take lambda arguments. When disabled, lambda arguments a"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: ottl.functions.enableLambda · main ALPHA gate; introduced v0.155.0. Allow OTTL functions to take lambda arguments. When disabled, lambda arguments are rejected."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "08924f7dbebde23a4378": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.ottl.enableDynamicMapKeys · main ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at r"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: pkg.ottl.enableDynamicMapKeys · main ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at runtime. When disabled, map literal keys must be string litera"
-        },
-        {
-          "theme": "Bug fix",
-          "text": "in ALPHA gate; introduced v0.164.0. Allow map literal keys to be paths or converters that resolve to a string at runtime. When disabled, map literal keys must be string literals."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "d1ef63d5eda2347f6790": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        },
-        {
-          "id": "bugfix",
-          "label": "Bug fix",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first.",
-        "Check whether the affected bug exists in your deployed version and whether the fix warrants an upgrade."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.ottl.functions.enableDynamicSliceArguments · main BETA gate; introduced v0.163.0. Allow slice arguments of stable OTTL functions, such as the va"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: pkg.ottl.functions.enableDynamicSliceArguments · main BETA gate; introduced v0.163.0. Allow slice arguments of stable OTTL functions, such as the values of Concat, to be paths or converters that resolve to a slice at runtime."
-        },
-        {
-          "theme": "Bug fix",
-          "text": "ts of stable OTTL functions, such as the values of Concat, to be paths or converters that resolve to a slice at runtime. When disabled, these arguments only accept list literals."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "299f290b23cfeba11638": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.ottl.functions.enableExperimental · main ALPHA gate; introduced v0.163.0. Allow OTTL statements and conditions to use experimental functions. Wh"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: pkg.ottl.functions.enableExperimental · main ALPHA gate; introduced v0.163.0. Allow OTTL statements and conditions to use experimental functions. When disabled, experimental functions are rejected."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "35017927e7360a71ba1e": {
       "priority": "medium",
       "needs_review": true,
@@ -22879,92 +22920,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: pkg.translator.azurelogs.EmitV1LogConventions · main BETA gate; introduced v0.147.0. When enabled, the stable semconv attributes code.function.name and code.file.path are emitted."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5c3d9ae4bde7d0b50cb7": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "n STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translator.faro.EmitV1DeploymentEnvironmentConventions to also be enabled. Stage tra"
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer"
-        },
-        {
-          "theme": "Feature",
-          "text": "gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translato"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "e10d8c1a4f4f2a41360f": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "d, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (semconv v1.26.0). Stage transition/removal version: v0.170.0."
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator emits deployme"
-        },
-        {
-          "theme": "Feature",
-          "text": "ture gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (sem"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -23097,6 +23052,92 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: translator.skywalking.useStableSemconv · main ALPHA gate; introduced v0.146.0. When enabled, uses stable semantic conventions (v1.38.0) for attribute names (e.g., url.full, http.response.status_code, db.namespace, serv"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "fa7777c4b8d980d0b82c": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "n BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the deprecated http.status_code attribute (semconv v1.25.0). Requires pkg.translator.jaeger.EmitV1HttpConventions to also be enabled."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.translator.jaeger.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the depre"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.translator.jaeger.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the deprecated http.status_code attribute (semconv v1.25.0). Requires pkg.translator.ja"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "ab18eeec47440fba038b": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "d, the Jaeger translator emits http.response.status_code (semconv v1.40.0) instead of the deprecated http.status_code (semconv v1.25.0)."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: pkg.translator.jaeger.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator emits http.response.status_co"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: pkg.translator.jaeger.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator emits http.response.status_code (semconv v1.40.0) instead of the deprecated http.status_code (semconv v"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -23446,7 +23487,7 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "fa7777c4b8d980d0b82c": {
+    "5c3d9ae4bde7d0b50cb7": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -23475,21 +23516,21 @@
       "evidence": [
         {
           "theme": "Deprecation",
-          "text": "n BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the deprecated http.status_code attribute (semconv v1.25.0). Requires pkg.translator.jaeger.EmitV1HttpConventions to also be enabled."
+          "text": "n STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translator.faro.EmitV1DeploymentEnvironmentConventions to also be enabled. Stage tra"
         },
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.jaeger.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the depre"
+          "text": "OTel feature gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer"
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: pkg.translator.jaeger.DontEmitV0HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator no longer emits the deprecated http.status_code attribute (semconv v1.25.0). Requires pkg.translator.ja"
+          "text": "gate: pkg.translator.faro.DontEmitV0DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator no longer emits the deprecated deployment.environment attribute (semconv v1.26.0). Requires pkg.translato"
         }
       ],
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "ab18eeec47440fba038b": {
+    "e10d8c1a4f4f2a41360f": {
       "priority": "medium",
       "needs_review": true,
       "themes": [
@@ -23518,15 +23559,15 @@
       "evidence": [
         {
           "theme": "Deprecation",
-          "text": "d, the Jaeger translator emits http.response.status_code (semconv v1.40.0) instead of the deprecated http.status_code (semconv v1.25.0)."
+          "text": "d, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (semconv v1.26.0). Stage transition/removal version: v0.170.0."
         },
         {
           "theme": "Configuration",
-          "text": "OTel feature gate: pkg.translator.jaeger.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator emits http.response.status_co"
+          "text": "OTel feature gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator emits deployme"
         },
         {
           "theme": "Feature",
-          "text": "OTel feature gate: pkg.translator.jaeger.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, the Jaeger translator emits http.response.status_code (semconv v1.40.0) instead of the deprecated http.status_code (semconv v"
+          "text": "ture gate: pkg.translator.faro.EmitV1DeploymentEnvironmentConventions · main STABLE gate; introduced v0.155.0. When enabled, the Faro translator emits deployment.environment.name (semconv v1.40.0) instead of the deprecated deployment.environment (sem"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24113,6 +24154,135 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "bbeaaf8015b0f98a81f6": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "component",
+          "label": "New component",
+          "priority": "low"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.awscontainerinsightreceiver.useNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type n"
+        },
+        {
+          "theme": "New component",
+          "text": "seNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type name 'awscontainerinsight' instead of 'awscontainerinsightreceiver'."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: receiver.awscontainerinsightreceiver.useNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type name 'awscontainerinsight' instead of 'awscontainerinsightreceiver'."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "5cb7941a7fa489fcb201": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "ns · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits the deprecated semconv v1.21.0 attribute container.image.tag. Requires receiver.awsecscontainermetrics.EmitV1ContainerConventions to also be enabled."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.awsecscontainermetrics.DontEmitV0ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits th"
+        },
+        {
+          "theme": "Feature",
+          "text": "e gate: receiver.awsecscontainermetrics.DontEmitV0ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits the deprecated semconv v1.21.0 attribute container.image.tag. Requires receiver.awsecscontainerm"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "06bcd1b33ac5ea397130": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "deprecation",
+          "label": "Deprecation",
+          "priority": "medium"
+        },
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
+      "review_actions": [
+        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Deprecation",
+          "text": "0. When enabled, the receiver emits container.image.tags (semconv v1.42.0) instead of the deprecated container.image.tag (semconv v1.21.0)."
+        },
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.awsecscontainermetrics.EmitV1ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver emits container.image."
+        },
+        {
+          "theme": "Feature",
+          "text": "ature gate: receiver.awsecscontainermetrics.EmitV1ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver emits container.image.tags (semconv v1.42.0) instead of the deprecated container.image.tag (semconv v1.21.0)."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "76f2fd254e3ae1c40dc3": {
       "priority": "medium",
       "needs_review": true,
@@ -24255,135 +24425,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "bbeaaf8015b0f98a81f6": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "component",
-          "label": "New component",
-          "priority": "low"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Check component type, maturity, distribution availability, and whether it is included in your Collector build.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.awscontainerinsightreceiver.useNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type n"
-        },
-        {
-          "theme": "New component",
-          "text": "seNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type name 'awscontainerinsight' instead of 'awscontainerinsightreceiver'."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: receiver.awscontainerinsightreceiver.useNewTypeName · main ALPHA gate; introduced v0.143.0. When enabled, the receiver uses the new component type name 'awscontainerinsight' instead of 'awscontainerinsightreceiver'."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "5cb7941a7fa489fcb201": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "ns · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits the deprecated semconv v1.21.0 attribute container.image.tag. Requires receiver.awsecscontainermetrics.EmitV1ContainerConventions to also be enabled."
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.awsecscontainermetrics.DontEmitV0ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits th"
-        },
-        {
-          "theme": "Feature",
-          "text": "e gate: receiver.awsecscontainermetrics.DontEmitV0ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver no longer emits the deprecated semconv v1.21.0 attribute container.image.tag. Requires receiver.awsecscontainerm"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "06bcd1b33ac5ea397130": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "deprecation",
-          "label": "Deprecation",
-          "priority": "medium"
-        },
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source identifies a deprecated surface that may need a planned migration.",
-      "review_actions": [
-        "Search configurations and manifests for the affected surface; identify an owner and migration deadline.",
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Deprecation",
-          "text": "0. When enabled, the receiver emits container.image.tags (semconv v1.42.0) instead of the deprecated container.image.tag (semconv v1.21.0)."
-        },
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.awsecscontainermetrics.EmitV1ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver emits container.image."
-        },
-        {
-          "theme": "Feature",
-          "text": "ature gate: receiver.awsecscontainermetrics.EmitV1ContainerConventions · main ALPHA gate; introduced v0.157.0. When enabled, the receiver emits container.image.tags (semconv v1.42.0) instead of the deprecated container.image.tag (semconv v1.21.0)."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "15832577cd400ea06660": {
       "priority": "medium",
       "needs_review": true,
@@ -24445,6 +24486,39 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.awsxray.EmitV1HttpConventions · main BETA gate; introduced v0.158.0. When enabled, semconv stable HTTP attributes are enabled."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "538a238849e20f4b377c": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: cloudfoundry.resourceAttributes.allow · main BETA gate; introduced v0.117.0. When enabled, envelope tags are copied to the metrics as resource attri"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: cloudfoundry.resourceAttributes.allow · main BETA gate; introduced v0.117.0. When enabled, envelope tags are copied to the metrics as resource attributes instead of datapoint attributes"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24559,39 +24633,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "538a238849e20f4b377c": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: cloudfoundry.resourceAttributes.allow · main BETA gate; introduced v0.117.0. When enabled, envelope tags are copied to the metrics as resource attri"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: cloudfoundry.resourceAttributes.allow · main BETA gate; introduced v0.117.0. When enabled, envelope tags are copied to the metrics as resource attributes instead of datapoint attributes"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "2b93d1fa3533cff798ca": {
       "priority": "medium",
       "needs_review": true,
@@ -24620,6 +24661,72 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.githubreceiver.UseCheckRunID · main BETA gate; introduced v0.151.0. When enabled, deterministic job, step, and queue span IDs are derived from the GitHub check_run_id (the WorkflowJob.id webhook field, also"
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "8f7b889cabeba0816ed5": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "41d81d09496502f7eb69": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24752,72 +24859,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.hostmetricsreceiver.UseLinuxMemAvailable · main BETA gate; introduced v0.137.0. When enabled, the used value for the system.memory.usage and system.memory.utilization metrics will be based on the Linux kernel's MemAvail"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "8f7b889cabeba0816ed5": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: scraper.process.DontEmitV0SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv legacy attributes are disabled."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "41d81d09496502f7eb69": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: scraper.process.EmitV1SystemConventions · main ALPHA gate; introduced v0.158.0. When enabled, semconv stable attributes are enabled."
         }
       ],
       "confidence": "explicit source phrase match",
@@ -24998,6 +25039,39 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
+    "2b9262ff1ff717040a57": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disabl"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disable the splitting of the job label by '/' to derive service.namespace and service."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
     "d65d8150d8b3008e3bb0": {
       "priority": "medium",
       "needs_review": true,
@@ -25130,39 +25204,6 @@
       "confidence": "explicit source phrase match",
       "method": "transparent-rules"
     },
-    "2b9262ff1ff717040a57": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disabl"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: receiver.prometheus_remote_write.disableJobSplit · main ALPHA gate; introduced v0.165.0. When enabled, the prometheusremotewritereceiver will disable the splitting of the job label by '/' to derive service.namespace and service."
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
     "a5bdf9e03b5faecad02f": {
       "priority": "medium",
       "needs_review": true,
@@ -25191,6 +25232,39 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.statsd.monotonicCounterDefault · main ALPHA gate; introduced v0.159.0. When enabled, changes the default value of is_monotonic_counter to true, so that statsd counters are treated as monotonic sums by default."
+        }
+      ],
+      "confidence": "explicit source phrase match",
+      "method": "transparent-rules"
+    },
+    "14d38e4d4d353e875171": {
+      "priority": "medium",
+      "needs_review": true,
+      "themes": [
+        {
+          "id": "configuration",
+          "label": "Configuration",
+          "priority": "medium"
+        },
+        {
+          "id": "feature",
+          "label": "Feature",
+          "priority": "low"
+        }
+      ],
+      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
+      "review_actions": [
+        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
+        "Assess whether the capability solves an active use case; prototype outside production first."
+      ],
+      "evidence": [
+        {
+          "theme": "Configuration",
+          "text": "OTel feature gate: domainControllers.autodiscovery · main ALPHA gate; introduced v0.150.0. When enabled and is remote automatically discover domain controllers through"
+        },
+        {
+          "theme": "Feature",
+          "text": "OTel feature gate: domainControllers.autodiscovery · main ALPHA gate; introduced v0.150.0. When enabled and is remote automatically discover domain controllers through joined controllers and start collecting logs from specified c"
         }
       ],
       "confidence": "explicit source phrase match",
@@ -25234,39 +25308,6 @@
         {
           "theme": "Feature",
           "text": "OTel feature gate: receiver.vcenter.resourcePoolMemoryUsageAttribute · main BETA gate; introduced v0.105.0. Enables the memory usage type attribute for the vcenter.resource_pool.memory.usage metric"
-        }
-      ],
-      "confidence": "explicit source phrase match",
-      "method": "transparent-rules"
-    },
-    "14d38e4d4d353e875171": {
-      "priority": "medium",
-      "needs_review": true,
-      "themes": [
-        {
-          "id": "configuration",
-          "label": "Configuration",
-          "priority": "medium"
-        },
-        {
-          "id": "feature",
-          "label": "Feature",
-          "priority": "low"
-        }
-      ],
-      "why_it_matters": "The source mentions configuration semantics or defaults that may change operational behavior.",
-      "review_actions": [
-        "Diff defaults and configuration semantics; test rendered config and alerting behavior before upgrading.",
-        "Assess whether the capability solves an active use case; prototype outside production first."
-      ],
-      "evidence": [
-        {
-          "theme": "Configuration",
-          "text": "OTel feature gate: domainControllers.autodiscovery · main ALPHA gate; introduced v0.150.0. When enabled and is remote automatically discover domain controllers through"
-        },
-        {
-          "theme": "Feature",
-          "text": "OTel feature gate: domainControllers.autodiscovery · main ALPHA gate; introduced v0.150.0. When enabled and is remote automatically discover domain controllers through joined controllers and start collecting logs from specified c"
         }
       ],
       "confidence": "explicit source phrase match",
