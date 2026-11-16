@@ -265,7 +265,7 @@ Other integration/distribution signals in the November 2–6 docs update: Google
 
 ### 3.4 Honeycomb Team Agents — November 3 carry-forward
 
-Primary sources: [launch announcement](https://www.honeycomb.io/blog/honeycomb-introduces-ai-sre-agents) · [Team Agents product page](https://www.honeycomb.io/platform/team-agents)
+Primary sources: [launch announcement](https://www.honeycomb.io/blog/honeycomb-team-agents-ai-sre-done-right) · [Team Agents product page](https://www.honeycomb.io/platform/team-agents)
 
 Honeycomb announced Personal and Team AI SRE agents in early access. They work from high-cardinality traces, retain investigation context and can pursue scheduled goals such as checking releases, instrumentation, cost and agent quality. Teams set autonomy per goal/action, from observe and recommend through human-approved action and bounded autonomous operation.
 
