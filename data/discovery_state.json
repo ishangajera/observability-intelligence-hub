@@ -7421,7 +7421,7 @@
       "url": "https://github.com/UmTioAii/ASTRO-Harness",
       "description": "Multi-agent coding harness for AI agents. Features deterministic model routing, append-only audit ledgers, cost governance, and durable handoffs. Built with Bun & TypeScript.",
       "created_at": "2026-10-23T15:54:38Z",
-      "pushed_at": "2026-11-16T19:39:09Z",
+      "pushed_at": "2026-11-16T19:42:46Z",
       "stars": 4,
       "topics": [
         "agent-harness",
@@ -11117,7 +11117,7 @@
       "url": "https://github.com/Nikolai752/nightfall-openwrt",
       "description": "Тема в стиле Windows 11 / Liquid Glass и монитор ресурсов для LuCI на OpenWrt 25.12",
       "created_at": "2026-11-01T21:25:18Z",
-      "pushed_at": "2026-11-16T10:09:28Z",
+      "pushed_at": "2026-11-16T19:44:29Z",
       "stars": 15,
       "topics": [
         "dark-theme",
@@ -13510,7 +13510,7 @@
       "url": "https://github.com/jackulau/coding.sh",
       "description": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
       "created_at": "2026-11-07T02:57:14Z",
-      "pushed_at": "2026-11-16T19:42:00Z",
+      "pushed_at": "2026-11-16T19:42:25Z",
       "stars": 68,
       "topics": [
         "agent-evals",
@@ -16331,7 +16331,7 @@
       "url": "https://github.com/DavidAlpert11/SignalViewer",
       "description": "Offline engineering data analysis & validation workbench for any time-series data – compare runs, find what changed, check limits in CI, sweep parameters, report. CSV, Parquet, HDF5, MATLAB, ROS 2, CAN, PX4, ArduPilot.",
       "created_at": "2026-10-11T19:22:58Z",
-      "pushed_at": "2026-11-16T19:41:44Z",
+      "pushed_at": "2026-11-16T19:45:16Z",
       "stars": 2,
       "topics": [
         "ardupilot",
@@ -17424,7 +17424,7 @@
       "url": "https://github.com/21Enzo17/isitmyisp",
       "description": "Is it your Wi-Fi, your router or your ISP? Self-hosted connection monitor that finds where the problem is and builds the evidence report your ISP needs.",
       "created_at": "2026-11-10T16:28:51Z",
-      "pushed_at": "2026-11-16T19:37:09Z",
+      "pushed_at": "2026-11-16T19:43:09Z",
       "stars": 8,
       "topics": [
         "docker",
