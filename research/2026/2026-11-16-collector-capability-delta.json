@@ -1,0 +1,173 @@
+{
+  "report_date": "2026-11-16",
+  "baseline_ref": "v0.145.0",
+  "previous_snapshot_date": "2026-11-09",
+  "source_commits": {
+    "collector_contrib_main": "7bb8ead (tree snapshot)",
+    "collector_core_main": "b53a472 (tree snapshot)"
+  },
+  "counts": {
+    "baseline_v0_145_0": 252,
+    "previous_main_snapshot": 274,
+    "current_main_metadata_entries": 298,
+    "current_main_by_type": {
+      "receivers": 119,
+      "processors": 46,
+      "exporters": 54,
+      "connectors": 17,
+      "extensions": 62
+    },
+    "added_since_previous_snapshot": 24,
+    "removed_since_previous_snapshot": 0
+  },
+  "added_extension_metadata_paths": [
+    "extension/encoding/avrologencodingextension/metadata.yaml",
+    "extension/encoding/awscloudwatchmetricstreamsencodingextension/metadata.yaml",
+    "extension/dbauth/awsiamdbauthextension/metadata.yaml",
+    "extension/encoding/awslogsencodingextension/metadata.yaml",
+    "extension/encoding/azureencodingextension/metadata.yaml",
+    "extension/observer/cfgardenobserver/metadata.yaml",
+    "extension/storage/dbstorage/metadata.yaml",
+    "extension/observer/dockerobserver/metadata.yaml",
+    "extension/observer/ecsobserver/metadata.yaml",
+    "extension/extensionauthtest/metadata.yaml",
+    "extension/extensionmiddlewaretest/metadata.yaml",
+    "extension/storage/filestorage/metadata.yaml",
+    "extension/encoding/googlecloudlogentryencodingextension/metadata.yaml",
+    "extension/observer/hostobserver/metadata.yaml",
+    "extension/encoding/jaegerencodingextension/metadata.yaml",
+    "extension/encoding/jsonlogencodingextension/metadata.yaml",
+    "extension/observer/k8sobserver/metadata.yaml",
+    "extension/encoding/otlpencodingextension/metadata.yaml",
+    "extension/tailstorage/pebbletailstorageextension/metadata.yaml",
+    "extension/fleettracker/redisfleettrackerextension/metadata.yaml",
+    "extension/storage/redisstorageextension/metadata.yaml",
+    "extension/encoding/skywalkingencodingextension/metadata.yaml",
+    "extension/encoding/textencodingextension/metadata.yaml",
+    "extension/encoding/zipkinencodingextension/metadata.yaml"
+  ],
+  "verified_metadata_samples": [
+    {
+      "component": "queue_batch",
+      "type": "processor",
+      "stage": {
+        "traces": "beta",
+        "metrics": "beta",
+        "logs": "beta",
+        "profiles": "alpha"
+      },
+      "distributions": [],
+      "introduced_in": "v0.165.0"
+    },
+    {
+      "component": "file_storage",
+      "type": "extension",
+      "stage": "beta",
+      "distributions": [
+        "contrib",
+        "contrib/k8s"
+      ]
+    },
+    {
+      "component": "k8sobserver",
+      "type": "extension",
+      "stage": "alpha",
+      "distributions": [
+        "contrib",
+        "contrib/k8s"
+      ]
+    },
+    {
+      "component": "otlpencodingextension",
+      "type": "extension",
+      "stage": "beta",
+      "distributions": [
+        "contrib"
+      ]
+    },
+    {
+      "component": "pebbletailstorageextension",
+      "type": "extension",
+      "stage": "alpha",
+      "distributions": [
+        "contrib"
+      ]
+    },
+    {
+      "component": "redisstorageextension",
+      "type": "extension",
+      "stage": "alpha",
+      "distributions": [
+        "contrib"
+      ]
+    },
+    {
+      "component": "awsiamdbauthextension",
+      "type": "extension",
+      "stage": "alpha",
+      "distributions": [
+        "contrib"
+      ],
+      "vendor_distribution_example": "New Relic NRDOT 2.8.1 nrdot-collector-experimental"
+    },
+    {
+      "component": "redisfleettrackerextension",
+      "type": "extension",
+      "stage": "development",
+      "distributions": []
+    },
+    {
+      "component": "cfgardenobserver",
+      "type": "extension",
+      "stage": "alpha",
+      "distributions": "not declared in sampled metadata"
+    }
+  ],
+  "feature_gates": {
+    "baseline_v0_145_0_count": 18,
+    "baseline_stage_counts": {
+      "alpha": 8,
+      "beta": 5,
+      "stable": 4,
+      "deprecated": 1
+    },
+    "current_main_last_complete_snapshot_date": "2026-11-08",
+    "current_main_last_complete_snapshot_count": 139,
+    "full_current_main_recounted_this_run": false,
+    "verified_current_gates": [
+      {
+        "id": "pkg.exporterhelper.queueBatchEnabled",
+        "stage": "alpha",
+        "from_version": "v0.158.0",
+        "to_version": null,
+        "default": "disabled/opt-in",
+        "meaning": "enables exporterhelper batching by default in NewDefaultQueueConfig"
+      },
+      {
+        "id": "pkg.confighttp.PrioritizeNewKeepalive",
+        "stage": "stable",
+        "from_version": "v0.162.0",
+        "to_version": "v0.166.0",
+        "default": "permanently enabled while present"
+      },
+      {
+        "id": "pkg.configmiddleware.CustomTCPRouting",
+        "stage": "alpha",
+        "from_version": "v0.164.0",
+        "to_version": null,
+        "default": "disabled/opt-in"
+      }
+    ]
+  },
+  "providers": {
+    "metadata_files_found_under_provider_paths": 0,
+    "note": "Provider implementations are not represented by the metadata.yaml component inventory used for this count."
+  },
+  "caveats": [
+    "Metadata entry counts are not runtime/distribution inclusion counts.",
+    "Two added extension metadata paths are test fixtures.",
+    "The Redis fleet tracker is development stage with no declared distribution.",
+    "The complete 139-record main feature-gate inventory is the November 8 snapshot, not a newly re-counted November 16 total.",
+    "The v0.145.0 baseline is a requested comparison reference, not an assertion about the user's deployed image."
+  ]
+}
