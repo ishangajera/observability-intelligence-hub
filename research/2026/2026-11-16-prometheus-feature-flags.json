@@ -1,0 +1,44 @@
+{
+  "report_date": "2026-11-16",
+  "latest_stable_release": "v3.16.0",
+  "release_date": "2026-11-05",
+  "docs": {
+    "v3_16_0": "https://github.com/prometheus/prometheus/blob/v3.16.0/docs/feature_flags.md",
+    "current_main": "https://github.com/prometheus/prometheus/blob/main/docs/feature_flags.md",
+    "v2_30_0": "https://github.com/prometheus/prometheus/blob/v2.30.0/docs/feature_flags.md"
+  },
+  "counts": {
+    "v3_16_0_unique_flags": 27,
+    "current_main_unique_flags": 30,
+    "current_main_text_occurrences": 34
+  },
+  "v3_16_new_opt_in_flags": [
+    "query-cost",
+    "promql-unquoted-utf8-names"
+  ],
+  "current_main_only_flags": [
+    "auto-recording-metadata",
+    "metadata-relabeling",
+    "promql-native-histograms-as-classic"
+  ],
+  "older_opt_in": {
+    "flag": "memory-snapshot-on-shutdown",
+    "first_verified_version": "v2.30.0",
+    "default": "disabled"
+  },
+  "deprecated_or_noop": [
+    {
+      "flag": "extra-scrape-metrics",
+      "state": "deprecated"
+    },
+    {
+      "flag": "promql-extended-range-selectors",
+      "state": "no-op after selector behavior stabilized"
+    }
+  ],
+  "deployment_versions": {
+    "prometheus": "unknown",
+    "grafana": "unknown"
+  },
+  "note": "This is an upstream documentation inventory, not a claim about the user's deployed versions."
+}
