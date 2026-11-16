@@ -40,5 +40,10 @@
     "prometheus": "unknown",
     "grafana": "unknown"
   },
-  "note": "This is an upstream documentation inventory, not a claim about the user's deployed versions."
+  "note": "This is an upstream documentation inventory, not a claim about the user's deployed versions.",
+  "docs_blob_shas": {
+    "v3_16_0": "b616a51aff218eddb9cbec3c73469f434592e409",
+    "current_main": "6020e171bc9ba1c185720e06d3ad8d66bbfe1e23"
+  },
+  "main_only_default": "disabled/opt-in per feature-flag documentation; no stable release tag verified"
 }
