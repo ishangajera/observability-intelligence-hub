@@ -5,6 +5,7 @@ Chronological, deduplicated weekly briefs and versioned capability snapshots. Da
 | Date | Brief | Capability snapshots | Tags |
 |---|---|---|---|
 | 2026-11-09 | [Weekly Observability Intelligence Brief](2026/2026-11-09-weekly-brief.md) | [Collector v0.145.0 vs main inventory and feature gates](2026/2026-11-09-collector-capability-audit.json) · [Prometheus v3.16.0/current-main feature flags](2026/2026-11-09-prometheus-feature-flags.json) | #prometheus #opentelemetry #collector #grafana #loki #jaeger #fluent-bit #victoriametrics #cilium #tool-discovery #security |
+| 2026-11-16 | [Weekly Observability Intelligence Brief](2026/2026-11-16-weekly-brief.md) | [Collector capability delta](2026/2026-11-16-collector-capability-delta.json) · [Prometheus feature flags](2026/2026-11-16-prometheus-feature-flags.json) | #prometheus #opentelemetry #collector #grafana #alloy #loki #mimir #vector #datadog #newrelic #splunk #elastic #honeycomb #grepr #tool-discovery #security #licensing #semantic-conventions |
 
 ## Stable tag vocabulary
 
