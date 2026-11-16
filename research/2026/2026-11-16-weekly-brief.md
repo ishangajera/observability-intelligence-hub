@@ -54,7 +54,7 @@ The patch resolves six published security issues:
 
 Use the matching patched release for the deployed Grafana branch. The latest stable tag verified in this run is 13.3.1; no 13.4.0 stable tag was confirmed.
 
-**Separate issue — CVE-2026-111497 / Brotli:** Grafana issue [#137257](https://github.com/grafana/grafana/issues/137257) tracks vulnerable Brotli dependencies in bundled plugin binaries. The issue remained open in the public tracker at the time of this run. It is separate from the six CVEs fixed in 13.3.1. Confirm the actual bundled Prometheus, Jaeger and Cloud Monitoring plugin binaries in your Grafana build; do not infer that the core Grafana patch alone fixes every bundled binary. The CVE is listed in the CISA Known Exploited Vulnerabilities context and should be treated as urgent pending vendor-confirmed remediation.
+**Separate dependency concern — Grafana issue [#137257](https://github.com/grafana/grafana/issues/137257):** an open community issue reports that bundled Prometheus, Jaeger and Cloud Monitoring plugin binaries include github.com/andybalholm/brotli below 1.2.7 and asks for rebuilt binaries. The issue associates this with CVE-2026-111497, but the official New Relic/Node.js advisories describe that CVE as a Node.js Brotli-decoder RCE; the applicability of that CVE to the pure-Go package named in the Grafana issue is not established by the issue itself. The issue remained open without a confirmed remediation in this run. Treat it as a dependency/version question to validate with Grafana, not a confirmed Grafana CVE. The confirmed CVE-2026-111497 exposure is in vulnerable Node.js runtimes; see New Relic NR26-11 below.
 
 ### 1.3 Grafana plugin SDK Go 0.299.0 — November 12
 
@@ -205,7 +205,7 @@ The stable 1.0.0 release was published October 30 and was not included in the pr
 
 Elastic published an engineering explanation of Kafka receiver partition workers and independent processing. The upstream PRs were merged before the blog date; the article is a useful explanation, not a new November 6 code release. Independent partition processing and max_in_flight can improve throughput, but require careful review of ordering, offset commits, retry behavior and concurrency safety. Elastic's per-tenant queue-fairness processor is part of its managed pipeline implementation; do not assume it is a generic upstream Collector component.
 
-Primary sources: [Elastic engineering article](https://www.elastic.co/blog/) · [upstream Kafka receiver PR #51127](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/51127).
+Primary sources: [Elastic engineering article](https://www.elastic.co/observability-labs/blog/opentelemetry-kafka-receiver-tenant-isolation) · [upstream Kafka receiver PR #51127](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/51127).
 
 ---
 
@@ -224,11 +224,11 @@ New November 12 capabilities include A2A access to the Observability AI Assistan
 
 Pricing: the new edition-specific price was not found in the public release notes. The public pricing page still lists host-based Observability Cloud starting prices of $15/host/month for Infrastructure, $60 for App & Infra and $75 for End-to-End, billed annually. Observability Logs is listed at $0.60 per GB per day for 15-day retention and $0.85 per GB per day for 30-day retention. Splunk Agent Observability is separately listed from $100/month per 1.2 million spans annually. Do not conflate these public starting prices with a confirmed Essentials/Premier quote.
 
-Tokenomics is planned for preview in December 2026, with general availability on AWS Marketplace in early 2027. Eval-G1 and Evaluation Tuner were announced for November GA, but their availability was not confirmed in the November 12 release notes.
+The November 10 Splunk blog is internally inconsistent on Tokenomics timing: its summary says a November 2026 preview, while the detailed availability section says December 2026. Treat the preview date as unconfirmed; GA on AWS Marketplace is planned for early 2027. Eval-G1 and Evaluation Tuner were announced for November GA, but their availability was not confirmed in the November 12 release notes.
 
 ### 3.2 Elastic Streams — November 10 — private preview
 
-Primary source: [Introducing Elastic Streams](https://www.elastic.co/blog/introducing-elastic-streams)
+Primary source: [Introducing Elastic Streams](https://www.elastic.co/observability-labs/blog/elastic-streams-telemetry-pipeline-s3)
 
 Elastic introduced Streams as a managed telemetry-pipeline service for Elastic Cloud Serverless. The preview accepts OTLP, Prometheus Remote Write and Elasticsearch bulk data, runs processing in Elastic-managed OpenTelemetry Collectors, and routes to Elastic and/or S3. The UI includes a Streams Map and YAML export/import.
 
@@ -245,19 +245,21 @@ Status and caveats: private preview for selected design partners; preview access
 
 ### 3.3 New Relic — November 9–18
 
-Primary sources: [Node.js agent release notes](https://docs.newrelic.com/docs/release-notes/agent-release-notes/nodejs-release-notes/) · [NR26-12 security bulletin](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-12/) · [November 2–6 docs release notes](https://docs.newrelic.com/docs/release-notes/docs-release-notes/)
+Primary sources: [Node.js agent 14.12.0](https://docs.newrelic.com/docs/release-notes/agent-release-notes/nodejs-release-notes/node-agent-14-12-0/) · [NR26-11 Node.js security bulletin](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-11/) · [NR26-12 eMudhra bulletin](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-12/) · [CodeStream EOL](https://docs.newrelic.com/eol/2026/05/eol-05-11-26-codestream/) · [November 2–6 docs release notes](https://docs.newrelic.com/fr/docs/release-notes/docs-release-notes/docs-11-06-2026/)
 
-Node.js agent 14.12.0 enables basic AI monitoring telemetry by default. The vendor says this basic telemetry does not include message content. The older ai_monitoring.enabled setting is deprecated; setting the new basic-telemetry control false is the opt-out path. Review ingestion volume, data handling and configuration before upgrading.
+Node.js APM agent 14.12.0 (November 9) enables basic AI monitoring telemetry by default. The vendor says this basic telemetry sends Llm* custom events, spans and metrics without message content. Opt out with ai_monitoring.basic_telemetry.enabled=false or NEW_RELIC_AI_MONITORING_BASIC_TELEMETRY_ENABLED=false. The older ai_monitoring.enabled setting/environment variable is deprecated, although setting it false still opts out. The release notes also list “Disabled core tracing” without enough context to infer its exact scope; verify this item before rollout. This APM-agent change is separate from the Synthetics Node.js runtime CVEs below.
 
-CodeStream reached end of life on November 5. New Relic removed its documentation and rewrote code-level-metrics pages to remove CodeStream references.
+CodeStream reached end of life on November 5. The IDE extensions, cloud components and API endpoints were removed; uninstall the extension and delete CodeStream-specific API keys if any remain.
 
-Security bulletin NR26-12 is high priority for Synthetics Private Location operators after the eMudhra intermediate-CA compromise. Private-location customers must manually pull and restart updated images:
+Security bulletin NR26-11 is high priority: CVE-2026-111497 and related Node.js vulnerabilities include remote code execution when a vulnerable Node.js process receives a Brotli-compressed HTTP response from an attacker-controlled server. New Relic lists fixed Node.js versions 22.23.4, 24.22.1 and 26.12.1. Node.js 16.x is EOL and will not receive a fix. Enabled scripted API monitors pinned to Node 16.10 are not auto-upgraded; migrate them to a supported runtime before November 18, 2026. New Relic says public-location monitors still on Node 16.x will be force-upgraded from November 18.
+
+Security bulletin NR26-12 addresses the separate eMudhra intermediate-CA compromise. Private-location customers must manually pull and restart updated images:
 - Synthetics Job Manager v642 or newer
 - Node API runtime 1.2.296 or newer
 - Node browser runtime 3.0.259 or newer
 - Ping runtime 1.87.0 or newer
 
-Node.js 16.10 scripted API monitors reach EOL November 18, 2026. New Relic plans to automatically move public-location monitors still on 16.x to the current runtime from November 18; test/migrate before then. No CVE was assigned to NR26-12.
+**Documentation inconsistency:** NR26-12 tells Node 16.10 monitor owners to migrate to Node 22.23.0, while NR26-11 lists 22.23.4 as the fixed Node.js 22 line. Prefer the later fixed version 22.23.4 or newer and confirm with New Relic rather than relying on the older 22.23.0 instruction. NR26-12 has no CVE assigned; NR26-11 carries the Node.js CVEs.
 
 Other integration/distribution signals in the November 2–6 docs update: Google Gemini Enterprise monitoring integration, log-configuration workflow actions, fleet-wide Kubernetes triage, NRDOT 2.8.1 adding awsiamdbauthextension to its experimental distribution, and Pipeline Control Gateway 3.2.0 embedding Collector 0.164.0.
 
@@ -275,7 +277,7 @@ Primary sources: [Grepr AI launch](https://www.grepr.ai/blog/introducing-grepr-a
 
 Grepr introduced a commercial harness for proactive operational agents. Its signal processor fingerprints log patterns before indexing and sends new/changed patterns to agents for investigation, rather than waiting for a pre-existing alert. The agents can create issues, draft fixes or use connected MCP tools within configured guardrails.
 
-The vendor claims 90% telemetry-cost reduction and reports 17,000 investigations with 20 human-required issues during a 30-day internal run; these are vendor-reported results, not independently validated benchmarks. The general Grepr pricing page publishes a free tier, Pro ingestion rates ($0.20/GB logs and $0.15/GB traces), optional Grepr-hosted storage ($0.05/GB/month) and custom Enterprise pricing. It does not separately itemize Grepr AI agent-hour pricing. The November 3 launch was not included in the previous brief.
+The vendor claims 90% telemetry-cost reduction and reports 17,000 investigations with 20 human-required issues during a 30-day internal run; these are vendor-reported results, not independently validated benchmarks. The current Grepr pricing page shows Free, Pro and Enterprise tiers, but Pro/Enterprise and Grepr-hosted storage are custom-priced; no current per-GB list rate or separate Grepr AI agent-hour price was found. The November 3 launch was not included in the previous brief.
 
 ### 3.6 Other vendors/projects
 
@@ -294,13 +296,13 @@ The vendor claims 90% telemetry-cost reduction and reports 17,000 investigations
 
 ### 4.1 CNCF Technology Radar Q3 2026 — November 10
 
-Primary source: [CNCF Technology Radar Q3 2026](https://www.cncf.io/reports/)
+Primary source: [CNCF Technology Radar Q3 2026 PDF](https://www.cncf.io/wp-content/uploads/2026/11/CNCF-Tech-Radar-survey-W5-261020-3.pdf)
 
 The report's observability survey has 239 respondents. Prometheus and OpenTelemetry are in the Adopt quadrant. Fluent Bit receives a 99% recommendation score among respondents who evaluated it; Jaeger is also highly recommended. This is a survey of current/former users, not market share or a production-readiness certification. The report is useful for qualitative ecosystem sentiment, not as an adoption census.
 
 ### 4.2 OpenFeature as a runtime control plane for OTel — KubeCon discussion
 
-The KubeCon talk describes using OpenFeature flags to change telemetry verbosity, sampling and instrumentation behavior at runtime without redeploying services. This is a design pattern and conference discussion, not an accepted OpenTelemetry specification or a shipped Collector feature. It is worth tracking for cost and incident-debugging workflows.
+The KubeCon talk describes using OpenFeature flags to change telemetry verbosity, sampling and instrumentation behavior at runtime without redeploying services. See the [OpenTelemetry KubeCon talk roundup](https://opentelemetry.io/blog/2026/kubecon-na/). This is a design pattern and conference discussion, not an accepted OpenTelemetry specification or a shipped Collector feature. It is worth tracking for cost and incident-debugging workflows.
 
 ### 4.3 AI observability standardization
 
@@ -397,10 +399,11 @@ Providers: no provider/*/metadata.yaml inventory was found in the core/contrib t
 
 | Severity | Item | Recommended response |
 |---|---|---|
-| Critical / urgent | CVE-2026-111497 Brotli exposure in Grafana bundled plugin binaries; public tracking issue still open | Verify actual plugin binaries and vendor patch status; do not assume Grafana 13.3.1 alone resolves it |
+| Critical / urgent | CVE-2026-111497 Node.js Brotli-decoder RCE; New Relic NR26-11 lists fixed versions and Node 16.x remains unpatched | Migrate scripted API monitors off Node 16.10 before Nov 18; use Node 22.23.4 or newer |
+| Investigate | Grafana issue #137257 alleges a vulnerable Go Brotli dependency in bundled plugin binaries; CVE applicability is not established | Ask Grafana to confirm affected binaries and patch status; do not label as a confirmed Grafana CVE |
 | High | Grafana 13.3.1 fixes two High and four Medium CVEs | Upgrade to matching patched branch |
 | High | Mimir SNS credential/HTTP-client hardening in 3.2.5 | Review SNS receiver configuration, explicit credentials and egress rules |
-| High | New Relic NR26-12 eMudhra CA compromise | Pull updated Synthetics Private Location images; migrate Node 16.10 monitors before Nov 18 |
+| High | New Relic NR26-12 eMudhra CA compromise | Pull updated Synthetics Private Location images and restart containers |
 | High | Collector Batch processor deprecation roadmap | Inventory pipelines now; plan exporter-level batching or queue_batch migration |
 | Medium–High | Vector 0.62.0 six breaking changes | Audit dashboards, histogram handling, MongoDB versions and config interpolation |
 | Medium–High | Alloy 1.22.0 config and Kafka changes | Test enrich labels, connector validation and Kafka settings |
