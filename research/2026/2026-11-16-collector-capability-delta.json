@@ -3,8 +3,8 @@
   "baseline_ref": "v0.145.0",
   "previous_snapshot_date": "2026-11-09",
   "source_commits": {
-    "collector_contrib_main": "7bb8ead (tree snapshot)",
-    "collector_core_main": "b53a472 (tree snapshot)"
+    "collector_contrib_main": "7bb8ead6043221af2204a4fe5406c4b89d82bc26",
+    "collector_core_main": "b53a4721056b414ca408776bc0e72100e2abacf7"
   },
   "counts": {
     "baseline_v0_145_0": 252,
@@ -169,5 +169,9 @@
     "The Redis fleet tracker is development stage with no declared distribution.",
     "The complete 139-record main feature-gate inventory is the November 8 snapshot, not a newly re-counted November 16 total.",
     "The v0.145.0 baseline is a requested comparison reference, not an assertion about the user's deployed image."
-  ]
+  ],
+  "source_commit_links": {
+    "collector_contrib": "https://github.com/open-telemetry/opentelemetry-collector-contrib/commit/7bb8ead6043221af2204a4fe5406c4b89d82bc26",
+    "collector_core": "https://github.com/open-telemetry/opentelemetry-collector/commit/b53a4721056b414ca408776bc0e72100e2abacf7"
+  }
 }
