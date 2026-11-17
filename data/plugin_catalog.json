@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:55:21.801228+00:00",
+  "generated_at": "2026-11-17T21:48:12.905905+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.14",
+      "version": "2.1.16",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-16T09:20:53.000Z"
+      "updated_at": "2026-11-17T09:50:33.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -813,13 +813,13 @@
     },
     "canvas": {
       "name": "Canvas",
-      "version": "13.4.0",
+      "version": "13.4.1",
       "type": "Panel",
       "description": "Explicit element placement",
       "url": "https://grafana.com/grafana/plugins/canvas/",
       "repository": "https://github.com/grafana/grafana-canvas-panel",
       "created_at": "2022-06-23T14:29:32.000Z",
-      "updated_at": "2026-10-22T19:03:47.000Z"
+      "updated_at": "2026-11-17T16:10:28.000Z"
     },
     "grafana-catchpoint-datasource": {
       "name": "Catchpoint",
@@ -1143,13 +1143,13 @@
     },
     "grafana-databricks-datasource": {
       "name": "Databricks",
-      "version": "1.14.19",
+      "version": "1.14.22",
       "type": "Data Source",
       "description": "Databricks datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-databricks-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2022-06-29T19:22:36.000Z",
-      "updated_at": "2026-11-16T09:19:17.000Z"
+      "updated_at": "2026-11-17T01:44:32.000Z"
     },
     "grafana-datadog-datasource": {
       "name": "Datadog",
@@ -1281,6 +1281,16 @@
       "created_at": "2018-04-04T17:41:07.000Z",
       "updated_at": "2026-11-11T16:48:18.000Z"
     },
+    "edelbyte-kql-datasource": {
+      "name": "Edelbyte Datasource",
+      "version": "0.7.4",
+      "type": "Data Source",
+      "description": "Grafana data source for Edelbyte",
+      "url": "https://grafana.com/grafana/plugins/edelbyte-kql-datasource/",
+      "repository": "https://github.com/edelbyte-io/edelbyte-grafana-datasource",
+      "created_at": "2026-11-04T09:26:08.000Z",
+      "updated_at": "2026-11-17T07:45:12.000Z"
+    },
     "elasticsearch": {
       "name": "Elasticsearch",
       "version": "12.9.6",
@@ -1303,13 +1313,13 @@
     },
     "endoflifeai-eol-datasource": {
       "name": "endoflife.ai EOL",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "Data Source",
       "description": "Query end-of-life dates and EOL Risk Scores for 700+ software products from endoflife.ai, as tables you can use in any Grafana panel.",
       "url": "https://grafana.com/grafana/plugins/endoflifeai-eol-datasource/",
       "repository": "",
       "created_at": "2026-11-06T10:26:29.000Z",
-      "updated_at": "2026-11-09T16:26:02.000Z"
+      "updated_at": "2026-11-17T12:15:21.000Z"
     },
     "larona-epict-panel": {
       "name": "ePict Panel",
@@ -1563,13 +1573,13 @@
     },
     "grafana-advisor-app": {
       "name": "Grafana Advisor",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "type": "Application",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-advisor-app/",
       "repository": "https://github.com/grafana/grafana-advisor-app",
       "created_at": "2025-02-21T11:31:30.000Z",
-      "updated_at": "2026-11-11T09:05:02.000Z"
+      "updated_at": "2026-11-17T10:51:55.000Z"
     },
     "grafana-enterprise-logs-app": {
       "name": "Grafana Enterprise Logs",
@@ -1803,13 +1813,13 @@
     },
     "hydrolix-hydrolix-datasource": {
       "name": "Hydrolix",
-      "version": "0.13.0",
+      "version": "0.13.5",
       "type": "Data Source",
       "description": "Hydrolix data source for Grafana",
       "url": "https://grafana.com/grafana/plugins/hydrolix-hydrolix-datasource/",
       "repository": "https://github.com/hydrolix/grafana-datasource-plugin",
       "created_at": "2025-04-18T11:16:27.000Z",
-      "updated_at": "2026-10-26T12:39:39.000Z"
+      "updated_at": "2026-11-17T08:35:32.000Z"
     },
     "grafana-ibmdb2-datasource": {
       "name": "IBM Db2",
@@ -1913,13 +1923,13 @@
     },
     "grafana-pathfinder-app": {
       "name": "Interactive learning",
-      "version": "2.28.0",
+      "version": "2.29.0",
       "type": "Application",
       "description": "Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
       "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
       "repository": "https://github.com/grafana/grafana-pathfinder-app",
       "created_at": "2025-10-13T11:29:42.000Z",
-      "updated_at": "2026-11-16T14:27:02.000Z"
+      "updated_at": "2026-11-17T11:16:24.000Z"
     },
     "equansdatahub-tree-panel": {
       "name": "Interactive Tree Panel",
@@ -2211,6 +2221,16 @@
       "created_at": "2023-11-08T15:27:29.000Z",
       "updated_at": "2023-11-09T10:35:08.000Z"
     },
+    "meshiq-platform-datasource": {
+      "name": "meshIQ Platform",
+      "version": "1.0.0",
+      "type": "Data Source",
+      "description": "meshIQ Platform datasource plugin for Grafana",
+      "url": "https://grafana.com/grafana/plugins/meshiq-platform-datasource/",
+      "repository": "https://github.com/Nastel/meshiq-platform-datasource",
+      "created_at": "2026-11-13T17:11:50.000Z",
+      "updated_at": "2026-11-17T07:54:55.000Z"
+    },
     "mssql": {
       "name": "Microsoft SQL Server",
       "version": "13.0.10",
@@ -2243,7 +2263,7 @@
     },
     "grafana-mongodb-datasource": {
       "name": "MongoDB",
-      "version": "2.0.8",
+      "version": "2.0.10",
       "type": "Data Source",
       "description": "MongoDB datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-mongodb-datasource/",
@@ -3043,13 +3063,13 @@
     },
     "grafana-saphana-datasource": {
       "name": "SAP HANA®",
-      "version": "1.7.32",
+      "version": "1.7.33",
       "type": "Data Source",
       "description": "The Grafana® data source plugin for SAP HANA®. SAP HANA® is the trademark or registered trademark of SAP SE or its affiliates in Germany and in several other countries.",
       "url": "https://grafana.com/grafana/plugins/grafana-saphana-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-05-17T17:28:01.000Z",
-      "updated_at": "2026-10-28T15:23:14.000Z"
+      "updated_at": "2026-11-17T13:42:29.000Z"
     },
     "lucasbremond-satellitevisualizer-panel": {
       "name": "Satellite Visualizer",
@@ -3113,7 +3133,7 @@
     },
     "grafana-servicenow-datasource": {
       "name": "ServiceNow",
-      "version": "2.14.18",
+      "version": "2.14.19",
       "type": "Data Source",
       "description": "ServiceNow datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-servicenow-datasource/",
@@ -3463,13 +3483,13 @@
     },
     "grafana-synthetic-monitoring-app": {
       "name": "Synthetics",
-      "version": "1.68.0",
+      "version": "1.69.0",
       "type": "Application",
       "description": "Worldwide black box monitoring for services and applications",
       "url": "https://grafana.com/grafana/plugins/grafana-synthetic-monitoring-app/",
       "repository": "https://github.com/grafana/synthetic-monitoring-app",
       "created_at": "2020-07-01T17:00:12.000Z",
-      "updated_at": "2026-11-10T15:43:44.000Z"
+      "updated_at": "2026-11-17T09:08:17.000Z"
     },
     "smelentyev-tablecolumngrouping-panel": {
       "name": "Table with Column Grouping",
@@ -3813,13 +3833,13 @@
     },
     "alexanderzobnin-zabbix-app": {
       "name": "Zabbix",
-      "version": "6.10.3",
+      "version": "6.11.0",
       "type": "Application",
       "description": "Zabbix plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/alexanderzobnin-zabbix-app/",
       "repository": "https://github.com/grafana/grafana-zabbix",
       "created_at": "2016-04-06T20:23:41.000Z",
-      "updated_at": "2026-11-10T17:16:18.000Z"
+      "updated_at": "2026-11-17T19:41:55.000Z"
     },
     "grafana-zendesk-datasource": {
       "name": "Zendesk",
