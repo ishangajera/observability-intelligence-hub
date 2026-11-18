@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:48:12.905905+00:00",
+  "generated_at": "2026-11-18T21:27:37.420311+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.16",
+      "version": "2.1.17",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-17T09:50:33.000Z"
+      "updated_at": "2026-11-18T10:52:25.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -1293,13 +1293,13 @@
     },
     "elasticsearch": {
       "name": "Elasticsearch",
-      "version": "12.9.6",
+      "version": "12.9.7",
       "type": "Data Source",
       "description": "Open source logging & analytics database",
       "url": "https://grafana.com/grafana/plugins/elasticsearch/",
       "repository": "https://github.com/grafana/grafana-elasticsearch-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-11-10T19:58:28.000Z"
+      "updated_at": "2026-11-18T21:26:40.000Z"
     },
     "embraceio-metric-app": {
       "name": "Embrace",
@@ -1883,13 +1883,13 @@
     },
     "influxdb": {
       "name": "InfluxDB",
-      "version": "13.1.10",
+      "version": "13.2.0",
       "type": "Data Source",
       "description": "Data source for InfluxDB, an open source time series database",
       "url": "https://grafana.com/grafana/plugins/influxdb/",
       "repository": "https://github.com/grafana/grafana-influxdb-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-10-29T19:03:02.000Z"
+      "updated_at": "2026-11-18T21:21:45.000Z"
     },
     "crestdata-infobloxuddi-datasource": {
       "name": "Infoblox Universal DDI",
@@ -3119,7 +3119,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-sentry-datasource/",
       "repository": "https://github.com/grafana/sentry-datasource",
       "created_at": "2021-11-08T15:37:34.000Z",
-      "updated_at": "2026-11-02T14:55:13.000Z"
+      "updated_at": "2026-11-18T21:03:05.000Z"
     },
     "novatec-sdg-panel": {
       "name": "Service Dependency Graph",
@@ -3433,13 +3433,13 @@
     },
     "grafana-strava-datasource": {
       "name": "Strava",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "type": "Data Source",
       "description": "Strava datasource",
       "url": "https://grafana.com/grafana/plugins/grafana-strava-datasource/",
-      "repository": "https://github.com/grafana/strava-datasource/",
+      "repository": "",
       "created_at": "2020-01-10T07:37:25.000Z",
-      "updated_at": "2025-03-18T09:59:18.000Z"
+      "updated_at": "2026-11-18T12:17:35.000Z"
     },
     "streamr-datasource": {
       "name": "Streamr",

@@ -297,7 +297,7 @@
     "meshery": {
       "name": "Meshery",
       "url": "https://github.com/meshery/meshery",
-      "description": "",
+      "description": "Infrastructure by Design",
       "category": "",
       "subcategory": ""
     },
@@ -7090,10 +7090,10 @@
       "name": "watchlog",
       "full_name": "watchlog-light/watchlog",
       "url": "https://github.com/watchlog-light/watchlog",
-      "description": "Open-source monitoring for Kubernetes and Docker: one agent, a service map from eBPF, alerts that work on day one.",
+      "description": "Open-source monitoring for Kubernetes, Docker and Linux servers: one agent, a service map from eBPF, alerts that work on day one.",
       "created_at": "2026-11-05T08:59:05Z",
-      "pushed_at": "2026-11-17T21:07:40Z",
-      "stars": 3,
+      "pushed_at": "2026-11-18T18:24:10Z",
+      "stars": 5,
       "topics": [
         "alerting",
         "docker",
@@ -7157,7 +7157,7 @@
       "url": "https://github.com/observecraft/observecraft",
       "description": "Open-source, self-hosted observability platform: logs, metrics, traces, dashboards, monitors, incidents and CI visibility in one place, built on OpenTelemetry and ClickHouse.",
       "created_at": "2026-10-25T15:14:08Z",
-      "pushed_at": "2026-11-16T13:26:53Z",
+      "pushed_at": "2026-11-18T19:48:59Z",
       "stars": 13,
       "topics": [
         "ai-gateway",
@@ -7185,7 +7185,7 @@
       "url": "https://github.com/Putnami/putnami",
       "description": "Putnami: a deterministic, observable workspace toolchain and application framework for Go, TypeScript and Python.",
       "created_at": "2026-10-01T12:14:57Z",
-      "pushed_at": "2026-11-17T21:48:35Z",
+      "pushed_at": "2026-11-18T21:22:55Z",
       "stars": 9,
       "topics": [
         "build-system",
@@ -7224,7 +7224,7 @@
       "url": "https://github.com/passioncode-ai/project-observatory-dashboard",
       "description": "Project Observatory by PassionCode.ai — a local dashboard and Mac app for the projects your agents work on: Git activity, findings, agent memory over MCP and known-key exposure. Signed releases that update themselves. AGPL-3.0 or commercial.",
       "created_at": "2026-09-21T10:04:49Z",
-      "pushed_at": "2026-11-17T21:27:28Z",
+      "pushed_at": "2026-11-18T21:25:42Z",
       "stars": 3,
       "topics": [
         "agent-memory",
@@ -7247,7 +7247,7 @@
       "url": "https://github.com/temet-ai/mike",
       "description": "A tool to know what claude is doing and remember what you did when you did it.",
       "created_at": "2026-11-06T09:11:20Z",
-      "pushed_at": "2026-11-17T21:44:44Z",
+      "pushed_at": "2026-11-18T19:42:28Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -7330,8 +7330,8 @@
       "url": "https://github.com/Cygnux-Labs/Tracekit",
       "description": "Tamper-evident tracing, policy gates and cross-checks for AI agents: see what the agent did, and why.",
       "created_at": "2026-09-26T11:33:11Z",
-      "pushed_at": "2026-11-17T20:41:06Z",
-      "stars": 728,
+      "pushed_at": "2026-11-18T16:16:06Z",
+      "stars": 772,
       "topics": [
         "agent-security",
         "ai-agents",
@@ -7361,7 +7361,7 @@
       "url": "https://github.com/genaforvena/mishe-tauftauf",
       "description": "A small, plantable (parasitic but only in a good sense kefir) culture for development through self-observation.",
       "created_at": "2026-09-22T21:53:42Z",
-      "pushed_at": "2026-11-17T21:20:08Z",
+      "pushed_at": "2026-11-18T21:13:36Z",
       "stars": 3,
       "topics": [
         "agentic-ai",
@@ -7390,7 +7390,7 @@
       "url": "https://github.com/DevAnimecx/free-ai-agent-stack",
       "description": "Every free LLM API, MCP server, agent framework and free-tier service you need to build an AI agent in 2026. 384 resources, human-verified, no credit card required for 222, links checked daily. Build a production AI agent for zero dollars.",
       "created_at": "2026-09-24T12:33:22Z",
-      "pushed_at": "2026-11-17T15:51:14Z",
+      "pushed_at": "2026-11-18T15:29:52Z",
       "stars": 2,
       "topics": [
         "agent-framework",
@@ -7421,7 +7421,7 @@
       "url": "https://github.com/UmTioAii/ASTRO-Harness",
       "description": "Multi-agent coding harness for AI agents. Features deterministic model routing, append-only audit ledgers, cost governance, and durable handoffs. Built with Bun & TypeScript.",
       "created_at": "2026-10-23T15:54:38Z",
-      "pushed_at": "2026-11-17T21:28:55Z",
+      "pushed_at": "2026-11-18T20:26:03Z",
       "stars": 4,
       "topics": [
         "agent-harness",
@@ -7468,7 +7468,7 @@
       "url": "https://github.com/kstackhq/kstack",
       "description": "Desktop app for monitoring and troubleshooting Kubernetes clusters superintelligently",
       "created_at": "2026-09-30T07:06:03Z",
-      "pushed_at": "2026-11-17T17:13:54Z",
+      "pushed_at": "2026-11-18T15:21:40Z",
       "stars": 2,
       "topics": [
         "artificial-intelligence",
@@ -7546,7 +7546,7 @@
       "url": "https://github.com/rajputomsingh/Relay",
       "description": "Reliable webhook delivery infrastructure in Go. Retries, idempotency, delivery tracking, replay, Prometheus metrics, official Node.js/Python SDKs.",
       "created_at": "2026-10-09T11:06:41Z",
-      "pushed_at": "2026-11-17T08:50:32Z",
+      "pushed_at": "2026-11-18T19:04:31Z",
       "stars": 12,
       "topics": [
         "api",
@@ -7647,7 +7647,7 @@
       "url": "https://github.com/using-system/otelyssey",
       "description": "OpenTelemetry plugins for every coding agent, in the Agent Plugins format — a marketplace that runs itself: open an issue, the repository validates, reviews, lists and follows your plugin.",
       "created_at": "2026-09-19T11:22:20Z",
-      "pushed_at": "2026-11-17T11:57:51Z",
+      "pushed_at": "2026-11-18T11:50:06Z",
       "stars": 135,
       "topics": [
         "agent-plugins",
@@ -7678,7 +7678,7 @@
       "url": "https://github.com/selimaytac/awesome-agent-observability",
       "description": "A neutral list of resources for observing AI agents: standards, instrumentation, platforms, evaluation, cost, safety signals, and on-chain agents and payments, with an OpenTelemetry focus.",
       "created_at": "2026-10-20T21:03:39Z",
-      "pushed_at": "2026-11-17T11:56:20Z",
+      "pushed_at": "2026-11-18T11:47:11Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -7719,7 +7719,7 @@
       "url": "https://github.com/Eljot19/runic",
       "description": "Runic macOS Menu Bar App for AI Usage Cost and Token Tracking",
       "created_at": "2026-10-22T20:09:30Z",
-      "pushed_at": "2026-11-17T21:25:26Z",
+      "pushed_at": "2026-11-18T20:57:43Z",
       "stars": 58,
       "topics": [
         "ai",
@@ -7750,7 +7750,7 @@
       "url": "https://github.com/balkewkidane/grizl-fabric-observability",
       "description": "grizl-fabric-observability: Fabric Eventhouse/KQL observability and anomaly-signal library",
       "created_at": "2026-11-06T14:15:54Z",
-      "pushed_at": "2026-11-17T19:36:36Z",
+      "pushed_at": "2026-11-18T19:57:23Z",
       "stars": 149,
       "topics": [
         "activator",
@@ -7934,8 +7934,8 @@
       "url": "https://github.com/hacrex/CapScope",
       "description": "CapScope Persistent container logs, crash snapshots and metrics; one binary, one volume, no external database.",
       "created_at": "2026-10-28T12:04:16Z",
-      "pushed_at": "2026-11-16T08:07:22Z",
-      "stars": 21,
+      "pushed_at": "2026-11-18T13:33:27Z",
+      "stars": 22,
       "topics": [
         "caprover",
         "coolify",
@@ -8115,7 +8115,7 @@
       "description": "Coding agents can build a game. They can't see anyone play it. Glitchless lets them: game observability for Three.js, Phaser, Unity, Godot, Unreal and GameMaker games. Your agent sees real players' stutters, crashes and drop-offs over MCP and fixes the next build. Free plan, open source (MIT).",
       "created_at": "2026-10-21T05:41:06Z",
       "pushed_at": "2026-11-17T16:41:43Z",
-      "stars": 5,
+      "stars": 11,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -8145,7 +8145,7 @@
       "url": "https://github.com/querdian-dev/querdian",
       "description": "Multi-tenant, label-based access proxy for Prometheus/Thanos, Loki and Tempo",
       "created_at": "2026-10-14T10:20:51Z",
-      "pushed_at": "2026-11-17T17:46:57Z",
+      "pushed_at": "2026-11-18T03:10:00Z",
       "stars": 7,
       "topics": [
         "loki",
@@ -8241,7 +8241,7 @@
       "url": "https://github.com/Smars-Bin-Hu/copilot-agentic-harness",
       "description": "An agentic harness for GitHub Copilot: tasks that survive across chats, guardrails enforced by hooks, human-approved write-back, independent review, and observability. No dependencies. English and Chinese.",
       "created_at": "2026-09-30T04:28:38Z",
-      "pushed_at": "2026-11-16T20:32:28Z",
+      "pushed_at": "2026-11-18T20:06:36Z",
       "stars": 3,
       "topics": [
         "agent-harness",
@@ -8268,7 +8268,7 @@
       "url": "https://github.com/dk-labs-dev/flightpath",
       "description": "Records every Claude Code session live, draws the journey as a map, and coaches the next session.",
       "created_at": "2026-11-05T21:31:08Z",
-      "pushed_at": "2026-11-14T22:20:45Z",
+      "pushed_at": "2026-11-18T20:32:17Z",
       "stars": 5,
       "topics": [
         "agentic-coding",
@@ -8479,7 +8479,7 @@
       "url": "https://github.com/dengmeiluan/esquerystudio",
       "description": "Elasticsearch query workbench for Spring Boot: six query modes in one live session, mapping-aware assist, relevance labs, a 52-page embeddable console, and a same-source MV3 Chrome extension with local-first browser mode.",
       "created_at": "2026-10-09T12:08:29Z",
-      "pushed_at": "2026-11-17T09:05:17Z",
+      "pushed_at": "2026-11-18T14:22:35Z",
       "stars": 10,
       "topics": [
         "chrome-extension",
@@ -8582,7 +8582,7 @@
       "description": "Self-hosted AI API cost tracker. See spend per project, customer, and feature across OpenAI, Anthropic, and Gemini.",
       "created_at": "2026-10-27T10:35:32Z",
       "pushed_at": "2026-11-17T12:16:05Z",
-      "stars": 12,
+      "stars": 13,
       "topics": [
         "ai",
         "anthropic",
@@ -8749,7 +8749,7 @@
       "url": "https://github.com/guardana/control",
       "description": "Observe AI agent runs and control consequential actions. Signed policies, exact-action approvals, AuthZEN API vetoes and evidence. MCP gateway today; connected-channel supervision and scoped reactions toward 1.0. Experimental alpha.",
       "created_at": "2026-09-24T08:17:50Z",
-      "pushed_at": "2026-11-16T06:19:01Z",
+      "pushed_at": "2026-11-18T16:33:12Z",
       "stars": 11,
       "topics": [
         "agent-observability",
@@ -8796,7 +8796,7 @@
       "url": "https://github.com/livesport/homer",
       "description": "Homer watches your agents, so you don't have to: run Claude Code, Codex, LangGraph and shell scripts as background jobs, with queues, locks, spend caps and a human on call when it matters.",
       "created_at": "2026-10-20T12:08:16Z",
-      "pushed_at": "2026-11-17T20:04:51Z",
+      "pushed_at": "2026-11-18T19:34:58Z",
       "stars": 2,
       "topics": [
         "agent-orchestration",
@@ -8822,7 +8822,7 @@
       "url": "https://github.com/yyouretoast/SecAgent",
       "description": "Deterministic CI/CD security scanner for autonomous AI agents. Synthesizes attack vectors and blocks PRs on OWASP trace violations.",
       "created_at": "2026-09-22T17:58:16Z",
-      "pushed_at": "2026-11-17T20:22:06Z",
+      "pushed_at": "2026-11-18T01:18:04Z",
       "stars": 3,
       "topics": [
         "ai-agents",
@@ -9070,7 +9070,7 @@
       "url": "https://github.com/triageagent-dev/ego",
       "description": "ego: agents' evaluations on the go - pure go",
       "created_at": "2026-10-20T11:13:52Z",
-      "pushed_at": "2026-11-14T15:36:42Z",
+      "pushed_at": "2026-11-18T18:46:33Z",
       "stars": 9,
       "topics": [
         "agent-evaluation",
@@ -9114,7 +9114,7 @@
       "url": "https://github.com/deeptelar/telar",
       "description": "AI agents and workflows for Kotlin Multiplatform, as small typed graphs: loops, parallel steps, streaming, save points and human approval. Inspired by LangGraph.",
       "created_at": "2026-09-30T16:50:04Z",
-      "pushed_at": "2026-11-17T21:33:47Z",
+      "pushed_at": "2026-11-18T08:19:57Z",
       "stars": 14,
       "topics": [
         "agentic-ai",
@@ -9145,7 +9145,7 @@
       "url": "https://github.com/bangunindo/patrolli",
       "description": "Monitoring and telemetry platform. Collects SNMP, syslog, NetFlow/sFlow, and OTLP from network devices and services, converts it to OpenTelemetry (Arrow end to end), and delivers it to files, Kafka, ClickHouse, or any OTLP endpoint. Written in Rust.",
       "created_at": "2026-10-14T08:14:05Z",
-      "pushed_at": "2026-11-17T21:30:02Z",
+      "pushed_at": "2026-11-18T11:54:32Z",
       "stars": 14,
       "topics": [
         "network-monitoring",
@@ -9200,7 +9200,7 @@
       "url": "https://github.com/Rangow4562/ThreadForge",
       "description": "Local-first agent memory, task continuity, calibrated typed decisions, and regularized harness evolution across 25+ AI coding harnesses (Go + SQLite + MCP + OTLP + Python + TypeScript).",
       "created_at": "2026-10-20T10:41:01Z",
-      "pushed_at": "2026-11-17T16:01:32Z",
+      "pushed_at": "2026-11-18T14:19:15Z",
       "stars": 3,
       "topics": [
         "agent-memory",
@@ -9336,7 +9336,7 @@
       "url": "https://github.com/damikun/inngest-dotnet",
       "description": "Inngest SDK for .NET. Write Inngest functions as plain C# classes in your ASP.NET Core app, with realtime updates and the .NET ecosystem you already use. .NET 8 and 10, Native AOT.",
       "created_at": "2026-10-29T10:34:26Z",
-      "pushed_at": "2026-11-16T12:19:18Z",
+      "pushed_at": "2026-11-18T11:46:50Z",
       "stars": 3,
       "topics": [
         "aspnetcore",
@@ -9472,7 +9472,7 @@
       "description": "Background job scheduling for .NET: one-off and cron jobs with source-generated registration, pluggable persistence (EF Core, MongoDB, Redis) and a built-in real-time dashboard.",
       "created_at": "2026-10-30T11:37:04Z",
       "pushed_at": "2026-11-16T09:33:59Z",
-      "stars": 10,
+      "stars": 11,
       "topics": [
         "aspnetcore",
         "background-jobs",
@@ -9819,7 +9819,7 @@
       "url": "https://github.com/gigaverse-app/ci-esta",
       "description": "GitHub Actions optimization and CI observability: reuse proven validation, measure latency and runner cost, keep merge gates honest.",
       "created_at": "2026-10-22T19:21:58Z",
-      "pushed_at": "2026-11-17T20:30:01Z",
+      "pushed_at": "2026-11-18T20:22:44Z",
       "stars": 2,
       "topics": [
         "ci-cd",
@@ -9915,7 +9915,7 @@
       "url": "https://github.com/GRUPOMORAESIMOVEIS/Lua-Polymorph-VM-Forge",
       "description": "Fast Roblox Lua Obfuscator VM 2026 Custom Bytecode CFF High Performance",
       "created_at": "2026-09-22T19:19:10Z",
-      "pushed_at": "2026-11-17T19:31:55Z",
+      "pushed_at": "2026-11-18T18:45:46Z",
       "stars": 68,
       "topics": [
         "anti-tamper",
@@ -10028,7 +10028,7 @@
       "url": "https://github.com/ihtisham1211/native-tv",
       "description": "Open-source dashboard, privacy controls and Home Assistant MQTT bridge for rooted LG webOS TVs: turn off ACR and ads, debloat apps, protect OLED panels, remap the remote.",
       "created_at": "2026-10-29T23:45:25Z",
-      "pushed_at": "2026-11-14T00:23:29Z",
+      "pushed_at": "2026-11-18T03:10:23Z",
       "stars": 49,
       "topics": [
         "acr",
@@ -10100,7 +10100,7 @@
       "description": "A lightweight Docker monitoring platform for tracking container health, resource usage, and system metrics through a web dashboard.",
       "created_at": "2026-10-14T16:14:14Z",
       "pushed_at": "2026-11-16T06:09:49Z",
-      "stars": 17,
+      "stars": 31,
       "topics": [
         "aws",
         "devops",
@@ -11073,7 +11073,7 @@
       "description": "Your whole homelab on one page, laid out for you.",
       "created_at": "2026-10-28T14:13:46Z",
       "pushed_at": "2026-11-16T13:53:27Z",
-      "stars": 265,
+      "stars": 269,
       "topics": [
         "dashboard",
         "go",
@@ -11117,7 +11117,7 @@
       "url": "https://github.com/Nikolai752/nightfall-openwrt",
       "description": "Тема в стиле Windows 11 / Liquid Glass и монитор ресурсов для LuCI на OpenWrt 25.12",
       "created_at": "2026-11-01T21:25:18Z",
-      "pushed_at": "2026-11-17T21:47:25Z",
+      "pushed_at": "2026-11-18T20:46:25Z",
       "stars": 16,
       "topics": [
         "dark-theme",
@@ -11134,8 +11134,8 @@
       "url": "https://github.com/cmelius/plesk-monitoring-server-Report",
       "description": "A single bash script for a Plesk server on Linux that writes an hourly health and security report (optionally) uploads it to cloud storage with rclone.",
       "created_at": "2026-10-26T11:53:18Z",
-      "pushed_at": "2026-11-17T20:47:42Z",
-      "stars": 7,
+      "pushed_at": "2026-11-18T16:55:05Z",
+      "stars": 9,
       "topics": [
         "bash",
         "courier",
@@ -11155,9 +11155,9 @@
       "name": "jev-radar",
       "full_name": "everyinfra/jev-radar",
       "url": "https://github.com/everyinfra/jev-radar",
-      "description": "📡 The most rigorously verified tracker of the Jev (TypeSafe AI System One) ecosystem — 3050 confidence-graded entries (A2134·B916) · last scan 2026-11-17 · bilingual EN/中文 · API access guide",
+      "description": "📡 The most rigorously verified tracker of the Jev (TypeSafe AI System One) ecosystem — 3060 confidence-graded entries (A2144·B916) · last scan 2026-11-18 · bilingual EN/中文 · API access guide",
       "created_at": "2026-09-19T06:21:52Z",
-      "pushed_at": "2026-11-17T11:07:01Z",
+      "pushed_at": "2026-11-18T11:06:41Z",
       "stars": 39,
       "topics": [
         "ai-agents",
@@ -11178,7 +11178,7 @@
       "description": "Free uptime and incident monitoring for apps built with coding agents. Plus, public issues for staygreen.io",
       "created_at": "2026-10-22T20:10:46Z",
       "pushed_at": "2026-11-17T15:36:22Z",
-      "stars": 32,
+      "stars": 33,
       "topics": [
         "api-monitoring",
         "cron-monitoring",
@@ -11199,8 +11199,8 @@
       "url": "https://github.com/yjscloud/pvecenter",
       "description": "Proxmox VE 8.x/9.x 自托管管理面板：虚拟机与 LXC 容器全生命周期、cloud-init 模板流水线、 监控大盘、VNC/串口控制台、多角色权限与操作审计；另含 AI 排查助手（会话式归因、要改系统的 命令逐条批准、Token 用量统计）、SSH 防暴力破解、端口异常检测与安全基线加固。 A self-hosted web panel for Proxmox VE — VMs, LXC, cloud-init, monitoring, RBAC, audit, and an AI inspection assistant.",
       "created_at": "2026-09-27T03:33:56Z",
-      "pushed_at": "2026-11-17T13:41:47Z",
-      "stars": 53,
+      "pushed_at": "2026-11-18T02:52:27Z",
+      "stars": 54,
       "topics": [
         "audit-log",
         "cloud-init",
@@ -11230,7 +11230,7 @@
       "url": "https://github.com/nicolasrodetr-cmyk/py-firewall-network-monitor",
       "description": "PyFirewall: Python Personal Firewall and Network Monitor for Windows",
       "created_at": "2026-10-22T20:59:28Z",
-      "pushed_at": "2026-11-17T18:49:34Z",
+      "pushed_at": "2026-11-18T18:28:15Z",
       "stars": 60,
       "topics": [
         "firewall",
@@ -11255,7 +11255,7 @@
       "url": "https://github.com/john-walks-slow/token-speed-patrol",
       "description": "基于 GitHub Actions 的 LLM 测速看板，含 OpenRouter, Nvidia NIM, OpenCode 等免费模型实时测速数据",
       "created_at": "2026-09-20T12:14:13Z",
-      "pushed_at": "2026-11-17T13:51:10Z",
+      "pushed_at": "2026-11-18T17:34:42Z",
       "stars": 11,
       "topics": [
         "benchmark",
@@ -11274,7 +11274,7 @@
       "url": "https://github.com/mostaffa201044/rainy-osgi-activator",
       "description": "OSGi activator bundle for integrating rainy into modular runtime environments",
       "created_at": "2026-11-06T14:31:42Z",
-      "pushed_at": "2026-11-17T21:25:22Z",
+      "pushed_at": "2026-11-18T20:57:34Z",
       "stars": 149,
       "topics": [
         "activator",
@@ -11423,7 +11423,7 @@
       "url": "https://github.com/charlieh0tel/smartclock",
       "description": "HP / Agilent / Symmetricom SmartClock GPS receivers: reverse engineering and monitoring",
       "created_at": "2026-09-21T03:43:17Z",
-      "pushed_at": "2026-11-17T20:16:34Z",
+      "pushed_at": "2026-11-18T20:33:19Z",
       "stars": 8,
       "topics": [
         "gps",
@@ -11440,7 +11440,7 @@
       "description": "Your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero tokens.",
       "created_at": "2026-10-10T07:48:17Z",
       "pushed_at": "2026-11-17T12:54:07Z",
-      "stars": 380,
+      "stars": 381,
       "topics": [
         "ai-agents",
         "claude",
@@ -11462,8 +11462,8 @@
       "url": "https://github.com/manasseh-fikadu/bield",
       "description": "A simple, self-hosted control plane for every machine on your tailnet.",
       "created_at": "2026-10-20T17:02:48Z",
-      "pushed_at": "2026-11-17T14:45:48Z",
-      "stars": 68,
+      "pushed_at": "2026-11-18T21:00:12Z",
+      "stars": 70,
       "topics": [
         "dashboard",
         "docker",
@@ -11514,8 +11514,8 @@
       "url": "https://github.com/Quat3rnion/halogen-dashboard",
       "description": "Realtime dashboard for the Halogen LLM inference server",
       "created_at": "2026-10-10T02:02:27Z",
-      "pushed_at": "2026-11-06T20:30:30Z",
-      "stars": 28,
+      "pushed_at": "2026-11-18T06:05:47Z",
+      "stars": 31,
       "topics": [
         "dashboard",
         "inference",
@@ -11679,7 +11679,7 @@
       "url": "https://github.com/becoolme/openuptime",
       "description": "Open-source uptime monitoring and status pages on Cloudflare Workers + Postgres, or one Docker container",
       "created_at": "2026-10-11T23:44:22Z",
-      "pushed_at": "2026-11-17T03:26:16Z",
+      "pushed_at": "2026-11-18T20:35:22Z",
       "stars": 34,
       "topics": [
         "astro",
@@ -11959,7 +11959,7 @@
       "url": "https://github.com/nixkeeper/nixkeeper",
       "description": "Health dashboard for every nixpkgs package: new releases, build and update failures, vulnerabilities and open PRs, by maintainer and team",
       "created_at": "2026-09-27T20:14:17Z",
-      "pushed_at": "2026-11-17T21:20:41Z",
+      "pushed_at": "2026-11-18T21:19:56Z",
       "stars": 17,
       "topics": [
         "dashboard",
@@ -12126,7 +12126,7 @@
       "url": "https://github.com/cronwatchdev/cronwatch",
       "description": "CronWatch records every run of your scheduled jobs in your own database, and speaks up when one is missed, fails, gets stuck, runs slow or costs too much. CronWatch is free and open-source.",
       "created_at": "2026-09-26T12:07:29Z",
-      "pushed_at": "2026-11-14T21:42:33Z",
+      "pushed_at": "2026-11-18T16:22:59Z",
       "stars": 26,
       "topics": [
         "api",
@@ -12202,7 +12202,7 @@
       "url": "https://github.com/aefly/motioncab",
       "description": "🚛 Dynamic Head-Motion for ETS2/ATS",
       "created_at": "2026-09-24T07:39:55Z",
-      "pushed_at": "2026-11-14T05:20:24Z",
+      "pushed_at": "2026-11-18T18:45:28Z",
       "stars": 16,
       "topics": [
         "american-truck-simulator",
@@ -12294,7 +12294,7 @@
       "description": "把任意 USB Gadget 小设备（随身WiFi/树莓派/电视盒子）变成特斯拉虚拟哨兵U盘 + Web 查看器：四/六路同步回放、SEI 行车遥测 HUD、水印导出；x86/NAS 也能跑纯网页模式",
       "created_at": "2026-11-04T04:34:47Z",
       "pushed_at": "2026-11-13T16:45:28Z",
-      "stars": 37,
+      "stars": 39,
       "topics": [
         "dashcam",
         "dashcam-viewer",
@@ -12317,7 +12317,7 @@
       "url": "https://github.com/kuasha420/agyis-harness",
       "description": "The enterprise extension harness and developer CLI for Google Antigravity™.",
       "created_at": "2026-10-02T06:42:04Z",
-      "pushed_at": "2026-11-17T21:00:48Z",
+      "pushed_at": "2026-11-18T04:09:49Z",
       "stars": 2,
       "topics": [
         "agent-harness",
@@ -12359,7 +12359,7 @@
       "url": "https://github.com/manindesguise-source/net-lens-telemetry",
       "description": "Roblox Remote Event Monitor 2026: Best Networking Analytics Tool for Developers",
       "created_at": "2026-09-22T20:43:41Z",
-      "pushed_at": "2026-11-17T18:15:27Z",
+      "pushed_at": "2026-11-18T18:42:18Z",
       "stars": 70,
       "topics": [
         "luau",
@@ -12376,7 +12376,7 @@
       "url": "https://github.com/corache/gtweak",
       "description": "GTweak: Portable Windows Configuration and Setup Utility",
       "created_at": "2026-11-06T14:16:11Z",
-      "pushed_at": "2026-11-17T21:41:04Z",
+      "pushed_at": "2026-11-18T21:15:34Z",
       "stars": 149,
       "topics": [
         "activator",
@@ -12433,7 +12433,7 @@
       "description": "Your phone, minus the bloat. Debloat right on your phone via the Shizuku app (no PC needed) or from a computer over Wi-Fi/USB. Strip ads, bloatware, and telemetry—zero root, fully reversible.",
       "created_at": "2026-11-06T03:26:38Z",
       "pushed_at": "2026-11-13T06:27:10Z",
-      "stars": 55,
+      "stars": 56,
       "topics": [
         "adb",
         "adblock",
@@ -12458,7 +12458,7 @@
       "url": "https://github.com/Clang-error/clangnotch",
       "description": "Claude Code and Codex at Mac Notch. | Claude Code와 Codex를 맥 노치에서.",
       "created_at": "2026-10-27T01:39:33Z",
-      "pushed_at": "2026-11-17T08:15:01Z",
+      "pushed_at": "2026-11-18T12:15:59Z",
       "stars": 10,
       "topics": [
         "claude-code",
@@ -12578,7 +12578,7 @@
       "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
       "created_at": "2026-10-31T21:34:39Z",
       "pushed_at": "2026-11-16T03:43:17Z",
-      "stars": 3623,
+      "stars": 3634,
       "topics": [
         "adb",
         "android",
@@ -12609,7 +12609,7 @@
       "description": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
       "created_at": "2026-10-18T17:04:12Z",
       "pushed_at": "2026-11-14T12:14:51Z",
-      "stars": 2100,
+      "stars": 2110,
       "topics": [
         "ad-blocking",
         "adb",
@@ -12663,7 +12663,7 @@
       "description": "Win11Debloat 中文版：清理微软全家桶 / 关遥测 / 清广告 / 关自动更新 / 独特功能：帮你彻底移除 Microsoft Defender 安全中心",
       "created_at": "2026-10-02T05:14:40Z",
       "pushed_at": "2026-11-14T15:27:27Z",
-      "stars": 9,
+      "stars": 10,
       "topics": [
         "chinese",
         "debloat",
@@ -12742,7 +12742,7 @@
       "url": "https://github.com/50UR4V/ue-protocol",
       "description": "Open radio↔phone link protocol for EdgeTX companions — spec + embedded-safe C++11 reference codec + tests.",
       "created_at": "2026-09-30T02:26:42Z",
-      "pushed_at": "2026-11-17T11:41:24Z",
+      "pushed_at": "2026-11-18T05:05:16Z",
       "stars": 2,
       "topics": [
         "cpp",
@@ -12885,7 +12885,7 @@
       "url": "https://github.com/sfxnz/sparkline",
       "description": "Self-hosted live telemetry, alerts and benchmarks for NVIDIA DGX Spark (GB10) clusters",
       "created_at": "2026-10-09T11:51:11Z",
-      "pushed_at": "2026-11-17T20:15:21Z",
+      "pushed_at": "2026-11-18T13:31:49Z",
       "stars": 12,
       "topics": [
         "benchmarking",
@@ -12937,7 +12937,7 @@
       "url": "https://github.com/ronitgupta138/AvioStream",
       "description": "⚡ Aerospace Fleet Telemetry & Predictive Maintenance Platform. Java 21 Loom (>48k msgs/s), Dual ML (LightGBM + ONNX 0.014ms), and Deterministic CMMS Triage.",
       "created_at": "2026-10-06T10:53:46Z",
-      "pushed_at": "2026-11-17T08:09:33Z",
+      "pushed_at": "2026-11-18T16:26:23Z",
       "stars": 2,
       "topics": [
         "aerospace",
@@ -13206,7 +13206,7 @@
       "url": "https://github.com/AritoUser/Zig-BLE",
       "description": "Native, allocation-conscious, Pure-Zig Bluetooth Low Energy (BLE) stack for Linux BlueZ (Zero C dependencies)",
       "created_at": "2026-09-29T11:52:01Z",
-      "pushed_at": "2026-11-17T17:48:04Z",
+      "pushed_at": "2026-11-18T14:39:23Z",
       "stars": 2,
       "topics": [
         "ble",
@@ -13510,7 +13510,7 @@
       "url": "https://github.com/jackulau/coding.sh",
       "description": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
       "created_at": "2026-11-07T02:57:14Z",
-      "pushed_at": "2026-11-17T20:48:24Z",
+      "pushed_at": "2026-11-18T07:02:27Z",
       "stars": 117,
       "topics": [
         "agent-evals",
@@ -13696,8 +13696,8 @@
       "url": "https://github.com/spacesheep-dev/sessionpipe",
       "description": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.",
       "created_at": "2026-09-28T01:58:43Z",
-      "pushed_at": "2026-11-16T20:36:45Z",
-      "stars": 21,
+      "pushed_at": "2026-11-18T21:02:56Z",
+      "stars": 41,
       "topics": [
         "claude-code",
         "codex",
@@ -13730,7 +13730,7 @@
       "url": "https://github.com/trajs-ai/trajs",
       "description": "Ecosystem for record, analysis and exchange agent trajectories",
       "created_at": "2026-10-08T08:43:43Z",
-      "pushed_at": "2026-11-17T14:56:41Z",
+      "pushed_at": "2026-11-18T15:03:08Z",
       "stars": 2,
       "topics": [
         "agent",
@@ -13981,8 +13981,8 @@
       "url": "https://github.com/srpadmanabhuni/agentest",
       "description": "Test AI agents with 130 executable checks. Open source, offline, deterministic, no LLM judge. Reads OpenTelemetry GenAI traces, A2A and MCP. CI-ready.",
       "created_at": "2026-10-23T16:40:52Z",
-      "pushed_at": "2026-11-17T20:30:23Z",
-      "stars": 14,
+      "pushed_at": "2026-11-18T07:23:15Z",
+      "stars": 15,
       "topics": [
         "a2a",
         "agent-evaluation",
@@ -14109,9 +14109,9 @@
       "name": "inference-vitals",
       "full_name": "urbanmorph/inference-vitals",
       "url": "https://github.com/urbanmorph/inference-vitals",
-      "description": "A dashboard for running and fine-tuning AI models on an Apple Silicon Mac or Linux with NVIDIA GPUs: speed, loss, memory, heat, power and battery, for any local engine",
+      "description": "Training and inference on one timeline: an open, Prometheus-native local dashboard for running and fine-tuning AI models on an Apple Silicon Mac or Linux with NVIDIA GPUs.",
       "created_at": "2026-11-05T17:20:17Z",
-      "pushed_at": "2026-11-15T12:36:00Z",
+      "pushed_at": "2026-11-18T07:36:38Z",
       "stars": 4,
       "topics": [
         "apple-silicon",
@@ -14285,7 +14285,7 @@
       "url": "https://github.com/Jcedwar61/SimCoach",
       "description": "SimCoach - Live English voice coach and race crew for sim racing",
       "created_at": "2026-11-08T17:20:04Z",
-      "pushed_at": "2026-11-16T23:50:55Z",
+      "pushed_at": "2026-11-18T17:01:59Z",
       "stars": 4,
       "topics": [
         "assetto-corsa",
@@ -14526,7 +14526,7 @@
       "url": "https://github.com/ThinkFlowLab/nullius",
       "description": "An evaluation framework for AI agents. Bring any benchmark, agent or capability, run it on your machines, and inspect the evidence behind every score.",
       "created_at": "2026-11-05T12:46:20Z",
-      "pushed_at": "2026-11-17T16:35:19Z",
+      "pushed_at": "2026-11-18T15:36:38Z",
       "stars": 8,
       "topics": [
         "agentic-ai",
@@ -14564,8 +14564,8 @@
       "url": "https://github.com/MikeGT4/agent-tree",
       "description": "Terminal side pane for Claude Code that shows a session's agents as a live tree, with tabs for full reports, files, log and usage. Stop a running sub-agent, send it new instructions mid-task, switch its model by click, customize the look. Updates itself.",
       "created_at": "2026-10-22T11:34:58Z",
-      "pushed_at": "2026-11-17T18:21:13Z",
-      "stars": 19,
+      "pushed_at": "2026-11-18T20:58:10Z",
+      "stars": 21,
       "topics": [
         "agent-monitoring",
         "agentic-coding",
@@ -14595,7 +14595,7 @@
       "url": "https://github.com/fabioudev/claude-session-manager",
       "description": "Self-hosted web control plane and Claude Code plugin for monitoring, answering and coordinating parallel local Claude Code sessions.",
       "created_at": "2026-10-28T12:48:40Z",
-      "pushed_at": "2026-11-17T20:20:26Z",
+      "pushed_at": "2026-11-18T21:27:02Z",
       "stars": 2,
       "topics": [
         "ai-agents",
@@ -14615,7 +14615,7 @@
       "url": "https://github.com/jhisse/spoor",
       "description": "Local-first LLM observability. Inspect agent traces, token usage, latency and estimated costs with one binary and one SQLite file.",
       "created_at": "2026-10-05T23:01:02Z",
-      "pushed_at": "2026-11-17T08:14:19Z",
+      "pushed_at": "2026-11-18T01:32:44Z",
       "stars": 5,
       "topics": [
         "claude-code",
@@ -14641,8 +14641,8 @@
       "url": "https://github.com/StaysUp/agentbus",
       "description": "Cross-vendor middleware for coding agents: every model call, its cost and the full conversation, through one gateway.",
       "created_at": "2026-11-06T20:23:23Z",
-      "pushed_at": "2026-11-17T12:05:23Z",
-      "stars": 60,
+      "pushed_at": "2026-11-18T21:25:49Z",
+      "stars": 62,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -14659,7 +14659,7 @@
       "url": "https://github.com/StaysUp/agentbus-cockpit",
       "description": "A reference cockpit for AgentBus: turns, model calls, costs and the full conversation.",
       "created_at": "2026-11-06T21:03:04Z",
-      "pushed_at": "2026-11-17T12:05:12Z",
+      "pushed_at": "2026-11-18T08:03:53Z",
       "stars": 19,
       "topics": [
         "ai-agents",
@@ -14677,7 +14677,7 @@
       "url": "https://github.com/zyvorai/zyvor-zyntra",
       "description": "Decision intelligence for infrastructure: live eBPF, GPU and host signals become ranked, explainable, human-approved actions. Sense. Simulate. Act.",
       "created_at": "2026-10-01T18:28:44Z",
-      "pushed_at": "2026-11-13T15:58:48Z",
+      "pushed_at": "2026-11-18T09:46:41Z",
       "stars": 2,
       "topics": [
         "aiops",
@@ -14703,7 +14703,7 @@
       "url": "https://github.com/obzly/obzly",
       "description": "Self-hosted observability: logs, traces, metrics, synthetics and infrastructure inventory on OpenTelemetry",
       "created_at": "2026-11-06T10:00:44Z",
-      "pushed_at": "2026-11-16T12:51:34Z",
+      "pushed_at": "2026-11-18T09:41:20Z",
       "stars": 9,
       "topics": [
         "logs",
@@ -14819,7 +14819,7 @@
       "url": "https://github.com/VeloceAI/agent-adapter",
       "description": "A new open-source agentic framework that runs your tools anywhere, safely: one tool, 20 frameworks, any language.",
       "created_at": "2026-11-01T19:32:47Z",
-      "pushed_at": "2026-11-10T18:49:12Z",
+      "pushed_at": "2026-11-18T13:05:58Z",
       "stars": 13,
       "topics": [
         "agent-framework",
@@ -14992,7 +14992,7 @@
       "url": "https://github.com/theLucius7/apsp",
       "description": "自托管的服务器管理与配置面板：Rust Agent、独立系统服务运行时与事务化流量计量。",
       "created_at": "2026-09-29T16:44:15Z",
-      "pushed_at": "2026-11-17T15:05:51Z",
+      "pushed_at": "2026-11-18T07:25:04Z",
       "stars": 5,
       "topics": [
         "monitoring",
@@ -15072,7 +15072,7 @@
       "url": "https://github.com/ApexRadio/apex-radio",
       "description": "🎙️ Free voice race engineer for Le Mans Ultimate – strategy, fuel, pit menu, spotter, setup advice. FR/EN.",
       "created_at": "2026-11-02T12:34:29Z",
-      "pushed_at": "2026-11-17T16:04:02Z",
+      "pushed_at": "2026-11-18T10:37:21Z",
       "stars": 3,
       "topics": [
         "le-mans-ultimate",
@@ -15091,7 +15091,7 @@
       "url": "https://github.com/MontejoJorge/unofficial-selfhosted-nestjs-observe",
       "description": "Selfhosted version of nestjs observe",
       "created_at": "2026-10-28T10:58:09Z",
-      "pushed_at": "2026-11-10T21:27:37Z",
+      "pushed_at": "2026-11-18T12:05:52Z",
       "stars": 27,
       "topics": [
         "error-monitoring",
@@ -15134,7 +15134,7 @@
       "url": "https://github.com/Dszae/sportivo",
       "description": "Live sports match center for football, cricket, and basketball featuring live telemetry, custom team feeds, streaming channels, and local timezone scheduling.",
       "created_at": "2026-09-26T02:07:56Z",
-      "pushed_at": "2026-11-17T14:11:49Z",
+      "pushed_at": "2026-11-18T14:58:32Z",
       "stars": 3,
       "topics": [
         "cricket",
@@ -15174,7 +15174,7 @@
       "url": "https://github.com/marrrkkk/stacknext",
       "description": "Local-first runtime debugging, diagnostics and Playwright regression testing for Next.js",
       "created_at": "2026-11-02T16:35:10Z",
-      "pushed_at": "2026-11-17T18:24:13Z",
+      "pushed_at": "2026-11-18T12:00:22Z",
       "stars": 7,
       "topics": [
         "debugging",
@@ -15428,7 +15428,7 @@
       "url": "https://github.com/abhishekash/agenturm",
       "description": "Agenturm — a clear view of every agent. Local, terminal-first monitoring for coding agents, MCP calls, and traces.",
       "created_at": "2026-10-14T14:49:53Z",
-      "pushed_at": "2026-11-17T21:34:19Z",
+      "pushed_at": "2026-11-18T21:21:18Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -15770,7 +15770,7 @@
       "url": "https://github.com/zhaoxinghua09-cell/silent-failure-catalog",
       "description": "15 named silent-failure modes - validation that passes while nothing is being checked. Each with a runnable reproduction, a fixing recipe and a negative control, plus a self-testing linter.",
       "created_at": "2026-09-19T06:09:31Z",
-      "pushed_at": "2026-11-14T12:35:52Z",
+      "pushed_at": "2026-11-18T08:22:33Z",
       "stars": 7,
       "topics": [
         "ai-agents",
@@ -16084,7 +16084,7 @@
       "description": "neatroots: see, check and replay your AI agent's runs on your machine while you build it. Local-first, by Neatlogs.",
       "created_at": "2026-10-09T07:50:18Z",
       "pushed_at": "2026-11-13T15:39:31Z",
-      "stars": 81,
+      "stars": 82,
       "topics": [
         "ai-agents",
         "evals",
@@ -16122,8 +16122,8 @@
       "url": "https://github.com/levi-xy/vantage",
       "description": "Self-hosted, security-first dashboard for homelabs: live network maps, hardware-shaped cards, Telegram alerts.",
       "created_at": "2026-10-26T14:31:40Z",
-      "pushed_at": "2026-11-16T22:45:09Z",
-      "stars": 64,
+      "pushed_at": "2026-11-18T20:58:20Z",
+      "stars": 66,
       "topics": [
         "dashboard",
         "fastapi",
@@ -16162,7 +16162,7 @@
       "url": "https://github.com/DanielEnki420/decolab",
       "description": "Self-hosted home server for the Raspberry Pi 5 that proves it works",
       "created_at": "2026-11-05T12:09:23Z",
-      "pushed_at": "2026-11-12T23:25:30Z",
+      "pushed_at": "2026-11-18T17:52:24Z",
       "stars": 2,
       "topics": [
         "backup",
@@ -16214,7 +16214,7 @@
       "url": "https://github.com/sourpatchdad/patchboard",
       "description": "Self-hosted homelab dashboard and start page. Finds your Docker apps, shows what needs you, and puts the fix one click away: containers, Sonarr, Radarr, downloads, Home Assistant, wall tablets and e-ink.",
       "created_at": "2026-11-04T18:39:52Z",
-      "pushed_at": "2026-11-17T17:38:32Z",
+      "pushed_at": "2026-11-18T19:55:52Z",
       "stars": 41,
       "topics": [
         "dashboard",
@@ -16341,7 +16341,7 @@
       "url": "https://github.com/DavidAlpert11/SignalViewer",
       "description": "Offline engineering data analysis & validation workbench for any time-series data – compare runs, find what changed, check limits in CI, sweep parameters, report. CSV, Parquet, HDF5, MATLAB, ROS 2, CAN, PX4, ArduPilot.",
       "created_at": "2026-10-11T19:22:58Z",
-      "pushed_at": "2026-11-17T21:26:23Z",
+      "pushed_at": "2026-11-18T18:50:34Z",
       "stars": 2,
       "topics": [
         "ardupilot",
@@ -16475,7 +16475,7 @@
       "url": "https://github.com/zyvorai/zyvor-paqtra",
       "description": "Paqtra — trace every flow. Cilium-native network observability and operations for Kubernetes.",
       "created_at": "2026-09-23T23:53:22Z",
-      "pushed_at": "2026-11-16T08:43:09Z",
+      "pushed_at": "2026-11-18T14:56:03Z",
       "stars": 3,
       "topics": [
         "cilium",
@@ -16526,7 +16526,7 @@
       "url": "https://github.com/zyvorai/zyvor-vytrix",
       "description": "Read-only system activity monitor for macOS and Linux — macOS 26 Liquid Glass UI, grouped apps, processes, ports and Docker/Podman containers, with a dependency-free Python collector.",
       "created_at": "2026-10-07T09:45:40Z",
-      "pushed_at": "2026-11-13T17:09:41Z",
+      "pushed_at": "2026-11-18T14:22:35Z",
       "stars": 2,
       "topics": [
         "adwaita",
@@ -16555,7 +16555,7 @@
       "url": "https://github.com/zyvorai/zyvor-nivora",
       "description": "Mac-native application and network intelligence for apps, DNS, VPN, routes and FluxVM",
       "created_at": "2026-10-13T02:32:10Z",
-      "pushed_at": "2026-11-13T16:36:21Z",
+      "pushed_at": "2026-11-18T13:45:09Z",
       "stars": 2,
       "topics": [
         "bandwidth-monitor",
@@ -16634,7 +16634,7 @@
       "url": "https://github.com/B2ZO0/netcockpit",
       "description": "Your whole infrastructure, live, in one cockpit: auto-discovered topology, VMware, switches, alerts, logs and AI, even without access to your network gear. Prometheus · Grafana · Loki · Zabbix. EN/FR.",
       "created_at": "2026-11-04T10:02:26Z",
-      "pushed_at": "2026-11-17T16:30:45Z",
+      "pushed_at": "2026-11-18T14:28:53Z",
       "stars": 6,
       "topics": [
         "grafana",
@@ -16741,7 +16741,7 @@
       "url": "https://github.com/Faultline-lab/faultgate",
       "description": "FAULTLINE faultgate: open-source CI release gate for AI agents. Checks traces for failure modes and business-rule violations, and measures run-to-run variance.",
       "created_at": "2026-09-22T11:16:31Z",
-      "pushed_at": "2026-11-13T18:15:57Z",
+      "pushed_at": "2026-11-18T19:21:43Z",
       "stars": 4,
       "topics": [
         "agent-evaluation",
@@ -16818,7 +16818,7 @@
       "url": "https://github.com/lij768423-svg/meshatlas",
       "description": "A live, HUD-style map of your Tailscale tailnet: where every node is, direct / DERP / peer-relay paths, latency matrix, containers and services. Zero dependencies.",
       "created_at": "2026-11-13T15:50:40Z",
-      "pushed_at": "2026-11-15T03:14:21Z",
+      "pushed_at": "2026-11-18T14:27:33Z",
       "stars": 23,
       "topics": [
         "dashboard",
@@ -16860,7 +16860,7 @@
       "description": "Orca plugin that shows the live performance of every machine your Orca reaches (this computer and each paired Orca server) in one sidebar panel. Basic stats need nothing on the remote; install the plugin there too for per-core CPU and full detail. Runs over Orca's own pairing, no SSH.",
       "created_at": "2026-11-12T00:42:03Z",
       "pushed_at": "2026-11-14T22:57:47Z",
-      "stars": 16,
+      "stars": 18,
       "topics": [
         "activity-monitor",
         "cpu",
@@ -17243,7 +17243,7 @@
       "url": "https://github.com/jevlinai/jevlin-go",
       "description": "SuperSearch for coding agents: one call that asks Exa, Brave, Parallel, Perplexity, Serper and TinyFish, with trajectory observability.",
       "created_at": "2026-09-24T12:26:38Z",
-      "pushed_at": "2026-11-15T10:22:20Z",
+      "pushed_at": "2026-11-18T20:43:09Z",
       "stars": 2,
       "topics": [
         "agent-tools",
@@ -17300,7 +17300,7 @@
       "url": "https://github.com/martian56/tessery",
       "description": "Self-hosted platform to design software systems visually, generate their code and deploy them from development to production.",
       "created_at": "2026-11-12T12:39:48Z",
-      "pushed_at": "2026-11-17T11:42:34Z",
+      "pushed_at": "2026-11-18T10:34:36Z",
       "stars": 50,
       "topics": [
         "code-generation",
@@ -17368,7 +17368,7 @@
       "url": "https://github.com/authzenenforcer/authzen-enforcer",
       "description": "Policy Enforcement Point for the OpenID AuthZEN Authorization API in Java: a zero-dependency client and a Spring Boot starter with @CheckPermission. Fail-closed by default. Unofficial.",
       "created_at": "2026-10-30T20:27:30Z",
-      "pushed_at": "2026-11-17T18:16:51Z",
+      "pushed_at": "2026-11-18T16:19:24Z",
       "stars": 9,
       "topics": [
         "access-control",
@@ -17434,7 +17434,7 @@
       "url": "https://github.com/21Enzo17/isitmyisp",
       "description": "Is it your Wi-Fi, your router or your ISP? Self-hosted connection monitor that finds where the problem is and builds the evidence report your ISP needs.",
       "created_at": "2026-11-10T16:28:51Z",
-      "pushed_at": "2026-11-17T04:18:16Z",
+      "pushed_at": "2026-11-18T00:12:27Z",
       "stars": 8,
       "topics": [
         "docker",
@@ -17478,7 +17478,7 @@
       "url": "https://github.com/juju35/ha-system-hub",
       "description": "Home Assistant admin hub in one sidebar panel: System Monitor, Home Assistant's Docker containers, Marketplace updates, Integration Watchdog, batteries, Git Sync, failed automations and orphaned entities, as optional modules, with their Lovelace cards.",
       "created_at": "2026-11-10T19:32:16Z",
-      "pushed_at": "2026-11-17T21:44:40Z",
+      "pushed_at": "2026-11-18T21:27:36Z",
       "stars": 7,
       "topics": [
         "automation",
@@ -17508,7 +17508,7 @@
       "url": "https://github.com/ThienNg65/ferry-release",
       "description": "A lightweight, modern SFTP/SSH desktop client for seamless file transfers, remote file management, directory synchronization, and live log monitoring.",
       "created_at": "2026-11-11T08:01:27Z",
-      "pushed_at": "2026-11-17T10:11:23Z",
+      "pushed_at": "2026-11-18T16:16:03Z",
       "stars": 8,
       "topics": [
         "ferry",
@@ -17585,7 +17585,7 @@
       "description": "OpenChamber extension: live t/s graph and per-session token totals (input, output, thinking, cache, consumed)",
       "created_at": "2026-11-10T19:28:26Z",
       "pushed_at": "2026-11-16T22:31:27Z",
-      "stars": 10,
+      "stars": 12,
       "topics": [
         "extension",
         "monitoring",
@@ -17686,7 +17686,7 @@
       "url": "https://github.com/gengwg/g5a",
       "description": "Read-only Grafana dashboard TUI with responsive grids, variables, transformations, and live queries",
       "created_at": "2026-11-15T16:29:02Z",
-      "pushed_at": "2026-11-17T03:43:58Z",
+      "pushed_at": "2026-11-18T19:12:21Z",
       "stars": 2,
       "topics": [
         "cli",
@@ -17774,8 +17774,8 @@
       "url": "https://github.com/ATLURI0001/target-reconciliation-service",
       "description": "Kubernetes-native reliability control plane orchestrating policy-driven reconciliation, automated workload recovery, failure remediation, and auditable infrastructure operations.",
       "created_at": "2026-11-12T12:31:58Z",
-      "pushed_at": "2026-11-15T15:02:33Z",
-      "stars": 50,
+      "pushed_at": "2026-11-18T11:53:26Z",
+      "stars": 55,
       "topics": [
         "cloud-native",
         "gitops",
@@ -18021,7 +18021,7 @@
       "url": "https://github.com/Milos5611/hoply",
       "description": "macOS menu bar hub for AI coding agents: live sessions, usage and cost, local model servers, Claude limit",
       "created_at": "2026-11-09T13:29:08Z",
-      "pushed_at": "2026-11-17T16:20:49Z",
+      "pushed_at": "2026-11-18T20:09:57Z",
       "stars": 19,
       "topics": [
         "ai-agents",
@@ -18052,7 +18052,7 @@
       "url": "https://github.com/dfbustosus/llmrace",
       "description": "🏁 Race LLM providers head-to-head in your terminal — live TUI, TTFB, tokens/s, p95 latency & cost. OpenAI · Anthropic · Groq · OpenRouter · Ollama. Rust.",
       "created_at": "2026-11-07T21:17:59Z",
-      "pushed_at": "2026-11-17T21:06:18Z",
+      "pushed_at": "2026-11-18T13:28:02Z",
       "stars": 3,
       "topics": [
         "ai",
@@ -18137,7 +18137,7 @@
       "url": "https://github.com/mnema-xyz/talk",
       "description": "Mnema Talk: a small, self-hosted home for one community. Text channels, drop-in Talks and 4K screen sharing in one Go binary.",
       "created_at": "2026-10-04T17:18:35Z",
-      "pushed_at": "2026-11-17T19:00:02Z",
+      "pushed_at": "2026-11-18T20:47:59Z",
       "stars": 3,
       "topics": [
         "agpl",
@@ -18243,7 +18243,7 @@
       "url": "https://github.com/plutonlabs/neat-filters",
       "description": "Filter lists and scripting resources for NEAT Browser's built-in adblock-rust engine. Auto-built from uBlock Origin upstream every 6 hours.",
       "created_at": "2026-10-20T12:52:41Z",
-      "pushed_at": "2026-11-17T20:54:14Z",
+      "pushed_at": "2026-11-18T20:30:40Z",
       "stars": 2,
       "topics": [
         "adblock",
@@ -18293,7 +18293,7 @@
       "url": "https://github.com/50UR4V/UltraEdge-app",
       "description": "UltraEdge for EdgeTX RC Radios: your Android phone as the touchscreen for an EdgeTX radio, over USB. Manual, changelog, support.",
       "created_at": "2026-09-30T02:29:12Z",
-      "pushed_at": "2026-11-17T13:45:56Z",
+      "pushed_at": "2026-11-18T05:47:09Z",
       "stars": 2,
       "topics": [
         "edgetx",
@@ -18355,21 +18355,25 @@
       "url": "https://github.com/lapilli-project/lapilli",
       "description": "Which of your alerts are worth their page? Lapilli replays alert rules against what actually went wrong: a weekly verdict, or every hour in a ledger with a dashboard.",
       "created_at": "2026-11-02T06:22:25Z",
-      "pushed_at": "2026-11-17T21:32:34Z",
-      "stars": 6,
+      "pushed_at": "2026-11-18T16:32:36Z",
+      "stars": 9,
       "topics": [
         "alert-fatigue",
         "alerting",
+        "alertmanager",
         "go",
         "grafana",
         "helm-chart",
         "kubernetes",
+        "loki",
+        "mimir",
         "monitoring",
         "observability",
         "on-call",
         "prometheus",
         "promql",
-        "sre"
+        "sre",
+        "thanos"
       ]
     },
     "ndondadaniel2020/infrawatch": {
@@ -18378,7 +18382,7 @@
       "url": "https://github.com/NdondaDaniel2020/InfraWatch",
       "description": "Enterprise Observability & NOC Telemetry Platform with Automated GLPI Incident Management, Micro-Probes & Real-time SLA Monitoring",
       "created_at": "2026-09-30T20:13:11Z",
-      "pushed_at": "2026-11-17T21:12:55Z",
+      "pushed_at": "2026-11-18T15:04:01Z",
       "stars": 2,
       "topics": [
         "fastapi",
@@ -18445,8 +18449,8 @@
       "url": "https://github.com/oriliz/agent-crop",
       "description": "给 AI 编程助手一根马鞭：本地记录时间去向，把复盘写回 agent 指令/技能/工具；改没改好，用数据说话。 | A whip for coding agents: local timing, red-line nudges, and an evidence-backed, auditable self-improvement loop. DSH / Claude Code / Codex.",
       "created_at": "2026-11-14T07:36:17Z",
-      "pushed_at": "2026-11-17T18:03:06Z",
-      "stars": 18,
+      "pushed_at": "2026-11-18T15:06:58Z",
+      "stars": 61,
       "topics": [
         "agent-evaluation",
         "agent-observability",
@@ -18602,8 +18606,8 @@
       "url": "https://github.com/edivanteixeira/stuntman",
       "description": "The stunt double for every provider your app calls: SMS, WhatsApp, e-mail, storage, queues, identity, secrets and any HTTP API. Built for coding agents, over MCP or HTTP.",
       "created_at": "2026-11-14T18:35:59Z",
-      "pushed_at": "2026-11-16T18:39:57Z",
-      "stars": 5,
+      "pushed_at": "2026-11-18T14:54:04Z",
+      "stars": 6,
       "topics": [
         "ai-agents",
         "api-mocking",
@@ -18810,8 +18814,8 @@
       "url": "https://github.com/radekwojpl2/session-observer",
       "description": "Claude Code plugin: live local dashboard of everything happening in your sessions",
       "created_at": "2026-11-13T14:04:26Z",
-      "pushed_at": "2026-11-17T21:01:05Z",
-      "stars": 3,
+      "pushed_at": "2026-11-18T16:38:14Z",
+      "stars": 4,
       "topics": [
         "agent-observability",
         "ai-agent",
@@ -18848,7 +18852,7 @@
       "url": "https://github.com/Realmeshowroom/jet-reports-skill",
       "description": "Jet Reports Skill: Visual Workbook Workflows NAV and Business Central",
       "created_at": "2026-11-15T20:10:10Z",
-      "pushed_at": "2026-11-17T18:50:43Z",
+      "pushed_at": "2026-11-18T18:29:24Z",
       "stars": 153,
       "topics": [
         "architecture-diagram",
@@ -18874,8 +18878,8 @@
       "url": "https://github.com/replit/datacat",
       "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
       "created_at": "2026-11-17T02:51:06Z",
-      "pushed_at": "2026-11-17T16:41:48Z",
-      "stars": 14,
+      "pushed_at": "2026-11-18T20:42:26Z",
+      "stars": 133,
       "topics": [
         "alerting",
         "apm",
@@ -18897,8 +18901,8 @@
       "url": "https://github.com/MaxKarasha/clorbit",
       "description": "Your Claude Code agents, in orbit — a living galaxy of sessions and subagents with token analytics. Local, read-only.",
       "created_at": "2026-11-17T11:40:52Z",
-      "pushed_at": "2026-11-17T15:54:34Z",
-      "stars": 4,
+      "pushed_at": "2026-11-18T17:39:40Z",
+      "stars": 5,
       "topics": [
         "claude-code",
         "claude-code-plugin",
@@ -19001,7 +19005,7 @@
       "url": "https://github.com/FusionProxies/proxy-health-monitor",
       "description": "Open-source proxy health monitor with HTTP, HTTPS and SOCKS5 uptime tracking, latency metrics, alerts, dashboard and Prometheus integration.",
       "created_at": "2026-11-17T11:32:07Z",
-      "pushed_at": "2026-11-17T11:32:23Z",
+      "pushed_at": "2026-11-18T11:14:54Z",
       "stars": 18,
       "topics": [
         "golang",
@@ -19020,9 +19024,9 @@
       "name": "agent-steward",
       "full_name": "DeadSno/agent-steward",
       "url": "https://github.com/DeadSno/agent-steward",
-      "description": "OpenCode v2 plugin for scheduling and orchestrating AI agent jobs - cron, one-shot runs, DAG pipelines, matrix builds, quality gates, SQLite history, metrics and a local web dashboard. Windows, macOS and Linux. MIT.",
+      "description": "OpenCode V1 (≥ 1.18.29) and V2 plugin for scheduling and orchestrating AI agent jobs — cron, one-shot runs, DAG pipelines, matrix builds, quality gates, SQLite history and a local web dashboard. Runs on Windows, macOS and Linux. Free and open source (MIT).",
       "created_at": "2026-11-13T06:51:30Z",
-      "pushed_at": "2026-11-17T17:08:40Z",
+      "pushed_at": "2026-11-18T17:24:19Z",
       "stars": 3,
       "topics": [
         "agent-orchestration",
@@ -19035,10 +19039,10 @@
         "observability",
         "opencode",
         "opencode-plugin",
+        "opencode-v1",
         "opencode-v2",
         "quality-gates",
         "scheduler",
-        "systemd",
         "task-scheduler",
         "typescript",
         "windows-task-scheduler",
@@ -19051,8 +19055,8 @@
       "url": "https://github.com/Chitresh-Bhatia-264/MCPGuard-ADK",
       "description": "Multi-agent MCP supply-chain, secret-leak, and >200K token cost-cliff auditor built on Google ADK 2.0, A2A Protocol v1.0 (Ed25519/JCS), and OpenTelemetry.",
       "created_at": "2026-11-17T05:14:49Z",
-      "pushed_at": "2026-11-17T13:00:34Z",
-      "stars": 2,
+      "pushed_at": "2026-11-18T05:50:22Z",
+      "stars": 5,
       "topics": [
         "a2a-protocol",
         "ai-agents",
@@ -19101,7 +19105,7 @@
       "url": "https://github.com/Nina-noSchool/RushRate",
       "description": "RushRate — 基于黑马点评深度魔改的本地生活服务平台：Redis Lua 秒杀 + 四级对账兜底 + 自研双引擎（9 模块 DDD）｜139 单测 · CI",
       "created_at": "2026-10-07T08:05:36Z",
-      "pushed_at": "2026-11-17T16:57:05Z",
+      "pushed_at": "2026-11-18T15:26:11Z",
       "stars": 4,
       "topics": [
         "bloom-filter",
@@ -19126,7 +19130,7 @@
       "description": "Dependency-free health auditing for Linux homelabs",
       "created_at": "2026-11-17T00:44:14Z",
       "pushed_at": "2026-11-17T05:54:04Z",
-      "stars": 6,
+      "stars": 9,
       "topics": [
         "docker",
         "healthcheck",
@@ -19162,7 +19166,7 @@
       "url": "https://github.com/avisin93/frametweak-windows-optimizer",
       "description": "FrameTweak Windows Optimizer: Boost Gaming FPS, Reduce Lag, and Debloat Windows",
       "created_at": "2026-11-15T19:59:48Z",
-      "pushed_at": "2026-11-17T18:49:30Z",
+      "pushed_at": "2026-11-18T18:27:57Z",
       "stars": 153,
       "topics": [
         "app",
@@ -19219,8 +19223,8 @@
       "url": "https://github.com/eddiejaoude/StackDash",
       "description": "Stop switching between dashboards. Track activity, revenue, costs, and alerts across your developer tools in one open-source, self-hostable dashboard.",
       "created_at": "2026-10-30T11:23:27Z",
-      "pushed_at": "2026-11-17T21:27:30Z",
-      "stars": 8,
+      "pushed_at": "2026-11-18T18:18:44Z",
+      "stars": 10,
       "topics": [
         "dashboard",
         "developer-tools",
@@ -19242,7 +19246,7 @@
       "description": "Monitor a swarm of machines over SSH in a k9s-like interface",
       "created_at": "2026-11-12T09:19:36Z",
       "pushed_at": "2026-11-16T22:44:37Z",
-      "stars": 12,
+      "stars": 22,
       "topics": [
         "docker",
         "docker-compose",
@@ -19259,7 +19263,7 @@
       "url": "https://github.com/normangawanab/purewin-optimizer",
       "description": "PureWin Optimizer: Windows System Performance Tuning and Cleanup Utility",
       "created_at": "2026-11-15T20:27:49Z",
-      "pushed_at": "2026-11-17T19:03:22Z",
+      "pushed_at": "2026-11-18T18:42:20Z",
       "stars": 153,
       "topics": [
         "debloat-tool",
@@ -19310,7 +19314,7 @@
       "description": "iDrive Labs apps for BMW iDrive 7 & 8: add idrive-labs/mgu-apps as a source in the MGU Store",
       "created_at": "2026-11-13T18:30:50Z",
       "pushed_at": "2026-11-17T13:57:46Z",
-      "stars": 5,
+      "stars": 6,
       "topics": [
         "bmw",
         "bmw-mgu",
@@ -19330,7 +19334,7 @@
       "url": "https://github.com/ShZbz/antigravity-dashboard",
       "description": "Real-time token telemetry, quota tracker & Rust-accelerated usage ledger for Google Antigravity Desktop, IDE, and CLI.",
       "created_at": "2026-11-15T10:21:40Z",
-      "pushed_at": "2026-11-17T13:53:13Z",
+      "pushed_at": "2026-11-18T17:32:09Z",
       "stars": 5,
       "topics": [
         "ai-agents",
@@ -19352,13 +19356,537 @@
       "description": "Careful Windows 11 debloat notes — what is safe to remove and what is not.",
       "created_at": "2026-11-15T21:43:16Z",
       "pushed_at": "2026-11-15T21:44:23Z",
-      "stars": 95,
+      "stars": 85,
       "topics": [
         "debloat",
         "sysadmin",
         "telemetry",
         "tweaks",
         "windows11"
+      ]
+    },
+    "honeybadger-io/skills": {
+      "name": "skills",
+      "full_name": "honeybadger-io/skills",
+      "url": "https://github.com/honeybadger-io/skills",
+      "description": "Honeybadger skills for AI coding agents (Claude Code, Codex, Cursor, and more)",
+      "created_at": "2026-10-09T16:37:41Z",
+      "pushed_at": "2026-11-18T20:12:24Z",
+      "stars": 3,
+      "topics": [
+        "ai",
+        "apm",
+        "error-tracking",
+        "llms",
+        "logging",
+        "mcp",
+        "mcp-server",
+        "monitoring",
+        "observability",
+        "skills"
+      ]
+    },
+    "skopax/skopax": {
+      "name": "skopax",
+      "full_name": "skopax/skopax",
+      "url": "https://github.com/skopax/skopax",
+      "description": "Open-source ops watcher",
+      "created_at": "2026-11-18T05:13:31Z",
+      "pushed_at": "2026-11-18T21:07:16Z",
+      "stars": 3,
+      "topics": [
+        "aiops",
+        "incident-response",
+        "mcp",
+        "monitoring",
+        "observability",
+        "self-hosted",
+        "slack",
+        "sre"
+      ]
+    },
+    "deveshk0/opensearch-stack-monitoring": {
+      "name": "opensearch-stack-monitoring",
+      "full_name": "deveshk0/opensearch-stack-monitoring",
+      "url": "https://github.com/deveshk0/opensearch-stack-monitoring",
+      "description": "Independent community plugin for OpenSearch Dashboards: stack monitoring, persistent metrics, self-monitoring and operational insights.",
+      "created_at": "2026-11-18T12:42:08Z",
+      "pushed_at": "2026-11-18T15:27:17Z",
+      "stars": 3,
+      "topics": [
+        "monitoring",
+        "observability",
+        "opensearch",
+        "opensearch-dashboards"
+      ]
+    },
+    "agentcontrolpanel-si/agents_control_panel-sdk": {
+      "name": "Agents_Control_Panel-SDK",
+      "full_name": "agentcontrolpanel-si/Agents_Control_Panel-SDK",
+      "url": "https://github.com/agentcontrolpanel-si/Agents_Control_Panel-SDK",
+      "description": "Official Node.js SDK for Agent Control Panel: monitor AI agents in production and pause, resume, stop, swap models or push approved prompts without redeploying. Fail-open, HMAC-signed commands.",
+      "created_at": "2026-09-27T00:55:40Z",
+      "pushed_at": "2026-11-18T14:22:07Z",
+      "stars": 2,
+      "topics": [
+        "agent-control-panel",
+        "ai-agent-monitoring",
+        "ai-agents",
+        "anthropic",
+        "control-plane",
+        "gemini",
+        "javascript",
+        "kill-switch",
+        "llm",
+        "llmops",
+        "nodejs",
+        "observability",
+        "openai",
+        "sdk",
+        "typescript"
+      ]
+    },
+    "agentcontrolpanel-si/agent-control-panel-python": {
+      "name": "agent-control-panel-python",
+      "full_name": "agentcontrolpanel-si/agent-control-panel-python",
+      "url": "https://github.com/agentcontrolpanel-si/agent-control-panel-python",
+      "description": "Official Python SDK for Agent Control Panel: monitor AI agents in production and pause, resume, stop, swap models or push approved prompts without redeploying. Zero dependencies, fail-open, HMAC-signed commands.",
+      "created_at": "2026-09-29T16:21:33Z",
+      "pushed_at": "2026-11-18T14:20:28Z",
+      "stars": 2,
+      "topics": [
+        "agent-control-panel",
+        "ai-agent-monitoring",
+        "ai-agents",
+        "anthropic",
+        "control-plane",
+        "gemini",
+        "kill-switch",
+        "llm",
+        "llmops",
+        "observability",
+        "openai",
+        "python",
+        "sdk"
+      ]
+    },
+    "ankit-kumar-khandelwal/tracernest-logger": {
+      "name": "tracernest-logger",
+      "full_name": "ankit-kumar-khandelwal/tracernest-logger",
+      "url": "https://github.com/ankit-kumar-khandelwal/tracernest-logger",
+      "description": "TracerNest-Logger – A Node.js logging and telemetry package for centralized application logging, HTTP request/response monitoring, server health diagnostics, and real-time log visualization with SQLite/MySQL storage support.",
+      "created_at": "2026-11-17T06:46:04Z",
+      "pushed_at": "2026-11-18T12:59:13Z",
+      "stars": 5,
+      "topics": [
+        "backend",
+        "dashboard",
+        "debugging",
+        "developer-tools",
+        "express",
+        "logging",
+        "monitoring",
+        "nodejs",
+        "observability",
+        "open-source",
+        "self-hosted",
+        "telemetry",
+        "typescript"
+      ]
+    },
+    "hubbabubbaprepod/pulse-monitor": {
+      "name": "pulse-monitor",
+      "full_name": "HubbaBubbaPrepod/pulse-monitor",
+      "url": "https://github.com/HubbaBubbaPrepod/pulse-monitor",
+      "description": "Self-hosted server monitoring for Linux and Windows. Next.js dashboard, Go backend, real-time metrics and community modules. RU / EN docs.",
+      "created_at": "2026-10-13T03:45:41Z",
+      "pushed_at": "2026-11-18T12:58:39Z",
+      "stars": 2,
+      "topics": [
+        "golang",
+        "linux",
+        "monitoring",
+        "nextjs",
+        "observability",
+        "plugins",
+        "self-hosted",
+        "server-monitoring",
+        "windows"
+      ]
+    },
+    "spoolersh/pagedog": {
+      "name": "pagedog",
+      "full_name": "spoolersh/pagedog",
+      "url": "https://github.com/spoolersh/pagedog",
+      "description": "A tool that sniffs out your incidents.",
+      "created_at": "2026-11-11T19:38:38Z",
+      "pushed_at": "2026-11-18T12:23:39Z",
+      "stars": 3,
+      "topics": [
+        "alerts",
+        "incident-response",
+        "observability",
+        "pager"
+      ]
+    },
+    "saromanov/openfd": {
+      "name": "openfd",
+      "full_name": "saromanov/openfd",
+      "url": "https://github.com/saromanov/openfd",
+      "description": "lsof that answers instantly - a fast, streaming file-descriptor scanner for Linux (proc + netlink), with human-readable output",
+      "created_at": "2026-11-01T06:54:47Z",
+      "pushed_at": "2026-11-18T11:08:00Z",
+      "stars": 3,
+      "topics": [
+        "cli",
+        "devtools",
+        "fd",
+        "file-descriptors",
+        "linux",
+        "lsof",
+        "observability",
+        "proc",
+        "rust"
+      ]
+    },
+    "triageagent-dev/agent": {
+      "name": "agent",
+      "full_name": "triageagent-dev/agent",
+      "url": "https://github.com/triageagent-dev/agent",
+      "description": "Triage agent: eBPF, OTLP, Linux USE RED SIGNALS agent",
+      "created_at": "2026-10-22T21:17:57Z",
+      "pushed_at": "2026-11-18T10:52:08Z",
+      "stars": 10,
+      "topics": [
+        "ai-agents",
+        "ebpf",
+        "golang",
+        "helm",
+        "incident-response",
+        "kubernetes",
+        "observability",
+        "opentelemetry",
+        "otlp",
+        "sre"
+      ]
+    },
+    "ishandutta2007/awesome-it-event-management-alerting": {
+      "name": "Awesome-IT-Event-Management-Alerting",
+      "full_name": "ishandutta2007/Awesome-IT-Event-Management-Alerting",
+      "url": "https://github.com/ishandutta2007/Awesome-IT-Event-Management-Alerting",
+      "description": "Top IT Event Management Alerting (Opensource) Star if you like it!",
+      "created_at": "2026-11-17T23:28:35Z",
+      "pushed_at": "2026-11-18T10:04:52Z",
+      "stars": 2,
+      "topics": [
+        "aiops",
+        "alerting",
+        "awesome-list",
+        "curated-list",
+        "event-management",
+        "incident-management",
+        "observability"
+      ]
+    },
+    "jlruedab/clifr": {
+      "name": "clifr",
+      "full_name": "jlruedab/clifr",
+      "url": "https://github.com/jlruedab/clifr",
+      "description": "clifr is a Linux System Flight Recorder (SFR) that continuously captures processes, connections, open files and system counters, then shows accurate ps, ss, lsof, top (and 30+ other) tools' full-output for any past moment; tamper-proof and with very low-overhead.",
+      "created_at": "2026-11-10T00:55:42Z",
+      "pushed_at": "2026-11-18T09:36:24Z",
+      "stars": 7,
+      "topics": [
+        "audit",
+        "compiance-tools",
+        "cybersecurity-tools",
+        "duckdb",
+        "ebpf",
+        "flight-recorder",
+        "forensics",
+        "incident-response",
+        "linux",
+        "monitoring",
+        "observability",
+        "parquet",
+        "postmortem",
+        "rhel",
+        "sosreport",
+        "sysadmin",
+        "systemd",
+        "time-travel",
+        "troubleshooting",
+        "ubuntu"
+      ]
+    },
+    "eversynced/pheebs": {
+      "name": "pheebs",
+      "full_name": "Eversynced/pheebs",
+      "url": "https://github.com/Eversynced/pheebs",
+      "description": "Open-source, local-first telemetry for AI coding agents (Claude Code, Cursor, Codex). Built by Eversynced, a nearshore engineering company.",
+      "created_at": "2026-09-23T18:52:27Z",
+      "pushed_at": "2026-11-18T20:26:21Z",
+      "stars": 6,
+      "topics": [
+        "ai-coding",
+        "ai-practice",
+        "ai-telemetry",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "cursor",
+        "developer-productivity",
+        "engineering-metrics",
+        "llm-cost",
+        "opentelemetry",
+        "telemetry"
+      ]
+    },
+    "euron-sde-team/euron-open-agenteval": {
+      "name": "euron-open-agenteval",
+      "full_name": "euron-sde-team/euron-open-agenteval",
+      "url": "https://github.com/euron-sde-team/euron-open-agenteval",
+      "description": "Score how well an AI agent completed a task, trace how it got there, and track whether a new version made things better or worse",
+      "created_at": "2026-11-16T05:37:18Z",
+      "pushed_at": "2026-11-16T05:37:44Z",
+      "stars": 2,
+      "topics": [
+        "agent-evaluation",
+        "ai-agents",
+        "benchmarking",
+        "fastapi",
+        "llm-as-judge",
+        "llm-evaluation",
+        "mit-license",
+        "nextjs",
+        "observability",
+        "open-source",
+        "opentelemetry",
+        "postgresql",
+        "python",
+        "terraform",
+        "typescript"
+      ]
+    },
+    "swayam5342/crawler": {
+      "name": "crawler",
+      "full_name": "swayam5342/crawler",
+      "url": "https://github.com/swayam5342/crawler",
+      "description": "A web crawler that backs off: a self-hosted Go crawler that obeys robots.txt, paces each domain, retries with backoff, resumes after a crash, and is steered from a Next.js dashboard.",
+      "created_at": "2026-10-12T03:14:43Z",
+      "pushed_at": "2026-11-18T13:31:20Z",
+      "stars": 3,
+      "topics": [
+        "circuit-breaker",
+        "crawler",
+        "docker",
+        "go",
+        "nextjs",
+        "postgresql",
+        "prometheus",
+        "rate-limiting",
+        "robots-txt",
+        "self-hosted",
+        "web-crawler"
+      ]
+    },
+    "3d3dcanada/stella-scope-community": {
+      "name": "stella-scope-community",
+      "full_name": "3d3dcanada/stella-scope-community",
+      "url": "https://github.com/3d3dcanada/stella-scope-community",
+      "description": "Stella Scope 0.6.3, open source (AGPL-3.0): cockpit, flight recorder and farm wall for Klipper, Prusa and FlashForge printers. No printer limit. 3D models download on request.",
+      "created_at": "2026-11-18T12:53:05Z",
+      "pushed_at": "2026-11-18T12:54:42Z",
+      "stars": 10,
+      "topics": [
+        "3d-printing",
+        "flashforge",
+        "klipper",
+        "monitoring",
+        "moonraker",
+        "print-farm",
+        "prusalink",
+        "rust",
+        "voron",
+        "voron-2-4"
+      ]
+    },
+    "dfallman/gitst": {
+      "name": "gitst",
+      "full_name": "dfallman/gitst",
+      "url": "https://github.com/dfallman/gitst",
+      "description": "Real-time, glanceable interactive git status for the terminal",
+      "created_at": "2026-09-27T04:41:17Z",
+      "pushed_at": "2026-11-18T09:16:27Z",
+      "stars": 7,
+      "topics": [
+        "git",
+        "git-repository",
+        "github",
+        "monitor",
+        "monitoring",
+        "monitoring-tool",
+        "status",
+        "status-live",
+        "terminal",
+        "terminal-app",
+        "terminal-based",
+        "terminal-ui"
+      ]
+    },
+    "bkraad47/ramen": {
+      "name": "ramen",
+      "full_name": "bkraad47/ramen",
+      "url": "https://github.com/bkraad47/ramen",
+      "description": "Governed MCP for teams on GKE/EKS/AKS: SSO roles, guardrails, evals and scans gate deploys, audit.",
+      "created_at": "2026-09-27T09:30:43Z",
+      "pushed_at": "2026-11-18T09:40:27Z",
+      "stars": 7,
+      "topics": [
+        "ai-agents",
+        "aks",
+        "aws",
+        "azure",
+        "cross-platform",
+        "eks",
+        "evals",
+        "gcp",
+        "gke",
+        "governance",
+        "guardrails",
+        "kubernetes",
+        "mcp",
+        "mcp-server",
+        "monitoring",
+        "multi-zone",
+        "oauth",
+        "observability",
+        "sso",
+        "terraform"
+      ]
+    },
+    "jhonlinus/nas-dash": {
+      "name": "nas-dash",
+      "full_name": "jhonlinus/nas-dash",
+      "url": "https://github.com/jhonlinus/nas-dash",
+      "description": "Zero-dependency NAS dashboard: one Python file + one HTML file. CPU / memory / network / volumes / SMART / containers / RAID / sensors, with history, warnings and a drag-and-drop layout — plus a fnOS (FeiNiu) app package.",
+      "created_at": "2026-11-18T04:06:37Z",
+      "pushed_at": "2026-11-18T06:04:16Z",
+      "stars": 15,
+      "topics": [
+        "cgroup",
+        "dashboard",
+        "docker",
+        "fnos",
+        "monitoring",
+        "nas",
+        "python",
+        "self-hosted",
+        "single-file",
+        "smart",
+        "synology",
+        "zero-dependency"
+      ]
+    },
+    "xinglingqaq/uptimepolaris": {
+      "name": "UptimePolaris",
+      "full_name": "XingLingQAQ/UptimePolaris",
+      "url": "https://github.com/XingLingQAQ/UptimePolaris",
+      "description": "Self-hosted status page and uptime monitoring on Cloudflare Workers or Go, with a Rust agent for host metrics and private-network probes.",
+      "created_at": "2026-11-01T15:45:07Z",
+      "pushed_at": "2026-11-18T05:22:02Z",
+      "stars": 5,
+      "topics": [
+        "cloudflare",
+        "cloudflare-workers",
+        "d1",
+        "golang",
+        "monitoring",
+        "postgresql",
+        "react",
+        "rust",
+        "self-hosted",
+        "status-page",
+        "typescript",
+        "uptime",
+        "uptime-monitor"
+      ]
+    },
+    "shreyammaity/hwcast": {
+      "name": "hwcast",
+      "full_name": "ShreyamMaity/hwcast",
+      "url": "https://github.com/ShreyamMaity/hwcast",
+      "description": "Tiny Windows service that serves a live hardware dashboard (CPU, every NVIDIA GPU, RAM, temperatures, fans) to any browser on your network, with an MCP server for AI agents and mod support",
+      "created_at": "2026-10-10T19:17:36Z",
+      "pushed_at": "2026-11-18T21:15:05Z",
+      "stars": 2,
+      "topics": [
+        "ai-agents",
+        "dashboard",
+        "hardware-monitor",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "nvidia",
+        "rust",
+        "self-hosted",
+        "telemetry",
+        "windows"
+      ]
+    },
+    "riverxorange/agy-monowatch": {
+      "name": "agy-monowatch",
+      "full_name": "riverxorange/agy-monowatch",
+      "url": "https://github.com/riverxorange/agy-monowatch",
+      "description": "Local, read-only usage & subscription ROI dashboard for Google Antigravity — tracks API value, cache hit rate, TTFT, tok/s, context window, events, and model routing.",
+      "created_at": "2026-11-18T08:12:15Z",
+      "pushed_at": "2026-11-18T08:29:18Z",
+      "stars": 3,
+      "topics": [
+        "agy",
+        "ai-agents",
+        "antigravity",
+        "antigravity-cli",
+        "antigravity-ide",
+        "antigravity-plugin",
+        "claude",
+        "context-window",
+        "cost-tracker",
+        "developer-tools",
+        "gemini",
+        "google-antigravity",
+        "llm-observability",
+        "sidecar",
+        "telemetry",
+        "token-usage",
+        "usage-monitor",
+        "vertex-ai"
+      ]
+    },
+    "rusty-hope/traceforge": {
+      "name": "traceforge",
+      "full_name": "Rusty-Hope/traceforge",
+      "url": "https://github.com/Rusty-Hope/traceforge",
+      "description": "Hybrid ML & background-LLM telemetry / incident-triage engine. Local scikit-learn first, OpenRouter second — invisible AI, zero chatbot.",
+      "created_at": "2026-11-17T08:26:21Z",
+      "pushed_at": "2026-11-18T05:58:56Z",
+      "stars": 2,
+      "topics": [
+        "aiops",
+        "anomaly-detection",
+        "fastapi",
+        "incident-management",
+        "incident-response",
+        "isolation-forest",
+        "log-clustering",
+        "mlops",
+        "observability",
+        "openrouter",
+        "react",
+        "scikit-learn",
+        "sqlite",
+        "telemetry",
+        "typescript"
       ]
     }
   },
