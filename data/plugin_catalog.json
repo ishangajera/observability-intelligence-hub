@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:27:37.420311+00:00",
+  "generated_at": "2026-11-19T21:38:50.407930+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -23,23 +23,23 @@
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
-      "version": "4.1.6",
+      "version": "4.1.8",
       "type": "Data Source",
       "description": "JSON API, CSV, TSV, XML, GraphQL, HTML, Google Sheets and HTTP/REST API datasource for Grafana. Do infinite things with Grafana. Transform data with UQL/GROQ. Visualize data from many apis including Amazon AWS, Microsoft Azure, Google Cloud / GCP and RSS/ATOM feeds directly. Also support visualizing logs and traces.",
       "url": "https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/",
       "repository": "https://github.com/grafana/grafana-infinity-datasource",
       "created_at": "2020-11-19T17:14:10.000Z",
-      "updated_at": "2026-11-04T20:53:04.000Z"
+      "updated_at": "2026-11-19T01:30:56.000Z"
     },
     "grafana-vercel-datasource": {
       "name": "Vercel",
-      "version": "0.1.19-preview",
+      "version": "0.1.20-preview",
       "type": "Data Source",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-vercel-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2025-01-31T19:09:38.000Z",
-      "updated_at": "2026-11-02T09:31:50.000Z"
+      "updated_at": "2026-11-19T18:12:41.000Z"
     },
     "crestdata-dellemcpowerscale-datasource": {
       "name": "Dell PowerScale",
@@ -73,13 +73,13 @@
     },
     "grafana-github-datasource": {
       "name": "GitHub",
-      "version": "2.10.0",
+      "version": "2.11.0",
       "type": "Data Source",
       "description": "The GitHub data source plugin for Grafana lets you to query the GitHub API in Grafana so you can visualize your GitHub repositories and projects.",
       "url": "https://grafana.com/grafana/plugins/grafana-github-datasource/",
       "repository": "https://github.com/grafana/github-datasource",
       "created_at": "2020-09-11T04:02:59.000Z",
-      "updated_at": "2026-11-03T16:29:33.000Z"
+      "updated_at": "2026-11-18T21:30:03.000Z"
     },
     "kensobi-spcboxplot-panel": {
       "name": "SPC Box Plot",
@@ -313,13 +313,13 @@
     },
     "grafana-adobeanalytics-datasource": {
       "name": "Adobe Analytics",
-      "version": "0.1.25-preview",
+      "version": "0.1.26-preview",
       "type": "Data Source",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-adobeanalytics-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2024-07-09T14:29:12.000Z",
-      "updated_at": "2026-11-02T09:29:44.000Z"
+      "updated_at": "2026-11-19T18:06:45.000Z"
     },
     "aggregations-io-datasource": {
       "name": "Aggregations.io",
@@ -383,13 +383,13 @@
     },
     "grafana-aurora-datasource": {
       "name": "Amazon Aurora",
-      "version": "0.6.11",
+      "version": "0.7.0",
       "type": "Data Source",
       "description": "Query and visualize AWS Aurora data with grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-aurora-datasource/",
       "repository": "https://github.com/grafana/grafana-aurora-datasource",
       "created_at": "2024-07-29T18:01:40.000Z",
-      "updated_at": "2026-11-02T15:20:22.000Z"
+      "updated_at": "2026-11-18T21:41:34.000Z"
     },
     "grafana-amazonprometheus-datasource": {
       "name": "Amazon Managed Service for Prometheus",
@@ -409,7 +409,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-redshift-datasource/",
       "repository": "https://github.com/grafana/redshift-datasource",
       "created_at": "2021-11-24T08:37:47.000Z",
-      "updated_at": "2026-11-02T15:17:24.000Z"
+      "updated_at": "2026-11-19T19:45:53.000Z"
     },
     "grafana-timestream-datasource": {
       "name": "Amazon Timestream",
@@ -473,13 +473,13 @@
     },
     "dlopes7-appdynamics-datasource": {
       "name": "AppDynamics",
-      "version": "3.13.6",
+      "version": "3.13.7",
       "type": "Data Source",
       "description": "AppDynamics datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/dlopes7-appdynamics-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-09-15T13:27:25.000Z",
-      "updated_at": "2026-10-29T13:50:17.000Z"
+      "updated_at": "2026-11-19T17:27:28.000Z"
     },
     "esnet-arcdiagram-panel": {
       "name": "Arc Diagram",
@@ -493,13 +493,13 @@
     },
     "consensys-asko11y-app": {
       "name": "Ask O11y",
-      "version": "0.3.23",
+      "version": "0.3.30",
       "type": "Application",
       "description": "AI-powered observability assistant with MCP integration. Query databases, analyze metrics, manage dashboards, and troubleshoot issues through natural language with 56+ integrated tools.",
       "url": "https://grafana.com/grafana/plugins/consensys-asko11y-app/",
       "repository": "https://github.com/Consensys/ask-o11y-plugin",
       "created_at": "2026-03-13T11:53:42.000Z",
-      "updated_at": "2026-10-29T12:56:17.000Z"
+      "updated_at": "2026-11-19T21:21:12.000Z"
     },
     "grafana-astradb-datasource": {
       "name": "AstraDB",
@@ -523,13 +523,13 @@
     },
     "grafana-atlassianstatuspage-datasource": {
       "name": "Atlassian Statuspage",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "type": "Data Source",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-atlassianstatuspage-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2024-08-09T18:44:11.000Z",
-      "updated_at": "2026-11-02T09:32:06.000Z"
+      "updated_at": "2026-11-19T18:06:34.000Z"
     },
     "grafana-x-ray-datasource": {
       "name": "AWS Application Signals",
@@ -539,7 +539,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-x-ray-datasource/",
       "repository": "https://github.com/grafana/x-ray-datasource",
       "created_at": "2020-09-28T17:55:09.000Z",
-      "updated_at": "2026-11-02T14:55:32.000Z"
+      "updated_at": "2026-11-19T20:20:00.000Z"
     },
     "ivlabsdev-awscostexplorer-datasource": {
       "name": "AWS Cost Explorer",
@@ -553,13 +553,13 @@
     },
     "aws-datasource-provisioner-app": {
       "name": "AWS Data Sources",
-      "version": "1.13.16",
+      "version": "1.13.17",
       "type": "Application",
       "description": "AWS Datasource Provisioner",
       "url": "https://grafana.com/grafana/plugins/aws-datasource-provisioner-app/",
       "repository": "https://github.com/grafana/aws-datasource-provisioner-app",
       "created_at": "2022-01-31T17:33:37.000Z",
-      "updated_at": "2026-10-29T14:37:48.000Z"
+      "updated_at": "2026-11-19T17:22:32.000Z"
     },
     "grafana-iot-sitewise-datasource": {
       "name": "AWS IoT SiteWise",
@@ -569,7 +569,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-iot-sitewise-datasource/",
       "repository": "https://github.com/grafana/iot-sitewise-datasource",
       "created_at": "2020-10-08T18:15:44.000Z",
-      "updated_at": "2026-11-02T15:16:29.000Z"
+      "updated_at": "2026-11-19T19:41:36.000Z"
     },
     "grafana-iot-twinmaker-app": {
       "name": "AWS IoT TwinMaker App",
@@ -579,7 +579,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-iot-twinmaker-app/",
       "repository": "https://github.com/grafana/grafana-iot-twinmaker-app",
       "created_at": "2021-11-19T19:10:51.000Z",
-      "updated_at": "2026-11-12T13:08:09.000Z"
+      "updated_at": "2026-11-18T21:56:09.000Z"
     },
     "axiomhq-axiom-datasource": {
       "name": "Axiom",
@@ -623,13 +623,13 @@
     },
     "grafana-azuredevops-datasource": {
       "name": "Azure DevOps",
-      "version": "0.11.5",
+      "version": "0.11.6",
       "type": "Data Source",
       "description": "The Grafana data source plugin for Azure DevOps",
       "url": "https://grafana.com/grafana/plugins/grafana-azuredevops-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-10-12T17:43:35.000Z",
-      "updated_at": "2026-10-28T15:18:17.000Z"
+      "updated_at": "2026-11-19T17:30:00.000Z"
     },
     "grafana-azure-monitor-datasource": {
       "name": "Azure Monitor",
@@ -639,7 +639,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-azure-monitor-datasource/",
       "repository": "https://github.com/grafana/grafana-azure-monitor-datasource",
       "created_at": "2017-09-13T13:28:40.000Z",
-      "updated_at": "2026-11-06T18:44:31.000Z"
+      "updated_at": "2026-11-18T22:53:58.000Z"
     },
     "grafana-azureprometheus-datasource": {
       "name": "Azure Monitor Managed Service for Prometheus",
@@ -649,7 +649,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-azureprometheus-datasource/",
       "repository": "https://github.com/grafana/azure-prometheus-datasource",
       "created_at": "2025-04-09T11:34:08.000Z",
-      "updated_at": "2026-11-11T15:21:29.000Z"
+      "updated_at": "2026-11-18T21:33:13.000Z"
     },
     "timomyl-breadcrumb-panel": {
       "name": "Breadcrumb",
@@ -823,13 +823,13 @@
     },
     "grafana-catchpoint-datasource": {
       "name": "Catchpoint",
-      "version": "0.1.16-preview",
+      "version": "0.1.17-preview",
       "type": "Data Source",
       "description": "Catchpoint data source plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-catchpoint-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2024-06-11T19:16:12.000Z",
-      "updated_at": "2026-11-02T09:30:46.000Z"
+      "updated_at": "2026-11-19T18:07:36.000Z"
     },
     "esara-causely-app": {
       "name": "Causely",
@@ -963,13 +963,13 @@
     },
     "grafana-cloudflare-datasource": {
       "name": "Cloudflare",
-      "version": "0.2.9-preview",
+      "version": "0.2.10-preview",
       "type": "Data Source",
       "description": "Grafana datasource plugin for Cloudflare",
       "url": "https://grafana.com/grafana/plugins/grafana-cloudflare-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2024-02-22T17:59:43.000Z",
-      "updated_at": "2026-11-02T09:30:00.000Z"
+      "updated_at": "2026-11-19T18:07:45.000Z"
     },
     "cloudwatch": {
       "name": "CloudWatch",
@@ -1003,13 +1003,13 @@
     },
     "grafana-cockroachdb-datasource": {
       "name": "CockroachDB",
-      "version": "0.4.11",
+      "version": "0.4.12",
       "type": "Data Source",
       "description": "A data source for CockroachDB",
       "url": "https://grafana.com/grafana/plugins/grafana-cockroachdb-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2024-08-01T17:11:54.000Z",
-      "updated_at": "2026-10-28T15:20:29.000Z"
+      "updated_at": "2026-11-19T17:31:39.000Z"
     },
     "cognitedata-datasource": {
       "name": "Cognite Data Fusion",
@@ -1103,13 +1103,13 @@
     },
     "marcusolsson-csv-datasource": {
       "name": "CSV",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "type": "Data Source",
       "description": "A data source for loading CSV data",
       "url": "https://grafana.com/grafana/plugins/marcusolsson-csv-datasource/",
       "repository": "https://github.com/grafana/grafana-csv-datasource",
       "created_at": "2020-11-28T18:10:00.000Z",
-      "updated_at": "2026-10-30T19:06:53.000Z"
+      "updated_at": "2026-11-18T21:35:47.000Z"
     },
     "grafana-cube-datasource": {
       "name": "Cube",
@@ -1153,13 +1153,13 @@
     },
     "grafana-datadog-datasource": {
       "name": "Datadog",
-      "version": "3.17.11",
+      "version": "3.17.12",
       "type": "Data Source",
       "description": "Datadog datasource plugin for Grafana. Grafana Data dog datasource plugin",
       "url": "https://grafana.com/grafana/plugins/grafana-datadog-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-04-11T21:18:38.000Z",
-      "updated_at": "2026-11-11T18:49:22.000Z"
+      "updated_at": "2026-11-19T17:31:36.000Z"
     },
     "sentinelone-dataset-datasource": {
       "name": "Dataset",
@@ -1233,13 +1233,13 @@
     },
     "grafana-drone-datasource": {
       "name": "Drone",
-      "version": "0.1.13-preview",
+      "version": "0.1.14-preview",
       "type": "Data Source",
       "description": "A data source for drone",
       "url": "https://grafana.com/grafana/plugins/grafana-drone-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2020-11-11T18:06:37.000Z",
-      "updated_at": "2026-11-02T09:30:57.000Z"
+      "updated_at": "2026-11-19T18:09:19.000Z"
     },
     "grafadruid-druid-datasource": {
       "name": "Druid",
@@ -1269,17 +1269,17 @@
       "url": "https://grafana.com/grafana/plugins/grafana-dynamodb-datasource/",
       "repository": "https://github.com/grafana/dynamodb-datasource",
       "created_at": "2024-03-21T18:19:50.000Z",
-      "updated_at": "2026-11-10T16:18:00.000Z"
+      "updated_at": "2026-11-19T19:35:12.000Z"
     },
     "grafana-dynatrace-datasource": {
       "name": "Dynatrace",
-      "version": "3.27.11",
+      "version": "3.27.12",
       "type": "Data Source",
       "description": "Dynatrace datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-dynatrace-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2018-04-04T17:41:07.000Z",
-      "updated_at": "2026-11-11T16:48:18.000Z"
+      "updated_at": "2026-11-19T17:33:51.000Z"
     },
     "edelbyte-kql-datasource": {
       "name": "Edelbyte Datasource",
@@ -1503,13 +1503,13 @@
     },
     "grafana-gitlab-datasource": {
       "name": "GitLab",
-      "version": "3.0.9",
+      "version": "3.0.10",
       "type": "Data Source",
       "description": "GitLab datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-gitlab-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-02-18T22:24:27.000Z",
-      "updated_at": "2026-10-28T15:18:30.000Z"
+      "updated_at": "2026-11-19T17:33:37.000Z"
     },
     "gizmodata-gizmosql-datasource": {
       "name": "GizmoSQL",
@@ -1563,13 +1563,13 @@
     },
     "grafana-googlesheets-datasource": {
       "name": "Google Sheets",
-      "version": "2.7.4",
+      "version": "2.7.5",
       "type": "Data Source",
       "description": "The Google Sheets data source plugin for Grafana lets you to visualize your Google spreadsheets in Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-googlesheets-datasource/",
       "repository": "https://github.com/grafana/google-sheets-datasource",
       "created_at": "2020-03-20T15:03:54.000Z",
-      "updated_at": "2026-10-30T14:43:29.000Z"
+      "updated_at": "2026-11-18T21:33:16.000Z"
     },
     "grafana-advisor-app": {
       "name": "Grafana Advisor",
@@ -1673,13 +1673,13 @@
     },
     "jaops-yamcs-app": {
       "name": "Grafana Yamcs JAOPS",
-      "version": "1.0.8",
+      "version": "1.1.11",
       "type": "Application",
       "description": "A comprehensive Grafana plugin to connect to Yamcs servers for real-time telemetry visualization and commanding capabilities. Designed for mission control centers, aerospace applications and beyond.",
       "url": "https://grafana.com/grafana/plugins/jaops-yamcs-app/",
       "repository": "https://github.com/jaops-space/grafana-yamcs-jaops",
       "created_at": "2026-02-03T13:18:15.000Z",
-      "updated_at": "2026-07-03T09:02:43.000Z"
+      "updated_at": "2026-11-19T14:46:07.000Z"
     },
     "neildengg-grafmaid-panel": {
       "name": "Grafmaid",
@@ -1763,13 +1763,13 @@
     },
     "grafana-honeycomb-datasource": {
       "name": "Honeycomb",
-      "version": "2.15.13",
+      "version": "2.15.14",
       "type": "Data Source",
       "description": "Honeycomb datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-honeycomb-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-06-21T14:49:11.000Z",
-      "updated_at": "2026-10-29T13:52:28.000Z"
+      "updated_at": "2026-11-19T17:34:36.000Z"
     },
     "taminomara-hostoverview-panel": {
       "name": "Host Overview",
@@ -1923,13 +1923,13 @@
     },
     "grafana-pathfinder-app": {
       "name": "Interactive learning",
-      "version": "2.29.0",
+      "version": "2.30.0",
       "type": "Application",
       "description": "Get help exactly when and where you need it. Interactive learning brings contextual documentation and interactive guides directly into Grafana, so you can learn and build without leaving your workflow.",
       "url": "https://grafana.com/grafana/plugins/grafana-pathfinder-app/",
       "repository": "https://github.com/grafana/grafana-pathfinder-app",
       "created_at": "2025-10-13T11:29:42.000Z",
-      "updated_at": "2026-11-17T11:16:24.000Z"
+      "updated_at": "2026-11-19T16:34:24.000Z"
     },
     "equansdatahub-tree-panel": {
       "name": "Interactive Tree Panel",
@@ -1983,23 +1983,23 @@
     },
     "grafana-jira-datasource": {
       "name": "Jira",
-      "version": "2.7.15",
+      "version": "2.7.16",
       "type": "Data Source",
       "description": "Jira datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-jira-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-01-06T20:57:23.000Z",
-      "updated_at": "2026-10-29T13:53:09.000Z"
+      "updated_at": "2026-11-19T17:34:39.000Z"
     },
     "marcusolsson-json-datasource": {
       "name": "JSON API",
-      "version": "1.4.4",
+      "version": "1.4.5",
       "type": "Data Source",
       "description": "A data source plugin for loading JSON APIs into Grafana.",
       "url": "https://grafana.com/grafana/plugins/marcusolsson-json-datasource/",
       "repository": "https://github.com/grafana/grafana-json-datasource",
       "created_at": "2020-09-22T08:26:30.000Z",
-      "updated_at": "2026-10-29T22:46:38.000Z"
+      "updated_at": "2026-11-18T21:35:31.000Z"
     },
     "nagasudhirpulla-api-datasource": {
       "name": "JSON Fetcher",
@@ -2113,13 +2113,13 @@
     },
     "grafana-logicmonitor-datasource": {
       "name": "LogicMonitor Devices",
-      "version": "0.5.6-preview",
+      "version": "0.5.7-preview",
       "type": "Data Source",
       "description": "Grafana datasource plugin for LogicMonitor",
       "url": "https://grafana.com/grafana/plugins/grafana-logicmonitor-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2025-05-12T17:00:53.000Z",
-      "updated_at": "2026-11-02T09:31:55.000Z"
+      "updated_at": "2026-11-19T18:10:18.000Z"
     },
     "loki": {
       "name": "Loki",
@@ -2143,13 +2143,13 @@
     },
     "grafana-looker-datasource": {
       "name": "Looker",
-      "version": "0.4.28",
+      "version": "0.4.29",
       "type": "Data Source",
       "description": "Looker datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-looker-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2023-06-26T16:52:23.000Z",
-      "updated_at": "2026-10-29T13:53:09.000Z"
+      "updated_at": "2026-11-19T17:35:12.000Z"
     },
     "instabug-instabug-app": {
       "name": "Luciq",
@@ -2299,7 +2299,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-mqtt-datasource/",
       "repository": "https://github.com/grafana/mqtt-datasource",
       "created_at": "2022-12-01T18:19:18.000Z",
-      "updated_at": "2026-11-10T11:26:15.000Z"
+      "updated_at": "2026-11-18T21:46:52.000Z"
     },
     "arabian9ts-mux-datasource": {
       "name": "MUX-Datasource",
@@ -2373,13 +2373,13 @@
     },
     "grafana-netlify-datasource": {
       "name": "Netlify",
-      "version": "0.1.13-preview",
+      "version": "0.1.14-preview",
       "type": "Data Source",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-netlify-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2024-08-08T10:40:35.000Z",
-      "updated_at": "2026-11-02T09:30:38.000Z"
+      "updated_at": "2026-11-19T18:11:21.000Z"
     },
     "esnet-networkmap-panel": {
       "name": "Network Map Panel",
@@ -2413,13 +2413,13 @@
     },
     "grafana-newrelic-datasource": {
       "name": "New Relic",
-      "version": "4.6.33",
+      "version": "4.6.34",
       "type": "Data Source",
       "description": "New Relic datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-newrelic-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-01-23T14:36:07.000Z",
-      "updated_at": "2026-10-28T15:20:22.000Z"
+      "updated_at": "2026-11-19T17:35:31.000Z"
     },
     "hamedkarbasi93-nodegraphapi-datasource": {
       "name": "Node Graph API",
@@ -2573,13 +2573,13 @@
     },
     "grafana-oracle-datasource": {
       "name": "Oracle Database",
-      "version": "3.5.9",
+      "version": "3.5.10",
       "type": "Data Source",
       "description": "Oracle datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-oracle-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2018-04-17T19:40:16.000Z",
-      "updated_at": "2026-10-28T15:24:31.000Z"
+      "updated_at": "2026-11-19T17:39:28.000Z"
     },
     "orchestracities-iconstat-panel": {
       "name": "Orchestra Cities Icon Stat Panel",
@@ -2633,13 +2633,13 @@
     },
     "grafana-pagerduty-datasource": {
       "name": "PagerDuty",
-      "version": "1.2.24",
+      "version": "1.2.25",
       "type": "Data Source",
       "description": "PagerDuty data source plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-pagerduty-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2024-02-12T09:45:16.000Z",
-      "updated_at": "2026-10-28T15:22:39.000Z"
+      "updated_at": "2026-11-19T17:37:55.000Z"
     },
     "smile-palindromejs-panel": {
       "name": "Palindrome.js",
@@ -2813,13 +2813,13 @@
     },
     "prometheus": {
       "name": "Prometheus",
-      "version": "13.2.6",
+      "version": "13.2.7",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/prometheus/",
       "repository": "https://github.com/grafana/grafana-prometheus-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-11-11T13:36:43.000Z"
+      "updated_at": "2026-11-18T23:05:05.000Z"
     },
     "grafana-prometheusalerting-app": {
       "name": "Prometheus Alerting",
@@ -3043,13 +3043,13 @@
     },
     "grafana-salesforce-datasource": {
       "name": "Salesforce",
-      "version": "1.7.33",
+      "version": "1.7.34",
       "type": "Data Source",
       "description": "Salesforce datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-salesforce-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-06-07T21:32:22.000Z",
-      "updated_at": "2026-10-29T13:54:35.000Z"
+      "updated_at": "2026-11-19T17:35:55.000Z"
     },
     "netsage-sankey-panel": {
       "name": "Sankey Panel",
@@ -3063,13 +3063,13 @@
     },
     "grafana-saphana-datasource": {
       "name": "SAP HANA®",
-      "version": "1.7.33",
+      "version": "1.7.34",
       "type": "Data Source",
       "description": "The Grafana® data source plugin for SAP HANA®. SAP HANA® is the trademark or registered trademark of SAP SE or its affiliates in Germany and in several other countries.",
       "url": "https://grafana.com/grafana/plugins/grafana-saphana-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-05-17T17:28:01.000Z",
-      "updated_at": "2026-11-17T13:42:29.000Z"
+      "updated_at": "2026-11-19T17:37:25.000Z"
     },
     "lucasbremond-satellitevisualizer-panel": {
       "name": "Satellite Visualizer",
@@ -3113,7 +3113,7 @@
     },
     "grafana-sentry-datasource": {
       "name": "Sentry",
-      "version": "2.2.11",
+      "version": "2.2.12",
       "type": "Data Source",
       "description": "Grafana datasource plugin for Sentry",
       "url": "https://grafana.com/grafana/plugins/grafana-sentry-datasource/",
@@ -3133,13 +3133,13 @@
     },
     "grafana-servicenow-datasource": {
       "name": "ServiceNow",
-      "version": "2.14.19",
+      "version": "2.14.20",
       "type": "Data Source",
       "description": "ServiceNow datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-servicenow-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2019-06-13T10:51:34.000Z",
-      "updated_at": "2026-11-16T11:15:45.000Z"
+      "updated_at": "2026-11-19T17:37:26.000Z"
     },
     "crestdata-sharepoint-datasource": {
       "name": "SharePoint",
@@ -3243,13 +3243,13 @@
     },
     "grafana-snowflake-datasource": {
       "name": "Snowflake",
-      "version": "1.17.8",
+      "version": "1.17.9",
       "type": "Data Source",
       "description": "Snowflake datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-snowflake-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2020-09-25T16:55:24.000Z",
-      "updated_at": "2026-10-30T17:04:18.000Z"
+      "updated_at": "2026-11-19T17:42:58.000Z"
     },
     "lehmannch-flow-panel": {
       "name": "Solar Flow",
@@ -3263,13 +3263,13 @@
     },
     "grafana-solarwinds-datasource": {
       "name": "Solarwinds",
-      "version": "0.2.13-preview",
+      "version": "0.2.14-preview",
       "type": "Data Source",
       "description": "Grafana datasource plugin for SolarWinds",
       "url": "https://grafana.com/grafana/plugins/grafana-solarwinds-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2025-10-02T20:08:02.000Z",
-      "updated_at": "2026-11-02T09:30:56.000Z"
+      "updated_at": "2026-11-19T18:12:14.000Z"
     },
     "flandersmake-sparql-datasource": {
       "name": "SPARQL",
@@ -3363,23 +3363,23 @@
     },
     "grafana-splunk-datasource": {
       "name": "Splunk",
-      "version": "5.9.0",
+      "version": "5.9.1",
       "type": "Data Source",
       "description": "Splunk datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-splunk-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-04-11T21:18:30.000Z",
-      "updated_at": "2026-11-11T12:28:58.000Z"
+      "updated_at": "2026-11-19T17:44:33.000Z"
     },
     "grafana-splunk-monitoring-datasource": {
       "name": "Splunk Infrastructure Monitoring",
-      "version": "1.8.22",
+      "version": "1.8.23",
       "type": "Data Source",
       "description": "Splunk Infrastructure Monitoring (formerly SignalFx) datasource plugin for Grafana. Also known as Splunk Observability",
       "url": "https://grafana.com/grafana/plugins/grafana-splunk-monitoring-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2021-01-22T19:16:10.000Z",
-      "updated_at": "2026-10-29T13:54:44.000Z"
+      "updated_at": "2026-11-19T17:44:17.000Z"
     },
     "frser-sqlite-datasource": {
       "name": "SQLite",
@@ -3393,13 +3393,13 @@
     },
     "grafana-odbc-datasource": {
       "name": "Sqlyze Datasource",
-      "version": "1.5.25",
+      "version": "1.5.30",
       "type": "Data Source",
       "description": "Grafana Sqlyze Data Source. Generic datasource plugin to connect SQL databases via ODBC driver",
       "url": "https://grafana.com/grafana/plugins/grafana-odbc-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2022-03-24T18:12:04.000Z",
-      "updated_at": "2026-10-28T15:19:08.000Z"
+      "updated_at": "2026-11-19T17:34:35.000Z"
     },
     "serrrios-statusoverview-panel": {
       "name": "Status Overview Panel",
@@ -3453,13 +3453,13 @@
     },
     "grafana-sumologic-datasource": {
       "name": "Sumo Logic",
-      "version": "1.6.27",
+      "version": "1.6.28",
       "type": "Data Source",
       "description": "Sumo Logic datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-sumologic-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2023-10-23T13:42:35.000Z",
-      "updated_at": "2026-10-29T13:54:26.000Z"
+      "updated_at": "2026-11-19T17:45:57.000Z"
     },
     "fetzerch-sunandmoon-datasource": {
       "name": "Sun and Moon",
@@ -3723,13 +3723,13 @@
     },
     "grafana-wavefront-datasource": {
       "name": "Wavefront",
-      "version": "2.5.27",
+      "version": "2.5.28",
       "type": "Data Source",
       "description": "Wavefront datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-wavefront-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2020-09-01T13:02:57.000Z",
-      "updated_at": "2026-11-11T18:49:00.000Z"
+      "updated_at": "2026-11-19T17:45:59.000Z"
     },
     "armanfeyzi-wazuh-datasource": {
       "name": "Wazuh",
@@ -3843,13 +3843,13 @@
     },
     "grafana-zendesk-datasource": {
       "name": "Zendesk",
-      "version": "0.1.13-preview",
+      "version": "0.1.14-preview",
       "type": "Data Source",
       "description": "",
       "url": "https://grafana.com/grafana/plugins/grafana-zendesk-datasource/",
       "repository": "https://github.com/grafana/plugins",
       "created_at": "2022-03-11T10:08:17.000Z",
-      "updated_at": "2026-11-02T09:32:07.000Z"
+      "updated_at": "2026-11-19T18:12:51.000Z"
     },
     "gabrielthomasjacobs-zendesk-datasource": {
       "name": "Zendesk Datasource Plugin",
