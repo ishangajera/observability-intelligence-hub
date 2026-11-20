@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:38:50.407930+00:00",
+  "generated_at": "2026-11-20T21:13:55.752330+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -403,7 +403,7 @@
     },
     "grafana-redshift-datasource": {
       "name": "Amazon Redshift",
-      "version": "2.5.8",
+      "version": "2.5.9",
       "type": "Data Source",
       "description": "Use Amazon Redshift in Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-redshift-datasource/",
@@ -533,7 +533,7 @@
     },
     "grafana-x-ray-datasource": {
       "name": "AWS Application Signals",
-      "version": "2.17.7",
+      "version": "2.17.8",
       "type": "Data Source",
       "description": "Data source for AWS Application Signals",
       "url": "https://grafana.com/grafana/plugins/grafana-x-ray-datasource/",
@@ -563,7 +563,7 @@
     },
     "grafana-iot-sitewise-datasource": {
       "name": "AWS IoT SiteWise",
-      "version": "2.6.8",
+      "version": "2.6.9",
       "type": "Data Source",
       "description": "A managed service to collect, store, organize and monitor data from industrial equipment",
       "url": "https://grafana.com/grafana/plugins/grafana-iot-sitewise-datasource/",
@@ -633,7 +633,7 @@
     },
     "grafana-azure-monitor-datasource": {
       "name": "Azure Monitor",
-      "version": "13.0.8",
+      "version": "13.1.0",
       "type": "Data Source",
       "description": "Data source for Microsoft Azure Monitor & Application Insights",
       "url": "https://grafana.com/grafana/plugins/grafana-azure-monitor-datasource/",
@@ -643,7 +643,7 @@
     },
     "grafana-azureprometheus-datasource": {
       "name": "Azure Monitor Managed Service for Prometheus",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/grafana-azureprometheus-datasource/",
@@ -913,13 +913,13 @@
     },
     "crestdata-citrixcloud-datasource": {
       "name": "Citrix Cloud",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "Data Source",
       "description": "Query Citrix Cloud platform data — system logs, administrators, Cloud Connectors, licensing, notifications, and resource locations.",
       "url": "https://grafana.com/grafana/plugins/crestdata-citrixcloud-datasource/",
       "repository": "",
       "created_at": "2026-09-14T11:00:57.000Z",
-      "updated_at": "2026-11-13T14:55:51.000Z"
+      "updated_at": "2026-11-20T14:51:19.000Z"
     },
     "crestdata-citrixdaas-datasource": {
       "name": "Citrix DaaS",
@@ -933,13 +933,13 @@
     },
     "timurdigital-claudestats-app": {
       "name": "Claude Code Stats",
-      "version": "1.1.0",
+      "version": "2.0.2",
       "type": "Application",
-      "description": "Team usage analytics for Claude Code powered by OpenTelemetry",
+      "description": "Team usage analytics for Claude Code from OpenTelemetry: cost, tokens, tools, productivity, reliability, security audit and traces",
       "url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/",
       "repository": "https://github.com/tolzhabayev/claudestats-app-grafana",
       "created_at": "2026-01-29T07:45:00.000Z",
-      "updated_at": "2026-04-17T11:49:45.000Z"
+      "updated_at": "2026-11-20T12:57:55.000Z"
     },
     "grafana-clickhouse-datasource": {
       "name": "ClickHouse",
@@ -1143,13 +1143,13 @@
     },
     "grafana-databricks-datasource": {
       "name": "Databricks",
-      "version": "1.14.22",
+      "version": "1.14.23",
       "type": "Data Source",
       "description": "Databricks datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-databricks-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2022-06-29T19:22:36.000Z",
-      "updated_at": "2026-11-17T01:44:32.000Z"
+      "updated_at": "2026-11-20T01:23:22.000Z"
     },
     "grafana-datadog-datasource": {
       "name": "Datadog",
@@ -1263,7 +1263,7 @@
     },
     "grafana-dynamodb-datasource": {
       "name": "DynamoDB",
-      "version": "2.5.4",
+      "version": "2.5.5",
       "type": "Data Source",
       "description": "DynamoDB datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-dynamodb-datasource/",
@@ -1433,13 +1433,13 @@
     },
     "crestdata-fortigate-datasource": {
       "name": "FortiGate",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "type": "Data Source",
       "description": "FortiGate datasource for Grafana. Query and visualize security logs including traffic, UTM (antivirus, webfilter), and event logs from FortiGate devices through the REST API.",
       "url": "https://grafana.com/grafana/plugins/crestdata-fortigate-datasource/",
-      "repository": "https://github.com/jignesh-crest/crestdata-fortigate-datasource",
+      "repository": "",
       "created_at": "2026-04-23T09:16:37.000Z",
-      "updated_at": "2026-06-02T16:02:48.000Z"
+      "updated_at": "2026-11-20T10:18:30.000Z"
     },
     "foxglovedev-foxglove-datasource": {
       "name": "Foxglove",
@@ -2393,13 +2393,13 @@
     },
     "tamirsuliman-weathermap-panel": {
       "name": "Network Weathermap NG",
-      "version": "1.6.20",
+      "version": "1.6.24",
       "type": "Panel",
       "description": "Next-generation, actively maintained network weathermap by Tamir Suliman. A continuation and fork of the deprecated Network Weathermap plugin, updated for modern Grafana.",
       "url": "https://grafana.com/grafana/plugins/tamirsuliman-weathermap-panel/",
       "repository": "https://github.com/allamiro/grafana-network-weathermap-ng",
       "created_at": "2026-07-03T12:19:52.000Z",
-      "updated_at": "2026-10-26T13:44:13.000Z"
+      "updated_at": "2026-11-20T10:28:45.000Z"
     },
     "radensolutions-netxms-datasource": {
       "name": "NetXMS",
