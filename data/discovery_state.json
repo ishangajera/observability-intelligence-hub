@@ -7442,7 +7442,7 @@
       "url": "https://github.com/UmTioAii/ASTRO-Harness",
       "description": "Multi-agent coding harness for AI agents. Features deterministic model routing, append-only audit ledgers, cost governance, and durable handoffs. Built with Bun & TypeScript.",
       "created_at": "2026-10-23T15:54:38Z",
-      "pushed_at": "2026-11-23T18:40:30Z",
+      "pushed_at": "2026-11-23T18:47:19Z",
       "stars": 4,
       "topics": [
         "agent-harness",
@@ -21398,7 +21398,7 @@
       "url": "https://github.com/saeedkhoury/pro-build",
       "description": "Your AI software company for Claude Code: ten departments from idea validation to deploys, payments, launch and growth, with approval gates. Powered by ECC.",
       "created_at": "2026-11-17T15:56:57Z",
-      "pushed_at": "2026-11-23T14:18:05Z",
+      "pushed_at": "2026-11-23T18:48:31Z",
       "stars": 3,
       "topics": [
         "agent-skills",
@@ -21524,7 +21524,7 @@
       "url": "https://github.com/Xander-Xai/Customer-Service-AI-Agent",
       "description": "Production-oriented LangGraph customer-service agent with hybrid RAG, durable async execution, HITL governance, MCP tools, observability, and reproducible evaluation.",
       "created_at": "2026-10-08T15:29:32Z",
-      "pushed_at": "2026-11-23T18:46:45Z",
+      "pushed_at": "2026-11-23T18:47:10Z",
       "stars": 3,
       "topics": [
         "agent-runtime",
