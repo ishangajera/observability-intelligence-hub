@@ -10,7 +10,8 @@
       "license": "Apache-2.0",
       "maturity": "early; no tagged release found",
       "url": "https://github.com/replit/datacat",
-      "evidence": "Replit announcement and public repository"
+      "evidence": "Replit announcement and public repository",
+      "announcement_url": "https://replit.com/blog/introducing-replit-missions"
     },
     {
       "name": "three.dev",
@@ -22,7 +23,8 @@
       "maturity": "GA; free and paid plans",
       "url": "https://three.dev/",
       "pricing_url": "https://three.dev/pricing",
-      "evidence": "Official GA blog and pricing page"
+      "evidence": "Official GA blog and pricing page",
+      "launch_url": "https://three.dev/blog/three-dev-is-generally-available"
     },
     {
       "name": "kwatch",
@@ -55,7 +57,8 @@
       "license": "Apache-2.0",
       "maturity": "v2.0.2; Grafana >=13.2.0",
       "url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/",
-      "evidence": "Grafana plugin docs updated 2026-11-20 and public repository"
+      "evidence": "Grafana plugin docs updated 2026-11-20 and public repository",
+      "docs_url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/"
     },
     {
       "name": "CeyNox Watch",
