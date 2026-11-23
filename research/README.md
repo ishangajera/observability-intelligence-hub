@@ -6,5 +6,10 @@ Each weekly brief is stored under research/YYYY/YYYY-MM-DD-weekly-brief.md. Vers
 
 Current archive:
 - [2026-11-09 weekly brief](2026/2026-11-09-weekly-brief.md)
-- [Collector v0.145.0 vs main capability audit](2026/2026-11-09-collector-capability-audit.json)
-- [Prometheus v3.16.0/current-main feature flags](2026/2026-11-09-prometheus-feature-flags.json)
+- [2026-11-16 weekly brief](2026/2026-11-16-weekly-brief.md)
+- [2026-11-23 weekly brief](2026/2026-11-23-weekly-brief.md)
+- [Collector v0.145.0 vs main capability audit](2026/2026-11-23-collector-capability-delta.json)
+- [Prometheus v3.16.0/current-main feature flags](2026/2026-11-23-prometheus-feature-flags.json)
+- [New tool discovery candidates](2026/2026-11-23-discovery-candidates.json)
+
+The Collector inventory distinguishes metadata entries, source-tree presence, distro inclusion, stability and runtime enablement. Historical feature-gate counts are dated snapshots; do not infer a deployed version from the example v0.145.0 baseline.
