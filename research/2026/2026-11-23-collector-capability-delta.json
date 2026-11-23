@@ -104,30 +104,66 @@
         "severity": "High",
         "affected": "Collector config modules below 1.71.0",
         "fixed": "Collector v0.165.0",
-        "baseline_v0_145_0": "older than fixed line; affected when OTLP receiver uses HTTP/gRPC and zstd is accepted"
+        "baseline_v0_145_0": "older than fixed line; affected when OTLP receiver uses HTTP/gRPC and zstd is accepted",
+        "published": "2026-11-12"
       },
       {
         "id": "GHSA-c35f-chp7-9chr",
         "severity": "Critical",
         "affected": "contrib v0.119.0 to before v0.165.0",
         "fixed": "v0.165.0",
-        "baseline_v0_145_0": "affected only if OpAMP Supervisor is used with accepts_opamp_connection_settings=true; false by default"
+        "baseline_v0_145_0": "affected only if OpAMP Supervisor is used with accepts_opamp_connection_settings=true; false by default",
+        "published": "2026-11-19"
       },
       {
         "id": "GHSA-6qvg-78vr-vgm7",
         "severity": "Moderate",
         "affected": "contrib v0.142.0 to before v0.163.0",
         "fixed": "v0.163.0",
-        "baseline_v0_145_0": "affected only if yang_grpc receiver is exposed and its allowlist/rate-limit settings are relied on"
+        "baseline_v0_145_0": "affected only if yang_grpc receiver is exposed and its allowlist/rate-limit settings are relied on",
+        "published": "2026-11-18"
       },
       {
         "id": "GHSA-cx3c-rmcx-ff35",
         "severity": "Moderate",
         "affected": "Collector v0.147.0 to before v0.164.0",
         "fixed": "v0.164.0",
-        "baseline_v0_145_0": "not affected; vulnerable partitioner introduced in v0.147.0"
+        "baseline_v0_145_0": "not affected; vulnerable partitioner introduced in v0.147.0",
+        "published": "2026-11-12"
       }
     ]
   },
-  "deployment_note": "v0.145.0 is the user's requested example baseline, not a verified deployed Collector version. Source presence does not prove inclusion in a vendor/custom distribution or runtime activation."
+  "deployment_note": "v0.145.0 is the user's requested example baseline, not a verified deployed Collector version. Source presence does not prove inclusion in a vendor/custom distribution or runtime activation.",
+  "providers": {
+    "inventory_type": "confmap configuration providers; these are separate from metadata.yaml receiver/processor/exporter/connector/extension counts",
+    "baseline_ref": "v0.145.0",
+    "baseline_core": [
+      "env",
+      "file",
+      "http",
+      "https",
+      "yaml"
+    ],
+    "current_main_core": [
+      "env",
+      "file",
+      "http",
+      "https",
+      "yaml"
+    ],
+    "baseline_contrib": [
+      "aes",
+      "googlesecretmanager",
+      "s3",
+      "secretsmanager"
+    ],
+    "current_main_contrib": [
+      "aes",
+      "googlesecretmanager",
+      "s3",
+      "secretsmanager"
+    ],
+    "path_diff": "No provider directories added or removed between v0.145.0 and current main in the scanned confmap/provider paths.",
+    "maturity_and_distro_note": "Source-tree presence does not prove inclusion in a custom/vendor distribution or runtime activation; verify the builder manifest and binary."
+  }
 }
