@@ -328,17 +328,17 @@ Versions 1.21.0, 1.21.1 and 1.21.2 landed Nov 19–23. The changes include Kuber
 
 ### Early GitHub discovery leads — not promoted to the permanent watchlist
 
-These repositories were surfaced by date-filtered GitHub searches. No release tags or independent launch evidence were found; first-seen date is Nov 23 and original launch date is unknown.
+These repositories were surfaced by date-filtered GitHub searches. GitHub repository creation dates are shown below; repository creation is not necessarily the original public launch date. No release tags or independent launch evidence were found; first-seen date in this audit is Nov 23.
 
 | Repository | Relationship | License | Status |
 |---|---|---|---|
-| [CeyNox Watch](https://github.com/CeyNova-Labs/ceynox-watch) | eBPF/system-call and process observation | Apache-2.0 | New repository; no release tag found |
-| [blame](https://github.com/Erio-Harrison/blame) | eBPF request-level latency profiler | GPL-2.0 | Early repository; no release tag found |
-| [agent-eye](https://github.com/developjik/agent-eye) | AI browser-agent profiling | MIT | Early repository; no release tag found |
-| [mint_otlp](https://github.com/dashbitco/mint_otlp) | Elixir OTLP client/instrumentation library | Apache-2.0 | Early library; no release tag found |
-| [flask-lens](https://github.com/duhanguler/flask-lens) | Flask development profiling | MIT | Early repository; no release tag found |
-| [reqray](https://github.com/reqray/reqray) | Node.js request inspection | MIT | Early repository; no release tag found |
-| [ai-observability-bundle](https://github.com/quentinRogeret34/ai-observability-bundle) | Symfony AI instrumentation | No license verified | Early repository; do not assume reusable licensing |
+| [CeyNox Watch](https://github.com/CeyNova-Labs/ceynox-watch) | eBPF/system-call and process observation | Apache-2.0 | Repository created Nov 18; no release tag found |
+| [blame](https://github.com/Erio-Harrison/blame) | eBPF request-level latency profiler | GPL-2.0 | Repository created Nov 20; no release tag found |
+| [agent-eye](https://github.com/developjik/agent-eye) | AI browser-agent profiling | MIT | Repository created Nov 22; no release tag found |
+| [mint_otlp](https://github.com/dashbitco/mint_otlp) | Elixir OTLP client/instrumentation library | Apache-2.0 | Repository created Nov 17; no release tag found |
+| [flask-lens](https://github.com/duhanguler/flask-lens) | Flask development profiling | MIT | Repository created Nov 21; no release tag found |
+| [reqray](https://github.com/reqray/reqray) | Node.js request inspection | MIT | Repository created Nov 18; no release tag found |
+| [ai-observability-bundle](https://github.com/quentinRogeret34/ai-observability-bundle) | Symfony AI instrumentation | No license verified | Repository created Nov 21; do not assume reusable licensing |
 
 Superlog also appeared in Product Hunt's recent-launch surface, but it was already discovered in the prior archive and its original launch predates this week. It is deduplicated, not counted as a new product.
 
@@ -352,6 +352,10 @@ Superlog also appeared in Product Hunt's recent-launch surface, but it was alrea
 | Medium | YANG gRPC receiver authorization/rate-limit bypass | Intended streaming-RPC controls were not enforced | Upgrade to v0.163.0+ or isolate/disable receiver |
 | Medium | Partition-key collision | Cross-tenant telemetry misattribution in later Collector versions | Verify partitioned queue configuration; upgrade to v0.164.0+ |
 | Medium | Cilium Hubble redaction edge case | Sensitive URL query data could escape redaction in a parsing edge case | Patch Cilium and enable the relevant redaction settings |
+| High | New Relic eMudhra CA trust updates | Pinned Fluent Bit/logging, Kubernetes and infrastructure integration images may continue trusting compromised intermediate CA roots | Upgrade pinned charts/images/packages to the bulletin's fixed versions |
+| Critical, scoped | New Relic Java4Shell / Ruby2Shell | Private Synthetics Java runtimes and specific Fluentd images need updates; New Relic Java/Ruby APM agents themselves are not the vulnerable runtimes | Patch affected private-location images/JDKs and Fluentd image; do not unnecessarily update unaffected agents |
+| High | Datadog Agent 7.85.5 IPC hardening | TCP gRPC IPC now requires TLS and an auth token | Upgrade and review custom TCP socket configuration |
+| High | Mimir/Loki/Pyroscope patch releases | Security-related dependency updates on maintained branches | Patch the branch actually deployed; keep Loki 4.0 RC separate |
 | Medium | Splunk packaging/pricing | Host minimum and edition entitlements materially affect cost | Model actual host count, log volume and agent spans |
 | Medium | Vector repository key rotation | Package updates may fail after Nov 30 if trust is not updated | Rotate APT/YUM key before deadline |
 | Medium | Elastic PromQL/S3 preview | Potential backend/query architecture option, but bounded compatibility and preview status | Pilot against real dashboards; keep preview data paths non-critical |
@@ -363,6 +367,8 @@ Superlog also appeared in Product Hunt's recent-launch surface, but it was alrea
 |---|---|
 | Nov 30, 2026 | Vector APT/YUM repository signing-key rotation |
 | Dec 2, 2026 | Prometheus v3.17 first pre-release target |
+| Dec 7, 2026 | OpenTelemetry Collector v0.167.0 scheduled date in the current release table; v0.166.0 row has a stale 2025 date and no matching tag by cutoff |
+| No confirmed date | Clarification/correction to the Collector v0.166.0 schedule row |
 | Early Dec 2026 | Elastic 9.6 expected for Elastic Cloud Hosted and self-managed |
 | Grafana 13.4 | Planned removal of the Plugin Frontend Sandbox |
 | Collector 0.171.0, planned Feb 2027 | Exporter-level queue/batching becomes default for most exporters |
@@ -382,6 +388,8 @@ Superlog also appeared in Product Hunt's recent-launch surface, but it was alrea
 7. **Patch Cilium and confirm Hubble redaction settings.** The fix does not turn redaction on automatically.
 8. **Treat AI-agent telemetry as a distinct data-governance problem.** Decide which prompt/tool fields may be collected, who can see them, retention and whether payloads leave your environment before piloting three.dev, DataCat or Claude Code Stats.
 9. **Plan for Grafana 13.4 plugin compatibility.** Inventory plugins that depend on the frontend sandbox.
+10. **Review New Relic security bulletins against pinned integrations.** Check eMudhra CA fixes across logging, Kubernetes, eBPF/Pixie and on-host integrations; assess Java4Shell on customer JDKs/private Synthetics and retire the vulnerable Fluentd image for Ruby2Shell.
+11. **Patch Datadog Agent 7.85.5 and the Grafana stack.** Review TCP IPC settings, Agent Data Plane telemetry, and maintained Mimir/Loki/Pyroscope branches.
 
 ## 9. Source health and monitoring blind spots
 
@@ -391,7 +399,12 @@ Superlog also appeared in Product Hunt's recent-launch surface, but it was alrea
 - **Product Hunt:** the observability category surfaced kwatch, superlog and three.dev. Kwatch is a relaunch of a 2022 project; superlog was already in the archive; three.dev's GA date is Nov 10, not this week's. Do not count repeated listings as new launches.
 - **Hacker News:** search-engine-indexed queries did not produce a high-confidence new observability launch. Direct Algolia feed coverage was not confirmed in this run.
 - **CNCF Landscape:** no new observability-specific entry was verified in the available search; a complete YAML-level landscape diff was not completed, so this is not proof of no additions.
-- **Grafana plugin catalog:** the Claude Code Stats documentation shows v2.0.2 and a Nov 20 update, while older catalog/install pages still expose stale v1.1.0 metadata. Prefer the current documentation/repository and verify plugin signature/version during installation.
+- **Grafana plugin catalog:** the Claude Code Stats documentation shows v2.0.2 and a Nov 20 update, while older catalog/install pages still expose stale v1.1.0 metadata. The Neo4j datasource is a v1.0.4 draft awaiting manual review, not an approved listing. Prefer current documentation/repository and verify plugin signature/version during installation.
+- **New Relic release notes/security bulletins:** added as first-class sources after discovering Nov 16–20 agent releases and NR26-13 through NR26-17. The eMudhra, Java4Shell and Ruby2Shell notices have distinct component scopes; do not treat them as a single APM-agent vulnerability.
+- **Datadog:** Agent release tags were added to the weekly release sweep; v7.85.5 was published Nov 19.
+- **Fluent Bit:** the stable release feed and experimental browser SDK tags were both checked; the SDK is not a stable/production release.
+- **Collector release schedule:** the v0.166.0 row still contains a 2025-11-23 date in an otherwise 2026 schedule; no matching release tag existed by cutoff. Track this as a source inconsistency.
+- **GitHub topic searches:** date-filtered searches were noisy and limited to the first result page for each topic; the early-project list is a candidate sample, not an exhaustive census.
 - **Deployment versions:** Prometheus and Grafana deployed versions remain unknown. Collector v0.145.0 is only the requested audit reference.
 
 ## 10. Additional verified updates and corrections
