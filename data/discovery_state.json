@@ -7206,7 +7206,7 @@
       "url": "https://github.com/Putnami/putnami",
       "description": "Putnami: a deterministic, observable workspace toolchain and application framework for Go, TypeScript and Python.",
       "created_at": "2026-10-01T12:14:57Z",
-      "pushed_at": "2026-11-23T18:23:36Z",
+      "pushed_at": "2026-11-23T18:29:25Z",
       "stars": 9,
       "topics": [
         "build-system",
@@ -7268,7 +7268,7 @@
       "url": "https://github.com/temet-ai/mike",
       "description": "A tool to know what claude is doing and remember what you did when you did it.",
       "created_at": "2026-11-06T09:11:20Z",
-      "pushed_at": "2026-11-23T17:58:47Z",
+      "pushed_at": "2026-11-23T18:44:53Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -7442,7 +7442,7 @@
       "url": "https://github.com/UmTioAii/ASTRO-Harness",
       "description": "Multi-agent coding harness for AI agents. Features deterministic model routing, append-only audit ledgers, cost governance, and durable handoffs. Built with Bun & TypeScript.",
       "created_at": "2026-10-23T15:54:38Z",
-      "pushed_at": "2026-11-23T18:28:02Z",
+      "pushed_at": "2026-11-23T18:40:30Z",
       "stars": 4,
       "topics": [
         "agent-harness",
@@ -9491,7 +9491,7 @@
       "url": "https://github.com/msx752/SharpTicker",
       "description": "Background job scheduling for .NET: one-off and cron jobs with source-generated registration, pluggable persistence (EF Core, MongoDB, Redis) and a built-in real-time dashboard.",
       "created_at": "2026-10-30T11:37:04Z",
-      "pushed_at": "2026-11-23T14:58:28Z",
+      "pushed_at": "2026-11-23T18:46:06Z",
       "stars": 11,
       "topics": [
         "aspnetcore",
@@ -11154,7 +11154,7 @@
       "url": "https://github.com/cmelius/plesk-monitoring-server-Report",
       "description": "A single bash script for a Plesk server on Linux that writes an hourly health and security report (optionally) uploads it to cloud storage with rclone.",
       "created_at": "2026-10-26T11:53:18Z",
-      "pushed_at": "2026-11-23T18:24:32Z",
+      "pushed_at": "2026-11-23T18:42:02Z",
       "stars": 9,
       "topics": [
         "bash",
@@ -13530,7 +13530,7 @@
       "url": "https://github.com/jackulau/coding.sh",
       "description": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
       "created_at": "2026-11-07T02:57:14Z",
-      "pushed_at": "2026-11-23T18:25:22Z",
+      "pushed_at": "2026-11-23T18:39:08Z",
       "stars": 157,
       "topics": [
         "agent-evals",
@@ -13675,7 +13675,7 @@
       "url": "https://github.com/FUSEis/emet-plugin",
       "description": "Plugins that send AI agent traces to Emet for accuracy assurance.",
       "created_at": "2026-10-20T20:20:34Z",
-      "pushed_at": "2026-11-23T18:28:03Z",
+      "pushed_at": "2026-11-23T18:39:57Z",
       "stars": 3,
       "topics": [
         "ai-agents",
@@ -14661,7 +14661,7 @@
       "url": "https://github.com/StaysUp/agentbus",
       "description": "Cross-vendor middleware for coding agents: every model call, its cost and the full conversation, through one gateway.",
       "created_at": "2026-11-06T20:23:23Z",
-      "pushed_at": "2026-11-23T18:01:17Z",
+      "pushed_at": "2026-11-23T18:30:34Z",
       "stars": 78,
       "topics": [
         "ai-agents",
@@ -15453,7 +15453,7 @@
       "url": "https://github.com/abhishekash/agenturm",
       "description": "Agenturm — a clear view of every agent. Local, terminal-first monitoring for coding agents, MCP calls, and traces.",
       "created_at": "2026-10-14T14:49:53Z",
-      "pushed_at": "2026-11-23T18:18:42Z",
+      "pushed_at": "2026-11-23T18:35:59Z",
       "stars": 3,
       "topics": [
         "agent-observability",
@@ -17800,7 +17800,7 @@
       "description": "Kubernetes-native reliability control plane orchestrating policy-driven reconciliation, automated workload recovery, failure remediation, and auditable infrastructure operations.",
       "created_at": "2026-11-12T12:31:58Z",
       "pushed_at": "2026-11-23T07:23:46Z",
-      "stars": 70,
+      "stars": 71,
       "topics": [
         "cloud-native",
         "gitops",
@@ -18453,7 +18453,7 @@
       "url": "https://github.com/sahernandezz/laru",
       "description": "Entiende, documenta y prueba tu aplicativo entero desde tu máquina: mapa del sistema leído del código, entornos con datos, pruebas grabadas con la traza de cada servicio y contexto para tu agente de IA.",
       "created_at": "2026-10-26T18:44:36Z",
-      "pushed_at": "2026-11-23T18:14:49Z",
+      "pushed_at": "2026-11-23T18:32:06Z",
       "stars": 2,
       "topics": [
         "claude-code",
@@ -19845,7 +19845,7 @@
       "description": "Tiny Windows service that serves a live hardware dashboard (CPU, every NVIDIA GPU, RAM, temperatures, fans) to any browser on your network, with an MCP server for AI agents and mod support",
       "created_at": "2026-10-10T19:17:36Z",
       "pushed_at": "2026-11-18T21:15:05Z",
-      "stars": 2,
+      "stars": 4,
       "topics": [
         "ai-agents",
         "dashboard",
@@ -20257,7 +20257,7 @@
       "description": "Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板",
       "created_at": "2026-11-16T21:35:31Z",
       "pushed_at": "2026-11-23T17:33:36Z",
-      "stars": 250,
+      "stars": 251,
       "topics": [
         "antigravity",
         "antigravity-plugin",
@@ -21164,7 +21164,7 @@
       "url": "https://github.com/Galabavamsi/CSL559_CSD_Group_Project",
       "description": "Group Project for CSL559 (CSD) course",
       "created_at": "2026-11-16T05:28:09Z",
-      "pushed_at": "2026-11-23T18:16:08Z",
+      "pushed_at": "2026-11-23T18:45:54Z",
       "stars": 3,
       "topics": [
         "docker",
@@ -21262,7 +21262,7 @@
       "url": "https://github.com/Raffi1202/electric-lua",
       "description": "Ethos widget for electric planes on FrSky radios: battery, cells, current, RPM, ESC temperature, alarms with voice, flight list, Lua-Studio layouts",
       "created_at": "2026-11-19T12:30:52Z",
-      "pushed_at": "2026-11-23T18:24:17Z",
+      "pushed_at": "2026-11-23T18:34:22Z",
       "stars": 3,
       "topics": [
         "electric",
@@ -21319,7 +21319,7 @@
       "url": "https://github.com/shirudo-dev/shirudo",
       "description": "eBPF-based security platform",
       "created_at": "2026-10-13T16:06:37Z",
-      "pushed_at": "2026-11-23T18:23:35Z",
+      "pushed_at": "2026-11-23T18:44:00Z",
       "stars": 9,
       "topics": [
         "bpf",
@@ -21336,7 +21336,7 @@
       "url": "https://github.com/antgroup/ai-vision",
       "description": "Open-source, self-hosted observability and diagnostics for AI agents. Trace sessions, model usage, and memory with OpenTelemetry.",
       "created_at": "2026-11-13T06:01:02Z",
-      "pushed_at": "2026-11-23T18:26:08Z",
+      "pushed_at": "2026-11-23T18:33:01Z",
       "stars": 5,
       "topics": [
         "agent-observability",
@@ -21524,7 +21524,7 @@
       "url": "https://github.com/Xander-Xai/Customer-Service-AI-Agent",
       "description": "Production-oriented LangGraph customer-service agent with hybrid RAG, durable async execution, HITL governance, MCP tools, observability, and reproducible evaluation.",
       "created_at": "2026-10-08T15:29:32Z",
-      "pushed_at": "2026-11-23T18:15:53Z",
+      "pushed_at": "2026-11-23T18:46:45Z",
       "stars": 3,
       "topics": [
         "agent-runtime",
@@ -21788,7 +21788,7 @@
       "url": "https://github.com/Raffi1202/lua-studio",
       "description": "PC app (Mac/Windows) for FrSky Ethos Lua widgets: radio live over USB, layout, limits, alarms and symbols per model",
       "created_at": "2026-11-20T08:38:46Z",
-      "pushed_at": "2026-11-23T18:25:30Z",
+      "pushed_at": "2026-11-23T18:35:33Z",
       "stars": 2,
       "topics": [
         "electron",
