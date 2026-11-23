@@ -11,7 +11,8 @@
       "maturity": "early; no tagged release found",
       "url": "https://github.com/replit/datacat",
       "evidence": "Replit announcement and public repository",
-      "announcement_url": "https://replit.com/blog/introducing-replit-missions"
+      "announcement_url": "https://replit.com/blog/introducing-replit-missions",
+      "repo_created": "2026-11-17"
     },
     {
       "name": "three.dev",
@@ -46,7 +47,13 @@
       "license": "not re-verified",
       "maturity": "existing project; v1.21.0-v1.21.2 releases",
       "url": "https://github.com/skyhook-io/radar",
-      "evidence": "GitHub releases"
+      "evidence": "GitHub releases",
+      "latest_release": "v1.21.2",
+      "release_dates": {
+        "v1.21.0": "2026-11-19",
+        "v1.21.1": "2026-11-20",
+        "v1.21.2": "2026-11-23T09:41:00-08:00"
+      }
     },
     {
       "name": "Claude Code Stats",
@@ -58,7 +65,8 @@
       "maturity": "v2.0.2; Grafana >=13.2.0",
       "url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/",
       "evidence": "Grafana plugin docs updated 2026-11-20 and public repository",
-      "docs_url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/"
+      "docs_url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/",
+      "catalog_docs_update": "2026-11-20"
     },
     {
       "name": "CeyNox Watch",
@@ -69,7 +77,8 @@
       "license": "Apache-2.0",
       "maturity": "new repository; no release tag found",
       "url": "https://github.com/CeyNova-Labs/ceynox-watch",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-18"
     },
     {
       "name": "blame",
@@ -80,7 +89,8 @@
       "license": "GPL-2.0",
       "maturity": "early repository; no release tag found",
       "url": "https://github.com/Erio-Harrison/blame",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-20"
     },
     {
       "name": "agent-eye",
@@ -91,7 +101,8 @@
       "license": "MIT",
       "maturity": "early repository; no release tag found",
       "url": "https://github.com/developjik/agent-eye",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-22"
     },
     {
       "name": "mint_otlp",
@@ -102,7 +113,8 @@
       "license": "Apache-2.0",
       "maturity": "early library; no release tag found",
       "url": "https://github.com/dashbitco/mint_otlp",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-17"
     },
     {
       "name": "flask-lens",
@@ -113,7 +125,8 @@
       "license": "MIT",
       "maturity": "early repository; no release tag found",
       "url": "https://github.com/duhanguler/flask-lens",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-21"
     },
     {
       "name": "reqray",
@@ -124,7 +137,8 @@
       "license": "MIT",
       "maturity": "early repository; no release tag found",
       "url": "https://github.com/reqray/reqray",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-18"
     },
     {
       "name": "ai-observability-bundle",
@@ -135,7 +149,32 @@
       "license": "not verified",
       "maturity": "early repository; no release tag found",
       "url": "https://github.com/quentinRogeret34/ai-observability-bundle",
-      "evidence": "GitHub repository/README"
+      "evidence": "GitHub repository/README",
+      "repo_created": "2026-11-21"
+    },
+    {
+      "name": "Neo4j Grafana datasource",
+      "first_seen": "2026-11-23",
+      "repo_created": "2026-11-18",
+      "original_launch": "unknown; first catalog-review submission 2026-11-20",
+      "project": "community Grafana plugin",
+      "model": "open-source plugin",
+      "license": "Apache-2.0",
+      "maturity": "v1.0.4 is a GitHub draft; first manual catalog review pending; not an approved Marketplace listing",
+      "url": "https://github.com/tiagoasousa/grafana-neo4j-datasource",
+      "evidence": "Developer's Grafana plugin-review forum submission; draft release checked",
+      "review_url": "https://community.grafana.com/t/plugin-review-tiagoasousa-neo4j-datasource-new-neo4j-datasource/165140"
+    },
+    {
+      "name": "Fluent Bit browser SDK",
+      "first_seen": "2026-11-23",
+      "original_launch": "first experimental artifact 2026-11-07; seven pre-release tags 2026-11-16 through 2026-11-21",
+      "project": "Fluent Bit",
+      "model": "open-source experimental module",
+      "license": "Apache-2.0 project context",
+      "maturity": "experimental pre-release; explicitly not a production support promise; requires HTTPS and COOP/COEP",
+      "url": "https://github.com/fluent/fluent-bit/releases",
+      "evidence": "Seven browser SDK pre-release tags and their release notes"
     }
   ],
   "deduplication": {
@@ -146,6 +185,11 @@
     "product_hunt": "Recent-launch category/search results checked; repeated listings de-duplicated.",
     "hacker_news": "Search-engine-indexed search only; direct Algolia API coverage not confirmed.",
     "cncf_landscape": "No new observability-specific entry verified; full YAML diff not completed.",
-    "github": "Date-filtered repository searches used across observability, telemetry, eBPF, profiling and AI-agent monitoring topics."
+    "github": "Date-filtered repository searches used across observability, telemetry, eBPF, profiling and AI-agent monitoring topics.",
+    "newrelic": "Added New Relic agent release notes and security bulletins after finding Nov 16-20 releases and NR26-13 through NR26-17 advisories.",
+    "datadog": "Datadog Agent release tags checked through GitHub releases; v7.85.5 published Nov 19.",
+    "grafana_plugins": "Grafana plugin catalog/docs and community plugin-review forum checked; Neo4j datasource remains pending first review.",
+    "fluent_bit": "Stable release feed plus experimental browser SDK pre-release tags checked.",
+    "github_limit": "Date-filtered topic searches were noisy and first-page-only; candidate set is not exhaustive."
   }
 }
