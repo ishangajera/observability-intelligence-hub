@@ -1,0 +1,69 @@
+{
+  "report_date": "2026-11-23",
+  "latest_stable_release": "v3.16.0",
+  "release_date": "2026-11-05",
+  "source_docs": {
+    "v3_16_0": "https://github.com/prometheus/prometheus/blob/v3.16.0/docs/feature_flags.md",
+    "current_main": "https://github.com/prometheus/prometheus/blob/main/docs/feature_flags.md",
+    "release_schedule": "https://github.com/prometheus/prometheus/blob/main/RELEASE.md"
+  },
+  "counts": {
+    "v3_16_0_unique_flags": 27,
+    "current_main_unique_flags": 31,
+    "main_only_flags": 4
+  },
+  "main_only_flags": [
+    {
+      "flag": "auto-recording-metadata",
+      "status": "current main only; no stable release tag verified",
+      "default": "disabled/opt-in"
+    },
+    {
+      "flag": "metadata-default-time-range",
+      "status": "current main only; no stable release tag verified",
+      "default": "disabled/opt-in",
+      "meaning": "metadata API endpoints default to a one-hour range when the caller omits a range"
+    },
+    {
+      "flag": "metadata-relabeling",
+      "status": "current main only; no stable release tag verified",
+      "default": "disabled/opt-in"
+    },
+    {
+      "flag": "promql-native-histograms-as-classic",
+      "status": "current main only; no stable release tag verified",
+      "default": "disabled/opt-in"
+    }
+  ],
+  "v3_16_new_opt_in_flags": [
+    "query-cost",
+    "promql-unquoted-utf8-names"
+  ],
+  "older_opt_in": {
+    "flag": "memory-snapshot-on-shutdown",
+    "first_verified_version": "v2.30.0",
+    "absent_in": "v2.29.0",
+    "present_in": "v3.16.0",
+    "default": "disabled"
+  },
+  "deprecated_or_noop": [
+    {
+      "flag": "extra-scrape-metrics",
+      "state": "deprecated"
+    },
+    {
+      "flag": "promql-extended-range-selectors",
+      "state": "no-op after selector behavior stabilized"
+    }
+  ],
+  "release_schedule": {
+    "next_series": "v3.17",
+    "first_prerelease_date": "2026-12-02",
+    "status": "planned, not released"
+  },
+  "deployment_versions": {
+    "prometheus": "unknown",
+    "grafana": "unknown"
+  },
+  "note": "Documentation inventory only; no inference about the user's deployed versions."
+}
