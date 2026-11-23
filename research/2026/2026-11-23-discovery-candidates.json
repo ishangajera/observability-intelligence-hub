@@ -1,0 +1,148 @@
+{
+  "report_date": "2026-11-23",
+  "candidates": [
+    {
+      "name": "DataCat",
+      "first_seen": "2026-11-23",
+      "original_launch": "2026-11-17",
+      "project": "Replit",
+      "model": "open source",
+      "license": "Apache-2.0",
+      "maturity": "early; no tagged release found",
+      "url": "https://github.com/replit/datacat",
+      "evidence": "Replit announcement and public repository"
+    },
+    {
+      "name": "three.dev",
+      "first_seen": "2026-11-23",
+      "original_launch": "2026-11-10",
+      "project": "Round3 AI",
+      "model": "commercial SaaS",
+      "license": "not applicable/none identified",
+      "maturity": "GA; free and paid plans",
+      "url": "https://three.dev/",
+      "pricing_url": "https://three.dev/pricing",
+      "evidence": "Official GA blog and pricing page"
+    },
+    {
+      "name": "kwatch",
+      "first_seen": "2026-11-23",
+      "original_launch": "2022-01-25; relaunch listing 2026-11-18",
+      "project": "Abdelrahman Ahmed",
+      "model": "source-available plus commercial Pro",
+      "license": "ELv2 current line; older v1.0.0-rc.10 tag MIT",
+      "maturity": "v1.2.0 release; Pro early access",
+      "url": "https://github.com/abahmed/kwatch",
+      "evidence": "Product Hunt launch history, official Pro page, GitHub release"
+    },
+    {
+      "name": "Radar",
+      "first_seen": "2026-11-23",
+      "original_launch": "predates this reporting window",
+      "project": "Skyhook",
+      "model": "not fully verified in this run",
+      "license": "not re-verified",
+      "maturity": "existing project; v1.21.0-v1.21.2 releases",
+      "url": "https://github.com/skyhook-io/radar",
+      "evidence": "GitHub releases"
+    },
+    {
+      "name": "Claude Code Stats",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community Grafana plugin",
+      "model": "community plugin",
+      "license": "Apache-2.0",
+      "maturity": "v2.0.2; Grafana >=13.2.0",
+      "url": "https://grafana.com/grafana/plugins/timurdigital-claudestats-app/docs/",
+      "evidence": "Grafana plugin docs updated 2026-11-20 and public repository"
+    },
+    {
+      "name": "CeyNox Watch",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "CeyNova Labs",
+      "model": "open source",
+      "license": "Apache-2.0",
+      "maturity": "new repository; no release tag found",
+      "url": "https://github.com/CeyNova-Labs/ceynox-watch",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "blame",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "open source",
+      "license": "GPL-2.0",
+      "maturity": "early repository; no release tag found",
+      "url": "https://github.com/Erio-Harrison/blame",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "agent-eye",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "open source",
+      "license": "MIT",
+      "maturity": "early repository; no release tag found",
+      "url": "https://github.com/developjik/agent-eye",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "mint_otlp",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "open source library",
+      "license": "Apache-2.0",
+      "maturity": "early library; no release tag found",
+      "url": "https://github.com/dashbitco/mint_otlp",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "flask-lens",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "open source",
+      "license": "MIT",
+      "maturity": "early repository; no release tag found",
+      "url": "https://github.com/duhanguler/flask-lens",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "reqray",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "open source",
+      "license": "MIT",
+      "maturity": "early repository; no release tag found",
+      "url": "https://github.com/reqray/reqray",
+      "evidence": "GitHub repository/README"
+    },
+    {
+      "name": "ai-observability-bundle",
+      "first_seen": "2026-11-23",
+      "original_launch": "unknown",
+      "project": "community",
+      "model": "unknown",
+      "license": "not verified",
+      "maturity": "early repository; no release tag found",
+      "url": "https://github.com/quentinRogeret34/ai-observability-bundle",
+      "evidence": "GitHub repository/README"
+    }
+  ],
+  "deduplication": {
+    "superlog": "Surfaced again in Product Hunt recent launches, but original launch predates this week and it is already in the archive; not counted as a new launch.",
+    "nexus": "Product Hunt listing dates to May 4, 2026; not a new launch in this window."
+  },
+  "source_coverage": {
+    "product_hunt": "Recent-launch category/search results checked; repeated listings de-duplicated.",
+    "hacker_news": "Search-engine-indexed search only; direct Algolia API coverage not confirmed.",
+    "cncf_landscape": "No new observability-specific entry verified; full YAML diff not completed.",
+    "github": "Date-filtered repository searches used across observability, telemetry, eBPF, profiling and AI-agent monitoring topics."
+  }
+}
