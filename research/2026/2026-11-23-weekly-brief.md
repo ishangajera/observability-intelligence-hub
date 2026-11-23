@@ -1,32 +1,37 @@
 # Weekly Observability Intelligence Brief — 2026-11-23
 
 **Reporting window:** 2026-11-16 through 2026-11-23  
-**Research cutoff:** 2026-11-23 10:05 PT  
+**Research cutoff:** 2026-11-23 10:33 PT  
 **Tags:** #weekly-brief #release-notes #security #licensing #pricing #prometheus #opentelemetry #collector #semantic-conventions #grafana #loki #mimir #alloy #victoriametrics #vector #cilium #splunk #elastic #tool-discovery #ai-observability
 
 ## Executive summary
 
-1. **OpenTelemetry Collector security deserves immediate attention.** Three advisories published Nov 18–19 affect optional but realistic Collector configurations. The critical OpAMP Supervisor issue is fixed in 0.165.0; the YANG gRPC receiver issue is fixed in 0.163.0; the high-severity zstd decoder allocation issue is fixed in 0.165.0. The example v0.145.0 baseline falls inside the affected ranges for the zstd, OpAMP Supervisor and YANG issues, subject to each advisory's configuration conditions.
-2. **Elastic is moving further into AI observability.** On Nov 19 it announced an agreement to acquire HoneyHive. On Nov 23, Elasticsearch 9.6 brought GA PromQL support to Elastic Cloud Serverless, with vendor-reported coverage of 92% of the top 100 Grafana dashboard queries, and a technical preview of querying Amazon S3 data in place.
-3. **Splunk's new Observability Cloud packaging now has public list prices.** Essentials is $95/host/month and Premier is $150/host/month, with a 30-host minimum for paid editions. The free edition covers up to 15 hosts.
-4. **VictoriaMetrics 1.157.0 and Cilium maintenance releases landed.** VictoriaMetrics adds safer alert query timeouts, resumable migrations and partial restores. Cilium fixes an Hubble URL-query redaction edge case across supported branches.
-5. **Vector has an imminent packaging action.** Its APT/YUM repository signing key changes on Nov 30. Update package-manager trust before that date.
-6. **AI-agent observability continues to diversify.** DataCat is a new Apache-2.0 self-hosted project; three.dev is a commercial live-traffic evaluation/observability service; Kwatch has relaunched with a root-cause-focused v1.2.0; and a Grafana community plugin now correlates Claude Code metrics, logs and traces.
-7. **Prometheus has no new stable release, but upstream main has grown.** The v3.16.0 documentation has 27 unique feature flags; current main has 31. Four are main-only, including a new metadata-default-time-range flag. Prometheus v3.17's first pre-release is scheduled for Dec 2.
+1. **Collector security remains the highest-priority open-source issue.** Four relevant advisories span Nov 12–19: zstd decoder memory exhaustion and metadata-partition collisions (Nov 12), YANG gRPC authorization/rate-limit bypass (Nov 18), and critical OpAMP Supervisor TLS verification (Nov 19). The v0.145.0 example baseline is affected by the first three only when the relevant components/configurations are present; the partition collision was introduced after v0.145.0.
+2. **New Relic has a concentrated set of agent and integration updates.** Its .NET agent now enables basic LLM telemetry by default (without message content), while five security bulletins require attention across eMudhra CA trust stores, Java4Shell and Ruby2Shell.
+3. **Datadog Agent 7.85.5 is a security and telemetry-quality release.** TCP gRPC IPC between system-probe and security-agent now requires TLS plus an auth token; per-pod telemetry series are evicted when pods disappear.
+4. **Grafana's data stack received maintenance/security patches.** Mimir 3.1.11/3.2.6, Loki 3.6.22 and Pyroscope 2.3.6/2.4.4 update dependencies; Loki 4.0.0-rc.4 remains a breaking-change pre-release.
+5. **Elastic is moving further into AI observability.** It announced an agreement to acquire HoneyHive on Nov 19. Elasticsearch 9.6 brings GA PromQL to Elastic Cloud Serverless and a technical preview of Amazon S3 query federation.
+6. **Splunk's current Observability Cloud packages have public list prices.** Essentials is $95/host/month and Premier $150/host/month, with a 30-host minimum for paid editions; database-monitoring AI Assistant and IBM Db2 monitoring were released Nov 20.
+7. **VictoriaMetrics 1.157.0 and Cilium maintenance releases landed.** VictoriaMetrics adds safer alert query timeouts, resumable migrations and partial restores; Cilium fixes an Hubble URL-query redaction edge case across supported branches.
+8. **Vector has an imminent packaging action.** Its APT/YUM repository signing key changes on Nov 30. Update package-manager trust before that date.
+9. **AI-agent observability continues to diversify.** DataCat is a new Apache-2.0 self-hosted project; three.dev is a commercial live-traffic evaluation service; Kwatch has reappeared on Product Hunt; a Neo4j Grafana datasource is awaiting its first catalog review.
+10. **Prometheus has no new stable release, but upstream main has grown.** The v3.16.0 documentation has 27 unique feature flags; current main has 31. Four are main-only, including metadata-default-time-range. Prometheus v3.17's first pre-release is scheduled for Dec 2.
 
 ## 1. Releases, security and engineering changes
 
-### 1.1 OpenTelemetry Collector security advisories — Nov 18–19
+### 1.1 OpenTelemetry Collector security advisories — Nov 12–19
 
 **Project:** OpenTelemetry Collector core and contrib  
 **Status:** Published security advisories; fixes available in released versions.
 
-| Advisory | Severity | Affected range | Fixed in | Operational condition |
+| Advisory | Published | Severity | Affected range | Fixed in | Operational condition |
 |---|---|---|---|---|
-| [GHSA-vf52-ppm4-c35w](https://github.com/open-telemetry/opentelemetry-collector/security/advisories/GHSA-vf52-ppm4-c35w) | High, CVSS 7.5 | Collector config modules below 1.71.0 | Collector v0.165.0 | OTLP/HTTP or OTLP/gRPC receiver path using confighttp/configgrpc and zstd |
-| [GHSA-c35f-chp7-9chr](https://github.com/open-telemetry/opentelemetry-collector-contrib/security/advisories/GHSA-c35f-chp7-9chr) | Critical, CVSS 9.2 | contrib v0.119.0 to before v0.165.0 | v0.165.0 | OpAMP Supervisor only; accepts_opamp_connection_settings must be true |
-| [GHSA-6qvg-78vr-vgm7](https://github.com/open-telemetry/opentelemetry-collector-contrib/security/advisories/GHSA-6qvg-78vr-vgm7) | Moderate, CVSS 5.3 | contrib v0.142.0 to before v0.163.0 | v0.163.0 | yang_grpc receiver, configured allowlist/rate limits, and endpoint reachable by untrusted clients |
-| [GHSA-cx3c-rmcx-ff35](https://github.com/open-telemetry/opentelemetry-collector/security/advisories/GHSA-cx3c-rmcx-ff35) | Moderate, CVSS 5.9 | Collector v0.147.0 to before v0.164.0 | v0.164.0 | Exporter queue batching with two or more metadata partition keys, receiver include_metadata=true, and client-controlled multi-valued metadata |
+| [GHSA-vf52-ppm4-c35w](https://github.com/open-telemetry/opentelemetry-collector/security/advisories/GHSA-vf52-ppm4-c35w) | Nov 12 | High, CVSS 7.5 | Collector config modules below 1.71.0 | Collector v0.165.0 | OTLP/HTTP or OTLP/gRPC receiver path using confighttp/configgrpc and zstd |
+| [GHSA-c35f-chp7-9chr](https://github.com/open-telemetry/opentelemetry-collector-contrib/security/advisories/GHSA-c35f-chp7-9chr) | Nov 19 | Critical, CVSS 9.2 | contrib v0.119.0 to before v0.165.0 | v0.165.0 | OpAMP Supervisor only; accepts_opamp_connection_settings must be true |
+| [GHSA-6qvg-78vr-vgm7](https://github.com/open-telemetry/opentelemetry-collector-contrib/security/advisories/GHSA-6qvg-78vr-vgm7) | Nov 18 | Moderate, CVSS 5.3 | contrib v0.142.0 to before v0.163.0 | v0.163.0 | yang_grpc receiver, configured allowlist/rate limits, and endpoint reachable by untrusted clients |
+| [GHSA-cx3c-rmcx-ff35](https://github.com/open-telemetry/opentelemetry-collector/security/advisories/GHSA-cx3c-rmcx-ff35) | Nov 12 | Moderate, CVSS 5.9 | Collector v0.147.0 to before v0.164.0 | v0.164.0 | Exporter queue batching with two or more metadata partition keys, receiver include_metadata=true, and client-controlled multi-valued metadata |
+
+Only the OpAMP and YANG advisories were first published during Nov 18–19. The zstd and partition-key advisories were published Nov 12; they remain in this audit because the requested v0.145.0 baseline and later deployments can still be affected under the stated conditions.
 
 **Zstd memory-exhaustion issue.** A tiny compressed request can declare a very large decoder history window and cause an allocation of roughly 512 MiB before normal request-size limits or pipeline processors run. The advisory says gRPC can be exploited without credentials, even when receiver authentication is configured; HTTP exposure depends on the authentication path. The memory_limiter processor is not a mitigation because decompression occurs before the pipeline. Upgrade to v0.165.0 or later. If an immediate HTTP upgrade is impossible, remove zstd from accepted compression algorithms; for gRPC, restrict the receiver behind a trusted proxy/network boundary that rejects zstd. Keep request limits sensible after upgrading.
 
@@ -50,7 +55,7 @@ The release updates:
 
 This is a dependency/security patch rather than a new Mimir feature. Update maintained 3.2.x deployments and check the equivalent patch for other supported branches.
 
-### 1.3 Grafana Loki 3.6.22 — Nov 17
+### 1.3 Grafana Loki 3.6.22 — changelog Nov 17; GitHub publication Nov 18
 
 **Status:** Released patch.  
 **Primary source:** [Loki 3.6.22](https://github.com/grafana/loki/releases/tag/v3.6.22)
@@ -108,7 +113,7 @@ No new stable release was verified in this window for Prometheus, Grafana core, 
 - Vector 0.62.0.
 - Semantic Conventions 1.45.0.
 
-No material product/pricing change was verified this week for Datadog, New Relic, Chronosphere or Honeycomb. HoneyHive is a separate company/product from Honeycomb.
+Datadog and New Relic had material agent/security updates (see verified addenda below); Honeycomb issued a company-growth announcement but no new feature release was verified. Chronosphere had no dated product/pricing change this week. HoneyHive is a separate company/product from Honeycomb.
 
 ## 2. Vendor strategy, product and pricing changes
 
@@ -242,6 +247,8 @@ The last full metadata-class inventory (Nov 16) recorded 252 baseline entries an
 
 **Feature-gate inventory caveat:** the last complete current-main census remains 139 records from Nov 8; it was not fully recounted on Nov 23. The v0.145.0 baseline has 18 gate records: 8 alpha, 5 beta, 4 stable and 1 deprecated. The current-main count is therefore a dated snapshot, not a new Nov 23 total.
 
+**Configuration providers (separate from component metadata counts):** the core source tree has the same five confmap providers in v0.145.0 and current main — env, file, http, https and yaml. Contrib has the same four in both snapshots — aes, googlesecretmanager, s3 and secretsmanager. No provider directories were added or removed between the two refs. These are source-tree provider implementations; builder/distro inclusion and runtime use still depend on the actual binary/configuration.
+
 Verified gate examples:
 - pkg.exporterhelper.queueBatchEnabled: alpha from v0.158.0, disabled/opt-in.
 - pkg.confighttp.PrioritizeNewKeepalive: stable from v0.162.0 through v0.166.0.
@@ -254,7 +261,7 @@ Component maturity examples:
 
 ### 4.3 Grafana compatibility
 
-Actual deployed Grafana version is unknown. Latest verified stable tag remains 13.3.1. Grafana's current configuration documentation marks the Plugin Frontend Sandbox deprecated and says it will be removed in 13.4. Review plugins that depend on the sandbox before upgrading to 13.4. The Claude Code Stats plugin requires Grafana >=13.2.0 and separate Loki/Tempo datasources for event/trace views.
+Actual deployed Grafana version is unknown. Latest verified stable tag remains 13.3.1. Grafana's current configuration documentation marks the Plugin Frontend Sandbox deprecated and says it will be removed in 13.4. Review plugins that depend on the sandbox before upgrading to 13.4. The Claude Code Stats plugin requires Grafana >=13.2.0 and separate Loki/Tempo datasources for event/trace views. A Neo4j datasource v1.0.4 submission is pending first catalog review; it is not yet a Marketplace-approved plugin.
 
 ## 5. New tools and products discovered
 
@@ -262,11 +269,13 @@ First-seen date below means first observed in this research run (Nov 23); it is 
 
 | Candidate | First seen / original launch | Model / license | Maturity and evidence |
 |---|---|---|---|
-| DataCat | First seen Nov 23; public announcement Nov 17 | Open source; Apache-2.0 | New self-hosted observability project; no tagged release found |
+| DataCat | First seen Nov 23; repo created and public announcement Nov 17 | Open source; Apache-2.0 | New self-hosted observability project; no tagged release found |
 | three.dev | First seen Nov 23; GA announcement Nov 10 | Commercial SaaS; no OSS license identified | Live AI-agent traffic scoring, failure-mode grouping, MCP and replay/experiments |
 | kwatch | First seen Nov 23; Product Hunt relaunch Nov 18; original launch Jan 25, 2022 | Source-available ELv2; Community free, Pro free during early access | v1.2.0 rebuild around dependency-aware root-cause alerts |
 | Radar | First seen Nov 23; original product launch predates this window | License not re-verified in this run | Existing Kubernetes UI/tool; v1.21.0–v1.21.2 shipped during the window |
-| Claude Code Stats | First seen Nov 23; plugin update Nov 20 | Apache-2.0 community Grafana app | Plugin v2.0.2; Grafana >=13.2.0; metrics/logs/traces across Prometheus/Mimir, Loki and Tempo |
+| Claude Code Stats | First seen Nov 23; plugin docs/catalog update Nov 20 | Apache-2.0 community Grafana app | Catalog/docs show v2.0.2; Grafana >=13.2.0; metrics/logs/traces across Prometheus/Mimir, Loki and Tempo |
+| Neo4j datasource | First seen Nov 23; repository created Nov 18; v1.0.4 draft Nov 19; review request Nov 20 | Community plugin; Apache-2.0 | Pending first Grafana catalog review; not yet an approved listing |
+| Fluent Bit browser SDK | First seen Nov 23; first experimental artifacts Nov 7, with seven tags Nov 16–21 | Fluent Bit project; Apache-2.0 project context | Experimental pre-release SDK; HTTPS and COOP/COEP required; no production support promise |
 
 ### DataCat — new launch, Nov 17
 
@@ -384,6 +393,58 @@ Superlog also appeared in Product Hunt's recent-launch surface, but it was alrea
 - **CNCF Landscape:** no new observability-specific entry was verified in the available search; a complete YAML-level landscape diff was not completed, so this is not proof of no additions.
 - **Grafana plugin catalog:** the Claude Code Stats documentation shows v2.0.2 and a Nov 20 update, while older catalog/install pages still expose stale v1.1.0 metadata. Prefer the current documentation/repository and verify plugin signature/version during installation.
 - **Deployment versions:** Prometheus and Grafana deployed versions remain unknown. Collector v0.145.0 is only the requested audit reference.
+
+## 10. Additional verified updates and corrections
+
+### Additional release and security updates
+
+**Grafana stack maintenance**
+- [Mimir 3.1.11](https://github.com/grafana/mimir/releases/tag/mimir-3.1.11) and [3.2.6](https://github.com/grafana/mimir/releases/tag/mimir-3.2.6) both shipped Nov 18. Both update Go 1.26.11, klauspost/compress 1.20.2 and OpenTelemetry libraries 1.47.0 for the CVEs listed in their release notes. Patch the branch actually deployed.
+- [Loki 4.0.0-rc.4](https://github.com/grafana/loki/releases/tag/v4.0.0-rc.4) shipped Nov 20. It removes the unused max_chunks_per_query limit (breaking change) and updates x/net, brotli and x/crypto dependencies. It remains a release candidate, not a GA upgrade target.
+- [Pyroscope 2.3.6](https://github.com/grafana/pyroscope/releases/tag/v2.3.6) and [2.4.4](https://github.com/grafana/pyroscope/releases/tag/v2.4.4) shipped Nov 20. Both update OpenTelemetry libraries to 1.47.0, klauspost/compress 1.20.2, x/crypto 0.59.0 and the Go toolchain directive to 1.26.11. Release notes call these security updates but do not assign individual CVEs/severity.
+
+**Datadog Agent 7.85.5 — Nov 19**
+- [Release](https://github.com/DataDog/datadog-agent/releases/tag/7.85.5). Python 3.13.18, Go 1.26.11 and Agent Data Plane 1.7.3.
+- For TCP-configured runtime-security IPC (default on Windows), gRPC between system-probe and security-agent now requires TLS and the Agent IPC auth token; Unix/vsock behavior is unchanged.
+- Agent Data Plane adds aggregator/forwarder telemetry and transaction status; APM fixes cover sampler precedence, zero/missing 128-bit trace IDs and attribute truncation.
+- Per-pod language-detection telemetry series are evicted when pods are deleted, preventing stale series/cardinality growth. The Cluster Agent also fixes ddTraceConfigs valueFrom parsing.
+- Datadog's Nov 17 Gartner Observability Pipelines recognition is a vendor positioning announcement, not a technical release: [source](https://www.datadoghq.com/newsroom/press-releases/datadog-named-a-leader-in-the-2026-gartner-magic-quadrant-for-observability-pipelines/).
+
+**New Relic releases — Nov 16–18**
+- [Collector Observability 1.0.0](https://docs.newrelic.com/pt/docs/release-notes/nrdot-release-notes/collector-o11y-1-0-0/) verifies NRDOT Collector 2.8.1 and upstream contrib 0.163.2, removes the newrelic.service.type resource attribute and sets delta temporality. Review queries/resource filters relying on the removed attribute.
+- [Pipeline Control Gateway 3.2.1](https://docs.newrelic.com/docs/release-notes/pipeline-control-gateway-release-notes/pipeline-control-gateway-3-2-1/) fixes Python APM harvest JSON errors/duplicate logs and span timestamps, and updates x/net 0.62.0.
+- [Node.js agent 14.13.0](https://docs.newrelic.com/docs/release-notes/agent-release-notes/nodejs-release-notes/node-agent-14-13-0/) adds event.name to OTel-derived logs and fixes outbound HTTP protocol/port and response-header capture.
+- [PHP agent 12.13.0.43](https://docs.newrelic.com/docs/release-notes/agent-release-notes/php-release-notes/php-agent-12-13-0-43/) instruments mysqli_execute_query, verifies Ubuntu 26.04/Alpine 3.24 and updates Go/x/net dependencies. It also discontinues support for CakePHP 4, Amazon Linux 2 and RHEL 8 from Nov 15; PHP 7.2/7.3 support ends Dec 15.
+- [Infrastructure agent 2.1.1](https://docs.newrelic.com/jp/docs/release-notes/infrastructure-release-notes/infrastructure-agent-release-notes/new-relic-infrastructure-agent-211/) updates Go and embedded integrations, adds SUSE 16 support and exposes nrjmx wrapper scripts.
+- [.NET agent 10.58.0](https://docs.newrelic.com/docs/release-notes/agent-release-notes/net-release-notes/net-agent-10-58-0/) enables basic LLM telemetry by default, emitting Llm* events/spans/metrics without message content. Opt out with NEW_RELIC_AI_MONITORING_BASIC_TELEMETRY_ENABLED=false. Prompt/response content remains separately configurable. The release adds build-provenance attestations, SHA-256 hashes and Authenticode signatures for packages.
+
+**New Relic security and runtime actions**
+- [NR26-13](https://docs.newrelic.com/fr/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-13/) (Nov 16), [NR26-14](https://docs.newrelic.com/pt/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-14/) and [NR26-15](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-15/) (Nov 18) address CVE-2026-111943, the eMudhra intermediate-CA private-key compromise. This is a CA-trust issue, not a vulnerability in the New Relic agents themselves. Fixed versions include Fluent Bit output plugin 3.12.0/Fluent Bit 5.1.5, newrelic-logging chart 1.44.0, nri-bundle 8.0.39 (logs) / 8.0.40 (Kubernetes), Infrastructure agent 2.0.1, infrastructure-bundle 3.6.1, eBPF agent 1.7.2 and Pixie integration 2.2.3. Pinned image tags do not update automatically. FireLens users should also watch for AWS to rebuild its aws-for-fluent-bit base image; New Relic notes that the AWS base image may still carry affected roots.
+- Infrastructure agent 2.0 is a major-version upgrade: safe_dir_check_enabled defaults to true and may recreate unsafe/symlinked/wrong-owner working directories; Windows packages remove legacy Fluent Bit 1.9 in favor of 5.1.5. Review this before rolling out the CA fix.
+- [NR26-16](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-16/) (Nov 20) covers critical Java4Shell, CVE-2026-114938. The New Relic Java agent does not bundle a JVM; customer apps are affected only under the JDK/CPU/input conditions in the bulletin. Private Synthetics locations should use SJM release-659+ and ping runtime 1.89.0+.
+- [NR26-17](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr26-17/) (Nov 20) covers critical Ruby2Shell, CVE-2026-132825. New Relic Ruby APM agents are not affected; the separate Fluentd Docker image needs 1.20.1+, while the deprecated newrelic/fluentd image has no fix and should be retired.
+- New Relic's Node.js 16 Synthetic API runtime EOL became effective Nov 18: enabled public-location monitors that could not be auto-upgraded need script review; private locations are not force-upgraded, but image tags and runtime migration still require attention. [EOL notice](https://docs.newrelic.com/eol/2026/05/eol-05-18-26-node-16-chrome-134-runtimes/).
+
+### Additional product, community and discovery notes
+
+- **Honeycomb — Nov 18:** [company update](https://www.honeycomb.io/blog/honeycomb-surpasses-growth-milestones-ai-agent-observability). Honeycomb reports >70% of its customers use Canvas or MCP weekly, MCP calls up 30x since February, ARR growth >70% YoY, AI-native customer growth of 130%, NRR 125% and GRR 89%. These are company-reported figures, not independent market-share data; no new feature or price change was announced.
+- **Fluent Bit browser SDK:** seven experimental browser SDK tags appeared Nov 16–21 in the [Fluent Bit release feed](https://github.com/fluent/fluent-bit/releases). They require HTTPS and COOP/COEP headers and explicitly remain unsupported for production. Treat as a newly relevant experimental module, not a stable Fluent Bit release.
+- **Grafana Neo4j datasource:** [review request](https://community.grafana.com/t/plugin-review-tiagoasousa-neo4j-datasource-new-neo4j-datasource/165140) dated Nov 20; [repository](https://github.com/tiagoasousa/grafana-neo4j-datasource). Apache-2.0, v1.0.4 is a draft release and manual catalog review is pending. It is not yet an approved Marketplace listing.
+- **Radar:** v1.21.0 (Nov 19), v1.21.1 (Nov 20) and [v1.21.2 (Nov 23, 09:41 PT)](https://github.com/skyhook-io/radar/releases/tag/v1.21.2) are existing-product releases, not a new launch. v1.21.2 clarifies empty resource history coverage, prevents a stuck metrics poll from blocking cluster switching, and adds vulnerability CSV/live-traffic graph export.
+- **OpenTelemetry Community Awards — Nov 16:** [winner announcement](https://opentelemetry.io/blog/2026/otel-community-awards/). Ecosystem Explorer was recognized; this reinforces it as a discovery source alongside GitHub and vendor catalogs.
+- **Semantic Convention PRs remain proposals:** [#4336](https://github.com/open-telemetry/semantic-conventions/pull/4336) proposes a span-duration histogram with opt-in span-name dimension to limit cardinality; [#4356](https://github.com/open-telemetry/semantic-conventions/pull/4356) promotes Kubernetes pod-volume metrics toward Release Candidate; [#4337](https://github.com/open-telemetry/semantic-conventions/pull/4337) moves browser conventions toward a separate client-side registry. All were open at cutoff.
+- **Collector stable-by-default RFC #16414** remained open. Nov 18–23 review discussed dynamic components, wrapper behavior, major-version alignment between components and distributions, behavior-based tests and feature-gate transitions; no decision/merge was verified.
+- **Collector release schedule discrepancy:** the main release table still shows a 2025-11-23 row for v0.166.0 even though surrounding entries are 2026. No v0.166.0 GitHub tag existed by the Nov 23 10:33 PT cutoff. The next correctly dated row is v0.167.0 on Dec 7. Treat this as a schedule typo/maintainer clarification needed, not a confirmed release date.
+- **VictoriaMetrics 1.157.0 migration details:** vmctl now requires the vm-native filter end-time flag for resumable migrations; Vultr SD config uses vultr_sd_configs; partial vmrestore removes local partitions not included in the restore. Test these behaviors in staging before production recovery/upgrade.
+- **Splunk pricing caveat:** $95/$150 host-month list prices and 30-host paid minimum were visible on the public pricing page Nov 23. This is a current pricing observation, not a verified price change announced during Nov 16–23.
+- **Grafana plugin caveat:** Claude Code Stats docs/catalog show 2.0.2 updated Nov 20, while older catalog/install metadata remains stale. Grafana 13.4 is still the planned removal point for the Plugin Frontend Sandbox.
+
+### Capability/provider and source-health addenda
+
+- **Collector config providers:** core v0.145.0 and current main both contain env, file, http, https and yaml providers. Contrib v0.145.0 and current main both contain aes, googlesecretmanager, s3 and secretsmanager providers. These directories are outside metadata.yaml component counts. Source presence does not guarantee a custom/vendor distro includes them.
+- **Source-health update:** New Relic release notes/security bulletins are now added as first-class monitored sources; Datadog Agent release tags, Grafana plugin-review discussions and Fluent Bit experimental tags are also added to the discovery pass. No source was intentionally removed.
+- **Coverage gaps:** direct Hacker News Algolia coverage was not confirmed; GitHub topic searches were noisy and limited to first-page samples; CNCF Landscape was not fully diffed at YAML level; OpenTelemetry Registry remains frozen for new submissions. Absence of hits is not proof that no launch occurred.
+- **Action priorities:** check New Relic's pinned eMudhra-related images/charts/integrations; review private Synthetic locations/JDKs and Fluentd images for Java4Shell/Ruby2Shell; patch Datadog Agent 7.85.5 and Grafana stack maintenance branches; update Vector repository keys before Nov 30; test VictoriaMetrics partial-restore behavior; keep Loki 4.0 RC and Fluent Bit browser SDK out of production; plan Grafana 13.4 plugin compatibility.
 
 ## Archive record
 
