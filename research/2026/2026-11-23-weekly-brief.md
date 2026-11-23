@@ -197,7 +197,7 @@ The proposal discusses making stable components the default surface and requirin
 
 ### 3.4 Batch processor deprecation — carry-forward
 
-The Nov 11 announcement remains operationally important:
+The Nov 11 announcement remains operationally important ([migration guide](https://opentelemetry.io/blog/2026/collector-batching-migration/)):
 - Exporter-level queue/batching becomes the default for most exporters in Collector 0.171.0 (planned February 2027).
 - The old Batch processor is planned for removal in 0.177.0 (planned May 2027).
 
@@ -270,17 +270,30 @@ First-seen date below means first observed in this research run (Nov 23); it is 
 
 ### DataCat — new launch, Nov 17
 
-**Primary sources:** [Replit announcement](https://replit.com/blog/datacat) · [repository](https://github.com/replit/datacat)
+**Primary sources:** [Replit announcement](https://replit.com/blog/introducing-replit-missions) · [repository](https://github.com/replit/datacat)
 
 DataCat is a self-hosted observability application with a public Apache-2.0 repository. The announcement describes Datadog Agent-compatible intake and OTLP/HTTP, with PostgreSQL or ClickHouse storage options. It has no tagged release at the time of this audit, so classify it as an early project, not a production-ready replacement.
 
-Replit published internal benchmark numbers for traces, metrics and logs. These are vendor-reported controlled tests, not independent benchmarks and not a comparison with Datadog's hosted service. Treat the numbers as a project demonstration only.
+Replit reports 38-second detection of a deliberately introduced database fault against a 60-second target, 26 million activity records plus 4.4 million log entries over three hours with zero reported loss, and 51/51 correctness/reliability checks. It also reports 49,000 traces/s and 405,100 metric points/s with PostgreSQL. These are vendor-reported controlled tests; Replit explicitly says they do not establish performance against the original hosted platform or on its production systems. Treat them as a project demonstration, not an independent benchmark.
 
 ### three.dev — newly discovered existing product
 
 **Primary sources:** [product site](https://three.dev/) · [launch/GA announcement](https://three.dev/blog) · [pricing](https://three.dev/pricing)
 
 Original GA announcement: Nov 10, outside the Nov 16–23 reporting window; first discovered in this run. It proxies live AI application traffic, scores requests, groups failures by root cause, and exposes failure context to coding agents over MCP. It also supports replay and experiments.
+
+~~~mermaid
+flowchart LR
+  A[AI application] --> P[three.dev proxy]
+  P --> M[Model provider]
+  P --> E[Evaluation and scoring]
+  E --> F[Failure modes and replay]
+  F --> X[MCP handoff]
+  X --> C[Coding agent]
+  C --> A
+~~~
+
+This is the vendor-described flow; validate the data fields and network path before routing production traffic.
 
 Public list pricing at the time of this run:
 - Free: $0/month, 1 GB data, 5,000 scored requests and 30 days of history.
