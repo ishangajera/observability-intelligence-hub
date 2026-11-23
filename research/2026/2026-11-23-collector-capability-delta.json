@@ -1,0 +1,133 @@
+{
+  "report_date": "2026-11-23",
+  "baseline_ref": "v0.145.0",
+  "previous_full_inventory_date": "2026-11-16",
+  "last_full_inventory": {
+    "baseline_metadata_class_entries": 252,
+    "current_main_metadata_class_entries": 298,
+    "current_main_by_type": {
+      "receivers": 119,
+      "processors": 46,
+      "exporters": 54,
+      "connectors": 17,
+      "extensions": 62
+    },
+    "note": "Counts are metadata-class inventory, not runtime inclusion or enabled-component counts."
+  },
+  "current_tree_diff_since_2026_11_16": {
+    "runnable_component_metadata_added": [],
+    "runnable_component_metadata_removed": [],
+    "abstract_internal_metadata_added": [
+      "processor/transformprocessor/xtransformprocessor/metadata.yaml"
+    ],
+    "changed_metadata_review_targets": [
+      "config/configgrpc",
+      "config/confighttp",
+      "config/configtls",
+      "receiver/otlpreceiver",
+      "receiver/prometheusreceiver",
+      "receiver/filelogreceiver",
+      "receiver/kafkareceiver",
+      "receiver/kubeletstatsreceiver",
+      "receiver/prometheusremotewritereceiver",
+      "processor/k8sattributesprocessor",
+      "processor/transformprocessor",
+      "processor/probabilisticsamplerprocessor",
+      "processor/signingprocessor",
+      "processor/unrollprocessor",
+      "receiver/sqlserverreceiver",
+      "receiver/snmpreceiver",
+      "exporter/googlecloudstorageexporter",
+      "exporter/logzioexporter",
+      "exporter/splunkhecexporter",
+      "connector/countconnector",
+      "extension/httpforwarderextension",
+      "extension/encoding/azureencodingextension"
+    ],
+    "note": "Tree/blob diff confirms changed metadata paths; a complete field-by-field parse of every changed YAML file was not completed in this run."
+  },
+  "feature_gates": {
+    "baseline_v0_145_0_count": 18,
+    "baseline_stage_counts": {
+      "alpha": 8,
+      "beta": 5,
+      "stable": 4,
+      "deprecated": 1
+    },
+    "current_main_last_complete_snapshot_date": "2026-11-08",
+    "current_main_last_complete_snapshot_count": 139,
+    "full_current_main_recounted_this_run": false,
+    "verified_examples": [
+      {
+        "id": "pkg.exporterhelper.queueBatchEnabled",
+        "stage": "alpha",
+        "from_version": "v0.158.0",
+        "default": "disabled/opt-in"
+      },
+      {
+        "id": "pkg.confighttp.PrioritizeNewKeepalive",
+        "stage": "stable",
+        "from_version": "v0.162.0",
+        "to_version": "v0.166.0"
+      },
+      {
+        "id": "pkg.configmiddleware.CustomTCPRouting",
+        "stage": "alpha",
+        "from_version": "v0.164.0",
+        "default": "disabled/opt-in"
+      }
+    ]
+  },
+  "component_examples": [
+    {
+      "component": "queue_batch",
+      "type": "processor",
+      "stability": {
+        "traces": "beta",
+        "metrics": "beta",
+        "logs": "beta",
+        "profiles": "alpha"
+      },
+      "note": "Verify exact builder/distro inclusion."
+    },
+    {
+      "component": "redis_fleet_tracker",
+      "type": "extension",
+      "stability": "development",
+      "distribution": "not declared"
+    }
+  ],
+  "security": {
+    "advisories": [
+      {
+        "id": "GHSA-vf52-ppm4-c35w",
+        "severity": "High",
+        "affected": "Collector config modules below 1.71.0",
+        "fixed": "Collector v0.165.0",
+        "baseline_v0_145_0": "older than fixed line; affected when OTLP receiver uses HTTP/gRPC and zstd is accepted"
+      },
+      {
+        "id": "GHSA-c35f-chp7-9chr",
+        "severity": "Critical",
+        "affected": "contrib v0.119.0 to before v0.165.0",
+        "fixed": "v0.165.0",
+        "baseline_v0_145_0": "affected only if OpAMP Supervisor is used with accepts_opamp_connection_settings=true; false by default"
+      },
+      {
+        "id": "GHSA-6qvg-78vr-vgm7",
+        "severity": "Moderate",
+        "affected": "contrib v0.142.0 to before v0.163.0",
+        "fixed": "v0.163.0",
+        "baseline_v0_145_0": "affected only if yang_grpc receiver is exposed and its allowlist/rate-limit settings are relied on"
+      },
+      {
+        "id": "GHSA-cx3c-rmcx-ff35",
+        "severity": "Moderate",
+        "affected": "Collector v0.147.0 to before v0.164.0",
+        "fixed": "v0.164.0",
+        "baseline_v0_145_0": "not affected; vulnerable partitioner introduced in v0.147.0"
+      }
+    ]
+  },
+  "deployment_note": "v0.145.0 is the user's requested example baseline, not a verified deployed Collector version. Source presence does not prove inclusion in a vendor/custom distribution or runtime activation."
+}
