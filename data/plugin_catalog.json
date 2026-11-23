@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-22T20:23:53.221414+00:00",
+  "generated_at": "2026-11-23T18:24:28.353101+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
-      "version": "1.1.5",
+      "version": "1.1.15",
       "type": "Data Source",
       "description": "A comprehensive Grafana data source plugin for StarTree Pinot, enabling real-time analytics and visualization of your StarTree Pinot cluster data with support for time series, table, logs, traces, and annotations.",
       "url": "https://grafana.com/grafana/plugins/startree-pinot-datasource/",
       "repository": "https://github.com/startreedata/startree-grafana-pinot-datasource",
       "created_at": "2025-11-11T10:10:43.000Z",
-      "updated_at": "2026-10-26T13:11:51.000Z"
+      "updated_at": "2026-11-23T14:31:03.000Z"
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.17",
+      "version": "2.1.18",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-18T10:52:25.000Z"
+      "updated_at": "2026-11-23T09:47:31.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -63,13 +63,13 @@
     },
     "phenisys-msteamsobservability-app": {
       "name": "Microsoft Teams Observability",
-      "version": "1.2.1",
+      "version": "1.3.4",
       "type": "Application",
       "description": "Observability app for Microsoft Teams call quality, users, sites, and issue insights.",
       "url": "https://grafana.com/grafana/plugins/phenisys-msteamsobservability-app/",
       "repository": "",
       "created_at": "2026-06-24T15:39:36.000Z",
-      "updated_at": "2026-07-15T12:10:32.000Z"
+      "updated_at": "2026-11-23T17:58:06.000Z"
     },
     "grafana-github-datasource": {
       "name": "GitHub",
@@ -923,13 +923,13 @@
     },
     "crestdata-citrixdaas-datasource": {
       "name": "Citrix DaaS",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "Data Source",
       "description": "Query Citrix DaaS (Citrix Cloud) session, application, and infrastructure data — Monitor OData analytics and Broker REST live state.",
       "url": "https://grafana.com/grafana/plugins/crestdata-citrixdaas-datasource/",
       "repository": "",
       "created_at": "2026-08-14T16:16:26.000Z",
-      "updated_at": "2026-09-28T10:55:15.000Z"
+      "updated_at": "2026-11-23T12:34:12.000Z"
     },
     "timurdigital-claudestats-app": {
       "name": "Claude Code Stats",
@@ -973,13 +973,13 @@
     },
     "cloudwatch": {
       "name": "CloudWatch",
-      "version": "12.11.3",
+      "version": "12.11.5",
       "type": "Data Source",
       "description": "Data source for Amazon AWS monitoring service",
       "url": "https://grafana.com/grafana/plugins/cloudwatch/",
       "repository": "https://github.com/grafana/grafana-cloudwatch-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-11-16T07:20:23.000Z"
+      "updated_at": "2026-11-23T17:03:32.000Z"
     },
     "computest-cloudwatchalarm-datasource": {
       "name": "CloudWatch Alarm",
@@ -1149,7 +1149,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-databricks-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2022-06-29T19:22:36.000Z",
-      "updated_at": "2026-11-20T01:23:22.000Z"
+      "updated_at": "2026-11-23T18:11:24.000Z"
     },
     "grafana-datadog-datasource": {
       "name": "Datadog",
@@ -1183,13 +1183,13 @@
     },
     "dbeast-dbeastmonitor-app": {
       "name": "DBeast Monitor for Elastic Stack",
-      "version": "2.1.2",
+      "version": "2.1.3",
       "type": "Application",
       "description": "DBeast Monitor is a Grafana plugin for monitoring, troubleshooting, and optimizing the Elastic Stack.",
       "url": "https://grafana.com/grafana/plugins/dbeast-dbeastmonitor-app/",
       "repository": "https://github.com/dbeast-co/dbeast-monitor",
       "created_at": "2025-10-28T14:49:40.000Z",
-      "updated_at": "2026-10-20T06:41:37.000Z"
+      "updated_at": "2026-11-23T15:46:48.000Z"
     },
     "jdbranham-diagram-panel": {
       "name": "Diagram",
@@ -3539,7 +3539,7 @@
       "url": "https://grafana.com/grafana/plugins/tempo/",
       "repository": "https://github.com/grafana/grafana-tempo-datasource",
       "created_at": "2022-06-23T14:29:31.000Z",
-      "updated_at": "2026-11-02T15:24:02.000Z"
+      "updated_at": "2026-11-23T14:50:54.000Z"
     },
     "sni-thruk-datasource": {
       "name": "Thruk",
@@ -3833,13 +3833,13 @@
     },
     "alexanderzobnin-zabbix-app": {
       "name": "Zabbix",
-      "version": "6.11.0",
+      "version": "6.12.0",
       "type": "Application",
       "description": "Zabbix plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/alexanderzobnin-zabbix-app/",
       "repository": "https://github.com/grafana/grafana-zabbix",
       "created_at": "2016-04-06T20:23:41.000Z",
-      "updated_at": "2026-11-17T19:41:55.000Z"
+      "updated_at": "2026-11-23T12:56:17.000Z"
     },
     "grafana-zendesk-datasource": {
       "name": "Zendesk",
