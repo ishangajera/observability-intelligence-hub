@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:48:40.867029+00:00",
+  "generated_at": "2026-11-24T00:58:59.518146+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -1143,7 +1143,7 @@
     },
     "grafana-databricks-datasource": {
       "name": "Databricks",
-      "version": "1.14.23",
+      "version": "1.14.24",
       "type": "Data Source",
       "description": "Databricks datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-databricks-datasource/",
@@ -3533,7 +3533,7 @@
     },
     "tempo": {
       "name": "Tempo",
-      "version": "13.4.2",
+      "version": "13.5.0",
       "type": "Data Source",
       "description": "High volume, minimal dependency trace storage. OSS tracing solution from Grafana Labs.",
       "url": "https://grafana.com/grafana/plugins/tempo/",
