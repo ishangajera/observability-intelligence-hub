@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:58:59.518146+00:00",
+  "generated_at": "2026-11-24T23:03:48.406474+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -13,13 +13,13 @@
     },
     "grafana-assistant-app": {
       "name": "Grafana Assistant",
-      "version": "2.1.18",
+      "version": "2.1.19",
       "type": "Application",
       "description": "AI assistant for Grafana that helps teams troubleshoot issues, query telemetry, manage dashboards, and navigate Grafana in Cloud or connected self-managed deployments.",
       "url": "https://grafana.com/grafana/plugins/grafana-assistant-app/",
       "repository": "https://github.com/grafana/grafana-assistant-app",
       "created_at": "2025-05-20T15:22:03.000Z",
-      "updated_at": "2026-11-23T09:47:31.000Z"
+      "updated_at": "2026-11-24T14:42:08.000Z"
     },
     "yesoreyeram-infinity-datasource": {
       "name": "Infinity",
@@ -399,7 +399,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-amazonprometheus-datasource/",
       "repository": "https://github.com/grafana/grafana-amazonprometheus-datasource",
       "created_at": "2024-07-17T09:55:00.000Z",
-      "updated_at": "2026-11-11T14:36:54.000Z"
+      "updated_at": "2026-11-24T21:54:07.000Z"
     },
     "grafana-redshift-datasource": {
       "name": "Amazon Redshift",
@@ -419,7 +419,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-timestream-datasource/",
       "repository": "https://github.com/grafana/timestream-datasource",
       "created_at": "2018-11-28T21:50:21.000Z",
-      "updated_at": "2026-11-04T16:52:11.000Z"
+      "updated_at": "2026-11-24T21:48:58.000Z"
     },
     "macropower-analytics-panel": {
       "name": "Analytics Panel",
@@ -430,26 +430,6 @@
       "repository": "https://github.com/MacroPower/macropower-analytics-panel",
       "created_at": "2019-12-20T08:50:05.000Z",
       "updated_at": "2021-10-14T12:08:17.000Z"
-    },
-    "anodot-panel": {
-      "name": "Anodot",
-      "version": "2.0.1",
-      "type": "Panel",
-      "description": "Anodot Grafana Panel for usage together with anodot-datasource",
-      "url": "https://grafana.com/grafana/plugins/anodot-panel/",
-      "repository": "",
-      "created_at": "2021-04-14T12:17:03.000Z",
-      "updated_at": "2022-07-08T16:20:15.000Z"
-    },
-    "anodot-datasource": {
-      "name": "Anodot Datasource",
-      "version": "5.0.1",
-      "type": "Data Source",
-      "description": "Datasource for anodot-panel plugin",
-      "url": "https://grafana.com/grafana/plugins/anodot-datasource/",
-      "repository": "",
-      "created_at": "2021-04-14T12:16:57.000Z",
-      "updated_at": "2025-05-01T16:24:09.000Z"
     },
     "hadesarchitect-cassandra-datasource": {
       "name": "Apache Cassandra",
@@ -543,13 +523,13 @@
     },
     "ivlabsdev-awscostexplorer-datasource": {
       "name": "AWS Cost Explorer",
-      "version": "1.1.2",
+      "version": "1.2.1",
       "type": "Data Source",
       "description": "Query AWS Cost Explorer directly with a visual query editor and server-side caching.",
       "url": "https://grafana.com/grafana/plugins/ivlabsdev-awscostexplorer-datasource/",
       "repository": "https://github.com/ivlabs-dev/grafana-aws-cost-explorer-datasource",
       "created_at": "2026-09-17T13:55:28.000Z",
-      "updated_at": "2026-10-30T11:01:32.000Z"
+      "updated_at": "2026-11-24T12:26:05.000Z"
     },
     "aws-datasource-provisioner-app": {
       "name": "AWS Data Sources",
@@ -609,7 +589,7 @@
       "url": "https://grafana.com/grafana/plugins/grafana-azurecosmosdb-datasource/",
       "repository": "https://github.com/grafana/azure-cosmosdb-datasource",
       "created_at": "2024-05-08T20:10:00.000Z",
-      "updated_at": "2026-10-27T16:18:39.000Z"
+      "updated_at": "2026-11-24T16:00:28.000Z"
     },
     "grafana-azure-data-explorer-datasource": {
       "name": "Azure Data Explorer Datasource",
@@ -853,13 +833,13 @@
     },
     "chaosmeshorg-datasource": {
       "name": "Chaos Mesh",
-      "version": "3.0.0",
+      "version": "3.1.2",
       "type": "Data Source",
       "description": "Grafana data source plugin for Chaos Mesh (A Chaos Engineering Platform for Kubernetes)",
       "url": "https://grafana.com/grafana/plugins/chaosmeshorg-datasource/",
       "repository": "https://github.com/chaos-mesh/datasource",
       "created_at": "2022-05-13T16:05:57.000Z",
-      "updated_at": "2024-01-08T14:22:05.000Z"
+      "updated_at": "2026-11-24T13:57:40.000Z"
     },
     "corpglory-chartwerk-panel": {
       "name": "Chartwerk",
@@ -943,13 +923,13 @@
     },
     "grafana-clickhouse-datasource": {
       "name": "ClickHouse",
-      "version": "4.23.5",
+      "version": "4.24.0",
       "type": "Data Source",
       "description": "ClickHouse datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-clickhouse-datasource/",
       "repository": "https://github.com/grafana/clickhouse-datasource",
       "created_at": "2021-12-09T19:18:13.000Z",
-      "updated_at": "2026-11-10T11:15:56.000Z"
+      "updated_at": "2026-11-24T17:46:49.000Z"
     },
     "grafana-clock-panel": {
       "name": "Clock",
@@ -1353,13 +1333,13 @@
     },
     "factry-historian-datasource": {
       "name": "Factry Historian Datasource",
-      "version": "4.0.1",
+      "version": "4.1.0",
       "type": "Data Source",
       "description": "A datasource plugin for Factry Historian. Requires Factry Historian v7.3.0 or later.",
       "url": "https://grafana.com/grafana/plugins/factry-historian-datasource/",
       "repository": "https://github.com/factrylabs/factry-historian-datasource",
       "created_at": "2024-06-07T09:51:48.000Z",
-      "updated_at": "2026-09-14T08:51:24.000Z"
+      "updated_at": "2026-11-24T15:37:28.000Z"
     },
     "grafana-falconlogscale-datasource": {
       "name": "Falcon LogScale",
@@ -1443,13 +1423,13 @@
     },
     "foxglovedev-foxglove-datasource": {
       "name": "Foxglove",
-      "version": "0.0.10",
+      "version": "0.1.2",
       "type": "Data Source",
       "description": "Query Foxglove telemetry data from Grafana dashboards.",
       "url": "https://grafana.com/grafana/plugins/foxglovedev-foxglove-datasource/",
       "repository": "",
       "created_at": "2026-07-23T11:23:14.000Z",
-      "updated_at": "2026-09-24T13:33:05.000Z"
+      "updated_at": "2026-11-24T11:39:43.000Z"
     },
     "iosb-sensorthings-datasource": {
       "name": "FROST SensorThings API Plugin",
@@ -1529,17 +1509,17 @@
       "url": "https://grafana.com/grafana/plugins/grafana-bigquery-datasource/",
       "repository": "https://github.com/grafana/google-bigquery-datasource",
       "created_at": "2022-01-13T13:35:17.000Z",
-      "updated_at": "2026-10-30T14:44:34.000Z"
+      "updated_at": "2026-11-24T19:23:59.000Z"
     },
     "googlecloud-logging-datasource": {
       "name": "Google Cloud Logging",
-      "version": "1.8.1",
+      "version": "1.9.0",
       "type": "Data Source",
       "description": "A Grafana data source plugin for querying and visualizing logs from Google Cloud Logging.",
       "url": "https://grafana.com/grafana/plugins/googlecloud-logging-datasource/",
       "repository": "https://github.com/GoogleCloudPlatform/cloud-logging-data-source-plugin",
       "created_at": "2023-02-01T15:06:34.000Z",
-      "updated_at": "2026-09-16T08:38:30.000Z"
+      "updated_at": "2026-11-24T11:35:25.000Z"
     },
     "stackdriver": {
       "name": "Google Cloud Monitoring",
@@ -2163,13 +2143,13 @@
     },
     "vaduga-mapgl-panel": {
       "name": "Mapgl",
-      "version": "2.11.1",
+      "version": "2.13.1",
       "type": "Panel",
       "description": "Node Graph and Network Geomap",
       "url": "https://grafana.com/grafana/plugins/vaduga-mapgl-panel/",
       "repository": "https://github.com/vaduga/mapgl",
       "created_at": "2023-03-15T16:26:25.000Z",
-      "updated_at": "2026-10-22T13:33:22.000Z"
+      "updated_at": "2026-11-24T16:21:25.000Z"
     },
     "flaminggoat-maptrack3d-panel": {
       "name": "MapTrack3D",
@@ -2403,13 +2383,13 @@
     },
     "radensolutions-netxms-datasource": {
       "name": "NetXMS",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "type": "Data Source",
       "description": "NetXMS datasource for Grafana",
       "url": "https://grafana.com/grafana/plugins/radensolutions-netxms-datasource/",
       "repository": "https://github.com/sponsors/netxms",
       "created_at": "2017-05-02T09:35:09.000Z",
-      "updated_at": "2026-10-27T19:34:54.000Z"
+      "updated_at": "2026-11-24T16:12:31.000Z"
     },
     "grafana-newrelic-datasource": {
       "name": "New Relic",
@@ -2683,13 +2663,13 @@
     },
     "parseable-parseable-datasource": {
       "name": "Parseable",
-      "version": "2.0.0",
+      "version": "2.1.3",
       "type": "Data Source",
       "description": "Parseable is an open source, Kubernetes native, log storage and observability platform. This plugin allows you to visualize your Parseable logs in Grafana.",
       "url": "https://grafana.com/grafana/plugins/parseable-parseable-datasource/",
       "repository": "https://github.com/parseablehq/parseable-datasource",
       "created_at": "2023-01-18T08:56:18.000Z",
-      "updated_at": "2026-06-05T16:19:40.000Z"
+      "updated_at": "2026-11-24T15:24:40.000Z"
     },
     "nikosc-percenttrend-panel": {
       "name": "Percentage Trend",
@@ -2713,13 +2693,13 @@
     },
     "performancecopilot-pcp-app": {
       "name": "Performance Co-Pilot",
-      "version": "5.0.0",
+      "version": "6.2.4",
       "type": "Application",
-      "description": "Performance Co-Pilot Grafana Plugin",
+      "description": "Integrates Performance Co-Pilot metrics into Grafana with real-time monitoring, historical analysis, and eBPF tracing.",
       "url": "https://grafana.com/grafana/plugins/performancecopilot-pcp-app/",
       "repository": "https://github.com/performancecopilot/grafana-pcp",
       "created_at": "2022-05-04T10:29:20.000Z",
-      "updated_at": "2022-07-14T11:39:55.000Z"
+      "updated_at": "2026-11-24T18:19:46.000Z"
     },
     "philipsgis-phlowchart-panel": {
       "name": "Phlowchart",
@@ -2819,7 +2799,7 @@
       "url": "https://grafana.com/grafana/plugins/prometheus/",
       "repository": "https://github.com/grafana/grafana-prometheus-datasource",
       "created_at": "2016-03-31T13:10:24.000Z",
-      "updated_at": "2026-11-18T23:05:05.000Z"
+      "updated_at": "2026-11-24T14:16:03.000Z"
     },
     "grafana-prometheusalerting-app": {
       "name": "Prometheus Alerting",
@@ -3523,13 +3503,13 @@
     },
     "tavs-spinner-panel": {
       "name": "TAVS Spinner",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "type": "Panel",
       "description": "Animated spinner panel with rotation speed based on metric values. Perfect for visualizing real-time metrics with dynamic animation.",
       "url": "https://grafana.com/grafana/plugins/tavs-spinner-panel/",
       "repository": "https://github.com/Team-Advanced-Visualization-Solutions/tavs-spinner-panel",
       "created_at": "2025-09-12T09:49:21.000Z",
-      "updated_at": "2025-09-12T13:58:43.000Z"
+      "updated_at": "2026-11-24T15:53:09.000Z"
     },
     "tempo": {
       "name": "Tempo",
@@ -3539,7 +3519,7 @@
       "url": "https://grafana.com/grafana/plugins/tempo/",
       "repository": "https://github.com/grafana/grafana-tempo-datasource",
       "created_at": "2022-06-23T14:29:31.000Z",
-      "updated_at": "2026-11-23T14:50:54.000Z"
+      "updated_at": "2026-11-24T16:33:02.000Z"
     },
     "sni-thruk-datasource": {
       "name": "Thruk",
