@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:03:48.406474+00:00",
+  "generated_at": "2026-11-25T22:36:25.229616+00:00",
   "plugins": {
     "startree-pinot-datasource": {
       "name": "StarTree Pinot",
@@ -2793,7 +2793,7 @@
     },
     "prometheus": {
       "name": "Prometheus",
-      "version": "13.2.7",
+      "version": "13.3.0",
       "type": "Data Source",
       "description": "Open source time series database & alerting",
       "url": "https://grafana.com/grafana/plugins/prometheus/",
@@ -3343,13 +3343,13 @@
     },
     "grafana-splunk-datasource": {
       "name": "Splunk",
-      "version": "5.9.1",
+      "version": "5.9.2",
       "type": "Data Source",
       "description": "Splunk datasource plugin for Grafana",
       "url": "https://grafana.com/grafana/plugins/grafana-splunk-datasource/",
       "repository": "https://github.com/grafana/plugins-private",
       "created_at": "2017-04-11T21:18:30.000Z",
-      "updated_at": "2026-11-19T17:44:33.000Z"
+      "updated_at": "2026-11-25T19:47:36.000Z"
     },
     "grafana-splunk-monitoring-datasource": {
       "name": "Splunk Infrastructure Monitoring",
